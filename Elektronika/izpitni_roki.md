@@ -4,4 +4,4 @@ Vsekakor preverite termine izpitnih rokov v [VIS-u]( https://vis.pef.uni-lj.si/ 
 
 # Termini:
 
-
+\include{./Izpitni_roki/termini.md}

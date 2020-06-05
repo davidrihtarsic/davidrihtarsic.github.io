@@ -12,7 +12,7 @@
     + dodatni rok za zamudnike
     + dodatni rok za zamudnike
 - pon., 15. 06. 2020 ob 10:00 - 11.00   
-    + 01190091 Modrič Anže
+    + dodatni rok za zamudnike
     + 01180859 Rupnik Terezija
     + 01180185 Uranič Nuša
     + 01180196 Lavtar Mira
@@ -27,7 +27,7 @@
     + 01180178 Narat Tina
     + 01180909 Peharc Lana
 - tor., 16. 06. 2020 ob 11:00 - 12.00
-    + dodatni rok za zamudnike
+    + 01190091 Modrič Anže
     + dodatni rok za zamudnike
     + dodatni rok za zamudnike
     + dodatni rok za zamudnike
