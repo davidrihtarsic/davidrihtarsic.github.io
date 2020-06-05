@@ -1,6 +1,6 @@
 # Elektronika
-[obvestila]( ./obvestila ){: .btn}
-[izpitni roki]( ./izpitni_roki ){: .btn}
+[obvestila]( ./Obvestila/index ){: .btn}
+[izpitni roki]( ./Izpitni_roki/index ){: .btn}
 [skripta]( ./Skripta/index ){: .btn}
 [prisotnost]( https://docs.google.com/forms/d/e/1FAIpQLSfkEVjXU0pc3kboPqEBq1AteMlhLy5tkghyQojvdV2ZajE3ZA/viewform?usp=sf_link ){: .btn}{:target="_blank"}
 
