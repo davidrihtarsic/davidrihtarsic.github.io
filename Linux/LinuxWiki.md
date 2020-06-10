@@ -55,6 +55,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 ## UTILITY PROGRAMS
 
 - [dmenu](dmenu.md)
+- [DigSigHost](DigSigHost.md)
 
 ## APPLICATION PROGRAMS
 

@@ -85,6 +85,15 @@ Zaokroževanje:
     1.23 ± 0.3 nima smisla, saj se spremeni že 2. decimalka  
     pravilno: 1.2 ± 0.3
 -->
+## Predstavitev razlike med dvema vrednostima
+
+Statistično to predstavljamo z *effect size*. Torej za to vrednost lahko uporabimo statistične veličine kot so:
+
+- θ = x1 - x2 / σ
+- Cohen's d
+- Glass Δ
+- t-test
+
 
 # LINEARIZACIJA 
 
