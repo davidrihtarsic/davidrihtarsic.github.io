@@ -5,7 +5,6 @@
     + 01190096 Trampuš Nik
     + 01190085 Kelvišar Blaž
     + 01190081 Arčon Lea
-
 - čet., 11. 06. 2020 ob 11:00 - 12.00
     + dodatni rok za zamudnike
     + dodatni rok za zamudnike
@@ -21,6 +20,7 @@
     + 01180867 Šuperger Amadej
     + 01180860 Vičar Veronika
     + 01180184 Terlep Ajda
+---
 - tor., 16. 06. 2020 ob 10:00 - 11.00   
     + 01180863 Štigl Nina
     + 01180198 Sever Špela
@@ -31,6 +31,7 @@
     + 01180187 Mitja Vöröš
     + 01180189 Meta Jurejevčič
     + dodatni rok za zamudnike
+---
 - sre., 17. 06. 2020 ob 09:00 - 10.00   
     + 01180866 Grilc Ajda
     + 01180179 Petrovič Anže
