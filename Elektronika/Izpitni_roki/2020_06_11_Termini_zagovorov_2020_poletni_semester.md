@@ -20,7 +20,6 @@
     + 01180867 Šuperger Amadej
     + 01180860 Vičar Veronika
     + 01180184 Terlep Ajda
----
 - tor., 16. 06. 2020 ob 10:00 - 11.00   
     + 01180863 Štigl Nina
     + 01180198 Sever Špela
@@ -42,6 +41,7 @@
     + 01190082 Bitežnik Ana
     + 01180172 Avšič Petra
     + 01190083 Budna Klemen
+---
 - pet., 19. 06. 2020 ob 09:00 - 10.00   
     + 01180933 Abazaj Dea
     + 01190738 Debevec  Nina
