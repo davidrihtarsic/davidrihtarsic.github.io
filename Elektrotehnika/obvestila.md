@@ -1,5 +1,51 @@
 # Obvestila
 ---
+
+---
+** 2020-06-17 zbirnik vseh ocen iz vaj elektrotehnike (poletno izpitno obdobje) **:
+
+
+| "VPISNA" | "PREDMET"        | "DATUM"    | "OBVEZNOST"     | "TOČKE" | "OCENA [%]" |
+|----------|------------------|------------|-----------------|---------|-------------|
+| 1190735  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 65.000  | 81.0        |
+| 1190276  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 55.000  | 69.0        |
+| 1190079  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 60.000  | 75.0        |
+| 1190080  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 70.000  | 88.0        |
+| 1190100  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 75.000  | 94.0        |
+| 1190268  | "elektrotehnika" | 2020-06-17 | "vaje-poročila" | 70.000  | 88.0        |
+| 1190268  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 30.000  | 38.0        |
+| 1190153  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 65.000  | 81.0        |
+| 1190737  | "elektrotehnika" | 2020-06-10 | "vaje-poročila" | 70.000  | 88.0        |
+| 1190733  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 0.0         |
+| 1190735  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 81.0        |
+| 1190276  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 69.0        |
+| 1190079  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 75.0        |
+| 1190080  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 88.0        |
+| 1190100  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 94.0        |
+| 1190268  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 30.0        |
+| 1190153  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 81.0        |
+| 1190737  | "elektrotehnika" | 2020-06-09 | "vaje-zagovor"  | 0.000   | 88.0        |
+| 1190733  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 0.0         |
+| 1190735  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 67.0        |
+| 1190276  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 71.0        |
+| 1190079  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 90.0        |
+| 1190080  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 59.0        |
+| 1190100  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 84.0        |
+| 1190268  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 10.0        |
+| 1190153  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 96.0        |
+| 1190737  | "elektrotehnika" | 2020-06-09 | "vaje-poročila" | 0.000   | 96.0        |
+| 1190733  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 0.0         |
+| 1190735  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 74.0        |
+| 1190276  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 70.0        |
+| 1190079  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 83.0        |
+| 1190080  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 74.0        |
+| 1190100  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 89.0        |
+| 1190268  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 59.0        |
+| 1190153  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 89.0        |
+| 1190737  | "elektrotehnika" | 2020-06-17 | "vaje-k.o."     | 0.000   | 92.0        |
+
+---
+
 ** 2020-06-16:Rezultati poročil **:
 
 |  vpisna | elektrotehnika | točke | %   | v1-LDR,NTC,U&R(T) | v2-U,I,kond | v3-U,I,L | v4-servo | v5-koračni | v6-DC motor | v7-daljnovod | v8-elektro |

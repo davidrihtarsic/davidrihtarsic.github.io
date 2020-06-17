@@ -40,7 +40,7 @@
     + 01190087 Klinec Blaž
     + 01190082 Bitežnik Ana
     + 01180172 Avšič Petra
-    + 01190083 Budna Klemen
+    + 01190083 Budna Klemen (opravičil...)
 ---
 - pet., 19. 06. 2020 ob 09:00 - 10.00   
     + 01180933 Abazaj Dea
