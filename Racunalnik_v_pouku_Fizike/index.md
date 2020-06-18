@@ -1,6 +1,5 @@
 # Računalnik v pouku fizike
-
-.. to do.
+[Obvestila](./Obvestila/index.md){: .btn}
 
 ## Seminarji
 
