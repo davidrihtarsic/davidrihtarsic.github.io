@@ -23,7 +23,7 @@
 | 1016305  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 85.000  | 85.0        |
 | 1014344  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 95.000  | 95.0        |
 | 1014608  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 80.000  | 80.0        |
-| 1016553  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 85.000  | 85.0        |
+| 1016553  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 90.000  | 90.0        |
 | 1016311  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 95.000  | 95.0        |
 | 1016312  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 85.000  | 85.0        |
 | 1016313  | "računalnik v pou. fizike" | 2020-06-18 | "vaje-poročila" | 95.000  | 95.0        |
