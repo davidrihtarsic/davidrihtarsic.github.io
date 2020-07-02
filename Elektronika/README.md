@@ -1,7 +1,7 @@
 # Elektronika
-[obvestila]( ./Obvestila/index ){: .btn}
-[izpitni roki]( ./Izpitni_roki/index ){: .btn}
-[skripta]( ./Skripta/index ){: .btn}
+[obvestila]( ./Obvestila/README ){: .btn}
+[izpitni roki]( ./Izpitni_roki/README ){: .btn}
+[skripta]( ./Skripta/README ){: .btn}
 [prisotnost]( https://docs.google.com/forms/d/e/1FAIpQLSfkEVjXU0pc3kboPqEBq1AteMlhLy5tkghyQojvdV2ZajE3ZA/viewform?usp=sf_link ){: .btn}{:target="_blank"}
 
 ## Izvajanje vaj
