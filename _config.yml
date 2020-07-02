@@ -1,7 +1,7 @@
 title: "David Rihtaršič"
 # pmarsceill/just-the-docs
 # thema lepa, enostavna, simple, lahko urejaš nivo dokumenta, -nima postov
-#remote_theme: pmarsceill/just-the-docs
+remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
 #search_enabled: true
 #logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
@@ -15,7 +15,7 @@ title: "David Rihtaršič"
 
 # tema od gihtuba
 # ne znam narediti navigation
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
 
 # thema minimal-mistakes
 #remote_theme             : "mmistakes/minimal-mistakes"
