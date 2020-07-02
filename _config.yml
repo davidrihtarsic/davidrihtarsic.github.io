@@ -1,16 +1,16 @@
 title: "David Rihtaršič"
 # pmarsceill/just-the-docs
 # thema lepa, enostavna, simple, lahko urejaš nivo dokumenta, -nima postov
-remote_theme: pmarsceill/just-the-docs
+#remote_theme: pmarsceill/just-the-docs
 #color_scheme: "dark"
-search_enabled: true
+#search_enabled: true
 #logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
 #aux_links:
 #  "DRTI":
 #    - "www.drti.si"
 #  "PEF":
 #    - "www.pef.uni-lj.si"
-footer_content: "..."
+#footer_content: "..."
 
 
 # tema od gihtuba
