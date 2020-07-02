@@ -15,7 +15,7 @@ footer_content: "..."
 
 # tema od gihtuba
 # ne znam narediti navigation
-#theme: jekyll-theme-minimal
+theme: jekyll-theme-minimal
 
 # thema minimal-mistakes
 #remote_theme             : "mmistakes/minimal-mistakes"
