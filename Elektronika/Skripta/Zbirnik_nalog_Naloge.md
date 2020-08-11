@@ -1,22 +1,22 @@
 
-# Napajanje
+# NAPAJANJE
 
 > ### NALOGA: SESTAVITE VEZJE NA PROTOTIPNI PLOŠČICI  
 > Izgradite vezje po shemi [@fig:Schematic_Skritpa_10-napajanje_20200218122122.svg].
 
-## Napetostni potencial
+## NAPETOSTNI POTENCIAL
 
 > ### NALOGA: IZMERITE NAPETOSTNE POTENCIALE  
 > Izmeri napetostne potenciale, ki so vrisani v naslednji shemi [@fig:Schematic_Skritpa_10-napajanje_20200218113659.svg].
 
-## Napetost
+## NAPETOST
 
 > ### NALOGA: IZRAČUNAJTE NAPETOSTI  
 > Za vse naštete elemente najprej izračunajte kolikšna napetost je na njih, nato pa izračun preverite z inštumentom.
 
-# Krmilnik Arduino Nano
+# KRMILNIK ARDUINO NANO
 
-## Testni program "BLINK.ino"
+## TESTNI PROGRAM "BLINK.INO"
 
 > ### NALOGA: PREIZKUS KRMILNIKA ARDUINO NANO.  
 > 1. Krmilnik Arduino Nano povežite z računalnikom preko USB povezave,  
@@ -26,19 +26,19 @@
 > 3. Odprite primer 01-BLINK.ino in  
 > 4. prenesite program na krmilnik.
 
-## Napajanje krmilnika Arduino Nano
+## NAPAJANJE KRMILNIKA ARDUINO NANO
 
 > ### NALOGA: VEZAVA KRMILNIKA ARDUINO NANO NA PROTOTIPNI PLOŠČICI.  
 > Vstavite krmilnik Arduino Nano v prototipno ploščico in ga povežite kot prikazuje naslednja shema.  
 > Priključite  tudi upor in LED na priključek `13`.
 
-## Model semaforja
+## MODEL SEMAFORJA
 
 > ### NALOGA: MODEL SEMAFORJA.  
 > Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljene programske stavke (t.j. programske ukaze).
 > Vsak programski stavek morate zaključiti s podpičjem **;**.
 
-## Analiza vezja
+## ANALIZA VEZJA
 > Naprimer: Največja dopustna moč, ki se še lahko troši na uporih, ki jih uporabljate (premer upora = 2.4 mm) je 0,25 W.
 > Na primer za običajne 5mm LED je najpogosteje največji tok, ki lahko teče skoznjo 20 mA.
 > Če ne vemo kolikšno upornost ima element (tako kot je to v primeru LED), si največkrat pomagamo z izračunom toka skozi drug zaporedno vezan element. Kajti v tem primeru je tok isti.
@@ -47,13 +47,13 @@
 > Izračunajte kolikšen električni tok teče skozi elemente R1, R2, R3, LED1, LED2 in LED3 ter preverite kakšne so električne omejitve tega elementa.
 > Izračunajte tudi električno moč, ki se troši na tem elementu.
 
-# Uporaba tipke
+# UPORABA TIPKE
 
 > ### NALOGA: VEZAVA TIPKE V DELILNIK NAPETOSTI  
 > Sestavite vezje s tipko, kot ga prikazuje [@fig:30-Tipka-delilnik.png] (brez črtkane povezave). Tipka naj bo vezana v delilnik napetosti in naj bo priključena proti napajanju.  
 > V tabelo vpišite napetosti na vsakemu elementu posebej. Najprej poskušajte predvideti kolikšna je napetost na elementu, nato pa le-to preverite z inštrumentom.
 
-## Priključitev tipke na digitalni vhod
+## PRIKLJUČITEV TIPKE NA DIGITALNI VHOD
 
 > ### NALOGA: PRIKLJUČITEV TIPKE NA DIGITALNI VHOD  
 > Priključite tipko po shemi [@fig:30-Tipka-delilnik.png] in preskusite spodnji program.  
@@ -62,14 +62,14 @@
 > Priključke mikrokrmilnika lahko uporabimo tudi za odčitavanje napetostnih potencialov v digitalni obliki (ločimo le dva napetostna nivoja). S funkcijo `pinMode(PIN, INPUT);` določimo, da priključek `PIN` lahko opravlja funkcijo digitalnega vhoda s katerim lahko odčitamo vrednost napetostnega potenciala.
 > Funkcija `digitalRead(PIN);` vrne vrednost digitalnega vhoda. Če je na priključku `PIN` napetostni potencial večji od 2.0 V bo funkcija vrnila vrednost 1 (ali HIGH ali TRUE). Če pa je na priključku `PIN` napetostni potencial manjši od 0.8 V pa bo funkcija vrnila vrednost 0 (ali LOW ali FALSE).
 
-## Priključitev tipke z uporom proti napajanju
+## PRIKLJUČITEV TIPKE Z UPOROM PROTI NAPAJANJU
 
 > ### NALOGA: UPOR VEZAN PROTI NAPAJANJU  
 > Vezje spremenite, kot je opisano v nalogi in narišite shemo vezja.  
 > Popravite program tako, da bo LED utripala, ko boste tipko držali.
 > Utemeljite zakaj je sedaj napetostni potencial na vhodnem priključku krmilnika D10 enak 5 V, ko tipka ni pritisnjena (Utemeljitev podprite z Ohm-ovim zakonom in Kirchoff-ovima izrekoma).
 
-## Uporaba uporov vezanih proti napajanju v mikrokrmilniku
+## UPORABA UPOROV VEZANIH PROTI NAPAJANJU V MIKROKRMILNIKU
 
 > ### NALOGA: UPORABA UPOROV VEZANIH PROTI NAPAJANJU V MIKROKRMILNIKU  
 > Odstranite upor iz vezja kakor veleva shema [@fig:30-Tipka-pullup.png] in  
@@ -92,7 +92,7 @@
 > ### NALOGA: VU-METER  
 > Program preoblikujte tako, da ko boste s potenciometrom nastavili večjo napetost,naj se vključi vač LED. Podobno kot je to na VU-metru na glasbenih stolpih. Kodo programa tudi priložite.
 
-# Nelinearni upori in senzorji
+# NELINEARNI UPORI IN SENZORJI
 
 > ### NALOGA: SENZOR TEMPERATURE - vezje [vezje].
 > Sestavite obe vezji iz [@fig:05-senzor-delilnik.png] in preverite kako se izhodna napetost spreminja glede na temperaturo. Ugotovitev zapišite za oba primera.
@@ -100,7 +100,7 @@
 > ### NALOGA: SENZOR TEMPERATURE - delovanje  
 > Sledite točkam razmišljanja od 1 - 5 in zapišite konkretne vrednosti električnih količin iz vašega vezja.  
 
-## Izbira referenčnega upora
+## IZBIRA REFERENČNEGA UPORA
 
 > ### NALOGA: DOLOČITEV REFERENČNEGA UPORA  
 > Za različne referenčne upore preverite odziv senzorja. Pri izpeljavi meritev bodite pozorni, da boste temperaturo spremenili vedno v istem območju, npr. vedno iz temperature 10°C na 40°C. Referenčni upori naj bodo v dekadnem razmerju.
@@ -111,7 +111,7 @@
 > 3. Nastavite enačbo za $\Delta U$.  
 > 4. Enačbo $\Delta U$ odvajajte po $R_{Ref}$ in jo rešite za $\frac{\partial U_{IZH}}{\partial R_{Ref}}=0$
 
-# Umiritev senzorja temperature
+# UMIRITEV SENZORJA TEMPERATURE
 
 > ### NALOGA: SESTAVITE VEZJE  
 > Sestavite senzor temperature kot sledilnik napetosti, v katerem boste uporabili le referenčni upor $R_{REF}$ in NTC termistor $R_{NTC}$. Vezje tudi narišite.  
@@ -130,9 +130,9 @@
 > Upornost termistorja $R_{NTC}$ izračunajte pri vsaki umerjeni temperaturi in jo vpišite v [@tbl:umeritev-U-T ].  
 > Nato v isti graf na [@fig:r-ntc.png] vrišite še karakteristika termistorja $R_{NTC}(T)$ tako, da skalo za upornost določite na desni strani grafa.
 
-# Polprevodniška dioda
+# POLPREVODNIŠKA DIODA
 
-## Pol-valni usmernik
+## POL-VALNI USMERNIK
 
 > ### NALOGA: POLVALNI USMERNIK  
 > Sestavite vezje na [@fig:70-polvalni-usmernik.svg], ter izmerite potek vhodne napetosti vira - *U_G(t)* in napetost na uporu *U_R1(t)*. Obe krivulji narišite v graf na [@fig:07-Graf-osciloskop.png]
@@ -149,7 +149,7 @@
 > $R_1=$ __________ $k\Omega$ in  
 > $C_1=$ __________ $\mu F$.
 
-# Zenerjeva dioda
+# ZENERJEVA DIODA
 
 > ### NALOGA: KARAKTERISTIKA ZENERJEVE DIODE  
 > 1. Sestavite vezje, ki je prikazano na [@fig:80-Zener-zaporna.png] in izmerite karakteri stiko I(U) zenerjeve diode v zaporni smeri. Menjajte upor $R_X$ tako, da boste na zenerjevi diodo ustvarili različne napetosti.

@@ -1,4 +1,4 @@
-# Zenerjeva dioda
+# ZENERJEVA DIODA
 
 Zenerjeva dioda je v prevodni smeri zelo podobna navadni usmerniški diodi. V zaporni smeri pa ima nekoliko drugačne lastnosti. Električni tok začne dobro prevajati šele, ko se na njej pojavi t.i. zenerjeva napetost. V elektronskih vezjih jo uporabljamo predvsem v zaporni smeri. Zato bolje spoznajmo njeno karakteristiko v zaporni smeri. Izmerimo jo lahko z vezjem, ki ga prikazuje [@fig:80-Zener-zaporna.png].
 

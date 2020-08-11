@@ -1,4 +1,4 @@
-# Umiritev senzorja temperature
+# UMIRITEV SENZORJA TEMPERATURE
 
 Kot smo že omenili so senzorji elektronski elementi, katerih izhodna napetost je odvisna od neke fizikalne količine. Na primer v napšem primeru (senzor temperature) je izhodna napetost odvisna od temperature $U_{IZH}(T)$. Vendar, da bi poznali to funkcijo, moramo senzor umeriti.
 

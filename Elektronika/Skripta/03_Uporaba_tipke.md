@@ -1,4 +1,4 @@
-# Uporaba tipke
+# UPORABA TIPKE
 
 Tipka je element, ki je podoben stikalu. Prav tako kot pri stikalu, ob pritisku povežemo dva priključka med sabo, razlika pa je v tem, da se pri tipki ta povezava razklene ob prenehanju pritiska nanjo.
 
@@ -18,7 +18,7 @@ Tipka je element, ki je podoben stikalu. Prav tako kot pri stikalu, ob pritisku 
 
 ![Vezava tipke v delilnik napetosti.](./slike/30-Tipka-delilnik.png){#fig:30-Tipka-delilnik.png}
 
-## Priključitev tipke na digitalni vhod
+## PRIKLJUČITEV TIPKE NA DIGITALNI VHOD
 
 Nato srednji priključek delilnika napetosti povežite na digitalni vhod krmilnika Arduino nano na priključek D10, kot prikazuje [@fig:30-Tipka-delilnik.png] črtkana povezava.
 
@@ -47,7 +47,7 @@ void loop() {
 > Priključke mikrokrmilnika lahko uporabimo tudi za odčitavanje napetostnih potencialov v digitalni obliki (ločimo le dva napetostna nivoja). S funkcijo `pinMode(PIN, INPUT);` določimo, da priključek `PIN` lahko opravlja funkcijo digitalnega vhoda s katerim lahko odčitamo vrednost napetostnega potenciala.
 > Funkcija `digitalRead(PIN);` vrne vrednost digitalnega vhoda. Če je na priključku `PIN` napetostni potencial večji od 2.0 V bo funkcija vrnila vrednost 1 (ali HIGH ali TRUE). Če pa je na priključku `PIN` napetostni potencial manjši od 0.8 V pa bo funkcija vrnila vrednost 0 (ali LOW ali FALSE).
 
-## Priključitev tipke z uporom proti napajanju
+## PRIKLJUČITEV TIPKE Z UPOROM PROTI NAPAJANJU
 
 Zamenjajte elementa v delilniku napetosti tako, da bo upor vezan proti napajanju in tipka proti napetostnem potencialu 0 V.
 
@@ -56,7 +56,7 @@ Zamenjajte elementa v delilniku napetosti tako, da bo upor vezan proti napajanju
 > Popravite program tako, da bo LED utripala, ko boste tipko držali.
 > Utemeljite zakaj je sedaj napetostni potencial na vhodnem priključku krmilnika D10 enak 5 V, ko tipka ni pritisnjena (Utemeljitev podprite z Ohm-ovim zakonom in Kirchoff-ovima izrekoma).
 
-## Uporaba uporov vezanih proti napajanju v mikrokrmilniku
+## UPORABA UPOROV VEZANIH PROTI NAPAJANJU V MIKROKRMILNIKU
 
 Uporaba vezave uporov proti napajanju je zelo pogosta. Zato le to mikrokrmilniki že vsebujejo v samem integriranem vezju na vseh digitalnih vhodih.
 

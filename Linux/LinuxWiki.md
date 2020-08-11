@@ -8,7 +8,13 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 # INSTALLATION
 
+- [disl partirioning](disk_partitioning.md)
+- [mounting]()-to-do
+
 - [pacman](pacman.md)
+- [swap](swap.md)
+- [boot process](boot.md)
+- [general troubleshooting](general_troubleshooting.md)
 
 ## AUR HELPRES
 

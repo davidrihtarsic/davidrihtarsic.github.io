@@ -1,10 +1,10 @@
-# Krmilnik Arduino Nano
+# KRMILNIK ARDUINO NANO
 
 Krmilnik Arduino Nano je relativno cenovno ugoden (cca. 3-5€) in ker je programirljiv, ga lahko uporabimo v najrazličnejših aplikacijah. Razporeditev njegovih priključkov pa pa lahko vidimo na naslednji sliki [@fig:20-Arduino-Nano-pinout.png].
 
 ![Razporeditev priključkov na krmilniku Arduino Nano.](./slike/20-Arduino-Nano-pinout.png){#fig:20-Arduino-Nano-pinout.png}
 
-## Testni program "BLINK.ino"
+## TESTNI PROGRAM "BLINK.INO"
 
 Preden bomo krmilnik uporabili v našem vezju, ga bomo preizkusili. S programskim orodjem "Arduino IDE" bomo na krmilnik naložili program "blink.ino" in s tem preverili, da vse komponente na krmilniku delujejo pravilno. To je priporočljivo narediti pred vsakim projektom.
 
@@ -33,7 +33,7 @@ void loop() {
 }
 ```
 
-## Napajanje krmilnika Arduino Nano
+## NAPAJANJE KRMILNIKA ARDUINO NANO
 
 Krmilnik Arduino Nano lahko vstavimo tudi v prototipno ploščico in ga napajamo z zunanjim napajanjem.
 
@@ -45,7 +45,7 @@ Krmilnik Arduino Nano lahko vstavimo tudi v prototipno ploščico in ga napajamo
 
 ![Shema vezave krmilnika Arduino Nano na prototipni ploščici.](./slike/20-Nano-Blink-PB.png){#fig:20-Nano-Blink-PB.png}
 
-## Model semaforja
+## MODEL SEMAFORJA
 
 Vezje bomo preoblikovali tako, da bo delovalo kot semafor na cestnem križišču. Uporabili bomo tri LED svetila različnih barv in preoblikovali program.
 
@@ -79,7 +79,7 @@ void loop() {
 }
 ```
 
-## Analiza vezja
+## ANALIZA VEZJA
 
 Elektronski elementi so omejeni z njihovo največjo dopustno električno moč. Če to električno moč prekoračimo, jih bomo najverjetneje uničili.
 

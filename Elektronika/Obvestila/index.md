@@ -1,15 +1,22 @@
 # Obvestila
 
 ---
-** 2020-07-02 : Končne ocene vaj **  
+**2020-08-11 : Jesenski izpitni rok**
+
+Jesenski izpitni rok bomo izvedli na daljavo tako, kot v poletnem izpitnem obdobju. Izvedli ga bomo v petek, 21. 8. 2020 ob 9., 10. in 11. uri. Na izpitni rok se prijavite po elektronski pošti.
+
+Pregled prijav si lahko ogledate na [tej povezavi](../Izpitni_roki/2020_08_21_jesenski_rok.md)
+
+---
+**2020-07-02 : Končne ocene vaj**  
 [končne ocene poletnega semestra](./2020_07_02-vaje_koncna_ocena.md)  
 
 ---
-** 2020-05-15 : Ocene poročil **  
+**2020-05-15 : Ocene poročil**  
 [ocene poročil](./2020_06_15-koncnaPorocila.md)  
 
 ---
-** 2020-06-12 : Ocene sprotnih poročil **  
+**2020-06-12 : Ocene sprotnih poročil**  
 [sprotna poročila](./2020_06_10-sprotna_porocila.md)  
 
 ---

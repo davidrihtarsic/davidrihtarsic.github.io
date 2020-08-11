@@ -4,4 +4,4 @@ Vsekakor preverite termine izpitnih rokov v [VIS-u]( https://vis.pef.uni-lj.si/ 
 
 # Termini:
 
-[Zagovor vaj - 2020 - No.1](./2020_06_11_Termini_zagovorov_2020_poletni_semester.md)
+[Zagovor vaj - 2020 - Jesenski roki](./2020_08_21_jesenski_rok.md)

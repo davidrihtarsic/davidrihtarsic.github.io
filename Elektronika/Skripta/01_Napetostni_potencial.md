@@ -1,4 +1,4 @@
-# Napajanje
+# NAPAJANJE
 
 Vsako električno vezje potrebuje napajanje. Pogosto vezja napajamo z baterijami (prenosne električne naprave) ali pa z uporabo omrežnega napajanja. Za današnje vezje bomo uporabili omrežno napajanje.  
 S pomočjo 9 V napajalnika in 5 mm napajalnega priključka (J1) dobimo napajalno napetost 9 V. Oba napetostna potenciala (+9 V in 0 V) napajalne napetosti priključimo na testno ploščico in od tam zgradimo vezje, ki bo zagotavljalo 5 V napajanje za naše nadaljnja vezja.  
@@ -12,7 +12,7 @@ V pomoč bomo uporabili program **Fritzing**, s katerim lahko učitelj zelo nazo
 
 ![Skica realnega vezja.](./slike/10-napajanje-fritzing.png){#fig:10-napajanje-fritzing.png}
 
-## Napetostni potencial
+## NAPETOSTNI POTENCIAL
 
 > ### NALOGA: IZMERITE NAPETOSTNE POTENCIALE  
 > Izmeri napetostne potenciale, ki so vrisani v naslednji shemi [@fig:Schematic_Skritpa_10-napajanje_20200218113659.svg].
@@ -28,7 +28,7 @@ V pomoč bomo uporabili program **Fritzing**, s katerim lahko učitelj zelo nazo
 
 ![Shema električnega vezja 5 V napalajalne napetosti.](./slike/Schematic_Skritpa_10-napajanje_20200218113659.svg){#fig:Schematic_Skritpa_10-napajanje_20200218113659.svg}
 
-## Napetost
+## NAPETOST
 
 V vezju imamo imamo kar nekaj elektronskih elementov. Na shemi [@fig:Schematic_Skritpa_10-napajanje_20200218122122.svg] so različno označeni, npr.:
 

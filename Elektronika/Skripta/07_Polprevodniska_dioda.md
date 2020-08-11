@@ -1,4 +1,4 @@
-# Polprevodniška dioda
+# POLPREVODNIŠKA DIODA
 
 Polprevodnik je monokristalna snov, ki ima brez dovedene energije lastnosti električnega izolatorja, pri dovolj veliki dovedeni energiji pa ima lastnosti slabega električnega prevodnika. Od tod tudi njegovo ime. Uporabljajo se za izdelavo nelinearnih elektronskih elementov (dioda, tranzistor, integrirano vezje, triak,\...). Sodobne elektronike si ne moremo zamišljati brez polprevodnikov. Najbolj znan polprevodnik v
 elektroniki je silicij, uporablja pa se tudi germanij  \[vir:
@@ -6,7 +6,7 @@ https://sl.wikipedia.org/wiki/Polprevodnik \].
 
 Dioda je elektronski element z dvema priključkoma (anoda in katoda).  Sprva so bile diode elektronke. Danes so jih skoraj povsem izpodrinile polprevodniške diode, ki so bile tudi prvi polprevodniški elementi.  Značilnost diode je nesimetrična in nelinearna tokovno-napetostna karakteristika. V eni smeri dioda prepušča električni tok, v drugi (zaporni) smeri pa ne. Zaradi tega je primerna za usmerjanje izmeničnih signalov.
 
-## Pol-valni usmernik
+## POL-VALNI USMERNIK
 
 Diodo večkrat uporabljamo kot usmerniški element, zaradi svoje preklopne prepustnosti. V vezju na [@fig:70-polvalni-usmernik.svg] je na vhod priključen napetostni vir izmenične sinusne napetosti, ki poganja tok skozi diodo in upor.
 

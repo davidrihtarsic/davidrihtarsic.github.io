@@ -1,4 +1,4 @@
-# Nelinearni upori in senzorji
+# NELINEARNI UPORI IN SENZORJI
  
 Senzor je elektronski element, katerega izhodna električna količina (izhodni signal) je odvisna od neke fizikalne količine (temperature, osvetljenisti ...). V našem primeru bomo sestavili senzor temperature. V delilnik napetosti bomo vezali termistor in upor s konstantno upornostjo, kot prikazuje [@fig:05-senzor-delilnik.png].
 
@@ -26,7 +26,7 @@ Premislimo, kako lahko razumemo delovanje senzorja na [@fig:05-senzor-delilnik.p
 |   $U_{R_1}$   |                 |                       |
 |  $U_{IZHOD}$  |                 |                       |
 
-## Izbira referenčnega upora
+## IZBIRA REFERENČNEGA UPORA
 
 Odzivnost senzorja (t.j. sprememba izhodnega napetostnega potenciala ob dani spremembi temperature) je zelo odvisna od prave izbire upora $R_1$ iz [@fig:05-senzor-delilnik.png] - desno. Temu uporu rečemo tudi **referenčni upor**.
 
