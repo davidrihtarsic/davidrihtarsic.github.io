@@ -3,7 +3,7 @@
 ---
 **2020-08-11 : Jesenski izpitni rok**
 
-Jesenski izpitni rok bomo izvedli na daljavo tako, kot v poletnem izpitnem obdobju. Izvedli ga bomo v petek, 21. 8. 2020 ob 9., 10. in 11. uri. Na izpitni rok se prijavite po elektronski pošti.
+Jesenski izpitni rok bomo izvedli na daljavo tako, kot v poletnem izpitnem obdobju. Izvedli ga bomo v četrtek, 20. 8. 2020 ob 9., 10. in 11. uri. Na izpitni rok se prijavite po elektronski pošti.
 
 Pregled prijav si lahko ogledate na [tej povezavi](../Izpitni_roki/2020_08_21_jesenski_rok.md)
 
