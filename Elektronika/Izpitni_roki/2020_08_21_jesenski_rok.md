@@ -1,7 +1,7 @@
 Jesenski zagovor elektronike bomo izvedli na daljavo. Izpitni rok bo:
 
 Četrtek, 20. 08. 2020 ob 9.00 - 10.00:  
-- še ni prijav
+- ni vpisne Blaž Klinec
 
 Četrtek, 20. 08. 2020 ob 10.00 - 11.00:  
 - še ni prijav
