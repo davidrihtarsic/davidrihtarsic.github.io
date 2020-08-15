@@ -2,6 +2,9 @@ Jesenski zagovor elektronike bomo izvedli na daljavo. Izpitni rok bo:
 
 Četrtek, 20. 08. 2020 ob 9.00 - 10.00:  
 - ni vpisne Blaž Klinec
+- 01190740, Petra Kastelec
+- 01180875, Kaja Skol
+- 
 
 Četrtek, 20. 08. 2020 ob 10.00 - 11.00:  
 - še ni prijav
