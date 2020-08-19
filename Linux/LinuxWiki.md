@@ -8,9 +8,9 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 # INSTALLATION
 
-- [disl partirioning](disk_partitioning.md)
+- [disk partirioning](disk_partitioning.md)
 - [mounting]()-to-do
-
+- [RPM packages](prm_install.md)
 - [pacman](pacman.md)
 - [swap](swap.md)
 - [boot process](boot.md)
