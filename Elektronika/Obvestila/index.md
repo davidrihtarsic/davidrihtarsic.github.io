@@ -1,6 +1,10 @@
 # Obvestila
 
 ---
+** 2020-08-20 : Rezultati zagovora **  
+[Rezultati zagovora in končnih ocen](./2020_08_20_rezultati_zagovora_in_KO.md)
+
+---
 **2020-08-11 : Jesenski izpitni rok**
 
 Jesenski izpitni rok bomo izvedli na daljavo tako, kot v poletnem izpitnem obdobju. Izvedli ga bomo v četrtek, 20. 8. 2020 ob 9., 10. in 11. uri. Na izpitni rok se prijavite po elektronski pošti.
