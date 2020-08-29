@@ -24,7 +24,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 # SHELL (TERMINALs & UTILITYs & APPLICATIONs)
 
 - [shell processing](shell_processing.md)
-- [general_expressions](general_expressions.md)
+- [regular_expressions](general_expressions.md)
 
 ## SHELL
 
@@ -67,9 +67,8 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 - libre office
 - [blender](blender.md)
-[FlightGear](flightgrear.md)
+- [FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)
-
 
 # HARDWARE
 

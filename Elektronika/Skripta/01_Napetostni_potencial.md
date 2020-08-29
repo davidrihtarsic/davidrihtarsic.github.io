@@ -11,6 +11,9 @@ S pomočjo 9 V napajalnika in 5 mm napajalnega priključka (J1) dobimo napajalno
 V pomoč bomo uporabili program **Fritzing**, s katerim lahko učitelj zelo nazorno pokaže kako moramo povezati elemente med seboj. S pomočjo Fritzing programa dobimo naslednjo skico *realnega* vezja.
 
 ![Skica realnega vezja.](./slike/10-napajanje-fritzing.png){#fig:10-napajanje-fritzing.png}
+./01_Napetostni_potencial.pdf
+./slike/05-senzor-delilnik-1.png
+./09_Referencni_vir_z_zener_diodo.md
 
 ## NAPETOSTNI POTENCIAL
 

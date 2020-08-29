@@ -18,6 +18,16 @@ Zapimni si vse odprte dokumente:
 
 :buffers to dmenu? in nato izvereš v  kateri buffer bi šel...
 
+## PLUGINS
 
+### YouCompleteMe
 
+najpreje sem v init.vim dodol plugin
 
+    Plug 'ycm-core/YouCompleteMe'
+
+Greš v folder ~/.vim/plugged/YouCompleteMe/
+
+    python3 install.py --all
+
+> mislim, da potem dela tako kot mora... juhej.
