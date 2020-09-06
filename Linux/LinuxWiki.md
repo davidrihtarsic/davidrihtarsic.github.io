@@ -38,6 +38,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [st](st.md)
 - [termite](termite.md)
 - [termiantor](termiantor.md)
+- [fonts](fonts.md)
 
 ## UTILITY PROGRAMS
 
@@ -57,6 +58,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 # DESKTOP ENVIRONMENT
 
 - [applications.desktop](applications_desktop.md)
+- [get GUI windov info](xprop.md)<++>
 
 ## UTILITY PROGRAMS
 
@@ -69,6 +71,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [blender](blender.md)
 - [FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)
+- [FreeCAD](FreeCAD.md)
 
 # HARDWARE
 
