@@ -29,7 +29,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 ## SHELL
 
 [Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
-
+- [basic shell](basic_shell.md)
 - [shell_processing](shell_processing.md)
 - [zsh](zsh.md)
 
@@ -49,6 +49,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [grep](grep.md)
 - [pandoc](pandoc.md)
 -  SED
+- [network check](network.md)
 
 ## APPLICATION PROGRAMS
 
@@ -58,7 +59,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 # DESKTOP ENVIRONMENT
 
 - [applications.desktop](applications_desktop.md)
-- [get GUI windov info](xprop.md)<++>
+- [get GUI windov info](xprop.md)
 
 ## UTILITY PROGRAMS
 
@@ -67,11 +68,13 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 ## APPLICATION PROGRAMS
 
-- libre office
+- [LibreOffice](LibreOffice.md)
 - [blender](blender.md)
 - [FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)
 - [FreeCAD](FreeCAD.md)
+- [PulseView](PulseView.md)
+- [sigrok](PulseView.md)
 
 # HARDWARE
 
@@ -80,4 +83,4 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [Intel Graphic card](Intel_graphic_card.md)
 - [Keyboard](Keyboard.md)
 - [Sleep](Sleep.md)
-
+- [3D Printer]( IRA3d.md)
