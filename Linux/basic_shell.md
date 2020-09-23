@@ -83,7 +83,7 @@ diff file1 file2
 diff <(ls dir1) <(ls dir2)
 ```
 
-## debugging
+## DEBUGGING
 
 ```bash
 shellcheck bash_script.sh

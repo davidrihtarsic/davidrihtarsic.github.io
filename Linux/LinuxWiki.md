@@ -48,7 +48,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [general_expressions](general_expressions.md)
 - [grep](grep.md)
 - [pandoc](pandoc.md)
--  SED
+- [SED](todo...) 
 - [network check](network.md)
 
 ## APPLICATION PROGRAMS
@@ -82,5 +82,9 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [HP-Printers](HP_Printers.md)
 - [Intel Graphic card](Intel_graphic_card.md)
 - [Keyboard](Keyboard.md)
+- [Screen Resolution](Xrandr.md)
 - [Sleep](Sleep.md)
-- [3D Printer]( IRA3d.md)
+- [3D Printer](IRA3d.md)
+- [CURA](IRA3d.md)
+- [Tektronix Oscilloscope](TDS1002B.md)
+
