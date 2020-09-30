@@ -51,7 +51,7 @@ class Motor
 ## Da je koda pregledana je verjetno bolj pomembno kot, da deluje... zakaj?
 
 Če imamo delujočo kodo in je ta nepregledna, ze lahko zgodi, da ko se bodo zahteve spremenile (posodobili bomo program) bomo skušali kodo popraviti in je ne bomo mogli. Da o možnosti, da bi nam jo popravil nekdo tretji sploh ne razmišljamo.
-Če pa je koda pregledna, pa ne deluje nam jo lahko pomaga rešiti bolj ozkušenj programer.
+Če pa je koda pregledna, pa ne deluje nam jo lahko pomaga rešiti bolj izkušenj programer.
 
 Pregledno kodo lahko uporabi nekdo drug in je prenosljiva.
 
