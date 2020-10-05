@@ -4,5 +4,6 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 Bolj podrobno pa si bomo pogledali naslednje vsebine:
 
-- namestitev programske opreme
+- [Programska oprema](./100_Namestitev_programske_opreme)
+-
 -
