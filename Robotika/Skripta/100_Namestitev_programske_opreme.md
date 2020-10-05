@@ -6,7 +6,7 @@ Za prenos programa na krmilnik Arduino UNO boste potrebovali posebno programsko 
 2. Programska knjižnica [RobDuino](#RobDuino), ki jo boste potrebovali za lažje programiranje modula RobDuino.
 3. [Ardublockly](#ardublockly) je odlično didaktično programsko orodje za začetniško programiranje.
   + [Python](#python) ... potrebujete za zagon Ardublockly-a.
-4. [VSC in PlatformIO](#vsc_platformio) je bistveno bolj uporabniku prijazno razvijalsko okolje za programiranje. Pri delu nam omogoča kar nekaj prednosti pred Arduino IDE okoljem:
+4. [VSC in PlatformIO](#vsc-platformio) je bistveno bolj uporabniku prijazno razvijalsko okolje za programiranje. Pri delu nam omogoča kar nekaj prednosti pred Arduino IDE okoljem:
   + samo-dokončanje,
   + opozorila na \";\",
   + samozaznava USB vrat (com-port),
