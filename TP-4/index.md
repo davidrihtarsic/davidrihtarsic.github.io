@@ -5,7 +5,7 @@
 
 ## MODELARSTVO
 
-[Build a Glider](./Modelarstvo/Skripta/Building_a_Glider.md) - [PDF](./Modelarstvo/Skripta/Building_a_Glider.pdf)  
+- [Build a Glider](./Modelarstvo/Skripta/Building_a_Glider.md) - [PDF](./Modelarstvo/Skripta/Building_a_Glider.pdf)  
 
 ## PROMET
 
