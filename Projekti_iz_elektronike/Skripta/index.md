@@ -1,4 +1,10 @@
-# Seznam vaj pri predmetu PROJEKTI IZ ELEKTRONIKE
+# PROJEKTI IZ ELEKTRONIKE
+
+[INFO](../index){: .btn}
+[VAJE](../Skripta/index){: .btn}
+[OBVESTILA]( ../Obvestila/index ){: .btn}
+
+# Seznam vaj
 
 1. Načrtovanje in izdelava tiskanih vezij
 2. Model optične komunikacije
