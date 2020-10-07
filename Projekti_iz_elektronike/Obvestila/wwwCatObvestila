@@ -1,0 +1,9 @@
+#! /bin/zsh
+
+cat 00_menu.md > index.md
+
+while read line
+do
+  cat $line >> index.md
+done < <(sort -r <(ls -1 | grep '^202.' ))
+
