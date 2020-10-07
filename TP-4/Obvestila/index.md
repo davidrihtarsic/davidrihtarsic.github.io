@@ -1,4 +1,4 @@
-# TP-4 -> FOTOGRAFIJA
+# TP-4 ➡ OBVESTILA
 
 [OBVESTILA](../Obvestila/index.md){: .btn} 
 [MODELARSTVO](../Modelarstvo/index){: .btn} 
