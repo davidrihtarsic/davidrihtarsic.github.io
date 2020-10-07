@@ -1,7 +1,8 @@
 # PROJEKTI IZ ELEKTRONIKE
 
-[Vaje](./Skripta/index){: .btn}{:target="_blank"}
-[Obvestila]( ./Obvestila/index ){: .btn}
+[INFO](./index){: .btn} 
+[VAJE](./Skripta/index){: .btn} 
+[OBVESTILA](./Obvestila/index ){: .btn}
 
 # Osnovne informacije
 
