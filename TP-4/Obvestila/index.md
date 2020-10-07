@@ -1,3 +1,11 @@
+# TP-4 -> FOTOGRAFIJA
+
+[OBVESTILA](../Obvestila/index.md){: .btn} 
+[MODELARSTVO](../Modelarstvo/index){: .btn} 
+[PROMET](../Promet/index){: .btn} 
+[FOTOGRAFIJA](../Fotografija/index){: .btn} 
+
+
 ** 2020-06-17:Rezultati TP4 za leto 2020 **  
 
 | "VPISNA" | "PREDMET" | "DATUM"    | "OBVEZNOST"        | "TOČKE" | "OCENA [%]" |
