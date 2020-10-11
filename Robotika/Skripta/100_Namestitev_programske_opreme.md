@@ -118,7 +118,7 @@ Ko zaključite z namestitvijo Python-a, lahko nadaljujete z namestitvijo Ardublo
     3. `Com port:` COM3 *lahko je tudi druga številka*
     4. in potrdite spremembe tako, da kliknete `[RETURN]` gumb na dnu okna.
 
-## VSC PlatformIO
+## VSC in PlatformIO
 
 Program Visual Studio Code je IDE, ki podpira vač različnih programskih jezikov in platform. Ena od jih je tudi Arduino, ki jo v programu VSC namestimo z vtičnikom PlatformIO.
 
