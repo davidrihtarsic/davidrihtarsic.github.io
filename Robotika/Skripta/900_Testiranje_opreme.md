@@ -107,7 +107,7 @@ void setup() {
 }
 
 void loop() {
-  int distance_senzor_value = analogRead(A1);
+  int distance_senzor_value = analogRead(A0);
   Serial.println(distance_senzor_value);
   delay(100);
 }
