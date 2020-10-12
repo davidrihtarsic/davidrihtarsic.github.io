@@ -5,4 +5,5 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 Bolj podrobno pa si bomo pogledali naslednje vsebine:
 
 - [programska oprema](./010_Namestitev_programske_opreme) - [PDF](./010_Namestitev_programske_opreme.pdf)
+- [popis konstrukcijskih elementov](../Oprema/Oprema_popis)  
 - [testiranje opreme](./900_Testiranje_opreme) - [PDF](./900_Testiranje_opreme.pdf)
