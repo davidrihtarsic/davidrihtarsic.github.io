@@ -34,6 +34,7 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
 
 - Krmilnik Arduino UNO
 - modul RobDuino-v2
+- ležišče za Arduino UNO -> FisherTechnik (3D print)
 - USB kabel
 - ležišče za 2x18650 LiIon akumulatorje
 - 2x 18650 LiIon akumulator
