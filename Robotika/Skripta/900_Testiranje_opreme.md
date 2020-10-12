@@ -119,10 +119,12 @@ void loop() {
 
 ![Povezava LCD na I2C vodilo krmilnika.](./slike/I2C_LCD.png){#fig:test_I2C_LCD}
 
-2. Priskrbite si knjižnico `LiquidCristal-I2C` na naslovu: https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/ 
-3. Knjižnico dodajte v Arduino IDE okolje tako, da dodate `ZIP` datoteko v :
+2. Priskrbite si knjižnico `LiquidCristal-I2C` iz naslova:  
+https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/ 
+3. Knjižnico dodajte v Arduino IDE okolje tako, da dodate `ZIP` datoteko v :  
 `Sketch >> Include Library >> Add .ZIP Library`
-3. V VSC in PlatformIO vtičniku si lahko knjižnico naložite tako, da v terminalno okno vpišete ukaz `pio lib install "marcoschwartz/LiquidCrystal_I2C@^1.1.4"`
+3. V VSC in PlatformIO vtičniku si lahko knjižnico naložite tako, da v terminalno okno vpišete ukaz  
+`pio lib install "marcoschwartz/LiquidCrystal_I2C@^1.1.4"`
 
 4. Nato preskusite naslednji program:
 
