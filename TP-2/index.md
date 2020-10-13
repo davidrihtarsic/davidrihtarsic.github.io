@@ -1,7 +1,12 @@
----
-has_children: true
-nav_order: 70
+# TP-2
+[TP-2](./index){: .btn} 
+[Vaje](./Skripta/index){: .btn} 
+[Obvestila](./Obvestila/index){: .btn}
+
 ---
 
-# TP-2
-Se izvaja v 
+To do list:
+- osnovne informacije o izvajanju
+- obvestila
+- literatura
+- skripta
