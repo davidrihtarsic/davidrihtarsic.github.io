@@ -11,7 +11,7 @@
 
 ## Prepoznavanje materiala
 
-- [Slovenske vrste lesa](./010_slovenske_vrste_lesa.)
+- [Slovenske vrste lesa](./010_slovenske_vrste_lesa)
 
 ## Tehnološki postopki
 
