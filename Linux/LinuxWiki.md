@@ -69,6 +69,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 ## APPLICATION PROGRAMS
 
 - [LibreOffice](LibreOffice.md)
+- [OnlyOffice](OnlyOffice.md)
 - [blender](blender.md)
 - [FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)

@@ -1,4 +1,4 @@
-# TP-2  Vaje
+# TP-2 >> Vaje
 [TP-2](../index){: .btn} 
 [Vaje](../Skripta/index){: .btn} 
 [Obvestila]( ../Obvestila/index ){: .btn}
