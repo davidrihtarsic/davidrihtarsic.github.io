@@ -24,6 +24,7 @@
 11. predrezilo - vrti se v smeri podajanja, preprečuje odtrgavanje lesnih vlaken
 
 #### Nastavitev stroja
+
 - pravokotnost rezila
 - __višina rezila__ = 1/2 - 1 višina zoba nad obdelovancem (debelina obdelovanca, moč motorja)
   - bolje je nastaviti nižjo višino, ker:
@@ -32,12 +33,14 @@
     + manjša možnost ureza
     + [nastavitev višine rezila](https://www.youtube.com/watch?v=JL8-1bmt7XY)
   - po končanem delu naj bo rezilo spuščeno
+
 - __prečni razrez__
   + odmaknemo vzdolžno letev (Zakaj?: Ker se odrezek ne bo tiščal prislona in je nevarnost povratnega udarca res majhna)
   + obdelovanec prislonimo k prečni letvi
   + roke imamo na levi strani obdelovanca in žaginega lista
   + ne hitimo z odmikanjem odstranjevanja odrezka, odrezek je dokaj varen.
   + [nastavitev prečnega prislona](https://www.youtube.com/watch?v=UbG-n--LFgQ)
+      
 - __vzdolžni razrez__
   + ker je obd. med vzdolžnim prislonom in ž.l. je povečana verjetnost za povratni udarec
   + zagotovljen mora biti raven rob obdelovanca, ki ga prislonimo k vodilu
@@ -48,10 +51,13 @@
     + s potisno palico potiskamo bližje ž.l. zato, da ustvarjamo navor v desno in s tem pritiskamo obdelovanec k prislonu (razen če uporabljamo razporni klin)
   + razrez zaključimo z desno roko tako, da obdelovanec potisnemo še nekaj cm za ž.l.
   + odrezek, ki je na levi strani pustimo dokler se ž.l. ne ustavi
+
 - **Poravnanje prečnega prislona**
   + na prislon poravnamo večji obdelovanec in ga odrežemo, ta rez označimo kot 1.
   + odžagan rez prislonimo k prečnemu prislonu in proces ponovimo.
+
 #### Pomembnejše začetniške napake
+
 1. __zapiranje žaginega lista:__
   - žaganje brez razpornega klina ob vzdolžnem prislonu, zlasti pri masivnem lesu
   - vžagovanje utorov ob necelostni podpori deske
@@ -69,7 +75,7 @@
   - debelejšo kos lesa
   - __počasnejši odrez__
     + če imamo prešibek motor, se temu lahko izognemo tako, da najprej odrežemo do polovice in nato odrez ponovimo z iste strani z bolj izvlečenim ž.l.
-		+ ti isto tehniko lahko uporabimo kadar želimo zmanjšati zatrgovanje vlaken ob razrezu
+    + ti isto tehniko lahko uporabimo kadar želimo zmanjšati zatrgovanje vlaken ob razrezu
 4. __prečno razžagovanje__ (pozabimo odmakniti vzdolžni prislon!!!)
   - pri tem razrezu NE uporabljamo vzdolžnega prislona, ker obstaja večja verjetnost, da se bo odrezek tiščal ž.l. in tako se možnost povratnega udarca poveča
 
