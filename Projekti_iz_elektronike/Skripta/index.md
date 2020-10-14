@@ -18,4 +18,6 @@
 10. Integrirano vezje 555
 
 Vse vaje najdete v skripti:
+
 - [Skripta vaj](./Projekti iz elektronike vaje - PeF - 2017.pdf)
+- [Seznam gradnikov ](../Oprema/popis_opreme)
