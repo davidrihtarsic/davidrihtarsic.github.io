@@ -36,6 +36,7 @@
 - termistor NTC
 - potenciometer 10k
 - IR sprejemnik TSOP32230 ali  
+    [TL1838](http://eeshop.unl.edu/pdf/VS1838-Infrared-Receiver-datasheet.pdf)  
     https://www.circuitbasics.com/arduino-ir-remote-receiver-tutorial/
 
 ## Integrirana vezja
