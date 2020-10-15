@@ -21,11 +21,12 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
     + 2x 330k
     + 10k potenciometer (na žicah)
 - Nelinearni upori & senzorji
-    + 1x foto-tranzistor FT
+    + 1x foto-tranzistor FT & zaslonka
     + 1x hermetični kontaktnik FT
     + 1x tipka FT
     + IR senzor razdalje
 - Aktuatorji
+    + lučka
     + 2x DC motor FT
     + 1x servo-motor
     + LCD (i2c)
@@ -57,6 +58,7 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
 - 2x reduktor s pogonsko gredjo
 - 1x drsni ležaj
 - 1x os/gred 45mm
+- 1x os/gred 75mm
 - 2x zglob
 - polž + matica
 - zobnik fi48mm Z30
