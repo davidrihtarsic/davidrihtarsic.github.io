@@ -1,5 +1,8 @@
 # EARLY LEARNING OF ROBOTICS
 
+[INFO](./index){: .btn}
+[COURSE](./Skripta/index){: .btn}
+
 Acording to learninf plan (UL, PeF) course in "Early learning of robotics" consists form:
 - 30h of Lectures,
 - 15h of Seminar and
