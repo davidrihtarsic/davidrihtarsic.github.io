@@ -29,6 +29,7 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
     + lučka
     + 2x DC motor FT
     + 1x servo-motor
+    + 1x servo attach
     + LCD (i2c)
 
 ## RAČUNALNIŠTVO
@@ -43,7 +44,7 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
 ## MEHNIKA
 
 ### KONSTRUKCIJSKI ELEMENTI
-- 8x kvader 15x15x30mm
+- 12x kvader 15x15x30mm
 - 3x kvader 15x15x15mm
 - 2x kvader 7.5x15x30mm
 - 3x "L" profil 15x15x45mm
@@ -62,4 +63,19 @@ Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska
 - 2x zglob
 - polž + matica
 - zobnik fi48mm Z30
+
+# manjkajoča oprema
+
+- ležišče za Arduino UNO
+- žarnica
+- zaslonka za foto-tranzistor
+- os/gred 75mm
+- zatična letev 30mm
+- 4x kvader 15x15x30mm
+
+
+# opcijsko
+
+- 2x vijak matica M4
+
 

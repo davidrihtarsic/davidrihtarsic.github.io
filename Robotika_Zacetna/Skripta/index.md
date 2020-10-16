@@ -9,6 +9,7 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 Bolj podrobno pa si bomo pogledali naslednje vsebine:
 
-- [intro](./000_Intro)
-- [simulations](./009_Simulations)
-- [software installation](./010_Installing_software.md)
+- [Intro](./000_Intro)
+- [Hardware](./005_Hardware)
+- [Simulations](./009_Simulations)
+- [Software Installation](./010_Installing_software.md)

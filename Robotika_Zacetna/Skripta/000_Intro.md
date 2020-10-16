@@ -1,8 +1,8 @@
 # WHAT IS ROBOTICS?
 
-- Science on robots.
+- Science of robots. :)
 
-+ What a robot is?
++ What is a robot?
 + How a robot works?
 + How are robots constructed?
 + How do we control a robot?
@@ -39,7 +39,7 @@ Slangen:
 > - sklepanje (angl. Reasoning) &
 > - delovanje (angl. Acting).
 >
-> This opertion is constantly executing in a.k.a. S-R-A loop.
+> This operation is constantly executing in a.k.a. S-R-A loop.
 
 Slo. nat. curriculum:`Robotics in Engineering`  
 - almost exact interpretation of S-R-A loop
@@ -80,7 +80,7 @@ We can find robots in learning process as:
 ## How to teach Robotics?
 
 - Is learning robotics difficult?
-    + Yes and No
+    + No and Yes
 
 ## How do we think?
 
