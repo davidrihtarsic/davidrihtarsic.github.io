@@ -28,13 +28,13 @@ Hoverer learning process will not be divided into three separate parts but it wi
 
 ## Project time
 
-The last part of the course (cca 15h) will be dedicated to your's project. You will have to make and program a mobile robot which will have to sole different tasks e.g.:
+The last part of the course (cca 15h) will be dedicated to your's project. You will have to make and program a mobile robot which will have to solve different tasks e.g.:
 - follow the line and avoiding the obstacles
 - push the trash over the table edge
 - find the nearest obstacle and drive to it
 - find the way out from the maze
 - ...
-- sole your own problem
+- solve your own problem
 
 ## Assesment
 
