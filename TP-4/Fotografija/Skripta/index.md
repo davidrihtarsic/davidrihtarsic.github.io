@@ -1,4 +1,4 @@
-# TP-4 ➡ FOTOGRAFIJA
+# TP-4 >> FOTOGRAFIJA >> VAJE
 
 [OBVESTILA](../../Obvestila/index.md){: .btn} 
 [MODELARSTVO](../../Modelarstvo/index){: .btn} 

@@ -1,4 +1,4 @@
-# TP-4 ➡ PROMET
+# TP-4 >> PROMET >> VAJE
 
 [OBVESTILA](../../Obvestila/index.md){: .btn} 
 [MODELARSTVO](../../Modelarstvo/index){: .btn} 

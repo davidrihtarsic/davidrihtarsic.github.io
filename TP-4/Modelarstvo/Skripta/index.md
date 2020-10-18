@@ -1,4 +1,4 @@
-# TP-4 ➡ MODELARSTVO
+  # TP-4 >> MODELARSTVO >> VAJE
 
 [OBVESTILA](../../Obvestila/index.md){: .btn} 
 [MODELARSTVO](../../Modelarstvo/index){: .btn} 
