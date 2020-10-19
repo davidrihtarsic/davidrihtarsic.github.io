@@ -7,3 +7,17 @@ Bolj podrobno pa si bomo pogledali naslednje vsebine:
 - [programska oprema](./010_Namestitev_programske_opreme) - [PDF](./010_Namestitev_programske_opreme.pdf)
 - [popis konstrukcijskih elementov](../Oprema/Oprema_popis)  
 - [testiranje opreme](./900_Testiranje_opreme) - [PDF](./900_Testiranje_opreme.pdf)
+
+---
+
+- Uporaba Ardublockly programskega okolja
+- Krmiljenje motorja (tabela možnih stanj)
+- Uporaba reduktorja 
+  + zmota o moči
+  + izračun prestavnega razmerja
+  + testiranje navora
+- Izgradnja robota
+- Vožnja robota
+- Uporaba funkcij
+- Uporaba programskih zank
+- ... migracija v C++

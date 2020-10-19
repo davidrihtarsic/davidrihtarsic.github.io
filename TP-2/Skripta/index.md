@@ -18,10 +18,8 @@
 - [Ročno razžagovanje]()
 - [Strojno razžagovanje](./110_strojno_razžagovanje)
 - [Poravnalno skoblanje]()
-- [Debelinsko skoblanje]()
--
+- [Debelinsko skobljanje]()
 
----
 
 Trenutno vam lahko ponudim le zelo kratke moje zapiske, ki jih uporabljam med vajami. Namen teh zapiskov je da ne pozabim omeniti kakih vsakdanjih, očitnih situacij...
 
