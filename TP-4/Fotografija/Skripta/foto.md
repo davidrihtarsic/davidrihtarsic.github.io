@@ -1,19 +1,3 @@
-# TP-4 >> FOTOGRAFIJA >> VAJE
-
-[OBVESTILA](../../Obvestila/index.md){: .btn} 
-[MODELARSTVO](../../Modelarstvo/index){: .btn} 
-[PROMET](../../Promet/index){: .btn} 
-[FOTOGRAFIJA](../../Fotografija/index){: .btn} 
-
-
-[VAJE](../Skripta/index){: .btn} 
-
-
-
-
-
-... to do...
-
 # FOTOGRAFIJA
 
 ## FOTOAPARAT
@@ -370,5 +354,3 @@ Time-Lapse videos : 
 </div>
 
 </div>
-
-
