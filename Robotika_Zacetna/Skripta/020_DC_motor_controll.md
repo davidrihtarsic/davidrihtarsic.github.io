@@ -4,10 +4,10 @@
 
 1. Connect the DC motor to the battery and make it run.
 2. You can try different combinations to connect the terminals of the motor like:
-    - + and -
-    - - and +
-    - - and -
-    - + and +.
+    - \+ and -
+    - \- and +
+    - \- and -
+    - \+ and +.
 
 ![DC motor connection.](./slike/Electric_current_DC_motor.png){#fig:DC_motor}
 
@@ -36,12 +36,14 @@
 2. Write the program and check all the combinations of digital outputs;
     00, 01, 10 and 11.
 
+
 | D7 | D6 | Motor is spinning |
 |:--:|:--:|-------------------|
 |  0 |  0 |                   |
 |  0 |  1 |                   |
 |  1 |  0 |                   |
 |  1 |  1 |                   |
+
 Table: All combinations of the states of motor's connectors. {#tbl:motor_combo}
 
 ## Questions:
