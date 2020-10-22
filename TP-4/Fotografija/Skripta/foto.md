@@ -32,13 +32,13 @@
 - objektiv [spletni vir](http://www2.arnes.si/~ljuad7/objektiv.html): I.
 Šjan, Opis in delovanje objektiva
 
-## goriščna razdalja
+## GORIŠČNA RAZDALJA
 -   vpliva na zorni kot -\> pespektiva -\> kako zajamemo prostor (to
     fotografiji manjka!)
 -   vpliv na zorni kot tudi velikost senzorja [spletni vir](http://www.cambridgeincolour.com/tutorials/digital-camera-sensor-size.htm)
 -   vpliv F na portret!\[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/goriscna-razdalja)
 
-## velikost zaslonke
+## VELIKOST ZASLONKE
 - f:\[[spletni vir](http://www.satcitananda.si/Naloge%20fizike/zaslonka.pdf):Andrej,
 Digitalna in analogna fotografija - zaslonka \]
 
@@ -46,7 +46,7 @@ Digitalna in analogna fotografija - zaslonka \]
     \... izračunajte premer pri f=50mm.
 -   deluje globalno - nadzor nad \"ambient light in nad flash\"
 
-## globinska ostrina
+## GLOBINSKA OSTRINA
 - [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/globinska-ostrina)[: Globinska ostrina,]
 - [spletni vir](https://en.wikipedia.org/wiki/Depth_of_field)[: Wiki, ]
 - [spletni vir](http://www.satcitananda.si/Naloge%20fizike/globinska_ostrina.pdf): Andrej, Digitalna fotografija - globinska ostrina
@@ -56,18 +56,18 @@ Digitalna in analogna fotografija - zaslonka \]
 -   Tabela of DoF \[[spletni vir](http://www.dofmaster.com/doftable.html) - pomembna za film, danes večkrt fotografiraš
 -   DoF simulator: \[[spletni vir](http://dofsimulator.net/en/)
 
-## uklon svetlobe na zaslonki:
+## UKLON SVETLOBE NA ZASLONKI:
 
 -   pomemben zlasti pri senzorjih majhne velikosti z veliko točkami 
 -   Simulator [spletni vir](http://www.cambridgeincolour.com/tutorials/diffraction-photography.htm): Photo sensors test
 
-## hitrost zaklopa
+## HITROST ZAKLOPA
 -   Ena svtovno znanih slik [spletni vir](https://en.wikipedia.org/wiki/Louis_Daguerre): Daguerre, Paris Boulevard, 1839\]
 -   nadzor nad **ambient light**! ne nad **flesh** [spletni vir](https://youtu.be/b5v7ejTAIlA?t=1734)
 -   pomaga ujeti gibanje (sliki manjka!)[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/ujemimo-gibanje)Hitrost zaklopa
 -   Priporočljiva nastavitev za ročno slikanje (čas osvetlitve naj bo manjši od F)
 
-## občutljivost "filma" ISO vrednost ( in dinamični razpon)
+## OBČUTLJIVOST "FILMA" ISO VREDNOST ( IN DINAMIČNI RAZPON)
 - [spletni vir](http://en.wikipedia.org/wiki/Film_speed#Determining_film_speed): Wikipedia, Determining film spead \]
 
 - histogram [spletni vir](http://www.e-fotografija.si/templates/?a=497&z=0): J. Filipčič,
@@ -80,7 +80,7 @@ Histogram\]
 > http://camerasim.com/apps/original-camerasim/web//  
 > http://www.canonoutsideofauto.ca/play/  
 
-# Objektivi
+# OBJEKTIVI
 
 -   delitev \[[spletni
     vir](http://www.e-fotografija.si/templates/?a=2739): M. Intihar,
