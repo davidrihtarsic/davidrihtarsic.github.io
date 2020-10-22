@@ -18,5 +18,5 @@ You can sign in with your google account.
 1. How can you control the output voltage potential?
 2. In which direction will electric current flow?
 3. What voltage is present on the resistor?
-  + How can we determine the voltage on the resistor (deacribe 2 possibilities)?
+  + How can we determine the voltage on the resistor (describe 2 possibilities)?
 4. What voltage is present on the LED?

@@ -12,4 +12,12 @@ Bolj podrobno pa si bomo pogledali naslednje vsebine:
 - [Intro](./000_Intro)
 - [Hardware](./005_Hardware)
 - [Simulations](./009_Simulations)
-- [Software Installation](./010_Installing_software.md)
+- [Software Installation](./010_Installing_software)
+- [Testing](./015_Equipment_testing)
+- [DC Motor](./020_DC_motor_controll)
+- [Gear Box](./030_Greard_Reductor)
+- [Robot Construction](./100_Robot_Construction)
+- [First Ride](./110_First_Ride)
+- [Functions](./120_Functions)
+- [Loops](./130_Loops)
+- ...

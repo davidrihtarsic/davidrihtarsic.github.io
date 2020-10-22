@@ -80,7 +80,7 @@
 > ## Issues
 > ...to do...
 
-# HOW DC MOTOR WORKS
+# HOW THE DC MOTOR WORKS
 
 ## Task:
 
@@ -130,7 +130,7 @@ Table: All combinations of the states of motor's connectors. {#tbl:motor_combo}
 
 1.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo ]).
 2.  Try to stop the shaft of the DC motor for a short time and try to
-    remember how hard is it?
+    remember how difficult it is?
 
 ![Wireing the DC motor to controller.](./slike/Controlling_the_motor.png){#fig:connect_motor}
 
