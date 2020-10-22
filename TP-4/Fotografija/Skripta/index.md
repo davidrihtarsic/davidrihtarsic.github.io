@@ -14,6 +14,8 @@
 
 ... to do...
 
+Delovna verzija zapiskov v [pdf](./foto.pdf).
+
 # FOTOGRAFIJA
 
 ## FOTOAPARAT
