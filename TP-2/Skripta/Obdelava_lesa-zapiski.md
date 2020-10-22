@@ -104,8 +104,8 @@ Brušenje žage (https://www.youtube.com/watch?v=UA5DixEaaUo)
 Vsota vseh treh kotov je enaka 90°, kar pomeni, da vsaka sprememba enega kota, vpliva na ostala dva kota..
 
 - Prednji oz. cepilni kot $\alpha$
-    - cepilni kot narekuje agresivnost odreza zato ga lagko povečamo, ko odrezujemo mehak les in ga moramo zmajšati, ko režemo trši les. Če je cepili kot velik, bodo odrezki veliki in zato morate imetu tudi več prostora med zobmi in večji prosti kot.
-    - Manjši cepilni kot bo povzročil tudi man iztrganih vlaken na spodnji/zadnji strani obdelovanca.
+    - cepilni kot narekuje agresivnost odreza zato ga lagko povečamo, ko odrezujemo mehak les in ga moramo zmajšati, ko režemo trši les. Če je cepili kot velik, bodo odrezki veliki in zato morate imeti tudi več prostora med zobmi in večji prosti kot.
+    - Večji cepilni kot bo povzročil tudi manj iztrganih vlaken na spodnji/zadnji strani obdelovanca.
     - Pri večjih potrebah točnega odreza in ne iztrgovanja vlaken lahko celo uporabljamo negativni cepilni kot (do -6 st.)
     - Prednji kot mora biti čim večji, da lahko list čim lažje reže skozi vlakna lesa. Kot se giblje med 25°za trd les (bukev, hrast,…) in 35° za mehek les (smreka, macesen,…)
 - Kot zoba oz. klina $\beta$

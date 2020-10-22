@@ -32,75 +32,55 @@
 - objektiv [spletni vir](http://www2.arnes.si/~ljuad7/objektiv.html): I.
 Šjan, Opis in delovanje objektiva
 
-- goriščna razdalja
-
+## goriščna razdalja
 -   vpliva na zorni kot -\> pespektiva -\> kako zajamemo prostor (to
     fotografiji manjka!)
--   vpliv na zorni kot tudi velikost senzorja \[[spletni
-    vir](http://www.cambridgeincolour.com/tutorials/digital-camera-sensor-size.htm)\]
--   vpliv F na
-    portret!\[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/goriscna-razdalja)[\]]{style="font-size:13.3333px"}
+-   vpliv na zorni kot tudi velikost senzorja [spletni vir](http://www.cambridgeincolour.com/tutorials/digital-camera-sensor-size.htm)
+-   vpliv F na portret!\[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/goriscna-razdalja)
 
-velikost zaslonke f:\[[spletni
-vir](http://www.satcitananda.si/Naloge%20fizike/zaslonka.pdf):Andrej,
+## velikost zaslonke
+- f:\[[spletni vir](http://www.satcitananda.si/Naloge%20fizike/zaslonka.pdf):Andrej,
 Digitalna in analogna fotografija - zaslonka \]
 
 -   čemu številke: f/2.8 f/4 f/5.6 f/8.0 f/11 f/16 f/22 ali tudi F2.8
     \... izračunajte premer pri f=50mm.
 -   deluje globalno - nadzor nad \"ambient light in nad flash\"
 
-globinska ostrina
-\[[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/globinska-ostrina)[:
-Globinska
-ostrina,]{style="font-size:13.3333px"} ]{style="font-size:13.3333px;line-height:16.6667px"}[spletni
-vir](https://en.wikipedia.org/wiki/Depth_of_field)[:
-Wiki, ]{style="font-size:13.3333px;line-height:16.6667px"}[spletni
-vir](http://www.satcitananda.si/Naloge%20fizike/globinska_ostrina.pdf):
-Andrej, Digitalna fotografija - globinska
-ostrina\][ ]{style="font-size:13.3333px;line-height:16.6667px"}
+## globinska ostrina
+- [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/globinska-ostrina)[: Globinska ostrina,]
+- [spletni vir](https://en.wikipedia.org/wiki/Depth_of_field)[: Wiki, ]
+- [spletni vir](http://www.satcitananda.si/Naloge%20fizike/globinska_ostrina.pdf): Andrej, Digitalna fotografija - globinska ostrina
 
 -   Kaj avtor želi izpostaviti? 
 -   Kako umestimo objekt v prostor?
--   Tabela of DoF \[[spletni
-    vir](http://www.dofmaster.com/doftable.html)\][ - pomembna za film,
-    danes večkrt fotografiraš]{style="font-size:13.3333px"}
--   DoF simulator: \[[spletni
-    vir](http://dofsimulator.net/en/)[\]]{style="font-size:13.3333px"}
+-   Tabela of DoF \[[spletni vir](http://www.dofmaster.com/doftable.html) - pomembna za film, danes večkrt fotografiraš
+-   DoF simulator: \[[spletni vir](http://dofsimulator.net/en/)
 
-uklon svetlobe na zaslonki:
+## uklon svetlobe na zaslonki:
 
 -   pomemben zlasti pri senzorjih majhne velikosti z veliko točkami 
--   Simulator \[[spletni
-    vir](http://www.cambridgeincolour.com/tutorials/diffraction-photography.htm):
-    Photo sensors test\]
+-   Simulator [spletni vir](http://www.cambridgeincolour.com/tutorials/diffraction-photography.htm): Photo sensors test
 
-hitrost zaklopa
+## hitrost zaklopa
+-   Ena svtovno znanih slik [spletni vir](https://en.wikipedia.org/wiki/Louis_Daguerre): Daguerre, Paris Boulevard, 1839\]
+-   nadzor nad **ambient light**! ne nad **flesh** [spletni vir](https://youtu.be/b5v7ejTAIlA?t=1734)
+-   pomaga ujeti gibanje (sliki manjka!)[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/ujemimo-gibanje)Hitrost zaklopa
+-   Priporočljiva nastavitev za ročno slikanje (čas osvetlitve naj bo manjši od F)
 
--   [Ena svtovno znanih slik \[]{style="font-size:13.3333px"}[spletni
-    vir](https://en.wikipedia.org/wiki/Louis_Daguerre): Daguerre, Paris
-    Boulevard, 1839\]
--   nadzor nad \"ambient light\"! ne nad \"flesh\" \[[spletni
-    vir](https://youtu.be/b5v7ejTAIlA?t=1734)[\]]{style="font-size:13.3333px"}
--   pomaga ujeti gibanje (sliki manjka!
-    )\[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/ujemimo-gibanje)[:
-    Hitrost zaklopa\]]{style="font-size:13.3333px"}
--   Priporočljiva nastavitev za ročno slikanje (t \< f) 
+## občutljivost "filma" ISO vrednost ( in dinamični razpon)
+- [spletni vir](http://en.wikipedia.org/wiki/Film_speed#Determining_film_speed): Wikipedia, Determining film spead \]
 
-občutljivost \"filma\" / ISO vrednost ( in dinamični razpon) \[[spletni
-vir](http://en.wikipedia.org/wiki/Film_speed#Determining_film_speed):
-Wikipedia, Determining film spead \]
-
-histogram \[[spletni
-vir](http://www.e-fotografija.si/templates/?a=497&z=0): J. Filipčič,
+- histogram [spletni vir](http://www.e-fotografija.si/templates/?a=497&z=0): J. Filipčič,
 Histogram (Iskanje idealne osvetlitve po digitalno), 12. marec, 2006,
-[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/histogram):
+- [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/histogram):
 Histogram\]
 
-http://camerasim.com/apps/original-camerasim/web//
+> ### NALOGA: 
+> Reši vse teste fotografiranja in bodi pri vseh uspešen.
+> http://camerasim.com/apps/original-camerasim/web//  
+> http://www.canonoutsideofauto.ca/play/  
 
-http://www.canonoutsideofauto.ca/play/
-
-Objektivi
+# Objektivi
 
 -   delitev \[[spletni
     vir](http://www.e-fotografija.si/templates/?a=2739): M. Intihar,
@@ -138,7 +118,7 @@ Pregled filtrov,
 [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/uporaba-polarizatorja):
 Polarizator\]
 
-Tipala
+## Tipala
 
 standard 35mm filma \[[spletni
 vir](http://en.wikipedia.org/wiki/135_film): Wikipedia, 135 film \]
@@ -159,20 +139,14 @@ CMOS-Chips: Blooming-Effekte\]
 \[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/slikovni-senzor):
 Slikovni senzor\]
 
-mikroleče \[[spletni
-vir](http://www.digitaltechnologyart.com/microlens.html): Microlens\]
+- mikroleče \[[spletni vir](http://www.digitaltechnologyart.com/microlens.html): Microlens\]
 
-točka, resolucija in ločljivost \[[spletni
-vir](http://www.youtube.com/watch?v=x2-6ae_TAsc&feature=player_detailpage#t=14s):
-A. Berger, What is a pixle? - Part 2\]
+- točka, resolucija in ločljivost \[[spletni vir](http://www.youtube.com/watch?v=x2-6ae_TAsc&feature=player_detailpage#t=14s): A. Berger, What is a pixle? - Part 2\]
 
-od točkje do barve \[[spletni
-vir](http://www.youtube.com/watch?v=2-stCNB8jT8&feature=related):
-Michael, How a Pixel Gets its Color \| Bayer Sensor \| Digital Image,
-[spletni vir](https://www.youtube.com/watch?v=dS5vKUAC3Sc)\]
+- od točkje do barve \[[spletni vir](http://www.youtube.com/watch?v=2-stCNB8jT8&feature=related): Michael, How a Pixel Gets its Color \| Bayer Sensor \| Digital Image,
+- [spletni vir](https://www.youtube.com/watch?v=dS5vKUAC3Sc)\]
 
-faktor izreza 
-
+# faktor izreza  
 -   \[[spletni
     vir](http://jure.nastran.net/wp-content/uploads/zacetni-tecaj-digitalne-fotografije3.pdf): J.
     Nastran, Začetni tečaj digitalne fotografije, str.: 4\]
