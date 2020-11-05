@@ -5,16 +5,13 @@
 [PROMET](../../Promet/index){: .btn} 
 [FOTOGRAFIJA](../../Fotografija/index){: .btn} 
 
-
 [VAJE](../Skripta/index){: .btn} 
-
-
-
-
 
 ... to do...
 
 Delovna verzija zapiskov v [pdf](./foto.pdf).
+
+- [senzor](./800_tipala_v_fotografiji) - [PDF](./800_tipala_v_fotografiji.pdf)
 
 # FOTOGRAFIJA
 

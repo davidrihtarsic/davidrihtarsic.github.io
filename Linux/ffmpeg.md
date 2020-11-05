@@ -18,3 +18,25 @@ Nato narediš convert:
 |  35  | veryslow |     2.1     | bolje, dolgo traja conv. |
 
 Table: Vpliv koeficientov pri konverziji. {#tbl:ffmpeg-conversin}
+
+## IMAGES
+
+Nekaj podatkov o fotografiji (resulucija)
+
+    file img1.png
+
+>img1.png: PNG image data, 1200 x 800, 8-bit/color RGB, non-interlaced
+
+Rescale image
+
+    convert img1.png -resize 1000x800 res_img1.png (ohrani razmerje stranic)
+    convert img1.png -resize 1000x800! res_img1.png (ne ohrani razmerja stranic)
+    convert IR_senzor2.png -resize x540 IR_senzor3.png
+    
+    ls img* | xargs -I{} convert {} -resize 1200x800! con_{} (za vse fotke ki se začnejo z con_)
+
+## STICH
+
+4x4 matrika
+
+    fmpeg -i con_img1.png -i con_img2.png -i con_img3.png -i con_img4.png -filter_complex "[0:v][1:v][2:v][3:v]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" -map "[v]"  output.png
