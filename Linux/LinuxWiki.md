@@ -79,13 +79,14 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 # HARDWARE
 
+- [3D Printer](IRA3d.md)
 - [Arduino](Arduino.md)
+- [CURA](IRA3d.md)
 - [HP-Printers](HP_Printers.md)
 - [Intel Graphic card](Intel_graphic_card.md)
 - [Keyboard](Keyboard.md)
+- [Panasonic LX100II](Panasonic_LX100.md)
 - [Screen Resolution](Xrandr.md)
 - [Sleep](Sleep.md)
-- [3D Printer](IRA3d.md)
-- [CURA](IRA3d.md)
 - [Tektronix Oscilloscope](TDS1002B.md)
 

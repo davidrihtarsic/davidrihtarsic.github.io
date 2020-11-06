@@ -6,6 +6,8 @@
 
 ![Construction sequences.](./slike/free_whelly.png){#fig:construction}
 
+Or you can follow the video [instructions](https://youtu.be/bybqvos4xYk)
+
 2. Add the battery between the red cornered bricks. The connector shuld
     be pointing to the back of the robot.
 3. Add also the RobDuino controller. Clip the controller between the grey upstanding bricks.
