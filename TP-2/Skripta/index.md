@@ -19,7 +19,8 @@
 - [Strojno razžagovanje](./110_strojno_razžagovanje)
 - [Poravnalno skoblanje](./120_poravnaljno_skobljanje)
 - [Debelinsko skobljanje](./130_debelinsko_skobljanje)
-- [](<++>)<++>
+- [Zarisovanje in prenos mer](./210_zarisovanje_in_prenos_mer)
+- [Spajanje lesa](./400_spajanje_lesnih_polizdelkov)
 
 
 Trenutno vam lahko ponudim le zelo kratke moje zapiske, ki jih uporabljam med vajami. Namen teh zapiskov je da ne pozabim omeniti kakih vsakdanjih, očitnih situacij...

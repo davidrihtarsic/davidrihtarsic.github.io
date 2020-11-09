@@ -10,8 +10,13 @@
 ... to do...
 
 Delovna verzija zapiskov v [pdf](./foto.pdf).
-
+- [objektivi](./250_objektiv)
+- [zaslonka](./260_zaslonka)
+- [svetlobna izpostavljenost](./300_svetlobna_izpostavljenost)
+- [dinamični razpon](./400_dinamicni_razpon)
 - [senzor](./800_tipala_v_fotografiji) - [PDF](./800_tipala_v_fotografiji.pdf)
+
+- [likovna teorija](./900_likovna_teorija_v_fotografiji)
 
 # FOTOGRAFIJA
 
