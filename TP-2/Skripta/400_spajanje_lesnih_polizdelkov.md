@@ -121,13 +121,28 @@ oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne
 
 #### VEZ S PERESOM IN BRAZDO
 
+- dimenzije peresa in brazde d/2 x d/2
+- lepilo po vseh površinah
+
 #### VEZ S PERESOM IN UTOR
+
+- dimenzije peresa d/2 x d/3
+- utor je 1mm globji za iztek lepila
 
 #### LASTOVIČJA VEZ
 
+- last. čep d/3 x d/3 (10°-12°) 
+- utor d/3 x d/3 (1 mm globji)
+
 #### KLINASTA VEZ
 
+- utor in čep d/3 x d/3
+
 #### ZOBATA VEZ
+
+- glede na orodje
+- zob je dimen. cca 20x
+- pogosto oblika zob sovpada z zagozdo 1:10
 
 ### DOLŽINSKO SPAJANJE LESA
 
@@ -150,7 +165,9 @@ oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne
 - vogalna
     - enojna
     - dvojna
-    - čep s peresom (povečana trdnost)
+    - čep s peresom (povečana trdnosti v smeri kota) 
+        - dim. čepa 1š x 2/3š
+        - dim. peresa 1/3d x 1/3d x 1/3š
     - jeralna (45° rama)
 
 - vmesna
@@ -160,6 +177,11 @@ oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne
     - slepa z zagozama
 
 #### MOZNIČENJE
+
+- mozniki so navadno premerov fi = [6, 8 10] mm
+- dolžina je l = (5±)x fi
+- moznik velikosti za spoj naj bo dim. fi= 1/2d
+- luknja naj bo globja za 1mm
 
 #### VEZI Z LAMELAMI
 
@@ -171,17 +193,19 @@ oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne
 
 - kotna
     - brazda s peresom in topi rob
+        - dim peresa 1d x 1/4d (estetski namen)
     - brazda s peresom z obeh smeri
-
-- vmesna
+        - dim. peresa 1/2d x 1/2d
 
 #### BRAZDA-PERO in UTOR
 
 - kotna
+    - dim. peresa 1/3d x 1/3d
 - vmesna
+    - dim. peresa max 1/2d x 1/3d
     - dno omare
     - ni namenjena za police - cepljenje pri peresu
-        - OK, če je pero na spodnji strani
+        - bolje, če je pero na spodnji strani
 
 #### RAVNA ROGLJIČNA VEZ
 
@@ -200,6 +224,6 @@ oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne
 ![Izdelava lastovičnih rogljev.](./slike/dovetails_making.png){#fig:dovetails_making}
 
 - vmesna:
-    - le z enim lastovičnij peresom
+    - le z enim lastovičnim peresom
     - drsni spoj
 
