@@ -103,6 +103,8 @@ $$ \frac{N^2}{t}=\frac{L\ ISO}{K} $${#eq:expousure_eq}
 
 $$ EV = log_2\frac{L\ ISO}{K} $${#eq:expo_svetlost}
 
+![Primer različnih nastavitev t in N za isti EV.](./slike/EVis12.png){#fig:EVis12}
+
 # Merjenje OSVETLJENOSTI
 
 - koliko svetlobe vpada na naš objekt
