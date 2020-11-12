@@ -19,9 +19,11 @@ Na svetlobno izpostavljenos vplivajo:
 
 Nekaj osnovnih pojmov, ki se navezujejo na človeško zaznavanje svetlobe in njene jakosti.
 
-## SVETILNOST
+## SVETILNOST (LIGHT INTENSITY)
 
-V splošnem fizikalnem pomenu je svetilnost razmerje med svetlobnim tokom $P$, ki ga svetlobno telo izseva v nek $\sphericalangle$ steridian prostorskega kota $\Omega$. Za merjenje svetilnosti v fiziološkem merilu (kako svetla se nam zdi luč) uporabljamo enoto **KANDELA**.
+$$ I_V[cd] = \frac{\Phi_V[lm]}{\Omega[sr]} $${#eq:light_intensity}
+
+- V splošnem fizikalnem pomenu je svetilnost razmerje med svetlobnim tokom $P$, ki ga svetlobno telo izseva v nek $\sphericalangle$ steridian prostorskega kota $\Omega$. Za merjenje svetilnosti v fiziološkem merilu (kako svetla se nam zdi luč) uporabljamo enoto **KANDELA**.
 
 #### KANDELA
 
@@ -31,23 +33,30 @@ je določena na podlagi izsevane enobarvne svetlobe z valovno dolžino $\lambda 
 
 je prostorski kot, ki bi ga orisal vrh stožca, če ga narišemo iz središče sfere z radijem r in ima ploščino osnovne ploskve velikosti r². Prostorski kot sfere meri $4\pi$.
 
-## SVETLOBNI TOK
+## SVETLOBNI TOK (LUMINANCE FLUX)
 
-Svetlobni tok (oznaka P) je fizikalna količina, ki pove količino izsevane svetlobne energije v časovni enoti = svetlobna moč. Celotni svetlobni tok skozi zaključeno ploskev okrog svetila je enak moči sevalca.
+$$  \Phi_V[lm]=\frac{I_V[cd]}{\Omega[sr]} $${#eq:luminance_flux}
 
-Kadar govorimo o vidnem svetlobnem toku, ga merimo v lumnih in ga določimo na podlagi svetilnosti merjene v kandelah. Tako je 1 lumen svetlobna moč, ki se širi v prostorski kot 1 steridiana, ki ga izseva svetlobno telo s svetilnostjo 1 kandele.
+- Svetlobni tok (oznaka P) je fizikalna količina, ki pove količino izsevane svetlobne energije v časovni enoti = svetlobna moč. Celotni svetlobni tok skozi zaključeno ploskev okrog svetila je enak moči sevalca.
 
-Ker je prostorski kot sfere enak $4\pi$ ima tako ena sveča svetlobno tok $4\pi$ lumnov = 12.56 lm. Bolj oprijemljiv podatek o svetlobnem toku svetil pa lahko najdemo na njihovi embalaži, kjer lahko najdete vrednosti od 600 - 1000 lumnov.
+- Kadar govorimo o vidnem svetlobnem toku, ga merimo v lumnih in ga določimo na podlagi svetilnosti merjene v kandelah. Tako je 1 lumen svetlobna moč, ki se širi v prostorski kot 1 steridiana, ki ga izseva svetlobno telo s svetilnostjo 1 kandele.
 
-## OSVETLJENOST
+- Ker je prostorski kot sfere enak $4\pi$ ima tako ena sveča svetlobno tok $4\pi$ lumnov = 12.56 lm. Bolj oprijemljiv podatek o svetlobnem toku svetil pa lahko najdemo na njihovi embalaži, kjer lahko najdete vrednosti od 600 - 1000 lumnov.
 
-Osvetljenost pa je skupni vpadajoči **svetlobni tok** na enoto površine. In zopet, kadar nas zanima fiziološka količina jo preračunamo s svetlobnim tokom merjenim v lumnih in jo podamo v t.i. luksih ali $lux = lm/m²$.
+## OSVETLJENOST (ILLUMINANCE)
 
-## SVETLOST
+$$ E_V [lux] = \frac{\Phi_V[lm]}{A[m^2]}$${#eq:illuminance}
 
-Svetlost označuje koliko svetlobne moči, oziroma toka, bo zaznalo oko, ki gleda na površino z neko površino $A$ iz določenega kota. Svetlost je tako pokazatelj kako svetla se bo zdela površina $A$.
+- Osvetljenost pa je skupni vpadajoči **svetlobni tok** na enoto površine. In zopet, kadar nas zanima fiziološka količina jo preračunamo s svetlobnim tokom merjenim v lumnih in jo podamo v t.i. luksih ali $lux = lm/m^2$.
+- koliko svetlobe prehaja neko površino v prostoru
 
-Svetlost je tako odvisna od kota $\Theta$ (v °) pod katerim gledamo osvetljeno telo s površino $A$ ($m^2$) od katerega se odvija svetloba s svetlobnim tokom P ($lm = cd / sr$) in se širi v prostorski kot $\Omega$ ($sr$). Svetilnost podajamo v enoti cd/m^2.
+## SVETLOST (LUMINANCE)
+
+$$ L_V[\frac{cd}{m^2}] = \frac{\Phi_V[lm]}{A[m^2] \Omega[sr] cos\Theta[^\circ]} $${#eq:luminance}
+
+- Svetlost označuje koliko svetlobne moči, oziroma toka, bo zaznalo oko, ki gleda na površino z neko površino $A$ iz določenega kota. Svetlost je tako pokazatelj kako svetla se bo zdela površina $A$.
+
+- Svetlost je tako odvisna od kota $\Theta$ (v °) pod katerim gledamo osvetljeno telo s površino $A$ ($m^2$) od katerega se odvija svetloba s svetlobnim tokom P ($lm = cd / sr$) in se širi v prostorski kot $\Omega$ ($sr$). Svetilnost podajamo v enoti cd/m^2.
 
 # OPTIČNE NAPRAVE
 
@@ -82,6 +91,8 @@ Svetlost je tako odvisna od kota $\Theta$ (v °) pod katerim gledamo osvetljeno 
 
 # MERJENJE SVETLOSTI
 
+- koliko svetlobe se odbije od predmeta v našo smer
+
 $$ \frac{N^2}{t}=\frac{L\ ISO}{K} $${#eq:expousure_eq}
 
 - N = zaslonsko število
@@ -94,6 +105,8 @@ $$ EV = log_2\frac{L\ ISO}{K} $${#eq:expo_svetlost}
 
 # Merjenje OSVETLJENOSTI
 
+- koliko svetlobe vpada na naš objekt
+
 $$ EV = log_2\frac{E\ ISO}{C} $${#eq:expo_osvetljenost}
 
 - L = povprečna svetlost (cd/m²)
@@ -103,7 +116,7 @@ $$ EV = log_2\frac{E\ ISO}{C} $${#eq:expo_osvetljenost}
 - Zakaj bi merili kolikšno osvetljenost imamo v prostoru namesto, da bi merili že odbito svetlobo in s tem svetlost površine?
     - kadar nimamo "srednje sive" površine
     - vrednosti kontrastnih površin lahko preveč zavajajo
-    - barve imajo različen albedo fakto (odbojni faktor)
+    - barve imajo različen albedo faktor (odbojni faktor)
 
 ## VIRI IN LITERATURA
 

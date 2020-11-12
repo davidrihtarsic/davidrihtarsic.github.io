@@ -14,9 +14,9 @@ Delovna verzija zapiskov v [pdf](./foto.pdf).
 - [zaslonka](./260_zaslonka)
 - [svetlobna izpostavljenost](./300_svetlobna_izpostavljenost)
 - [dinamični razpon](./400_dinamicni_razpon)
-- [senzor](./800_tipala_v_fotografiji) - [PDF](./800_tipala_v_fotografiji.pdf)
+- [senzor](./500_tipala_v_fotografiji) - [PDF](./500_tipala_v_fotografiji.pdf)
 
-- [likovna teorija](./900_likovna_teorija_v_fotografiji)
+- [likovna teorija](./600_likovna_teorija_v_fotografiji)
 
 # FOTOGRAFIJA
 
@@ -266,46 +266,19 @@ Portreti
     del na sliki so oči)
 -   pogled se nadaljuje v sliko !
 
-</div>
+# DIGITALNA OBDELAVA
 
-<div>
+## Pregled programov
 
-\
+### GIMP
 
-</div>
+- osnovna uporaba GIMP programskega orodja
+- obdelava portreta (soft skin - [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/gimp))
+- uporaba in trasformacija "mini planet" - [e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/gimp-2015)
 
-<div>
-
-\
-
-</div>
-
-<div>
-
-**DIGITALNA OBDELAVA**
-
-</div>
-
-<div>
-
-Pregled programov
-
-GIMP -
-\[[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/gimp):
-uporaba in portret,
-[e-skripta](https://sites.google.com/site/tp4fotografija/e-skripta/gimp-2015):uporaba
-in mini planet\]
-
-GIMP - lepljenje slik v panoramo (uporaba scripta) \[[spletni
-vir](https://helpx.adobe.com/photoshop/how-to/photoshop-panorama.html):
-Create panoramic photo\]
-
--   namestitev scripta \[spletni vir : [Installing
-    Script-Fu](http://docs.gimp.org/en/install-script-fu.html)\]
--   [pandora-combine-0.9.3.scm](http://www.shallowsky.com/software/pandora/pandora-combine-0.9.3.scm) \[[spletni
-    vir](http://www.shallowsky.com/software/pandora/): A.
-    Peck, http://www.shallowsky.com, Pandora: a GIMP Plugin for Making
-    Panoramas\]
+- lepljenje slik v panoramo (uporaba scripta) \[[spletni vir](https://helpx.adobe.com/photoshop/how-to/photoshop-panorama.html):Create panoramic photo\]
+    - namestitev scripta \[spletni vir : [Installing Script-Fu](http://docs.gimp.org/en/install-script-fu.html)
+    - [pandora-combine-0.9.3.scm](http://www.shallowsky.com/software/pandora/pandora-combine-0.9.3.scm) [spletni vir](http://www.shallowsky.com/software/pandora/): A.Peck, http://www.shallowsky.com, Pandora: a GIMP Plugin for Making Panoramas
 -   odpri slike v novih plasteh
 -   urejanje plasti v pravilen vrstni red
 -   funkcija \"Uredi kot Panorama\" in nastavitve
