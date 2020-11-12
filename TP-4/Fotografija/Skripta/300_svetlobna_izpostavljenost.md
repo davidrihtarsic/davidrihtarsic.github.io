@@ -109,7 +109,7 @@ $$ EV = log_2\frac{L\ ISO}{K} $${#eq:expo_svetlost}
 
 $$ EV = log_2\frac{E\ ISO}{C} $${#eq:expo_osvetljenost}
 
-- L = povprečna svetlost (cd/m²)
+- E = povprečna osvetljenost (cd/m²)
 - ISO = občutljivost foto. medija
 - C = konstanta osvetljenosti (od 240 - 400 lux; ponavadi je uporabljen C = 250 lux)
 
