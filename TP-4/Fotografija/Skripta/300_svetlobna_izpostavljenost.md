@@ -121,5 +121,6 @@ $$ EV = log_2\frac{E\ ISO}{C} $${#eq:expo_osvetljenost}
     - barve imajo različen albedo faktor (odbojni faktor)
 
 ## VIRI IN LITERATURA
-
+<!--
 https://www.youtube.com/watch?v=-BHbY9p4BgI
+-->

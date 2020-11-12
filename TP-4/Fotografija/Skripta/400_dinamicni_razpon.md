@@ -1,6 +1,5 @@
 # DINAMIČNI RAZPON
 
-https://www.youtube.com/watch?v=2sshGdMgJxQ
 
 - ... je razmerje med:
     - največjo vrednostjo, ki jo lahko merimo in
@@ -81,3 +80,7 @@ Table: Preračun osvetljenosti v 8-bitno vrednost. {#tbl:data_val}
     - Kadar želimo ohraniti detajae v svetlih delih:
         - ISO večji in večji EV (krajši čas in ožja zaslonka)
 
+<!--
+https://www.youtube.com/watch?v=2sshGdMgJxQ
+
+-->
