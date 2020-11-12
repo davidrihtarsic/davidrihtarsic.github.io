@@ -1,6 +1,5 @@
 # DINAMIČNI RAZPON
 
-
 - ... je razmerje med:
     - največjo vrednostjo, ki jo lahko merimo in
     - najmanjšo vrednostjo, ki jo lahko merimo (šum)
@@ -45,7 +44,7 @@
 - količina svetlobe se podvoji med vsako vrstico v tabeli
 - z LOG transformacijo lahko dosežemo enakomerne din. razpone (+17 ADC v tabeli)
 
-| F/STOP | Rel. Osv. | Obč. očesa | Obč. tipala | OETF ( γ = 1/2.2) | LOG tr. |
+| F/STOP | Rel. Osv. | Obč. očesa | Obč. tipala | OETF ( $\gamma=1/2.2$) | LOG tr. |
 |:------:|:---------:|:----------:|:-----------:|:-----------------:|:-------:|
 |    0   |    100%   |     255    |     255     |        255        |   255   |
 |    1   |    50%    |     203    |     128     |        186        |   238   |
