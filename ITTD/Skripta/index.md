@@ -16,3 +16,5 @@
 
 1. [Uporaba krmilnika ESP32](./100_ESP32_Hello_World) - [PDF](./100_ESP32_Hello_World.pdf)
 2. [Merjenje temperature - LM35](./200_Merjenje_temperature_LM35) - [PDF](./200_Merjenje_temperature_LM35.pdf)
+
+[Zbirka vaj (work in progress)](./ITTD_2020.pdf)
