@@ -11,6 +11,7 @@ bibliography: /home/david/Files/Work/UL-PeF/Articles/00-BibTex/bibtex.bib
 lang: sl 				# [sl, en-US, us-GB]
 template: skripta			# [eisvogel, skripta, raw] 
 table-use-row-colors: true
+urlcolor: violet
 listings: true
 eqnPrefix: ""
 figPrefix: "sl."
