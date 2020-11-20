@@ -73,6 +73,7 @@ Na tej strani lahko najdete nekaj napotkov za Linux-e...
 - [blender](blender.md)
 - [FlightGear](flightgrear.md)
 - [Yenka](Yenka.md)
+- [Fritzing](Fritzing.md)
 - [FreeCAD](FreeCAD.md)
 - [PulseView](PulseView.md)
 - [sigrok](PulseView.md)
