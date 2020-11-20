@@ -7,9 +7,9 @@ Program za nazoren prikaz sestavljanja elektronskih vezij. Lahko vam je v veliko
 ## Namestitev
 
 - Linux:
-    - enostavne preko vašega upravlalca programskih vsebin:
-    - debian, ubuntu: `sudo apt install fritzing fritzing-data fritzing-parts`
-    - arch: yay -S fritzing
+    - enostavno preko vašega upravlalca programskih vsebin:
+      - debian, ubuntu: `sudo apt install fritzing fritzing-data fritzing-parts`
+      - arch: `yay -S fritzing`
 - Windows:
     - na uradni strani [Fritzing projekta](https://fritzing.org/download/) je možnost prenosa programa le plačljiva
     - vendar je na GitHub strežnikih prostodostopna koda [Fritzinga](https://github.com/fritzing/fritzing-app) a jo morate še prevesti za vaš sistem
