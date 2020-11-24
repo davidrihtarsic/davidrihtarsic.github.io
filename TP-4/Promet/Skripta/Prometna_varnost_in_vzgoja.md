@@ -16,13 +16,13 @@ V okviru svojih aktivnosti izvaja AVP različne preventivne akcije ter programe 
 
 ## 1. RAZRED - SPOZNAVANJE OKOLJA
 
-opazujejo in spoznajo prometne poti v okolici šole in poznajo varno pot v šolo,
-znajo opisati, kaj pomenijo prometni znaki, pomembni za pešce in kolesarje v okolici šole,
-poznajo pravila varne hoje (skupinske, ob odrasli osebi, po pločniku, kjer ni pločnika, prečkanje ceste ipd.),
-razumejo pomen vidnosti v prometu, v povezavi z ustavljanjem vozila ter nošenjem rumene rutice in uporabo kresničke,
-presojajo vedenje sopotnika v različnih prevoznih sredstvih,
-vedo, da udeležba v prometu pod vplivom alkohola, mamil in zdravil ogroža vse udeležence v prometu,
-znajo zgraditi model okolice šole in na njem simulirajo promet in prometne situacije,
+- opazujejo in spoznajo prometne poti v okolici šole in poznajo varno pot v šolo,
+- znajo opisati, kaj pomenijo prometni znaki, pomembni za pešce in kolesarje v okolici šole,
+- poznajo pravila varne hoje (skupinske, ob odrasli osebi, po pločniku, kjer ni pločnika, prečkanje ceste ipd.),
+- razumejo pomen vidnosti v prometu, v povezavi z ustavljanjem vozila ter nošenjem rumene rutice in uporabo kresničke,
+- presojajo vedenje sopotnika v različnih prevoznih sredstvih,
+- vedo, da udeležba v prometu pod vplivom alkohola, mamil in zdravil ogroža vse udeležence v prometu,
+- znajo zgraditi model okolice šole in na njem simulirajo promet in prometne situacije,
 
 ## 2. RAZRED - SPOZNAVANJE OKOLJA
 
