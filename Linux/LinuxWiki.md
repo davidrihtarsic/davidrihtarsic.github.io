@@ -24,11 +24,11 @@ Manjaro Linux is a fast, user-friendly, desktop-oriented operating system based 
 #### [BunsenLabs](https://www.bunsenlabs.org/)
 BunsenLabs Linux is a distribution offering a light-weight and easily customizable Openbox desktop. The BunsenLabs distribution is based on Debian's Stable branch and is a community continuation of the CrunchBang Linux distribution.
 
-####[ArchLabs](https://archlabslinux.com/)
+#### [ArchLabs](https://archlabslinux.com/)
 ArchLabs is a distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface. ArchLabs is a 64-bit, rolling release distribution which provides a live DVD. The distribution can be installed using the AL-Installer system installer.
 
 ### FANCY
-####[Garuda](https://garudalinux.org/)
+#### [Garuda](https://garudalinux.org/)
 Garuda Linux is a rolling distribution based on the Arch Linux operating system. Unlike Arch Linux, Garuda Linux comes with a graphical installer (Calamares) for easy installation, and other advanced graphical tools for managing your system. Garuda is a performance-oriented distro with many performance enhancing tweaks. Some of the many tweaks include using zram, a performance CPU governor, along with custom memory management software. Garuda Linux has striven to provide system stability by including the Timeshift backup utility.
 
 # INSTALLATION
