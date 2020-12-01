@@ -583,8 +583,9 @@ Teoretični del kolesarskega izpita poteka preko spletnega portala Kolesar z vna
 
 Za organizacijo tekmovanj Kaj veš o prometu pa je potrebno kontaktirati AVP – SPV, da mentor ter predstavnik občinskega SPV prejme posebno geslo za vstop v testiranje.
 
-Spletni SIO portal KOLESAR (povezava)
+Spletni SIO portal KOLESAR ([povezava](https://skupnost.sio.si/course/view.php?id=8971))
 
+Vaje za druge kategorije iz cestno prometnih predpisov pa so na voljo na [tej strani](http://teorija-priprava.gov.si/moodle/login/index.php)
 
 Spretnostni poligon za kolesarje
 Otroci se morajo po uspešno opravljenem teoretičnem delu kolesarskega izpita usposobiti tudi v spretnostni vožnji, zato je oblikovan Spretnostni poligon z ovirami, ki simulirajo različne spretnosti potrebne za vožnjo kolesa v dejanskem prometu: zavijanje, vijuganje, vožnja če oviro, po klancu, vožnja z eno roko, vzdrževanje ravnotežja, ustavljanje itd.

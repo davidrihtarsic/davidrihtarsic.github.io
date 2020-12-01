@@ -17,12 +17,14 @@
 6. Označiš ploskev na kateri želiš dodati element predmeta
 7. Repeat from #4.
 
-
-
 ## Shoortcuts
 
 0 - Isometric View
 
+## Tips & Tricks
+
+- [Izdelava zobnikov](https://www.youtube.com/watch?v=0zxjOB2Cao8)
+    - Gear workbench
 
 ## Workarounds
 
