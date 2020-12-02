@@ -52,7 +52,8 @@ Pravzaprav robot ne bo vozil po črti ampak po robu črte. Predvidimo, da imamo 
 
 > ### NALOGA: VOŽNJA PO ČRTI
 >
-> Sprogramirajte robota tako, da bo vozil po robu črte. V poročilo pa oddajte programsko kodo vaše rešitve.
+> 1. Sprogramirajte robota tako, da bo vozil po robu črte. V poročilo pa oddajte programsko kodo vaše rešitve.
+> 2. Dopolnite program tako, da se bo robotek na koncu črte tudi ustavil.
 
 <!--
 ```cpp
