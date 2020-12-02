@@ -25,7 +25,7 @@ V naši izvedbi svetlobnega senzorja bomo uporabili foto-tranzistor, ki ga bomo 
 > 4. Nato izberite referenčni upor $R_{ref}$ pri katerem ste dobili največji odziv = razlika izhodnega napetostnega potenciala senzorja pri različni osvetljenosti.
 
 
-| površina | $R_{ref}$ | $U_{iz}$ | $U_{ref}$ | $U_{Tr}$ | $I_{R_{ref}}$ | $I_{Tr}$ | R_{Tr} |
+| površina | $R_{ref}$ | $U_{iz}$ | $U_{ref}$ | $U_{Tr}$ | $I_{R_{ref}}$ | $I_{Tr}$ | $R_{Tr}$ |
 |:--------:|:---------:|:--------:|:---------:|:--------:|:-------------:|:--------:|:------:|
 |          |           |          |           |          |               |          |        |
 |          |           |          |           |          |               |          |        |
