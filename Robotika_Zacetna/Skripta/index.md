@@ -21,8 +21,10 @@ Bolj podrobno pa si bomo pogledali naslednje vsebine:
 - [Functions](./120_Functions)
 - [Loops](./130_Loops)
 - ...
+
 <!---
 - Basic Electronics - Simple Voltage divider - key
 - Basic Electronics - Voltage divider & 2nd Kirshoff's rule
--
 -->
+
+- [Light sensor](./Light_sensor) - [PDF](./Light_sensor.pdf)
