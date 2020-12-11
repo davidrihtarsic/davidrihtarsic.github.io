@@ -105,7 +105,9 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 # HARDWARE
 
-- [3D Printer](IRA3d.md)
+- [3D Printer](3dPrinting.md)
+- [Ender3_v2](Ender3_v2.md)
+- [IRA3D](IRA3d.md)
 - [Arduino](Arduino.md)
 - [CURA](IRA3d.md)
 - [HP-Printers](HP_Printers.md)
