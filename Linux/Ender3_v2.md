@@ -22,7 +22,7 @@ OpenSource firmware lahko dobimo na tej strani:
 - oranžen okvirček pri ikonah
 - oranžen okvirček kurzorja v sub-meniju
 - ~~razvrstitev file-ov po datumu (novejši zgoraj)~~
-- [patched_firmware](./bin/firmware-20201211-104509.bin)
+- [patched_firmware](./bin/firmware-20201213-184304.bin)
 
 ### Galery
 
