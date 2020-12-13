@@ -21,9 +21,14 @@ OpenSource firmware lahko dobimo na tej strani:
 - marilin verzija 2.0.7
 - oranžen okvirček pri ikonah
 - oranžen okvirček kurzorja v sub-meniju
-- razvrstitev file-ov po datumu (novejši zgoraj)
+- ~~razvrstitev file-ov po datumu (novejši zgoraj)~~
 - [patched_firmware](./bin/firmware-20201211-104509.bin)
 
 ### Galery
 
-... to do.
+
+![](./slike/Ender3v2_Home.JPG)
+
+![](./slike/Ender3v2_Marlin207.JPG)
+
+![](./slike/Ender3v2_Prepare.JPG)
