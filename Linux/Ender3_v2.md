@@ -27,4 +27,4 @@ OpenSource firmware lahko dobimo na tej strani:
 ### Galery
 
 
-![](./slike/Ender3v2_Home.JPG =220x)![](./slike/Ender3v2_Marlin207.JPG =220x)![](./slike/Ender3v2_Prepare.JPG =220x)
+![](./slike/Ender3v2_Home.JPG =220x) ![](./slike/Ender3v2_Marlin207.JPG =220x) ![](./slike/Ender3v2_Prepare.JPG =220x)
