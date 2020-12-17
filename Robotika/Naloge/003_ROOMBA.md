@@ -14,7 +14,7 @@
 ## Uporaba senzorja razdalje
 - za merjenje razdalje do predmeta in s tem
 prilagajanje hitrosti vožnje (da s polno hitrostjo
-ne zadanemo ovire)
+ne zadajemo ovire)
 
 ## Uporaba PWM krmiljenja
 - prilagajanje hitrosti vožnje glede na:
@@ -22,3 +22,4 @@ ne zadanemo ovire)
     - bližino ovire
 
 ## Zanimiva programska rešitev
+- naključno gibanje robota
