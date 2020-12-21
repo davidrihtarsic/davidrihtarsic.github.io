@@ -20,3 +20,7 @@
 
 ## Zanimiva programska rešitev
 - zaznavanje vrste garaže
+
+## Priloge
+
+![Poligin.](./slike/P7_parking.png){#fig:poligon}
