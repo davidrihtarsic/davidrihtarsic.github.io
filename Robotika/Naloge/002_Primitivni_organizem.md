@@ -13,10 +13,10 @@
 - iskanje najsvetlejšega predmeta
 
 ## Uporaba senzorja razdalje
-- zaznavanje mize, da ne pade čez rob mize
+- v bližini predmeta naj pelje počasneje
 
 ## Uporaba PWM krmiljenja
-- bolj ko je svetlo - počasneje naj se pelje
+- v bližini predmeta naj pelje počasneje
 
 ## Zanimiva programska rešitev
 - iskanje najsvetlejšega predmeta v okolici
