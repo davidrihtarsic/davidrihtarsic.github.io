@@ -20,3 +20,7 @@
 
 ## Zanimiva programska rešitev
 - bližina zidu vs rob sobe
+
+## Priloge
+
+![Poligon za iskanje Minotaura.](./slike/P6-Minotauer.png){#fig:poligon}
