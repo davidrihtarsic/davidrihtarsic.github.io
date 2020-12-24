@@ -2,6 +2,7 @@
 
 [INFO](./index){: .btn} 
 [VAJE](./Skripta/index){: .btn} 
+[PROJEKTI](../Projekti/index){: .btn}
 [OBVESTILA](./Obvestila/index ){: .btn}
 
 # Osnovne informacije
@@ -16,8 +17,5 @@ Vaje iz predmeta projekti iz elektronike potekajo v prvem semestru, 3. letnika v
 1. Uspešno opravljen zagovor (50%) (5 vprašanj, ocenjenih po trojiškem sistemu)
 2. Izdelan projekt (50%), ki bo ocenjen po kriterijih:
     1. Projekt naj bo neka elektronska naprava, ki za svoje delovanje ne vključuje napetosti višjih od 12 V (50%).
-    2. Poročilo napišete v obliki znanstvenega članka in ga objavite na spletni strani(15%).
-    3. Nato svoj izdelek predstavite sošolcem (15%).
-    4. Kjer se oceni tudi vaš nastop (izgovorjava, terminologija, spoštovanje časovnih omejitev - 2%).
-    5. Po predstavitvi imate nato nekaj časa za vprašanja in razpravo, kjer odgovarjate na zastavljena vprašanja (12%).
-    6. Kot poslušalec pa boste morali vprašanja tudi smiselno zastavljati (6)%...
+    2. Poročilo napišete v obliki znanstvenega članka in ga objavite na spletni strani(30%).
+    3. Nato svoj izdelek predstavite sošolcem (20%).
