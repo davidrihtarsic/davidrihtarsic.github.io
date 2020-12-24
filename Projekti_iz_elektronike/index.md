@@ -2,7 +2,7 @@
 
 [INFO](./index){: .btn} 
 [VAJE](./Skripta/index){: .btn} 
-[PROJEKTI](../Projekti/index){: .btn}
+[PROJEKTI](./Projekti/index){: .btn}
 [OBVESTILA](./Obvestila/index ){: .btn}
 
 # Osnovne informacije
