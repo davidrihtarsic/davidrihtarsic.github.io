@@ -101,6 +101,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [Yenka](Yenka.md)
 - [Fritzing](Fritzing.md)
 - [FreeCAD](FreeCAD.md)
+- [CURA](IRA3d.mdk
 - [PulseView](PulseView.md)
 - [sigrok](PulseView.md)
 
@@ -110,10 +111,10 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [Ender3_v2](Ender3_v2.md)
 - [IRA3D](IRA3d.md)
 - [Arduino](Arduino.md)
-- [CURA](IRA3d.md)
 - [HP-Printers](HP_Printers.md)
 - [Intel Graphic card](Intel_graphic_card.md)
 - [Keyboard](Keyboard.md)
+- [NVIDIA](nvidia.md)
 - [Panasonic LX100II](Panasonic_LX100.md)
 - [Screen Resolution](Xrandr.md)
 - [Sleep](Sleep.md)
