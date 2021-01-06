@@ -6,7 +6,7 @@
 [FOTOGRAFIJA](../Fotografija/index){: .btn} 
 
 
-[VAJE](./Skripta/index){: .btn} 
+[VAJE](./Skripta/index){: .btn}  
 [Navodila za spuščanje letala](./Skripta/Nastavitve_Jadralnega_Letala.pdf)
 
 ## Osnovne informacije
