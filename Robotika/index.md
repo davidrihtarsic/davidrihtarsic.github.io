@@ -1,6 +1,6 @@
 # ROBOTIKA
 [INTRO](./index){: .btn}
-[VSEBINE](./Skripta/index){: .btn}
+[VSEBINE](./Vsebine/index){: .btn}
 [INFO](./info){: .btn}
 [OBVESTILA](./Obvestila/index){: .btn}
 
