@@ -1,7 +1,5 @@
 # [ROBOTIKA](./index) >> INFO
 
-***
-
 [INTRO](./index){: .btn}
 [VSEBINE](./Skripta/index){: .btn}
 [INFO](./info){: .btn}
