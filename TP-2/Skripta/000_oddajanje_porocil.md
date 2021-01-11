@@ -5,7 +5,7 @@
 ## Naslov vaje
 
 - obvezna tehniška pisava
-- skiva
+- skica
 - izpolnjeni podatki.
 
 ## Predstavitev vaje

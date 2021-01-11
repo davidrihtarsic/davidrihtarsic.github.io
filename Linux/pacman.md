@@ -14,4 +14,5 @@ Direktorij kjer lahko najdeš vse pakete za nazaj pa imamo v
 
     /var/cache/pacman/pkg
 
+### TROUBLESHOOTING
 
