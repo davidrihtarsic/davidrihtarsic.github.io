@@ -1,9 +1,12 @@
 # [ROBOTIKA](../index) >> VSEBINE
+
 ***
+
 [INTRO](../index){: .btn}
 [VSEBINE](../Skripta/index){: .btn}
 [INFO](../info){: .btn}
 [OBVESTILA](../Obvestila/index){: .btn}
+
 ***
 
 Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje učenje robotike`. Skripto (delovno verzijo) lahko najde na [tej povezavi](../../Robotika_Zacetna/Skripta/Beginners_Robotics), ali si presnemite [PDF](../../Robotika_Zacetna/Skripta/Beginners_Robotics.pdf).
