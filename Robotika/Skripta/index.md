@@ -9,7 +9,7 @@
 
 - [PROGRAMSKA OPREMA](./010_Namestitev_programske_opreme) - [PDF](./010_Namestitev_programske_opreme.pdf)
 - [SESTAVNI GRADNIKI](../Oprema/Oprema_popis)  
-- [TESTIRANJE SENZORJEV IN SKTUATORJEV](./900_Testiranje_opreme) - [PDF](./900_Testiranje_opreme.pdf)
+- [TESTIRANJE SENZORJEV IN AKTUATORJEV](./900_Testiranje_opreme) - [PDF](./900_Testiranje_opreme.pdf)
 
 ## UČNE VSEBINE
 
