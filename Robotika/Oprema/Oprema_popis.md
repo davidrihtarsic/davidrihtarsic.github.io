@@ -1,9 +1,9 @@
 # OPREMA ZA ROBOTIKO
 
-Oprema je razdeljena na tri sklope:
-1. Elektronika,
-2. Računalništvo,
-3. Mehanika.
+Oprema je razdeljena v tri sklope:
+1. [ELEKTRONIKA](#ELEKTRONIKA),
+2. RAČUNALNIŠTVO,
+3. MEHANIKA.
 
 Tako strukturo smo izbrali glede na osnovni element robotike, ki je **programska zanka s povratnim delovanjem** ali kot jo najdemo v angl. literaturi **S-R-A loop** .
 
