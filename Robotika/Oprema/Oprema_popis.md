@@ -39,7 +39,7 @@ Oprema je razdeljena v tri sklope:
 - ležišče za 2x18650 LiIon akumulatorje
 - 2x 18650 LiIon akumulator
 
-## MEHNIKA
+## MEHANIKA
 
 ### KONSTRUKCIJSKI ELEMENTI
 - 12x kvader 15x15x30mm

@@ -1,6 +1,12 @@
-# Obvestila
+# [ELEKTRONIKA](../index) >> Obvestila
+
+[INTRO](./index){: .btn}
+[VSEBINE](../Vsebine/vsebine){: .btn}
+[INFO](./info){: .btn}
+[OBVESTILA]( ./Obvestila/index ){: .btn}
 
 ---
+
 ** 2020-08-20 : Rezultati zagovora **  
 [Rezultati zagovora in končnih ocen](./2020_08_20_rezultati_zagovora_in_KO.md)
 

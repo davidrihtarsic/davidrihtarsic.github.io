@@ -1,4 +1,11 @@
-# Skripta iz vaj ELEKTRONIKE
+# [ELEKTRONIKA](../index) >> Skripta za študente PeF
+
+[INTRO](./index){: .btn}
+[VSEBINE](../Vsebine/vsebine){: .btn}
+[INFO](./info){: .btn}
+[OBVESTILA]( ./Obvestila/index ){: .btn}
+
+---
 
 [1 - Napajanje]( ./01_Napetostni_potencial.html ) - [PDF]( ./01_Napetostni_potencial.pdf )  
 [2 - Arduino Nano]( ./02_krmilnik_Arduino_NANO.html ) - [PDF]( ./02_krmilnik_Arduino_NANO.pdf )  
