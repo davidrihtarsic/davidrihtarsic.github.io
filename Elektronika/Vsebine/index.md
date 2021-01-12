@@ -1,4 +1,4 @@
-# [ELEKTRONIKA](../index) >> Vsebine
+# [ELEKTRONIKA](../index)  Vsebine
 
 [INTRO](../index){: .btn}
 [VSEBINE](../Vsebine/vsebine){: .btn}
