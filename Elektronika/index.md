@@ -1,8 +1,8 @@
 # ELEKTRONIKA
-[ HOME](./index){: .btn}
-[📑VSEBINE](./Vsebine/vsebine){: .btn}
-[ INFO](./info){: .btn}
-[⏰ OBVESTILA]( ./Obvestila/index ){: .btn}
+[:house: HOME](./index){: .btn}
+[:memo: VSEBINE](./Vsebine/vsebine){: .btn}
+[:info: INFO](./info){: .btn}
+[:bulb; OBVESTILA]( ./Obvestila/index ){: .btn}
 
 ---
 
