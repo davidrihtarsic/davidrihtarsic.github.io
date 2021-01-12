@@ -8,7 +8,7 @@
 
 # Električna vezja s fischertechnik zbirko
 
-[![elektronsko vezje s fischertechnik gradniki](http://img.youtube.com/vi/GyEhBJosUVw/0.jpg)](https://www.youtube.com/watch?v=GyEhBJosUVw)
+[![elektronsko vezje s fischertechnik gradniki](http://img.youtube.com/vi/GyEhBJosUVw/0.jpg)](https://www.youtube.com/watch?v=GyEhBJosUVw){:target="_blank"}
 
 Fischertechnik zbirka ne vsebuje več raznovrstnih elektronskih elementov s katerimi bi lahko gradili elektronska vezja. Zato si lahko pomagate tako, da si lahko s 3D tiskalnikom natisnete vložišče za katerikoli elektronski element z dvema priključkoma in ga vložite vanj.
 
