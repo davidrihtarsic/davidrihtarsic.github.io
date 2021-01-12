@@ -14,5 +14,5 @@
 ## Razno
 
 - [Fritzing elementi]()
-- [fischertechnik in elektronika](ft_in_elektronika)
+- [fischertechnik in elektronika](./FT_in_elektronika/ft_in_elektronika)
 
