@@ -1,4 +1,4 @@
-# [ELEKTRONIKA](../../index) ↪ Subfolder
+# [ELEKTRONIKA](../../index) ↪ Fischertechnik in elektronika
 [🧭DOMOV](../../index){: .btn}
 [📝VSEBINE](../../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../../info){: .btn}
@@ -6,7 +6,7 @@
 
 ---
 
-# Električna vezja s fischerteshnik zbirko
+# Električna vezja s fischertechnik zbirko
 
 [![elektronsko vezje s fischertechnik gradniki](http://img.youtube.com/vi/GyEhBJosUVw/0.jpg)](https://www.youtube.com/watch?v=GyEhBJosUVw)
 
