@@ -7,4 +7,6 @@
 
 ---
 
+- [Arduino - fischertechnik adapter (STL)](./ArduinoFischerTechnicAdapter/RobDuino-FT-Adapter-v2.stl)
+- [Arduino - fischertechnik adapter (FreeCAD)](./ArduinoFischerTechnicAdapter/RobDuino-FT-Adapter-v2.stl)
 
