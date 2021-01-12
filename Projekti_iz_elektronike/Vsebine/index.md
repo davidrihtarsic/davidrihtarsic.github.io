@@ -8,6 +8,8 @@
 ---
 
 - [Skripta za študente](../Skripta/index)
-- [Projekti](../Projekti/index)
 
 ---
+
+## Projekti
+- [Projekti](../Projekti/index)
