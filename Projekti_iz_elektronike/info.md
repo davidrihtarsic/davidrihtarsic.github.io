@@ -7,6 +7,9 @@
 
 ---
 
+- [Obvestila za študente](./Obvestila/index.md)
+
+---
 # Osnovne informacije
 
 Vaje iz predmeta projekti iz elektronike potekajo v prvem semestru, 3. letnika vezav s TEHNIKO. Vaje obsegajo 2 LV in 1 SE tedensko (od katerih se najprej izvedejo vse vaje in nato še seminar). Prisotnost študenta na vajah mora biti najmanj 80%, drugače študent ne more opravljati zagovora vaj in s tem tudi ne izpita. Za polno prisotnost na vaji se šteje, da je študent fizično prisoten (50%) in da izpolni nalogo vaje do konca (50%).

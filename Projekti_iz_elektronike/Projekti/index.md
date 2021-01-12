@@ -1,13 +1,24 @@
-# PROJEKTI IZ ELEKTRONIKE
+# [PROJEKTI IZ ELEKTRONIKE](../index) ↪ Projekti
 
-[INFO](../index){: .btn}
-[VAJE](../Skripta/index){: .btn}
-[PROJEKTI](../Projekti/index){: .btn}
-[OBVESTILA]( ../Obvestila/index ){: .btn}
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
+
+---
+
+- [Projekti](#seznam-projektov)
+- [Predloga poročila](#predloga-poročila)
+
+---
 
 ## Seznam projektov
 
-## Predloga za pisno poročilo projekta
+### 2020
+
+- [klavir](./2020/Ajda/digitlani_klavir)
+
+## Predloga poročila
 
 Poročilo napišite kot samostojen dokument:
 
