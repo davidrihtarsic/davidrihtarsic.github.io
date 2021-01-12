@@ -9,6 +9,7 @@
 ## Učne vsebine
 
 - [Skripta za študente PeF](../Skripta/index.md)
+- [Poletna šola robotike](./PoletnaSolaRobotike/RoboticsStarterCourse.html)
 
 ## Programska oprema
 
