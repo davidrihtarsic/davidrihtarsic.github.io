@@ -1,11 +1,11 @@
-# [ROBOTIKA](../index) >> Skripta za študente PeF
+# [ROBOTIKA](../index) ↪ Skripta za študente
 
-[INTRO](../index){: .btn}
-[VSEBINE](../Vsebine/index){: .btn}
-[INFO](../info){: .btn}
-[OBVESTILA](../Obvestila/index){: .btn}
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
-***
+---
 
 Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje učenje robotike`. Skripto (delovno verzijo) lahko najde na [tej povezavi](../../Robotika_Zacetna/Skripta/Beginners_Robotics), ali si presnemite [PDF](../../Robotika_Zacetna/Skripta/Beginners_Robotics.pdf).
 

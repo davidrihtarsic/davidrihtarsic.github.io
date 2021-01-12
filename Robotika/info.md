@@ -1,11 +1,15 @@
-# [ROBOTIKA](./index) >> INFO
+# [ROBOTIKA](../index) ↪ Informacije za študente
 
-[INTRO](./index){: .btn}
-[VSEBINE](./Vsebine/index){: .btn}
-[INFO](./info){: .btn}
-[OBVESTILA](./Obvestila/index){: .btn}
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
-***
+---
+
+- [Obvestila](./Obvestila/index)
+
+---
 
 Predmet se izvaja za študente 4. letnika smeri TEHNIKA in ... Obsega 2h predavanj in 
 2h vaj tedensko. 

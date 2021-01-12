@@ -1,24 +1,23 @@
-# [ROBOTIKA](../index) >> Vsebine
+# [ROBOTIKA](../index) ↪ Učne vsebine
 
-[INTRO](../index){: .btn}
-[VSEBINE](../Vsebine/index){: .btn}
-[INFO](../info){: .btn}
-[OBVESTILA](../Obvestila/index){: .btn}
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
-***
-
+---
 ## Učne vsebine
 
 - [Skripta za študente PeF](../Skripta/index.md)
 
 ## Programska oprema
 
-- [PROGRAMSKA OPREMA](../Skripta/010_Namestitev_programske_opreme) - [PDF](../Skripta/010_Namestitev_programske_opreme.pdf)
+- [Programska oprema](../Skripta/010_Namestitev_programske_opreme) - [PDF](../Skripta/010_Namestitev_programske_opreme.pdf)
 
 ## Sestavni gradniki
 
-- [SESTAVNI GRADNIKI](../Oprema/Oprema_popis)
-- [TESTIRANJE SENZORJEV IN AKTUATORJEV](../Skripta/900_Testiranje_opreme) - [PDF](../Skripta/900_Testiranje_opreme.pdf)
+- [Sestavni gradniki](../Oprema/Oprema_popis)
+- [Testiranje senzorjev in aktuatorjev](../Skripta/900_Testiranje_opreme) - [PDF](../Skripta/900_Testiranje_opreme.pdf)
 
 ## Razno
 
