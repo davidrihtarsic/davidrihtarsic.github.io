@@ -12,6 +12,9 @@
 
 Fischertechnik zbirka ne vsebuje več raznovrstnih elektronskih elementov s katerimi bi lahko gradili elektronska vezja. Zato si lahko pomagate tako, da si lahko s 3D tiskalnikom natisnete vložišče za katerikoli elektronski element z dvema priključkoma in ga vložite vanj.
 
+STL datoteko z vložiščem si lahko ogledate na tej povezavi:  
+https://github.com/davidrihtarsic/davidrihtarsic.github.io/blob/master/Elektronika/Vsebine/FT_in_elektronika/R_holder_3.FCStd
+
 ## Presnemi
 
 - [FT_2pin_holder (STL)](./R_holder_3.stl)
