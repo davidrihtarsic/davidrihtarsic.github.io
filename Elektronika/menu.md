@@ -1,4 +1,4 @@
-# ELEKTRONIKA ↪ Subfolder
+# [ELEKTRONIKA](../index) ↪ Subfolder
 [🧭DOMOV](../index){: .btn}
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}

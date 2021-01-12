@@ -1,9 +1,8 @@
-# [ELEKTRONIKA](../index) >> Skripta za študente PeF
-
-[INTRO](../index){: .btn}
-[VSEBINE](../Vsebine/vsebine){: .btn}
-[INFO](../info){: .btn}
-[OBVESTILA]( ../Obvestila/index ){: .btn}
+# [ELEKTRONIKA](../index) ↪ Skripta za študente
+[🧭DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
 
