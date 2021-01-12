@@ -86,6 +86,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 - [applications.desktop](applications_desktop.md)
 - [get GUI windov info](xprop.md)
+- [emojis](emojis.md)
 
 ## UTILITY PROGRAMS
 
