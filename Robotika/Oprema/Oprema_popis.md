@@ -1,3 +1,12 @@
+# [ROBOTIKA](../index) ↪ Oprema za poučevanje robotike
+
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
+
+---
+
 # OPREMA ZA ROBOTIKO
 
 Oprema je razdeljena v tri sklope:
