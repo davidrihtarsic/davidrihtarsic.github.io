@@ -1,4 +1,4 @@
-# [ROBOTIKA]
+# ROBOTIKA
 
 [🏡DOMOV](./index){: .btn}
 [📝VSEBINE](./Vsebine/index.md){: .btn}
