@@ -1,12 +1,3 @@
-![](slike/media/image1.png){width="1.520138888888889in"
-height="1.6333333333333333in"}
-
-Študijski program DVOPREDMETNI UČITELJ, 3. letnik
-
-Študijsko leto 2020/2021
-
-Projekti iz elektronike -- individualni projekt
-
 **DIGITALNI KLAVIR**
 
 **IN METRONOM**
@@ -51,27 +42,6 @@ potentiometer, the LED flashes at a certain speed and gives a rhythm.
 digital piano, controler, potentiometer, buzzer, metronome, note, scale,
 button, frequency
 
-# Vsebina {#vsebina .list-paragraph .TOC-Heading}
-
-[**1** **POVZETEK** 2](#povzetek)
-
-[1.1 Ključne besede 2](#ključne-besede)
-
-[1.2 Abstract -- Electronic piano with metronome
-2](#abstract-digital-piano-and-metronome)
-
-[1.3 Key words 2](#key-words)
-
-[**2** **UVOD** 2](#uvod)
-
-[**3** **DELOVANJE VEZJA** 3](#delovanje-vezja)
-
-[**4** **IZDELAVA VEZJA** 5](#izdelava-vezja)
-
-[**5** **ZAKLJUČEK IN UTEMELJITVE** 8](#zaključek-in-ugotovitve)
-
-[**6** **VIRI IN LITERATURA** 8](#viri-in-literatura)
-
 # **UVOD**
 
 Za ta projekt sem se odločila že na samem začetku, ko nam je profesor
@@ -110,7 +80,7 @@ Enostavne pesmice, ki sem jih zaigrala na videoposnetku so: Kuža pazi,
 
 Povezava, do videoposnetka delovanja mojega vezja:
 
-<https://www.youtube.com/watch?v=6ajulc4s5PE&t=7s>
+[![Video](https://img.youtube.com/vi/6ajulc4s5PE/0.jpg)](https://www.youtube.com/watch?v=6ajulc4s5PE&t=7s)
 
 **Elektrotehniški shemi vezja**, narejeni v programu EasyEDA:
 
