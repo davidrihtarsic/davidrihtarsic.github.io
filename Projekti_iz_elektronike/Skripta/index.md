@@ -1,9 +1,11 @@
-# PROJEKTI IZ ELEKTRONIKE
+# [PROJEKTI IZ ELEKTRONIKE](../index) ↪ Skripta za študente
 
-[INFO](../index){: .btn}
-[VAJE](../Skripta/index){: .btn}
-[PROJEKTI](../Projekti/index){: .btn}
-[OBVESTILA]( ../Obvestila/index ){: .btn}
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
+
+---
 
 # Seznam vaj
 
