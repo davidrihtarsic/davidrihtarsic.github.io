@@ -80,7 +80,7 @@ Enostavne pesmice, ki sem jih zaigrala na videoposnetku so: Kuža pazi,
 
 Povezava, do videoposnetka delovanja mojega vezja:
 
-[![Video](https://img.youtube.com/vi/6ajulc4s5PE/0.jpg)](https://www.youtube.com/watch?v=6ajulc4s5PE&t=7s)
+[![Video](https://img.youtube.com/vi/6ajulc4s5PE/0.jpg)](https://www.youtube.com/watch?v=6ajulc4s5PE&t=7s){:targer="_blank"}
 
 **Elektrotehniški shemi vezja**, narejeni v programu EasyEDA:
 
