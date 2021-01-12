@@ -13,6 +13,6 @@
 
 ## Razno
 
-- [Fritzing elementi]()
+- [Fritzing elementi](https://davidrihtarsic.github.io/Linux/Fritzing.html)
 - [fischertechnik in elektronika](./FT_in_elektronika/ft_in_elektronika)
 
