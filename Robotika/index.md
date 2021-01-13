@@ -7,7 +7,10 @@
 
 ---
 
-[![Oglejte si vido omobilnega robota.](http://img.youtube.com/vi/eFh76NIJ5IY/0.jpg)](http://www.youtube.com/watch?v=eFh76NIJ5IY)
+
+<iframe width="720" height="404" frameborder="0"
+    src="https://www.youtube.com/embed/eFh76NIJ5IY">
+</iframe>
 
 
 
