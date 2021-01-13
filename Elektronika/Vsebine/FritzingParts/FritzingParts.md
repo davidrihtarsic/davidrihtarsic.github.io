@@ -9,7 +9,7 @@
 
 ## Kako narediti svoj Fritzing element?
 
-<iframe width="410" height="230" frameborder="0"
+<iframe width="720" height="400" frameborder="0"
     src="https://www.youtube.com/embed/N3q3fC73P8k">
 </iframe>
 
