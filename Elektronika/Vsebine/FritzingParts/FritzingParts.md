@@ -9,8 +9,32 @@
 
 ## Kako narediti svoj Fritzing element?
 
-<iframe src="https://docs.google.com/presentation/d/1p6wyyBvcEfxJHv-0d4haAA1yltinnFbDQR8zmRaIrCY/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=4" width="410" height="337" title="Reductor to motor." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-
 <iframe width="410" height="230" frameborder="0"
-    src="https://www.youtube.com/embed/bybqvos4xYk">
+    src="https://www.youtube.com/embed/N3q3fC73P8k">
 </iframe>
+
+## Fritzing elementi
+
+1. [Bulb.fzpz](Bulb.fzpz)
+2. [eProDas-Rob1.fzpz](eProDas-Rob1.fzpz)
+4. [FT_DC Motor.fzpz](FT_DC Motor.fzpz)
+5. [FT-konektor-green.fzpz](FT-konektor-green.fzpz)
+6. [FTkonektor_green.fzpz](FTkonektor_green.fzpz)
+7. [FT-konektor-red.fzpz](FT-konektor-red.fzpz)
+8. [FTkonektor_red.fzpz](FTkonektor_red.fzpz)
+9. [FT Lamp.fzpz](FT Lamp.fzpz)
+10. [FT_Photo-Transistor_3d.fzpz](FT_Photo-Transistor_3d.fzpz)
+11. [FT Reed switch.fzpz](FT Reed switch.fzpz)
+12. [FT-ToggleKey.fzpz](FT-ToggleKey.fzpz)
+13. [FT_Toggle Switch_3d.fzpz](FT_Toggle Switch_3d.fzpz)
+14. [FT_Toggle Switch.fzpz](FT_Toggle Switch.fzpz)
+15. [Photocell (LDR).fzpz](Photocell (LDR).fzpz)
+16. [Photo-Transistor.fzpz](Photo-Transistor.fzpz)
+17. [RobDuino2.fzpz](RobDuino2.fzpz)
+18. [Thermistor.fzpz](Thermistor.fzpz)
+19. [Trimmer Potentiometer.fzpz](Trimmer Potentiometer.fzpz)
+20. [Tyni261.fzpz](Tyni261.fzpz)
+21. [V-meter.fzpz](V-meter.fzpz)
+22. [Voltage Regulator - 5V.fzpz](Voltage Regulator - 5V.fzpz)
+
+> Hvala Tomažu Kušarju za pomoč pri risanju komponent.
