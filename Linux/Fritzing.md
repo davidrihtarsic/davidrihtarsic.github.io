@@ -19,7 +19,7 @@ Program za nazoren prikaz sestavljanja elektronskih vezij. Lahko vam je v veliko
 
 ## Dodatne komponente
 
-Dodatne komponente lahko narišete sami v programu za vektorsko grafiko. Dodajanje je relativno preprosto le sledite tem [uradnim navodilom](https://fritzing.org/learning/tutorials/creating-custom-parts)
+Dodatne komponente lahko narišete sami v programu za vektorsko grafiko. Dodajanje je relativno preprosto le sledite tem [uradnim navodilom](https://fritzing.org/learning/tutorials/creating-custom-parts). In ne pozabite na njihove [Fritzing Graphic Standards](https://fritzing.org/fritzings-graphic-standards).
 
 Nekaj že narejenih komponent pa lahko najdete na naslednjih straneh:
 
