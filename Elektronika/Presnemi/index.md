@@ -8,3 +8,4 @@
 ---
 
 - [Podnožje za elektronske elemente za FT](../Vsebine/FT_in_elektronika/R_holder_3.stl)
+- [Fritzing elementi](../Vsebine/FritzingParts/FritzingParts)
