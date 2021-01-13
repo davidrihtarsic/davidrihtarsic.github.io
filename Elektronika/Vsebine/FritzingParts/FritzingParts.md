@@ -38,3 +38,7 @@
 22. [Voltage Regulator - 5V.fzpz](Voltage Regulator - 5V.fzpz)
 
 > Fritzing elemente je delil z nami tudi Tomaž Kušar. Hvala!
+
+## ... še mnogo več elementov
+
+- [Richard’s blog - tag=fritzing](http://omnigatherum.ca/wp/?tag=fritzing)
