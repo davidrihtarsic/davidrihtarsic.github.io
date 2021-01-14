@@ -16,7 +16,11 @@
 
 ### 2020
 
-- [klavir](./2020/Ajda/digitlani_klavir)
+- [Digitalna klaviatura.](./2020/Ajda/digitlani_klavir.md)
+- [Dvo-položajna regulacija hlajenja.](./2020/Kobal/2pol_reg_hlajenja.md)
+- [Zvočni vklop luči.](./2020/Mira/zvocni_vkl_luci.md)
+- [Alarmna naprava.](./2020/Nina/alarmna_naprava.md)
+- [Igra "hitri prsti".](./2020/Sever/igra_hiti_prsti.md)
 
 ## Predloga poročila
 
