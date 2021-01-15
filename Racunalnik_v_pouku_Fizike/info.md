@@ -6,5 +6,13 @@
 [💾PRESNEMI](./Presnemi/index){: .btn}
 
 ---
+# Računalnik v pouku fizike
+[Obvestila](./Obvestila/index.md){: .btn}
 
-![Video analiza poševnega meta.](./Seminar/slike/video_analyze.png)
+## Seminarji
+
+Opis izvedbe seminarja.
+
+## Vaje
+
+[vaje]( ./Vaje/index.html )

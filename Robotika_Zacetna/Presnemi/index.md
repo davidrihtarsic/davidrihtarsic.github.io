@@ -1,7 +1,7 @@
 # [EARLY LEARNING OF ROBOTICS](../index) ↪ Download
 [🏡HOME](../index){: .btn}
 [📝COURSE](../Skripta/index.md){: .btn}
-[👨‍🎓INFO](../info){: .btn}
+[👨‍🎓INFO](../info.html){: .btn}
 [💾DOWNLOAD](../Presnemi/index){: .btn}
 
 ---
