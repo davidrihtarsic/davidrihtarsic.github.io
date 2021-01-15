@@ -1,4 +1,4 @@
-# [RAČUNALNIK V POUKU FIZIKE](../index) ↪ Vsebine
+# [RAČUNALNIK V POUKU FIZIKE](../index) ↪ Seminar
 
 [🏡DOMOV](../index){: .btn}
 [📝VSEBINE](../Vsebine/index.md){: .btn}
@@ -6,6 +6,3 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
-
-- [Vaje](../Vaje/index.md)
-- [Seminar](../Seminar/index.md)
