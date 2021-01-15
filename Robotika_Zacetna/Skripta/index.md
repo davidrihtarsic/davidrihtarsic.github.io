@@ -1,7 +1,10 @@
-# ROBOTICS >> COURSE
+# [EARLY LEARNING OF ROBOTICS](../index) ↪ Course
+[🏡HOME](../index){: .btn}
+[📝COURSE](../Skripta/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾DOWNLOAD](../Presnemi/index){: .btn}
 
-[INFO](../index){: .btn}
-[COURSE](../Skripta/index){: .btn}
+---
 
 Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje učenje robotike`. Skripto (delovno verzijo) lahko najde na 
 
