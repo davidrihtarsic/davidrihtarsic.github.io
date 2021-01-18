@@ -6,7 +6,7 @@
 
 ---
 
-- [Students Informations](./Obvestila/2020-01-18_rezultati_izpita.md)
+- [Students Informations](./Obvestila/index)
 
 ---
 
