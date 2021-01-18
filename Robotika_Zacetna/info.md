@@ -6,6 +6,10 @@
 
 ---
 
+- [Students Informations](./Obvestila/2020-01-18_rezultati_izpita.md)
+
+---
+
 ## Basic Course
 
 Hoverer learning process will not be divided into three separate parts but it will consist of lectures and work exercises simultaneously. During the first part of course (cca. 45h) we will be discussing:
