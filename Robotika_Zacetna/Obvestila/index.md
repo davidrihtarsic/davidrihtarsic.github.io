@@ -6,4 +6,5 @@
 
 ---
 
+- [Končne ocene( 2021-01-21)](./2021-01-21_Končne_ocene.md)
 - [Rezultati izpita (2020-01-15)](./2020-01-18_rezultati_izpita.md)
