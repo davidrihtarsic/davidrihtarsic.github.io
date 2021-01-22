@@ -1,8 +1,8 @@
-# ITTD
-
-[ITTD](../index){: .btn} 
-[Vaje](../Skripta/index){: .btn} 
-[Obvestila](../Obvestila/index){: .btn}
+# [ITTD](../index) ↪ Skripta
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
 

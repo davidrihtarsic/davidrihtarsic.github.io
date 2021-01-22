@@ -1,4 +1,4 @@
-# [ITTD](../index)
+# [ITTD](../index) ↪ Učne vsebine
 [🏡DOMOV](../index){: .btn}
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
@@ -6,4 +6,4 @@
 
 ---
 
-intro ...to do
+- [Uporaba krmilnika ESP32](../Skripta/index.md)
