@@ -7,6 +7,10 @@
 
 ---
 
+- [Obvestila za študente](./Obvestila/index.md)
+
+---
+
 Predmet **Izbrane teme iz tehnike z didaktika** se izvaja v 1. letniku (2. st. prog. Poučevanje, smeri Tehnika in ... ). Pri predmetu obravnavamo:
 
 > 1. 3D modeliranje ob uporabi računalniških orodij.
