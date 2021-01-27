@@ -7,9 +7,10 @@
 
 # OBVESTILA
 
-## 2021-01-21 Ocene vaj 1. rok 2021
+## Ocene 2020/2021
 
-[ocene vaj 1. rok 2021-01-20 ](./2021-01-20_ocene_vaj.md)
+- [2. rok - zagovor](./2021-01-27_rok2.md)
+- [ocene vaj 1. rok 2021-01-20 ](./2021-01-20_ocene_vaj.md)
 
 ## 2020_10_07 Prvo srečanje
 
