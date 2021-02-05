@@ -1,5 +1,5 @@
 
-# Progfamska koda - kaj je to?
+# Programska koda - kaj je to?
 
 Zaporedje
 Izbira
