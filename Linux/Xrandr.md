@@ -53,3 +53,43 @@ nato je bila resolucija tu:
 >  HDMI2 disconnected (normal left inverted right x axis y axis)  
 >  VIRTUAL1 disconnected (normal left inverted right x axis y axis)  
 
+## ADD MODE
+
+Kako dodoamo novo resolucijo zaslona
+
+    cvt 1920 1080 60
+
+> # 1920x1080 59.96 Hz (CVT 2.07M9) hsync: 67.16 kHz; pclk: 173.00 MHz  
+> Modeline "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+
+Nato skopiras zadnjo vrstico izhoda in jo uporabiš v naslednjem ukazu
+
+    xrandr --newmode "1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -hsync +vsync
+
+in ta mode dodaš monutorju, ki mu ta mode manjka
+
+    xrandr --addmode DP1 1920x1080_60.00
+
+preverimo če je mode na spisku možnosti
+
+    xrandr
+
+> Screen 0: minimum 8 x 8, current 1920 x 1080, maximum 32767 x 32767
+> eDP1 connected primary 1920x1080+0+0 (normal left inverted right x axis y axis) 340mm x 190mm
+>    1920x1080     60.02*+  59.93
+>    1680x1050     59.88
+>    ...
+>    640x360       59.84    59.32    60.00
+> DP1 connected (normal left inverted right x axis y axis)
+>    1024x768      60.00
+>    800x600       60.32    56.25
+>    848x480       60.00
+>    640x480       59.94
+>    1920x1080_60.00  59.96
+> HDMI1 disconnected (normal left inverted right x axis y axis)
+> HDMI2 disconnected (normal left inverted right x axis y axis)
+> VIRTUAL1 disconnected (normal left inverted right x axis y axis)
+
+in vključimo monitor s to resolucijo
+
+    xrandr --output DP1 --mode 1920x1080_60.00 --pos 1920x0
