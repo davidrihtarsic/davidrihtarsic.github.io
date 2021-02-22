@@ -4,9 +4,9 @@ Osnovni princip premikanja elektronov v električnih vezjih je opredeljen z Ohmo
 
 $$ I = \frac{U}{R} $${#eq:ohms_law}
 
-> ### NALOGA: OHMOV ZAKON - MERITVE
 > Kljub enostavnosti enačbe [@eq:ohms_law] imajo učenci/dijaki/študentje precej težav s samo uporabo enačbe. Saj se količine kot so tok, napetost in upornost v elektrotehniki znajdejo prav povsod po vezju in je potrebno dobro razumevanje področja, za uporabo dotičnih vrednosti.
 
+> ### NALOGA: OHMOV ZAKON - MERITVE
 > Sestavite poljubno vezje, v katerega boste vključili:
 >
 > - napetostni vir, ki mu lahko nastavljamo izhodno napetost,
