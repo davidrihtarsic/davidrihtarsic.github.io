@@ -6,6 +6,7 @@
 
 ---
 - [1 - Ohmov zakon](./01-Ohmov_zakon.md) - [PDF](./01-Ohmov_zakon.pdf)
+- [2 - Kirchhoffova izreka](./02-Kirchhoffova_izreka.md) - [PDF](./02-Kirchhoffova_izreka.pdf)  
 - [5 - Nelinearni upori]( ./Skripta/05-Nelinearni_upori-senzorji.html ) - [PDF]( ./Skripta/05-Nelinearni_upori-senzorji.pdf )  
 - [6 - Kondenzator v izmeničnih tokokrogih]( ./Skripta/06-Kondenzator_v_izmenicnih_tokokrogih.html ) - [PDF]( ./Skripta/06-Kondenzator_v_izmenicnih_tokokrogih.pdf )  
 - [7 - Tok v AC el. krogih s kapacitivnim bremenom ]( ./Skripta/07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.html ) - [PDF](./Skripta/07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.md)  
