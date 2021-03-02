@@ -9,3 +9,11 @@
 
 - [Vaje](../Vaje/index.md)
 - [Seminar](../Seminar/index.md)
+
+---
+
+## Razno
+
+- [Arduino Uno as DAQ](https://github.com/davidrihtarsic/Data-Acquisition-Device_Arduino)
+- [Arduino Python Serial Communication](https://github.com/davidrihtarsic/ArduinoPythonSerialCOM)
+- [Arduino Robotics Shield](https://github.com/davidrihtarsic/RobDuino)

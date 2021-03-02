@@ -1,5 +1,13 @@
-[../Računalnik_v_pouku_Fizike]( ./index.html )
+# [RAČUNALNIK V POUKU FIZIKE](../index) ↪ Vaje za študente
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info.html){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
 
-# Skripta
+---
 
-Skropto si lahko presnamete v pdf obliki [pdf datoteke ](./Racunalnik-v-pouku-Fizike.pdf) ali pa si gledate [html stran]( ./Racunalnik-v-pouku-Fizike.html ).
+# Skripta vaj
+
+- [Skripta vaj za RvPF](./Racunalnik-v-pouku-Fizike.pdf) - [HTML](./Racunalnik-v-pouku-Fizike.md)
+
+---
