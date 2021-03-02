@@ -7,7 +7,7 @@
 
 ---
 
-[Obvestila](./Obvestila/index.md){: .btn}
+- [Obvestila](./Obvestila/index.md)
 
 ---
 
