@@ -1,5 +1,6 @@
 # Simulacije fizikalnih pojavov
 
+- [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
 # Klasično opazovanje pojavov
 
 Oglejmo si video simulacije enakomernega gibanja. Simulacijo smo izbrali zato, da lahko nadzorujemo hitrost, ki jo bomo kasneje lahko primerjali z izmerjeno.
