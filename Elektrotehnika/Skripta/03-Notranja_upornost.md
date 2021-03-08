@@ -13,7 +13,6 @@ O notranji upornosti govorimo predvsem takrat, ko neko napravo priključimo v ne
 > Z 2. Kirchhoff-ovim izrekom utemeljite izračun za nadomestno upornost obeh zaporedno vezanih uporov.
 >
 > Rezultat preverite v simulaciji z zamenjavo obeh uporov z nadomestnim in preverite, če so vrednosti električnih veličin enake.
-<!--
 
 ## Vzporedna vezava uporov
 
@@ -44,4 +43,3 @@ Pogosto predpostavimo, da je notranja upornost V-metra neskončna. Čeprav seved
 > Ponovno izračunajte napetosti na uporih $R_1$ in $R_2$ ter izračune preverite z realnim V-metrom (simulirajte tako, da vzporedno vežete $R_{V-meter}=1M\Omega$).
 >
 > Z zakoni in izreki utemeljite razliko v meritvah med obema delilnikoma napetosti.
--->
