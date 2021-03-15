@@ -33,19 +33,19 @@ S poskusi lahko opazimo, da realni napetostni viri ne zagotavljajo konstantne na
 Kadar se izhodna napetost vira spreminja tako, da se smer toka v vezju spremeni, govorimo o izmeničnem napetostnem viru. Večinoma bomo govorili o taki izmenični napetosti, katere amplituda se s časom spreminja po enačbi: $U(t) = \hat U \sin(\omega t)$.
 
 > ### NALOGA: Časovni potek izmenične napetosti  
-> Sestavite poljubno vezje s:
+> 1. Sestavite poljubno vezje s:
 >
-> 1. poljubnim izmeničnim virom in
-> 2. dvema zaporedno vezanima uporoma.
+> - poljubnim izmeničnim virom in
+> - dvema zaporedno vezanima uporoma.
 >
-> 3. Na vir priključite osciloskop in izmerite časovni potek napetosti. Graf $U(t)$ tudi ustrezno narišite in odčitajte naslednje parametre :
+> 2. Na vir priključite osciloskop in izmerite časovni potek napetosti. Graf $U(t)$ tudi ustrezno narišite in odčitajte naslednje parametre :
 >  
 > - Amplitudno napetost $\hat U_G =$
 > - čas periode $t_0 =$
 > - frekvenco izhodne napetosti $f_G =$
 > - krožilno frekvenco nap. $\omega_G =$
 >
-> 4. Iz izmerjenih podatkov in grafa U(t) narišite kazalčni diagram, ki prikazuje pogoje pri $t = 0,15s$.
+> 3. Iz izmerjenih podatkov in grafa U(t) narišite kazalčni diagram, ki prikazuje pogoje pri $t = 0,15s$.
 
 > ### NALOGA: AMPLITUDNA IN EFEKTIVNA NAPETOST  
 > 1. Na vir priključite V-meter in izmerite efektivno napetost vira. Utemeljite zakaj se efektivna in amplitudna napetost izmeničnega vira razlikujeta.
