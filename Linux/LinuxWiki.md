@@ -53,7 +53,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 ## SHELL
 
-[Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
+- [Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
 - [basic shell](basic_shell.md)
 - [shell_processing](shell_processing.md)
 - [zsh](zsh.md)
@@ -102,13 +102,15 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [Yenka](Yenka.md)
 - [Fritzing](Fritzing.md)
 - [FreeCAD](FreeCAD.md)
-- [CURA](IRA3d.mdk
+- [QCAD](QCAD.md)
+- [CURA](IRA3d.mdk)
 - [PulseView](PulseView.md)
 - [sigrok](PulseView.md)
 
 # HARDWARE
 
 - [3D Printer](3dPrinting.md)
+- [Bluetooth](Bluetooth.md)
 - [Ender3_v2](Ender3_v2.md)
 - [IRA3D](IRA3d.md)
 - [Arduino](Arduino.md)

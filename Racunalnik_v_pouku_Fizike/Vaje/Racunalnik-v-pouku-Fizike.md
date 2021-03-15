@@ -448,7 +448,19 @@ void loop() {
 }
 ```
 
+<!--
+podatke uredite v histogram normalnih porazdelitev.
+x -> range -> =COUNTIF(range, criteria)
+-->
+
 ## Koeficienti normalne porazdelitve
+
+<!--
+Predstavite:
+- število meritev
+- obliko norm. porazdelitve ()
+-->
+
 **Sploščenost**
 ```
 =KURT(Range)
