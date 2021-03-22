@@ -1,6 +1,6 @@
 # Nelinearni upori in senzorji
 
-Med nelinearne upore sodijo upori, katerih $I(U)$ karakteristika ni linearna. Žarnica je tipičen tak predstavnik. Ker se žarilna nitka zelo segreje in atomi kovinske rešetke bistveno bolj vibrirajo, s tem tudi bolj onemogočajo prehajanje elektronov skozi to žarilno nitko. Tako ne moremo potrditi linearne odvisnosti električnega toka pri vezavi na [@fig:el_tok_zarnica_zaporedno].
+Med nelinearne upore sodijo upori, katerih $I(U)$ karakteristika ni linearna. Tipičen tak primer lahko opazimo pri žarnici. Ker se žarilna nitka zelo segreje in atomi kovinske rešetke bistveno bolj vibrirajo, s tem tudi bolj onemogočajo prehajanje elektronov skozi to žarilno nitko. Tako ne moremo potrditi linearne odvisnosti električnega toka pri vezavi na [@fig:el_tok_zarnica_zaporedno].
 
 ![Nelinearna odvisnost toka pri ratličnih vezavah.](./slike/el_tok_zarnica_zaporedno.png){#fig:el_tok_zarnica_zaporedno}
 
