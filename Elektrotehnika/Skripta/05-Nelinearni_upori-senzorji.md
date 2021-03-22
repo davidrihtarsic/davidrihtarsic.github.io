@@ -19,12 +19,12 @@ Pri teh uporih moramo izredno pazljivo uporabljati Ohmov zakon. Le-ta še vedno 
 > 1. Izmerite I(U) karakteristiko žarnice in podatke uredite v tabeli.
 > 2. Graf I(U) karakteristike tudi narišite.
 
-## TERMISTOR in FOTOUPOR
+## FOTOUPO in RTERMISTOR
 
 Med nelinearne upore sodijo tudi upori, katerih upornost se spreminja v odvisnosti od neke fizikalne količine. Tako poznamo tudi upore, katerih upornost se spreminja v odvisnosti od:  
 
-- osvetljenosti (npr.: fotoupor).
-- temperature (termistorji)
+- osvetljenosti (npr.: fotoupor),
+- temperature (termistorji).
 
 > ### NALOGA: FOTOUPOR  
 > Sestavite vezje, ki ga prikazuje [@fig:05-LDR-NTC.png] - levo. Nato spreminjajte osvetljenost elementa in opazujte kako se spreminja električni tok skozi element. Ugotovitev tudi napišite.
@@ -49,7 +49,7 @@ Premislimo, kako lahko razumemo delovanje senzorja:
 1. Če se temperatura poveča, se bo upornost termistorja $R_{NTC}$ zmanjšala.
 2. Ker se skupna upornost $R'=R_{NTC}+R_1$ zmanjša, bo tok, ki teče po tem vezju večji $I'=\frac{U_B}{R'}$.
 3. Ker je sedaj tok skozi vezje večji in le-ta teče tudi skozi upor $R_1$ bo na njem napetost večja $U_{R_1}=R_1I'$.
-4. Prav to napetost pa tudi merimo z volt-metrom $VM1$.
+4. Prav to napetost pa tudi merimo z volt-metrom $V_{M1}$.
 5. Zaključimo lahko, da se napetostni potencial na izhodnem priključku poveča, če se je tudi temperatura povečala.
 
 > ### NALOGA: UMERITEV SENZORJA TEMPERATURE  
