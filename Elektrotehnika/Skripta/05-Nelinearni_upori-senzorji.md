@@ -17,7 +17,7 @@ Pri teh uporih moramo izredno pazljivo uporabljati Ohmov zakon. Le-ta še vedno 
 > ### NALOGA: I(U) KARAKTERISTIKA ŽARNICE  
 >
 > 1. Izmerite I(U) karakteristiko žarnice in podatke uredite v tabeli.
-> 2. Grah I(U) karakteristike tudi narišite.
+> 2. Graf I(U) karakteristike tudi narišite.
 
 ## TERMISTOR in FOTOUPOR
 
