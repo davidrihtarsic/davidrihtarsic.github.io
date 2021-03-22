@@ -10,15 +10,15 @@ Delovanje potenciometra si lahko razložimo na dva načina:
 2. Lahko si zamislimo, da priključek B razdeli potenciometer na dva upora: (1) $R_{AB}$ in (2) $R_{BC}$. Tako se bo tudi napetost, ki jo bomo priključili na potenciometer razdelila v razmerju teh dveh upornosti.
 
 > ### NALOGA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.  
-> Priključite potenciometer tako kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
+> Priključite potenciometer tako, kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
 
 ## Uporaba analognega vhoda na krmilniku
 
-Na krmilniku imamo možnost odčitavanja analogne napetosti z analognim vhodom. Vsi analogni vhodi so na krmilniku označeni s črko "A" in zaporedno številko npr.: A0, A1 .. A7.
+Na krmilniku imamo možnost odčitavanja napetostnega potenciala v analogni obliki z analognimi vhodi. Vsi analogni vhodi so na krmilniku označeni s črko "A" in zaporedno številko npr.: A0, A1 .. A7.
 
 ![Priključitev potenciometra.](./slike/35-potenciometer.png){#fig:35-potenciometer.png}
 
-> ### NALOGA: ODČITAVANJE ANALOGNE NAPETOSTI S KRMILNIKOM  
+> ### NALOGA: ODČITAVANJE NAPETOSTNEGA POTENCIALA S KRMILNIKOM  
 > Povežite srednji priključek potenciomtra na analogni vhod krmilnika (naprimer na A0) in preizkusite naslednji program. Program lahko najdete tudi v Arduino IDE programu:  
 > File -> Examples -> 01. Basics -> AnalogReadSerial.
 

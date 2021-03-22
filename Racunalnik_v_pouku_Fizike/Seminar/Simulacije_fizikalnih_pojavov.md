@@ -1,7 +1,55 @@
-# Simulacije fizikalnih pojavov
+# SIMULACIJE IN ANIMACIJE
+
+Pogosto naletimo na vprašanje o razliki med animacijo in simulacijo. Zato v grobem omenimo nekaj razlik.
+
+## Animacija
+
++ za ponazoritev gibanja
++ nazorenjši prikaz premikanja so-odvisnih elementov (motor z notranjim izgorevanjem)
++ nazornejši prikaz časovno odvisnih elementov (prometne nesreče)
++ prilagojene projekcije za bolj nazoren prikaz
+
+- ne preizkuša ali so premiki fizično možni,
+- sama po sebi ne upošteva fizikalnih zakonov (večinoma gre za Newtonove zakone)
+- pravilnost animacije povsem odvisna od izdelovalca
+
+<!--
+Animacija se pogosto uporablja za samo ponazoritev gibanja. Večkrat jo uporabimo za bolj nazoren prikaz Tako sama po sebi ne 
+Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno ujemanje gibov vozil. Animacija sama po sebi ne preizkuša, ali so gibi in odzivi fizično možni, kar pomeni, ali spoštujejo Newtonove zakone gibanja ali ne.
+-->
+
+### Primeri animacij
+
+
+## Simulacija
+
++ Simulacije so matematični modeli, ki upoštevajo fizikalne (mat.) zakonitosti.
++ Lahko so osnova za izdelavo animacije.
++ Omogočajo izkustveno učenje.
+
+- Fizikalni modeli so poenostavljeni, zato pogosto pomanjkljivi.
+- Poznati moramo omejitve uporabe simulacije.
+- Možna je tudi zloraba animacije (uporaba izven okvirjev).
+
+### Primeri simulacij
 
 - [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
-# Klasično opazovanje pojavov
+
+> ### NALOGA: Animacije in Simulacije v poučevanju fizike  
+>  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:
+>  - vir simulacije/animacije,
+>  - vzorčno sliko zaslona,
+>  - opis tipične uporabe,
+>  - izpostavi prednosti,
+>  - izpostavi slabosti.
+
+## Izdelava
+
+- Geogebra: Kako zaslonka vpliva na ostrino slike
+- FreeCAD: FEM (finite element method) konstrukcija nosilca (3D print)
+
+
+# KLASIČNO OPAZOVANJE POJAVOV
 
 Oglejmo si video simulacije enakomernega gibanja. Simulacijo smo izbrali zato, da lahko nadzorujemo hitrost, ki jo bomo kasneje lahko primerjali z izmerjeno.
 
@@ -41,7 +89,6 @@ Standardni odklon
 ## NORMALNA PORAZDELITEV
 
 [Normalna porazdelitev](https://en.wikipedia.org/wiki/Normal_distribution#Standard_deviation_and_coverage)
-
 [Normalna porazdelitev - GEOGEBRA](https://www.geogebra.org/m/AxtegHsz)
 
 Kolikšna je  verjetnost, da se povprečna vrednost nahaja v nekem območju?  
