@@ -39,7 +39,7 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 >  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:
 >  - vir simulacije/animacije,
 >  - vzorčno sliko zaslona,
->  - opis tipične uporabe,
+>  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
 >  - izpostavi prednosti,
 >  - izpostavi slabosti.
 
@@ -47,7 +47,6 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 
 - Geogebra: Kako zaslonka vpliva na ostrino slike
 - FreeCAD: FEM (finite element method) konstrukcija nosilca (3D print)
-
 
 # KLASIČNO OPAZOVANJE POJAVOV
 

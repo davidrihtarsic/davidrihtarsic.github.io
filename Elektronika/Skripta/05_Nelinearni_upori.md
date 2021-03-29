@@ -50,3 +50,17 @@ Iz prejšnje naloge ste verjetno opazili, da je odziv senzorja zelo odvisen od i
 > 4. Enačbo $\Delta U$ odvajajte po $R_{Ref}$ in jo rešite za $\frac{\partial U_{IZH}}{\partial R_{Ref}}=0$
 
 [^051]: Upornost termistorja pri temperaturi $T_1$ je različna od uporanosti pti $T_2$, zato jih morate ločiti in označiti drugače, npr.: $R_{NTC-T1}$ in $R_{NTC-T2}$.
+
+<!--
+U_T1 = u0*r1/(r1+n1)
+U_T2 = u0*r1/(r1+n2)
+
+dU = u0*r1/(r1+n1) - u0*r1/(r1+n2)
+
+δU/δr1 = derivate( r1*u0/(r1+n1) - r1*u0/(r1+n2), r1)
+       = ((-n1^2 n2 - n2 r1^2 + n1 (n2^2 + r1^2)) u0)/((n1 + r1)^2 (n2 + r1)^2)
+
+solve(((-n1^2 n2 - n2 r1^2 + n1 (n2^2 + r1^2)) u0)/((n1 + r1)^2 (n2 + r1)^2) = 0, r1)
+      r1= √(n1*n2)
+      ============
+-->
