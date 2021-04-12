@@ -61,3 +61,11 @@ Data field
 DAY([dat_odhod])&". "&MONTH([dat_odhod])&". "&YEAR([dat_odhod])-2000
 YEAR([dat_odhod])&"-"&[ID]
 
+## Plugins
+
+### Zotero
+
+Zotero Standalone. Is a free, easy-to-use tool to help you collect, organize, cite, and share your research sources.
+za urejanje bibtex fileov in jih lahko uporabiš v LibreOffice
+
+    yay -S zotero

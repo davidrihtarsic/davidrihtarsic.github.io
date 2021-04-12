@@ -107,6 +107,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [CURA](IRA3d.mdk)
 - [PulseView](PulseView.md)
 - [sigrok](PulseView.md)
+- [Siril](Siril.md) - Progam za obdelavo slik v astronomiji (stacking photos)
 
 # HARDWARE
 

@@ -18,6 +18,8 @@ Sama tehnologija svetlobnega tipala je relativno enostavna in podobna svetlobnim
     - 13 milijonov slikovnih točk v
     - resoluciji 4288 x 2848
 
+Več podatkov o svetlobnih tipalih, ki so vgrajeni v različne naprave je zbranih na spletni strani [Digital Camera Database](https://www.digicamdb.com/).
+
 ## TEHNOLOGIJA SVETLOBNEGA TIPALA
 
 V splošnem imamo dve različni tehnologiji tipal:

@@ -11,7 +11,7 @@
 - [4 - Napetostni viri](./04-Napetostni_viri.md) - [PDF](./04-Napetostni_viri.pdf)  
 - [5 - Nelinearni upori](./05-Nelinearni_upori-senzorji.md) - [PDF]( ./05-Nelinearni_upori-senzorji.pdf )  
 - [6 - Kondenzator v izmeničnih tokokrogih]( ./06-Kondenzator_v_izmenicnih_tokokrogih.html ) - [PDF]( ./06-Kondenzator_v_izmenicnih_tokokrogih.pdf )  
-- [7 - Tok v AC el. krogih s kapacitivnim bremenom ]( ./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.html ) - [PDF](./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.md)  
+- [7 - Tok v AC el. krogih s kapacitivnim bremenom ]( ./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.html ) - [PDF](./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.pdf)  
 - [8 - Tok v AC el. krogih z induktivnim bremenom ](./08-I-U-AC-Tuljava.md) - [PDF](./08-I-U-AC-Tuljava.pdf)  
 - [9 - Krmiljenje servo motorjev](./Skripta/09-Krmiljenje_servo_motorjev.md) - [PDF](./Skripta/09-Krmiljenje_servo_motorjev.pdf)  
 - [10 - Uporaba dalnovodov](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.pdf)  

@@ -38,7 +38,7 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 > ### NALOGA: Animacije in Simulacije v poučevanju fizike  
 >  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:
 >  - vir simulacije/animacije,
->  - vzorčno sliko zaslona,
+>  - vzorčno sliko zaslona (velikost > 200kB),
 >  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
 >  - izpostavi prednosti,
 >  - izpostavi slabosti.
