@@ -82,6 +82,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 - [ranger](ranger.md)
 - [NeoVim](NeoVim.md)
+- [NCDU](ncdu.md) - disk usages
 
 # DESKTOP ENVIRONMENT
 
