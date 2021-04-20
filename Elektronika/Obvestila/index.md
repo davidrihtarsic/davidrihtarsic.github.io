@@ -6,12 +6,12 @@
 
 ---
 
-** 2021-04-20 : Rezultati 1. kolokvija iz vaj **  
+**2021-04-20 : Rezultati 1. kolokvija iz vaj**  
 [Rezultati 1. kolokvija iz vaj za elektroniko](./2021_04_19_1_kol_vaje.md)
 
 ---
 
-** 2020-08-20 : Rezultati zagovora **  
+**2020-08-20 : Rezultati zagovora**  
 [Rezultati zagovora in končnih ocen](./2020_08_20_rezultati_zagovora_in_KO.md)
 
 ---
