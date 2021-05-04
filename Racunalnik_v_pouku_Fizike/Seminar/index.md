@@ -7,7 +7,7 @@
 
 ---
 
-- [Študijsko gradivo - todo...]()
+- [Študijsko gradivo - todo...](./Simulacije_fizikalnih_pojavov.md)
 
 ---
 

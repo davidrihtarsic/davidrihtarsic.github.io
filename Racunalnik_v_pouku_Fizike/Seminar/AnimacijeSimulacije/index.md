@@ -1,9 +1,9 @@
-# [RAČUNALNIK V POUKU FIZIKE](../index) ↪ Seminar
+# [RAČUNALNIK V POUKU FIZIKE](../../index) ↪ Seminar
 
-[🏡DOMOV](../index){: .btn}
-[📝VSEBINE](../Vsebine/index.md){: .btn}
-[👨‍🎓INFO](../info.html){: .btn}
-[💾PRESNEMI](../Presnemi/index){: .btn}
+[🏡DOMOV](../../index){: .btn}
+[📝VSEBINE](../../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../../info.html){: .btn}
+[💾PRESNEMI](../../Presnemi/index){: .btn}
 
 ---
 

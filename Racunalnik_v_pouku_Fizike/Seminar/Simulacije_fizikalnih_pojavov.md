@@ -39,6 +39,7 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 
 - [phet.colorado.edu](https://phet.colorado.edu/)
 - [GeoGebra.org](https://www.geogebra.org/)
+- [oPhysics](https://ophysics.com/)
 - [Physics at school](https://www.vascak.cz/)
 - [fizikalne.simulacije.si](https://fizikalne.simulacije.si/)
 - [geogebr.si](http://www.geogebr.si/)
@@ -46,8 +47,9 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 > ### NALOGA: Animacije in Simulacije v poučevanju fizike  
 >  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:
 >  - vir simulacije/animacije,
->  - vzorčno sliko zaslona (velikost > 200kB),
+>  - vzorčno sliko zaslona (velikost < 200kB),
 >  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
+>  - 
 >  - izpostavi prednosti,
 >  - izpostavi slabosti.
 
