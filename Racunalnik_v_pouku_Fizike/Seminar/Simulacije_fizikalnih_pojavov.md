@@ -47,7 +47,26 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 
 ### Primeri simulacij
 
+- [odboj svetlobe - GeoGebr.si ](http://www.geogebr.si/geometrijska-optika/odboj-in-lom-svetlobe/)
+- [odboj svetlobe - PhET](https://phet.colorado.edu/sims/html/bending-light/latest/bending-light_en.html)
+    - odbiti žarek je enake intenzitete
+    - spreminjamo drsnik kota in ne sam izvor žarka
+- [zrcalo na Luni](http://www.geogebr.si/geometrijska-optika/odbojni-zakon/)
+    - Kako deluje zrcalo na Luni?
+    - Kako deluje kresnička?
+- [oko in lom svetlobe](https://ophysics.com/l16.html)
+    - zelo zanimiva ponazoritev s pravim očesom
+    - večji del loma svetlobe se zgori na `roženici`
+    - nisem prepričan, da napnemo lečo za izostritev predmetov v daljavi (ali jo z mišicami morda bolj ukrivimo)?
+
+- [statični naboj](https://phet.colorado.edu/sims/html/balloons-and-static-electricity/latest/balloons-and-static-electricity_en.html)
+    - zelo dobro ponazori kaj se dogaja z nabojem (konkretno -> abstraktno)
+    - elektroni v oblačilu se ne odmaknejo tako kot v zidu
+
+- [Lunine mene](https://www.geogebra.org/m/zzjbrewa)
+
 - [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
+- [gostota](https://ophysics.com/fl1.html)
 
 #### Sketchup in MSPhysics
 
