@@ -13,4 +13,4 @@
 
 ## Razno
 
-- [Animacije & Sumilacije](./Animacije&Simulacije/index.md)
+- [Animacije & Sumilacije](./AnimacijeSimulacije/index.md)
