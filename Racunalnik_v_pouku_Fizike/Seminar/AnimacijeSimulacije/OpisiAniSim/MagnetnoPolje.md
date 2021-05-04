@@ -45,7 +45,7 @@ Izbrala sem si simulacijsko orodje Magnets and Electromagnets s spletne
 strani Phet, Univerze Colorado. Dostopna je tudi na njihovi spletni
 strani, moramo pa omogočiti dostop vtičniku Java.
 
-![](Img/media/image1.png){width="4.584722222222222in"
+![](MagnetnoPolje/media/image1.png){width="4.584722222222222in"
 height="3.74375in"}
 
 Slika Prva stran aplikacije.
@@ -59,7 +59,7 @@ posamezen kompas nam pokaže smer magnetnega polja v točki kjer je
 fiksiran. Sama bi bila zelo zadovoljna, če bi skozi mini kompase
 potekale še magnetne silnice.
 
-![](Img/media/image2.png){width="4.12in" height="3.73375in"}
+![](MagnetnoPolje/media/image2.png){width="4.12in" height="3.73375in"}
 
 Slika Aplikacija nam pokaže tudi jakost magnetnega polja v vseh smereh.
 

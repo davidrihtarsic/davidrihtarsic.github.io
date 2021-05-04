@@ -29,4 +29,4 @@ nrstici.
 
 Eno od uporabnih zadev je tudi, da enostavno Word dokument spremenim v `*.md`. Tako lahko študentsko poročilo objavim na spletu:
 
-    pandoc
+    pandoc --extract-media ./myMediaFolder input.docx -o output.md

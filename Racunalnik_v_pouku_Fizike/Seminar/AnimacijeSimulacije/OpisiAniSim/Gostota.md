@@ -47,7 +47,7 @@ Simulacija je dostopna na povezavi:
 <https://fizikalne.simulacije.si/2016/08/19/gostota/>. Sestavljena je iz
 dveh delov.
 
-![](Img/media/image1.png){width="3.8645833333333335in"
+![](Gostota/media/image1.png){width="3.8645833333333335in"
 height="2.8958333333333335in"}
 
 Pri prvem delu simulacije lahko v zgornjem desnem kotu izberemo kakšni
@@ -59,7 +59,7 @@ tekočino nam piše količina tekočine. To nam omogoča, da lahko razberemo
 volumen izpodrinjene tekočine in s tem podatkom izračunamo gostoto
 telesa. Na dnu simulacije pa lahko enake situacije opazujemo v olju.
 
-![](Img/media/image2.png){width="3.8541666666666665in"
+![](Gostota/media/image2.png){width="3.8541666666666665in"
 height="2.9375in"}
 
 V drugi simulaciji pa je večji poudarek na gostoti telesa in gostoti
