@@ -31,25 +31,48 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 - Poznati moramo omejitve uporabe simulacije.
 - Možna je tudi zloraba animacije (uporaba izven okvirjev).
 
-### Primeri simulacij
 
-- [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
-
-### Programi in portali
+### Programi in portali z animacijami in simulacijami
 
 - [phet.colorado.edu](https://phet.colorado.edu/)
 - [GeoGebra.org](https://www.geogebra.org/)
 - [oPhysics](https://ophysics.com/)
-- [Physics at school](https://www.vascak.cz/)
 - [fizikalne.simulacije.si](https://fizikalne.simulacije.si/)
+- [Physics at school](https://www.vascak.cz/)
 - [geogebr.si](http://www.geogebr.si/)
 
+- [Stellarium](https://stellarium.org/)
+- [Yenka](https://www.yenka.com/)
+- [Sketchup + MSPhysics](https://3dwarehouse.sketchup.com/model/u346d8459-c4ca-47fe-841c-fee106f3b3f5/MSPhysics?hl=en)
+
+### Primeri simulacij
+
+- [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
+
+#### Sketchup in MSPhysics
+
+Potrebno je namestiti:
+- Sketchup
+- vtičnik: MSPhysics
+
+Uporaba:
+- Narišemo površino
+- jo združimo kot `Make Group`
+- in ji nato določimo `MSPhysics -> Shape -> Static Mesh`
+
+- Narišemo še ostale predmete, ki so lahko so-odvisni...
+- določimo jin lahko različne parametre:
+    - maso,
+    - koeficient trenja,
+    - magnetni učinek,
+    - material, ...
+
 > ### NALOGA: Animacije in Simulacije v poučevanju fizike  
->  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:
+>  Poišči po en primer ANIMACIJE ali/in SIMULACIJE, ter ga na kratko ovrednoti:
 >  - vir simulacije/animacije,
+>  - naštejte/opišite katero učno snov iz [UN]((https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf) bi lahko obdelali (tema, vsebinski sklop, učni cilji)
 >  - vzorčno sliko zaslona (velikost < 200kB),
 >  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
->  - 
 >  - izpostavi prednosti,
 >  - izpostavi slabosti.
 

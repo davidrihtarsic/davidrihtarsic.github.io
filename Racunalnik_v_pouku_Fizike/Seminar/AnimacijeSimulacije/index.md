@@ -11,7 +11,7 @@
 
 Animacije in Simulacije iz področja osnovnošolske fizike razvrščene po [učnem načrtu](https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf).
 
-| PGL | SKLOP                   |  NSL  | Učna vsebina                              | link |
+| PGL | SKLOP                   |  Št.P | Učna vsebina                              | link |
 |:----|:------------------------|:-----:|:------------------------------------------|------|
 | 1   | UVOD V FIZIKO           |  1.1  | Področja fizike in njen pomen             |      |
 | 1   | UVOD V FIZIKO           |  1.2  | Oblike in metode dela pri fiziki          |      |
