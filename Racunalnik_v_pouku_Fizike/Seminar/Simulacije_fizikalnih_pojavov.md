@@ -5,7 +5,7 @@ Pogosto naletimo na vprašanje o razliki med animacijo in simulacijo. Zato v gro
 ## Animacija
 
 + za ponazoritev gibanja
-+ nazorenjši prikaz premikanja so-odvisnih elementov (motor z notranjim izgorevanjem)
++ nazornejši prikaz premikanja so-odvisnih elementov (motor z notranjim izgorevanjem)
 + nazornejši prikaz časovno odvisnih elementov (prometne nesreče)
 + prilagojene projekcije za bolj nazoren prikaz
 
@@ -34,6 +34,14 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 ### Primeri simulacij
 
 - [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
+
+### Programi in portali
+
+- [phet.colorado.edu](https://phet.colorado.edu/)
+- [GeoGebra.org](https://www.geogebra.org/)
+- [Physics at school](https://www.vascak.cz/)
+- [fizikalne.simulacije.si](https://fizikalne.simulacije.si/)
+- [geogebr.si](http://www.geogebr.si/)
 
 > ### NALOGA: Animacije in Simulacije v poučevanju fizike  
 >  Poišči po en primer ANIMACIJE in SIMULACIJE, ter ga na kratko ovrednoti:

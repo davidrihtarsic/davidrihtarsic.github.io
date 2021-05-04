@@ -6,3 +6,11 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+
+- [Študijsko gradivo - todo...]()
+
+---
+
+## Razno
+
+- [Animacije & Sumilacije](./Animacije&Simulacije/index.md)

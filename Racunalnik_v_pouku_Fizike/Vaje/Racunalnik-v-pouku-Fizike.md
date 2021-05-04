@@ -830,6 +830,10 @@ boolean stringComplete = false;  // whether the string is complete
 
 void setup() {
   Serial.begin(9600);
+  printHelp();
+  inputString.reserve(20);
+}
+void printHelp(){
   Serial.println("###########################################");
   Serial.println("# INSTRUCTIONS:                           #");
   Serial.println("#   1. Insert temperature (example: 22.4) #");
@@ -842,10 +846,11 @@ void setup() {
   Serial.println("#       'temperature.ino'                 #");
   Serial.println("###########################################");
   Serial.println("T[°C] Value");
-  inputString.reserve(20);
 }
-
 void loop() {
+  //float ref_temp = waitForUserInput();
+  //float sen_val = sensorsAvgValueOnCh(A0);
+  //printNewTabelRow(ref_temp, sen_val);
   if (stringComplete) {
     Serial.print(inputString);
     Serial.print(" ");
@@ -864,7 +869,13 @@ void loop() {
     Serial.println(Vol_CH1);
   }
 }
-
+float waitForUserInput(){
+  char inChar = '';
+  while (inChar != '\n'){
+    if (Serial.available()) inChar = (char)Serial.read();
+    if (inChar != '\n') 
+  }
+}
 void serialEvent() {
   while (Serial.available()) {
     char inChar = (char)Serial.read();  // get the new byte:
@@ -876,6 +887,11 @@ void serialEvent() {
   }
 }
 ```
+
+<!--
+Ker zgornji program ni deloval, sem na hitro sestavil naslednjega_
+V simulaciji ne dela ENTER, zato je potrebno ENTER= '\n' zamenjati z neko črko 'C'
+-->
 
 ## Interpolacija
 
