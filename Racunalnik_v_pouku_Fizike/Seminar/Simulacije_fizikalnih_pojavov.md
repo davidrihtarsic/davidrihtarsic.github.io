@@ -89,9 +89,9 @@ Uporaba:
 > ### NALOGA: Animacije in Simulacije v poučevanju fizike  
 >  Poišči po en primer ANIMACIJE ali/in SIMULACIJE, ter ga na kratko ovrednoti:
 >  - vir simulacije/animacije,
->  - naštejte/opišite katero učno snov iz [UN](https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf) bi lahko obdelali in kako dosegli UC (tema, vsebinski sklop, učni cilji, aktivnost)
 >  - vzorčno sliko zaslona (velikost < 200kB),
 >  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
+>  - naštejte/opišite katero učno snov iz [UN](https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf) bi lahko obdelali in kako dosegli UC (tema, vsebinski sklop, učni cilji, aktivnost)
 >  - izpostavi prednosti,
 >  - izpostavi slabosti.
 
