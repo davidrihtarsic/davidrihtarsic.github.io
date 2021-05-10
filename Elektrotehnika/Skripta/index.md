@@ -14,7 +14,7 @@
 - [7 - Tok v AC el. krogih s kapacitivnim bremenom ]( ./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.html ) - [PDF](./07-Tok_izmenicnih_tokokrogih_s_kapacitivnim_bremenom.pdf)  
 - [8 - Tok v AC el. krogih z induktivnim bremenom ](./08-I-U-AC-Tuljava.md) - [PDF](./08-I-U-AC-Tuljava.pdf)  
 - [9 - Krmiljenje servo motorjev](./09-Krmiljenje_servo_motorjev.md) - [PDF](./09-Krmiljenje_servo_motorjev.pdf)  
-- [10 - Uporaba dalnovodov](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./Skripta/13-Uporaba_transformatorjev_v_daljnovodih.pdf)  
+- [10 - Uporaba dalnovodov](./13-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./13-Uporaba_transformatorjev_v_daljnovodih.pdf)  
 - [11 - Krmiljenje koračnega motorja](./Skripta/10-Krmiljenje_koračnih_motorjev.md) - [PDF](./Skripta/10-Krmiljenje_koračnih_motorjev.pdf)  
 - [12 - Izkoristek enosmernega motorja](./Skripta/11-Izkoristek_enosmernega_motorja.md) - [PDF](./Skripta/11-Izkoristek_enosmernega_motorja.pdf)  
 - [13 - Električna inštalacija](./Skripta/17-Električna_inštalacija.md) - [PDF](./Skripta/17-Električna_inštalacija.pdf)

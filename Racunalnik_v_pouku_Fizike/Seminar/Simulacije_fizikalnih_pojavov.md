@@ -45,6 +45,9 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 - [Yenka](https://www.yenka.com/)
 - [Sketchup + MSPhysics](https://3dwarehouse.sketchup.com/model/u346d8459-c4ca-47fe-841c-fee106f3b3f5/MSPhysics?hl=en)
 
+> ### NALOGA: Kako zaslonka vpliva na osrino slike  
+> S programskim orodjem skonstruiraj simulacijo nastanek preslikave z lečo. Simulacija naj nazorno pokaže, kako premer zaslonke vpliva na ostrino slike.
+
 ### Primeri simulacij
 
 - [odboj svetlobe - GeoGebr.si ](http://www.geogebr.si/geometrijska-optika/odboj-in-lom-svetlobe/)
@@ -68,37 +71,83 @@ Animacije običajno uporabljajo tehnike prilegajočega se letenja za vizualno uj
 - [gostota](https://fizikalne.simulacije.si/2016/08/19/gostota/)
 - [gostota](https://ophysics.com/fl1.html)
 
-#### Sketchup in MSPhysics
+> ### NALOGA: Animacije in Simulacije v poučevanju fizike  
+>Poišči po en primer ANIMACIJE ali/in SIMULACIJE, ter ga na kratko ovrednoti:  
+>
+>- vir simulacije/animacije,
+>- vzorčno sliko zaslona (velikost < 200kB),
+>- opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov), 
+>- naštejte/opišite katero učno snov iz [UN](https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf) bi lahko obdelali in kako dosegli UC (tema, vsebinski sklop, učni cilji, aktivnost)
+>- izpostavi prednosti, 
+>- izpostavi slabosti.
+
+# 3D MODELIRANJE IN FEM
+
+## SketchUp in MSPhysics
+
+`SketchUp` je računalniški program za 3D modeliranje s široko paleto risarskih aplikacij, kot so: arhitektura, notranje oblikovanje, krajinska arhitektura, gradbeništvo in strojništvo, oblikovanje filmov in video iger. Na voljo je kot spletna aplikacija [SketchUp Free]( https://my.sketchup.com/) in plačljiva različica z dodatno funkcionalnostjo [SketchUp Pro](https://www.sketchup.com/try-sketchup). Prej je bila na voljo tudi brezplačna različica SketchUp Make, ki omogoča uporabo raznoraznih vtičnikov in uporabnih funkcij. Več o različicah in možnostih tega programa je razloženo na tem [video posnetku](https://www.youtube.com/watch?v=9RKlKXYNqB0).
 
 Potrebno je namestiti:
-- Sketchup
-- vtičnik: MSPhysics
+
+- ustvarite [Trimble account](https://www.sketchup.com/)
+    - kliknite [Sign In](https://login.sketchup.com/login/trimbleid?destination=https://www.sketchup.com/)
+    - izpolnite `mail` in `geslo` (**ne uporabite** `Sign In With Google`),
+    - aktivirajte account (dobili boste mail)
+- namestite [Sketchup Make 2017](https://www.sketchup.com/download/all),
+    - presnemite Sketchup Make in zaženite,
+- namestite vtičnik `MSPhysics`
+    - zaženite program `Sketchup`
+    - v menuju izberite `Window` -> `Extension Wearhouse`
+    - poiščite `MSPhysics`
+    - izberite `MSPhysics` in kliknite `Install`
 
 Uporaba:
+
 - Narišemo površino
 - jo združimo kot `Make Group`
 - in ji nato določimo `MSPhysics -> Shape -> Static Mesh`
 
 - Narišemo še ostale predmete, ki so lahko so-odvisni...
-- določimo jin lahko različne parametre:
+- določimo jim lahko različne parametre:
     - maso,
     - koeficient trenja,
     - magnetni učinek,
     - material, ...
 
-> ### NALOGA: Animacije in Simulacije v poučevanju fizike  
->  Poišči po en primer ANIMACIJE ali/in SIMULACIJE, ter ga na kratko ovrednoti:
->  - vir simulacije/animacije,
->  - vzorčno sliko zaslona (velikost < 200kB),
->  - opis tipične uporabe (fizikalni zakoni, podatki, predstavitev podatkov),
->  - naštejte/opišite katero učno snov iz [UN](https://www.gov.si/assets/ministrstva/MIZS/Dokumenti/Osnovna-sola/Ucni-nacrti/obvezni/UN_fizika.pdf) bi lahko obdelali in kako dosegli UC (tema, vsebinski sklop, učni cilji, aktivnost)
->  - izpostavi prednosti,
->  - izpostavi slabosti.
+## FreeCAD in FEM
 
-## Izdelava
+`FreeCAD` je splošno parametrično 3D CAD programsko orodje za modeliranje, katerega razvoj je popolnoma odprtokoden (licenca LGPL). FreeCAD je usmerjen neposredno v strojništvo in oblikovanje izdelkov, vendar je primeren tudi za širši spekter inženiringa, kot so arhitektura, analiza končnih elementov, 3D tiskanje in druge naloge.
 
-- Geogebra: Kako zaslonka vpliva na ostrino slike
+FEM Workbench zagotavlja sodoben potek dela s končnimi elementi (FEA) za FreeCAD. To v glavnem pomeni, da so vsa orodja za analizo združena v en grafični uporabniški vmesnik (GUI).
+
+![Slika FEM analize.](https://wiki.freecadweb.org/images/thumb/1/1a/FEM_example01_pic00.jpg/1050px-FEM_example01_pic00.jpg){#fig:FreeCAD_FEM}
+
 - FreeCAD: FEM (finite element method) konstrukcija nosilca (3D print)
+
+### Klasično reševanje problema
+
+Polico z:
+
+- dimenzijami L=30cm, a=5cm in h=1cm,
+- obremenimo z maso 1kg enakomerno po celi ploskvi.
+
+Polico smo izdelali iz materiala PLA z
+
+- modulom elastičnosti $E=3.6\ MPa$,
+- dopustna napetost $\sigma=14 - 60\ MPa$
+
+Podatki o različnih materialih so na voljo na [MatWeb](http://www.matweb.com/index.aspx).
+
+Izračun:
+
+- poves:
+$$ f = \frac{F L^3}{8EI} $$
+
+- vztrajnostni moment:
+$$ I = \frac{a h^3}{12} $$
+
+- odpornostni moment:
+$$ W = \frac{a h^2}{6} = \frac{F L}{2 \sigma_b} $$
 
 # KLASIČNO OPAZOVANJE POJAVOV
 
@@ -144,13 +193,20 @@ Standardni odklon
 
 Kolikšna je  verjetnost, da se povprečna vrednost nahaja v nekem območju?  
 
-±1.00σ -> 68.27%
-±1.65σ -> 90.11%
-±2.00σ -> 95.45%
+$±1.00\sigma -> 68.27\%$
+$±1.65\sigma -> 90.11\%$
+$±2.00\sigma -> 95.45\%$
 
 Verjetnost, da se vzorec nahaja v nekem območju X_min -> X_max
 
 ## Standardna napaka ocene pov. vrednosti
+
+Standardna napaka aritmetične sredine ($\sigma_M$) je standardni odklon vzorčne porazdelitve aritmetičnih sredin in meri natančnost vzorčne ocene aritmetične sredine. Pove nam v kakšnem razponu se vrednosti aritmetičnih sredin populacije gibljejo, kar lahko trdimo z določenim (običajno 95 %) intervalom zaupanja.
+
+$$ s_E = \frac{s}{\sqrt{n}} $${#eq:mean_standard_error}
+
+Poglejmo simulacijo, kako `se` vpliva na zapis vrednosti meritve [[link](https://www.geogebra.org/m/caq6wxxj)]
+
 Označimo tudi z oznako SE
 
     =STDDEV(Range)/SQRT(N)
@@ -161,18 +217,18 @@ Kako dobimo Z-vrednost v excelu?
 -->
     =NORM.SINV(verjetnost)
 
-Kjer "verjetnost" predstavlja verjetnost, da se povprečna vrednost nahaja v intervalu od -∞ .. z.
+Kjer "verjetnost" predstavlja verjetnost, da se povprečna vrednost nahaja v intervalu od $-\inf .. z$.
 
 absplutna napaka = z*std.nap.oc.pov.vr.
 
 ### Interval zaupanja
 
-    =CONFIDENCE(⍶,σ,N)  
+    =CONFIDENCE(a,s,N)  
 
 kjer je:
 - N = število vzorcev
-- σ = standardna deviacija
-- ⍶ = verjetnost, da pov. vred. ni v tem območju.
+- s = standardna deviacija
+- a = verjetnost, da pov. vred. ni v tem območju.
 
 ## Predstavitev podatka
 
@@ -188,9 +244,9 @@ Zaokroževanje:
 
 Statistično to predstavljamo z *effect size*. Torej za to vrednost lahko uporabimo statistične veličine kot so:
 
-- θ = x1 - x2 / σ
+- $\Phi = \frac{x1 - x2}{\sigma}$
 - Cohen's d
-- Glass Δ
+- Glass $\Delta$
 - t-test
 
 
@@ -209,7 +265,7 @@ Statistično to predstavljamo z *effect size*. Torej za to vrednost lahko uporab
     =COREL()
 
 ## Standardna deivacija
-je podobna σ - kot pri vzorčenju ene vrednosti. Pri linearizaciji pa upoštevamo, da "povprečna" vrednost sledi linearnemu trendu...
+je podobna $\sigma$ - kot pri vzorčenju ene vrednosti. Pri linearizaciji pa upoštevamo, da "povprečna" vrednost sledi linearnemu trendu...
 
     =STEYX(y, x)
 Ampak to je std. odklon Y, če bi imeli konstanten X. Na to "razpršenost" lahko vpliva:  
@@ -251,7 +307,7 @@ Ampak to je std. odklon Y, če bi imeli konstanten X. Na to "razpršenost" lahko
     1. kliknemo ikono [ -|-+- ] in
     2. primemo središče koordinatnega sistema in ga namestimo
     3. koordinatni sistem lahko tudi nagnemo tako da uravnamo x_os
-4. Vrnamo video na "point of interest" z ikono [  ] spodaj
+4. Vrnemo video na "point of interest" z ikono [<] spodaj
 5. in začnemo vzorčiti tako, da kliknemo:
     1. [ * ] Create -> Point mass
     2. in klikamo s SHIFT_L_click
@@ -343,7 +399,7 @@ Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
     - g : 9.84m/s²
 
 - x = v_x0*t + x_0
-- y = ¹/₂ 9.81 m/s²*t² + v_y0*t + y_0
+- $y = \frac{1}{2} 9.81 m/s²*t² + v_y0*t + y_0$
 
 ## OBLIKOVANJE DINAMIČNEGA FIZIKALNEGA MODELA (izračun sil)
 
