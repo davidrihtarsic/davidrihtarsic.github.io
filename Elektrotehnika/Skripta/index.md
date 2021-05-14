@@ -16,7 +16,9 @@
 - [9 - Krmiljenje servo motorjev](./09-Krmiljenje_servo_motorjev.md) - [PDF](./09-Krmiljenje_servo_motorjev.pdf)  
 - [10 - Uporaba dalnovodov](./13-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./13-Uporaba_transformatorjev_v_daljnovodih.pdf)  
 - [11 - Krmiljenje koračnega motorja](./Skripta/10-Krmiljenje_koračnih_motorjev.md) - [PDF](./Skripta/10-Krmiljenje_koračnih_motorjev.pdf)  
-- [12 - Izkoristek enosmernega motorja](./Skripta/11-Izkoristek_enosmernega_motorja.md) - [PDF](./Skripta/11-Izkoristek_enosmernega_motorja.pdf)  
+- [12 - Koeficient enosmernega motorja](./20-Konstanta_enosmernega_motorja.md) - [PDF](./20-Konstanta_enosmernega_motorja.pdf)  
+- [13 - Izkoristek enosmernega motorja](./21-Izkoristek_enosmernega_motorja.md) - [PDF](./21-Izkoristek_enosmernega_motorja.pdf)  
+- [14 - Izkoristek enosmernega generatorja](./22-Izkoristek_enosmernega_generatorja.md) - [PDF](./22-Izkoristek_enosmernega_generatorja.pdf)  
 - [13 - Električna inštalacija](./Skripta/17-Električna_inštalacija.md) - [PDF](./Skripta/17-Električna_inštalacija.pdf)
 
 ---
