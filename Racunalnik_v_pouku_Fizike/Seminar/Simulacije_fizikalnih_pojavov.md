@@ -133,8 +133,10 @@ Polico z:
 
 Polico smo izdelali iz materiala PLA z
 
-- modulom elastičnosti $E=3.6\ MPa$,
-- dopustna napetost $\sigma=14 - 60\ MPa$
+- modulom elastičnosti
+$$ E = 3.64\ MPa $$,
+- dopustna napetost
+$$ \sigma = 14 - 60\ MPa $$
 
 Podatki o različnih materialih so na voljo na [MatWeb](http://www.matweb.com/index.aspx).
 
