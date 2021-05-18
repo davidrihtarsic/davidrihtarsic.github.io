@@ -134,8 +134,11 @@ Polico z:
 Polico smo izdelali iz materiala PLA z
 
 - modulom elastičnosti
-$$ E = 3.64\ MPa $$,
+
+$$ E = 3.64\ MPa $$
+
 - dopustna napetost
+
 $$ \sigma = 14 - 60\ MPa $$
 
 Podatki o različnih materialih so na voljo na [MatWeb](http://www.matweb.com/index.aspx).
@@ -143,12 +146,15 @@ Podatki o različnih materialih so na voljo na [MatWeb](http://www.matweb.com/in
 Izračun:
 
 - poves:
+
 $$ f = \frac{F L^3}{8EI} $$
 
 - vztrajnostni moment:
+
 $$ I = \frac{a h^3}{12} $$
 
 - odpornostni moment:
+
 $$ W = \frac{a h^2}{6} = \frac{F L}{2 \sigma_b} $$
 
 # KLASIČNO OPAZOVANJE POJAVOV
@@ -156,15 +162,10 @@ $$ W = \frac{a h^2}{6} = \frac{F L}{2 \sigma_b} $$
 Oglejmo si video simulacije enakomernega gibanja. Simulacijo smo izbrali zato, da lahko nadzorujemo hitrost, ki jo bomo kasneje lahko primerjali z izmerjeno.
 
 ![Simulacija enakomernega gibanja.](./slike/walking_man_veloc.png){#fig:walking_man_veloc.png}
-
 Izmerimo vmesne čase oddaljenosti osebe na vsake 2 m in jih uredimo v tabeli.
-
 Za meritev časov lahko uporabite spletno merilno uro [link](https://www.timeanddate.com/stopwatch/).
-
 Ta spletna različica časovnega merilnika omogoča izvoz časov v beležnico in tako enostaven copy-paste v Excel.
-
 Čase lahko pretvorimo v sekunde tako, da celico pomnožimo s 24h*60min*60sec (zaokrožimo na 3 dec)
-
 Poizkus večkrat ponovimo in rezultate vnesemo v tabelo.
 
 ## PORAZDELITEV MERITEV
@@ -195,9 +196,9 @@ Standardni odklon
 
 Kolikšna je  verjetnost, da se povprečna vrednost nahaja v nekem območju?  
 
-$±1.00\sigma -> 68.27\%$
-$±1.65\sigma -> 90.11\%$
-$±2.00\sigma -> 95.45\%$
+- $±1.00\sigma -> 68.27\%$
+- $±1.65\sigma -> 90.11\%$
+- $±2.00\sigma -> 95.45\%$
 
 Verjetnost, da se vzorec nahaja v nekem območju X_min -> X_max
 
@@ -207,19 +208,27 @@ Standardna napaka aritmetične sredine ($\sigma_M$) je standardni odklon vzorčn
 
 $$ s_E = \frac{s}{\sqrt{n}} $${#eq:mean_standard_error}
 
-Poglejmo simulacijo, kako `se` vpliva na zapis vrednosti meritve [[link](https://www.geogebra.org/m/caq6wxxj)]
+Poglejmo simulacijo, kako `$s_E$` vpliva na zapis vrednosti meritve [[link](https://www.geogebra.org/m/caq6wxxj)]
 
 Označimo tudi z oznako SE
 
     =STDDEV(Range)/SQRT(N)
 
-Da izberemo določen interval, moramo poznati vrednost Z. Le to dobimo z enačbo:  
+Da izberemo določen interval, moramo poznati vrednost Z. Le to dobimo s funkcijo:  
 <!--
 Kako dobimo Z-vrednost v excelu?
 -->
     =NORM.SINV(verjetnost)
 
-Kjer "verjetnost" predstavlja verjetnost, da se povprečna vrednost nahaja v intervalu od $-\inf .. z$.
+Kjer "verjetnost" predstavlja verjetnost, da se povprečna vrednost nahaja v intervalu od $-\inf .. z$. To lahko naredimo le ko je naš vzorec tako velik, da ne odstopa preveč od normalne porazdelitve `N < 100`. Pri 
+manjših vzorcih pa je razlika lahko že očitna in je potrebno Z-parameter prilagoditi na velikost vzorca [link za izračun Z-parametra](https://www.usablestats.com/calcs/tinv). Ali z enčbo:
+
+    =T.INV.2T(a, df)
+
+kjer je:
+
+- a = verjetnost, da pov. vred. ni v tem območju
+- df = N-1
 
 absplutna napaka = z*std.nap.oc.pov.vr.
 
@@ -228,6 +237,7 @@ absplutna napaka = z*std.nap.oc.pov.vr.
     =CONFIDENCE(a,s,N)  
 
 kjer je:
+
 - N = število vzorcev
 - s = standardna deviacija
 - a = verjetnost, da pov. vred. ni v tem območju.
@@ -301,30 +311,44 @@ Ampak to je std. odklon Y, če bi imeli konstanten X. Na to "razpršenost" lahko
 
 1. Naložimo video (Video -> Import)
     1. Spodaj nastavimo START in STOP ter
-    2. na koliko skli videa bomo izbrali sličice (50)
-2. Nastavimo merilo
-    1. kliknemo na ikono [+-10-+] New -> Callibration stick
-    2. nato s SHIFT_L_click določimo merilo
-3. Določimo koordinatni sistem
-    1. kliknemo ikono [ -|-+- ] in
+    2. nastavimo lastnosti videa:  
+        - kliknemo na ikono `Clip Settings` in nastavimo parametre:
+        - `Start Frame:` 59
+        - `Step size:`5 
+        - `End Frame:` 123
+
+3. Nastavimo merilo
+    1. kliknemo na ikono `[+-10-+]`: New -> Callibration stick
+    2. nato s SHIFT_L_click določimo začetek merila
+    3. in SHIFT_L_click določimo konec merila
+
+4. Določimo koordinatni sistem
+    1. kliknemo ikono `[ -|-+- ]` in
     2. primemo središče koordinatnega sistema in ga namestimo
-    3. koordinatni sistem lahko tudi nagnemo tako da uravnamo x_os
-4. Vrnemo video na "point of interest" z ikono [<] spodaj
+    3. koordinatni sistem lahko tudi nagnemo tako da uravnamo x_os (poravnaj z linijo kavča - vodorano)
+4. Vrnemo video na "point of interest" z ikono `[<]` spodaj
 5. in začnemo vzorčiti tako, da kliknemo:
     1. [ * ] Create -> Point mass
-    2. in klikamo s SHIFT_L_click
+    2. vpišemo maso teniške žogice na 57 g
+    2. in klikamo s SHIFT_L_click v center teniške žogice
+
+Tako lahko vzorčimo katerokoli točko na video posnetku...
 
 ## ANALIZA MERITEV
 
-1. Na desni strani lahko izbiramo:
-    1. Plot - koliko grafov želimo prikazovati
-    2. če kliknemo na y-os lahko spremenimo x, y, v_x, a_x ...
-    3. če kliknemo na belo polje grafa pa dobimo orodje za analizo:
-        1. Analize -> ...
-            1. Statistics : x, m, sd, se ...
-            2. Curve fits (linearizacija)
-            3. furjejeva transf. -> frekvence...
-        2. V analizo lahko izberemo poljubne točke (označimo podatke v tabeli ali v grafu)
+Na desni strani se je izrisal graf `x(t)`. To polje nam ponuja nekaj možnosti:
+
+1. `Plot` - koliko grafov želimo hkrati prikazovati
+2. `x(m)` - spremenimo fizikalni količino, ki jo želimo prikazovati na y-osi.
+3. `t(s)` - spremenimo fiz. kol. na x-osi.
+4. `*` - če kliknemo na posamezno točko, se video prilagodi na čas te meritve.
+5. `1.45` - desni klik na vrednosti na osi -> `Scale...` - nastavimo območje podatkov
+3. če kliknemo na belo polje grafa pa dobimo orodje za analizo:
+    1. Analize -> ...
+        1. Statistics : x, m, sd, se ...
+        2. Curve fits (linearizacija)
+        3. furjejeva transf. -> frekvence...
+    2. V analizo lahko izberemo poljubne točke (označimo podatke v tabeli ali v grafu)
 
 ## AVTOMATIČNO VZORČENJE
 
@@ -379,31 +403,46 @@ tisto vmes izbrišite...
 6. Autotrack...(potrebno nastaviti na kavču...)
 7. Analiza:
     - m: 58g
-    - v_x: 1.962 m/s (iz grafa x(t))
-    - v_y: 4.801 m/s (iz grafa v_y(t))
-    - g: 9.97 m/s²   (iz grafa v_y(t))
+    - v_x = -0.007 * t + 1.962 m/s (iz grafa x(t), če ni a=0 poravnaj koordinatni sistem)
+    - v_y = A*t+ v0
+        - A = -9.807 m/s²
+        - A_se = ± 0.032 m/s²
+        - Z_59 = 2.001
+        - v0 = 4.7 m/s
+    - g = 9.81 ± 0.06 m/s²
 
 
 ## OBLIKOVANJE FIZIKALNEGA MODELA (izračun x in y)
 
-Pri nanlizi poševnega meta teniške žogice smo izmerili naslednje veličine:
+### Klasično preračunavanje pozicije x in y
+
+Poševni met razdelimo na dva dela:
+
+1. Enakomerno gibanje v `x smeri` in
+2. Pospešeno gibanje v `y smeri`.
+
+Pri analizi poševnega meta teniške žogice smo izmerili naslednje veličine:
 
 - m: 58g
 - v_x: 1.962 m/s
-- v_y: 4.801 m/s
-- g: 9.97 m/s²
+- v_y: 4.701 m/s
+- g: 9.81 m/s²
 
-1. [*] Create -> Kinematic model (in vpišemo podatke)
+Ustvarjanje fizikalnega modela naredimo z naslednjimi koraki:
+  
+1. [*] Create -> Kinematic model (in vpišemo parametre - konstante)
 
     PARAMETERS (-> Add):
     - v_x: 1.962 m/s
     - v_y: 4.801 m/s
     - g : 9.84m/s²
 
-- x = v_x0*t + x_0
-- $y = \frac{1}{2} 9.81 m/s²*t² + v_y0*t + y_0$
+2. Opis gibanja z enačbami:
 
-## OBLIKOVANJE DINAMIČNEGA FIZIKALNEGA MODELA (izračun sil)
+- x = vx0 * t + x0
+- $y = \frac{1}{2}\ 9.81\ \frac{m}{s^2} * t^2 + vy0 * t + y0$
+
+### OBLIKOVANJE DINAMIČNEGA FIZIKALNEGA MODELA (izračun sil)
 
 Create -> Dinamic —> Cartezian
 
@@ -413,8 +452,8 @@ Create -> Dinamic —> Cartezian
 - t: 0 s
 - x: 0 m
 - y; 0 m
-- v_x: 1.962 m/s
-- v_y: 4.801 m/s
+- v_x: 1.925 m/s
+- v_y: 4.75 m/s
 
 - Fx = 0
 - Fy = m*g
