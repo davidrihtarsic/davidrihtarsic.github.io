@@ -1,3 +1,11 @@
+# [RAČUNALNIK V POUKU FIZIKE](../../index) ↪ Seminar
+[🏡DOMOV](../../index){: .btn}
+[📝VSEBINE](../../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../../info.html){: .btn}
+[💾PRESNEMI](../../Presnemi/index){: .btn}
+
+---
+
 # SEMINARSKA NALOGA
 
 Pripravite izvedite in predstavite seminar iz področja uporabe računalnika v namen izobraževanja fizike v osnovni šoli. Tema seminarja je lahko v sklopu:
