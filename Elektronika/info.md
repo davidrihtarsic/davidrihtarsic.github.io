@@ -22,6 +22,11 @@ Vaje iz elektronike potekajo v 1. letniku smeri Ma-Fi, Fi-Te, Fi-Ke. Vaje obsega
 - oddati poročila vaj in
 - imeti vsaj 80% prisotnost pri vajah.
 
+Končna ocena iz vaj pri predmetu Elektronika je sestavljena:
+
+- 75% izpit iz vaj (ali ocena iz kolokvijev - šteje boljši rezultat) in
+- 25% ocena iz poročil za vaje iz Elektronike.
+
 ### Izpit iz vaj
 
 K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 praktične naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf tudi ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Poleg pisnega dela izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.

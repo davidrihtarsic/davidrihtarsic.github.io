@@ -8,6 +8,7 @@
 ---
 
 - [Študijsko gradivo - todo...](./Simulacije_fizikalnih_pojavov.md)
+- [Predstavitev seminarske naloge](./Vzorec_seminarskega_dela/Predstavitev_seminarske_naloge.md) - [PDF](./Vzorec_seminarskega_dela/Predstavitev_seminarske_naloge.pdf)  
 
 ---
 

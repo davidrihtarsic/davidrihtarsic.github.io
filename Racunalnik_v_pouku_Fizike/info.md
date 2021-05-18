@@ -34,6 +34,7 @@ Ostalih 70 % ocene iz vaj (= 21 % celotne ocene) študent pridobi z izvedbo fizi
 - uporaba programov za video analiza gibanja,
 - uporaba programov za zvočno analizo kot pripomoček v fiziki valovanj.
 
+
 ### Zaključna ocena
 
 Zaključna ocena je sestavljena iz:
