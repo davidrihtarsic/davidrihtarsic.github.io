@@ -20,6 +20,7 @@
 - [13 - Izkoristek enosmernega motorja](./21-Izkoristek_enosmernega_motorja.md) - [PDF](./21-Izkoristek_enosmernega_motorja.pdf)  
 - [14 - Izkoristek enosmernega generatorja](./22-Izkoristek_enosmernega_generatorja.md) - [PDF](./22-Izkoristek_enosmernega_generatorja.pdf)  
 - [13 - Električna inštalacija](./Skripta/17-Električna_inštalacija.md) - [PDF](./Skripta/17-Električna_inštalacija.pdf)
+- [14 - Izdelava elektromagneta](./60-Magnetni_učinek_električnega_toka.md) - [PDF](./60-Magnetni_učinek_električnega_toka.pdf)
 
 ---
 
