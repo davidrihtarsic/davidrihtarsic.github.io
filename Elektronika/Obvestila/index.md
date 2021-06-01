@@ -6,6 +6,11 @@
 
 ---
 
+**2021-06-01 : Povprečje kolokvijev iz vaj:**  
+[Povprečna ocena kolokvijev iz vaj](./2021-06-01_Povprecje_kolokvijev.md)
+
+---
+
 **2021-05-31 : Rezultati 2. kolokvija iz vaj**  
 [Rezultati 2. kolokvija iz vaj za elektroniko](./2021-06-01_2021_05_31-vaje_kolokvij_2.md)
 
