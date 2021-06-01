@@ -35,7 +35,7 @@ Boljše opredelitev strukture predstavitve semninarske naloge sledi v naslednjih
 
 ### UVOD
 
-Uvod mora biti kratek, strnjen in jasen, pa tudi privlačen za bralca. V uvodnem delu seminarske naloge se določi naslednje:
+Uvod mora biti kratek, strnjen in jasen, pa tudi privlačen za poslušalca. V uvodnem delu seminarske naloge se določi naslednje:
 
 #### OPREDELITEV PODROČJA IN OPIS PROBLEMA
 

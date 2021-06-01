@@ -6,6 +6,11 @@
 
 ---
 
+**2021-05-31 : Rezultati 2. kolokvija iz vaj**  
+[Rezultati 2. kolokvija iz vaj za elektroniko](./2021-06-01_2021_05_31-vaje_kolokvij_2.md)
+
+---
+
 **2021-04-20 : Rezultati 1. kolokvija iz vaj**  
 [Rezultati 1. kolokvija iz vaj za elektroniko](./2021_04_19_1_kol_vaje.md)
 
