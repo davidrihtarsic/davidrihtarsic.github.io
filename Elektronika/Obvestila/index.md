@@ -6,6 +6,11 @@
 
 ---
 
+** 2021-06-03: Izpit iz vaj **  
+1. Izpit iz vaj za ELEKTRONIKO bo 11.6.2021. Izvajali ga bomo na daljavo na platformi MS-Teams v skupini `Eltron 2020 [vaje]`. Na izpit iz vaj se ni potrebno prijaviti v VIS sistemu.
+
+---
+
 **2021-06-01 : Povprečje kolokvijev iz vaj:**  
 [Povprečna ocena kolokvijev iz vaj](./2021-06-01_Povprecje_kolokvijev.md)
 
