@@ -7,7 +7,7 @@
 ---
 
 **2021-06-15: rezultati poročil**  
-[Rezultati poročil 2021](./2021-06-15_Vaje_poročila.md), ki so bila oddana do 14. 06. 2021.
+[Rezultati poročil 2021](./2021-06-15_Vaje_poročila_2.md), ki so bila oddana do 14. 06. 2021.
 
 ---
 
