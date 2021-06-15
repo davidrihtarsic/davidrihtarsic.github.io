@@ -37,7 +37,7 @@ K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot
 
 ### Poročila vaj
 
-Izdelana poročila študent odda na dan 1. kolokvija. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka). Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Opis vseh nalog za idelavo poročil lahko najdete v skripti iz vaj.
+Izdelana poročila študent odda na dan kolokvija/izpita/roka v VIS sistemu. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka). Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Oddati morate vsa poročila vaj, ki smo jih izvedli v tekočem šolskem letu. Opis vseh nalog za izdelavo poročil lahko najdete v skripti iz vaj.
 
 Priporočljivo je skripto natisniti in jo imeti pri vajah prisotno. Posebno pozornost namenite izrisavanju grafov. Graf mora vsebovati: navpično in vodoravno os, njuni enoti in skalo, naslov grafa, mrežne črte naj bodo primerno izbrane. Graf lahko narišete ročno na že pripravljene podlage ali pa si pomagate z računalniškimi programi. Točke na grafu ne smejo biti povezane med seboj z daljico, vendar jim morate dodati ustrezen trend, ki nakazuje fizikalni pojav. Izpolnjene morajo biti vse vaje.
 

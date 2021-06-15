@@ -6,6 +6,16 @@
 
 ---
 
+**2021-06-15: rezultati poročil**  
+[Rezultati poročil 2021](./2021-06-15_Vaje_poročila.md), ki so bila oddana do 14. 06. 2021.
+
+---
+
+**2021-06-15: rezultati izpita iz vaj**  
+[Rezultati izpita iz vaj 2021-06-11](./2021-06-15_Vaje_izpit.md)
+
+---
+
 **2021-06-03: Izpit iz vaj**  
 Izpit iz vaj za ELEKTRONIKO bo 11.6.2021 ob 9.00. Izvajali ga bomo na daljavo na platformi MS-Teams v skupini `Eltron 2020 [vaje]`. Na izpitu bodo 4. naloge in ga boste lahko piali 90 minut. Na izpit iz vaj se ni potrebno prijaviti v VIS sistemu.
 
