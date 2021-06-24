@@ -6,6 +6,11 @@
 
 ---
 
+**2021-06-24: rezultati poročil iz 2. kroga:**  
+[Rezultati poročil 2021 ](./2021-06-24_poročila_2nd_krog.md)iz drugega kroga (popravki in dopolnitve).
+
+---
+
 **2021-06-15: rezultati poročil**  
 [Rezultati poročil 2021](./2021-06-15_Vaje_poročila_2.md), ki so bila oddana do 14. 06. 2021.
 
