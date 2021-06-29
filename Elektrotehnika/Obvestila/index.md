@@ -6,7 +6,7 @@
 
 ---
 
-**2021-06-29: Rezultati poročil**
+**2021-06-29: Rezultati poročil**  
 [Rezultati poročil](./2021-06-29_poročila-poletno-obdobje.md) za poletno obdobje.
 
 ---
