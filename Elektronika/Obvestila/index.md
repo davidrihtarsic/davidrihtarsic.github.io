@@ -6,6 +6,11 @@
 
 ---
 
+**2021-06-29: rezultati izpita iz vaj**  
+[Rezultati izpita iz vaj](./2021-06-29_Izpit_vaje.md) iz dne 24.6.2021.
+
+---
+
 **2021-06-24: rezultati poročil iz 2. kroga:**  
 [Rezultati poročil 2021 ](./2021-06-24_poročila_2nd_krog.md)iz drugega kroga (popravki in dopolnitve).
 
