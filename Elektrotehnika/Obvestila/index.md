@@ -6,7 +6,12 @@
 
 ---
 
-** 2021-06-10:Rezultati poročil**  
+**2021-06-29: Rezultati poročil**
+[Rezultati poročil](./2021-06-29_poročila-poletno-obdobje.md) za poletno obdobje.
+
+---
+
+**2021-06-10:Rezultati poročil**  
 [Rezultati poročil 2021](./2021-06-10_Poročila_vaj.md)  
 Tisti ki imate pri rezultatih negativen procent ocene, verjetno niste oddali vseh poročil, ali pa so bila le ta ocenjena z 0% (glej [pogoje](../info.md)).
 
