@@ -4,6 +4,12 @@
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
+
+---
+
+**2021-06-29: rezultati poročil**  
+[Rezultati poročil](./2021-06-29_poročila_koncna_poletno_obdobje.md) poletnega semestra.
+
 ---
 
 **2021-06-29: rezultati izpita iz vaj**  
