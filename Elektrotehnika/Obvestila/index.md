@@ -6,6 +6,11 @@
 
 ---
 
+**2021-07-02:poročila**  
+[še eno dokončano poročilo](./2021-07-02_poročila_zamudniki_poletni.md)
+
+---
+
 **2021-06-29: Rezultati poročil**  
 [Rezultati poročil](./2021-06-29_poročila-poletno-obdobje.md) za poletno obdobje.
 
