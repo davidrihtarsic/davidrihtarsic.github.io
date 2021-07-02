@@ -7,6 +7,11 @@
 
 ---
 
+**2021-07-02: Končni rezultati vaj**  
+[Končne rezultate vaj](./2021-07-02_Končni_rezultati_vaj_poletni.md) lahko preverite na povezavi. Končna ocena je sestavljena iz rezultata izpita (75%) in ocene vaj (25%).
+
+---
+
 **2021-06-29: rezultati poročil**  
 [Rezultati poročil](./2021-06-29_poročila_koncna_poletno_obdobje.md) poletnega semestra.
 
