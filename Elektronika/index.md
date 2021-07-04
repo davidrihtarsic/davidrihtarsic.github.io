@@ -6,4 +6,6 @@
 
 ---
 
-... to do ...
+
+![Elektronika](https://simple.wikipedia.org/wiki/File:Electronic_circuit.jpg)
+
