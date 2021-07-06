@@ -23,7 +23,7 @@ Vaje iz elektrotehnike potekajo v 1. letniku smeri Ma-Te in 2. letniku Fi-Te, Ra
 
 ### Poročila vaj
 
-Izdelana poročila študent odda na dogovorjen rok. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka) za vsako zahtevano nalogo. Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Opis vseh nalog za izdelavo poročil lahko najdete v skripti iz vaj.
+Izdelana poročila študent odda na pred razpisanim rokom v VIS sistemu. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka) za vsako zahtevano nalogo. Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Opis vseh nalog za izdelavo poročil lahko najdete v skripti iz vaj.
 
 Priporočljivo je skripto natisniti in jo imeti pri vajah prisotno. Posebno pozornost namenite izrisavanju grafov. Graf mora vsebovati: navpično in vodoravno os, njuni enoti in skalo, naslov grafa, mrežne črte naj bodo primerno izbrane. Graf lahko narišete ročno na že pripravljene podlage ali pa si pomagate z računalniškimi programi. Točke na grafu ne smejo biti povezane med seboj z daljico, vendar jim morate dodati ustrezen trend, ki nakazuje fizikalni pojav. Izpolnjene morajo biti vse vaje.
 
