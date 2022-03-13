@@ -1,0 +1,26 @@
+title: "David Rihtaršič"
+# pmarsceill/just-the-docs
+# thema lepa, enostavna, simple, lahko urejaš nivo dokumenta, -nima postov
+remote_theme: pmarsceill/just-the-docs
+#color_scheme: "dark"
+#search_enabled: true
+#logo: "https://avatars3.githubusercontent.com/u/26739491?s=200&v=4"
+#aux_links:
+#  "DRTI":
+#    - "www.drti.si"
+#  "PEF":
+#    - "www.pef.uni-lj.si"
+#footer_content: "..."
+
+
+# tema od gihtuba
+# ne znam narediti navigation
+#theme: jekyll-theme-minimal
+
+# thema minimal-mistakes
+#remote_theme             : "mmistakes/minimal-mistakes"
+#minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+#remote_theme: jekyll/jekyll
+
+theme: jekyll-theme-slate

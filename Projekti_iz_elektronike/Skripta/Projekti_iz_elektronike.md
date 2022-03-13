@@ -1,0 +1,516 @@
+# NAČRTOVANJEM ELEKTRONSKIH VEZIJ
+Tudi pri pedagoškem procesu je pomembno, da so vezja narisana nazorno (tako sheme,
+kot tudi sestavljanje vezja na prototipni ploščici). V ta namen lahko uporabljate različna
+orodja. Omenili bomo vsaj dva, ki sta prosto-dostopna in bi priporočali njihovo uporabo.
+
+## Stikalne sheme
+EasyEDA je spletno orodje, ki je namenjeno risanju elektronskih vezij, načrtovanju TIV in
+izdelavi potrebnih datotek za njihovo izdelavo. Primer stikalne sheme krmilnika RobDuino lahko vidite
+na [@fig:RobDuino_Power],[@fig:RobDuino_Inputs] in [@fig:RobDuino_Output].
+
+![Stikalna shema modula RobDuino - napajalni del.](./slike/RobDuino_Power.png){#fig:RobDuino_Power}
+
+![Stikalna shema modula RobDuino - vhodni del.](./slike/RobDuino_Inputs.png){#fig:RobDuino_Inputs}
+
+![Stikalna shema modula RobDuino - izhodni del..](./slike/RobDuino_Output.png){#fig:RobDuino_Output}
+
+> ### NALOGA: Stikalne sheme
+> V programskem orodju EasyEDA narišite shemo astabilnegamultivibratorja, izvozite sliko sheme in j vključite v poročilo.
+
+## Tiskana vezja
+
+> ### NALOGA: Risanje TIV
+> Za to vezje izrišite TIV in izpišite seznam elektronskih komponent. Izgled TIV izvozite in vstavite v poročilo. Prav tako vstavite seznam komponent.
+
+## Virtualna vezja
+
+Sestavljanje vezij pa na prototipni plošči pa je drugačen proces in za začetnike precej zahteven,
+zato je priporočljivo, da uporabljate orodja kot so TinkerCAD-Circuits.
+
+> ### NALOGA: Sestavljanje virtualnih vezij
+> V programskem orodju TinkerCAD-Circuits sestavite vezje na prototipni ploščici in sliko vstavite v poročilo.
+> 
+# SVETLOBNI SPOJNIKI
+
+Pred davnimi časi, ko svet še ni slišal za digitalno tehnologijo, se je gospod Samuel Morse
+domislil, da bi črke kodiral v kratke in dolge pulze. Te pa bi lahko kar najlažje pošiljal od
+ene točke do druge na najrazličnejše načine ... in telekomunikacije so prijokale na svet.
+
+## Vklop porabnika s tranzistorjem
+
+Pogosto moramo porabnike skozi katere tečejo večji tokovi ($I\ >\ 500\ mA$) vključiti
+s tranzistorjem.
+
+> ### NALOGA: Vklop žarnice s tranzistorjem
+>
+> 1. Za pošiljanje Morsejevih znakov uporabite žarnico. Ali nek drug vir z večjo
+> svetilnostjo.
+>
+> 2. Dolge in kratke pulze bomo pošiljali s svetlobnim oddajnikom. Načrtujete
+> ustrezno rešitev (narišite shemo vezja) tako, da bomo s pritiski na tipko
+> vklapljali in izklapljali svetilo (uporabite žarnico [12V in 0,6 A]).
+> 3. Bodite pozorni, na električne omejitve tipke, ki jih najdete v
+> [navodilih za uporabo](https://www.ic-elect.si/fileuploader/download/download/?d=0&file=custom%2Fupload%2FFile-0-48295100-1594733936.pdf) tipke. Načrtujte ustrezno rešitev.
+
+## Komparator napetosti
+
+V kolikor želimo ločiti med dvema napetostnima nivojema, lahko uporabimo komparator napetosti s
+primerno izbrano (ali celo nastavljivo) referenčno vrednostjo.
+
+> ### NALOGA: Komparator napetosti
+>
+> 1. Izdelajte svetlobni sprejemnik, v katerega boste za zaznavanje
+> osvetljenosti uporabili elektronski element s hitrim odzivom.
+>
+> 2. Analogni signal senzorja modificirajte tako, da boste lahko nedvoumno
+> podajali informacijo (npr. LED svetilo), ki jo je poslal svetlobni
+> oddajnik.
+>
+> 3. Z osciloskopom zajemite časovni potek napetostnega potenciala na 
+> vhodnem in na izhodnem priključku komparatorja.
+
+## Schmittov sprožilnik
+
+Iz prejšnje naloge lahko ugotovimo, da je izhodni signal svetlobnega senzorja
+opremljen z neželeno motnjo. Če v tem primeru želimo ločiti dve različni stanji senzorja,
+komparator napetosti ni dobra rešitev. Ob prehodu senzorja iz enega stanja v drugega tako dobimo
+na izhodu komparatorja več prehodov, čeprav se je osvetljenost senzorja spremenila le enkrat. Tako
+lahko ugotovimo potrebo po histerezi s katero bomo bomo mejno vrednost razmejili na dve
+mejni vrednosti. Tako ločevanje nam omogoča schmittov sprožilnik.
+
+> ### NALOGA: Komparator napetosti s šmitovim sprožilnikom
+>
+> 1. Iz grafa prejšnje naloge, ki predstavlja časovno odvisnost napetostnega potenciala vhodnega in izhodnega signala, odčitajte nove mejne vrednosti ( $U_{h1}\ in\ U_{h2}$).
+>
+> 2. Komparator napetosti iz prejšnje naloge zamenjajte s komparatorjem napetosti s šmitovim sprožilnikom (narišite stikalno shemo).
+>
+> 3. Z osciloskopom zajemite časovni potek napetostnega potenciala na 
+> vhodnem in na izhodnem priključku komparatorja napetosti s šmitovim sprožilnikom.
+# UPORABA MIKROKRMILNIKOV
+
+Za projekte, ki vključujejo programabilno elektroniko, pogosto uporabljamo že izdelane
+krmilnike iz družine Arduino. Na teh vezjih lahko najdemo mikrokrmilnike proizvajalca Atmel.
+Najbolj pogosto uporabljena krmilnika (Arduino Uno in Arduino NANO) temeljita na mikrikrmilniku Atmega328p. Blokovna shema tega mikrokrmilnika je prikazana na [@fig:ATmega238_block_diagram].
+
+![Blokovna shema mikrokrmilnika ATmega238.](./slike/ATmega238_block_diagram.png){#fig:ATmega238_block_diagram}
+
+> ### NALOGA: Glavni deli krmilnika
+> 
+> 1. Na blokovni shemi označi pomembne dele krmilnika in zapiši njihov glavni namen (funkcijo). Glavni sestavni deli so: generator delovnega takta (ura), centralno procesna enota, začasni (delovni) spomin, trajni spomin, vhodno-izhodne enote, komunikacijske enote ... 
+
+Mikrokrmilniki na krmilnikih Arduino so že opremljeni s programom (angl.
+»boot loader«), ki poskrbi za ustrezno prepisovanje programske vsebine, ki jo računalnik
+pošlje preko USB vodila. Tako lahko enostavno programiramo mikrokrmilnike, ki so na
+ploščah krmilnikov Arduino.
+
+> ### NALOGA: Osnovne nastavitve in testni program
+> 
+> 1. Iz programskega okolja Arduino IDE prepišite nastavitve programatorja ter izpolni [@tbl:prog_setuings]:
+>
+> |        Nastavitveni parameter | Vrednost nastavitvenega parametra |
+> |------------------------------:|:---------------------------------:|
+> |                Board (Plošča) |                                   |
+> | ~~Processor~~ (Mikrokrmilnik) |                                   |
+> |                  Port (vrata) |                                   |
+> |      Programmer (programator) |                                   |
+> Table: Nastavitveni parametri programatorja. {#tbl:prog_setuings}
+> 
+> 2. Iz primerov, ki so vključeni v programskem okolju Arduino IDE izberite
+> Blink.ino in ga preskusite.
+
+## Programiranje krmilnikov Arduino
+
+Za  programiranje  mikrokrmilnika  skrbi  odprtokodna  programska  koda  -  [avrdude](http://savannah.nongnu.org/projects/avrdude), ki se izvaja v ozadju programskega okolja
+Arduino IDE. Proces programiranja lahko bolj natančno spremljamo tako, da vključimo
+
+    File -> Preferences:
+
+    Shov verbose output during: [x] compilation [x] upload
+
+> ### NALOGA: AVRDUDE - program za prenos strojne kode
+>
+> 1. Prepišite  ukazno  vrstico  programa  avrdude  za  premos  strojne  kode  in
+> 2. opišite pomen parametrov.
+> 
+> Več o parametrih lahko najdete na spletni strani [avrdude](http://www.nongnu.org/avrdude/user-manual/avrdude_4.html#Option-Descriptions)
+>
+
+## Uporaba vhodno-izhodnih priključkov na kmilniku Arduino
+
+> ### NALOGA: Shema krmilnika Arduino NANO
+> 
+> 1. Oglejte si [shemo krmilnika Arduino NANO](https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf) in
+> 2. skušaj ugotoviti na kateri priključek IO enote je priključena LED, ki je na krmilniku.
+> 3. Izpolni [@tbl:pin_location]
+>
+> | Funkcija krmilnika | Arduino NANO[^1] | ATmega238[^2] |
+> |-------------------:|:----------------:|:-------------:|
+> |      LED na plošči |                  |               |
+> |                TxD |                  |               |
+> |                RxD |                  |               |
+> Table: Razporeditev priklučkov na krmilniku in mikrikrmilniku. {#tbl:pin_location}
+> 
+[^1]: Oznaka priključka na krmilniku Arduino NANO.
+[^2]: Oznaka priključka na mikrokrmilniku ATmega238.
+
+## Vhodno-izhodne enote mikrokrmilnika
+
+Vhodno-izhodne enote mikrokrmilnika so dvo-smerne z možnostjo nastavitve upora proti napajanju. Stikalna shema enega priključka na neki vhodno-izhodni enoti je prikazana na [@fig:Atmega328_IOpin_ctrl].
+
+![Shema priključka `n` na vhodno-izhodni enoti `x`.](./slike/Atmega328_IOpin_ctrl.png){#fig:Atmega328_IOpin_ctrl}
+
+Čeprav je shema na [@fig:Atmega328_IOpin_ctrl] nekoliko bolj kompleksna, lahko ugotovimo, da za nastavitev delovanja vhodno-izhodne enote potrebujemo le dva signala:
+
+- WDx - (DDRx) - za določanje vhodne oz. izhodne funkcije priključka
+- WPx - (PORTx) - za določanje vrednosti logičnega stanja na priključku x.
+
+> ### NALOGA: Krmilni registri mikrokrmilnika
+> 
+> 1. Preoblikuj program Blink.ino tako, da boš krmilil vklop in izklop LED z nastavitvijo krmilnikh registrov.
+> 2. Predstavite programsko kodo.
+
+## Branje napetostnega potenciala
+
+Branje napetostnega potenciala je najbolj pogosto uporabljeno pri vzorčenju pritiska tipke. Poglejmo si tak primer.
+
+![Različne možnosti priključitve tipke na digitalni vhod.](./slike/PBSw_All.png){#fig:PBSw_All}
+
+> ### NALOGA: Branje napetostnega potenciala
+>
+> 1. Sestavite prve tri različice priključitve tipke na digitalni vhod krmilnika A0 in preskusite spodnji program.
+> 2. Razložite (ne-)delovanje.
+
+```cpp
+void setup(){
+    pinMode(13, OUTPUT);
+    pinMode(A0, INPUT);
+}
+
+void loop(){
+    if ( digitalRead(A0) == HIGH)
+        digitalWrite(13, HIGH);
+    else
+        digitalWrite(13, LOW);
+}
+```
+
+> ### NALOGA: Uporaba upora proti napajanju
+>
+> 1. Spremenite delilnih napetosti tipka - upor tako, da bo upor vezan proti napajanju in nato spremenite program tako, da bo delovanje ostalo enako prejšnji nalogi. Priložite stikalno shemo vezja in preoblikovan program.
+> 2. Odstranite upor in preverite delovanje vezja. Kaj opazite, razložite delovanje.
+> 3. Vključite notranji upor proti napajanju, ki se nahaja v mikrokrmilniku ob vsakem vhodno-izhodnem priključku (glej [@fig:Atmega328_IOpin_ctrl]). Priložite programsko spremembo.
+
+## Prehodni stiki stikal
+
+Fizični preklopni elementi (kot je tipka) imajo tudi fizikalne lastnosti kot so trdota, trdnost, prožnost,
+elastičnost... Zaradi vseh teh lastnosti je preklop tipke iz enega položaja v drugega lahko tudi nekoliko nepredvidljiv.
+
+> ### NALOGA: Večkratni preklopi
+>
+> 1. Preskusite spodnji program in opišite njegovo delovanje.
+> 2. Opišite zaznane težave.
+> 3. Z osciloskopom ujemite enega od prehodov (0->1 ali 1->0) in
+> 4. problem rešite:
+>       - programsko ter
+>       - elektronsko.
+> Obe rešitvi dokumentirajte.
+
+```cpp
+void setup()
+{
+    const int LED = 13;
+    pinMode(LED, OUTPUT);
+    pinMode(A0, INPUT_PULLUP);
+}
+
+int i=0;
+
+void loop()
+{
+    int tipka_je_pritisnjena = !digitalRead(A0);
+    if (tipka_je_pritisnjena)
+    {
+      i++;
+      while (tipka_je_pritisnjena)
+        tipka_je_pritisnjena = !digitalRead(A0);
+      int i_je_liho = i % 2;
+      if (i_je_liho)
+        digitalWrite(13, HIGH);
+      else
+        digitalWrite(13, LOW);
+    }
+}
+```
+# Programiranje mikrmilnikov
+
+<!--
+to-do
+
+kako narediti programator s krmilnikom Arduino NANO
+naredi vajo ki jo opisuje tale stran
+glej: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
+-->
+
+# KOMUNIKACIJSKI VMESNIKI
+
+## Serijska komunikacija UART
+
+Nekaj več o UART komunikaciji si lahko preberete vsepovsod na 
+[svetovnem spletu](https://www.codrey.com/embedded-systems/uart-serial-communication-rs232/). Ker jo uporabljamo
+že več kot pol stoletja, lahko rečemo, da sodi med osnovne komunikacijske protokole.
+
+![Časovni potek napetosti na kominikacijski povezavi.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/UART_Frame.svg/936px-UART_Frame.svg.png)
+
+> ### NALOGA: Osnovni parametri UART protokola
+>
+> 1. Preučite UART protokol in prerišite časovni potek signala (teoretično).
+> 2. Na  teoretičnem  primeru  komentirajte:
+>   - pomen  napetostnega  signala,
+>   - kako si sledijo podatkovne informacije,
+>   - označite start in stop bit, 
+>   - izračunajte dolžino trajanja enega bita pri $baud = 9600 b/s$.
+
+Komunikacija  UART je  tako  razširjena,  da  jo  vključujejo  v  skoraj  vse  programabilne
+elektronske komponente in Arduino NANO ni nobena izjema. Mikrokrmilnik ATmega328p
+vsebuje enoto za komunikacijo UART in je dostopna na priključkih 0 (Rx) in 1 (Tx). Preko
+te enote lahko pošiljamo/sprejemamo podatke drugih zunanjih naprav.
+
+> ### NALOGA: Uporaba serijske UART komunikacije
+>
+> 1. Preučite shemo za krmilnik [Arduino NANO](https://www.arduino.cc/en/uploads/Main/Arduino_Nano-Rev3.2-SCH.pdf) in poiščite priključka za UART komunikacijo.
+> 2. Preskusite naslednji program mikrokrmilnika za pošiljanje nekega besedila
+> računalniku  in  odziv  spremjajte  v  serijskemu  oknu  programa  ArduinoIDE:
+```cpp
+void setup() {
+      Serial.begin(9600);
+}
+void loop() {
+  Serial.println("Pozdravljen svet.");
+  delay(1000);
+}
+```
+> ### NALOGA: Časovni potek napetosti UART komunikacije
+>
+> 1. Z osciloskopom posnemite napetostni signal pošiljanja enega samega znaka in
+> 2. parametre primerjajte s teoretičnimi vrednostmi komunikacije.
+> 3. Na grafu U(t) označite logične vrednosti posameznih bitov in  označite njihovo funkcijo (start bit, stop bit in položaj bita D0..D7).
+> 4. Iz grafa U(t) odčitajte poslano podatkovno vrednost in jo primerjajte z [ASCII tabelo](https://www.asciitable.com/).
+
+```cpp
+  Serial.print("A");
+```
+
+## I2C komunikacija
+
+Komunikacija lahko poteka tudi na drugačne načine, na primer med več napravami. Ena
+takih komunikacij je t.i. I2C komunikacija. Več o tej komunikaciji si lahko preberemo na
+wikipediji o [I2C podatkovnem vodilu](https://en.wikipedia.org/wiki/I%C2%B2C)
+
+![Na I2C vodilo riključene naprave.](./slike/i2c_info.png){#fig:i2c_info}
+
+V primeru, ki ga prikazuje [@fig:i2c_info] je glavna naprava označena kot »master«, ki bo v
+našem primeru Arduino NANO. Ostale naprave pa so »podložniki«. Vsak od njih mora
+imeti svoj naslov in mora zanj glavna naprava vedeti, saj le tako lahko vzpostavi
+komunikacijo z njim (podobno kot IP številke v TCP/IP omrežju).
+
+Naslove podložnikov včasih lahko nastavimo ročno na podložniku ali
+pa so zapisani že v sami napravi podložnika.
+Slednjo situacijo si lahko ogledamo na primeru LCD z I2C vodilom.
+
+![Priključitev LCD-ja na I2C vodilo.](./slike/I2C_connect.png){#fig:I2C_connect}
+
+> ### NALOGA: Priključitev I2C LCD-ja
+>
+> 1. Priključite LCD z I2C vodilom na Arduino NANO tako, kot prikazuje [@fig:I2C_connect] in 
+> s programom, ki ga najdete na [Arduino strani](https://playground.arduino.cc/Main/I2cScanner/),
+> ugotovite njegov naslov, ter ga  
+> zapišite : __________________
+
+Ker je sam protokol komunikacije bolj zapleten, bomo v ta namen uporabljali
+knjižnico LiquidCrystal_I2C.h. Knjižnico lahko namestimo v Arduino IDE tako:
+
+    Sketch -> Include Library -> Manage Libraries
+
+    Filter your Serch... : LiquidCrystal I2C (by Marco Schwartz)
+
+> ### NALOGA: Izpis na LCD
+>
+> 1. Preskusite naslednji program in
+> 2. nastavite primeren kontrast LCDja.
+> 3. Vezju dodajte še potenciometer, s katerim bomo lahko poljubno nastavljali napetostni potencial in
+> ga merili na priključku A0.
+> 4. Spremenite program tako, da boste izpisovali na LCD izpisovali napetost in ne ADC vrednost.
+
+```cpp
+#include <Wire.h>
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C lcd(0x27, 16, 2);
+int adcValue = 0;
+const int POT_PIN = A0;
+void setup() {
+  pinMode(POT_PIN,INPUT);
+  lcd.init();
+  lcd.init();
+  lcd.backlight();
+}
+void loop() {
+  adcValue = analogRead(POT_PIN);
+  lcd.clear();
+  lcd.print("potenciometer:");
+  lcd.setCursor(0,1);
+  lcd.print(adcValue);
+  delay(200);
+}
+```
+# MODULACIJA
+
+Pri prenosu podatkov z električnimi veličinami ( U(t) ) od ene naprave do druge se pogosto soočamo s kakovostjo prenesene informacije. Pri tem nas zanima kolikšen del električne količine (npr. napetosti) dejansko pripada poslani informaciji in kolikšen del drugim EM motnjam v vezju (angl.: Signal to noise ratio). Pri reševanju tega problema si pomagamo z modulacijo podatkovnih signalov.
+
+Modulacija je proces pri katerem nekoliko spremenimo nekatere lastnosti dobro definiranega periodičnega signala (nosilni signal). Spremenjene lastnosti nosilnega signala pa so neposredno odvisne od same informacije.
+
+Sprejemanje moduliranih signalov je tako lahko bistveno bolj selektivno. Že s preprostimi R-C elektronskimi siti lahko dosežemo bistveno boljšo kvaliteto signala.
+
+Primeri moduliranih signalov so vidni na [@fig:Digital_modulation].
+
+![Primeri zarličnih modulacijskih tehnik.](./slike/Digital_modulation.png){#fig:Digital_modulation}
+
+## Amplitudna modulacija
+
+Amplitudno modulacijo uporabljamo na primer pri prenosu informacije o pritisnjeni tipki na daljinskem upravljalniku za televizijo, radio, tv-box... Ko pritisnemo neko tipko, elektronika v daljinskem upravljalniku to zazna in pridobi kodo tipke. Kodo tipke nato amplitudno moduliramo z nosilnim signalom in jo preko svetlobne komunikacije pošljemo do televizije. Zelo pogosto je za frekvenco nosilnega signala izbrana frekvenca 38 kHz, saj le-te ne najdemo v okolici. Za sprejemanje in demodulacijo teh signalov pa največkrat uporabimo elektronsko integrirano vezje kot je na primer TSOP32230[^TSOPdata].
+
+[^TSOPdata]:https://www.vishay.com/docs/82489/tsop322.pdf
+
+> ### NALOGA: Pošiljanje IR signala
+>
+> 1. Splošni opis naloge: Po IR komunikaciji pošljite vaše ime in priimek. S krmilnikom Arduino NANO generirajte UART signal, ki bo vseboval vaše podatke o vašem imenu in priimku. Načrtujte tudi elektroniko za generirajte periodičnega nosilnega signala. Nato podatke amplitudno modulirajte in z IR diodo pošljite do sprejemnika. V poročilo dodajte shemo vezja in izpis programske kode.
+>
+> Dekompozicija problema:
+>
+> 1. Preučite dokumentacijo o integriranem vezju TSOP32230 in zapišite bistvene lastnosti vezja v [@tbl:TSOP32230_data]:
+>
+> |                           Lastnost integr. vezja | vrednost | Enota |
+> |-------------------------------------------------:|----------|-------|
+> |                              razporeditev nožic: |          |       |
+> |                     frekvenca nosilnega signala: |          |       |
+> |     minimalni čas trajanja logične enice (tmin): |          |       |
+> | valovno dolžino svetlobne pri max občutljivosti: |          |       |
+> Table: Pomembnejše latsnoti IV TSOP32230. {#tbl:TSOP32230_data}
+>
+> 2. Narišite časovno odvisnost izhodnega signala (U(t)) od prejete svetlobne informacije za integrirano vezje TSOP32230.
+> 3. Iz $t_{min}$ izračunajte hitrost UART komunikacije ($baud$):
+> 4. Za oddajno diodo boste imeli na voljo diodo z oznako LD271-L. Iz dokumeta s podatki prepišite pomembnejše lastnosti in jih vpišite v [@tbl:LD271_data]:
+>
+> |                     Lastnosti LED LD271 | Vrednost | Enota |
+> |----------------------------------------:|----------|-------|
+> | valovno dolžino svetlobe, ki jo oddaja: |          |       |
+> |                 kolensko napetost (Uk): |          |       |
+> |                       nazivni tok (I0): |          |       |
+> |     kratkotrajen maksimalen tok (Imax): |          |       |
+> Table: Lastnosti diode LD271. {#tbl:LD271_data}
+>
+> 5. Z astabilnim-multi-vibratorjem generirajte nosilni signal.
+> 6. Skonstruirajte vezje za amplitudno modulacijo, ki jo lahko realizirate z eno od digitalnih operacij (IN, ALI, NE-ALI, EKSKL.-ALI).
+>
+
+## Frekvenčna modulacija
+
+Čeprav modulacijo signalov uporabljamo predvsem v digitalni obdelavi podatkov za potrebe različnih komunikaciji, pa je modulacija razširjena tudi na druga področja. Pogosto na ta način moduliramo tudi odzive različnih senzorjev.
+
+> ### NALOGA: Frekvenčna modulacija fizikalnih količin
+> 1. Sestavite astabilni-multivibrator s časovno konstanti, ki je odvisna od RC člena.
+> 2. Na mesto upora R vstavite element, katerega upornost je odvisna od neke fizikalne količine (temperature, osvetljenosti ...). Z osciloskopom posnemite časovno odvisnost napetosti (U(t)) pri različnih fizikalnih pogojih.
+> 3. Astailni-multivibrator lahko sestavite s krmilnikom Arduino NANO in RC členom, ki nudi nekaj več dodatnih možnosti uporabe.
+
+```cpp
+//   +--[R2k2]--+---||---+
+//   |          | 100uF  |
+// [A5]       [A7]     [GND]
+#define PIN_C A7
+#define CAPACITANCE_uF 100      // Kapaciteta kond. v uF
+#define PIN_R A5
+#define LED 13
+#define SPR 12
+#define LO_TRSH 400
+#define HI_TRSH 700
+unsigned long startTime;
+void charge_cycle(){
+  startTime=millis();
+  digitalWrite(LED, 1);
+  digitalWrite(SPR, 0);
+  digitalWrite(PIN_R, 1);
+  int C_ADC = analogRead(PIN_C);
+  while (C_ADC < HI_TRSH) C_ADC = analogRead(PIN_C);
+}
+void discharge_cycle(){
+  digitalWrite(LED, 0);
+  digitalWrite(SPR, 1);
+  digitalWrite(PIN_R,0);
+  int C_ADC = analogRead(PIN_C);
+  while (C_ADC > LO_TRSH ) C_ADC = analogRead(PIN_C);
+}
+void printTime(){        // Čas je prikazan v ms -> milisekundah
+  unsigned long timePeriod = millis() - startTime;
+  Serial.println(timePeriod);
+}
+void setup() {
+  pinMode(PIN_C, INPUT);
+  pinMode(PIN_R, OUTPUT);
+  pinMode(LED, OUTPUT);
+  pinMode(SPR, OUTPUT);
+  Serial.begin(115200);
+}
+void loop() {
+  charge_cycle();
+  discharge_cycle();
+}
+```
+
+## Pulzno-širinska modulacija
+
+V uvodu v PWM modulacijo smo omenili krmiljenje servo motrjev. Ker se ti motorji zelo pogosto uporabljajo v modelarstvu je prav, da jih pobližje spoznamo. Oglejte si primer uporabe funkcije krmilnika Arduino NANO - [servo.write()](https://www.arduino.cc/en/Tutorial/Knob).
+
+![Stikalna shema priključitve servo-motorja na krmilnik Arduino NANO.](./slike/PWM_servo_pot.png){#fig:PWM_servo_pot height=300px}
+
+> ### NALOGA: Krmiljenje servo-motorja
+> 1. Na krmilnik priključite potenciometer s katerim boste lahko nastavljali poljubno napetost med 0 V in 5 V.
+> 2. Nato priklučite še servo-motor in ga krmilite s primernim programom tako, da bo motor spreminjal svojo orientacijo gredi glede na položaj potenciometra.
+> 3. Z osciloskopom posnemite PWM signal za krmiljenje servo-motorja pri različnih položajih potenciometra.
+
+
+# Integrirano vezje 555
+
+Tako imenovani “časovnik 555” je integrirano vezje (angl. Integrated circuit - IC), ki ga uporabljamo v različnih aplikacijah, kjer želimo generirati časovno odvisne napetostne pulze. To nam pride prav za izgradnjo časovnih zakasnitev, oscilatorjev itd.
+
+Čeprav so ga na trg dali že leta 1972 (pred 45 leti), je zaradi nizke cene in enostavne uporabe še danes pogosto uporabljeno IC. Pravzaprav je IC 555 najbolj priljubljeno vezje nasploh. Pravjo, da še niso napisali knjige za elektroniko, v kateri nebi bilo projekta s tem vezjem, zato naj tudi ta skripta ne bo izjema.
+
+## Zgradba integriranega vezje 555
+
+![Blokovna shema integriranega vezja 555.](./slike/NE555_block_scheme.png){#fig:NE555_block_scheme}
+
+> ### NALOGA: Blokovna zgradba integriranega vezja
+> Na spletnih straneh poiščite kako je zgrajeno vezje 555[^ne555datasheet], prerišite shemo
+> vezja in poskušajte razumeti njegovo delovanje. Odgovorite po čem je to
+> vezje dobilo svoje ime.
+
+[^ne555datasheet]:https://www.ti.com/lit/ds/symlink/ne555.pdf
+
+## Uporaba integriranega vezja 555
+
+> ### NALOGA: 555 kot RS-flip-flop
+> Integrirano vezje 555 uporabite kot R-S flip-flop. Na izhod integriganega vezja priključite svetlečo diodo, ki bo nakazovala stanje spominske celice. Narišite stikalno shemo vezja.
+
+> ### NALOGA: 555 kot Schmitov sprožilnik
+> Integrirano vezje 555 uporabite kot schmittov sprožilnik. Na vhod priklučite potenciometer, s katerim lahko poljubno izbirate potencial in hkrati opazujte izhodno stanje sprožilnika. Na izhod integriganega vezja priključite svetlečo diodo, ki bo nakazovala stanje spominske celice. 
+> Odvisnost izhodnga potenciala napetosti od vhodnega prikažite tudi na osciloskopu tako, da prikažete obe krivulji.
+> Narišite stikalno shemo vezja.
+
+> ### NALOGA: 555 kot Astabilni-multivibrator
+> Integrirano vezje 555 uporabite kot astabilni-multivibrator tako, da
+> boste lahko nanj lahko priključili svetlečo diodo, ki jo boste videli
+> utripati.  Narišite shemo vezja in preverite izhodni napetostni signal z osciloskopom.
+
+> ### NALOGA: 555 kot Monostabilni-multivibrator
+> Integrirano vezje 555 zvežite v način monostabilnega-multivibratorja tako, da ko boste s pritiskom na tipko sprožili en sam pulz, ki bo trajal približno 3 s.
+
+
+

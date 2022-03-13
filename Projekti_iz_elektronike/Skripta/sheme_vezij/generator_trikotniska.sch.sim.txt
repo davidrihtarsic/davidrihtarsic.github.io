@@ -1,0 +1,88 @@
+
+Circuit: * spicenetlist
+
+Doing analysis at TEMP = 0.000000 and TNOM = 27.000000
+
+Note: Starting dynamic gmin stepping
+Trying gmin =   1.0000E-03 Note: One successful gmin step
+Trying gmin =   3.1623E-04 Note: One successful gmin step
+Trying gmin =   1.0000E-04 Note: One successful gmin step
+Trying gmin =   1.7783E-05 Note: One successful gmin step
+Trying gmin =   1.7783E-06 Warning: Further gmin increment
+Trying gmin =   1.0000E-05 Note: One successful gmin step
+Trying gmin =   4.2170E-06 Note: One successful gmin step
+Trying gmin =   1.7783E-06 Warning: Further gmin increment
+Trying gmin =   3.3982E-06 Warning: Further gmin increment
+Trying gmin =   3.9954E-06 Note: One successful gmin step
+Trying gmin =   3.6847E-06 Note: One successful gmin step
+Trying gmin =   3.2634E-06 Warning: Further gmin increment
+Trying gmin =   3.5746E-06 Warning: Further gmin increment
+Trying gmin =   3.6569E-06 Note: One successful gmin step
+Trying gmin =   3.6155E-06 Note: One successful gmin step
+Trying gmin =   3.5543E-06 Warning: Further gmin increment
+Trying gmin =   3.6001E-06 Note: One successful gmin step
+Trying gmin =   3.5771E-06 Warning: Further gmin increment
+Trying gmin =   3.5943E-06 Warning: Further gmin increment
+Trying gmin =   3.5986E-06 Note: One successful gmin step
+Trying gmin =   3.5965E-06 Note: One successful gmin step
+Trying gmin =   3.5932E-06 Warning: Further gmin increment
+Trying gmin =   3.5957E-06 Note: One successful gmin step
+Trying gmin =   3.5945E-06 Warning: Further gmin increment
+Trying gmin =   3.5954E-06 Note: One successful gmin step
+Trying gmin =   3.5949E-06 Note: One successful gmin step
+Trying gmin =   3.5942E-06 Warning: Further gmin increment
+Trying gmin =   3.5947E-06 Note: One successful gmin step
+Trying gmin =   3.5945E-06 Warning: Further gmin increment
+Trying gmin =   3.5947E-06 Note: One successful gmin step
+Trying gmin =   3.5946E-06 Note: One successful gmin step
+Trying gmin =   3.5944E-06 Warning: Last gmin step failed
+Warning: Dynamic gmin stepping failed
+
+Transient solution failed -
+
+Last Node Voltages
+------------------
+
+Node                                   Last Voltage        Previous Iter
+----                                   ------------        -------------
+z                                           5.74335              5.74336
+n_1                                               9                    9
+x_d2.3                                        8.244                8.244
+n_8                                         6.44519              6.44521
+c                                           6.44648               6.4465
+x_ic1.25                                   0.831694             0.819961 *
+x_ic1.2                                     6.38745              6.37954 *
+x_ic1.3                                     7.10851              7.10065 *
+x_ic1.6                                      8.5471              8.54013
+x_ic1.8                                     8.99988              8.99984
+x_ic1.9                                     7.06856              7.06072 *
+x_ic1.5                                     5.80006              5.81983 *
+x_ic1.17                                    5.09562              5.11536 *
+x_ic1.4                                     5.56718              5.58923 *
+n_2                                         6.05608              6.05593
+x_ic1.12                                    4.44002              4.39663 *
+x_ic1.20                                    8.28816              8.28835
+x_ic1.10                                    8.92663              8.92675
+x_ic1.22                               -0.000157814         -0.000937045 *
+x_ic1.11                                    3.82434              3.80449 *
+x_ic1.14                                    3.64488              3.64346
+x_ic1.13                                     3.7444              3.72242 *
+x_ic1.18                                    3.11222               3.1119
+x_ic1.15                                1.50564e-07          5.15295e-06 *
+x_ic1.31                                   0.729258             0.783289 *
+x_ic1.27                                    5.09708              7.33881 *
+x_ic1.24                                 -0.0436261             0.011012 *
+x_ic1.29                                          9                    9
+x_ic1.28                                    8.82262              8.82261
+x_ic1.16                                1.49019e-07          5.15141e-06 *
+n_3                                         8.82262              8.82261
+x_ic1.26                                 1.5096e-07          5.15335e-06 *
+v_v1#branch                              -0.0120673           -0.0119915 *
+v.x_d2.vz#branch                         0.00548831           0.00548822
+
+
+doAnalyses: Too many iterations without convergence
+
+tran simulation(s) aborted
+Error(parse.c--checkvalid): c: no such vector.
+Note: No ".plot", ".print", or ".fourier" lines; no simulations run

@@ -1,0 +1,516 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/1df96c15/
+- basic programming	000_Intro.md	/^- basic programming$/;"	s
+1	RoboticsStarterCourse.html	/^    <li><h2 id="1"><b>Testing the equipment<\/b><\/h2><\/li>$/;"	I
+1	RoboticsStarterCourse_mod.html	/^    <li><h1 id="1">Testing the equipment<\/h1><\/li>$/;"	I
+10	RoboticsStarterCourse.html	/^<li><h2 id="10"><b>Writing program in C++<\/b><\/h2><\/li>$/;"	I
+10	RoboticsStarterCourse_mod.html	/^<li><h1 id="10">Writing program in C++<\/h1><\/li>$/;"	I
+11	RoboticsStarterCourse.html	/^<li><h2 id="11"><b>Digital sensors<\/b><\/h2><\/li>$/;"	I
+11	RoboticsStarterCourse_mod.html	/^<li><h1 id="11">Digital sensors<\/h1><\/li>$/;"	I
+12	RoboticsStarterCourse.html	/^<li><h2 id="12"><b>Reading digital input<\/b><\/h2><\/li>$/;"	I
+12	RoboticsStarterCourse_mod.html	/^<li><h1 id="12">Reading digital input<\/h1><\/li>$/;"	I
+13	RoboticsStarterCourse.html	/^<li><h2 id="13"><b>S-R-A loop<\/b><\/h2><\/li>$/;"	I
+13	RoboticsStarterCourse_mod.html	/^<li><h1 id="13">S-R-A loop<\/h1><\/li>$/;"	I
+14	RoboticsStarterCourse.html	/^<li><h2 id="14"><b>Hello World in Arduino IDE<\/b><\/h2><\/li>$/;"	I
+14	RoboticsStarterCourse_mod.html	/^<li><h1 id="14">Hello World in Arduino IDE<\/h1><\/li>$/;"	I
+15	RoboticsStarterCourse.html	/^<li><h2 id="15"><b>Controlling the robot<\/b><\/h2><\/li>$/;"	I
+15	RoboticsStarterCourse_mod.html	/^<li><h1 id="15">Controlling the robot<\/h1><\/li>$/;"	I
+16	RoboticsStarterCourse.html	/^<li><h2 id="16"><b>Programming loop - FOR<\/b><\/h2><\/li>$/;"	I
+16	RoboticsStarterCourse_mod.html	/^<li><h1 id="16">Programming loop - FOR<\/h1><\/li>$/;"	I
+17	RoboticsStarterCourse.html	/^<li><h2 id="17"><b>Reading digital input<\/b><\/h2><\/li>$/;"	I
+17	RoboticsStarterCourse_mod.html	/^<li><h1 id="17">Reading digital input<\/h1><\/li>$/;"	I
+18	RoboticsStarterCourse.html	/^<li><h2 id="18"><b>S-R-A loop<\/b><\/h2><\/li>$/;"	I
+18	RoboticsStarterCourse_mod.html	/^<li><h1 id="18">S-R-A loop<\/h1><\/li>$/;"	I
+19	RoboticsStarterCourse.html	/^<li><h2 id="19"><b>Reading analog input<\/b><\/h2><\/li>$/;"	I
+19	RoboticsStarterCourse_mod.html	/^<li><h1 id="19">Reading analog input<\/h1><\/li>$/;"	I
+1974716262	RoboticsStarterCourse.html	/^<iframe src="https:\/\/docs.google.com\/presentation\/d\/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPAS/;"	I
+1974716262	RoboticsStarterCourse_mod.html	/^<code src="https:\/\/docs.google.com\/presentation\/d\/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJ/;"	I
+2	RoboticsStarterCourse.html	/^<li><h2 id="2"><b>Hello World in Ardublockly<\/b><\/h2><\/li>$/;"	I
+2	RoboticsStarterCourse_mod.html	/^<li><h1 id="2">Hello World in Ardublockly<\/h1><\/li>$/;"	I
+20	RoboticsStarterCourse.html	/^<li><h2 id="20"><b>Avoiding obstacles<\/b><\/h2><\/li>$/;"	I
+20	RoboticsStarterCourse_mod.html	/^<li><h1 id="20">Avoiding obstacles<\/h1><\/li>$/;"	I
+21	RoboticsStarterCourse.html	/^<li><h2 id="21"><b>Light sensor<\/b><\/h2><\/li>$/;"	I
+21	RoboticsStarterCourse_mod.html	/^<li><h1 id="21">Light sensor<\/h1><\/li>$/;"	I
+22	RoboticsStarterCourse.html	/^<li><h2 id="22"><b>Line follower<\/b><\/h2><\/li>$/;"	I
+22	RoboticsStarterCourse_mod.html	/^<li><h1 id="22">Line follower<\/h1><\/li>$/;"	I
+23	RoboticsStarterCourse.html	/^<li><h2 id="23"><b>Variables<\/b><\/h2><\/li>$/;"	I
+23	RoboticsStarterCourse_mod.html	/^<li><h1 id="23">Variables<\/h1><\/li>$/;"	I
+24	RoboticsStarterCourse.html	/^<li><h2 id="24"><b>Barrier gate construction<\/b><\/h2><\/li>$/;"	I
+24	RoboticsStarterCourse_mod.html	/^<li><h1 id="24">Barrier gate construction<\/h1><\/li>$/;"	I
+25	RoboticsStarterCourse.html	/^<li><h2 id="25"><b>Reference point.<\/b><\/h2><\/li>$/;"	I
+25	RoboticsStarterCourse_mod.html	/^<li><h1 id="25">Reference point.<\/h1><\/li>$/;"	I
+26	RoboticsStarterCourse.html	/^<li><h2 id="26"><b>Reed switch and pull-up resistors<\/b><\/h2><\/li>$/;"	I
+26	RoboticsStarterCourse_mod.html	/^<li><h1 id="26">Reed switch and pull-up resistors<\/h1><\/li>$/;"	I
+27	RoboticsStarterCourse.html	/^<li><h2 id="27"><b>On-module Buttons and pull-up resistors<\/b><\/h2><\/li>$/;"	I
+27	RoboticsStarterCourse_mod.html	/^<li><h1 id="27">On-module Buttons and pull-up resistors<\/h1><\/li>$/;"	I
+28	RoboticsStarterCourse.html	/^<li><h2 id="28"><b>Potentiometer as angle sensor<\/b><\/h2><\/li>$/;"	I
+28	RoboticsStarterCourse_mod.html	/^<li><h1 id="28">Potentiometer as angle sensor<\/h1><\/li>$/;"	I
+29	RoboticsStarterCourse.html	/^<li><h2 id="29"><b>LCD(i2c)<\/b><\/h2><\/li>$/;"	I
+29	RoboticsStarterCourse_mod.html	/^<li><h1 id="29">LCD(i2c)<\/h1><\/li>$/;"	I
+3	RoboticsStarterCourse.html	/^<li><h2 id="3"><b>How DC motor works<\/b><\/h2><\/li>$/;"	I
+3	RoboticsStarterCourse_mod.html	/^<li><h1 id="3">How DC motor works<\/h1><\/li>$/;"	I
+4	RoboticsStarterCourse.html	/^<li><h2 id="4"><b>Controlling the DC motor with Digital Outputs<\/b><\/h2><\/li>$/;"	I
+4	RoboticsStarterCourse_mod.html	/^<li><h1 id="4">Controlling the DC motor with Digital Outputs<\/h1><\/li>$/;"	I
+5	RoboticsStarterCourse.html	/^<li><h2 id="5"><b>Geared reductor<\/b><\/h2><\/li>$/;"	I
+5	RoboticsStarterCourse_mod.html	/^<li><h1 id="5">Geared reductor<\/h1><\/li>$/;"	I
+6	RoboticsStarterCourse.html	/^<li><h2 id="6"><b>Constructing the mobile robot<\/b><\/h2><\/li>$/;"	I
+6	RoboticsStarterCourse_mod.html	/^<li><h1 id="6">Constructing the mobile robot<\/h1><\/li>$/;"	I
+7	RoboticsStarterCourse.html	/^<li><h2 id="7"><b>Controlling the robot<\/b><\/h2><\/li>$/;"	I
+7	RoboticsStarterCourse_mod.html	/^<li><h1 id="7">Controlling the robot<\/h1><\/li>$/;"	I
+8	RoboticsStarterCourse.html	/^<li><h2 id="8"><b>Programming functions<\/b><\/h2><\/li>$/;"	I
+8	RoboticsStarterCourse_mod.html	/^<li><h1 id="8">Programming functions<\/h1><\/li>$/;"	I
+9	RoboticsStarterCourse.html	/^<li><h2 id="9"><b>Programming loop - FOR<\/b><\/h2><\/li>$/;"	I
+9	RoboticsStarterCourse_mod.html	/^<li><h1 id="9">Programming loop - FOR<\/h1><\/li>$/;"	I
+ANALOG INPUT	560_AnalogInput.md	/^# ANALOG INPUT$/;"	c
+ANALOG INPUT	ABC_Robotics.md	/^# ANALOG INPUT$/;"	c
+AUTONOMY	000_Intro.md	/^#### AUTONOMY$/;"	t
+AUTONOMY	ABC_Robotics.md	/^#### AUTONOMY$/;"	t
+AVOIDING OBSTACLES	570_AvoidingObstacles.md	/^# AVOIDING OBSTACLES$/;"	c
+AVOIDING OBSTACLES	ABC_Robotics.md	/^# AVOIDING OBSTACLES$/;"	c
+AVOIDING OBSTACLES	Beginners_Robotics.md	/^AVOIDING OBSTACLES$/;"	c
+Adding and testing bumper push-button-switch	450_IF_condition.md	/^## Adding and testing bumper push-button-switch$/;"	s
+Adding and testing bumper push-button-switch	ABC_Robotics.md	/^## Adding and testing bumper push-button-switch$/;"	s
+Advanced programming	RoboticsStarterCourse.html	/^            <h3><b>Advanced programming<\/b><\/h3>$/;"	j
+Advanced programming	RoboticsStarterCourse_mod.html	/^            <h3>Advanced programming<\/h3>$/;"	j
+Ardublockly	010_Software_Installation.md	/^## Ardublockly$/;"	s
+Ardublockly	ABC_Robotics.md	/^## Ardublockly$/;"	s
+Ardublockly	RoboticsStarterCourse.html	/^            <h3><b>Ardublockly<\/b><\/h3>$/;"	j
+Ardublockly	RoboticsStarterCourse_mod.html	/^            <h3>Ardublockly<\/h3>$/;"	j
+Ardublockly Installation	010_Software_Installation.md	/^### Ardublockly Installation$/;"	S
+Ardublockly Installation	ABC_Robotics.md	/^### Ardublockly Installation$/;"	S
+Arduino IDE	010_Software_Installation.md	/^## Arduino IDE$/;"	s
+Arduino IDE	ABC_Robotics.md	/^## Arduino IDE$/;"	s
+Arduino IDE (C++)	RoboticsStarterCourse.html	/^            <h3><b>Arduino IDE (C++)<\/b><\/h3>$/;"	j
+Arduino IDE (C++)	RoboticsStarterCourse_mod.html	/^            <h3>Arduino IDE (C++)<\/h3>$/;"	j
+Arhitektura kode	HowToWriteCleanCode.md	/^# Arhitektura kode$/;"	c
+Autonomous vs Automated	000_Intro.md	/^### Autonomous vs Automated$/;"	S
+Autonomous vs Automated	ABC_Robotics.md	/^### Autonomous vs Automated$/;"	S
+Avoiding obstacles	RoboticsStarterCourse.html	/^<li><h2 id="20"><b>Avoiding obstacles<\/b><\/h2><\/li>$/;"	i
+Avoiding obstacles	RoboticsStarterCourse_mod.html	/^<li><h1 id="20">Avoiding obstacles<\/h1><\/li>$/;"	h
+BARRIER GATE CONSTRUCTION	600_BarierGate.md	/^# BARRIER GATE CONSTRUCTION$/;"	c
+BARRIER GATE CONSTRUCTION	ABC_Robotics.md	/^# BARRIER GATE CONSTRUCTION$/;"	c
+BARRIER GATE CONSTRUCTION	Beginners_Robotics.md	/^# BARRIER GATE CONSTRUCTION$/;"	c
+Barrier gate construction	RoboticsStarterCourse.html	/^<li><h2 id="24"><b>Barrier gate construction<\/b><\/h2><\/li>$/;"	i
+Barrier gate construction	RoboticsStarterCourse_mod.html	/^<li><h1 id="24">Barrier gate construction<\/h1><\/li>$/;"	h
+Basic testing in Ardublockly	015_Equipment_testing.md	/^## Basic testing in Ardublockly$/;"	s
+Basic testing in Ardublockly	ABC_Robotics.md	/^## Basic testing in Ardublockly$/;"	s
+Basic testing in Ardublockly	Beginners_Robotics.md	/^## Basic testing in Ardublockly$/;"	s
+Basic testing in Arduino IDE	015_Equipment_testing.md	/^## Basic testing in Arduino IDE$/;"	s
+Basic testing in Arduino IDE	ABC_Robotics.md	/^## Basic testing in Arduino IDE$/;"	s
+Basic testing in Arduino IDE	Beginners_Robotics.md	/^## Basic testing in Arduino IDE$/;"	s
+CLEAN CODE	400_WritingCleanCode.md	/^# CLEAN CODE$/;"	c
+CLEAN CODE	ABC_Robotics.md	/^# CLEAN CODE$/;"	c
+CLEAN CODE	Beginners_Robotics.md	/^# CLEAN CODE$/;"	c
+CLEAN FUNNY CODE	CleanFunnyCode.md	/^# CLEAN FUNNY CODE$/;"	c
+COMPUTER SCIENCE	005_Equipment_for_Robotics.md	/^## COMPUTER SCIENCE$/;"	s
+COMPUTER SCIENCE	ABC_Robotics.md	/^## COMPUTER SCIENCE$/;"	s
+CONSTRUCTING THE MOBILE ROBOT	200_Robot_Construction.md	/^# CONSTRUCTING THE MOBILE ROBOT$/;"	c
+CONSTRUCTING THE MOBILE ROBOT	390_Robot_Construction.md	/^# CONSTRUCTING THE MOBILE ROBOT$/;"	c
+CONSTRUCTING THE MOBILE ROBOT	ABC_Robotics.md	/^# CONSTRUCTING THE MOBILE ROBOT$/;"	c
+CONSTRUCTING THE MOBILE ROBOT	Beginners_Robotics.md	/^# CONSTRUCTING THE MOBILE ROBOT$/;"	c
+CONSTRUCTION ELEMENTS	005_Equipment_for_Robotics.md	/^### CONSTRUCTION ELEMENTS$/;"	S
+CONSTRUCTION ELEMENTS	ABC_Robotics.md	/^### CONSTRUCTION ELEMENTS$/;"	S
+CONTROL SYSTEM	000_Intro.md	/^#### CONTROL SYSTEM$/;"	t
+CONTROL SYSTEM	ABC_Robotics.md	/^#### CONTROL SYSTEM$/;"	t
+CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS	120_DC_motor_controll.md	/^# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS$/;"	c
+CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS	320_DC_motor_controll.md	/^# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS$/;"	c
+CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS	ABC_Robotics.md	/^# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS$/;"	c
+CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS	Beginners_Robotics.md	/^# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS$/;"	c
+CONTROLLING THE ROBOT	210_First_Ride.md	/^# CONTROLLING THE ROBOT$/;"	c
+CONTROLLING THE ROBOT	399_FirstRide.md	/^# CONTROLLING THE ROBOT$/;"	c
+CONTROLLING THE ROBOT	ABC_Robotics.md	/^# CONTROLLING THE ROBOT$/;"	c
+CONTROLLING THE ROBOT	Beginners_Robotics.md	/^# CONTROLLING THE ROBOT$/;"	c
+CREATIVITY	000_Intro.md	/^#### CREATIVITY$/;"	t
+CREATIVITY	ABC_Robotics.md	/^#### CREATIVITY$/;"	t
+CRITICAL THINKING	000_Intro.md	/^#### CRITICAL THINKING$/;"	t
+CRITICAL THINKING	ABC_Robotics.md	/^### CRITICAL THINKING$/;"	S
+Clean Code - by Uncle Bob	HowToWriteCleanCode.md	/^# Clean Code - by Uncle Bob$/;"	c
+Comments - YES and NO	400_WritingCleanCode.md	/^## Comments - YES and NO$/;"	s
+Comments - YES and NO	ABC_Robotics.md	/^## Comments - YES and NO$/;"	s
+Computer Science	000_Intro.md	/^#### Computer Science$/;"	t
+Constants	400_WritingCleanCode.md	/^## Constants$/;"	s
+Constants	ABC_Robotics.md	/^## Constants$/;"	s
+Constructing the mobile robot	RoboticsStarterCourse.html	/^<li><h2 id="6"><b>Constructing the mobile robot<\/b><\/h2><\/li>$/;"	i
+Constructing the mobile robot	RoboticsStarterCourse_mod.html	/^<li><h1 id="6">Constructing the mobile robot<\/h1><\/li>$/;"	h
+Controlling the DC motor with Digital Outputs	RoboticsStarterCourse.html	/^<li><h2 id="4"><b>Controlling the DC motor with Digital Outputs<\/b><\/h2><\/li>$/;"	i
+Controlling the DC motor with Digital Outputs	RoboticsStarterCourse_mod.html	/^<li><h1 id="4">Controlling the DC motor with Digital Outputs<\/h1><\/li>$/;"	h
+Controlling the robot	RoboticsStarterCourse.html	/^<li><h2 id="15"><b>Controlling the robot<\/b><\/h2><\/li>$/;"	i
+Controlling the robot	RoboticsStarterCourse.html	/^<li><h2 id="7"><b>Controlling the robot<\/b><\/h2><\/li>$/;"	i
+Controlling the robot	RoboticsStarterCourse_mod.html	/^<li><h1 id="15">Controlling the robot<\/h1><\/li>$/;"	h
+Controlling the robot	RoboticsStarterCourse_mod.html	/^<li><h1 id="7">Controlling the robot<\/h1><\/li>$/;"	h
+DEFINITION OF THE ROBOTS IN EDUCATION	000_Intro.md	/^## DEFINITION OF THE ROBOTS IN EDUCATION$/;"	s
+DEFINITION OF THE ROBOTS IN EDUCATION	ABC_Robotics.md	/^## DEFINITION OF THE ROBOTS IN EDUCATION$/;"	s
+DELILNIK NAPETOSTI S SPREMENLJIVIM UPOROM	Light_sensor.md	/^## DELILNIK NAPETOSTI S SPREMENLJIVIM UPOROM$/;"	s
+DEREK MULER	000_Intro.md	/^#### DEREK MULER$/;"	t
+DEREK MULER	ABC_Robotics.md	/^### DEREK MULER$/;"	S
+DIGITAL INPUT	500_DigitalInput.md	/^# DIGITAL INPUT$/;"	c
+DIGITAL INPUT	ABC_Robotics.md	/^# DIGITAL INPUT$/;"	c
+DIGITAL SENSORS	250_Digital_sensors.md	/^# DIGITAL SENSORS$/;"	c
+DIGITAL SENSORS	ABC_Robotics.md	/^# DIGITAL SENSORS$/;"	c
+DIGITAL SENSORS	Beginners_Robotics.md	/^# DIGITAL SENSORS$/;"	c
+Da je koda pregledana je verjetno bolj pomembno kot, da deluje... zakaj?	HowToWriteCleanCode.md	/^## Da je koda pregledana je verjetno bolj pomembno kot, da deluje... zakaj?$/;"	s
+Debugging	400_WritingCleanCode.md	/^### Debugging$/;"	S
+Debugging	ABC_Robotics.md	/^### Debugging$/;"	S
+Digital sensors	RoboticsStarterCourse.html	/^<li><h2 id="11"><b>Digital sensors<\/b><\/h2><\/li>$/;"	i
+Digital sensors	RoboticsStarterCourse_mod.html	/^<li><h1 id="11">Digital sensors<\/h1><\/li>$/;"	h
+Dodajanje novih funkcij v program ne sme upočasniti dela	HowToWriteCleanCode.md	/^## Dodajanje novih funkcij v program ne sme upočasniti dela$/;"	s
+ELECTRONICS	005_Equipment_for_Robotics.md	/^## ELECTRONICS$/;"	s
+ELECTRONICS	ABC_Robotics.md	/^## ELECTRONICS$/;"	s
+EQUIPMENT for ROBPTOCS	005_Equipment_for_Robotics.md	/^# EQUIPMENT for ROBPTOCS$/;"	c
+EQUIPMENT for ROBPTOCS	ABC_Robotics.md	/^# EQUIPMENT for ROBPTOCS$/;"	c
+Electronics	000_Intro.md	/^#### Electronics$/;"	t
+For-Nex Loop	430_Loops.md	/^## For-Nex Loop$/;"	s
+For-Nex Loop	ABC_Robotics.md	/^## For-Nex Loop$/;"	s
+Functions	400_WritingCleanCode.md	/^## Functions$/;"	s
+Functions	ABC_Robotics.md	/^## Functions$/;"	s
+Funkcije	HowToWriteCleanCode.md	/^## Funkcije$/;"	s
+GEARED REDUCTOR	130_Greard_Reductor.md	/^# GEARED REDUCTOR$/;"	c
+GEARED REDUCTOR	330_Greard_Reductor.md	/^# GEARED REDUCTOR$/;"	c
+GEARED REDUCTOR	ABC_Robotics.md	/^# GEARED REDUCTOR$/;"	c
+GEARED REDUCTOR	Beginners_Robotics.md	/^# GEARED REDUCTOR$/;"	c
+GEARING (GEARS and GEARBOX)	005_Equipment_for_Robotics.md	/^### GEARING (GEARS and GEARBOX)$/;"	S
+GEARING (GEARS and GEARBOX)	ABC_Robotics.md	/^### GEARING (GEARS and GEARBOX)$/;"	S
+Geared reductor	RoboticsStarterCourse.html	/^<li><h2 id="5"><b>Geared reductor<\/b><\/h2><\/li>$/;"	i
+Geared reductor	RoboticsStarterCourse_mod.html	/^<li><h1 id="5">Geared reductor<\/h1><\/li>$/;"	h
+Getting Started	010_Software_Installation.md	/^### Getting Started$/;"	S
+Getting Started	ABC_Robotics.md	/^### Getting Started$/;"	S
+Getting started	010_Software_Installation.md	/^### Getting started$/;"	S
+Getting started	ABC_Robotics.md	/^### Getting started$/;"	S
+HELLO WORLD IN ARDUBLOCKLY	100_Ardublockly_HelloWorld.md	/^# HELLO WORLD IN ARDUBLOCKLY$/;"	c
+HELLO WORLD IN ARDUBLOCKLY	ABC_Robotics.md	/^# HELLO WORLD IN ARDUBLOCKLY$/;"	c
+HELLO WORLD IN ARDUBLOCKLY	Beginners_Robotics.md	/^# HELLO WORLD IN ARDUBLOCKLY$/;"	c
+HELLO WORLD IN ARDUINO IDE	300_ArduinoIDE_HelloWorld.md	/^# HELLO WORLD IN ARDUINO IDE$/;"	c
+HELLO WORLD IN ARDUINO IDE	ABC_Robotics.md	/^# HELLO WORLD IN ARDUINO IDE$/;"	c
+HELLO WORLD IN ARDUINO IDE	Beginners_Robotics.md	/^# HELLO WORLD IN ARDUINO IDE$/;"	c
+HOW DO WE CONSTRUCT OUR KNOWLEDGE?	000_Intro.md	/^### HOW DO WE CONSTRUCT OUR KNOWLEDGE?$/;"	S
+HOW DO WE THINK?	000_Intro.md	/^### HOW DO WE THINK?$/;"	S
+HOW DO WE THINK?	ABC_Robotics.md	/^## HOW DO WE THINK?$/;"	s
+HOW THE DC MOTOR WORKS	120_DC_motor_controll.md	/^# HOW THE DC MOTOR WORKS$/;"	c
+HOW THE DC MOTOR WORKS	320_DC_motor_controll.md	/^# HOW THE DC MOTOR WORKS$/;"	c
+HOW THE DC MOTOR WORKS	ABC_Robotics.md	/^# HOW THE DC MOTOR WORKS$/;"	c
+HOW THE DC MOTOR WORKS	Beginners_Robotics.md	/^# HOW THE DC MOTOR WORKS$/;"	c
+HOW TO TEACH ROBOTICS?	000_Intro.md	/^## HOW TO TEACH ROBOTICS?$/;"	s
+HOW TO TEACH ROBOTICS?	ABC_Robotics.md	/^## HOW TO TEACH ROBOTICS?$/;"	s
+HOW WE CONSTRUCT OUR KNOWLEDGE?	ABC_Robotics.md	/^## HOW WE CONSTRUCT OUR KNOWLEDGE?$/;"	s
+Hello World in Ardublockly	RoboticsStarterCourse.html	/^<li><h2 id="2"><b>Hello World in Ardublockly<\/b><\/h2><\/li>$/;"	i
+Hello World in Ardublockly	RoboticsStarterCourse_mod.html	/^<li><h1 id="2">Hello World in Ardublockly<\/h1><\/li>$/;"	h
+Hello World in Arduino IDE	RoboticsStarterCourse.html	/^<li><h2 id="14"><b>Hello World in Arduino IDE<\/b><\/h2><\/li>$/;"	i
+Hello World in Arduino IDE	RoboticsStarterCourse_mod.html	/^<li><h1 id="14">Hello World in Arduino IDE<\/h1><\/li>$/;"	h
+How DC motor works	RoboticsStarterCourse.html	/^<li><h2 id="3"><b>How DC motor works<\/b><\/h2><\/li>$/;"	i
+How DC motor works	RoboticsStarterCourse_mod.html	/^<li><h1 id="3">How DC motor works<\/h1><\/li>$/;"	h
+ICT LITERACY	000_Intro.md	/^#### ICT LITERACY$/;"	t
+ICT LITERACY	ABC_Robotics.md	/^#### ICT LITERACY$/;"	t
+IDEJNA ZASNOVA VOŽNJE PO ČRTI	Light_sensor.md	/^## IDEJNA ZASNOVA VOŽNJE PO ČRTI$/;"	s
+IF CONDITION	450_IF_condition.md	/^# IF CONDITION$/;"	c
+IF CONDITION	ABC_Robotics.md	/^# IF CONDITION$/;"	c
+IMPORTANT EDUCATIONAL IMPACTS	000_Intro.md	/^## IMPORTANT EDUCATIONAL IMPACTS$/;"	s
+IMPORTANT EDUCATIONAL IMPACTS	ABC_Robotics.md	/^## IMPORTANT EDUCATIONAL IMPACTS$/;"	s
+INDUSTRIAL ROBOT	000_Intro.md	/^#### INDUSTRIAL ROBOT$/;"	t
+INDUSTRIAL ROBOT	ABC_Robotics.md	/^#### INDUSTRIAL ROBOT$/;"	t
+INTELLIGENT ROBOT	000_Intro.md	/^#### INTELLIGENT ROBOT$/;"	t
+INTELLIGENT ROBOT	ABC_Robotics.md	/^#### INTELLIGENT ROBOT$/;"	t
+INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO	000_Intro.md	/^## INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO$/;"	s
+INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO	ABC_Robotics.md	/^## INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO$/;"	s
+IR senzor razdalje	015_Equipment_testing.md	/^## IR senzor razdalje$/;"	s
+IR senzor razdalje	ABC_Robotics.md	/^## IR senzor razdalje$/;"	s
+ISO 8373 - GENERAL TERMS IN ROBOTICS	000_Intro.md	/^### ISO 8373 - GENERAL TERMS IN ROBOTICS$/;"	S
+ISO 8373 - GENERAL TERMS IN ROBOTICS	ABC_Robotics.md	/^### ISO 8373 - GENERAL TERMS IN ROBOTICS$/;"	S
+If, variable example	CleanFunnyCode.md	/^## If, variable example$/;"	s
+KAJ MORAMO UČENCE NAUČITI?	000_Intro.md	/^### KAJ MORAMO UČENCE NAUČITI?$/;"	S
+KAJ MORAMO UČENCE NAUČITI?	ABC_Robotics.md	/^## KAJ MORAMO UČENCE NAUČITI?$/;"	s
+KIRSCHNER	000_Intro.md	/^#### KIRSCHNER$/;"	t
+KIRSCHNER	ABC_Robotics.md	/^### KIRSCHNER$/;"	S
+Kako pisati pregledno kodo programa	HowToWriteCleanCode.md	/^# Kako pisati pregledno kodo programa$/;"	c
+Kakšna so naša pričakovanja glede programske kode?	HowToWriteCleanCode.md	/^# Kakšna so naša pričakovanja glede programske kode?$/;"	c
+Katero učno opremo naj uporabim?	000_Intro.md	/^### Katero učno opremo naj uporabim?$/;"	S
+Katero učno opremo naj uporabim?	ABC_Robotics.md	/^## Katero učno opremo naj uporabim?$/;"	s
+Koda naj gre iz višjega nivoja v nižji	HowToWriteCleanCode.md	/^## Koda naj gre iz višjega nivoja v nižji$/;"	s
+Koda v funkcijah naj bo kratka	HowToWriteCleanCode.md	/^### Koda v funkcijah naj bo kratka$/;"	S
+LCD (I2C)	015_Equipment_testing.md	/^## LCD (I2C)$/;"	s
+LCD (I2C)	ABC_Robotics.md	/^## LCD (I2C)$/;"	s
+LCD(I2C)	700_LCD_I2C.md	/^# LCD(I2C)$/;"	c
+LCD(I2C)	ABC_Robotics.md	/^# LCD(I2C)$/;"	c
+LCD(I2C)	Beginners_Robotics.md	/^LCD(I2C)$/;"	c
+LCD(i2c)	RoboticsStarterCourse.html	/^<li><h2 id="29"><b>LCD(i2c)<\/b><\/h2><\/li>$/;"	i
+LCD(i2c)	RoboticsStarterCourse_mod.html	/^<li><h1 id="29">LCD(i2c)<\/h1><\/li>$/;"	h
+LEARNING EQUIPMENT	000_Intro.md	/^## LEARNING EQUIPMENT$/;"	s
+LEARNING EQUIPMENT	ABC_Robotics.md	/^# LEARNING EQUIPMENT$/;"	c
+LEARNING by DOING	000_Intro.md	/^#### LEARNING by DOING$/;"	t
+LEARNING by DOING	ABC_Robotics.md	/^#### LEARNING by DOING$/;"	t
+LEARNING from MISTAKES	000_Intro.md	/^#### LEARNING from MISTAKES$/;"	t
+LEARNING from MISTAKES	ABC_Robotics.md	/^#### LEARNING from MISTAKES$/;"	t
+LIGHT SENSOR	580_LigthSensor.md	/^# LIGHT SENSOR$/;"	c
+LIGHT SENSOR	ABC_Robotics.md	/^# LIGHT SENSOR$/;"	c
+LIGHT SENSOR	Beginners_Robotics.md	/^LIGHT SENSOR$/;"	c
+LINE FOLLOWER	581_LineFollower.md	/^# LINE FOLLOWER$/;"	c
+LINE FOLLOWER	ABC_Robotics.md	/^# LINE FOLLOWER$/;"	c
+LINE FOLLOWER	Beginners_Robotics.md	/^# LINE FOLLOWER$/;"	c
+Light sensor	RoboticsStarterCourse.html	/^<li><h2 id="21"><b>Light sensor<\/b><\/h2><\/li>$/;"	i
+Light sensor	RoboticsStarterCourse_mod.html	/^<li><h1 id="21">Light sensor<\/h1><\/li>$/;"	h
+Line follower	RoboticsStarterCourse.html	/^<li><h2 id="22"><b>Line follower<\/b><\/h2><\/li>$/;"	i
+Line follower	RoboticsStarterCourse_mod.html	/^<li><h1 id="22">Line follower<\/h1><\/li>$/;"	h
+MANIPULATOR	000_Intro.md	/^#### MANIPULATOR$/;"	t
+MANIPULATOR	ABC_Robotics.md	/^#### MANIPULATOR$/;"	t
+MECHANICAL ENGINEERING	005_Equipment_for_Robotics.md	/^## MECHANICAL ENGINEERING$/;"	s
+MECHANICAL ENGINEERING	ABC_Robotics.md	/^## MECHANICAL ENGINEERING$/;"	s
+MIGRATION TO C++	299_ArduBlockly_2_ArduinoIDE.md	/^# MIGRATION TO C++$/;"	c
+MIGRATION TO C++	ABC_Robotics.md	/^# MIGRATION TO C++$/;"	c
+MOBILE ROBOT	000_Intro.md	/^#### MOBILE ROBOT$/;"	t
+MOBILE ROBOT	ABC_Robotics.md	/^#### MOBILE ROBOT$/;"	t
+Managing the software project	HowToWriteCleanCode.md	/^# Managing the software project$/;"	c
+Manj je več	HowToWriteCleanCode.md	/^## Manj je več$/;"	s
+Mechanical Engineering	000_Intro.md	/^#### Mechanical Engineering$/;"	t
+Na napiši daljše kode, le toliko, da popraviš spodleteli test.	HowToWriteCleanCode.md	/^## Na napiši daljše kode, le toliko, da popraviš spodleteli test.$/;"	s
+Ne napiši daljšega testa kode, le toliko, da je dovolj, da spodleti.	HowToWriteCleanCode.md	/^## Ne napiši daljšega testa kode, le toliko, da je dovolj, da spodleti.$/;"	s
+Ne napiši kode dokler nisi napisal testa zanjo in je le-ta spodletel, ker koda ne obstaja	HowToWriteCleanCode.md	/^## Ne napiši kode dokler nisi napisal testa zanjo in je le-ta spodletel, ker koda ne obstaja$/;"	s
+ON-MODULE BUTTONS AND PULL-UP RESISTORS	650_OnBoard_bush_button_sw.md	/^# ON-MODULE BUTTONS AND PULL-UP RESISTORS$/;"	c
+ON-MODULE BUTTONS AND PULL-UP RESISTORS	ABC_Robotics.md	/^# ON-MODULE BUTTONS AND PULL-UP RESISTORS$/;"	c
+ON-MODULE BUTTONS AND PULL-UP RESISTORS	Beginners_Robotics.md	/^ON-MODULE BUTTONS AND PULL-UP RESISTORS$/;"	c
+OPTIONAL	005_Equipment_for_Robotics.md	/^## OPTIONAL$/;"	s
+OPTIONAL	ABC_Robotics.md	/^## OPTIONAL$/;"	s
+Object example	CleanFunnyCode.md	/^## Object example$/;"	s
+Oblikovanje funkcij v razrede	HowToWriteCleanCode.md	/^### Oblikovanje funkcij v razrede$/;"	S
+On-module Buttons and pull-up resistors	RoboticsStarterCourse.html	/^<li><h2 id="27"><b>On-module Buttons and pull-up resistors<\/b><\/h2><\/li>$/;"	i
+On-module Buttons and pull-up resistors	RoboticsStarterCourse_mod.html	/^<li><h1 id="27">On-module Buttons and pull-up resistors<\/h1><\/li>$/;"	h
+PID CONTROL	670_PIDcontrol.md	/^# PID CONTROL$/;"	c
+PID CONTROL	ABC_Robotics.md	/^# PID CONTROL$/;"	c
+POTENTIOMETER AS ANGLE SENSOR	660_Potenciometer.md	/^# POTENTIOMETER AS ANGLE SENSOR$/;"	c
+POTENTIOMETER AS ANGLE SENSOR	ABC_Robotics.md	/^# POTENTIOMETER AS ANGLE SENSOR$/;"	c
+POTENTIOMETER AS ANGLE SENSOR	Beginners_Robotics.md	/^POTENTIOMETER AS ANGLE SENSOR$/;"	c
+PRACTICAL APPLICATIONS	000_Intro.md	/^#### PRACTICAL APPLICATIONS$/;"	t
+PRACTICAL APPLICATIONS	ABC_Robotics.md	/^#### PRACTICAL APPLICATIONS$/;"	t
+PROGRAMMING FUNCTIONS	220_Functions.md	/^# PROGRAMMING FUNCTIONS$/;"	c
+PROGRAMMING FUNCTIONS	ABC_Robotics.md	/^# PROGRAMMING FUNCTIONS$/;"	c
+PROGRAMMING FUNCTIONS	Beginners_Robotics.md	/^# PROGRAMMING FUNCTIONS$/;"	c
+PROGRAMMING LOOPs: FOR-NEXT & WHILE	230_Loops.md	/^# PROGRAMMING LOOPs: FOR-NEXT & WHILE$/;"	c
+PROGRAMMING LOOPs: FOR-NEXT & WHILE	430_Loops.md	/^# PROGRAMMING LOOPs: FOR-NEXT & WHILE$/;"	c
+PROGRAMMING LOOPs: FOR-NEXT & WHILE	ABC_Robotics.md	/^# PROGRAMMING LOOPs: FOR-NEXT & WHILE$/;"	c
+PROGRAMMING LOOPs: FOR-NEXT & WHILE	Beginners_Robotics.md	/^# PROGRAMMING LOOPs: FOR-NEXT & WHILE$/;"	c
+PULSE WIDTH AS DIGITAL INPUT	510_PWM_Dig_Input.md	/^# PULSE WIDTH AS DIGITAL INPUT$/;"	c
+PULSE WIDTH AS DIGITAL INPUT	ABC_Robotics.md	/^# PULSE WIDTH AS DIGITAL INPUT$/;"	c
+Popravljanje kode brez strahu	HowToWriteCleanCode.md	/^## Popravljanje kode brez strahu$/;"	s
+Potentiometer as angle sensor	RoboticsStarterCourse.html	/^<li><h2 id="28"><b>Potentiometer as angle sensor<\/b><\/h2><\/li>$/;"	i
+Potentiometer as angle sensor	RoboticsStarterCourse_mod.html	/^<li><h1 id="28">Potentiometer as angle sensor<\/h1><\/li>$/;"	h
+Pre-process	400_WritingCleanCode.md	/^## Pre-process$/;"	s
+Pre-process	ABC_Robotics.md	/^## Pre-process$/;"	s
+Program naj bo s časom vedno boljši	HowToWriteCleanCode.md	/^## Program naj bo s časom vedno boljši$/;"	s
+Programming functions	RoboticsStarterCourse.html	/^<li><h2 id="8"><b>Programming functions<\/b><\/h2><\/li>$/;"	i
+Programming functions	RoboticsStarterCourse_mod.html	/^<li><h1 id="8">Programming functions<\/h1><\/li>$/;"	h
+Programming loop - FOR	RoboticsStarterCourse.html	/^<li><h2 id="16"><b>Programming loop - FOR<\/b><\/h2><\/li>$/;"	i
+Programming loop - FOR	RoboticsStarterCourse.html	/^<li><h2 id="9"><b>Programming loop - FOR<\/b><\/h2><\/li>$/;"	i
+Programming loop - FOR	RoboticsStarterCourse_mod.html	/^<li><h1 id="16">Programming loop - FOR<\/h1><\/li>$/;"	h
+Programming loop - FOR	RoboticsStarterCourse_mod.html	/^<li><h1 id="9">Programming loop - FOR<\/h1><\/li>$/;"	h
+Programska koda - kaj je to?	HowToWriteCleanCode.md	/^# Programska koda - kaj je to?$/;"	c
+Python Installation	010_Software_Installation.md	/^### Python Installation$/;"	S
+Python Installation	ABC_Robotics.md	/^### Python Installation$/;"	S
+Questions:	009_Simulations.md	/^## Questions:$/;"	s
+Questions:	100_Ardublockly_HelloWorld.md	/^## Questions:$/;"	s
+Questions:	120_DC_motor_controll.md	/^## Questions:$/;"	s
+Questions:	130_Greard_Reductor.md	/^## Questions:$/;"	s
+Questions:	200_Robot_Construction.md	/^## Questions:$/;"	s
+Questions:	210_First_Ride.md	/^## Questions:$/;"	s
+Questions:	220_Functions.md	/^## Questions:$/;"	s
+Questions:	230_Loops.md	/^## Questions:$/;"	s
+Questions:	250_Digital_sensors.md	/^## Questions:$/;"	s
+Questions:	270_SRA_Loop.md	/^## Questions:$/;"	s
+Questions:	299_ArduBlockly_2_ArduinoIDE.md	/^## Questions:$/;"	s
+Questions:	300_ArduinoIDE_HelloWorld.md	/^## Questions:$/;"	s
+Questions:	320_DC_motor_controll.md	/^## Questions:$/;"	s
+Questions:	330_Greard_Reductor.md	/^## Questions:$/;"	s
+Questions:	390_Robot_Construction.md	/^## Questions:$/;"	s
+Questions:	399_FirstRide.md	/^## Questions:$/;"	s
+Questions:	400_WritingCleanCode.md	/^## Questions:$/;"	s
+Questions:	430_Loops.md	/^## Questions:$/;"	s
+Questions:	440_Variables.md	/^## Questions:$/;"	s
+Questions:	450_IF_condition.md	/^## Questions:$/;"	s
+Questions:	499_SRA_Loop.md	/^## Questions:$/;"	s
+Questions:	500_DigitalInput.md	/^## Questions:$/;"	s
+Questions:	510_PWM_Dig_Input.md	/^## Questions:$/;"	s
+Questions:	560_AnalogInput.md	/^## Questions:$/;"	s
+Questions:	570_AvoidingObstacles.md	/^## Questions:$/;"	s
+Questions:	580_LigthSensor.md	/^## Questions:$/;"	s
+Questions:	581_LineFollower.md	/^## Questions:$/;"	s
+Questions:	590_EdnLineTurn.md	/^## Questions:$/;"	s
+Questions:	600_BarierGate.md	/^## Questions:$/;"	s
+Questions:	620_ReferencePoint.md	/^## Questions:$/;"	s
+Questions:	640_Reed_switch.md	/^## Questions:$/;"	s
+Questions:	650_OnBoard_bush_button_sw.md	/^## Questions:$/;"	s
+Questions:	660_Potenciometer.md	/^## Questions:$/;"	s
+Questions:	670_PIDcontrol.md	/^## Questions:$/;"	s
+Questions:	700_LCD_I2C.md	/^## Questions:$/;"	s
+Questions:	ABC_Robotics.md	/^## Questions:$/;"	s
+Questions:	Beginners_Robotics.md	/^## Questions:$/;"	s
+Questions:	RoboticsStarterCourse.html	/^<h3><b>Questions:<\/b><\/h3>$/;"	j
+Questions:	RoboticsStarterCourse_mod.html	/^<h3>Questions:<\/h3>$/;"	j
+READING ANALOG INPUTs	Beginners_Robotics.md	/^# READING ANALOG INPUTs$/;"	c
+READING DIGITAL INPUT	250_Digital_sensors.md	/^# READING DIGITAL INPUT$/;"	c
+READING DIGITAL INPUT	ABC_Robotics.md	/^# READING DIGITAL INPUT$/;"	c
+READING DIGITAL INPUT	Beginners_Robotics.md	/^# READING DIGITAL INPUT$/;"	c
+REED SWITCH AND PULL-UP RESISTORS	640_Reed_switch.md	/^# REED SWITCH AND PULL-UP RESISTORS$/;"	c
+REED SWITCH AND PULL-UP RESISTORS	ABC_Robotics.md	/^# REED SWITCH AND PULL-UP RESISTORS$/;"	c
+REED SWITCH AND PULL-UP RESISTORS	Beginners_Robotics.md	/^REED SWITCH AND PULL-UP RESISTORS$/;"	c
+REFERENCE POINT	620_ReferencePoint.md	/^# REFERENCE POINT$/;"	c
+REFERENCE POINT	ABC_Robotics.md	/^# REFERENCE POINT$/;"	c
+REFERENCE POINT	Beginners_Robotics.md	/^REFERENCE POINT$/;"	c
+REPROGRAMMABLE	000_Intro.md	/^#### REPROGRAMMABLE$/;"	t
+REPROGRAMMABLE	ABC_Robotics.md	/^#### REPROGRAMMABLE$/;"	t
+ROBOT	000_Intro.md	/^#### ROBOT$/;"	t
+ROBOT	ABC_Robotics.md	/^#### ROBOT$/;"	t
+ROBOT COOPERATION	000_Intro.md	/^#### ROBOT COOPERATION$/;"	t
+ROBOT COOPERATION	ABC_Robotics.md	/^#### ROBOT COOPERATION$/;"	t
+ROBOTIC DEVICE	000_Intro.md	/^#### ROBOTIC DEVICE$/;"	t
+ROBOTIC DEVICE	ABC_Robotics.md	/^#### ROBOTIC DEVICE$/;"	t
+ROBOTICS	000_Intro.md	/^#### ROBOTICS$/;"	t
+ROBOTICS	ABC_Robotics.md	/^#### ROBOTICS$/;"	t
+ROBOTICS AND EDUCATION	000_Intro.md	/^# ROBOTICS AND EDUCATION$/;"	c
+ROBOTICS AND EDUCATION	ABC_Robotics.md	/^# ROBOTICS AND EDUCATION$/;"	c
+ROBOTICS IN SCHOOLS	000_Intro.md	/^## ROBOTICS IN SCHOOLS$/;"	s
+ROBOTICS IN SCHOOLS	ABC_Robotics.md	/^## ROBOTICS IN SCHOOLS$/;"	s
+Razlagalna spremenljivka	HowToWriteCleanCode.md	/^## Razlagalna spremenljivka$/;"	s
+Reading analog input	RoboticsStarterCourse.html	/^<li><h2 id="19"><b>Reading analog input<\/b><\/h2><\/li>$/;"	i
+Reading analog input	RoboticsStarterCourse_mod.html	/^<li><h1 id="19">Reading analog input<\/h1><\/li>$/;"	h
+Reading digital input	RoboticsStarterCourse.html	/^<li><h2 id="12"><b>Reading digital input<\/b><\/h2><\/li>$/;"	i
+Reading digital input	RoboticsStarterCourse.html	/^<li><h2 id="17"><b>Reading digital input<\/b><\/h2><\/li>$/;"	i
+Reading digital input	RoboticsStarterCourse_mod.html	/^<li><h1 id="12">Reading digital input<\/h1><\/li>$/;"	h
+Reading digital input	RoboticsStarterCourse_mod.html	/^<li><h1 id="17">Reading digital input<\/h1><\/li>$/;"	h
+Reed switch and pull-up resistors	RoboticsStarterCourse.html	/^<li><h2 id="26"><b>Reed switch and pull-up resistors<\/b><\/h2><\/li>$/;"	i
+Reed switch and pull-up resistors	RoboticsStarterCourse_mod.html	/^<li><h1 id="26">Reed switch and pull-up resistors<\/h1><\/li>$/;"	h
+Reference point.	RoboticsStarterCourse.html	/^<li><h2 id="25"><b>Reference point.<\/b><\/h2><\/li>$/;"	i
+Reference point.	RoboticsStarterCourse_mod.html	/^<li><h1 id="25">Reference point.<\/h1><\/li>$/;"	h
+RobDuino	010_Software_Installation.md	/^## RobDuino$/;"	s
+RobDuino	ABC_Robotics.md	/^## RobDuino$/;"	s
+RobDuino Library Installation	010_Software_Installation.md	/^### RobDuino Library Installation$/;"	S
+RobDuino Library Installation	ABC_Robotics.md	/^### RobDuino Library Installation$/;"	S
+RobDuino module	015_Equipment_testing.md	/^## RobDuino module$/;"	s
+RobDuino module	ABC_Robotics.md	/^## RobDuino module$/;"	s
+Robotics Starter Course	RoboticsStarterCourse.html	/^        <h1>Robotics Starter Course<\/h1>$/;"	h
+Robotics Starter Course	RoboticsStarterCourse_mod.html	/^        <h1>Robotics Starter Course<\/h1>$/;"	h
+Running Ardublockly	010_Software_Installation.md	/^#### Running Ardublockly$/;"	t
+Running Ardublockly	ABC_Robotics.md	/^#### Running Ardublockly$/;"	t
+S-R-A LOOP	270_SRA_Loop.md	/^# S-R-A LOOP$/;"	c
+S-R-A LOOP	499_SRA_Loop.md	/^# S-R-A LOOP$/;"	c
+S-R-A LOOP	ABC_Robotics.md	/^# S-R-A LOOP$/;"	c
+S-R-A LOOP	Beginners_Robotics.md	/^# S-R-A LOOP$/;"	c
+S-R-A loop	RoboticsStarterCourse.html	/^<li><h2 id="13"><b>S-R-A loop<\/b><\/h2><\/li>$/;"	i
+S-R-A loop	RoboticsStarterCourse.html	/^<li><h2 id="18"><b>S-R-A loop<\/b><\/h2><\/li>$/;"	i
+S-R-A loop	RoboticsStarterCourse_mod.html	/^<li><h1 id="13">S-R-A loop<\/h1><\/li>$/;"	h
+S-R-A loop	RoboticsStarterCourse_mod.html	/^<li><h1 id="18">S-R-A loop<\/h1><\/li>$/;"	h
+SELF-ASSESSMENT	000_Intro.md	/^#### SELF-ASSESSMENT$/;"	t
+SELF-ASSESSMENT	ABC_Robotics.md	/^#### SELF-ASSESSMENT$/;"	t
+SERVICE ROBOT	000_Intro.md	/^#### SERVICE ROBOT$/;"	t
+SERVICE ROBOT	ABC_Robotics.md	/^#### SERVICE ROBOT$/;"	t
+SODOBNE UČNE PRAKSE IN TEHNOLOGIJE TER POMISLEKI!	ABC_Robotics.md	/^# SODOBNE UČNE PRAKSE IN TEHNOLOGIJE TER POMISLEKI!$/;"	c
+SVETLOBNI SENZOR	Light_sensor.md	/^# SVETLOBNI SENZOR$/;"	c
+Settings	010_Software_Installation.md	/^### Settings$/;"	S
+Settings	ABC_Robotics.md	/^### Settings$/;"	S
+Seznanjanje svojega sodelavca s kodo	HowToWriteCleanCode.md	/^## Seznanjanje svojega sodelavca s kodo$/;"	s
+Simulating physical robot	009_Simulations.md	/^# Simulating physical robot$/;"	c
+Simulating physical robot	ABC_Robotics.md	/^# Simulating physical robot$/;"	c
+Software Installation	010_Software_Installation.md	/^# Software Installation$/;"	c
+Software Installation	ABC_Robotics.md	/^# Software Installation$/;"	c
+Software intallation	RoboticsStarterCourse.html	/^            <h3><b>Software intallation<\/b><\/h3>$/;"	j
+Software intallation	RoboticsStarterCourse_mod.html	/^            <h3>Software intallation<\/h3>$/;"	j
+Spremembe programske kode morajo biti enostavne	HowToWriteCleanCode.md	/^## Spremembe programske kode morajo biti enostavne$/;"	s
+Svetlobni senzor	015_Equipment_testing.md	/^## Svetlobni senzor$/;"	s
+Svetlobni senzor	ABC_Robotics.md	/^## Svetlobni senzor$/;"	s
+TEHNOLOGIJE V UČNIH PROCESIH	000_Intro.md	/^## TEHNOLOGIJE V UČNIH PROCESIH$/;"	s
+TEHNOLOGIJE V UČNIH PROCESIH	ABC_Robotics.md	/^## TEHNOLOGIJE V UČNIH PROCESIH$/;"	s
+TESTING THE EQUIPMENT	015_Equipment_testing.md	/^# TESTING THE EQUIPMENT$/;"	c
+TESTING THE EQUIPMENT	ABC_Robotics.md	/^# TESTING THE EQUIPMENT$/;"	c
+TESTING THE EQUIPMENT	Beginners_Robotics.md	/^# TESTING THE EQUIPMENT$/;"	c
+TURN AT THE END OF LINE	590_EdnLineTurn.md	/^# TURN AT THE END OF LINE$/;"	c
+TURN AT THE END OF LINE	ABC_Robotics.md	/^# TURN AT THE END OF LINE$/;"	c
+Task:	009_Simulations.md	/^## Task:$/;"	s
+Task:	100_Ardublockly_HelloWorld.md	/^## Task:$/;"	s
+Task:	120_DC_motor_controll.md	/^## Task:$/;"	s
+Task:	130_Greard_Reductor.md	/^## Task:$/;"	s
+Task:	320_DC_motor_controll.md	/^## Task:$/;"	s
+Task:	330_Greard_Reductor.md	/^## Task:$/;"	s
+Task:	ABC_Robotics.md	/^## Task:$/;"	s
+Task:	Beginners_Robotics.md	/^## Task:$/;"	s
+Task:	RoboticsStarterCourse.html	/^<h3><b>Task:<\/b><\/h3>$/;"	j
+Task:	RoboticsStarterCourse_mod.html	/^<h3>Task:<\/h3>$/;"	j
+Tasks:	200_Robot_Construction.md	/^## Tasks:$/;"	s
+Tasks:	210_First_Ride.md	/^## Tasks:$/;"	s
+Tasks:	220_Functions.md	/^## Tasks:$/;"	s
+Tasks:	230_Loops.md	/^## Tasks:$/;"	s
+Tasks:	250_Digital_sensors.md	/^## Tasks:$/;"	s
+Tasks:	270_SRA_Loop.md	/^## Tasks:$/;"	s
+Tasks:	299_ArduBlockly_2_ArduinoIDE.md	/^## Tasks:$/;"	s
+Tasks:	300_ArduinoIDE_HelloWorld.md	/^## Tasks:$/;"	s
+Tasks:	390_Robot_Construction.md	/^## Tasks:$/;"	s
+Tasks:	399_FirstRide.md	/^## Tasks:$/;"	s
+Tasks:	430_Loops.md	/^## Tasks:$/;"	s
+Tasks:	440_Variables.md	/^## Tasks:$/;"	s
+Tasks:	499_SRA_Loop.md	/^## Tasks:$/;"	s
+Tasks:	500_DigitalInput.md	/^## Tasks:$/;"	s
+Tasks:	510_PWM_Dig_Input.md	/^## Tasks:$/;"	s
+Tasks:	560_AnalogInput.md	/^## Tasks:$/;"	s
+Tasks:	570_AvoidingObstacles.md	/^## Tasks:$/;"	s
+Tasks:	580_LigthSensor.md	/^## Tasks:$/;"	s
+Tasks:	581_LineFollower.md	/^## Tasks:$/;"	s
+Tasks:	590_EdnLineTurn.md	/^## Tasks:$/;"	s
+Tasks:	600_BarierGate.md	/^## Tasks:$/;"	s
+Tasks:	620_ReferencePoint.md	/^## Tasks:$/;"	s
+Tasks:	640_Reed_switch.md	/^## Tasks:$/;"	s
+Tasks:	650_OnBoard_bush_button_sw.md	/^## Tasks:$/;"	s
+Tasks:	660_Potenciometer.md	/^## Tasks:$/;"	s
+Tasks:	670_PIDcontrol.md	/^## Tasks:$/;"	s
+Tasks:	700_LCD_I2C.md	/^## Tasks:$/;"	s
+Tasks:	ABC_Robotics.md	/^## Tasks:$/;"	s
+Tasks:	Beginners_Robotics.md	/^## Tasks:$/;"	s
+Tasks:	RoboticsStarterCourse.html	/^<h3><b>Tasks:<\/b><\/h3>$/;"	j
+Tasks:	RoboticsStarterCourse_mod.html	/^<h3>Tasks:<\/h3>$/;"	j
+Testing	RoboticsStarterCourse.html	/^            <h3><b>Testing<\/b><\/h3>$/;"	j
+Testing	RoboticsStarterCourse_mod.html	/^            <h3>Testing<\/h3>$/;"	j
+Testing the equipment	RoboticsStarterCourse.html	/^    <li><h2 id="1"><b>Testing the equipment<\/b><\/h2><\/li>$/;"	i
+Testing the equipment	RoboticsStarterCourse_mod.html	/^    <li><h1 id="1">Testing the equipment<\/h1><\/li>$/;"	h
+Testiranje kode	HowToWriteCleanCode.md	/^# Testiranje kode$/;"	c
+Tipka	015_Equipment_testing.md	/^## Tipka$/;"	s
+Tipka	ABC_Robotics.md	/^## Tipka$/;"	s
+Translations	400_WritingCleanCode.md	/^### Translations$/;"	S
+Translations	ABC_Robotics.md	/^### Translations$/;"	S
+UČNE PRAKSE	000_Intro.md	/^### UČNE PRAKSE$/;"	S
+UČNE PRAKSE	ABC_Robotics.md	/^## UČNE PRAKSE$/;"	s
+VARIABLES	440_Variables.md	/^# VARIABLES$/;"	c
+VARIABLES	ABC_Robotics.md	/^# VARIABLES$/;"	c
+VARIABLES	Beginners_Robotics.md	/^# VARIABLES$/;"	c
+VOŽNJA ROBOTA PO ČRTI	Light_sensor.md	/^# VOŽNJA ROBOTA PO ČRTI$/;"	c
+VSC in PlatformIO	010_Software_Installation.md	/^## VSC in PlatformIO$/;"	s
+VSC in PlatformIO	ABC_Robotics.md	/^## VSC in PlatformIO$/;"	s
+Variables	400_WritingCleanCode.md	/^## Variables$/;"	s
+Variables	ABC_Robotics.md	/^## Variables$/;"	s
+Variables	RoboticsStarterCourse.html	/^<li><h2 id="23"><b>Variables<\/b><\/h2><\/li>$/;"	i
+Variables	RoboticsStarterCourse_mod.html	/^<li><h1 id="23">Variables<\/h1><\/li>$/;"	h
+Vmesne različice naj bodo delujoče	HowToWriteCleanCode.md	/^## Vmesne različice naj bodo delujoče$/;"	s
+WHAT IS A ROBOT?	000_Intro.md	/^## WHAT IS A ROBOT?$/;"	s
+WHAT IS A ROBOT?	ABC_Robotics.md	/^## WHAT IS A ROBOT?$/;"	s
+WHAT IS ROBOTICS?	000_Intro.md	/^# WHAT IS ROBOTICS?$/;"	c
+WHAT IS ROBOTICS?	ABC_Robotics.md	/^# WHAT IS ROBOTICS?$/;"	c
+WRITING PROGRAM IN C++	Beginners_Robotics.md	/^# WRITING PROGRAM IN C++$/;"	c
+While Loop	430_Loops.md	/^## While Loop$/;"	s
+While Loop	ABC_Robotics.md	/^## While Loop$/;"	s
+While example	CleanFunnyCode.md	/^## While example$/;"	s
+Writing program in C++	RoboticsStarterCourse.html	/^<li><h2 id="10"><b>Writing program in C++<\/b><\/h2><\/li>$/;"	i
+Writing program in C++	RoboticsStarterCourse_mod.html	/^<li><h1 id="10">Writing program in C++<\/h1><\/li>$/;"	h
+[Architecture - Lesson 5](https://www.youtube.com/watch?v=sn0aFEMVTpA)	HowToWriteCleanCode.md	/^## [Architecture - Lesson 5](https:\/\/www.youtube.com\/watch?v=sn0aFEMVTpA)$/;"	s
+[Clean Code - Lesson 1](https://www.youtube.com/watch?v=7EmboKQH8lM)	HowToWriteCleanCode.md	/^## [Clean Code - Lesson 1](https:\/\/www.youtube.com\/watch?v=7EmboKQH8lM)$/;"	s
+[Comments - Lesson 2](https://youtu.be/2a_ytyt9sf8)	HowToWriteCleanCode.md	/^## [Comments - Lesson 2](https:\/\/youtu.be\/2a_ytyt9sf8)$/;"	s
+[EARLY LEARNING OF ROBOTICS](../index) ↪ Course	index.md	/^# [EARLY LEARNING OF ROBOTICS](..\/index) ↪ Course$/;"	c
+[Lesson 3](https://www.youtube.com/watch?v=Qjywrq2gM8o)	HowToWriteCleanCode.md	/^## [Lesson 3](https:\/\/www.youtube.com\/watch?v=Qjywrq2gM8o)$/;"	s
+[Lesson 6](https://www.youtube.com/watch?v=l-gF0vDhJVI)	HowToWriteCleanCode.md	/^## [Lesson 6](https:\/\/www.youtube.com\/watch?v=l-gF0vDhJVI)$/;"	s
+[Test Driven Development - Lesson 4](https://www.youtube.com/watch?v=58jGpV2Cg50)	HowToWriteCleanCode.md	/^## [Test Driven Development - Lesson 4](https:\/\/www.youtube.com\/watch?v=58jGpV2Cg50)$/;"	s
+loop	Examples/00_hello_world/00_hello_world.cpp	/^void loop(){$/;"	f	typeref:typename:void
+setup	Examples/00_hello_world/00_hello_world.cpp	/^void setup(){$/;"	f	typeref:typename:void
+toc-page	RoboticsStarterCourse.html	/^<details id="toc-page" style="font-family:verdana" >$/;"	I
+toc-page	RoboticsStarterCourse_mod.html	/^<details id="toc-page" style="font-family:verdana" >$/;"	I
+🎓 Summary:	RoboticsStarterCourse.html	/^<h3><b>🎓 Summary:<\/b><\/h3>$/;"	j
+🎓 Summary:	RoboticsStarterCourse_mod.html	/^<h3>🎓 Summary:<\/h3>$/;"	j
+💣 Issues:	RoboticsStarterCourse.html	/^<h3><b>💣 Issues:<\/b><\/h3>$/;"	j
+💣 Issues:	RoboticsStarterCourse_mod.html	/^<h3>💣 Issues:<\/h3>$/;"	j
