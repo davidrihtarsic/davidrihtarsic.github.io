@@ -1,2 +1,2 @@
-# Dodatki in pogosta vprašanja
+# DODATKI IN POGOSTA VPRAŠANJA
 

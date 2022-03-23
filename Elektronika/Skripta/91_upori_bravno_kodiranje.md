@@ -1,4 +1,4 @@
-## Barvno kodiranje upornosti
+## BARVNO KODIRANJE UPORNOSTI
 
 Upornosti na uporih so bravno kodirane kot jih prikazuje naslednja slika [@fig:Resistor-Color-Codes.png]
 
