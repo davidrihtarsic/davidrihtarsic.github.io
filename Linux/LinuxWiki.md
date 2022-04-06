@@ -69,8 +69,9 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 ## UTILITY PROGRAMS
 
 -  AWK
+- [auto-cpufreq](auto-cpufreq.md) - power management
 - [convert](convert.md) - glavne funkcije na sliki (resize, flip, flop ...)
-- [cpp](cpp.md) - programiranje v c-ju
+- [cpp](cpp.md) - programiranje v c-ju ali bolje v c++
 - [ffmpeg](ffmpeg.md) - manipulacija multimedijskih vsebin (video zvok convert snemanje)
 - [general_expressions](general_expressions.md)
 - [GIT](git.md)
@@ -78,9 +79,10 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [pandoc](pandoc.md)
 - [SED](sed.md)
 - [network check](network.md)
-- [mdv](mdv.md)
+- [mdv](mdv.md) - markdown viwer
+- [power management](power_management.md) - power management
 - [ssh](ssh.md)
-- [xev](xev.md) - katero tipko smo pritisnili
+- [xev](xev.md) - katero tipko smo pritisnili, key press
 - [import](import.md) - terminal screen capture
 - [scrot](scrot) - terminal screen-shot
 
@@ -88,10 +90,12 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 ## APPLICATION PROGRAMS
 
 - [calcurse](calcurse.md)
+- [cmus](cmus.md) - music player
 - [minicom](minicom.md) - program za interakcijo s serijsko komunikacijo
 - [ranger](ranger.md)
 - [NeoVim](NeoVim.md)
 - [NCDU](ncdu.md) - disk usages
+- [qalc](qalc.md) - scientific calculator
 
 # DESKTOP ENVIRONMENT
 
@@ -123,6 +127,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [SimulIDE](SimulIDE.md) - Simuliranje elektronskih vezij, tudi krmilnikov Arduino
 - [Siril](Siril.md) - Progam za obdelavo slik v astronomiji (stacking photos)
 - [Statistics with pandas](Pandas.md)
+- [wine](wine.md) - Program for executing win programs
 
 # HARDWARE
 

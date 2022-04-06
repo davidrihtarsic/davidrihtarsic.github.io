@@ -5,11 +5,32 @@ QUESTIONS:
 READ MORE:
 https://davidrihtarsic.github.io/Robotika_Zacetna/Skripta/399_FirstRide.html
 */
-
 const int LEFT_MOTOR_PIN_A = 7;
 const int LEFT_MOTOR_PIN_B = 6;
 const int RIGHT_MOTOR_PIN_A = 5;
 const int RIGHT_MOTOR_PIN_B = 4;
+
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+void setIOs();
+
+void setup()
+{
+  setIOs();
+
+  robotForward();
+  delay(3000);
+  robotBackward();
+  delay(3000);
+  robotStop();
+}
+
+void loop()
+{
+}
 
 void robotForward()
 {
@@ -52,18 +73,4 @@ void setIOs()
   pinMode(LEFT_MOTOR_PIN_B, OUTPUT);
   pinMode(RIGHT_MOTOR_PIN_A, OUTPUT);
   pinMode(RIGHT_MOTOR_PIN_B, OUTPUT);
-}
-void setup()
-{
-  setIOs();
-
-  robotForward();
-  delay(3000);
-  robotBackward();
-  delay(3000);
-  robotStop();
-}
-
-void loop()
-{
 }

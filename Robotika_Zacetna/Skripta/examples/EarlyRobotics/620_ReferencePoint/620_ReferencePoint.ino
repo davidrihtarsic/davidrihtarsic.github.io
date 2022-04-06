@@ -1,4 +1,5 @@
-/* TASKS:
+/************************************************************
+TASKS:
 1. Add a switch to detect the reference point of the barrier
     gate. Let the reference point be the closed position of
     the barrier. Follow the video instruction:
@@ -13,10 +14,35 @@ QUESTIONS:
 1. Why the detection of reference point is important?
 READ MORE:
 https://davidrihtarsic.github.io/Robotika_Zacetna/Skripta/620_ReferencePoint.html
-*/
+************************************************************/
 
-const int GATE_MOTOR_A = 6;
-const int GATE_MOTOR_B = 7;
+void moveGateUp();
+void moveGateDown();
+void stopTheGate();
+void setIOpins();
+
+const int GATE_MOTOR_A  = 6;
+const int GATE_MOTOR_B  = 7;
+const int REF_SW_PIN    = A0;
+
+void setup()
+{
+  setIOpins();
+
+  for (int i = 0; i < 15; i++)
+  {
+    moveGateUp();delay(3000);
+    stopTheGate();delay(1000);
+    moveGateDown();delay(3000);
+    stopTheGate();delay(1000);
+  }
+}
+
+void loop()
+{
+
+}
+
 void moveGateUp()
 {
   digitalWrite(GATE_MOTOR_A, HIGH);
@@ -39,21 +65,4 @@ void setIOpins()
 {
   pinMode(GATE_MOTOR_A, OUTPUT);
   pinMode(GATE_MOTOR_B, OUTPUT);
-}
-void setup()
-{
-  setIOpins();
-
-  for (int i = 0; i < 15; i++)
-  {
-    moveGateUp();delay(3000);
-    stopTheGate();delay(1000);
-    moveGateDown();delay(3000);
-    stopTheGate();delay(1000);
-  }
-}
-
-void loop()
-{
-
 }

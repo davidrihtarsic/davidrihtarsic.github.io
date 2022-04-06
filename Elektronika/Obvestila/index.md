@@ -6,6 +6,11 @@
 
 ---
 
+** 2022-04-06: 1. kolokvij iz vaj**  
+[Rezultati kolokvija](./2022-04-06_kolokvij1.md)
+
+---
+
 **2021-08-20: Jesenski rok izpit iz vaj**  
 [Rezultati izpita](./2021-08-20_Izpit_jesenski.md).
 

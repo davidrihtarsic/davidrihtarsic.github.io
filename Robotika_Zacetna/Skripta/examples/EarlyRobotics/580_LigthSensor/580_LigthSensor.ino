@@ -1,4 +1,5 @@
-/* TASK:
+/********************************************************************************
+TASK:
 1. Construct the light sensor according to video:
    https://www.youtube.com/watch?v=wEN1e6m1FGY
    and scheme:
@@ -17,7 +18,7 @@ QUESTIONS:
     Surface brightness reference (in ADC):
 READ MORE:
    https://davidrihtarsic.github.io/Robotika_Zacetna/Skripta/580_LigthSensor.html
-*/
+***********************************************************************************/
 const int LIGHT_SENSOR_PIN = A0;
 const int BULB_PIN = 3;
 const int HIGH_SURFACE_BRIGHTNESS = 0;

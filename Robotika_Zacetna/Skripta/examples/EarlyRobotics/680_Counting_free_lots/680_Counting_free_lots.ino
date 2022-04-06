@@ -10,6 +10,27 @@ const int POTENTIOMETER_PIN = A3;
 const int HORIZONTAL = 164;
 const int VERTICAL = 511;
 
+void stopTheGate();
+void moveGateUp();
+void moveGateDown();
+void setIOpins();
+
+void setup(){
+  setIOpins();
+}
+
+void loop()
+{
+  int car_is_there = !digitalRead(REED_SW_PIN);
+  if (car_is_there)
+  {
+    moveGateUp();
+    delay(1000);
+    moveGateDown();
+  }
+  delay(100);
+}
+
 void stopTheGate()
 {
   digitalWrite(GATE_MOTOR_A, LOW);
@@ -43,20 +64,4 @@ void setIOpins()
   pinMode(GATE_MOTOR_B, OUTPUT);
   pinMode(REF_SW_PIN, INPUT_PULLUP);
   pinMode(REED_SW_PIN, INPUT_PULLUP);
-}
-void setup()
-{
-  setIOpins();
-}
-
-void loop()
-{
-  int car_is_there = !digitalRead(REED_SW_PIN);
-  if (car_is_there)
-  {
-    moveGateUp();
-    delay(1000);
-    moveGateDown();
-  }
-  delay(100);
 }

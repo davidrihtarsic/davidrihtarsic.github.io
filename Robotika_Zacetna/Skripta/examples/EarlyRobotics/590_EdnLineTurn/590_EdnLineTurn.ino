@@ -1,4 +1,5 @@
-/* TASKS:
+/************************************************************
+TASKS:
 1. Stop the robot when it reaches the end of line.
 2. Detecting the end of line can be done by measuring
   the time that robot spend over the black and white
@@ -18,7 +19,7 @@ a programming loop?
 3. What is the purpose of the prog. instr. exit(0); ?
 READ MORE:
 https://davidrihtarsic.github.io/Robotika_Zacetna/Skripta/590_EdnLineTurn.html
-*/
+************************************************************/
 const int LEFT_MOTOR_PIN_A = 7;
 const int LEFT_MOTOR_PIN_B = 6;
 const int RIGHT_MOTOR_PIN_A = 5;
@@ -26,6 +27,47 @@ const int RIGHT_MOTOR_PIN_B = 4;
 const int LIGHT_SENSOR_PIN = A0;
 const int BULB_PIN = 3;
 
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+void setIOpins();
+
+void setup(){
+  setIOpins();
+}
+
+const int SURFACE_BRIGHTNESS_REFERENCE = 400;
+int white_counter = 0;
+int black_counter = 0;
+
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if (light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE)
+  {
+    robotLeft();
+    delay(10);
+    //count black_counter;
+    //reset white_counter;
+  }
+  else
+  {
+    robotRight();
+    delay(10);
+  }
+}
+
+void setIOpins(){
+  pinMode(LEFT_MOTOR_PIN_A, OUTPUT);
+  pinMode(LEFT_MOTOR_PIN_B, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_A, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_B, OUTPUT);
+  pinMode(BULB_PIN, OUTPUT);
+  digitalWrite(BULB_PIN, HIGH);
+  pinMode(LIGHT_SENSOR_PIN, INPUT);
+}
 void robotForward()
 {
   digitalWrite(LEFT_MOTOR_PIN_A, HIGH);
@@ -60,34 +102,4 @@ void robotBackward()
   digitalWrite(LEFT_MOTOR_PIN_B, HIGH);
   digitalWrite(RIGHT_MOTOR_PIN_A, LOW);
   digitalWrite(RIGHT_MOTOR_PIN_B, HIGH);
-}
-void setup()
-{
-  pinMode(LEFT_MOTOR_PIN_A, OUTPUT);
-  pinMode(LEFT_MOTOR_PIN_B, OUTPUT);
-  pinMode(RIGHT_MOTOR_PIN_A, OUTPUT);
-  pinMode(RIGHT_MOTOR_PIN_B, OUTPUT);
-  pinMode(BULB_PIN, OUTPUT);
-  digitalWrite(BULB_PIN, HIGH);
-  pinMode(LIGHT_SENSOR_PIN, INPUT);
-}
-
-const int SURFACE_BRIGHTNESS_REFERENCE = 400;
-int white_counter = 0;
-int black_counter = 0;
-void loop()
-{
-  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-  if (light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE)
-  {
-    robotLeft();
-    delay(10);
-    //count black_counter;
-    //reset white_counter;
-  }
-  else
-  {
-    robotRight();
-    delay(10);
-  }
 }

@@ -1,4 +1,4 @@
-/* TASK:
+/************************************************************ TASK:
 1. Construct the bumper of the robot with push-button-switch
   as is shown in this video instructions:
   https://www.youtube.com/watch?v=eWldNxh-q2c&t=11s
@@ -14,7 +14,7 @@ QUESTIONS:
 3. Explain when the curly braces `{}` are necessary in the if-statement.
 READ MORE:
 https://davidrihtarsic.github.io/Robotika_Zacetna/Skripta/450_ConditionalStatements.html
-*/
+************************************************************/
 const int BUMPER_PIN = A0;
 const int TEST_BUMPER_LED_PIN = 3;
 void setup()

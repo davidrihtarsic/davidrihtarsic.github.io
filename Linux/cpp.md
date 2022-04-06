@@ -54,3 +54,8 @@ main:
 	.ident	"GCC: (GNU) 11.1.0"
 	.section	.note.GNU-stack,"",@progbits
 ´´´
+
+## BOOKS
+
+- An Introduction to GCC (Brain Gough)
+-

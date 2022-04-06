@@ -3,6 +3,7 @@
 ## Tasks:
 
 1. Make a very simple program like setting the digital output bit D3 to logical state 1 or **HIGH**.
+
 ```cpp
     void setup() {
       // put your setup code here, to run once:
