@@ -12,7 +12,7 @@ Delovanje potenciometra si lahko razložimo na dva načina:
 2. Lahko si zamislimo, da priključek B razdeli potenciometer na dva upora: (1) $R_{AB}$ in (2) $R_{BC}$. Tako se bo tudi napetost, ki jo bomo priključili na potenciometer razdelila v razmerju teh dveh upornosti.
 
 > ### NALOGA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.  
-> Priključite potenciometer tako, kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
+> Priključite potenciometer tako, kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v odvisnosti od položaja srednjega priključka potenciomtra.
 
 ## UPORABA ANALOGNEGA VHODA NA KRMILNIKU
 

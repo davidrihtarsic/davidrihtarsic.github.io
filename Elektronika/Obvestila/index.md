@@ -6,6 +6,11 @@
 
 ---
 
+** 2022-04-08: rezultati poročil **  
+[Rezultati poročil](./2022-04-08_vaje-poročila.md)
+
+---
+
 ** 2022-04-06: 1. kolokvij iz vaj**  
 [Rezultati kolokvija](./2022-04-06_kolokvij1.md)
 
