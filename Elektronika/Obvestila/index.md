@@ -9,6 +9,7 @@
 ** 2022-04-08: rezultati poročil **  
 - [Rezultati poročil](./2022-04-08_vaje-poročila.md)
 - [Rezultati poročil_2](./2022-04-12_vaje-poročila.md)
+- [Rezultati poročil 3](./2022-04-13_vaje-poročila.md)
 
 ---
 
