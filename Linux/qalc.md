@@ -7,4 +7,6 @@ nekaj uporabnih komand:
 > Uii := (Vcc*(Rr||Rv)/((Rr||Rv)+Rn)) ; add function
 >   save((Vcc × (Rr or Rv)) / ((Rr or Rv) + Rn), Uii) ≈ 2.539503386 V
 > Ui, Uii                             ; izpis vrednosti dveh fun.
->   [Ui, Uii] ≈ [2.385083119 V, 2.282987226 V]
+>[Ui, Uii] ≈ [2.385083119 V, 2.282987226 V]
+
+> \a^2 + \b^2 = \c^2                  ; uporaba spremenljivk \a

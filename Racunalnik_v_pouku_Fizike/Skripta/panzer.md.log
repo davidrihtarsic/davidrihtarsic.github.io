@@ -1,0 +1,21 @@
+WARNING: no global style definitions found
+         ----- pandoc read -----
+         running
+         ----- style definitions -----
+         no global definitions loaded
+         ----- document style -----
+         no "style" field found, run only pandoc
+         writer:
+           latex
+         ----- template -----
+           skripta
+         ----- run list -----
+         filter:
+           1 pandoc-crossref latex
+           2 pandoc-citeproc latex
+         ----- filter -----
+          [1/2] pandoc-crossref latex
+          [2/2] pandoc-citeproc latex
+         ----- pandoc write -----
+         pandoc writing with options:
+           --listings --pdf-engine=xelatex

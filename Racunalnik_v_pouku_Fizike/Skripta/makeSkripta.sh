@@ -1,8 +1,10 @@
 #! /bin/bash
 
-FILEs="[0-9]*.md"
-cat $FILEs > Skripta.md
+#pandoc [0-9]*.md --to latex --from markdown --number-sections -F pandoc-crossref --citeproc --template skripta --listings --pdf-engine=pdflatex -V caption-justification=centering -o Skripta.pdf
 
+
+#FILEs=$1
+FILEs="[0-9]*.md"
 BOOK_SETTINGS='
 -V documentclass=book
 -V book
@@ -16,12 +18,12 @@ CAPTIONS='
 -M eqnPrefix=en.
 -M lstPrefix=prog. '
 
-pandoc  Skripta.md --to latex -o Skripta.pdf \
+pandoc  $FILEs --to latex -o Skripta.pdf \
     --from markdown \
     --template skripta \
     -V lang=sl \
-    -M title="RAČUNALNIK V POUKU FIZIKE" \
-    -M subtitle="Zbirka laboratorijskih vaj za študente UL,PeF" \
+    -M title="Računalnik v pouku Fizike - zbirka vaj" \
+    -M subtitle="Skripta je namenjena študentom UL-PeF študijske smeri Fizike z vezavami. V skripti so opisani osnovni principi vzorčenja fizikalnih količin s krmilnikom Arduino NANO." \
     -M author:"dr. David Rihtaršič" \
     -M date:"$(date '+%Y-%B')" \
     --listings \

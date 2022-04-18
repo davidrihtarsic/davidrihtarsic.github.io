@@ -8,7 +8,7 @@ titlepage: true
 #fontsize: 12pt
 #geometry: "top=1cm, bottom=1cm, left=1cm, right=1cm"
 numbersections: true
-documentclass: book 		# [article, book, report]
+#documentclass: article 		# [article, book, report]
 #csl: ieee.csl
 bibliography: bibtex.bib
 lang: sl 	# [sl, en-US, us-GB]
@@ -166,7 +166,7 @@ Memory
     * 10-bit Resolution
     * 0.5 LSB Integral Non-Linearity
     * ±2 LSB Absolute Accuracy
-    * 13 - 260 us Conversion Time
+    * 13 - 260μs Conversion Time
     * Up to 76.9kSPS (Up to 15kSPS at Maximum Resolution)
     * Six Multiplexed Single Ended Input Channels
     * Two Additional Multiplexed Single Ended Input Channels (TQFP and VFQFN Package only)
@@ -202,8 +202,8 @@ Extended Standby
   + 0 - 20MHz @ 4.5 - 5.5V
 - **Power Consumption at 1MHz, 1.8V, 25°C**
   + Active Mode: 0.2mA
-  + Power-down Mode: 0.1$\mu A$
-  + Power-save Mode: 0.75$\mu A$ (Including 32kHz RTC)
+  + Power-down Mode: 0.1μA
+  + Power-save Mode: 0.75μA (Including 32kHz RTC)
 
 ## Requirements
 
@@ -448,19 +448,7 @@ void loop() {
 }
 ```
 
-<!--
-podatke uredite v histogram normalnih porazdelitev.
-x -> range -> =COUNTIF(range, criteria)
--->
-
 ## Koeficienti normalne porazdelitve
-
-<!--
-Predstavite:
-- število meritev
-- obliko norm. porazdelitve ()
--->
-
 **Sploščenost**
 ```
 =KURT(Range)
@@ -665,48 +653,6 @@ void loop() {
   DaqLcd.print(val);
 }
 ```
-## Izpis na LCD z vzporednim vodilom
-
-![Shema vezave LCDja z vzporednim vodilom.](./slike/Arduino_LCD_parallel.png){#fig:Arduino_LCD_parallel.png}
-
-Vezavo žic na LCD si lahko prilagodite in vrednosti priključkov popravite v programski kodi.
-
-```cpp
-#include <LiquidCrystal.h>
-//            lcd(RS, EN, D4,D5,D6,D7);
-LiquidCrystal lcd(8,  9,  10,11,12,13);
-
-void setup() {
-  lcd.begin(16, 2);
-  lcd.print("Voltage:");
-}
-
-void loop() {
-  lcd.setCursor(0, 1);
-  lcd.print(analogRead(A0));
-}
-```
-V program smo vključili knjižnico LiquidCrystal.h, iz katere lahko uporabljamo funkcije kot so:  
-- LiquidCrystal()
-- begin()
-- clear()
-- home()
-- setCursor()
-- write()
-- print()
-- cursor()
-- noCursor()
-- blink()
-- noBlink()
-- display()
-- noDisplay()
-- scrollDisplayLeft()
-- scrollDisplayRight()
-- autoscroll()
-- noAutoscroll()
-- leftToRight()
-- rightToLeft()
-- createChar() 
 
 \newpage
 # Linearizacija meritvenih vrednosti (praznenje kondenzatorja)
@@ -830,10 +776,6 @@ boolean stringComplete = false;  // whether the string is complete
 
 void setup() {
   Serial.begin(9600);
-  printHelp();
-  inputString.reserve(20);
-}
-void printHelp(){
   Serial.println("###########################################");
   Serial.println("# INSTRUCTIONS:                           #");
   Serial.println("#   1. Insert temperature (example: 22.4) #");
@@ -846,11 +788,10 @@ void printHelp(){
   Serial.println("#       'temperature.ino'                 #");
   Serial.println("###########################################");
   Serial.println("T[°C] Value");
+  inputString.reserve(20);
 }
+
 void loop() {
-  //float ref_temp = waitForUserInput();
-  //float sen_val = sensorsAvgValueOnCh(A0);
-  //printNewTabelRow(ref_temp, sen_val);
   if (stringComplete) {
     Serial.print(inputString);
     Serial.print(" ");
@@ -869,13 +810,7 @@ void loop() {
     Serial.println(Vol_CH1);
   }
 }
-float waitForUserInput(){
-  char inChar = '';
-  while (inChar != '\n'){
-    if (Serial.available()) inChar = (char)Serial.read();
-    if (inChar != '\n') 
-  }
-}
+
 void serialEvent() {
   while (Serial.available()) {
     char inChar = (char)Serial.read();  // get the new byte:
@@ -887,11 +822,6 @@ void serialEvent() {
   }
 }
 ```
-
-<!--
-Ker zgornji program ni deloval, sem na hitro sestavil naslednjega_
-V simulaciji ne dela ENTER, zato je potrebno ENTER= '\n' zamenjati z neko črko 'C'
--->
 
 ## Interpolacija
 
