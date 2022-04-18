@@ -16,6 +16,7 @@ void loop() {
   delay(1000);          // wait a second so as not to send massive amounts of data
 }
 ```
+: Beleženje časa. {#lst:time_function}
 
 Preverite tudi:
 ```cpp
@@ -76,6 +77,7 @@ void reset_the_game(){
   Serial.println("Start...");
 }
 ```
+: Merjenje časovnega intervala. {#lst:time_diff}
 
 ## Hitrost
 
@@ -119,6 +121,7 @@ void print_time_difference(unsigned long start_time,unsigned long stop_time){
   Serial.println(time_diff);
 }
 ```
+: Merjenje hitrosti predmeta. {#lst:speed_measure}
 
 ## Pospešek
 

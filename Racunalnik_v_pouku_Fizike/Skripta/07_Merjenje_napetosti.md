@@ -1,4 +1,4 @@
-# Merjenje s krmilnikom Arduino UNO
+# Merjenje napetostnih potencialov
 
 Krmilnik Atmega328 ima vgrajen AD pretvornik, s katerim lahko odčitavamo analogne napetostne potenciale v območju $U_{ADC} = [0..5]V$.
 
@@ -13,7 +13,7 @@ Analogne napetostne potenciale lahko odčitavamo na priključkih krmilnika, ki s
 > Napišite v kakšnem intervalu so bile izmerjene vrednosti:\
 > ADC = [_____,_____]_.
 
-## Merjenje napetosti
+## Analogno-digitalni pretvornik
 
 ```cpp
 const int POTENCIOMETER = 0;
@@ -27,6 +27,8 @@ void loop() {
     delay(100);
 }
 ```
+: Odčitavanje napetostnih potencialov z analogno-digitalnim pretvornikom. {#lst:adc_function}
+
 ## Izračun napetosti
 
 > ### NALOGA: Preračun ADC vrednosti v napetost  
@@ -67,4 +69,4 @@ void get_100_Samples(){
   }
 }
 ```
-
+: Izračun napetosti. {#lst:voltage_calc}

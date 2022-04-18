@@ -31,3 +31,19 @@
 - [Skripta vaj za RvPF](./Skripta.md) - [PDF](./Skripta.pdf)
 
 ---
+
+# Zbirka programov
+
+- [04_1_Blink.ino](./Examples/04_1_Blink.ino)
+- [05_1_Digitalni_vhod.ino](./Examples/05_1_Digitalni_vhod.ino)
+- [05_2_Sprememba_dig_vhoda.h](./Examples/05_2_Sprememba_dig_vhoda.h)
+- [06_1_Belezenje_casa.ino](./Examples/06_1_Belezenje_casa.ino)
+- [06_2_Casovni_interval.ino](./Examples/06_2_Casovni_interval.ino)
+- [06_3_Merjenje_hitrosti.ino](./Examples/06_3_Merjenje_hitrosti.ino)
+- [07_1_AD_pretvornik.ino](./Examples/07_1_AD_pretvornik.ino)
+- [07_2_Izracun_napetosti.ino](./Examples/07_2_Izracun_napetosti.ino)
+- [08_1_Serijski_izpis.ino](./Examples/08_1_Serijski_izpis.ino)
+- [08_2_Serijski_izris.ino](./Examples/08_2_Serijski_izris.ino)
+- [08_3_Izpis_na_LCD.ino](./Examples/08_3_Izpis_na_LCD.ino)
+- [11_1_Umerjanje_senzorja.ino](./Examples/11_1_Umerjanje_senzorja.ino)
+- [12_1_Izracun_polinoma.ino](./Examples/12_1_Izracun_polinoma.ino)

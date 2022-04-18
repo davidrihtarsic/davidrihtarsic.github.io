@@ -23,6 +23,7 @@ void loop() {
   delay(100);
 }
 ```
+: Serijski izpis podatkov. {#lst:serial_out}
 
 ## Grafični izris
 Zelo nazorno je spremljati izris podatkov v grafičnem načinu. Do neke mere nam to funkcijo ponuja programsko okolje Arduino IDE, vendar v zelo okenjeni obliki. Preskusite naslednji program:
@@ -37,6 +38,7 @@ void loop() {
   delay(10);
 }
 ```
+: Izrisovanje vrednosti s serijskim grafikonom. {#lst:serial_out}
 
 Kot lahko opazimo računalniku pošiljamo 3 različne števila: 0, 1023 in ADC vrednost. Prvi dve nam slušita kot območje, saj bi v nasprotnem primeru program sam prilagajal skalo na y osi (ang.: autofit).
 
@@ -69,6 +71,7 @@ void loop() {
   DaqLcd.print(val);
 }
 ```
+: Izpis podatkov na LCD prikazovalnik. {#lst:serial_out}
 
 > ### NALOGA: Izpis podatkov  
 > Prikažite podatke na različne načine:\

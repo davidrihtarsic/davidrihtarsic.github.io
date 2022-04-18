@@ -1,23 +1,3 @@
-# Umerjanje (temperaturnega) senzorja
-
-Zaradi različnih dejavnikov je potrebno senzorje predhodno umeriti. Umeritvene postopke pogosto podajo proizvajalci senzorjev, lahko pa ga storite sami. Preprost in univerzalen postopek je, da si zabeležite pare meritev vrednosti senzorja z merjenimi vrednostmi.
-
-## Umeritveni postopek
-
-> ### NALOGA: Umeritveni postopek  
-> Naredite umeritveni postopek in predstavite tabelo s podatki.\
-> \
->  **T[°C]**   |     **U[V]**\
-> \
-> \
-> \
-> \
-> \
-> \
-> \
-> \
-
-```cpp
 const int TEMPERATURE_SENSOR = A0;
 void wait_for_user_to_entry_data();
 void print_average_value_of(int input_pin);
@@ -66,6 +46,3 @@ void print_average_value_of(int input_pin){
   float avg_ADC_val = (float)ADC_value/128;
   Serial.println(avg_ADC_val);
 }
-```
-: Umerjanje senzorja. {#lst:sensor_callibration}
-
