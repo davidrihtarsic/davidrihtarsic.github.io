@@ -6,6 +6,25 @@ Za digitalne spremembe kot so naprimer: pritisk na tipko, prehod predmeta mimo s
 
 ![Vezava tipke na digitalni vhod krmilnika Arduino.](./slike/PBSw_All.png){#fig:SW_uK6.png height=7cm}
 
+
+```cpp
+const int TIPKA = A0;
+const int LED = 13;
+
+void loop(){
+    bool tipka_je_pritisnjena = digitalRead(TIPKA);
+    if (tipka_je_pritisnjena == 1)
+        digitalWrite(LED, HIGH);
+    else
+        digitalWrite(LED, LOW);
+}
+void setup(){
+    pinMode(TIPKA, INPUT);
+    pinMode(LED, OUTPUT);
+}
+```
+: Preverjanje stanja tipke (digitalnega vhoda). {#lst:digital_read}
+
 > ### NALOGA: Zaznavanje digitalnih vrednosti
 >
 > 1. Preskusite delovaje vseh teh vezav tipke, ki so prikazani na shemi.
