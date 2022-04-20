@@ -44,7 +44,7 @@ void loop() {
 }
 
 void setup() {
-  pinMode(LED_BUILDIN ,OUTPUT);
+  pinMode(LED_BUILTIN ,OUTPUT);
   pinMode(TIPKA       ,INPUT);
   Serial.begin(9600);
   Serial.println("Start...");
@@ -52,9 +52,9 @@ void setup() {
 }
 
 void randomly_turn_LED_on(){
-  digitalWrite(LED_BUILDIN,LOW);
+  digitalWrite(LED_BUILTIN,LOW);
   delay(random(5000,10000));
-  digitalWrite(LED_BUILDIN,HIGH);
+  digitalWrite(LED_BUILTIN,HIGH);
 }
 
 void start_timing_user_respond(){
