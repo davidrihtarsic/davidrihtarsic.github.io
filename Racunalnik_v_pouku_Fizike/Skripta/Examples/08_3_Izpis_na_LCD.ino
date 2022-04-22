@@ -1,9 +1,11 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C DaqLcd(0x27, 2, 1, 0, 4, 5, 6, 7, 3, POSITIVE); 
+LiquidCrystal_I2C DaqLcd(0x27, 16, 2);
 
 void setup() {
-  DaqLcd.begin(8, 2);
+  DaqLcd.init();
+  DaqLcd.backlight();
+  DaqLcd.clear();
 }
 
 void loop() {

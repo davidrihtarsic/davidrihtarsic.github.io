@@ -9,6 +9,7 @@
 
 ## Ocene 2021/2022
 
+- [Dodatni koronski izpit](./2022-04-22_teorija-izpit.md)
 - [Rezultati poročil](./2022-02-12_vaje-poročila.md)
 - [Rezultati 2. izpita](./2022-02-11_2022-02-11.md)
 - [Rezultati 1. izpita](./2022-01-27_izpit_1_teorija.md)
