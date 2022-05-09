@@ -15,12 +15,12 @@
 - [8 - Tok v AC el. krogih z induktivnim bremenom ](./08-I-U-AC-Tuljava.md) - [PDF](./08-I-U-AC-Tuljava.pdf)  
 - [9 - Krmiljenje servo motorjev](./09-Krmiljenje_servo_motorjev.md) - [PDF](./09-Krmiljenje_servo_motorjev.pdf)  
 - [10 - Uporaba dalnovodov](./30-Uporaba_transformatorjev_v_daljnovodih.md) - [PDF](./30-Uporaba_transformatorjev_v_daljnovodih.pdf)  
-- [11 - Krmiljenje koračnega motorja](./Skripta/10-Krmiljenje_koračnih_motorjev.md) - [PDF](./Skripta/10-Krmiljenje_koračnih_motorjev.pdf)  
+- [11 - Krmiljenje koračnega motorja](./10-Krmiljenje_koracnih_motorjev.md ) - [PDF](./Skripta/10-Krmiljenje_koracnih_motorjev.pdf)  
 - [12 - Koeficient enosmernega motorja](./20-Konstanta_enosmernega_motorja.md) - [PDF](./20-Konstanta_enosmernega_motorja.pdf)  
 - [13 - Izkoristek enosmernega motorja](./21-Izkoristek_enosmernega_motorja.md) - [PDF](./21-Izkoristek_enosmernega_motorja.pdf)  
 - [14 - Izkoristek enosmernega generatorja](./22-Izkoristek_enosmernega_generatorja.md) - [PDF](./22-Izkoristek_enosmernega_generatorja.pdf)  
-- [15 - Električna inštalacija](./Skripta/17-Električna_inštalacija.md) - [PDF](./Skripta/17-Električna_inštalacija.pdf)
-- [16 - Izdelava elektromagneta](./60-Magnetni_učinek_električnega_toka.md) - [PDF](./60-Magnetni_učinek_električnega_toka.pdf)
+- [15 - Električna inštalacija](./Skripta/17-Električna_instalacija.md) - [PDF](./Skripta/17-Električna_instalacija.pdf)
+- [16 - Izdelava elektromagneta](./60-Magnetni_ucinek_elektricnega_toka.md) - [PDF](./60-Magnetni_ucinek_elektricnega_toka.pdf)
 
 ---
 
