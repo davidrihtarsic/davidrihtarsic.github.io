@@ -28,6 +28,7 @@ vežejo med sabo različne vrste materialov (različne molekule), v našem prime
 - ~~čiščenje: operemo z vodo, obrišemo z vlažno krpo~~
     - počakamo, da se posuši in odbrusimo
     - z brisanjem lahko lepilo nanesemo na lesno površino, ki se vpije v pore in oteži površinsko zaščito
+    - najbolje je, da rob spoja zaščitimo s krep lepilnim trakom tako, da ko se ob stisku lepljencev lepilo izteče na lepilni trak (vedno pa te tehnike ni mogoče uporabiti, npr.: rogličenje).
 
 **PVAc - MEKOL D4**
 
@@ -181,6 +182,19 @@ Konstrukcijske vezi lahko razdelimo glede na smer spajanja:
     - pravilna razporeditev polizdelkov
 
 ![Razporeditev polizdelkov pri širinskem spajanju lesa.](./slike/raporeditev_sirinsko.png){#fig:sirinsko}
+
+- Pri pripravi lesa za širinsko spajanje na poravnalnem skobeljnem stroju uporabljajte tehniko skladnih kotov vzporednih stranic, ki jo prikazuje [@fig:skladni_koti_vzporednih]. To lahko zagotovimo tako:
+    - da polizdeleku najprej poravnamo širšo stranico na poravnalnem skobeljnem stroju,
+    - nato nasprotno stranico poravnamo vzporedno s prvo na debelinskem skobeljnem stroju,
+    - šele nato poravnamo v pravi kot eno od ožjih stranic,
+    - polizdelek obrnemo okoli vzdolžne osi in
+    - v pravi kot poravnamo obe nasprotni stranici.
+
+- Ko polizdelke širinsko spajamo, moramo paziti, da se izmenjujejo priležne in nasprotne ploskve poravnanih kotov.
+
+- To isto tehniko lahko uporabljamo pri dolžinskem razrezu na mizarski krožni žagi.
+
+![Tehnika skladnih kotov vzporednih ploskev.](./slike/skladni_koti_vzporednih stranic.png){#fig:skladni_koti_vzporednih}
 
 #### TOPA VEZ
 

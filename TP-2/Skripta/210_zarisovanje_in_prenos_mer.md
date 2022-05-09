@@ -27,6 +27,18 @@
       - uporaba vzporednega črtala
       - prenos mere s kljunastim merilom
 
+  - merjenje notranjih mer je lahko problematično:
+    - nekateri merilni trakovi imajo na ohišju izpisano dolžino ohišja
+    - še bolje je, da pod metilni trak postavite nek distančnik (lahko je kovinsko merilo ali igralna karta),
+      - izmerite notranjo mero z distančnikom,
+      - tesno ptimete distančnik in merilni trak,
+      - odstranite merilnik trak in distančnik iz merjenca,
+      - razgrnete merilni trak do roba distančnika in odčitate meritev.
+    - sestavimo dve kovinski merili (ali druga polizdelka),
+      - jih zamaknemo od enega notranjega roba do drugega,
+      - nepremično odmaknemo izven merjenca in
+      - izmerimo skupno razdaljo.
+
 ### Kombinirani kotnik
 
   - [Uporaba kombiniranega kotnika](https://www.youtube.com/watch?v=a7ALNH1NF8w)
@@ -92,7 +104,7 @@
 
 ## Prenos mer
 
-###  Prenos mere z obdelovancem
+### Prenos mere z obdelovancem
 
 ### Prenos s kljunastim merilom
 
@@ -106,3 +118,10 @@ Izdelava utora:
 - zamaknemo obdelovanec za širino hrbta (čepa)
 - hrbet zamenjamo za letev debeline lista in
 - pristavimo prislon
+
+## Druge tehnike zarisovanja
+
+### Deljenje obdelovanca na polovico
+
+- priprava za deljenje pondebelini
+- poševen zamik ravnila tako, da ujamemo preprosto deljivo mero (to tehniko lahko uporabljamo za različno deljive mere)
