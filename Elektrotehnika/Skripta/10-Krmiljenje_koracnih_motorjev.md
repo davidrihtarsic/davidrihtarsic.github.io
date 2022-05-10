@@ -72,3 +72,10 @@ void loop() {
 >
 > Priložite obe programski kodi.
 
+## Priloge
+
+Vezava zelo popularnega koračnega motorja, ki ga najdete v kitajskih zbirkah je vidna na [@fig:stepper_24BYJ]
+
+![Vezava tuljav statorja v koračnem motorju 24BYJ](./slike/stepper_24BYJ.png){#fig:stepper_24BYJ}
+
+

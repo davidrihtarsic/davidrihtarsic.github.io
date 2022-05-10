@@ -9,6 +9,8 @@
 
 ## Ocene 2021/2022
 
+- [Končne ocene VIS](./2022-05-10_končne_ocene.md)
+- [Poročila n-tič](./2022-05-10_poročila_vaj.md)
 - [Dodatni koronski izpit](./2022-04-22_teorija-izpit.md)
 - [Rezultati poročil](./2022-02-12_vaje-poročila.md)
 - [Rezultati 2. izpita](./2022-02-11_2022-02-11.md)
