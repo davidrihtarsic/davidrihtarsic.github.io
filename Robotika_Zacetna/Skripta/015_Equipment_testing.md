@@ -99,6 +99,21 @@ void loop() {
 
 2. Nato preverite delovanje obeh tipk (A4 in A5) na modulu in vrednosti izhodnih priključkov D0 .. D7.
 
+## Napajalni modul
+
+Napajalni modul uporablja 2x Li-ion akumulatorja tipa 18650. Spodnje tiskano vezje je prikazano [@fig:napajalni_modul].
+
+![Napajalni modul.](./slike/napajalni_modul.jpg){#fig:napajalni_modul}
+
+Dodatno smo ga opremili z:
+1. 2.5mm jack priključkom za napajanje,
+2. 3-pinskim priključkom za napajanje,
+3. preklopnim stikalom za izbiranje načina delovanja:
+    1. ON - izhod za 9V je kaktiviran
+    2. OFF - izključen izhod 9V napajanja in omogočeno je polnenje akumulatorjev preko 3-pinskega priključka (5V).
+
+Pred prvo uporabo moramo ročno aktivirati napajalni modul tako, da povežemo GND na 3-pinskem priključku in NEGATIVNI terminal akumulatorjev.
+
 ## Tipka
 
 1. Priključite stikalo po shemi na [@fig:tipka_test].

@@ -19,7 +19,7 @@
 - [12 - Koeficient enosmernega motorja](./20-Konstanta_enosmernega_motorja.md) - [PDF](./20-Konstanta_enosmernega_motorja.pdf)  
 - [13 - Izkoristek enosmernega motorja](./21-Izkoristek_enosmernega_motorja.md) - [PDF](./21-Izkoristek_enosmernega_motorja.pdf)  
 - [14 - Izkoristek enosmernega generatorja](./22-Izkoristek_enosmernega_generatorja.md) - [PDF](./22-Izkoristek_enosmernega_generatorja.pdf)  
-- [15 - Električna inštalacija](./17-Električna_instalacija.md) - [PDF](./17-Električna_instalacija.pdf)
+- [15 - Električna inštalacija](./50-Električna_instalacija.md) - [PDF](./50-Električna_instalacija.pdf)
 - [16 - Izdelava elektromagneta](./60-Magnetni_ucinek_elektricnega_toka.md) - [PDF](./60-Magnetni_ucinek_elektricnega_toka.pdf)
 
 ---

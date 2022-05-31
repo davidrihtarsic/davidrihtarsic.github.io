@@ -42,4 +42,6 @@ in jih lahko enostavno skopiramo v pravi direktorji:
 
         >sudo cp /usr/local/lib/* /usr/lib
 
+#### Install RPM pacgage
 
+Glej [install RPM](./prm_install.md)

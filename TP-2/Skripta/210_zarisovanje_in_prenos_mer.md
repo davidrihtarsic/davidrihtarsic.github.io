@@ -20,8 +20,8 @@
     - Bodite pozorni na:
       - zakaj se zatič premika
       - risanje vzporednic, krožnice
-  
-  - [uporaba različnih merilnih pripomočkov](https://www.youtube.com/watch?v=goqT5L9_5NI)
+
+- [uporaba različnih merilnih pripomočkov](https://www.youtube.com/watch?v=goqT5L9_5NI)
     - Bodite pozorni na:
       - uporabo kombiniranega kotnika
       - uporaba vzporednega črtala
@@ -80,6 +80,16 @@
   - širok prislon (za nastavitev pravokotnosti orodnih rezil)
   - zunanje merilo z 0 na robu
   - notranje merilo z 0 v kotu kotnika
+
+### Vodna tehtnica
+
+  - preverjanje točnosti:
+    1. nastavite vodoravnost merilne letve tako, da se mehurček točno dotika črtice,
+    2. nato pbrnite merilno letev za 180 stopinj,
+    3. kazati mora točno enako!
+  - stranica merilne letve naj ima:
+    - oster rob = ne okroglega
+    - ožja stranica naj bo strojno poravnana (vidne sledi poravnanja)
 
 ## ZARISOVALNI PRIPOMOČKI
 
