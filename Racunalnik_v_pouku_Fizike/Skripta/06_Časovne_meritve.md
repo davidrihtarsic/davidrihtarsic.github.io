@@ -45,7 +45,7 @@ void loop() {
 
 void setup() {
   pinMode(LED_BUILTIN ,OUTPUT);
-  pinMode(TIPKA       ,INPUT);
+  pinMode(TIPKA       ,INPUT_PULLUP);
   Serial.begin(9600);
   Serial.println("Start...");
   randomSeed(analogRead(0)); 

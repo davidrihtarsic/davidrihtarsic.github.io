@@ -5,6 +5,10 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-06-07: poročila iz vaj**  
+- [Rezultati poročil](./2022-06-07_vaje-poročila.md)
+
+---
 **2022-06-01: kolokvij 2**  
 - [Rezultati 2. kolokvija iz vaj](./2022-05-30_kolokvij_2.md)
 - [Povprečje kolokvijev](./2022-06-01_kolokvij_AVG.md)
