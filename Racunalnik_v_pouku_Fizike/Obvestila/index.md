@@ -6,6 +6,15 @@
 
 ---
 
+**2022-06-15: Rezultati eksperimenta:**  
+
+-[](<++>)<++>
+
+**2022-06-13: Rezultati poročil:**  
+- [Poročila 2022](./2022-06-13_vaje-poročila.md)
+
+---
+
 ** 2021-06-07: Rezultati seminarjev 2021**  
 [Rezultati seminarjev za l. 2021](./2021-06-07_seminar_2021.md)
 
