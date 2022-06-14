@@ -5,6 +5,10 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+
+**2022-06-14: izpit iz vaj**  
+- [Rezultati](./2022-06-14_vaje-izpit.md)
+
 **2022-06-07: poročila iz vaj**  
 - [Rezultati poročil](./2022-06-07_vaje-poročila.md)
 
