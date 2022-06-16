@@ -5,6 +5,9 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-06-16: poročila**  
+- [zadnji popravki poročil za termin 13.6.](./2022-06-16_vaje-poročila.md)
+
 **2022-06-15: poročila**  
 -[popravki poročil ...](./2022-06-15_vaje-poročila.md)
 

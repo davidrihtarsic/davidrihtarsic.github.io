@@ -7,8 +7,7 @@
 ---
 
 **2022-06-15: Rezultati eksperimenta:**  
-
--[](<++>)<++>
+-[Rezultati poročila o eksperimentu](./2022-06-16_vaje-projekt.md)
 
 **2022-06-13: Rezultati poročil:**  
 - [Poročila 2022](./2022-06-13_vaje-poročila.md)
