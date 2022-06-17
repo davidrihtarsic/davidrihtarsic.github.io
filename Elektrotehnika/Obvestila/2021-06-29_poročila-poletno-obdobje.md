@@ -1,3 +1,12 @@
+# [ELEKTROTEHNIKA](../index)
+
+[🏡DOMOV](../index){: .btn}
+[📝VSEBINE](../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../info){: .btn}
+[💾PRESNEMI](../Presnemi/index){: .btn}
+
+---
+
 | "VPISNA" | "PREDMET" | "DATUM" | "OBVEZNOST" | "TOČKE" | "OCENA [%]" |
 |---|---|---|---|---|---|
 | 1200871 | "elektrotehnika" | 2021-06-10 | "vaje-poročila" | 83.333 | -83.0 |
