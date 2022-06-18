@@ -11,6 +11,8 @@
 
 ### 2022
 
+- [Končna ocena TP-1 - prni rok](./2022-06-18_končna_ocena.md)
+
 - [Ocena iz vaj](./2022-06-10_vaje-k.o..md)
 
 - [Skupna ocena seminarja](./2022-06-10_seminar.md)
