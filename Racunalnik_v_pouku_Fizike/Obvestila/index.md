@@ -5,6 +5,8 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-06-20: Končne ocene vaj**  
+- [Končne ocene vaj](./2022-06-20_vaje-k.o..md)
 
 **2022-06-15: Rezultati eksperimenta:**  
 -[Rezultati poročila o eksperimentu](./2022-06-16_vaje-projekt.md)
