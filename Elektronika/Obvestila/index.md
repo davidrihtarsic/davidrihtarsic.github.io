@@ -5,6 +5,9 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-06-29: poročila 4. poizkus**  
+- [rezultati poročil](./2022-06-29_vaje-poročila.md)
+
 **2022-06-28: izpit iz vaj**  
 - [izpit iz vaj, rok: 27.6.2022](./2022-06-28_vaje-izpit.md)
 
