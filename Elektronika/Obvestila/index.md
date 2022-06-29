@@ -5,6 +5,9 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-06-29: KONČNI REZULTATI**  
+- [Končni rezultati vaj](./2022-06-29_vaje-k.o..md)
+
 **2022-06-29: poročila 4. poizkus**  
 - [rezultati poročil](./2022-06-29_vaje-poročila.md)
 
