@@ -13,7 +13,12 @@
 3. What is the purpose of the prog. instr. exit(0); ?
 
 ```cpp
-[+] void setup() { ...
+void setIOpins();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
 
 int time_on_black = 0;
 int time_on_white = 0;
@@ -38,13 +43,9 @@ void loop() {
                        // robotStop();exit(0);
   }
 }
-
-[+] void robotForward() { ...
-[+] void robotStop() { ...
-[+] void robotLeft() { ...
-[+] void robotRight() { ...
-[+] void robotBackward() { ...
+[+] void setup() { ...
 ```
+: End line tun. {#lst:end_ln_turn}
 
 > ## Summary:
 > ### <++>

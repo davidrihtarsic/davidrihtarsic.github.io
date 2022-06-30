@@ -5,16 +5,12 @@
 1. Write the program to control the robot follow the line ( actually above the edge between black and white area ). Some programming hints you can find in example:
 
 ```cpp
+void setIOpins();
 void robotForward();
 void robotStop();
 void robotLeft();
 void robotRight();
 void robotBackward();
-void setIOpins();
-
-void setup() {
-  setIOpins();
-}
 
 void loop()
 {
@@ -27,6 +23,11 @@ void loop()
      
   }
 }
+
+void setup() {
+  setIOpins();
+}
+...
 ```
 : Simple line-follower program. {#lst:prg-line}
 

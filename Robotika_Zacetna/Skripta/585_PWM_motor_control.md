@@ -30,23 +30,26 @@ can be on a scale of 0 - 255., where 0 is 0% and 255 is 100% of electrical power
     - `robotRightPWM(int PWM_value)`
 
 ```cpp
-[+] void robotForward() {...
-[+] void robotStop() {...
-[+] void robotLeft() {...
-[+] void robotRight() {...
-[+] void robotBackward() {...
-[+] void setup() {...
+void setIOpins();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
 const int SURFACE_BRIGHTNESS_REFERENCE = 400;
-[-] void loop() {
-        int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-        if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
-            robotLeft();
-        } else {
-            robotRight();
-        }
-        delay(10);
+
+void loop() {
+    int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+    if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
+        robotLeft();
+    } else {
+        robotRight();
+    }
+    delay(10);
 }
+[+] void setup() {...
 ```
+: Line-follower with PWM control. {#lst:line_follower}
 
 ## Questions:
 

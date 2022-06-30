@@ -27,6 +27,13 @@ So called `For-Next` loop is used whenever the repetition of the code can be con
 2. Experiment a bit more with such programming techniques.
 
 ```cpp
+void setIOpins();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+
 void setup() {
     setIOpins();
 
@@ -41,13 +48,9 @@ void setup() {
     robotStop();
 }
 [+]void loop() { ...
-[+]void setIOpins(){ ...
-[+]void robotForward() { ...
-[+]void robotStop() { ...
-[+]void robotLeft() { ...
-[+]void robotRight() { ...
-[+]void robotBackward() { ...
 ```
+: Dancing move. {#lst:dance}
+
 3. Change the `for-loop` with this `while-loop`. Can you predict the result?
 
 ```cpp

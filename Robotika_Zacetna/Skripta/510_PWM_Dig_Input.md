@@ -54,6 +54,7 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
       delay(2000);
     }
 ```
+: Ultrasonic distance measurement. {#lst:ultrasonic_distance}
 
 3. Add needed code in function `getDistance_cm()` to calculate the distance in cm.
 

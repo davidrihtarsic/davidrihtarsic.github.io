@@ -17,21 +17,24 @@ obstacles.
 ```cpp
 const int LIGHT_SENSOR_PIN = A0;
 const int DISTANCE_LIMIT = 20;
-[+]float getDistance_cm() { ...
-[+]void robotForward() { ...
-[+]void robotStop() { ...
-[+]void robotLeft() { ...
-[+]void robotRight() { ...
-[+]void robotBackward() { ...
+void setIOpins();
+float getDistance_cm();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+
+void loop() {
+  if ( getDistance_cm() > DISTANCE_LIMIT){
+    robotForward();
+  } else {
+    robotStop();
+  }
+}
 [+]void setup() { ...
-   void loop() {
-     if ( getDistance_cm() > DISTANCE_LIMIT){
-       robotForward();
-     } else {
-       robotStop();
-     }
-    }
 ```
+: Avoiding obstacles. {#lst:obstacle_avoid}
 
 > ## Summary:
 > 

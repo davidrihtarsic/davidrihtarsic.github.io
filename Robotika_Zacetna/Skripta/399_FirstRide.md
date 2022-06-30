@@ -11,29 +11,30 @@
 ## Questions:
 You probably ended up with this solution ... Right?
 ```cpp
-    void setup() {
-      //setting I/O pins
-      pinMode(4, OUTPUT);
-      pinMode(5, OUTPUT);
-      pinMode(6, OUTPUT);
-      pinMode(7, OUTPUT);
-      //move forward...
-      digitalWrite(7, HIGH);
-      digitalWrite(6, LOW);
-      digitalWrite(5, HIGH);
-      digitalWrite(4, LOW);
-      //wait for 3000ms
-      delay(3000);
-      //stop the robot
-      digitalWrite(7, LOW);
-      digitalWrite(6, LOW);
-      digitalWrite(5, LOW);
-      digitalWrite(4, LOW);
-    }
+void setup() {
+  pinMode(4, OUTPUT);
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
 
-    void loop() {
-    }
+  digitalWrite(7, HIGH);
+  digitalWrite(6, LOW);
+  digitalWrite(5, HIGH);
+  digitalWrite(4, LOW);
+
+  delay(3000);
+
+  digitalWrite(7, LOW);
+  digitalWrite(6, LOW);
+  digitalWrite(5, LOW);
+  digitalWrite(4, LOW);
+}
+
+void loop() {
+}
 ```
+: Move the robot forward. {#lst:move_fwd}
+
 1. Is your code "easy readable" and
 2. Why is this important?
 

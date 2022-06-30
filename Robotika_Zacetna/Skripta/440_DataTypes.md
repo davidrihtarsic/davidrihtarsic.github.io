@@ -13,14 +13,15 @@ With next example we will solve the problem how to make light blinking while the
 1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test next example.
 
 ```cpp
-[+]void robotForward() { ...
-[+]void robotStop() { ...
-[+]void robotLeft() { ...
-[+]void robotRight() { ...
-[+]void robotBackward() { ...
-[+]void setIOs() { ...
-   void setup()
-   {
+void setIOpins();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+
+void setup()
+  {
      setIOs();
    
      robotForward();
@@ -31,6 +32,7 @@ With next example we will solve the problem how to make light blinking while the
    }
 [+]void loop() { ...
 ```
+: Driving the robot forward for 3s. {#lst:drive_fwd}
 
 2. Change the 14th line `delay(3000)` in previous example into `for-nex loop` with 10 repetition, but with the same overall duration.
 

@@ -20,6 +20,7 @@ void loop()
   if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
 }
 ```
+: Digital input testing. {#lst:dig_input}
 
 2. Try to connect the bush-button-switch according to [@tbl:sw_two_pins]:
 

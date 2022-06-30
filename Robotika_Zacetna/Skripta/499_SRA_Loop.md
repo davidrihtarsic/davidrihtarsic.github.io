@@ -18,21 +18,24 @@ is involved during the procedure of controlling the robot. This is the most impo
 
 ```cpp
 const int BUMPER_PIN = A0;
-[+]void robotForward() { ...
-[+]void robotStop() { ...
-[+]void robotLeft() { ...
-[+]void robotRight() { ...
-[+]void robotBackward() { ...
+void setIOpins();
+void robotForward();
+void robotStop();
+void robotLeft();
+void robotRight();
+void robotBackward();
+
+void loop() {
+  bool bumperIsPressed = digitalRead(BUMPER_PIN);
+  if ( bumperIsPressed ){
+    robotStop();
+  }else{
+    robotForward();
+  }
+}
 [+]void setup() { ...
-   void loop() {
-     bool bumperIsPressed = digitalRead(BUMPER_PIN);
-     if ( bumperIsPressed ){
-       robotStop();
-     }else{
-       robotForward();
-     }
-   }
 ```
+: Detecting the obstacle. {#lst:obstacle_detect}
 
 ## Questions:
 

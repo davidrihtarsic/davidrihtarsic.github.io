@@ -14,12 +14,28 @@ To properly use this push-button switches we must enable the `pull-up` resistors
 3. Use the `A5` key for stop the robot and terminate the execution of the program.
 
 ```cpp
-[+] void robotStop() {...
-[+] void robotForward() {...
-[+] void robotBackward() {...
-[+] void robotLeft() {...
-[+] void robotRight() {...
-[+] void setup(){
+void setIOpins();
+void robotStop();
+void robotForward();
+void robotBackward();
+void robotLeft();
+void robotRight();
+
+void setup(){
+  setIOpins();
+}
+
+void loop() {
+    robotForward();
+    //to-do: the key reading
+    bool stopTheRobotKey = 0;
+    if (stopTheRobotKey == 1)
+    {
+        robotStop();
+        exit(0);        //terminate the program
+    }
+}
+void setIOpins(){
   pinMode(LEFT_MOTOR_PIN_A, OUTPUT);
   pinMode(LEFT_MOTOR_PIN_B, OUTPUT);
   pinMode(RIGHT_MOTOR_PIN_A, OUTPUT);
@@ -30,18 +46,9 @@ To properly use this push-button switches we must enable the `pull-up` resistors
   //to-do: while-loop waiting for A4 is pressed
 
 }
-
-[-] void loop() {
-    robotForward();
-    //to-do: the key reading
-    bool stopTheRobotKey = 0;
-    if (stopTheRobotKey = 1)
-    {
-        robotStop();
-        exit(0);        //terminate the program
-    }
-}
+...
 ```
+: Pullup resistor on digital input. {#lst:pull_up}
 
 ## Questions:
 

@@ -21,6 +21,7 @@ void loop() {
     delay(200);
 }
 ```
+: Light sensor testing. {#lst:light_sen_test}
 
 2. Try different resistors (1k, 10k, 100k, 1M) and find out at which the sensitivity of the sensor is greatest.
 

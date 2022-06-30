@@ -23,6 +23,7 @@ void loop()
   delay(1000);
 }
 ```
+: Measuring analog voltage. {#lst:adc_measurement}
 
 4. From the [datasheet](https://www.farnell.com/datasheets/1657845.pdf) for the distance sensor try to code the function for measuring the distance in cm. According to documentation there is almost linear trend between output voltage and $distance^{-1}$. Thus we can get good result with [@eq:calc_disd].
 

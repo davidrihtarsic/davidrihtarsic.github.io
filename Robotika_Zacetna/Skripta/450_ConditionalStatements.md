@@ -18,10 +18,10 @@ Table: Connection of push-button-switch to the Robduino module. {#tbl:SW-RobDuin
 
 <iframe src="https://docs.google.com/presentation/d/19d-8UN3UQ1HTpq4a4PhSgt14YnIC8EE5Y1nDjwUab2Y/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Conection of distance sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-3. Test the push-button-switch in the bumper with nex program code:
+3. Test the push-button-switch in the bumper with next program code:
 
 ```cpp
-const int BUMPER_PIN = A0;
+const int BUMPER_PIN          = A0;
 const int TEST_BUMPER_LED_PIN = 3;
 void setup()
 {
@@ -35,6 +35,7 @@ void loop()
   if ( bumperIsPressed ) digitalWrite(TEST_BUMPER_LED_PIN, HIGH);
 }
 ```
+: Bumper testing program. {#lst:bumper_test}
 
 <!--
 ![Adding bumper to the robot.](./slike/BumperConstruction.png){#fig:bumper_construction}

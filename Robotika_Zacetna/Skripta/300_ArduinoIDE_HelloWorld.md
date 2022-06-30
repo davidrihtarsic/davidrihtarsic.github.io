@@ -16,11 +16,13 @@
 
     }
 ```
+: Simple first program in C++. {#lst:first_cpp}
+
 2. Send the program to controller Arduino UNO .
 
 ## Questions:
 
-1.  Explain what is the purpose of next programming characters in presented example:
+1.  Explain the purpose of next programming characters in presented example:
     1. `;`
     2. `{  }`
     3.  `pinMode(3, OUTPUT);`
