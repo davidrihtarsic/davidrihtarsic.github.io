@@ -7,3 +7,4 @@
   izvršita zaporedmoa. Najprej se izvrši funkcija `void setup`,
   ko se ta izvajanje le-te zaključi, se funkcija `void loop` začne
   izvajati in ponvaljati.
+  test
