@@ -43,6 +43,29 @@ void setup(){
 }
 ```
 
+### Function declaration
+
+Function declaration is highly advisable since allow you a quick overview of available functions in a current file. It is like a table of functions with it's return type and parameters. All declarations are tipically found at the beginig of the file.
+
+```cpp
+void moveForward();
+void moveLeft();
+void moveLeft_PWM(int pwm_value);
+```
+
+### Function Definition
+
+A function definition provides the actual body of the function.
+
+```cpp
+void robotForward(){
+  digitalWrite(LEFT_MOTOR_PIN_1,HIGH);
+  digitalWrite(LEFT_MOTOR_PIN_2,LOW);
+  digitalWrite(RIGHT_MOTOR_PIN_1,HIGH);
+  digitalWrite(RIGHT_MOTOR_PIN_2,LOW);
+}
+```
+
 ## Constants
 
 Use explanatory constants to more clearly represent unintuitive numbers or other abstract values. Use these constants instead of comments since these numbers will appear several times during programming code.
@@ -88,6 +111,31 @@ void loop(){
     if (front_bumper_is_pressed) robotStop(); else robotForward();
 }
 ```
+
+## Header files
+
+To keep our main program file short and transparent as possible we can put supporting code (e.g. functions, settings, ...) into separate file and include it at the beginning of the main program. These files are called header files. We can write a function and save it into header file called "calculate.h"
+
+```cpp
+int sumTwoNumbers(int A, int B)
+{
+  return A+B;
+}
+```
+
+In our main program we can include the header file and use the function:
+
+```cpp
+#include "calculate.h"
+
+int main()
+{
+  int a = 5, b = 3;
+  int sum = sumTwoNumbers(a, b);
+}
+```
+
+In this way our main code is clean and transparent.
 
 ## Pre-process
 

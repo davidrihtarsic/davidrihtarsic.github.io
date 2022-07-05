@@ -10,6 +10,7 @@
 
 ## Questions:
 You probably ended up with this solution ... Right?
+
 ```cpp
 void setup() {
   pinMode(4, OUTPUT);

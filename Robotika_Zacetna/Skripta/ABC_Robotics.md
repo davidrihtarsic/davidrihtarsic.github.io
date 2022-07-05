@@ -869,6 +869,7 @@ void setup() {
     robotStop();
 }
 [+]void loop() { ...
+...
 ```
 : Dancing move. {#lst:dance}
 

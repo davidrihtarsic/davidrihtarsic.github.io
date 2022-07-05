@@ -1,0 +1,11 @@
+- imena programov naj imajo strokovne naslove, ne "dancing move"
+- spremeni imena funkcij v moveRobotForward()
+- vključi moveRobotFuncions.h datoteko:
+   - tako bojo programi bolj berljivi
+   - in v skripto lahko vključiš le program, ki je relevanten
+   - moveRobotFuncions.h je lahko en in polinkan v vse vaje.
+- mogoče lahko naredim nek file ExerciseInstructions.h kjer je kratek opis vaje in link na sam dokument z opisom vaje na internetu.
+- ch23 
+   - najprej naj bo koda v void setup ... ugotovimo, da mora biti SRAloop in jo prestavimo v void loop
+   - polepšamo kodo, tako, da dodamo v *.h še BUMPER_PIN
+   - na to pa dodamo, da se oviram izogiba
