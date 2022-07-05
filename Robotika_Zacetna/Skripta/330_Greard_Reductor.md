@@ -1,1 +1,0 @@
-130_Greard_Reductor.md
