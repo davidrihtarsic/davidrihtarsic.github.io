@@ -1,1 +1,0 @@
-080_Greard_Reductor.md

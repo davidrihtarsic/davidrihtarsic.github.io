@@ -1,4 +1,6 @@
-# WHAT IS ROBOTICS?
+# TEACHING ROBOTICS
+
+## What is robotics
 
 - Science of robots. :)
 
@@ -8,7 +10,7 @@
 + What is intended task of the robot?
 + How do we control a robot?
 
-## WHAT IS A ROBOT?
+## What is a robot?
 
 - automated (coffee) machine
 - ...
@@ -22,7 +24,7 @@
 
 > It is not defined by the definition... but we have to describe it.
 
-## INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO
+## International Organization for Standardization - ISO
 
 - Standards are not excluding each other...
 - `ISO 2806` - defining the CNC machines
@@ -30,7 +32,7 @@
 - `ISO 8373` - defining the robots
     - describing machine autonomy
 
-### ISO 8373 - GENERAL TERMS IN ROBOTICS
+### ISO 8373 - General Terms in Robotics
 
 #### ROBOTICS
 science and practice of designing, manufacturing, and applying robots (2.6)
@@ -91,7 +93,9 @@ information and action exchanges between multiple robots (2.6) to ensure that th
 robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
 EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
 
-## DEFINITION OF THE ROBOTS IN EDUCATION
+## Robotics and Education
+
+### Definition of the robots in education
 
 Slangen:  
 > Definition of the robot must be based
@@ -116,14 +120,12 @@ Slo. nat. curriculum:`Robotics in Engineering`
 > **feedback control** and point out shortcomings
 > in the absence of such control)
 
-# ROBOTICS AND EDUCATION
-
 - misconception:
 > Playing with robots or using a robot is robotics.
 
 - Robots are meant to be user friendly.
 
-## ROBOTICS IN SCHOOLS
+### Robotics in Schools
 
 - very popular in last decade
 
@@ -139,7 +141,7 @@ We can find robots in learning process as:
   - Engineering
   - Math
 
-## IMPORTANT EDUCATIONAL IMPACTS
+### Important educational impacts
 
 #### LEARNING by DOING
 
@@ -172,18 +174,18 @@ It is quite difficult to asses ourself if we are well qualified in some topic. R
 
 European commission is warning for several years now that EU has large lack in computer science and ICT professionals. Only 55% of computer science and ICT jobs in EU are filled with relevant experts.
 
-## HOW TO TEACH ROBOTICS?
+### How to teach robotics?
 
 - Is learning robotics difficult?
     + No and Yes
 
-### HOW DO WE THINK?
+#### HOW DO WE THINK?
 
 - [Kolb's Learning Cycle](https://www.researchgate.net/publication/325475416/figure/fig1/AS:643699918766080@1530481428256/Kolbs-learning-cycle-and-experiential-learning-styles.png)
 
 - [Thinking, Fast and Slow, by Daniel Kahneman](./slike/ThinkingFastSlow.png)
 
-### HOW DO WE CONSTRUCT OUR KNOWLEDGE?
+#### HOW DO WE CONSTRUCT OUR KNOWLEDGE?
 
 Piaget (ConstructiVisem):  
 > Children must be actively engaged to encounter
@@ -200,7 +202,7 @@ Papert (ConstructioNism):
 > whether it’s a sand castle on the beach or a theory of the universe
 > ( Papert, 1991, p.1)
 
-### UČNE PRAKSE
+### Učne prakse
 
 #### KIRSCHNER
 >Active learning, Project lerning, Research based learning ... so le učne situacije s pomanjkljivimi navodili.
@@ -208,7 +210,7 @@ Papert (ConstructioNism):
 #### DEREK MULER
 [Effects of science vidos](https://youtu.be/RQaW2bFieo8?t=156 )
 
-## TEHNOLOGIJE V UČNIH PROCESIH
+### Tehnologije v učnih procesih
 
 - Tomas Edison:
 
@@ -232,7 +234,7 @@ Papert (ConstructioNism):
 !!! note:
     Kot grafoskop.
 
-## LEARNING EQUIPMENT
+### Learning equipment
 
 ### Katero učno opremo naj uporabim?
 
@@ -244,7 +246,7 @@ Papert (ConstructioNism):
 
 !!! question: Ali smo si zastavili pravo vprašanje?
 
-### KAJ MORAMO UČENCE NAUČITI?
+### Kaj moramo učence naučiti?
 
 - what are our learning objectives?
   + electronics (sensors)
@@ -253,14 +255,14 @@ Papert (ConstructioNism):
 
 - Then we can choose a proper equipment...
 
-#### Electronics
+#### ELECTRONICS
 
 - sensors
     - voltage dividers
     - Ohm's Law, Kirshhoff Rules
     -
 
-#### Computer Science
+#### COMPUTER SCIENCE
 
 - basic programming
 - Should we learn `hard` or `easy` programming language
@@ -282,7 +284,7 @@ Papert (ConstructioNism):
 > to learn `hard` programming language first.
 > (by Rob Muhlestein)
 
-#### Mechanical Engineering
+#### MECHANICAL ENGINEERING
 
 - translation of the movements
     - rotation to linear motion

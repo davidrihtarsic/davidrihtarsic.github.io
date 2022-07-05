@@ -1,3 +1,792 @@
+# TEACHING ROBOTICS
+
+## What is robotics
+
+- Science of robots. :)
+
++ What is a robot?
++ How does the robot works?
++ How are robots constructed?
++ What is intended task of the robot?
++ How do we control a robot?
+
+## What is a robot?
+
+- automated (coffee) machine
+- ...
+- Printer
+- 3D printer
+- CNC machine
+- ...
+- "Robot" Vacuum cleaner (a.k.a. Roomba)
+- Industrial robot arm ([YASKAWA](https://www.motoman.com/en-us/products/robots/industrial))
+- [Humanoid robot](https://www.youtube.com/watch?v=_sBBaNYex3E)
+
+> It is not defined by the definition... but we have to describe it.
+
+## International Organization for Standardization - ISO
+
+- Standards are not excluding each other...
+- `ISO 2806` - defining the CNC machines
+    - describing the processing technology
+- `ISO 8373` - defining the robots
+    - describing machine autonomy
+
+### ISO 8373 - General Terms in Robotics
+
+#### ROBOTICS
+science and practice of designing, manufacturing, and applying robots (2.6)
+
+#### ROBOT
+actuated mechanism programmable in two or more axes (4.3) with a degree of autonomy (2.2), moving within its environment, to perform intended tasks
+
+- Note 1 to entry: A robot includes the control system (2.7) and interface of the control system.
+- Note 2 to entry: The classification of robot into industrial robot (2.9) or service robot (2.10) is done according to its intended application.
+
+#### REPROGRAMMABLE
+designed so that the programmed motions or auxiliary functions can be changed without physical alteration (2.3)
+
+#### AUTONOMY
+ability to perform intended tasks based on current state and sensing, without human intervention
+
+<!--
+### Autonomous vs Automated
+
+Avtonomen brezpilotni zrakoplov zmore varno leteti brez pilotovih posegov. Pri tem se poslužuje umetne inteligence, ki mu omogoča soočanje z nepredvidenimi in nepredvidljivimi izrednimi dogodki vseh vrst. To je drugo kot avtomatske operacije, pri katerih brezpilotni zrakoplov leti po vnaprej določeni ruti, ki jo je operator UAS vnesel pred začetkom leta.
+
+Za tovrstne brezpilotne zrakoplove je ključno, da pilot na daljavo prevzame nadzor nad brezpilotnim zrakoplovom in ukrepa ob nepredvidenih dogodkih, za katere brezpilotni zrakoplov ni bil programiran.
+-->
+
+#### MANIPULATOR
+machine in which the mechanism usually consists of a series of segments, jointed or sliding relative to one another, for the purpose of grasping and/or moving objects (pieces or tools) usually in several degrees of freedom (4.4)
+
+- Note 1 to entry: A manipulator can be controlled by an operator (2.17), a programmable electronic controller, or any logic system (for example cam device, wired).
+- Note 2 to entry: A manipulator does not include an end effector (3.11).
+
+#### CONTROL SYSTEM
+set of logic control and power functions which allows monitoring and control of the mechanical structure of the robot (2.6) and communication with the environment (equipment and users)
+
+#### ROBOTIC DEVICE
+actuated mechanism fulfilling the characteristics of an industrial robot (2.9) or a service robot (2.10), but lacking either the number of programmable axes (4.3) or the degree of autonomy (2.2)
+EXAMPLE:Power assist device; teleoperated device; two-axis industrial manipulator (2.1)
+
+#### INDUSTRIAL ROBOT
+automatically controlled, reprogrammable (2.4), multipurpose (2.5)manipulator (2.1), programmable in three or more axes (4.3), which can be either fixed in place or mobile for use in industrial automation applications
+Note 1 to entry: The industrial robot includes:
+— the manipulator, including actuators (3.1);
+— the controller, including teach pendant (5.8) and any communication interface (hardware and software).
+Note 2 to entry: This includes any integrated additional axes.
+
+#### SERVICE ROBOT
+robot (2.6) that performs useful tasks for humans or equipment excluding industrial automation applications
+Note 1 to entry: Industrial automation applications include, but are not limited to, manufacturing, inspection, packaging, and assembly.
+Note 2 to entry: While articulated robots (3.15.5) used in production lines are industrial robots (2.9), similar articulated robots used for serving food are service robots (2.10).
+
+#### MOBILE ROBOT
+robot (2.6) able to travel under its own control
+Note 1 to entry: A mobile robot can be a mobile platform (3.18) with or without manipulators (2.1).
+
+#### ROBOT COOPERATION
+information and action exchanges between multiple robots (2.6) to ensure that their motions work effectively together to accomplish the task
+
+#### INTELLIGENT ROBOT
+robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
+EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
+
+## Robotics and Education
+
+### Definition of the robots in education
+
+Slangen:  
+> Definition of the robot must be based
+> on the main operation that robot performs:
+>
+> - zaznavanje (angl. Sensing),
+> - sklepanje (angl. Reasoning) &
+> - delovanje (angl. Acting).
+>
+> This operation is constantly executing in a.k.a. S-R-A loop.
+
+Slo. nat. curriculum:`Robotics in Engineering`  
+- almost exact interpretation of S-R-A loop
+> Krmiljenje s povratnim delovanje (angl. feedback control regulation)
+
+- including learning objective:
+> ...kjer učenci ugotovijo potrebe po
+> **krmiljenju s povratnim delovanjem**
+> in izpostavijo pomanjkljivosti, če takega krmiljenja ni.
+>
+> (angl. where students identify the need for
+> **feedback control** and point out shortcomings
+> in the absence of such control)
+
+- misconception:
+> Playing with robots or using a robot is robotics.
+
+- Robots are meant to be user friendly.
+
+### Robotics in Schools
+
+- very popular in last decade
+
+We can find robots in learning process as:
+
+1. Robotics curses:
+  - Electronics
+  - Computer Science
+  - Engineering
+2. motivation for learning other disciplines:
+  - Science
+  - Technology
+  - Engineering
+  - Math
+
+### Important educational impacts
+
+#### LEARNING by DOING
+
+> ... learning as “BUILDING KNOWLEDGE STRUCTURES” through progressive internalization of actions... this HAPPENS especially felicitously in a context where the LEARNER is consciously engaged in CONSTRUCTING A PUBLIC ENTITY, whether it’s a sand castle on the beach or a theory of the universe. (Papert, S. (1980). Mindstorms. Children, Computers and Powerful Ideas. New York: Basic books.)
+
+#### PRACTICAL APPLICATIONS
+
+Applying knowledge and skills learned into a `public entity` make us proud of ourself. We have something to show to people that matters to us (friends, parents, classmates).
+
+#### CREATIVITY
+
+There is not an only one solution to the problem. Kids can explore their ideas and put it to the test.
+
+#### LEARNING from MISTAKES
+
+Kids are ALLOWED to LEARN from MISTAKES!?! In general, MISTAKES has very bad reputation in school sistem. To degree, that kids are often afraid to give an answer so as not to make a mistake (-> they stop trying). However, Robotics is so complicated field that mistakes can not be avoided. Thus, MISTAKES are very common thing in this learning proces of robotics.
+
+#### CRITICAL THINKING
+
+Critical thinking is ability to do analysis of facts and form objective judgments based on reasonable arguments.
+
+#### SELF-ASSESSMENT
+
+Kids are able to see if they fulfill the intended task or not. They can asses their own performance based on results of intended tasks.
+<!--
+It is quite difficult to asses ourself if we are well qualified in some topic. Remember: Dunning-Kruger effect: Confidence(Competence)
+-->
+
+#### ICT LITERACY
+
+European commission is warning for several years now that EU has large lack in computer science and ICT professionals. Only 55% of computer science and ICT jobs in EU are filled with relevant experts.
+
+### How to teach robotics?
+
+- Is learning robotics difficult?
+    + No and Yes
+
+#### HOW DO WE THINK?
+
+- [Kolb's Learning Cycle](https://www.researchgate.net/publication/325475416/figure/fig1/AS:643699918766080@1530481428256/Kolbs-learning-cycle-and-experiential-learning-styles.png)
+
+- [Thinking, Fast and Slow, by Daniel Kahneman](./slike/ThinkingFastSlow.png)
+
+#### HOW DO WE CONSTRUCT OUR KNOWLEDGE?
+
+Piaget (ConstructiVisem):  
+> Children must be actively engaged to encounter
+> the experiences necessary to build and adapt their schema.
+>
+> We need to set up these experiences for our learners.
+
+Papert (ConstructioNism):  
+> Constructionism—the N word as opposed to the V word — shares
+> contructivism’s view of learning as “building knowledge structures”
+> through progressive internalization of actions… It then adds the
+> idea that this happens especially felicitously in a context where
+> the learner is consciously engaged in constructing a public entity,
+> whether it’s a sand castle on the beach or a theory of the universe
+> ( Papert, 1991, p.1)
+
+### Učne prakse
+
+#### KIRSCHNER
+>Active learning, Project lerning, Research based learning ... so le učne situacije s pomanjkljivimi navodili.
+
+#### DEREK MULER
+[Effects of science vidos](https://youtu.be/RQaW2bFieo8?t=156 )
+
+### Tehnologije v učnih procesih
+
+- Tomas Edison:
+
+        New Your Times (1922)
+>I believe that the motion picture is destined to revolutionize our educational system and that in a few years it will supplant largely, if not entirely, the use of textbooks.
+
+- dr. Michel Resnick:
+
+        Beyond the balck boxes.
+
+        Rethinking Learning in the Digital Age
+> Because education is associated with information and computers are associated with information, the two seem to make a perfect marriage.
+
+- dr. Derek Muller
+[This will revolutionize education](https://www.youtube.com/watch?v=GEmuEWjHr5c)
+
+
+!!! question:
+    Kako uporabljamo pametne table?
+
+!!! note:
+    Kot grafoskop.
+
+### Learning equipment
+
+### Katero učno opremo naj uporabim?
+
+- [Lego We-Do](https://le-www-live-s.legocdn.com/sc/media/files/user-guides/wedo-2/introduction/introduction-en-us-v1-9a5c0557dd5e2d052e77cbc7c39e6a5f.pdf)
+- [Lego Mindstiorms](https://education.lego.com/en-au/support/mindstorms-ev3/quick-start-guide)
+- [Fischertehnik](https://www.fischertechnik.de/en/service/elearning/teaching)
+- [Vex](http://www.vexrobotics.fi/wp-content/uploads/sites/5/2016/03/228-3319-VEX-IQ-Robotics-Education-Guide-201511051.pdf)
+
+
+!!! question: Ali smo si zastavili pravo vprašanje?
+
+### Kaj moramo učence naučiti?
+
+- what are our learning objectives?
+  + electronics (sensors)
+  + computer science (IO units, programming)
+  + mechanical engineering (gears, construction)
+
+- Then we can choose a proper equipment...
+
+#### ELECTRONICS
+
+- sensors
+    - voltage dividers
+    - Ohm's Law, Kirshhoff Rules
+    -
+
+#### COMPUTER SCIENCE
+
+- basic programming
+- Should we learn `hard` or `easy` programming language
+    - `easy` programming language -> closer to human understanding of code
+        - `skratch`
+        - `javascript`
+        - `python`
+    - `hard` programming language -> closer to the hardware
+        - `c++`
+        - `assembler`
+
+> More easy the language is - less you will learn about the language.  
+> ...
+> Migration form python to other languages is far less common then
+> migration from c to other languages.  
+> ...
+> If your gola is to be quick in "getting job done" use `easy` language,
+> if your goal are to learn and uderstand how the computer works always begin
+> to learn `hard` programming language first.
+> (by Rob Muhlestein)
+
+#### MECHANICAL ENGINEERING
+
+- translation of the movements
+    - rotation to linear motion
+- gear reduction
+- torque, forces
+
+<!--
+Literature
+
+- [Programming books](https://github.com/EbookFoundation/free-programming-books)
+- [Programming Arduino](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#arduino)
+
+-->
+# EQUIPMENT for ROBPTOCS
+
+We can divide the equipment for robotics into three different groups:
+1. Electronics,
+2. Computer science,
+3. Engineering.
+
+## ELECTRONICS
+- WIRES
+    - 4x 15cm
+    - 4x 10cm
+- CONNECTORS
+    - 8x 2.5mm FT
+    - screw driver
+- RESISTORS
+    + 2x 330 
+    + 2x 3.3k
+    + 2x 33k
+    + 2x 330k
+    + 10k potenciometer (with wires)
+- NON-LINEAR RESISTORS AND SENSORS
+    + 1x foto-tranzistor FT & aperature
+    + 1x reed switch
+    + 1x key FT
+    + IR distance sensor
+- ACTUATORS
+    + light bulb
+    + 2x DC motor FT
+    + 1x servo-motor
+    + 1x servo attach
+    + LCD (i2c)
+
+## COMPUTER SCIENCE
+
+- Arduino UNO controller
+- modul RobDuino-v2 (shield)
+- Arduino UNO adapter -> FisherTechnik (3D print)
+- USB kabel
+- battery charger for 2x18650 LiIon battery
+- 2x 18650 LiIon battery's
+- 9V Power Supply
+
+## MECHANICAL ENGINEERING
+
+### CONSTRUCTION ELEMENTS
+
+- 12x square block 15x15x30mm
+- 6x square block 15x15x15mm
+- 2x square block 7.5x15x30mm
+- 5x square block 7.5x15x15mm
+- 3x "L" profile 15x15x45mm
+- 2x "L" profile 15x15x30mm
+- 4x rim R1" fiksno
+- 2x tire 11/90R1
+- 4x square holder 15x15x15mm
+- 2x angled block 60° 15x15mm
+- 2x angled block 30° 15x15mm
+- 1x pin rail 15mm
+- 2x M4 nuts and bolts L=25mm
+
+### GEARING (GEARS and GEARBOX)
+
+- 2x gearboxes with shafts
+- 2x sliding bearing
+- 1x axle/shaft 45mm
+- 1x axle/shaft 90mm
+- 2x mechanical pivot joint
+- 2x sliding bearing
+- 2x spojka osi 15mm (BCA)
+- 1x objemka 5mm (RD)
+- 1x worm gear with attachment nut
+- 1x gear fi48mm Z30
+- 1x os elise 30mm
+
+## OPTIONAL
+
+- rubber bands
+- black isolating tape
+
+# Simulating physical robot
+
+We can use several simulating programs to simulate robots. There are awesome platforms that allow simulations like: 3Dvisualizer or Webots ... But since our robot will be based on the Arduino Uno controller probably the best option is:
+
+- [Thinkercad](https://www.tinkercad.com/dashboard)
+
+You can sign in with your google account.
+
+## Task:
+
+1. Try to do some basic project (e.g. Blink) to turn on and off an LED.
+2. Try to add your own LED on the different output pin and change the program like is shown on the [@fig:blink_tc] to make it work (LED must blinking).
+
+![Blink example in Thinkercad.](./slike/thinkercad_simulation_blink.png){#fig:blink_tc}
+
+## Questions:
+
+1. How can you control the output voltage potential?
+2. In which direction will electric current flow?
+3. What voltage is present on the resistor?
+  + How can we determine the voltage on the resistor (describe 2 possibilities)?
+4. What voltage is present on the LED?
+
+# Software Installation
+
+We will need softwate listed bellow:
+
+1. [Arduino IDE](#arduino-ide) is basics "development environment"
+2. [RobDuino](#RobDuino) library for easier programming
+3. [Ardublockly](#ardublockly) is needed for introduction to programming
+  + [Python](#python) is needed for running Ardublockly
+4. [VSC in PlatformIO](#vsc-platformio) proper IDE include:
+  + auto-completion,
+  + error marking (e.g. forgotten \";\"),
+  + auto-detect USB port, 
+  + function information
+
+## Arduino IDE
+
+1. Go to Arduino web page Arduino->Software->[Download](https://www.arduino.cc/en/Main/Software).
+2. Download [Arduino IDE 1.8.9](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) choose [Windows Install](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe)...
+2. ... click `JUST DOWNLOAD`.
+3. run `arduino-1.8.9.exe` and follow the instructions.
+4. ... don't forget to install also 3rd party drivers (for Chinese version of Arduino UNO controller)... 
+5. if you do forget... Try this [Russian drivers](https://www.5v.ru/zip/ch341ser(v34).zip) from [page](https://www.5v.ru/ch340g.htm).
+
+### Getting started
+
+1. Run `Arduino IDE`
+2. Connect Arduino Uno controller to USB port.\
+    `Arduino Uno`
+3. Open simple basic program:\
+    `files` -> `examples` -> `01.basics` -> `blink`
+
+```c++
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+4. Make this settings in `Tools` menu ->
+    1. `Board:` Arduino/Genuino Uno
+    2. `Port:` COM3 *or similar*
+
+7. Run :\
+    `Upload` to transfere the program to Arduino UNO controller.
+
+8. If everything is OK you will get this message:
+
+```
+Done uploading.
+Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.
+Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+```
+9. Optional this preferences are suggested:  
+`File` -> `Preferences`:
+    1. `Editor Language`: English
+    2. `Editor font size`: 20
+    3. `Show verbose output during`: [ ]compiling [x] upload
+    4. `[x] Display linenumbers`
+    5. `[x] Enable code folding`
+
+## RobDuino
+
+RobDuino is Arduino library which include some usefull functions for driving motors and on-board key usage...
+
+### RobDuino Library Installation
+
+1. Download zip file:
+   * [RobDuino-master.zip](https://github.com/davidrihtarsic/RobDuino/archive/master.zip)
+2. rename RobDuino-master.zip in:
+   * **RobDuino.zip**
+3. run Arduino IDE
+4. choose:
+   * `Sketch` --> `Include Library` --> `Add .ZIP Library...`
+5. find
+   * `.../Download/RobDuino.zip`
+   * `[OK]`
+
+## Ardublockly
+
+[Ardublockly](https://ardublockly.embeddedlog.com/) is [graphical programming environment](https://en.wikipedia.org/wiki/Visual_programming_language) for programming Arduino controllers. A demo version of the program is also available [on-line](https://ardublockly.embeddedlog.com/demo/#).
+
+>Note: For actual programming you will need Arduino IDE installed.
+
+>Note: For running Ardublockly you will need to install Python program.
+
+### Python Installation
+
+1. You will have to install [Python 3.7](https://www.python.org/) or grater. First [Download](https://www.python.org/downloads/) the newest version of Python.
+
+2. Run installation file and set this settings:
+    1. `[x] Add Python to PATH` in
+    2. choose `Clasic Instalation`
+
+### Ardublockly Installation
+
+3. From [github.com/.../ardublockly](https://github.com/carlosperate/ardublockly) download **zip** file by clicking **Clone or download** and choosen [Download ZIP file](https://github.com/carlosperate/ardublockly/archive/master.zip).
+
+4. Extract `ardublockly-master.zip` to dirrectory of your choice e.g. `C:\\Program Files(x86)`
+
+5. That is it! Installation is complete.
+
+#### Running Ardublockly
+
+6. Find this file `C:\\Program Files(x86)\\ardublockly-master` and double-click on `start.py`. Python program should run and you should see:
+    1. terminal window with some code running...
+    2. and a new window should apear in your Internet Browser.
+If this is will not happend try to run `start.py` with right mouse button and `Start program with` then choose `Python 3.7`.
+
+### Settings
+
+7. Click `menu` and choose `Settings`:
+    1. `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino_debug.exe
+    2. `Arduino Board:` Uno
+    3. `Com port:` COM3 *or appropriate one*
+    4. Click `[RETURN]`.
+
+## VSC in PlatformIO
+
+>Note: For programming Arduino controllers you will need Arduino IDE installed.
+
+[Download](https://code.visualstudio.com/download) installation file:
+
+1. run `VSCodeUserSetup-ia32-1.49.3.exe` installation file.
+2. run VSC program and click `Extensions`
+3. search for `PlatformIO IDE` and 
+4. run `Install`.
+5. restart VSC or click `Reload now`.
+
+### Getting Started
+
+Write basic program `Blink`:
+
+1. plug in Arduino Uno.
+2. open `PlatformIO - Home Page`:
+  - in left icon bar find `PlatformIO`
+    + `QUICK ACCESS` -> `PIO Home` -> `Open`
+3. choose `+ New Project`
+4. Setup:
+  - `Name:` ime_projekta
+  - `Board:` Arduino UNO
+  - `Framework:` Arduino Framework
+5. click `Finish` 
+6. Find directory `src` (e.g. `source code`), where you can find main program code in file `main.cpp`
+7. Copy-Paste this example:
+```cpp
+#include <Arduino.h>
+void setup() {
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13,HIGH);
+  delay(500);
+  digitalWrite(13,LOW);
+  delay(500);
+}
+```
+8. Run `Build` and `Upload`.
+
+# TESTING THE EQUIPMENT
+
+## Basic testing in Arduino IDE
+
+1. Connect the Arduino Uno to PC with proper USB cable.  
+    `[Arduino Uno]` 
+2. Open Arduino IDE program and open program with:  
+    `Files -  Examples - 01. Basics - Blink.ino`
+3. Make shure that you will set the proper settings (see [@fig:Arduino_basic_setup]). From the menu choose:  
+    `Tools`-
+    1.  `Board:` Arduino/Genuino Uno
+    2.  `Port:` COM3
+
+![Arduino basic setup.](./slike/Arduino_basic_setup.png){#fig:Arduino_basic_setup}
+
+-   To upload the code you can click the icon `Upload`.  
+    If the uploading was successful you will be prompted with the text
+    like:  
+
+> ```
+> Done uploading.  
+> Sketch uses 970 bytes (3%) of program storage space. Maximum
+> is 32256 bytes. Global variables use 9 bytes (0%) of dynamic
+> memory, leaving 2039 bytes for local variables. Maximum is
+> 2048 bytes.
+> ```
+
+> ## Issues
+>
+> ### LED_BUILTIN was not declared in this scope
+>
+> ![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared}
+>
+> Compiler ne ve kaj naj bi bilo "LED_BUILTIN" ... na tem mesu naj bi bila številka priključka, ki ga želimo krmiliti. V tem primeru je to številka 13. Rešitvi sta lahko 2:  
+> 1. vse LED_BUILTIN zamenjaš s 13 ali  
+> 2. v vrstico pred "void setup()" dodaj `const int LED_BUILTIN = 13;`
+>
+> Zadnja (druga) rešitev je boljša, ker pripomore k berljivosti programa... Spremenljivka LED_BUILTIN se imenuje "razlagalna spremenljivka" ker pomaga razlagati program. Tako postane tisti komentar "// turn the LED on (HIGH is the voltage level)" nepotreben, saj sama koda pove točno enako.
+
+## Basic testing in Ardublockly
+
+1. Connect the Arduino Uno to PC with proper USB cable.  
+    `[Arduino Uno]` 
+2. Run Ardublockly program. Which will be running as localhost and you will be using internet browser as IDE. The addres will be:  
+    `http://localhost:8000/ardublockly/index.html`
+3. In the left corner of the program you can find `[=] menu icon`. From where you can choose (Slide 2 and 3)  
+    `[] Settings`:
+    1.  `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino\_debug.exe
+    2.  `Arduino Board:` Uno
+    3.  `Com port:` COM3
+    4.  And press:`[ RETURN ]`
+4. Finaly you can press button `PLAY` And if uploading was successful you will be prompted with the text (Slide 4):  
+
+![Ardublockly basic setup.](./slike/Ardublockly_basic_setup.png){#fig:Ardublockly_basic_setup}
+
+> ```
+> Successfully Uploaded Sketch
+> WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F.
+> No valid hardware definitions found in folder WAV8F.
+> Sketch uses 444 bytes (1%) of program storage space. Maximum is
+> 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory,
+> leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+> ```
+
+> ## Summary
+> Before uploading the programming code always check that the right board and serial port are set.
+>
+> ## Issues
+> **Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
+> Try to re-connect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
+
+
+## RobDuino module
+
+1. Na krmilnik Arduino Uno priključite modul `RobDuino` in naložite naslednji program:
+
+```cpp
+void setup() {
+  for (int i = 0; i < 8; i++){
+    pinMode(i, OUTPUT);
+  }
+  pinMode(A4, INPUT_PULLUP);
+  pinMode(A5, INPUT_PULLUP);
+  PORTD=1;
+}
+
+int l=1;
+void loop() {
+  char tipka_a4_is_pressed = !digitalRead(A4); 
+  char tipka_a5_is_pressed = !digitalRead(A5); 
+  if (tipka_a4_is_pressed) l = l << 1;
+  if (tipka_a5_is_pressed) l = l >> 1;
+  if (l < 1) l = 128;
+  if (l > 255) l = 1;
+  PORTD = l;
+  delay(100);
+}
+```
+
+2. Nato preverite delovanje obeh tipk (A4 in A5) na modulu in vrednosti izhodnih priključkov D0 .. D7.
+
+## Napajalni modul
+
+Napajalni modul uporablja 2x Li-ion akumulatorja tipa 18650. Spodnje tiskano vezje je prikazano [@fig:napajalni_modul].
+
+![Napajalni modul.](./slike/napajalni_modul.jpg){#fig:napajalni_modul}
+
+Dodatno smo ga opremili z:
+1. 2.5mm jack priključkom za napajanje,
+2. 3-pinskim priključkom za napajanje,
+3. preklopnim stikalom za izbiranje načina delovanja:
+    1. ON - izhod za 9V je kaktiviran
+    2. OFF - izključen izhod 9V napajanja in omogočeno je polnenje akumulatorjev preko 3-pinskega priključka (5V).
+
+Pred prvo uporabo moramo ročno aktivirati napajalni modul tako, da povežemo GND na 3-pinskem priključku in NEGATIVNI terminal akumulatorjev.
+
+## Tipka
+
+1. Priključite stikalo po shemi na [@fig:tipka_test].
+
+![Priključitev tipke.](./slike/RobDuino_FT_key.png){#fig:tipka_test}
+
+2. Nato naložite naslednji program.
+
+```cpp
+void setup() {
+    pinMode(A0, INPUT);
+    pinMode(7, OUTPUT);
+}
+
+void loop() {
+    char key_a0_is_pressed = digitalRead(A0);
+    if (key_a0_is_pressed){
+        digitalWrite(7, HIGH);
+    } else{
+        digitalWrite(7, LOW);
+    }
+    delay(100);
+}
+```
+
+## Svetlobni senzor
+
+1. Priključite foto-tranzistor v delilnik napetosti z uporom, kot prikazuje [@fig:foto_senzor_test].
+
+![Priključitev foto-tranzistorja kot svetlobni senzor.](./slike/Svetlobni_senzor.png){#fig:foto_senzor_test}
+
+2. Nato naložite naslednji program in preverite odziv svetlobnega senzorja.
+
+```cpp
+ void setup() {
+  pinMode(A1, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int light_senzor_value = analogRead(A1);
+  Serial.println(light_senzor_value);
+  delay(100);
+}
+```
+
+3. Odziv senzorja spremljajte v oknu serijske komunikacije.
+
+## IR senzor razdalje
+
+1. IR senzor razdalje priključite na tri-pinski priključek kot je prikazano na [@fig:test_IR].
+
+![Priključitev IR senzorja razdalje.](./slike/IR_senzor.png){#fig:test_IR}
+
+2. Delovanje senzorja preskusite z naslednjim programom, njegov odziv pa spremljajte v oknu za serijsko komunikacijo.
+
+```cpp
+void setup() {
+  pinMode(A0, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  int distance_senzor_value = analogRead(A0);
+  Serial.println(distance_senzor_value);
+  delay(100);
+}
+```
+
+## LCD (I2C)
+
+1. Priključite LCD na I2C vodilo kot prikazuje 
+
+![Povezava LCD na I2C vodilo krmilnika.](./slike/I2C_LCD.png){#fig:test_I2C_LCD_2}
+
+2. Priskrbite si knjižnico `LiquidCristal-I2C` iz naslova:  
+https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/ 
+3. Knjižnico dodajte v Arduino IDE okolje tako, da dodate `ZIP` datoteko v :  
+`Sketch >> Include Library >> Add .ZIP Library`
+3. V VSC in PlatformIO vtičniku si lahko knjižnico naložite tako, da v terminalno okno vpišete ukaz  
+`pio lib install "marcoschwartz/LiquidCrystal_I2C@^1.1.4"`
+
+4. Nato preskusite naslednji program:
+
+```cpp
+#include <Wire.h> 
+#include <LiquidCrystal_I2C.h>
+LiquidCrystal_I2C Lcd(0x27, 16, 2);
+
+void setup() {   
+    Lcd.init();
+    
+    Lcd.clear();
+    Lcd.backlight();
+    
+    Lcd.setCursor(3,0);
+    Lcd.print("Hello");
+    Lcd.setCursor(6,1);
+    Lcd.print("World");   
+}
+
+void loop() {
+}
+```
+
+Če niste prepričani kateri i2c naslov uporablja naprava na LCD-ju le tega lahko preverite s programom `I2C scanner` (https://playground.arduino.cc/Main/I2cScanner/). Običajno I2C LCD-ji, ki jih naredijo kitajski proizvajalci uporabljajo I2C naslov `0x27` , `0x3F` ali manj pogosto `0x38`.
+
 # HELLO WORLD IN ARDUBLOCKLY
 
 ## Task:
@@ -51,7 +840,7 @@
 > Check the voltage of the battery... battery may be discharged.  
 > Check the connectors of the motor... may be bad.  
 
-# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS
+# CONTROLLING THE MOTOR WITH DIGITAL OUTPUT
 
 ## Task:
 
@@ -157,7 +946,7 @@ slika iz YouTuba
 
 # CONTROLLING THE ROBOT
 
-## Tasks:
+## Task: CONTROLLING THE MOTORS
 
 1. Connect LEFT MOTOR to digital outputs:
     -   D7 and D6
@@ -197,7 +986,7 @@ slika iz YouTuba
 
 # PROGRAMMING FUNCTIONS
 
-## Tasks:
+## Task: WRITE A FUNCTION
 
 1. Write a programming functions which includes the certain programming steps in order to move the robot in specific direction. Some examples are presented in [@fig:functions_ardublockly].
 
@@ -227,7 +1016,7 @@ slika iz YouTuba
 
 # PROGRAMMING LOOPs: FOR-NEXT & WHILE
 
-## Tasks:
+## Task: REPEAT SOME INSTRUCTIONS
 
 1. If we want to repeat some programming instructions for several times we can use For-Next Loop.
 2. For example the next program repeats functions `robotLeft()` and `robotRight()` for `10 times` and robot will do a funny \"dancing\" move.
@@ -254,9 +1043,7 @@ slika iz YouTuba
 > 
 > <++>  
 
-# DIGITAL SENSORS
-
-## Tasks:
+# DIGITAL INPUT
 
 -   In sake to detect the obstacles we have to equip robot with the
     \"touch sensor\". This sensor is basically a switch or key, which
@@ -272,7 +1059,7 @@ slika iz YouTuba
 
 <iframe width="410" height="337" frameborder="0" src="https://www.youtube.com/embed/eWldNxh-q2c"></iframe>
 
-## Tasks:
+## Tasks: CONNECT THE SWITCH
 
 The key has three connecting terminals. Each of one is marked with the
 number 1, 2 or 3. Connect them in right order. Connect the key terminals
@@ -308,9 +1095,7 @@ in order that are specified in presentation and listed as:
 > 
 > Probably the key or switch is connected wrong and there is short connection between the GND and +5V voltage terminals. Unconnect the key or switch and verify if the power is back.
 
-# READING DIGITAL INPUT
-
-## Tasks:
+## Tasks: READING DIGITAL INPUT
 
 1. Write the program shown in the presentation to test the readings of the digital sensor.
 1. Then ... complete the program to turn OFF the LED when the bumper is not touching anything.
@@ -495,7 +1280,7 @@ in order that are specified in presentation and listed as:
 > Check the voltage of the battery... battery may be discharged.  
 > Check the connectors of the motor... may be bad.  
 
-# CONTROLLING THE DC MOTOR WITH DIGITAL OUTPUTS
+# CONTROLLING THE MOTOR WITH DIGITAL OUTPUT
 
 ## Task:
 
@@ -599,58 +1384,6 @@ slika iz YouTuba
 > 
 > <++>
 
-# CONTROLLING THE ROBOT
-
-## Tasks:
-
-1. Set the directions of used pins for controlling the motors.
-2. Write a simple program that follows next sequence:
-    1. move the robot forward,
-    2. do it for 3000 ms,
-    3. and stop the robot.
-
-## Questions:
-You probably ended up with this solution ... Right?
-```cpp
-void setup() {
-  pinMode(4, OUTPUT);
-  pinMode(5, OUTPUT);
-  pinMode(6, OUTPUT);
-  pinMode(7, OUTPUT);
-
-  digitalWrite(7, HIGH);
-  digitalWrite(6, LOW);
-  digitalWrite(5, HIGH);
-  digitalWrite(4, LOW);
-
-  delay(3000);
-
-  digitalWrite(7, LOW);
-  digitalWrite(6, LOW);
-  digitalWrite(5, LOW);
-  digitalWrite(4, LOW);
-}
-
-void loop() {
-}
-```
-: Move the robot forward. {#lst:move_fwd}
-
-1. Is your code "easy readable" and
-2. Why is this important?
-
-> ## Summary:
-> 
-> ### <++>
-> 
-> <++>
-> 
-> ## Issues:
-> 
-> ### *<++>*
-> 
-> <++>  
-
 # CLEAN CODE
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
@@ -693,6 +1426,29 @@ void setup(){
   robotForeward();
   delay(3000);
   robotStop();
+}
+```
+
+### Function declaration
+
+Function declaration is highly advisable since allow you a quick overview of available functions in a current file. It is like a table of functions with it's return type and parameters. All declarations are tipically found at the beginig of the file.
+
+```cpp
+void moveForward();
+void moveLeft();
+void moveLeft_PWM(int pwm_value);
+```
+
+### Function Definition
+
+A function definition provides the actual body of the function.
+
+```cpp
+void robotForward(){
+  digitalWrite(LEFT_MOTOR_PIN_1,HIGH);
+  digitalWrite(LEFT_MOTOR_PIN_2,LOW);
+  digitalWrite(RIGHT_MOTOR_PIN_1,HIGH);
+  digitalWrite(RIGHT_MOTOR_PIN_2,LOW);
 }
 ```
 
@@ -741,6 +1497,31 @@ void loop(){
     if (front_bumper_is_pressed) robotStop(); else robotForward();
 }
 ```
+
+## Header files
+
+To keep our main program file short and transparent as possible we can put supporting code (e.g. functions, settings, ...) into separate file and include it at the beginning of the main program. These files are called header files. We can write a function and save it into header file called "calculate.h"
+
+```cpp
+int sumTwoNumbers(int A, int B)
+{
+  return A+B;
+}
+```
+
+In our main program we can include the header file and use the function:
+
+```cpp
+#include "calculate.h"
+
+int main()
+{
+  int a = 5, b = 3;
+  int sum = sumTwoNumbers(a, b);
+}
+```
+
+In this way our main code is clean and transparent.
 
 ## Pre-process
 
@@ -842,7 +1623,7 @@ So called `For-Next` loop is used whenever the repetition of the code can be con
 - divide some number by 2 while we can,
 - while no obstacle is in front of the robot it should drive forward
 
-## Tasks:
+## Task: FOR-NEXT LOOP
 
 1. For example the next program repeats the functions **robotLeft()** and **robotRight()** for **10 times** and robot will do a funny \"dancing\" move.
 2. Experiment a bit more with such programming techniques.
@@ -869,9 +1650,10 @@ void setup() {
     robotStop();
 }
 [+]void loop() { ...
-...
 ```
 : Dancing move. {#lst:dance}
+
+## Task: WHILE-LOOP
 
 3. Change the `for-loop` with this `while-loop`. Can you predict the result?
 
@@ -925,7 +1707,7 @@ type varialble_name = value;
 
 With next example we will solve the problem how to make light blinking while the robot is driving in reverse.
 
-## Tasks:
+## Task: USEFULNESS of VARIABLES
 
 1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test next example.
 
@@ -2198,791 +2980,4 @@ void loop() {
 > ### *\<++\>*
 > 
 > <++>
-
-# WHAT IS ROBOTICS?
-
-- Science of robots. :)
-
-+ What is a robot?
-+ How does the robot works?
-+ How are robots constructed?
-+ What is intended task of the robot?
-+ How do we control a robot?
-
-## WHAT IS A ROBOT?
-
-- automated (coffee) machine
-- ...
-- Printer
-- 3D printer
-- CNC machine
-- ...
-- "Robot" Vacuum cleaner (a.k.a. Roomba)
-- Industrial robot arm ([YASKAWA](https://www.motoman.com/en-us/products/robots/industrial))
-- [Humanoid robot](https://www.youtube.com/watch?v=_sBBaNYex3E)
-
-> It is not defined by the definition... but we have to describe it.
-
-## INTERNATIONAL ORGANIZATION FOR STANDARDIZATION - ISO
-
-- Standards are not excluding each other...
-- `ISO 2806` - defining the CNC machines
-    - describing the processing technology
-- `ISO 8373` - defining the robots
-    - describing machine autonomy
-
-### ISO 8373 - GENERAL TERMS IN ROBOTICS
-
-#### ROBOTICS
-science and practice of designing, manufacturing, and applying robots (2.6)
-
-#### ROBOT
-actuated mechanism programmable in two or more axes (4.3) with a degree of autonomy (2.2), moving within its environment, to perform intended tasks
-
-- Note 1 to entry: A robot includes the control system (2.7) and interface of the control system.
-- Note 2 to entry: The classification of robot into industrial robot (2.9) or service robot (2.10) is done according to its intended application.
-
-#### REPROGRAMMABLE
-designed so that the programmed motions or auxiliary functions can be changed without physical alteration (2.3)
-
-#### AUTONOMY
-ability to perform intended tasks based on current state and sensing, without human intervention
-
-<!--
-### Autonomous vs Automated
-
-Avtonomen brezpilotni zrakoplov zmore varno leteti brez pilotovih posegov. Pri tem se poslužuje umetne inteligence, ki mu omogoča soočanje z nepredvidenimi in nepredvidljivimi izrednimi dogodki vseh vrst. To je drugo kot avtomatske operacije, pri katerih brezpilotni zrakoplov leti po vnaprej določeni ruti, ki jo je operator UAS vnesel pred začetkom leta.
-
-Za tovrstne brezpilotne zrakoplove je ključno, da pilot na daljavo prevzame nadzor nad brezpilotnim zrakoplovom in ukrepa ob nepredvidenih dogodkih, za katere brezpilotni zrakoplov ni bil programiran.
--->
-
-#### MANIPULATOR
-machine in which the mechanism usually consists of a series of segments, jointed or sliding relative to one another, for the purpose of grasping and/or moving objects (pieces or tools) usually in several degrees of freedom (4.4)
-
-- Note 1 to entry: A manipulator can be controlled by an operator (2.17), a programmable electronic controller, or any logic system (for example cam device, wired).
-- Note 2 to entry: A manipulator does not include an end effector (3.11).
-
-#### CONTROL SYSTEM
-set of logic control and power functions which allows monitoring and control of the mechanical structure of the robot (2.6) and communication with the environment (equipment and users)
-
-#### ROBOTIC DEVICE
-actuated mechanism fulfilling the characteristics of an industrial robot (2.9) or a service robot (2.10), but lacking either the number of programmable axes (4.3) or the degree of autonomy (2.2)
-EXAMPLE:Power assist device; teleoperated device; two-axis industrial manipulator (2.1)
-
-#### INDUSTRIAL ROBOT
-automatically controlled, reprogrammable (2.4), multipurpose (2.5)manipulator (2.1), programmable in three or more axes (4.3), which can be either fixed in place or mobile for use in industrial automation applications
-Note 1 to entry: The industrial robot includes:
-— the manipulator, including actuators (3.1);
-— the controller, including teach pendant (5.8) and any communication interface (hardware and software).
-Note 2 to entry: This includes any integrated additional axes.
-
-#### SERVICE ROBOT
-robot (2.6) that performs useful tasks for humans or equipment excluding industrial automation applications
-Note 1 to entry: Industrial automation applications include, but are not limited to, manufacturing, inspection, packaging, and assembly.
-Note 2 to entry: While articulated robots (3.15.5) used in production lines are industrial robots (2.9), similar articulated robots used for serving food are service robots (2.10).
-
-#### MOBILE ROBOT
-robot (2.6) able to travel under its own control
-Note 1 to entry: A mobile robot can be a mobile platform (3.18) with or without manipulators (2.1).
-
-#### ROBOT COOPERATION
-information and action exchanges between multiple robots (2.6) to ensure that their motions work effectively together to accomplish the task
-
-#### INTELLIGENT ROBOT
-robot (2.6) capable of performing tasks by sensing its environment and/or interacting with external sources and adapting its behaviour
-EXAMPLE:Industrial robot (2.9) with vision sensor to pick and place an object; mobile robot (2.13) with collision avoidance; legged robot (3.16.2) walking over uneven terrain.
-
-## DEFINITION OF THE ROBOTS IN EDUCATION
-
-Slangen:  
-> Definition of the robot must be based
-> on the main operation that robot performs:
->
-> - zaznavanje (angl. Sensing),
-> - sklepanje (angl. Reasoning) &
-> - delovanje (angl. Acting).
->
-> This operation is constantly executing in a.k.a. S-R-A loop.
-
-Slo. nat. curriculum:`Robotics in Engineering`  
-- almost exact interpretation of S-R-A loop
-> Krmiljenje s povratnim delovanje (angl. feedback control regulation)
-
-- including learning objective:
-> ...kjer učenci ugotovijo potrebe po
-> **krmiljenju s povratnim delovanjem**
-> in izpostavijo pomanjkljivosti, če takega krmiljenja ni.
->
-> (angl. where students identify the need for
-> **feedback control** and point out shortcomings
-> in the absence of such control)
-
-# ROBOTICS AND EDUCATION
-
-- misconception:
-> Playing with robots or using a robot is robotics.
-
-- Robots are meant to be user friendly.
-
-## ROBOTICS IN SCHOOLS
-
-- very popular in last decade
-
-We can find robots in learning process as:
-
-1. Robotics curses:
-  - Electronics
-  - Computer Science
-  - Engineering
-2. motivation for learning other disciplines:
-  - Science
-  - Technology
-  - Engineering
-  - Math
-
-## IMPORTANT EDUCATIONAL IMPACTS
-
-#### LEARNING by DOING
-
-> ... learning as “BUILDING KNOWLEDGE STRUCTURES” through progressive internalization of actions... this HAPPENS especially felicitously in a context where the LEARNER is consciously engaged in CONSTRUCTING A PUBLIC ENTITY, whether it’s a sand castle on the beach or a theory of the universe. (Papert, S. (1980). Mindstorms. Children, Computers and Powerful Ideas. New York: Basic books.)
-
-#### PRACTICAL APPLICATIONS
-
-Applying knowledge and skills learned into a `public entity` make us proud of ourself. We have something to show to people that matters to us (friends, parents, classmates).
-
-#### CREATIVITY
-
-There is not an only one solution to the problem. Kids can explore their ideas and put it to the test.
-
-#### LEARNING from MISTAKES
-
-Kids are ALLOWED to LEARN from MISTAKES!?! In general, MISTAKES has very bad reputation in school sistem. To degree, that kids are often afraid to give an answer so as not to make a mistake (-> they stop trying). However, Robotics is so complicated field that mistakes can not be avoided. Thus, MISTAKES are very common thing in this learning proces of robotics.
-
-#### CRITICAL THINKING
-
-Critical thinking is ability to do analysis of facts and form objective judgments based on reasonable arguments.
-
-#### SELF-ASSESSMENT
-
-Kids are able to see if they fulfill the intended task or not. They can asses their own performance based on results of intended tasks.
-<!--
-It is quite difficult to asses ourself if we are well qualified in some topic. Remember: Dunning-Kruger effect: Confidence(Competence)
--->
-
-#### ICT LITERACY
-
-European commission is warning for several years now that EU has large lack in computer science and ICT professionals. Only 55% of computer science and ICT jobs in EU are filled with relevant experts.
-
-## HOW TO TEACH ROBOTICS?
-
-- Is learning robotics difficult?
-    + No and Yes
-
-### HOW DO WE THINK?
-
-- [Kolb's Learning Cycle](https://www.researchgate.net/publication/325475416/figure/fig1/AS:643699918766080@1530481428256/Kolbs-learning-cycle-and-experiential-learning-styles.png)
-
-- [Thinking, Fast and Slow, by Daniel Kahneman](./slike/ThinkingFastSlow.png)
-
-### HOW DO WE CONSTRUCT OUR KNOWLEDGE?
-
-Piaget (ConstructiVisem):  
-> Children must be actively engaged to encounter
-> the experiences necessary to build and adapt their schema.
->
-> We need to set up these experiences for our learners.
-
-Papert (ConstructioNism):  
-> Constructionism—the N word as opposed to the V word — shares
-> contructivism’s view of learning as “building knowledge structures”
-> through progressive internalization of actions… It then adds the
-> idea that this happens especially felicitously in a context where
-> the learner is consciously engaged in constructing a public entity,
-> whether it’s a sand castle on the beach or a theory of the universe
-> ( Papert, 1991, p.1)
-
-### UČNE PRAKSE
-
-#### KIRSCHNER
->Active learning, Project lerning, Research based learning ... so le učne situacije s pomanjkljivimi navodili.
-
-#### DEREK MULER
-[Effects of science vidos](https://youtu.be/RQaW2bFieo8?t=156 )
-
-## TEHNOLOGIJE V UČNIH PROCESIH
-
-- Tomas Edison:
-
-        New Your Times (1922)
->I believe that the motion picture is destined to revolutionize our educational system and that in a few years it will supplant largely, if not entirely, the use of textbooks.
-
-- dr. Michel Resnick:
-
-        Beyond the balck boxes.
-
-        Rethinking Learning in the Digital Age
-> Because education is associated with information and computers are associated with information, the two seem to make a perfect marriage.
-
-- dr. Derek Muller
-[This will revolutionize education](https://www.youtube.com/watch?v=GEmuEWjHr5c)
-
-
-!!! question:
-    Kako uporabljamo pametne table?
-
-!!! note:
-    Kot grafoskop.
-
-## LEARNING EQUIPMENT
-
-### Katero učno opremo naj uporabim?
-
-- [Lego We-Do](https://le-www-live-s.legocdn.com/sc/media/files/user-guides/wedo-2/introduction/introduction-en-us-v1-9a5c0557dd5e2d052e77cbc7c39e6a5f.pdf)
-- [Lego Mindstiorms](https://education.lego.com/en-au/support/mindstorms-ev3/quick-start-guide)
-- [Fischertehnik](https://www.fischertechnik.de/en/service/elearning/teaching)
-- [Vex](http://www.vexrobotics.fi/wp-content/uploads/sites/5/2016/03/228-3319-VEX-IQ-Robotics-Education-Guide-201511051.pdf)
-
-
-!!! question: Ali smo si zastavili pravo vprašanje?
-
-### KAJ MORAMO UČENCE NAUČITI?
-
-- what are our learning objectives?
-  + electronics (sensors)
-  + computer science (IO units, programming)
-  + mechanical engineering (gears, construction)
-
-- Then we can choose a proper equipment...
-
-#### Electronics
-
-- sensors
-    - voltage dividers
-    - Ohm's Law, Kirshhoff Rules
-    -
-
-#### Computer Science
-
-- basic programming
-- Should we learn `hard` or `easy` programming language
-    - `easy` programming language -> closer to human understanding of code
-        - `skratch`
-        - `javascript`
-        - `python`
-    - `hard` programming language -> closer to the hardware
-        - `c++`
-        - `assembler`
-
-> More easy the language is - less you will learn about the language.  
-> ...
-> Migration form python to other languages is far less common then
-> migration from c to other languages.  
-> ...
-> If your gola is to be quick in "getting job done" use `easy` language,
-> if your goal are to learn and uderstand how the computer works always begin
-> to learn `hard` programming language first.
-> (by Rob Muhlestein)
-
-#### Mechanical Engineering
-
-- translation of the movements
-    - rotation to linear motion
-- gear reduction
-- torque, forces
-
-<!--
-Literature
-
-- [Programming books](https://github.com/EbookFoundation/free-programming-books)
-- [Programming Arduino](https://github.com/EbookFoundation/free-programming-books/blob/master/books/free-programming-books.md#arduino)
-
--->
-# EQUIPMENT for ROBPTOCS
-
-We can divide the equipment for robotics into three different groups:
-1. Electronics,
-2. Computer science,
-3. Engineering.
-
-## ELECTRONICS
-- WIRES
-    - 4x 15cm
-    - 4x 10cm
-- CONNECTORS
-    - 8x 2.5mm FT
-    - screw driver
-- RESISTORS
-    + 2x 330 
-    + 2x 3.3k
-    + 2x 33k
-    + 2x 330k
-    + 10k potenciometer (with wires)
-- NON-LINEAR RESISTORS AND SENSORS
-    + 1x foto-tranzistor FT & aperature
-    + 1x reed switch
-    + 1x key FT
-    + IR distance sensor
-- ACTUATORS
-    + light bulb
-    + 2x DC motor FT
-    + 1x servo-motor
-    + 1x servo attach
-    + LCD (i2c)
-
-## COMPUTER SCIENCE
-
-- Arduino UNO controller
-- modul RobDuino-v2 (shield)
-- Arduino UNO adapter -> FisherTechnik (3D print)
-- USB kabel
-- battery charger for 2x18650 LiIon battery
-- 2x 18650 LiIon battery's
-- 9V Power Supply
-
-## MECHANICAL ENGINEERING
-
-### CONSTRUCTION ELEMENTS
-
-- 12x square block 15x15x30mm
-- 6x square block 15x15x15mm
-- 2x square block 7.5x15x30mm
-- 5x square block 7.5x15x15mm
-- 3x "L" profile 15x15x45mm
-- 2x "L" profile 15x15x30mm
-- 4x rim R1" fiksno
-- 2x tire 11/90R1
-- 4x square holder 15x15x15mm
-- 2x angled block 60° 15x15mm
-- 2x angled block 30° 15x15mm
-- 1x pin rail 15mm
-- 2x M4 nuts and bolts L=25mm
-
-### GEARING (GEARS and GEARBOX)
-
-- 2x gearboxes with shafts
-- 2x sliding bearing
-- 1x axle/shaft 45mm
-- 1x axle/shaft 90mm
-- 2x mechanical pivot joint
-- 2x sliding bearing
-- 2x spojka osi 15mm (BCA)
-- 1x objemka 5mm (RD)
-- 1x worm gear with attachment nut
-- 1x gear fi48mm Z30
-- 1x os elise 30mm
-
-## OPTIONAL
-
-- rubber bands
-- black isolating tape
-
-# Simulating physical robot
-
-We can use several simulating programs to simulate robots. There are awesome platforms that allow simulations like: 3Dvisualizer or Webots ... But since our robot will be based on the Arduino Uno controller probably the best option is:
-
-- [Thinkercad](https://www.tinkercad.com/dashboard)
-
-You can sign in with your google account.
-
-## Task:
-
-1. Try to do some basic project (e.g. Blink) to turn on and off an LED.
-2. Try to add your own LED on the different output pin and change the program like is shown on the [@fig:blink_tc] to make it work (LED must blinking).
-
-![Blink example in Thinkercad.](./slike/thinkercad_simulation_blink.png){#fig:blink_tc}
-
-## Questions:
-
-1. How can you control the output voltage potential?
-2. In which direction will electric current flow?
-3. What voltage is present on the resistor?
-  + How can we determine the voltage on the resistor (describe 2 possibilities)?
-4. What voltage is present on the LED?
-
-# Software Installation
-
-We will need softwate listed bellow:
-
-1. [Arduino IDE](#arduino-ide) is basics "development environment"
-2. [RobDuino](#RobDuino) library for easier programming
-3. [Ardublockly](#ardublockly) is needed for introduction to programming
-  + [Python](#python) is needed for running Ardublockly
-4. [VSC in PlatformIO](#vsc-platformio) proper IDE include:
-  + auto-completion,
-  + error marking (e.g. forgotten \";\"),
-  + auto-detect USB port, 
-  + function information
-
-## Arduino IDE
-
-1. Go to Arduino web page Arduino->Software->[Download](https://www.arduino.cc/en/Main/Software).
-2. Download [Arduino IDE 1.8.9](https://www.arduino.cc/en/Main/OldSoftwareReleases#previous) choose [Windows Install](https://www.arduino.cc/download_handler.php?f=/arduino-1.8.9-windows.exe)...
-2. ... click `JUST DOWNLOAD`.
-3. run `arduino-1.8.9.exe` and follow the instructions.
-4. ... don't forget to install also 3rd party drivers (for Chinese version of Arduino UNO controller)... 
-5. if you do forget... Try this [Russian drivers](https://www.5v.ru/zip/ch341ser(v34).zip) from [page](https://www.5v.ru/ch340g.htm).
-
-### Getting started
-
-1. Run `Arduino IDE`
-2. Connect Arduino Uno controller to USB port.\
-    `Arduino Uno`
-3. Open simple basic program:\
-    `files` -> `examples` -> `01.basics` -> `blink`
-
-```c++
-void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
-  delay(1000);                       // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
-  delay(1000);                       // wait for a second
-}
-```
-4. Make this settings in `Tools` menu ->
-    1. `Board:` Arduino/Genuino Uno
-    2. `Port:` COM3 *or similar*
-
-7. Run :\
-    `Upload` to transfere the program to Arduino UNO controller.
-
-8. If everything is OK you will get this message:
-
-```
-Done uploading.
-Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.
-Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
-```
-9. Optional this preferences are suggested:  
-`File` -> `Preferences`:
-    1. `Editor Language`: English
-    2. `Editor font size`: 20
-    3. `Show verbose output during`: [ ]compiling [x] upload
-    4. `[x] Display linenumbers`
-    5. `[x] Enable code folding`
-
-## RobDuino
-
-RobDuino is Arduino library which include some usefull functions for driving motors and on-board key usage...
-
-### RobDuino Library Installation
-
-1. Download zip file:
-   * [RobDuino-master.zip](https://github.com/davidrihtarsic/RobDuino/archive/master.zip)
-2. rename RobDuino-master.zip in:
-   * **RobDuino.zip**
-3. run Arduino IDE
-4. choose:
-   * `Sketch` --> `Include Library` --> `Add .ZIP Library...`
-5. find
-   * `.../Download/RobDuino.zip`
-   * `[OK]`
-
-## Ardublockly
-
-[Ardublockly](https://ardublockly.embeddedlog.com/) is [graphical programming environment](https://en.wikipedia.org/wiki/Visual_programming_language) for programming Arduino controllers. A demo version of the program is also available [on-line](https://ardublockly.embeddedlog.com/demo/#).
-
->Note: For actual programming you will need Arduino IDE installed.
-
->Note: For running Ardublockly you will need to install Python program.
-
-### Python Installation
-
-1. You will have to install [Python 3.7](https://www.python.org/) or grater. First [Download](https://www.python.org/downloads/) the newest version of Python.
-
-2. Run installation file and set this settings:
-    1. `[x] Add Python to PATH` in
-    2. choose `Clasic Instalation`
-
-### Ardublockly Installation
-
-3. From [github.com/.../ardublockly](https://github.com/carlosperate/ardublockly) download **zip** file by clicking **Clone or download** and choosen [Download ZIP file](https://github.com/carlosperate/ardublockly/archive/master.zip).
-
-4. Extract `ardublockly-master.zip` to dirrectory of your choice e.g. `C:\\Program Files(x86)`
-
-5. That is it! Installation is complete.
-
-#### Running Ardublockly
-
-6. Find this file `C:\\Program Files(x86)\\ardublockly-master` and double-click on `start.py`. Python program should run and you should see:
-    1. terminal window with some code running...
-    2. and a new window should apear in your Internet Browser.
-If this is will not happend try to run `start.py` with right mouse button and `Start program with` then choose `Python 3.7`.
-
-### Settings
-
-7. Click `menu` and choose `Settings`:
-    1. `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino_debug.exe
-    2. `Arduino Board:` Uno
-    3. `Com port:` COM3 *or appropriate one*
-    4. Click `[RETURN]`.
-
-## VSC in PlatformIO
-
->Note: For programming Arduino controllers you will need Arduino IDE installed.
-
-[Download](https://code.visualstudio.com/download) installation file:
-
-1. run `VSCodeUserSetup-ia32-1.49.3.exe` installation file.
-2. run VSC program and click `Extensions`
-3. search for `PlatformIO IDE` and 
-4. run `Install`.
-5. restart VSC or click `Reload now`.
-
-### Getting Started
-
-Write basic program `Blink`:
-
-1. plug in Arduino Uno.
-2. open `PlatformIO - Home Page`:
-  - in left icon bar find `PlatformIO`
-    + `QUICK ACCESS` -> `PIO Home` -> `Open`
-3. choose `+ New Project`
-4. Setup:
-  - `Name:` ime_projekta
-  - `Board:` Arduino UNO
-  - `Framework:` Arduino Framework
-5. click `Finish` 
-6. Find directory `src` (e.g. `source code`), where you can find main program code in file `main.cpp`
-7. Copy-Paste this example:
-```cpp
-#include <Arduino.h>
-void setup() {
-  pinMode(13, OUTPUT);
-}
-
-void loop() {
-  digitalWrite(13,HIGH);
-  delay(500);
-  digitalWrite(13,LOW);
-  delay(500);
-}
-```
-8. Run `Build` and `Upload`.
-
-# TESTING THE EQUIPMENT
-
-## Basic testing in Arduino IDE
-
-1. Connect the Arduino Uno to PC with proper USB cable.  
-    `[Arduino Uno]` 
-2. Open Arduino IDE program and open program with:  
-    `Files -  Examples - 01. Basics - Blink.ino`
-3. Make shure that you will set the proper settings (see [@fig:Arduino_basic_setup]). From the menu choose:  
-    `Tools`-
-    1.  `Board:` Arduino/Genuino Uno
-    2.  `Port:` COM3
-
-![Arduino basic setup.](./slike/Arduino_basic_setup.png){#fig:Arduino_basic_setup}
-
--   To upload the code you can click the icon `Upload`.  
-    If the uploading was successful you will be prompted with the text
-    like:  
-
-> ```
-> Done uploading.  
-> Sketch uses 970 bytes (3%) of program storage space. Maximum
-> is 32256 bytes. Global variables use 9 bytes (0%) of dynamic
-> memory, leaving 2039 bytes for local variables. Maximum is
-> 2048 bytes.
-> ```
-
-> ## Issues
->
-> ### LED_BUILTIN was not declared in this scope
->
-> ![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared}
->
-> Compiler ne ve kaj naj bi bilo "LED_BUILTIN" ... na tem mesu naj bi bila številka priključka, ki ga želimo krmiliti. V tem primeru je to številka 13. Rešitvi sta lahko 2:  
-> 1. vse LED_BUILTIN zamenjaš s 13 ali  
-> 2. v vrstico pred "void setup()" dodaj `const int LED_BUILTIN = 13;`
->
-> Zadnja (druga) rešitev je boljša, ker pripomore k berljivosti programa... Spremenljivka LED_BUILTIN se imenuje "razlagalna spremenljivka" ker pomaga razlagati program. Tako postane tisti komentar "// turn the LED on (HIGH is the voltage level)" nepotreben, saj sama koda pove točno enako.
-
-## Basic testing in Ardublockly
-
-1. Connect the Arduino Uno to PC with proper USB cable.  
-    `[Arduino Uno]` 
-2. Run Ardublockly program. Which will be running as localhost and you will be using internet browser as IDE. The addres will be:  
-    `http://localhost:8000/ardublockly/index.html`
-3. In the left corner of the program you can find `[=] menu icon`. From where you can choose (Slide 2 and 3)  
-    `[] Settings`:
-    1.  `Compiler Location:` C:\\Program Files (x86)\\Arduino\\arduino\_debug.exe
-    2.  `Arduino Board:` Uno
-    3.  `Com port:` COM3
-    4.  And press:`[ RETURN ]`
-4. Finaly you can press button `PLAY` And if uploading was successful you will be prompted with the text (Slide 4):  
-
-![Ardublockly basic setup.](./slike/Ardublockly_basic_setup.png){#fig:Ardublockly_basic_setup}
-
-> ```
-> Successfully Uploaded Sketch
-> WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F.
-> No valid hardware definitions found in folder WAV8F.
-> Sketch uses 444 bytes (1%) of program storage space. Maximum is
-> 32256 bytes. Global variables use 9 bytes (0%) of dynamic memory,
-> leaving 2039 bytes for local variables. Maximum is 2048 bytes.
-> ```
-
-> ## Summary
-> Before uploading the programming code always check that the right board and serial port are set.
->
-> ## Issues
-> **Ardublockly returns the Error id 55: Serial port Serial Port unavailable.**  
-> Try to re-connect the Arduino board. Wait a moment, check the settings and choose the COM port again then try again.
-
-
-## RobDuino module
-
-1. Na krmilnik Arduino Uno priključite modul `RobDuino` in naložite naslednji program:
-
-```cpp
-void setup() {
-  for (int i = 0; i < 8; i++){
-    pinMode(i, OUTPUT);
-  }
-  pinMode(A4, INPUT_PULLUP);
-  pinMode(A5, INPUT_PULLUP);
-  PORTD=1;
-}
-
-int l=1;
-void loop() {
-  char tipka_a4_is_pressed = !digitalRead(A4); 
-  char tipka_a5_is_pressed = !digitalRead(A5); 
-  if (tipka_a4_is_pressed) l = l << 1;
-  if (tipka_a5_is_pressed) l = l >> 1;
-  if (l < 1) l = 128;
-  if (l > 255) l = 1;
-  PORTD = l;
-  delay(100);
-}
-```
-
-2. Nato preverite delovanje obeh tipk (A4 in A5) na modulu in vrednosti izhodnih priključkov D0 .. D7.
-
-## Napajalni modul
-
-Napajalni modul uporablja 2x Li-ion akumulatorja tipa 18650. Spodnje tiskano vezje je prikazano [@fig:napajalni_modul].
-
-![Napajalni modul.](./slike/napajalni_modul.jpg){#fig:napajalni_modul}
-
-Dodatno smo ga opremili z:
-1. 2.5mm jack priključkom za napajanje,
-2. 3-pinskim priključkom za napajanje,
-3. preklopnim stikalom za izbiranje načina delovanja:
-    1. ON - izhod za 9V je kaktiviran
-    2. OFF - izključen izhod 9V napajanja in omogočeno je polnenje akumulatorjev preko 3-pinskega priključka (5V).
-
-Pred prvo uporabo moramo ročno aktivirati napajalni modul tako, da povežemo GND na 3-pinskem priključku in NEGATIVNI terminal akumulatorjev.
-
-## Tipka
-
-1. Priključite stikalo po shemi na [@fig:tipka_test].
-
-![Priključitev tipke.](./slike/RobDuino_FT_key.png){#fig:tipka_test}
-
-2. Nato naložite naslednji program.
-
-```cpp
-void setup() {
-    pinMode(A0, INPUT);
-    pinMode(7, OUTPUT);
-}
-
-void loop() {
-    char key_a0_is_pressed = digitalRead(A0);
-    if (key_a0_is_pressed){
-        digitalWrite(7, HIGH);
-    } else{
-        digitalWrite(7, LOW);
-    }
-    delay(100);
-}
-```
-
-## Svetlobni senzor
-
-1. Priključite foto-tranzistor v delilnik napetosti z uporom, kot prikazuje [@fig:foto_senzor_test].
-
-![Priključitev foto-tranzistorja kot svetlobni senzor.](./slike/Svetlobni_senzor.png){#fig:foto_senzor_test}
-
-2. Nato naložite naslednji program in preverite odziv svetlobnega senzorja.
-
-```cpp
- void setup() {
-  pinMode(A1, INPUT);
-  Serial.begin(9600);
-}
-
-void loop() {
-  int light_senzor_value = analogRead(A1);
-  Serial.println(light_senzor_value);
-  delay(100);
-}
-```
-
-3. Odziv senzorja spremljajte v oknu serijske komunikacije.
-
-## IR senzor razdalje
-
-1. IR senzor razdalje priključite na tri-pinski priključek kot je prikazano na [@fig:test_IR].
-
-![Priključitev IR senzorja razdalje.](./slike/IR_senzor.png){#fig:test_IR}
-
-2. Delovanje senzorja preskusite z naslednjim programom, njegov odziv pa spremljajte v oknu za serijsko komunikacijo.
-
-```cpp
-void setup() {
-  pinMode(A0, INPUT);
-  Serial.begin(9600);
-}
-
-void loop() {
-  int distance_senzor_value = analogRead(A0);
-  Serial.println(distance_senzor_value);
-  delay(100);
-}
-```
-
-## LCD (I2C)
-
-1. Priključite LCD na I2C vodilo kot prikazuje 
-
-![Povezava LCD na I2C vodilo krmilnika.](./slike/I2C_LCD.png){#fig:test_I2C_LCD_2}
-
-2. Priskrbite si knjižnico `LiquidCristal-I2C` iz naslova:  
-https://www.arduino.cc/reference/en/libraries/liquidcrystal-i2c/ 
-3. Knjižnico dodajte v Arduino IDE okolje tako, da dodate `ZIP` datoteko v :  
-`Sketch >> Include Library >> Add .ZIP Library`
-3. V VSC in PlatformIO vtičniku si lahko knjižnico naložite tako, da v terminalno okno vpišete ukaz  
-`pio lib install "marcoschwartz/LiquidCrystal_I2C@^1.1.4"`
-
-4. Nato preskusite naslednji program:
-
-```cpp
-#include <Wire.h> 
-#include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C Lcd(0x27, 16, 2);
-
-void setup() {   
-    Lcd.init();
-    
-    Lcd.clear();
-    Lcd.backlight();
-    
-    Lcd.setCursor(3,0);
-    Lcd.print("Hello");
-    Lcd.setCursor(6,1);
-    Lcd.print("World");   
-}
-
-void loop() {
-}
-```
-
-Če niste prepričani kateri i2c naslov uporablja naprava na LCD-ju le tega lahko preverite s programom `I2C scanner` (https://playground.arduino.cc/Main/I2cScanner/). Običajno I2C LCD-ji, ki jih naredijo kitajski proizvajalci uporabljajo I2C naslov `0x27` , `0x3F` ali manj pogosto `0x38`.
 
