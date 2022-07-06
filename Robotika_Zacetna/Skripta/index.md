@@ -10,7 +10,7 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 ## EXPERIENTIAL LEARNING OF ROBOTICS
 
-- [Handbook - work in progress](./ABC_Robotics.md), [PDF](./ABC_Robotics.pdf).
+- [Experiential Learning of Robotics](./Experiential_Learning_of_Robotics.md), [PDF](./Experiential_Learning_of_Robotics.pdf).
 
 ---
 
