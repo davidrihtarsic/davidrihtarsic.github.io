@@ -3,13 +3,42 @@
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
 You will probably spent the same amount of time cleaning the code that you needed for writing a working version.
 
-## Tasks:
-
 In general you can follow some rules:
 
 1. Use FUNCTIONS for every single action,
 2. COMMENT the code only where is necessary,
-3. Use EXPLANATORY CONSTANTS and VARIABLES.
+3. Use EXPLANATORY CONSTANTS and VARIABLES
+
+to make your code clean.
+
+## Tasks:
+
+1. Change your code to look like:
+
+```cpp
+void setup()
+{
+  setIOpins();
+  moveForward();
+  delay(3000);
+  robotStop();
+}
+
+void loop()
+{
+}
+```
+: Clean code of moving forward program. {#lst:move_fwd_cleaned}
+
+2. Write programming functions for moving the robot in several dirrections:
+    1. `moveForward()`,
+    2. `moveLeft()`,
+    3. `moveRight()`,
+    4. `moveBackward()`,
+    5. `robotStop()`.
+
+3. Save all the functions into header file:
+  `RobotMovingFunctions.h`
 
 ## Questions:
 

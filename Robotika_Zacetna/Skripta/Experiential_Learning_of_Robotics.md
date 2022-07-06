@@ -1221,11 +1221,11 @@ in order that are specified in presentation and listed as:
 
 > ## Summary:
 > 
-> ### Using curly braces - {}
+> ### Using curly braces - \{ and \}
 > 
 > Using curly braces in C++ is important part of riting the programming code. Imagine that you want to merge several members of programing code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces {} are the best choice.
 > 
-> ### Function Declaration
+> ### Function Definition
 ```cpp
    void loop() {
 
@@ -1558,18 +1558,48 @@ Ker gre pri robotiki v najosnovnejšem primeru za S-R-A loop bi verjetno bilo pr
 > ## Issues:
 > ### <++>
 >
+
 # WRITING CLEAN CODE
 
 In order to make your code readable you have to clean your code regularly. This step is very important to not to slow down the programming process in the future programming.
 You will probably spent the same amount of time cleaning the code that you needed for writing a working version.
 
-## Tasks:
-
 In general you can follow some rules:
 
 1. Use FUNCTIONS for every single action,
 2. COMMENT the code only where is necessary,
-3. Use EXPLANATORY CONSTANTS and VARIABLES.
+3. Use EXPLANATORY CONSTANTS and VARIABLES
+
+to make your code clean.
+
+## Tasks:
+
+1. Change your code to look like:
+
+```cpp
+void setup()
+{
+  setIOpins();
+}
+
+void loop()
+{
+  moveForward();
+  delay(3000);
+  robotStop();
+}
+```
+: Clean code of moving forward program. {#lst:move_fwd_cleaned}
+
+2. Write programming functions for moving the robot in several dirrections:
+    1. `moveForward()`,
+    2. `moveLeft()`,
+    3. `moveRight()`,
+    4. `moveBackward()`,
+    5. `robotStop()`.
+
+3. Save all the functions into header file:
+  `RobotMovingFunctions.h`
 
 ## Questions:
 
