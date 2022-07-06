@@ -1,4 +1,4 @@
-# Software Installation
+# SOFTWARE INSTALLATION
 
 We will need softwate listed bellow:
 

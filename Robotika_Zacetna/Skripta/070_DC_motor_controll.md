@@ -1,6 +1,6 @@
 # HOW THE DC MOTOR WORKS
 
-## Task:
+## Task: MAKE DC MORTOT RUN
 
 1. Connect the DC motor to the battery and make it run.
 2. You can try different combinations to connect the terminals of the motor like:

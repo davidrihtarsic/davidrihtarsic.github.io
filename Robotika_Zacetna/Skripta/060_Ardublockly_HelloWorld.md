@@ -1,6 +1,6 @@
 # HELLO WORLD IN ARDUBLOCKLY
 
-## Task:
+## Task: MAKE 1ST ARDUBLOCKLY PROGRAM
 
 1. Make a very simple program like setting the digital output bit D3 to logical state 1 or **HIGH**.
 2. Send the program to Arduino controller.
