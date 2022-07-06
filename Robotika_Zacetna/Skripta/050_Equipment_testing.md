@@ -1,4 +1,4 @@
-# TESTING THE EQUIPMENT
+# EQUIPMENT TESTING
 
 ## Basic testing in Arduino IDE
 
@@ -6,12 +6,12 @@
     `[Arduino Uno]` 
 2. Open Arduino IDE program and open program with:  
     `Files -  Examples - 01. Basics - Blink.ino`
-3. Make shure that you will set the proper settings (see [@fig:Arduino_basic_setup]). From the menu choose:  
+3. Make shure that you will set the proper settings (see [@fig:Arduino_basic_setup_IDE]). From the menu choose:  
     `Tools`-
     1.  `Board:` Arduino/Genuino Uno
     2.  `Port:` COM3
 
-![Arduino basic setup.](./slike/Arduino_basic_setup.png){#fig:Arduino_basic_setup}
+![Arduino basic setup.](./slike/Arduino_basic_setup.png){#fig:Arduino_basic_setup_IDE}
 
 -   To upload the code you can click the icon `Upload`.  
     If the uploading was successful you will be prompted with the text
@@ -29,7 +29,7 @@
 >
 > ### LED_BUILTIN was not declared in this scope
 >
-> ![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared}
+> ![Error image.](./slike/VAR_was_not_declared.png){#fig:VAR_was_not_declared_IDE}
 >
 > Compiler ne ve kaj naj bi bilo "LED_BUILTIN" ... na tem mesu naj bi bila številka priključka, ki ga želimo krmiliti. V tem primeru je to številka 13. Rešitvi sta lahko 2:  
 > 1. vse LED_BUILTIN zamenjaš s 13 ali  
@@ -50,6 +50,7 @@
     3.  `Com port:` COM3
     4.  And press:`[ RETURN ]`
 4. Finaly you can press button `PLAY` And if uploading was successful you will be prompted with the text (Slide 4):  
+
 
 ![Ardublockly basic setup.](./slike/Ardublockly_basic_setup.png){#fig:Ardublockly_basic_setup}
 
@@ -220,4 +221,5 @@ void loop() {
 ```
 
 Če niste prepričani kateri i2c naslov uporablja naprava na LCD-ju le tega lahko preverite s programom `I2C scanner` (https://playground.arduino.cc/Main/I2cScanner/). Običajno I2C LCD-ji, ki jih naredijo kitajski proizvajalci uporabljajo I2C naslov `0x27` , `0x3F` ali manj pogosto `0x38`.
+
 
