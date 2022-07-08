@@ -21,6 +21,9 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 - [03.0 - ArduinoUNO and Electronics Simulation](030_ArduinoUNO_and_Electronics_Simulation.md) - [PDF](030_ArduinoUNO_and_Electronics_Simulation.pdf)
 - [04.0 - Software Installation](040_Software_Installation.md) - [PDF](040_Software_Installation.pdf)
 - [05.0 - Equipment testing](050_Equipment_testing.md) - [PDF](050_Equipment_testing.pdf)
+
+---
+
 - [06.0 - HelloWorld in Ardublockly](060_HelloWorld_in_Ardublockly.md) - [PDF](060_HelloWorld_in_Ardublockly.pdf)
 - [07.0 - How DC Motor Works](070_How_DC_Motor_Works.md) - [PDF](070_How_DC_Motor_Works.pdf)
 - [08.0 - DC Motor Control with Digital Outputs](080_DC_Motor_Control_with_Digital_Outputs.md) - [PDF](080_DC_Motor_Control_with_Digital_Outputs.pdf)
