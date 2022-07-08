@@ -10,18 +10,21 @@
 
 ```cpp
 const int LIGHT_SENSOR_PIN = A0;
-void setup() {
-    pinMode(LIGHT_SENSOR_PIN , INPUT);
-    Serial.begin(9600);
+
+void setup()
+{
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
+  Serial.begin(9600);
 }
 
-void loop() {
-    int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-    Serial.println(light_sensor_value );
-    delay(200);
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  Serial.println(light_sensor_value );
+  delay(200);
 }
 ```
-: Light sensor testing. {#lst:light_sen_test}
+: Ligth Sensor. {#lst:330_Ligth_Sensor}
 
 2. Try different resistors (1k, 10k, 100k, 1M) and find out at which the sensitivity of the sensor is greatest.
 

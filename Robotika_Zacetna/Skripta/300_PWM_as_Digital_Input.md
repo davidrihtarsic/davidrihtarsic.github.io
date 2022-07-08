@@ -29,34 +29,40 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
 2. Test next program if you get reasonable data of time duration in `Serial` window.
 
 ```cpp
-    const char TRIGGER_PIN=A0;
-    const char ECHO_PIN=A1;
-    void setup()
-    {
-      pinMode(TRIGGER_PIN, OUTPUT);
-      pinMode(ECHO_PIN, INPUT);
-      Serial.begin(9600);
-    }
-    
-    int getPulseWidth_us()
-    {
-      digitalWrite(TRIGGER_PIN,HIGH);
-      delayMicroseconds(10); 
-      digitalWrite(TRIGGER_PIN,LOW);
-      return pulseIn(ECHO_PIN, HIGH);
-    }
-[+] float getDistance_cm(){ ...
-    void loop()
-    {
-      float distance_cm = getDistance_cm();
-      int duration_us = getPulseWidth_us();
-      Serial.println(duration_us);
-      delay(2000);
-    }
-```
-: Ultrasonic distance measurement. {#lst:ultrasonic_distance}
+const char TRIGGER_PIN  = A0;
+const char ECHO_PIN     = A1;
 
-3. Add needed code in function `getDistance_cm()` to calculate the distance in cm.
+void setup()
+{
+  pinMode(TRIGGER_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  Serial.begin(9600);
+}
+
+int getPulseWidth_us()
+{
+  digitalWrite(TRIGGER_PIN,HIGH);
+  delayMicroseconds(10); 
+  digitalWrite(TRIGGER_PIN,LOW);
+  return pulseIn(ECHO_PIN, HIGH);
+}
+
+float getDistance_cm()
+{
+  // do distance calculation here...
+  return 0
+}
+void loop()
+{
+  float distance_cm = getDistance_cm();
+  int duration_us = getPulseWidth_us();
+  Serial.println(duration_us);
+  delay(2000);
+}
+```
+: PWM as Digital Input. {#lst:300_PWM_as_Digital_Input}
+
+3. Add needed code in function `getDistance_cm()` to calculate the distance in cm. Also change the `Serial.println(duration_us)` program line to output `distance_cm` value.
 
 ## Questions:
 
@@ -70,3 +76,4 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
 > ## Issues:
 > ### <++>
 >
+

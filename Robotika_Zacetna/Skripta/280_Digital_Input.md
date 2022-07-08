@@ -1,14 +1,17 @@
 # DIGITAL INPUT
 
-Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencial - logical `0` is representing `0 V` and logical `1` is commonly represented as `+5 V`.
+Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencials. Usually potencial `0 V` is presented as logical `0` and potencial `+5 V` is indicated as logical `1`. Digital inputs are often used for detecting state of switches, board keys and push buttons...
 
-Lets go back to fundamentals of digital inputs and explore some options...
+Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
+
+![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
 
 ## Tasks:
 
-1. Write next program and test it... Measure the voltage potencial in the pin A0 in eather position of push-button-switch.
+1. Connect the push-button-switch according to first diagram on [@fig:PBSw_All] and test the program [@lst:280_Digital_Input]
+
 ```cpp
-const int BUMPER_PIN = A0
+const int BUMPER_PIN = A0;
 void setup()
 {
   pinMode(BUMPER_PIN, INPUT);
@@ -20,9 +23,9 @@ void loop()
   if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
 }
 ```
-: Digital input testing. {#lst:dig_input}
+: Digital Input. {#lst:280_Digital_Input}
 
-2. Try to connect the bush-button-switch according to [@tbl:sw_two_pins]:
+2. Try to connect the bush-button-switch according to second diagran on [@fig:PBSw_All]
 
 | PBSW con. | RobDuino connectors |
 |:---------:|:-------------------:|
@@ -34,12 +37,10 @@ Table: Connection of push-button-switch with only 2 terminals. {#tbl:sw_two_pins
 
 Try to understand why this setup is not working. And test all other options in [@fig:PBSw_All]
 
-![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
-
-3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor.
+3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor (third diagran on [@fig:PBSw_All]).
 4. Try to understand how the voltage potencial is spread among the components in electrical loop and how we can calculate this by using 2nd Kirchhoff's Rule.
-5. Change the setup of PBSW and resistor to a `pull-up` setup. What is changed?
-6. Enable internal `pull-up` resistor (and remove external one).
+5. Change the setup of PBSW and resistor to a `pull-up` setup (fourth diagran on [@fig:PBSw_All]). What is changed?
+6. Enable internal `pull-up` resistor (and remove external one - fifth diagran on [@fig:PBSw_All]).
 
 ## Questions:
 

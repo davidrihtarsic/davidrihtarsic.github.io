@@ -9,32 +9,39 @@ obstacles.
 2.  \... the robot can drive forward.
 3.  \...else \... the robot must to stop/go back/turn.
 
+```cpp
+#include "RobotMovingFunctions.h"
+const int DIST_SEN_PIN   = A0;
+const int DISTANCE_LIMIT = 20;
+void setup()
+{
+  setIOpins();
+  pinMode(DIST_SEN_PIN,INPUT);
+}
+float getDistance_cm()
+{
+  int adc_value  = analogRead(DIST_SEN_PIN);
+  float distance = 1/(0.045 * 5.0/1024 * adc_value);
+  return distance;
+}
+void loop()
+{
+  if ( getDistance_cm() > DISTANCE_LIMIT )
+  {
+    moveForward();
+  }
+  else
+  {
+    stopTheRobot();
+  }
+}
+```
+: Avoiding Obstacles. {#lst:320_Avoiding_Obstacles}
+
 ## Questions:
 
 1. What are the values of the distance sensor (use `Serial.println(distance)` to verify)?
 2. Robot stil hits the obstacles that are not in view angle of the distance sensor. Write and use new function for moving the robot forward more carefully.
-
-```cpp
-const int LIGHT_SENSOR_PIN = A0;
-const int DISTANCE_LIMIT = 20;
-void setIOpins();
-float getDistance_cm();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
-void loop() {
-  if ( getDistance_cm() > DISTANCE_LIMIT){
-    robotForward();
-  } else {
-    robotStop();
-  }
-}
-[+]void setup() { ...
-```
-: Avoiding obstacles. {#lst:obstacle_avoid}
 
 > ## Summary:
 > 

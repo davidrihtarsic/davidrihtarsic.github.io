@@ -16,40 +16,63 @@ can be on a scale of 0 - 255., where 0 is 0% and 255 is 100% of electrical power
 ## Tasks:
 
 1. Write new functions for driving the robot left and right with reduced power of the motors:
-    - `robotLeftPWM();`
-    - `robotRightPWM();`
+    - `moveLeftPWM();`
+    - `moveRightPWM();`
+
     In one case you will might find yourself in trouble of controlling the power of the motor since
     both pins are not able to perform `PWM` output. In this case you can remember that the motor's
     power is 0 W also if both pins are in state of logical `1`.
-2. Also add `analogWrite(LEFT_MOTOR_PIN_A, 0);` to function `robotStop()` to stop the `PWM` control
-    of the motor. And do similar for the `right motor`.
-3. Change the functions `robotLeft()` and `robotRight()` in S-R-A loop with new ones with less power
-    on motors.
-4. Add a parameter `PWM_value` to each function to set the `duty cicle` of the controlled output.
-    - `robotLeftPWM(int PWM_value)`
-    - `robotRightPWM(int PWM_value)`
+
+    An example of reducing power of both motors in function `moveForwardPWM()` is here:
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
+void robotForwardPWM()
+{
+  digitalWrite( LEFT_MOTOR_PIN_1, LOW);
+  analogWrite(  LEFT_MOTOR_PIN_2, 150);
+  digitalWrite( RIGHT_MOTOR_PIN_1, LOW);
+  analogWrite(  RIGHT_MOTOR_PIN_2, 150);
+}
+```
+
+   Similar to this function you can write other functions to.
+
+2. Change the functions `moveLeft()` and `moveRight()` in S-R-A loop with new ones with less power
+    on motors.
+
+```cpp
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
 const int SURFACE_BRIGHTNESS_REFERENCE = 400;
 
-void loop() {
-    int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-    if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
-        robotLeft();
-    } else {
-        robotRight();
-    }
-    delay(10);
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
-[+] void setup() {...
+
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
+      moveLeft();
+  } else {
+      moveRight();
+  }
+  delay(10);
+}
 ```
-: Line-follower with PWM control. {#lst:line_follower}
+: PWM motor control. {#lst:350_PWM_motor_control}
+
+3. Also add `analogWrite(LEFT_MOTOR_PIN_A, 0);` to function `stopTheRobot()` to stop the `PWM` control
+    of the motor. And do similar code for the `right motor`.
+
+4. Add a parameter `PWM_value` to each function to set the `duty cicle` of the controlled output.
+    - `moveLeftPWM(int PWM_value)`
+    - `moveRightPWM(int PWM_value)`
+
+5. Save `moveRightPWM(int PWM_value)` and `moveLeftPWM(int PWM_value)` functions into header file `RobotMovingFunctions.h`
+
 
 ## Questions:
 

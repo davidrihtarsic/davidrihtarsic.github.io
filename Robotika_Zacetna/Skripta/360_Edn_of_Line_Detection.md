@@ -13,39 +13,41 @@
 3. What is the purpose of the prog. instr. exit(0); ?
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
+const int SURFACE_BRIGHTNESS_REFERENCE = 400;
 int time_on_black = 0;
 int time_on_white = 0;
 
-void loop() {
-  int lightSensorValue= analogRead(A1);
-  if ( lightSensorValue < 400 ){
-                       // BLACK area
-    robotLeft();
-    time_on_white = 0; // reset time on white
-    time_on_black++;   // meas. time on black
-    delay(100);
-  } else {
-                       // WHITE area
-    robotRight();
-                       // Do similar meas.
-                       // of time on white
- 
-    delay(100);
-                       // If time is signif.
-                       // longer:
-                       // robotStop();exit(0);
-  }
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
-[+] void setup() { ...
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
+  {
+    // BLACK area
+    moveLeft();
+    time_on_white = 0;  // reset time on white
+    time_on_black++;    // meas. time on black
+    delay(100);
+  }
+  else
+  {
+    // WHITE area
+    moveRight();
+    // Do similar meas.
+    // of time on white
+    delay(100); 
+    // If time is signif. longer:
+    //        robotStop();exit(0);
+  }
+}
 ```
-: End line tun. {#lst:end_ln_turn}
+: Edn of Line Detection. {#lst:360_Edn_of_Line_Detection}
 
 > ## Summary:
 > ### <++>

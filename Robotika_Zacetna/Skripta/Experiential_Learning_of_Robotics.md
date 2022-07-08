@@ -850,6 +850,7 @@ void loop() {
 2. Write the program and check all the combinations of digital outputs;
     00, 01, 10 and 11.
 
+3.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo_ARB ]).R
 
 | D7 | D6 | Motor rotation |
 |:--:|:--:|----------------|
@@ -857,12 +858,10 @@ void loop() {
 |  0 |  1 |                |
 |  1 |  0 |                |
 |  1 |  1 |                |
-
-Table: All combinations of the states of motor's connectors.
+Table: All combinations of the states of motor's connectors. {#tbl:motor_combo_ARB}
 
 ## Questions:
 
-1.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo ]).
 2.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
 3.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
 
@@ -1193,18 +1192,18 @@ in order that are specified in presentation and listed as:
 1. Make a very simple program like setting the digital output bit D3 to logical state 1 or **HIGH**.
 
 ```cpp
-    void setup() {
-      // put your setup code here, to run once:
-      pinMode(3, OUTPUT);
-      digitalWrite(3, HIGH);
-    }
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(3, OUTPUT);
+  digitalWrite(3, HIGH);
+}
 
-    void loop() {
-      // put your main code here, to run repeatedly:
+void loop() {
+  // put your main code here, to run repeatedly:
 
-    }
+}
 ```
-: Simple first program in C++. {#lst:first_cpp}
+: Hello World in ArduinoIDE. {#lst:170_Hello_World_in_ArduinoIDE}
 
 2. Send the program to controller Arduino UNO .
 
@@ -1288,8 +1287,28 @@ in order that are specified in presentation and listed as:
 
 1. Connect the DC motor to Digital Output D7 and D6.
 2. Write the program and check all the combinations of digital outputs;
-    00, 01, 10 and 11.
+    00, 01, 10 and 11. First combination is shown in [@lst:190_DC_Motor_Control_with_Digital_Outputs]
 
+```cpp
+void setup()
+{
+  pinMode(7, OUTPUT);
+  pinMode(6, OUTPUT);
+  // D7=0, D6=0
+  digitalWrite(7, LOW);
+  digitalWrite(0, LOW);
+  delay(3000);
+  // Write other combinations here...
+
+}
+void loop()
+{
+
+}
+```
+: DC Motor Control with Digital Outputs. {#lst:190_DC_Motor_Control_with_Digital_Outputs}
+
+3.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo ]).
 
 | D7 | D6 | Motor rotation |
 |:--:|:--:|----------------|
@@ -1297,12 +1316,10 @@ in order that are specified in presentation and listed as:
 |  0 |  1 |                |
 |  1 |  0 |                |
 |  1 |  1 |                |
-
-Table: All combinations of the states of motor's connectors.
+Table: All combinations of the states of motor's connectors. {#tbl:motor_combo}
 
 ## Questions:
 
-1.  For each combination of digital outputs mark the state of the motor (fulfill the [@tbl:motor_combo ]).
 2.  Try to stop the shaft of the DC motor for a short time and try to remember how difficult it is?
 3.  Why does motors' shaft not spinning if the digital output state are  `1` and `1`.
 
@@ -1409,10 +1426,11 @@ Table: Motors connections to RobDuino Output pins. {#tbl:motors_to_RobDuino}
 
 ## Questions:
 
-You probably ended up with something like this:
+You probably ended up with something like [@lst:220_Introduction_to_Programming]:
 
 ```cpp
-void setup() {
+void setup()
+{
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
@@ -1431,10 +1449,12 @@ void setup() {
   digitalWrite(4, LOW);
 }
 
-void loop() {
+void loop()
+{
+
 }
 ```
-: Move the robot forward. {#lst:move_fwd}
+: Introduction to Programming. {#lst:220_Introduction_to_Programming}
 
 1. Is this code "easy readable"?
 2. Why is readable code important?
@@ -1572,34 +1592,68 @@ In general you can follow some rules:
 
 to make your code clean.
 
-## Tasks:
-
-1. Change your code to look like:
+Our aim is to write more readable code like in [@lst:230_Writing_Clean_Code]:
 
 ```cpp
+#include "RobotMovingFunctions.h"
 void setup()
 {
   setIOpins();
+  moveForward();
+  delay(3000);
+  stopTheRobot();
 }
 
 void loop()
 {
-  moveForward();
-  delay(3000);
-  robotStop();
+
 }
 ```
-: Clean code of moving forward program. {#lst:move_fwd_cleaned}
+: Writing Clean Code. {#lst:230_Writing_Clean_Code}
+... we will do it in several steps.
 
-2. Write programming functions for moving the robot in several dirrections:
+## Tasks:
+
+1. Write programming functions for moving the robot in several dirrections:
     1. `moveForward()`,
     2. `moveLeft()`,
     3. `moveRight()`,
     4. `moveBackward()`,
-    5. `robotStop()`.
+    5. `stopTheRobot()`.
 
-3. Save all the functions into header file:
-  `RobotMovingFunctions.h`
+2. Save all the functions into header file:
+  `RobotMovingFunctions.h`. An example of header file is shown in [@lst:Header_file_example_of_Robot_moving_functions]
+
+```cpp
+/****************************
+ * IO pins of the Robot
+ ***************************/
+const int LEFT_MOTOR_PIN_1  = 7;
+const int LEFT_MOTOR_PIN_2  = 6;
+const int RIGHT_MOTOR_PIN_2 = 5;
+const int RIGHT_MOTOR_PIN_1 = 4;
+/****************************
+ * Function declarations
+ ***************************/
+void setIOpins();
+void moveForward();
+/****************************
+ * Function definitions
+ ***************************/
+void setIOpins(){
+  pinMode( LEFT_MOTOR_PIN_1, OUTPUT);
+  pinMode( LEFT_MOTOR_PIN_2, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_1, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_2, OUTPUT);
+}
+void moveForward(){
+  digitalWrite( LEFT_MOTOR_PIN_1, LOW);
+  digitalWrite( LEFT_MOTOR_PIN_2, HIGH);
+  digitalWrite(RIGHT_MOTOR_PIN_1, LOW);
+  digitalWrite(RIGHT_MOTOR_PIN_2, HIGH);
+}
+```
+: Header file example of Robot moving functions. {#lst:Header_file_example_of_Robot_moving_functions}
 
 ## Questions:
 
@@ -1830,14 +1884,14 @@ void setup()
 > `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
 
 >
-# PROGRAMMING LOOPs: FOR-NEXT & WHILE
+# PROGRAMMING LOOPs: FOR-NEXT & DO-WHILE
 
 It is very often needed, that we want to repeat some part of code several times. In that case we can use programming loops where we can specify which code should be repeated. In general there are two very often situation where we are using the programming loops:
 
 1. We know `how many times` some code should repeat and
 2. The code is `repeated while the condition` is met.
 
-## For-Nex Loop
+## For-Next Loop
 
 So called `For-Next` loop is used whenever the repetition of the code can be controlled by a `counter`. Counter is a number with some **starting value** and gets incremented by each repetition of the code. When `counter` reaches the given **ending value** repetition will stop. Typical examples where `For-Next` loop is used are:
 
@@ -1845,9 +1899,9 @@ So called `For-Next` loop is used whenever the repetition of the code can be con
 - summarising of all the costs in the bill
 - robot should turn for **8 times** with 45 degree step to complete full rotation.
 
-## While Loop
+## Do-While Loop
 
-`While` loop is used in situations where we can not predict the numbers of repetitions in advanced. In this case we must state the `condition` that must be met to repeat the code. The repetition of the code will be terminated when the `condition` will not hold anymore. Typical examples are:
+`Do-While` loop is used in situations where we can not predict the numbers of repetitions in advanced. In this case we must state the `condition` that must be met to repeat the code. The repetition of the code will be terminated when the `condition` will not hold anymore. Typical examples are:
 
 - read the content to end of file,
 - divide some number by 2 while we can,
@@ -1855,54 +1909,57 @@ So called `For-Next` loop is used whenever the repetition of the code can be con
 
 ## Task: FOR-NEXT LOOP
 
-1. For example the next program repeats the functions **robotLeft()** and **robotRight()** for **10 times** and robot will do a funny \"dancing\" move.
-2. Experiment a bit more with such programming techniques.
+1. For example the next [@lst:240_Programming_Loops] repeats the functions **robotLeft()** and **robotRight()** for **10 times** and robot will do a funny \"dancing\" move.
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
-void setup() {
-    setIOpins();
-
-    // Funny dancing move.
-    int i = 0;
-    for (i = 0; i < 10; i++) {
-        robotLeft();
-        delay(100);
-        robotRight();
-        delay(100);
-    }
-    robotStop();
+#include "RobotMovingFunctions.h"
+void setup()
+{
+  setIOpins();
+  // Repeating Left and Right movement
+  // for 10 times to make a danging move
+  for (int i = 0; i < 10; i++)
+  {
+    robotLeft();
+    delay(100);
+    robotRight();
+    delay(100);
+  }
+  stopTheRobot();
 }
-[+]void loop() { ...
+
+void loop()
+{
+
+}
 ```
-: Dancing move. {#lst:dance}
+: Programming Loops. {#lst:240_Programming_Loops}
 
-## Task: WHILE-LOOP
+2. Experiment a bit more with such programming techniques and change some code:
+    - value of `i`,
+    - duration of `delay()` function,
+    - add some other functions to the `for-next` loop...
 
-3. Change the `for-loop` with this `while-loop`. Can you predict the result?
+## Task: DO-WHILE LOOP
+
+3. Change the `for-next` loop with this `do-while` loop. Can you predict the result?
 
 ```cpp
-    while ( 1 == 1 ){
-        robotLeft();
-        delay(100);
-        robotRight();
-        delay(100);
-    }
+while ( 1 == 1 ){
+    robotLeft();
+    delay(100);
+    robotRight();
+    delay(100);
+}
 ```
 
-Presented `while loop` is not an useful example as the condition `( 1 == 1 )` will never change and will be always `true`. So, we created an infinite loop. `While loop` is far more usable if in the condition is some sensor's value, as we will see in next sections.
+Presented `do-while` loop is not an useful example as the condition `( 1 == 1 )` will never change and will be always `true`. So, we created an infinite loop. `Do-While` loop is far more usable if in the condition is some sensor's value, as we will see in next sections.
 
 ## Questions:
 
-1. Name the situation  where `for-loop` can be used.
-2. What is the purpose of a `counter` in `for-loop`?
-3. What is the difference between `for-loop` and `while-loop`?
+1. Name the situation  where `for-next` loop can be used.
+2. What is the purpose of a `counter` in `for-next` loop?
+3. What is the difference between `for-next` and `do-while` loops?
 
 > ## Summary:
 > 
@@ -1937,58 +1994,79 @@ type varialble_name = value;
 
 With next example we will solve the problem how to make light blinking while the robot is driving in reverse.
 
-## Task: USEFULNESS of VARIABLES
+## Task: USING VARIABLES
 
-1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test next example.
+1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test program example in [@lst:250_Variables_and_Data_Types]. Then try to add some code to blink the light while the robot is driving backward.
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
+#include "RobotMovingFunctions.h"
 void setup()
-  {
-     setIOs();
-   
-     robotForward();
-     delay(3000);
-     robotBackward();
-     deay(3000);
-     robotStop();
-   }
-[+]void loop() { ...
-```
-: Driving the robot forward for 3s. {#lst:drive_fwd}
+{
+  setIOpins();
 
-2. Change the 14th line `delay(3000)` in previous example into `for-nex loop` with 10 repetition, but with the same overall duration.
+  moveForward();
+  delay(3000);
+  moveBack();
+  deay(3000);
+  stopTheRobot();
+}
+void loop()
+{
+}
+```
+: Variables and Data Types. {#lst:250_Variables_and_Data_Types}
+
+2. As you probably find out you have to divide the duration of 3000 ms into smaller durations and meanwhile controlling the light output. This can be done with`for-next` loop which repeats 10 times.
+
+    Change the $9^{th}$ line `delay(3000)` in previous example into `for-next` loop with 10 repetition, but with the same overall duration of 3000 ms.
 
 ```cpp
+...
+moveBack();
 for (int i = 0; i < 10; i++)
 {
-  delay(300);
+  delay(150);
+  delay(150);
 }
+stopTheRobot();
+...
 ```
 
 3. Add some code for blinking the LED in the `for-next loop` during the robot is driving backward.
+
+    > Don't forget to set the REVERSE_LIGHT_PIN value and its `pinMode(...)`.
+
+```cpp
+...
+moveBack();
+for (int i = 0; i < 10; i++)
+{
+  digitalWrite(REVERSE_LIGHT_PIN, HIGH);
+  delay(150);
+  digitalWrite(REVERSE_LIGHT_PIN, LOW);
+  delay(150);
+}
+stopTheRobot();
+...
+```
+
 4. More advanced way to do a time conditioned loop is shown in next example:
 
 ```cpp
-robotBackward();
+...
+robotBack();
 unsigned long start_time = millis();
 int time_diff = 0;
 while (time_diff < 3000)
 {
-  digitalWrite(3,HIGH);
+  digitalWrite(REVERSE_LIGHT_PIN,HIGH);
   delay(150);
-  digitalWrite(3,LOW);
+  digitalWrite(REVERSE_LIGHT_PIN,LOW);
   delay(150);
   unsigned long now = millis();
   time_diff = now - start_time;
 }
-robotStop();
+stopTheRobot();
 ```
 
 ## Questions:
@@ -2117,24 +2195,24 @@ Table: Connection of push-button-switch to the Robduino module. {#tbl:SW-RobDuin
 
 <iframe src="https://docs.google.com/presentation/d/19d-8UN3UQ1HTpq4a4PhSgt14YnIC8EE5Y1nDjwUab2Y/embed?authuser=0&hl=en&size=s" width="410" height="337" title="Conection of distance sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
-3. Test the push-button-switch in the bumper with next program code:
+3. Test the push-button-switch in the bumper with next [@lst:260_Conditional_Statements]:
 
 ```cpp
 const int BUMPER_PIN          = A0;
 const int TEST_BUMPER_LED_PIN = 3;
 void setup()
 {
- pinMode(BUMPER_PIN, INPUT);
- pinMode(TEST_BUMPER_LED_PIN, OUTPUT);
+  pinMode(BUMPER_PIN, INPUT);
+  pinMode(TEST_BUMPER_LED_PIN, OUTPUT);
 }
 
 void loop()
 {
   bool bumperIsPressed = digitalRead(BUMPER_PIN);
-  if ( bumperIsPressed ) digitalWrite(TEST_BUMPER_LED_PIN, HIGH);
+  if ( bumperIsPressed ) digitalWrite(TEST_BUMPER_LED_PIN, HIGH);
 }
 ```
-: Bumper testing program. {#lst:bumper_test}
+: Conditional Statements. {#lst:260_Conditional_Statements}
 
 <!--
 ![Adding bumper to the robot.](./slike/BumperConstruction.png){#fig:bumper_construction}
@@ -2206,38 +2284,46 @@ is involved during the procedure of controlling the robot. This is the most impo
 
 ## Tasks:
 
-1. Write a program to drive the robot around the class and avoid the obstacles.
-2. Using the S-R-A loop technique you should write the program in particular order:
+1. Using the S-R-A loop technique you should write the program in particular order:
     1.  Check the sensor. IF the bumper \...
     2.  \... Is pressed the robot has to stop/go back/turn.
     3.  \... Is not pressed the robot can drive forward.
 
-```cpp
-const int BUMPER_PIN = A0;
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
+    Test the [@lst:270_SRA_Loop] and **find out why the program is not working** (can aou fix it):
 
-void loop() {
+```cpp
+#include "RobotMovingFunctions.h"
+const int BUMPER_PIN = A0;
+void setup()
+{
+  setIOpins();
+  pinMode(BUMPER_PIN, INPUT);
+
   bool bumperIsPressed = digitalRead(BUMPER_PIN);
-  if ( bumperIsPressed ){
-    robotStop();
-  }else{
-    robotForward();
-  }
+  if ( bumperIsPressed )
+  {
+    stopTheRobot();
+  }
+  else
+  {
+    moveForward();
+  }
 }
-[+]void setup() { ...
+void loop()
+{
+}
 ```
-: Detecting the obstacle. {#lst:obstacle_detect}
+: SRA Loop. {#lst:270_SRA_Loop}
+
+2. Hint for fixing the [@lst:270_SRA_Loop]: _S-R-A must be a loop function!_
+
+3. Write a program to drive the robot around the class and avoid the obstacles.
 
 ## Questions:
 
 1. What for `S-A-R loop` stands for?
 2. Mark all three basic S-A-R processes in previous code example.
-3. Can `line 4` of the previous code example be written outside of `loop()` function?
+3. Can the `line 7` of the [@lst:270_SRA_Loop] be written outside of `loop()` function? What would happened if so?
 
 > ## Summary:
 > 
@@ -2253,15 +2339,18 @@ void loop() {
 
 # DIGITAL INPUT
 
-Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencial - logical `0` is representing `0 V` and logical `1` is commonly represented as `+5 V`.
+Digital inputs can only measure 2 different values. As such they are binary inputs and it's values are represented as logical `0` and `1` or in other words `false` and `true` or `LOW` and `HIGH`. However from electrical point of view those values are basically different voltage potencials. Usually potencial `0 V` is presented as logical `0` and potencial `+5 V` is indicated as logical `1`. Digital inputs are often used for detecting state of switches, board keys and push buttons...
 
-Lets go back to fundamentals of digital inputs and explore some options...
+Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
+
+![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
 
 ## Tasks:
 
-1. Write next program and test it... Measure the voltage potencial in the pin A0 in eather position of push-button-switch.
+1. Connect the push-button-switch according to first diagram on [@fig:PBSw_All] and test the program [@lst:280_Digital_Input]
+
 ```cpp
-const int BUMPER_PIN = A0
+const int BUMPER_PIN = A0;
 void setup()
 {
   pinMode(BUMPER_PIN, INPUT);
@@ -2273,9 +2362,9 @@ void loop()
   if ( bumperIsPressed ) digitalWrite(3, HIGH);else digitalWrite(3, LOW);
 }
 ```
-: Digital input testing. {#lst:dig_input}
+: Digital Input. {#lst:280_Digital_Input}
 
-2. Try to connect the bush-button-switch according to [@tbl:sw_two_pins]:
+2. Try to connect the bush-button-switch according to second diagran on [@fig:PBSw_All]
 
 | PBSW con. | RobDuino connectors |
 |:---------:|:-------------------:|
@@ -2287,12 +2376,10 @@ Table: Connection of push-button-switch with only 2 terminals. {#tbl:sw_two_pins
 
 Try to understand why this setup is not working. And test all other options in [@fig:PBSw_All]
 
-![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
-
-3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor.
+3. Solve the problem by constructing a `voltage divider` with `pull-down` resistor (third diagran on [@fig:PBSw_All]).
 4. Try to understand how the voltage potencial is spread among the components in electrical loop and how we can calculate this by using 2nd Kirchhoff's Rule.
-5. Change the setup of PBSW and resistor to a `pull-up` setup. What is changed?
-6. Enable internal `pull-up` resistor (and remove external one).
+5. Change the setup of PBSW and resistor to a `pull-up` setup (fourth diagran on [@fig:PBSw_All]). What is changed?
+6. Enable internal `pull-up` resistor (and remove external one - fifth diagran on [@fig:PBSw_All]).
 
 ## Questions:
 
@@ -2312,55 +2399,43 @@ Try to understand why this setup is not working. And test all other options in [
 
 # PULL-UP RESISTORS ON DIGITAL INPUT
 
-On the module RobDuino we can find two "on-board push button switches". Wiring of this switches
-is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can be noticed that both switches are connected to ground potential.
+On the module RobDuino we can find two "on-board push button switches". Wiring of this switches is presented in [@fig:RobDuino_OnBoardPwshButtonSwitch_s1], where can we noticed that both switches are connected to ground voltage potential.
 
 ![Wiring of on-board switches.](./slike/RobDuino_OnBoardPwshButtonSwitch_s1.png){#fig:RobDuino_OnBoardPwshButtonSwitch_s1}
 
-To properly use this push-button switches we must enable the `pull-up` resistors of A4 and A5 input of microcontroller.
+To properly use this on-board push-button switches we must enable the `pull-up` resistors of A4 and A5 input of microcontroller.
 
 ## Tasks:
 
 1. Configure pins `A4` and `A5` as inputs with `pull-up` resistor.
-2. At the end of the `setup()` function add the `while-loop` which will delay the execution of the program until we press the `A4` key.
-3. Use the `A5` key for stop the robot and terminate the execution of the program.
+2. At the end of the `setup()` function add the `while-loop` which will delay the execution of the program until we press the `A4` key - acting as a "START BUTTON".
+3. Use the `A5` key to stop the robot and terminate the execution of the program.
 
 ```cpp
-void setIOpins();
-void robotStop();
-void robotForward();
-void robotBackward();
-void robotLeft();
-void robotRight();
+#include "RobotMovingFunctions.h"
+const int KEY_A4 = A4;
+const int KEY_A5 = A5;
 
-void setup(){
+void setup()
+{
   setIOpins();
+  pinMode(KEY_A4, INPUT_PULLUP);
+  // KEY_A5 setup here...
 }
 
-void loop() {
-    robotForward();
-    //to-do: the key reading
-    bool stopTheRobotKey = 0;
-    if (stopTheRobotKey == 1)
-    {
-        robotStop();
-        exit(0);        //terminate the program
-    }
+void loop()
+{
+  moveForward();
+  //to-do: the key reading
+  bool stopTheRobotKey = 0;
+  if (stopTheRobotKey == 1)
+  {
+    stopTheRobot();
+    exit(0);        //terminate the program
+  }
 }
-void setIOpins(){
-  pinMode(LEFT_MOTOR_PIN_A, OUTPUT);
-  pinMode(LEFT_MOTOR_PIN_B, OUTPUT);
-  pinMode(RIGHT_MOTOR_PIN_A, OUTPUT);
-  pinMode(RIGHT_MOTOR_PIN_B, OUTPUT);
-  pinMode(BUMPER_PIN, INPUT);
-  //to-do: config the A4 and A5 pins
-
-  //to-do: while-loop waiting for A4 is pressed
-
-}
-...
 ```
-: Pullup resistor on digital input. {#lst:pull_up}
+: Pull Up Resistors on Digital Input. {#lst:290_Pull_Up_Resistors_on_Digital_Input}
 
 ## Questions:
 
@@ -2412,34 +2487,40 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
 2. Test next program if you get reasonable data of time duration in `Serial` window.
 
 ```cpp
-    const char TRIGGER_PIN=A0;
-    const char ECHO_PIN=A1;
-    void setup()
-    {
-      pinMode(TRIGGER_PIN, OUTPUT);
-      pinMode(ECHO_PIN, INPUT);
-      Serial.begin(9600);
-    }
-    
-    int getPulseWidth_us()
-    {
-      digitalWrite(TRIGGER_PIN,HIGH);
-      delayMicroseconds(10); 
-      digitalWrite(TRIGGER_PIN,LOW);
-      return pulseIn(ECHO_PIN, HIGH);
-    }
-[+] float getDistance_cm(){ ...
-    void loop()
-    {
-      float distance_cm = getDistance_cm();
-      int duration_us = getPulseWidth_us();
-      Serial.println(duration_us);
-      delay(2000);
-    }
-```
-: Ultrasonic distance measurement. {#lst:ultrasonic_distance}
+const char TRIGGER_PIN  = A0;
+const char ECHO_PIN     = A1;
 
-3. Add needed code in function `getDistance_cm()` to calculate the distance in cm.
+void setup()
+{
+  pinMode(TRIGGER_PIN, OUTPUT);
+  pinMode(ECHO_PIN, INPUT);
+  Serial.begin(9600);
+}
+
+int getPulseWidth_us()
+{
+  digitalWrite(TRIGGER_PIN,HIGH);
+  delayMicroseconds(10); 
+  digitalWrite(TRIGGER_PIN,LOW);
+  return pulseIn(ECHO_PIN, HIGH);
+}
+
+float getDistance_cm()
+{
+  // do distance calculation here...
+  return 0
+}
+void loop()
+{
+  float distance_cm = getDistance_cm();
+  int duration_us = getPulseWidth_us();
+  Serial.println(duration_us);
+  delay(2000);
+}
+```
+: PWM as Digital Input. {#lst:300_PWM_as_Digital_Input}
+
+3. Add needed code in function `getDistance_cm()` to calculate the distance in cm. Also change the `Serial.println(duration_us)` program line to output `distance_cm` value.
 
 ## Questions:
 
@@ -2453,7 +2534,10 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
 > ## Issues:
 > ### <++>
 >
+
 # ANALOG INPUT
+
+In general, controllers are equipped with `Analog to Digital Converters` or short `ADC`. This internal devices converts voltage potencial into numeric value which can be further used by written program. This is also the case in Arduino UNO converter by the function `analogRead(pin_number)`. In this case the voltage range $[0.0\ V .. +5.0\ V]$ is converted in to range of numbers $[0 .. 1024]$.
 
 ## Tasks:
 
@@ -2462,7 +2546,7 @@ Table: Connestion of ultrasonic distance sensor. {#tbl:con_ultrason}
 
 ![Mounting possition of analog distance sensor.](https://img.youtube.com/vi/ELYsyuhbQfY/maxresdefault.jpg){#fig:distance_sen}
 
-3. Copy & Paste next program and check the output of distance sensor in Serial monitor.
+3. Try next [@lst:310_Analog_Input] and check the output of distance sensor in Serial monitor.
 
 ```cpp
 const int DIST_SEN_PIN = A0;
@@ -2471,26 +2555,34 @@ void setup()
   pinMode(DIST_SEN_PIN, INPUT);
   Serial.begin(9600);
 }
+
 void loop()
 {
-  int distance = analogRead(DIST_SEN_PIN);
-  Serial.println(distance);
+  int adc_value = analogRead(DIST_SEN_PIN);
+  Serial.println(adc_value);
   delay(1000);
 }
 ```
-: Measuring analog voltage. {#lst:adc_measurement}
+: Analog Input. {#lst:310_Analog_Input}
 
-4. From the [datasheet](https://www.farnell.com/datasheets/1657845.pdf) for the distance sensor try to code the function for measuring the distance in cm. According to documentation there is almost linear trend between output voltage and $distance^{-1}$. Thus we can get good result with [@eq:calc_disd].
+4. Convert the `analog_sensor_value` into `input_voltage` and measure the input voltage potencial with volt-meter. The formula for conversion can be programmed as:
 
-$$ distance^{-1}[cm] = 0.045 V_{out} $${#eq:calc_disd}
+```cpp
+float input_voltage = 5.0/1024 * adc_value;
+```
 
-Next example can be your guide to code the function.
+5. From the [datasheet](https://www.farnell.com/datasheets/1657845.pdf) for the distance sensor try to code the function for measuring the distance in cm. According to documentation there is almost linear trend between output voltage and $distance^{-1}$. Thus we can get good result with [@eq:calc_disd].
+
+    $$ distance^{-1}[cm] = 0.045 V_{out} $${#eq:calc_disd}
+
+    Next example can be your guide to code the function.
 
 ```cpp
 float getDistance_cm()
 {
-  int volt_out = analogRead(DIST_SEN_PIN);
-  float distance = 1/(0.045 * volt_out);
+  int adc_value = analogRead(DIST_SEN_PIN);
+  float input_voltage = 5.0/1024 * adc_value;
+  float distance = 1/(0.045 * input_voltage);
   return distance;
 }
 ```
@@ -2512,7 +2604,7 @@ float getDistance_cm()
 > 
 > ADC is an electronic sistem that converts analog signal (voltage) to a
 > digitalized values. In our particular case the range of an analog
-> voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
+> voltage from 0V to 5V is converted to range of numbers from 0 to 1024.
 > 
 > ## Issues:
 > 
@@ -2531,32 +2623,39 @@ obstacles.
 2.  \... the robot can drive forward.
 3.  \...else \... the robot must to stop/go back/turn.
 
+```cpp
+#include "RobotMovingFunctions.h"
+const int DIST_SEN_PIN   = A0;
+const int DISTANCE_LIMIT = 20;
+void setup()
+{
+  setIOpins();
+  pinMode(DIST_SEN_PIN,INPUT);
+}
+float getDistance_cm()
+{
+  int adc_value  = analogRead(DIST_SEN_PIN);
+  float distance = 1/(0.045 * 5.0/1024 * adc_value);
+  return distance;
+}
+void loop()
+{
+  if ( getDistance_cm() > DISTANCE_LIMIT )
+  {
+    moveForward();
+  }
+  else
+  {
+    stopTheRobot();
+  }
+}
+```
+: Avoiding Obstacles. {#lst:320_Avoiding_Obstacles}
+
 ## Questions:
 
 1. What are the values of the distance sensor (use `Serial.println(distance)` to verify)?
 2. Robot stil hits the obstacles that are not in view angle of the distance sensor. Write and use new function for moving the robot forward more carefully.
-
-```cpp
-const int LIGHT_SENSOR_PIN = A0;
-const int DISTANCE_LIMIT = 20;
-void setIOpins();
-float getDistance_cm();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
-void loop() {
-  if ( getDistance_cm() > DISTANCE_LIMIT){
-    robotForward();
-  } else {
-    robotStop();
-  }
-}
-[+]void setup() { ...
-```
-: Avoiding obstacles. {#lst:obstacle_avoid}
 
 > ## Summary:
 > 
@@ -2600,18 +2699,21 @@ void goForwardCarefully()
 
 ```cpp
 const int LIGHT_SENSOR_PIN = A0;
-void setup() {
-    pinMode(LIGHT_SENSOR_PIN , INPUT);
-    Serial.begin(9600);
+
+void setup()
+{
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
+  Serial.begin(9600);
 }
 
-void loop() {
-    int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-    Serial.println(light_sensor_value );
-    delay(200);
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  Serial.println(light_sensor_value );
+  delay(200);
 }
 ```
-: Light sensor testing. {#lst:light_sen_test}
+: Ligth Sensor. {#lst:330_Ligth_Sensor}
 
 2. Try different resistors (1k, 10k, 100k, 1M) and find out at which the sensitivity of the sensor is greatest.
 
@@ -2664,41 +2766,41 @@ Table: Testing the sensitivity of the light sensor. {#tbl:sensor_sensitivity}
 
 ## Tasks:
 
-1. Write the program to control the robot follow the line ( actually above the edge between black and white area ). Some programming hints you can find in example:
+1. Write the program to control the robot follow the line ( actually above the edge between black and white area ). Some programming hints you can find in [@lst:340_Line_Follower] :
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
+const int SURFACE_BRIGHTNESS_REFERENCE = 400;
+
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
+}
 
 void loop()
 {
   int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-  if ( light_sensor_value < treshold_value ){
-      // do this if robot is over the black line
+  if ( light_sensor_value < treshold_value )
+  {
+    // do this if robot is over the black line
 
-  } else {
-      // do this if robot is over white area
+  }
+  else
+  {
+    // do this if robot is over white area
      
   }
 }
-
-void setup() {
-  setIOpins();
-}
-...
 ```
-: Simple line-follower program. {#lst:prg-line}
+: Line Follower. {#lst:340_Line_Follower}
 
 ## Questions:
 
 1.  What is the program function to get the `light_sensor_value`?
 2.  Determine the movements of the robot if the robot is over the black
     area and if the robot is over the white area.
-
 
 > ## Summary:
 > 
@@ -2730,40 +2832,63 @@ can be on a scale of 0 - 255., where 0 is 0% and 255 is 100% of electrical power
 ## Tasks:
 
 1. Write new functions for driving the robot left and right with reduced power of the motors:
-    - `robotLeftPWM();`
-    - `robotRightPWM();`
+    - `moveLeftPWM();`
+    - `moveRightPWM();`
+
     In one case you will might find yourself in trouble of controlling the power of the motor since
     both pins are not able to perform `PWM` output. In this case you can remember that the motor's
     power is 0 W also if both pins are in state of logical `1`.
-2. Also add `analogWrite(LEFT_MOTOR_PIN_A, 0);` to function `robotStop()` to stop the `PWM` control
-    of the motor. And do similar for the `right motor`.
-3. Change the functions `robotLeft()` and `robotRight()` in S-R-A loop with new ones with less power
-    on motors.
-4. Add a parameter `PWM_value` to each function to set the `duty cicle` of the controlled output.
-    - `robotLeftPWM(int PWM_value)`
-    - `robotRightPWM(int PWM_value)`
+
+    An example of reducing power of both motors in function `moveForwardPWM()` is here:
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
+void robotForwardPWM()
+{
+  digitalWrite( LEFT_MOTOR_PIN_1, LOW);
+  analogWrite(  LEFT_MOTOR_PIN_2, 150);
+  digitalWrite( RIGHT_MOTOR_PIN_1, LOW);
+  analogWrite(  RIGHT_MOTOR_PIN_2, 150);
+}
+```
+
+   Similar to this function you can write other functions to.
+
+2. Change the functions `moveLeft()` and `moveRight()` in S-R-A loop with new ones with less power
+    on motors.
+
+```cpp
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
 const int SURFACE_BRIGHTNESS_REFERENCE = 400;
 
-void loop() {
-    int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
-    if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
-        robotLeft();
-    } else {
-        robotRight();
-    }
-    delay(10);
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
-[+] void setup() {...
+
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE ){
+      moveLeft();
+  } else {
+      moveRight();
+  }
+  delay(10);
+}
 ```
-: Line-follower with PWM control. {#lst:line_follower}
+: PWM motor control. {#lst:350_PWM_motor_control}
+
+3. Also add `analogWrite(LEFT_MOTOR_PIN_A, 0);` to function `stopTheRobot()` to stop the `PWM` control
+    of the motor. And do similar code for the `right motor`.
+
+4. Add a parameter `PWM_value` to each function to set the `duty cicle` of the controlled output.
+    - `moveLeftPWM(int PWM_value)`
+    - `moveRightPWM(int PWM_value)`
+
+5. Save `moveRightPWM(int PWM_value)` and `moveLeftPWM(int PWM_value)` functions into header file `RobotMovingFunctions.h`
+
 
 ## Questions:
 
@@ -2800,39 +2925,41 @@ void loop() {
 3. What is the purpose of the prog. instr. exit(0); ?
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
+#include "RobotMovingFunctions.h"
+const int LIGHT_SENSOR_PIN = A0;
+const int SURFACE_BRIGHTNESS_REFERENCE = 400;
 int time_on_black = 0;
 int time_on_white = 0;
 
-void loop() {
-  int lightSensorValue= analogRead(A1);
-  if ( lightSensorValue < 400 ){
-                       // BLACK area
-    robotLeft();
-    time_on_white = 0; // reset time on white
-    time_on_black++;   // meas. time on black
-    delay(100);
-  } else {
-                       // WHITE area
-    robotRight();
-                       // Do similar meas.
-                       // of time on white
- 
-    delay(100);
-                       // If time is signif.
-                       // longer:
-                       // robotStop();exit(0);
-  }
+void setup()
+{
+  setIOpins();
+  pinMode(LIGHT_SENSOR_PIN , INPUT);
 }
-[+] void setup() { ...
+void loop()
+{
+  int light_sensor_value = analogRead(LIGHT_SENSOR_PIN );
+  if ( light_sensor_value < SURFACE_BRIGHTNESS_REFERENCE )
+  {
+    // BLACK area
+    moveLeft();
+    time_on_white = 0;  // reset time on white
+    time_on_black++;    // meas. time on black
+    delay(100);
+  }
+  else
+  {
+    // WHITE area
+    moveRight();
+    // Do similar meas.
+    // of time on white
+    delay(100); 
+    // If time is signif. longer:
+    //        robotStop();exit(0);
+  }
+}
 ```
-: End line tun. {#lst:end_ln_turn}
+: Edn of Line Detection. {#lst:360_Edn_of_Line_Detection}
 
 > ## Summary:
 > ### <++>

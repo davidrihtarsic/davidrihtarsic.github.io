@@ -1,5 +1,0 @@
-/* TASK:
-
-QUESTIONS:
-
-READ MORE:

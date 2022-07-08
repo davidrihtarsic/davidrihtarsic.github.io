@@ -8,58 +8,79 @@ type varialble_name = value;
 
 With next example we will solve the problem how to make light blinking while the robot is driving in reverse.
 
-## Task: USEFULNESS of VARIABLES
+## Task: USING VARIABLES
 
-1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test next example.
+1. Start with this example of driving the robot for 3s forward and then for 3s backward. Test program example in [@lst:250_Variables_and_Data_Types]. Then try to add some code to blink the light while the robot is driving backward.
 
 ```cpp
-void setIOpins();
-void robotForward();
-void robotStop();
-void robotLeft();
-void robotRight();
-void robotBackward();
-
+#include "RobotMovingFunctions.h"
 void setup()
-  {
-     setIOs();
-   
-     robotForward();
-     delay(3000);
-     robotBackward();
-     deay(3000);
-     robotStop();
-   }
-[+]void loop() { ...
-```
-: Driving the robot forward for 3s. {#lst:drive_fwd}
+{
+  setIOpins();
 
-2. Change the 14th line `delay(3000)` in previous example into `for-nex loop` with 10 repetition, but with the same overall duration.
+  moveForward();
+  delay(3000);
+  moveBack();
+  deay(3000);
+  stopTheRobot();
+}
+void loop()
+{
+}
+```
+: Variables and Data Types. {#lst:250_Variables_and_Data_Types}
+
+2. As you probably find out you have to divide the duration of 3000 ms into smaller durations and meanwhile controlling the light output. This can be done with`for-next` loop which repeats 10 times.
+
+    Change the $9^{th}$ line `delay(3000)` in previous example into `for-next` loop with 10 repetition, but with the same overall duration of 3000 ms.
 
 ```cpp
+...
+moveBack();
 for (int i = 0; i < 10; i++)
 {
-  delay(300);
+  delay(150);
+  delay(150);
 }
+stopTheRobot();
+...
 ```
 
 3. Add some code for blinking the LED in the `for-next loop` during the robot is driving backward.
+
+    > Don't forget to set the REVERSE_LIGHT_PIN value and its `pinMode(...)`.
+
+```cpp
+...
+moveBack();
+for (int i = 0; i < 10; i++)
+{
+  digitalWrite(REVERSE_LIGHT_PIN, HIGH);
+  delay(150);
+  digitalWrite(REVERSE_LIGHT_PIN, LOW);
+  delay(150);
+}
+stopTheRobot();
+...
+```
+
 4. More advanced way to do a time conditioned loop is shown in next example:
 
 ```cpp
-robotBackward();
+...
+robotBack();
 unsigned long start_time = millis();
 int time_diff = 0;
 while (time_diff < 3000)
 {
-  digitalWrite(3,HIGH);
+  digitalWrite(REVERSE_LIGHT_PIN,HIGH);
   delay(150);
-  digitalWrite(3,LOW);
+  digitalWrite(REVERSE_LIGHT_PIN,LOW);
   delay(150);
   unsigned long now = millis();
   time_diff = now - start_time;
 }
-robotStop();
+stopTheRobot();
 ```
 
 ## Questions:

@@ -1,5 +1,7 @@
 # ANALOG INPUT
 
+In general, controllers are equipped with `Analog to Digital Converters` or short `ADC`. This internal devices converts voltage potencial into numeric value which can be further used by written program. This is also the case in Arduino UNO converter by the function `analogRead(pin_number)`. In this case the voltage range $[0.0\ V .. +5.0\ V]$ is converted in to range of numbers $[0 .. 1024]$.
+
 ## Tasks:
 
 1. Unmount robot's bumper and all connections to the switch.
@@ -7,7 +9,7 @@
 
 ![Mounting possition of analog distance sensor.](https://img.youtube.com/vi/ELYsyuhbQfY/maxresdefault.jpg){#fig:distance_sen}
 
-3. Copy & Paste next program and check the output of distance sensor in Serial monitor.
+3. Try next [@lst:310_Analog_Input] and check the output of distance sensor in Serial monitor.
 
 ```cpp
 const int DIST_SEN_PIN = A0;
@@ -16,26 +18,34 @@ void setup()
   pinMode(DIST_SEN_PIN, INPUT);
   Serial.begin(9600);
 }
+
 void loop()
 {
-  int distance = analogRead(DIST_SEN_PIN);
-  Serial.println(distance);
+  int adc_value = analogRead(DIST_SEN_PIN);
+  Serial.println(adc_value);
   delay(1000);
 }
 ```
-: Measuring analog voltage. {#lst:adc_measurement}
+: Analog Input. {#lst:310_Analog_Input}
 
-4. From the [datasheet](https://www.farnell.com/datasheets/1657845.pdf) for the distance sensor try to code the function for measuring the distance in cm. According to documentation there is almost linear trend between output voltage and $distance^{-1}$. Thus we can get good result with [@eq:calc_disd].
+4. Convert the `analog_sensor_value` into `input_voltage` and measure the input voltage potencial with volt-meter. The formula for conversion can be programmed as:
 
-$$ distance^{-1}[cm] = 0.045 V_{out} $${#eq:calc_disd}
+```cpp
+float input_voltage = 5.0/1024 * adc_value;
+```
 
-Next example can be your guide to code the function.
+5. From the [datasheet](https://www.farnell.com/datasheets/1657845.pdf) for the distance sensor try to code the function for measuring the distance in cm. According to documentation there is almost linear trend between output voltage and $distance^{-1}$. Thus we can get good result with [@eq:calc_disd].
+
+    $$ distance^{-1}[cm] = 0.045 V_{out} $${#eq:calc_disd}
+
+    Next example can be your guide to code the function.
 
 ```cpp
 float getDistance_cm()
 {
-  int volt_out = analogRead(DIST_SEN_PIN);
-  float distance = 1/(0.045 * volt_out);
+  int adc_value = analogRead(DIST_SEN_PIN);
+  float input_voltage = 5.0/1024 * adc_value;
+  float distance = 1/(0.045 * input_voltage);
   return distance;
 }
 ```
@@ -57,7 +67,7 @@ float getDistance_cm()
 > 
 > ADC is an electronic sistem that converts analog signal (voltage) to a
 > digitalized values. In our particular case the range of an analog
-> voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
+> voltage from 0V to 5V is converted to range of numbers from 0 to 1024.
 > 
 > ## Issues:
 > 

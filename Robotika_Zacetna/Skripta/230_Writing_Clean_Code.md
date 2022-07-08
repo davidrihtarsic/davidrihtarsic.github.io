@@ -11,34 +11,68 @@ In general you can follow some rules:
 
 to make your code clean.
 
-## Tasks:
-
-1. Change your code to look like:
+Our aim is to write more readable code like in [@lst:230_Writing_Clean_Code]:
 
 ```cpp
+#include "RobotMovingFunctions.h"
 void setup()
 {
   setIOpins();
   moveForward();
   delay(3000);
-  robotStop();
+  stopTheRobot();
 }
 
 void loop()
 {
+
 }
 ```
-: Clean code of moving forward program. {#lst:move_fwd_cleaned}
+: Writing Clean Code. {#lst:230_Writing_Clean_Code}
+... we will do it in several steps.
 
-2. Write programming functions for moving the robot in several dirrections:
+## Tasks:
+
+1. Write programming functions for moving the robot in several dirrections:
     1. `moveForward()`,
     2. `moveLeft()`,
     3. `moveRight()`,
     4. `moveBackward()`,
-    5. `robotStop()`.
+    5. `stopTheRobot()`.
 
-3. Save all the functions into header file:
-  `RobotMovingFunctions.h`
+2. Save all the functions into header file:
+  `RobotMovingFunctions.h`. An example of header file is shown in [@lst:Header_file_example_of_Robot_moving_functions]
+
+```cpp
+/****************************
+ * IO pins of the Robot
+ ***************************/
+const int LEFT_MOTOR_PIN_1  = 7;
+const int LEFT_MOTOR_PIN_2  = 6;
+const int RIGHT_MOTOR_PIN_2 = 5;
+const int RIGHT_MOTOR_PIN_1 = 4;
+/****************************
+ * Function declarations
+ ***************************/
+void setIOpins();
+void moveForward();
+/****************************
+ * Function definitions
+ ***************************/
+void setIOpins(){
+  pinMode( LEFT_MOTOR_PIN_1, OUTPUT);
+  pinMode( LEFT_MOTOR_PIN_2, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_1, OUTPUT);
+  pinMode(RIGHT_MOTOR_PIN_2, OUTPUT);
+}
+void moveForward(){
+  digitalWrite( LEFT_MOTOR_PIN_1, LOW);
+  digitalWrite( LEFT_MOTOR_PIN_2, HIGH);
+  digitalWrite(RIGHT_MOTOR_PIN_1, LOW);
+  digitalWrite(RIGHT_MOTOR_PIN_2, HIGH);
+}
+```
+: Header file example of Robot moving functions. {#lst:Header_file_example_of_Robot_moving_functions}
 
 ## Questions:
 

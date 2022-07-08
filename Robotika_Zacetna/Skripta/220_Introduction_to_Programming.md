@@ -21,10 +21,11 @@ Table: Motors connections to RobDuino Output pins. {#tbl:motors_to_RobDuino}
 
 ## Questions:
 
-You probably ended up with something like this:
+You probably ended up with something like [@lst:220_Introduction_to_Programming]:
 
 ```cpp
-void setup() {
+void setup()
+{
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
   pinMode(6, OUTPUT);
@@ -43,10 +44,12 @@ void setup() {
   digitalWrite(4, LOW);
 }
 
-void loop() {
+void loop()
+{
+
 }
 ```
-: Move the robot forward. {#lst:move_fwd}
+: Introduction to Programming. {#lst:220_Introduction_to_Programming}
 
 1. Is this code "easy readable"?
 2. Why is readable code important?
