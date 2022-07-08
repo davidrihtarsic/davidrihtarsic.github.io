@@ -24,7 +24,7 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 ---
 
-- [06.0 - HelloWorld in Ardublockly](060_HelloWorld_in_Ardublockly.md) - [PDF](060_HelloWorld_in_Ardublockly.pdf)
+- [06.0 - Hello World in Ardublockly](060_Hello_World_in_Ardublockly.md) - [PDF](060_Hello_World_in_Ardublockly.pdf)
 - [07.0 - How DC Motor Works](070_How_DC_Motor_Works.md) - [PDF](070_How_DC_Motor_Works.pdf)
 - [08.0 - DC Motor Control with Digital Outputs](080_DC_Motor_Control_with_Digital_Outputs.md) - [PDF](080_DC_Motor_Control_with_Digital_Outputs.pdf)
 - [09.0 - Gear Reducer](090_Gear_Reducer.md) - [PDF](090_Gear_Reducer.pdf)
@@ -38,7 +38,7 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 ---
 
-- [17.0 - HelloWorld in ArduinoIDE](170_HelloWorld_in_ArduinoIDE.md) - [PDF](170_HelloWorld_in_ArduinoIDE.pdf)
+- [17.0 - Hello World in ArduinoIDE](170_Hello_World_in_ArduinoIDE.md) - [PDF](170_Hello_World_in_ArduinoIDE.pdf)
 - [18.0 - How DC Motor Works](180_How_DC_Motor_Works.md) - [PDF](180_How_DC_Motor_Works.pdf)
 - [19.0 - DC Motor Control with Digital Outputs](190_DC_Motor_Control_with_Digital_Outputs.md) - [PDF](190_DC_Motor_Control_with_Digital_Outputs.pdf)
 - [20.0 - Gear Reducer](200_Gear_Reducer.md) - [PDF](200_Gear_Reducer.pdf)
