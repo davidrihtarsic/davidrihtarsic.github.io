@@ -56,8 +56,8 @@ void loop()
 ```cpp
 if (value_one) statement1;
 ```
-> In this case `value_one` must be `true` (logical `1`) or `false` (logical `0`). If `value_one` is `true` or `1` the program will execute `statement1`.
-> But this simple example is not used so often due its simplicity. We rather use if in
+> In this case the variable named `value_one` can hold some numerical number. If `value_one` is `true` or greater than `0` the program will execute `statement1`.
+> But this simple example is not used so often due its simplicity. We rather use it in
 > this form:
 ```cpp
 if ( value_one == value_two ){
@@ -65,7 +65,7 @@ if ( value_one == value_two ){
   statement2;
 }
 ```
-> In that case `value_one` can be any number and the `statement1` and `statement2` will be executed if the `value_one` will be equal to `value_two`. These command can be expanded into IF-ELSE form:
+> In this case `value_one` can be any number and the `statement1` and `statement2` will be executed if the `value_one` will be equal to `value_two`. These command can be expanded into IF-ELSE form:
 ```cpp
 if ( value_one == value_two ){
   statement1;

@@ -4,7 +4,7 @@ Digital inputs can only measure 2 different values. As such they are binary inpu
 
 Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
 
-![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
+![Different options of wireing the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
 
 ## Tasks:
 
