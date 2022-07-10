@@ -15,7 +15,7 @@ is involved during the procedure of controlling the robot. This is the most impo
     2.  \... Is pressed the robot has to stop/go back/turn.
     3.  \... Is not pressed the robot can drive forward.
 
-    Test the [@lst:270_SRA_Loop] and **find out why the program is not working** (can aou fix it):
+    Test the [@lst:270_SRA_Loop] and **find out why the robot does not stop.** (Such mistake is quite often - can you fix it):
 
 ```cpp
 #include "RobotMovingFunctions.h"

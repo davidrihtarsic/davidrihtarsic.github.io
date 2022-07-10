@@ -301,5 +301,5 @@ void setup()
 > `#define` is textual replacement, so it is as fast as it can get. Also it can save some RAM. The downside is that it's not type-safe.
 >
 > `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
-
 >
+
