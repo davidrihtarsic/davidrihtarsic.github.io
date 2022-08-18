@@ -33,6 +33,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 # INSTALLATION
 
+- [linux image](installation_image.md)
 - [disk partirioning](disk_partitioning.md)
 - [mounting]()-to-do
 - [RPM packages](prm_install.md)
@@ -69,7 +70,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 ## UTILITY PROGRAMS
 
 -  AWK
-- [auto-cpufreq](auto-cpufreq.md) - power management
+- [auto-cpufreq](auto_cpufreq.md) - power management
 - [convert](convert.md) - glavne funkcije na sliki (resize, flip, flop ...)
 - [cpp](cpp.md) - programiranje v c-ju ali bolje v c++
 - [ffmpeg](ffmpeg.md) - manipulacija multimedijskih vsebin (video zvok convert snemanje)
@@ -119,6 +120,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [ngspice](ngspice.md) - open source spice simulator
 - [Fritzing](Fritzing.md) - Sestavljanje elektronskih vezij
 - [FreeCAD](FreeCAD.md) - Program za parametrično modeliranje
+- [KiCAD](KiCAD.md) - Načrtovanje elektronskih vezij in simulacija
 - [QCAD](QCAD.md) - 2D risanje tehnične dokumentacije
 - [CURA](IRA3d.md) - 3D slicer za 3D print
 - [Thunderbird](Thunderbird.md) - Elektronska pošta

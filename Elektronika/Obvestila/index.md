@@ -5,6 +5,11 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+**2022-08-16: Jesenski izpit**  
+- [Ocene izpita iz vaj, rok 16.08.2022](./2022-08-17_vaje-izpit.md )
+- [Ocena poročil](./2022-08-17_vaje-poročila.md)
+
+---
 **2022-06-29: KONČNI REZULTATI**  
 - [Končni rezultati vaj](./2022-06-29_vaje-k.o..md)
 

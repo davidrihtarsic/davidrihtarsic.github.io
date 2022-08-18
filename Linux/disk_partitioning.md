@@ -1,4 +1,4 @@
-# Disk partitioning
+2 Disk partitioning
 
 V bistvu imam dve particji
 

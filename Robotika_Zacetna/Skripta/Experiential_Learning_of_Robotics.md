@@ -1882,8 +1882,8 @@ void setup()
 > `#define` is textual replacement, so it is as fast as it can get. Also it can save some RAM. The downside is that it's not type-safe.
 >
 > `const` variables may or may not be replaced inline in the code. It is guaranteed to be type-safe though since it carries its own type with it.
-
 >
+
 # PROGRAMMING LOOPs: FOR-NEXT & DO-WHILE
 
 It is very often needed, that we want to repeat some part of code several times. In that case we can use programming loops where we can specify which code should be repeated. In general there are two very often situation where we are using the programming loops:
@@ -2234,8 +2234,8 @@ void loop()
 ```cpp
 if (value_one) statement1;
 ```
-> In this case `value_one` must be `true` (logical `1`) or `false` (logical `0`). If `value_one` is `true` or `1` the program will execute `statement1`.
-> But this simple example is not used so often due its simplicity. We rather use if in
+> In this case the variable named `value_one` can hold some numerical number. If `value_one` is `true` or greater than `0` the program will execute `statement1`.
+> But this simple example is not used so often due its simplicity. We rather use it in
 > this form:
 ```cpp
 if ( value_one == value_two ){
@@ -2243,7 +2243,7 @@ if ( value_one == value_two ){
   statement2;
 }
 ```
-> In that case `value_one` can be any number and the `statement1` and `statement2` will be executed if the `value_one` will be equal to `value_two`. These command can be expanded into IF-ELSE form:
+> In this case `value_one` can be any number and the `statement1` and `statement2` will be executed if the `value_one` will be equal to `value_two`. These command can be expanded into IF-ELSE form:
 ```cpp
 if ( value_one == value_two ){
   statement1;
@@ -2290,7 +2290,7 @@ is involved during the procedure of controlling the robot. This is the most impo
     2.  \... Is pressed the robot has to stop/go back/turn.
     3.  \... Is not pressed the robot can drive forward.
 
-    Test the [@lst:270_SRA_Loop] and **find out why the program is not working** (can aou fix it):
+    Test the [@lst:270_SRA_Loop] and **find out why the robot does not stop.** (Such mistake is quite often - can you fix it):
 
 ```cpp
 #include "RobotMovingFunctions.h"
@@ -2344,7 +2344,7 @@ Digital inputs can only measure 2 different values. As such they are binary inpu
 
 Lets go back to fundamentals of digital inputs and explore some options we have to connect a push-button-switch.
 
-![Different options of wireing of the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
+![Different options of wireing the bush-button-switch.](./slike/PBSw_All.png){#fig:PBSw_All}
 
 ## Tasks:
 
