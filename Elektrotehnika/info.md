@@ -24,12 +24,13 @@ Vaje iz elektrotehnike potekajo v 1. letniku smeri Ma-Te in 2. letniku Fi-Te, Ra
 ### Poročila vaj
 
 Vsako poročilo vaje naj vsebuje:
-    - Označbo vaje (številke poglavij in pod-poglavij),
-    - navodilo vaje s pripadajočimi shemami el. vezij,
-    - predstavitev meritev,
-    - čitljive izračune (označbe, enote), ki se nanašajo na izreke in zakone,
-    - dosledno izrisane grafe (naslov, mrežne črte, označeni osi, skala, enote),
-    - kratko, jedrnato poročilo o vaji (namen, potek, zaznane napake ... )
+
+- Označbo vaje (številke poglavij in pod-poglavij),
+- navodilo vaje s pripadajočimi shemami el. vezij,
+- predstavitev meritev,
+- čitljive izračune (označbe, enote), ki se nanašajo na izreke in zakone,
+- dosledno izrisane grafe (naslov, mrežne črte, označeni osi, skala, enote),
+- kratko, jedrnato poročilo o vaji (namen, potek, zaznane napake ... )
 
 Izdelana poročila študent odda na pred razpisanim rokom v VIS sistemu. Naloge se ocenjujejo po trojiškem sistemu (0, ¹/₂ in 1 točka) za vsako zahtevano nalogo. Če je vaja ocenjena z **0 točk**, jo mora študent **popraviti**. Opis vseh nalog za izdelavo poročil lahko najdete v skripti iz vaj.
 

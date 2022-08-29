@@ -120,9 +120,7 @@ Te spremenljivke določimo zato, da bodo if-stavki bolj berljivi. Samo spremenlj
 
 ```cpp
 stikaloJeSklenjeno = digitalRead(3);
-if (stikaloJeSklenjeno) {
-  digitalWtire(3, HIGH);
-}
+if (stikaloJeSklenjeno) digitalWtire(3, HIGH);
 ```
 
 ### Kakšna so naša pričakovanja glede programske kode?

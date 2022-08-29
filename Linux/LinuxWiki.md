@@ -34,7 +34,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 # INSTALLATION
 
 - [linux image](installation_image.md)
-- [disk partirioning](disk_partitioning.md)
+- [disk partirioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
 - [mounting]()-to-do
 - [RPM packages](prm_install.md)
 - [pacman](pacman.md)
