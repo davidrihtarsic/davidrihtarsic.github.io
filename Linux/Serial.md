@@ -1,9 +1,19 @@
 # Serial communication
 
-
 ## Minicom
 
 minicom -D /dev/ttyS0
+
+### incomming newline char not implemented
+
+> set the carrige ret:
+    Ctrl-A Z , UA
+
+> to pemanent sulution:
+    put in `etc/minicr.dfl`
+
+    pu addcarreturn    Yes
+
 
 ## SOCAT
 
