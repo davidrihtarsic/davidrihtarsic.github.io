@@ -59,6 +59,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [shell_processing](shell_processing.md)
 - [zsh](zsh.md)
 - [journal](journal.md) - Read Linux log file...
+- [/usr/lib](libraries.md) - fixing libraries
 
 ## TERMINAL EMULATOR
 
