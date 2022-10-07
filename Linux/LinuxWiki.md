@@ -129,7 +129,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [sigrok](PulseView.md) - Knjižnice za PulseView
 - [SimulIDE](SimulIDE.md) - Simuliranje elektronskih vezij, tudi krmilnikov Arduino
 - [Siril](Siril.md) - Progam za obdelavo slik v astronomiji (stacking photos)
-- [Statistics with pandas](Pandas.md)
+- [Statistics with pandas](gandas.md)
 - [wine](wine.md) - Program for executing win programs
 
 # HARDWARE

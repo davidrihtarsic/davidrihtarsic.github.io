@@ -36,7 +36,7 @@ Navadno, ko vse dela je status od NetworkManager-ja takšen:
 >      Memory: 21.4M
 >      CGroup: /system.slice/NetworkManager.service
 >              └─411 /usr/bin/NetworkManager --no-daemon
-> 
+>
 > [1613716322.9445] dhcp4 (enp0s20f0u4u1): option requested_time_offset => '1'
 > [1613716322.9445] dhcp4 (enp0s20f0u4u1): option requested_wpad       => '1'
 > [1613716322.9445] dhcp4 (enp0s20f0u4u1): option routers              => '192.168.0.1'
@@ -51,3 +51,18 @@ Navadno, ko vse dela je status od NetworkManager-ja takšen:
 Mogoče bi poskusil resetirat NetworkManager.service ? (morda prej poglej kakšen je status)
 
     systemctl restart NetworkManager.service
+
+## Prioriteta povezave
+
+NetworkManager ima tudi grafični vmesnik `nm-connection-editor`
+kjer lahko nastavimo prioriteto posameznih povezav.
+
+- `0` je najvišja povezava
+
+Pot, ki jo povezava vzpostavi je opisana z:
+
+    ip route get 8.8.8.8
+
+> 8.8.8.8 via 192.168.0.1 dev enp4s0 src 192.168.0.17 uid 1000
+>     cache
+
