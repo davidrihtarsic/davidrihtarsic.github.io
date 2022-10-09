@@ -10,7 +10,7 @@ Velika večina učnega procesa bo sledila učnemu gradivi iz predmeta `Zgodnje u
 
 ## EXPERIENTIAL LEARNING OF ROBOTICS
 
-- [Experiential Learning of Robotics](./Experiential_Learning_of_Robotics.md), [PDF](./Experiential_Learning_of_Robotics.pdf).
+- [Experiential Learning of Robotics](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/)
 
 ---
 

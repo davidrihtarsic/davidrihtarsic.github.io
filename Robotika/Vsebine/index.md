@@ -8,6 +8,7 @@
 ---
 ## Učne vsebine
 
+- [Experiental Learning of Robotics](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/)
 - [Skripta za študente PeF](../Skripta/index.md)
 - [Poletna šola robotike](./PoletnaSolaRobotike/RoboticsStarterCourse.html)
 
