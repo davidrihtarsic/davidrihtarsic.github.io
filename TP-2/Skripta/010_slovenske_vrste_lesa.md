@@ -114,5 +114,7 @@ Navedite glavne lastnosti lesa:
     - večji, širši (tudi po 100 vzporednih par. cel.)
     - in več jih je kot pri iglavcih.
 
+## Reference
 
+- glej tudi: [Slovenske vrste lesa](./011_Les_SlovenskeVrsteLesa.pdf)
 

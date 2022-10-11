@@ -141,6 +141,8 @@ Prerezi:
 - vzdolžni
 - tangencialni
 
+> Prepoznaj smer prereza pri naslednjih slikah [link](https://www.wood-database.com/softwoods/pinaceae/abies/)
+
 ### Prečni prerez
 
 - letnica
