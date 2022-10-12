@@ -116,27 +116,51 @@ Vsota vseh treh kotov je enaka 90°, kar pomeni, da vsaka sprememba enega kota, 
 
 - [oblika zob za prečni razrez](https://youtu.be/UA5DixEaaUo?t=566)
 
-
-
+\newpage
 > ### NALOGA: Uporaba ročne žage  
-> 1. V poročilo narišite vsaj dve različni obliki zob in jim določite značilne karakteristike:
-> - delitev (t)
-> - višina zob (d)
-> - prosti kot (alpha)
-> - kot klina (beta)
-> - cepilni kot (gama)
-> - razperitev
+> 1. V poročilo narišite vsaj dve različni obliki zob in jim določite značilne karakteristike (lahko tudi slikate in sliko povečate, ter nato prerišite ozobljenje):
+> - delitev (v TPI)
+> - prosti kot ($\alpha$)
+> - kot klina ($\beta$)
+> - cepilni kot ($\gamma$)
+> - razperitev (v mm)
 >
-> 2. Žage z različnimi zobni preskusite na obdelovancih s po tremi rezi v različnih situacijah lahko naredite tudi matriko 2x2 in v vsak kvadratek opišite:
+> 2. Opišite tehnike žaganja z ročno žago (kjer ste dosegli najboljše rezultate), pri odrezovanju polizdelka na dolžino (prečno na vlakna) in preverite pravokotnost odreza.
 >
-> - trd/mehak les
-> - vzdolžni/prečni rez
+> Opredelite/opišite:
 >
-> Pozorno spremljajte:
+> - prijem žage,
+> - postavitev nog, priprava,
+> - začetnem rezu,
+> - vodenje žaginega lista z zarezo,
+> - spremljanje pravokotnosti z odsevom obdelovanca v žaginem listu,
+> - odrezovanje ob šabloni,
+> - obtežbo na hrbtni strani žage
+> - ... (vaša tehnika)
+>
+> 3. Žage z različnimi zobni preskusite na obdelovancih s po tremi odrezi v različnih situacijah:
+>
+> Opišite žago s karakterističnimi podatki in
+> pozorno spremljajte odrezovanje pri:
+>
+> - trdših / mehkejših lesnih vrstah
+> - vzdolžnem / prečniem razrezu
 > - hitrost reza,
 > - izgled robov zareze
 > - vloženi napor (manjši kot klina, večji d, -> večji odrez -> težje)
 > - vodenje žage (razperitev, trenje, kako lahko lovite začrtano črto)
+>
+> - preskusite vse žage (primerjajte tudi podobne žage med seboj)
+> 
+> Lahko si pripravite tudi tabelo:
+>
+
+| Žagin list (ozobljenje, delitev, $\gamma$) | trši les | mehk. les | vzdolž vlaken | prečno na vl. | robovi odreza | sila odr. | vode. žage |
+|:------------------------------------------:|:--------:|-----------|---------------|---------------|---------------|-----------|------------|
+|                                            |          |           |               |               |               |           |            |
+|                                            |          |           |               |               |               |           |            |
+Table: Značilnosti odreza z različnimi žaginimi listi. {#tbl:odrez_ročna_žaga}
+
 
 ### __izdelek__: prislonska peresna letev
 https://www.google.com/search?q=featherboard&tbm=isch
