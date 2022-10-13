@@ -8,7 +8,7 @@
 ---
 # Skripta
 
-[Skripta](./Proj-eltron_2020.pdf)
+[Skripta](./Projekti_iz_elektronike.pdf)
 
 # Seznam vaj
 

@@ -249,7 +249,12 @@ to-do
 kako narediti programator s krmilnikom Arduino NANO
 naredi vajo ki jo opisuje tale stran
 glej: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
+
+./avrdude -C/home/david/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -v -p atmega328p -c arduino -P/dev/ttyUSB0 -b 19200 -t
 -->
+
+
+![Shema povezave krmilnika Arduino nano kot programator s krmilnikom Arduino nano kot ciljno vezje.](./slike/Arduino_as_ISP_s1.png){#fig:Arduino_as_ISP_s1}
 
 # KOMUNIKACIJSKI VMESNIKI
 
@@ -259,7 +264,7 @@ Nekaj več o UART komunikaciji si lahko preberete vsepovsod na
 [svetovnem spletu](https://www.codrey.com/embedded-systems/uart-serial-communication-rs232/). Ker jo uporabljamo
 že več kot pol stoletja, lahko rečemo, da sodi med osnovne komunikacijske protokole.
 
-![Časovni potek napetosti na kominikacijski povezavi.](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/UART_Frame.svg/936px-UART_Frame.svg.png)
+![Časovni potek napetosti na kominikacijski povezavi.](./slike/UART_signal.png)
 
 > ### NALOGA: Osnovni parametri UART protokola
 >
@@ -297,9 +302,33 @@ void loop() {
 > 4. Iz grafa U(t) odčitajte poslano podatkovno vrednost in jo primerjajte z [ASCII tabelo](https://www.asciitable.com/).
 
 ```cpp
-  Serial.print("A");
+  Serial.print("M");
 ```
+<!--
+napetostni signal za črko M
+0.000ms 5V
+1.000ms 5V
+1.001ms 0V
+1.104ms 0V
+1.105ms 5V
+1.208ms 5V
+1.209ms 0V
+1.312ms 0V
+1.313ms 5V
+1.416ms 5V
+1.417ms 5V
+1.520ms 5V
+1.521ms 0V
+1.625ms 0V
+1.626ms 0V
+1.729ms 0V
+1.730ms 5V
+1.833ms 5V
+1.834ms 0V
+1.937ms 0V
+1.938ms 5V
 
+-->
 ## I2C komunikacija
 
 Komunikacija lahko poteka tudi na drugačne načine, na primer med več napravami. Ena
@@ -500,17 +529,128 @@ Tako imenovani “časovnik 555” je integrirano vezje (angl. Integrated circui
 > Integrirano vezje 555 uporabite kot R-S flip-flop. Na izhod integriganega vezja priključite svetlečo diodo, ki bo nakazovala stanje spominske celice. Narišite stikalno shemo vezja.
 
 > ### NALOGA: 555 kot Schmitov sprožilnik
-> Integrirano vezje 555 uporabite kot schmittov sprožilnik. Na vhod priklučite potenciometer, s katerim lahko poljubno izbirate potencial in hkrati opazujte izhodno stanje sprožilnika. Na izhod integriganega vezja priključite svetlečo diodo, ki bo nakazovala stanje spominske celice. 
-> Odvisnost izhodnga potenciala napetosti od vhodnega prikažite tudi na osciloskopu tako, da prikažete obe krivulji.
+> Integrirano vezje 555 uporabite kot schmittov sprožilnik. Na vhod priklučite potenciometer, s katerim lahko poljubno izbirate potencial in hkrati opazujte izhodno stanje sprožilnika. Na izhod integriganega vezja priključite svetlečo diodo, ki bo nakazovala stanje schmittovega sprožilnika.
+>
+> Odvisnost izhodnga potenciala napetosti od vhodnega - U2(U1) prikažite tudi na osciloskopu tako, da prikažete obe krivulji.
+>
 > Narišite stikalno shemo vezja.
 
 > ### NALOGA: 555 kot Astabilni-multivibrator
 > Integrirano vezje 555 uporabite kot astabilni-multivibrator tako, da
-> boste lahko nanj lahko priključili svetlečo diodo, ki jo boste videli
+> boste lahko nanj priključili svetlečo diodo, ki jo boste videli
 > utripati.  Narišite shemo vezja in preverite izhodni napetostni signal z osciloskopom.
 
 > ### NALOGA: 555 kot Monostabilni-multivibrator
 > Integrirano vezje 555 zvežite v način monostabilnega-multivibratorja tako, da ko boste s pritiskom na tipko sprožili en sam pulz, ki bo trajal približno 3 s.
+>
+> Narišite stikalno shemo vezja.
+
+> ### NALOGA: 555 kot generator trikotniškega signala
+> Integrirano vezje 555 uporabite v vlogi generatorja periodičnega signala
+> s trikotniško obliko. Generator lahko naredite tako, da najprej sestavite:
+> - tokovni vir s PNP tranzistorjem, 
+> - ki naj polni kondenzator C1.
+> - Naboj na kondenzatorju naj se izprazni, preko 7. priključka integriganega vezja 555,
+> - ko napetost doseže 2/3 napajalne napetosti.
+>
+> Narišite stikalno shemo in izhodni signal preverite z osciloskopom.
+
+# SEKVENČNA VEZJA
+
+## D-flip-flop
+
+D-flip-flop (D-ff) je pogosto uporabljen predvsem v dveh elektronskih funkcijah:
+- kot nastavitneni/pomnilni register in
+- kot pomikalni register.
+
+D-ff je v obeh funkcijah uporabljen v periferni enoti USART mikrokrmilnika ATmega328. Enota
+USART skrbi za serijsko komunikacijo UART, ki poteka po protokolu RS232. Blokovni prikaz oddajnega
+dela USART enote prikazuje [@fig:UART_block_diagram].
+
+![Blokovni prikaz sestava USART periferne enote krmilnika ATmega328.](./slike/UART_block_diagram.png){#fig:UART_block_diagram height=500px}
+
+Oddajni del (Transmitter) USART enote je v splošnem sestavljen iz pomnilnega registra `UDRn` v katerega shranimo podatek, ki ga želimo poslati. Ta podatek se nato premakne v pomični register `Transmit Shift Register` (`TSR`). Nazadnje se prične faza pomikanja podatka proti serijskemu izhodu pomičnega registra. Med to fazo lahko z novim podatkom nastavimo pomični register `UDRn`. A ponovno nastavljanje registra `TSR` med samim pomikanjem `TSR` registra ni mogoče.
+
+> ### NALOGA: Pomikalni register
+> V simulacijskem programu (SimulIDE) načrtujte:
+> - pomnilni register `UDRn` in
+> - pomični register `TSR`.
+>
+> Oba registra naj boste zgrajena iz D-ff in naj vsebujeta 8 pomnilnih celic (8-bitni register).
+> Krmiljenje napetosti prožitvenih signalov kot so `Enable` in `Clock` lahko zagotovite z napetostnimi viri (5V - on/off).
+
+## T-flip-flop
+
+T-flip-flop (T-ff) je pogosto uporabljen v sekvenčnih vezjih kot:
+- dvojiški števnik in
+- kot delitelj osnovnega urinega takta.
+
+Kot slednja funkcija (deljitelj osnovnega takta) je tudi različica sekvenčnega vezja uporabljena v periferni enoti USART (glej [@fig:UART_block_diagram height=500px] - `Clock Generator`). Glede na to, da lahko z zaporedno vezavo T-ff delimo osnovni takt le s koeficienti: 2, 4, 8, 16 ... tudi razloži, zakaj so pri oddajanju podatkov po UART vodilu na voljo frekvence: 19200, 9600, 4800, 2400 ...
+
+> ### NALOGA: Dvojiški števnik
+> V simulacijskem programu (SimulIDE) sestavite:
+> - 4-bitni dvojiški števnik (kaskadno vezani T-ff),
+> - izhodne signale (D3, D2, D1 in D0) priključite na vhod 
+> - integrirano vezje 74HC4511 (BCD -> 7 seg. LED) in izhode le teh
+> - povežite na 7-segmentni LED prikazovljnik.
+# KRMILJENJE IN REGULACIJA
+
+> ### NALOGA: Krmiljenje moči DC motorja
+> Načrtujete in sestavite vezje za krmiljenje moči enosmernega 
+> motorja. Vezje izvedite z uporabo krmilnaka Arduino nano,
+> ki ga opremite s potenciometrom za nastavljanje želene vrednosti.
+> S funkcijo `analogWrite(pin, val)` krmilite izhod za krmiljenje motorja.
+> Narišite stikalno shemo vezja in
+> podajte celotno programsko kodo krmilnika.
 
 
+> ### NALOGA: Regulacija osvetljenosti
+> Načrtujete in sestavite vezje za regulacijo osvetljenosti.
+> Podajte stikalno shemo vezja in
+> vezje tudi sestavite. Če boste nalogo rešili z uporabi krmilne elektronike,
+> predložite tudi program.
+# OPERACIJSKI OJAČEVALNIKI
+
+## LM358
+
+- single supply
+- low power consumtion
+- low input offset 3-7mV
+- common mode ground?
+- dva op. amp. v enem ohišju
+    - LM324 (enake karakteristike, le 4x op.amps)
+
+## TL071
+
+- designed for dual supply voltages
+- low total harmonic distortion 0.003% (audio aplications)
+- very low input baise curent (1pA)
+
+## LMV358
+
+- rail-to-rail
+- low inout offset 1mA
+- low input baise current (10pA)
+- supply-voltage 2.5V - 5.5V
+- dva op.amp v enem ohišju
+    - LMV324 (anke karakteristike, le da so 4x )
+
+## LM741
+- ? zakaj, ko pa je...
+
+## RC4558
+
+- low noise
+
+## NE5532
+
+- low noise
+- in audio applications
+
+## OP071
+
+- low noise
+- low offset votage (60 uV)
+- načrtovan za bi-polatno napajanje
+- nekoliko večji vhodni tok (1nA)
 

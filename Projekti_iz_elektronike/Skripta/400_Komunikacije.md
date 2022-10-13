@@ -6,7 +6,7 @@ Nekaj več o UART komunikaciji si lahko preberete vsepovsod na
 [svetovnem spletu](https://www.codrey.com/embedded-systems/uart-serial-communication-rs232/). Ker jo uporabljamo
 že več kot pol stoletja, lahko rečemo, da sodi med osnovne komunikacijske protokole.
 
-![Časovni potek napetosti na kominikacijski povezavi.](https://upload.wikimedia.org/wikipedia/commons/4/47/UART_Frame.svg)
+![Časovni potek napetosti na kominikacijski povezavi.](./slike/UART_signal.png)
 
 > ### NALOGA: Osnovni parametri UART protokola
 >
