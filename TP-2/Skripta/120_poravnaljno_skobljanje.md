@@ -6,6 +6,7 @@
 ## Postopek obdelave
 
 Poravnavanje ploskve:  
+
 - najprej stroj pravilno nastavimo (glej Nastavitev stroja)
 - izberemo širšo stranico
 - preverimo ukrivljenost in izberemo konkavno stranico
@@ -17,30 +18,29 @@ Poravnavanje ploskve:
 - vodimo preko vretena.
 
 Poravnavanje v prav kot:
+
 - obdelovanec ob prislon in rahlo tudi navzdol na odvzemno in sporejemno mizo
 - vodenje enako kot prej...
 
 ## Sestavni deli
 
-1. Masivno ohišje
-2. Sprejemna miza
-3. Odvzemna miza
+1. Sprejemna miza (sprejem polizdelka)
+2. Odvzemna miza
+3. Prislon
 4. Skobeljno vreteno
 5. Zaščita vretena
-6. Prislon
-7. Stikalo za vklop in izklop
+6. Stikalo za vklop in izklop
+7. Masivno ohišje
 
 ## Nastavitev stroja
 
+- mizi morata biti ko-planarni, tedaj ni odvzema materiala
+- ko sprejemno mizo premaknemo, mora ostati vzporedna z odvzemno mizo
+- višina noža mora biti enaka višini sprejemne miza (lahko je tudi malenkostno višje cca 0.1mm, nikakor pa ne nižje)
+
 ### Nastavitev prislona
 
-### Nastavitev odvzemne mize
-
-- vpliva na debelino odvzema
-- odvisna je od:
-    - zmogljivosti stroja
-    - trdote lesa
-    - stanje odrezovalnega orodja
+- pravokotno na obe mizi
 
 ### Nastavitev odvzemne mize
 
@@ -55,6 +55,41 @@ Poravnavanje v prav kot:
 - na novo jo nastavimo ob:
   - zaznanem nepravilnem odrezovanju
   - zamenjavi skobeljnih rezil
+
+### Nastavitev sprejemne mize
+
+- vpliva na debelino odvzema
+- odvisna je od:
+    - zmogljivosti stroja
+    - trdote lesa
+    - stanje odrezovalnega orodja
+
+## Delo s strojem
+
+- ko pravilno nastavimo obe poravnalni mizi in imamo pravilno vpeta rezila...
+- preverimo ukrivljenost polizdelka:
+  - lok:
+    -  polizdelek obrnemo na lice s konkavno stranijo navzdol
+    -  tako imamo v kontaktu z mizo dve točki (v nasprotnem primeru pa eno točko)
+    -  polizdelek ne pritisnemo preveč k mizi - le toliko da preprečimo dvigovanje polizdelka
+    -  uporabljajte potisne klade ali letve (ne pritiskajte k mizi... več sile je potrebno v smeri obdelave)
+    -  z eno letvijo nežno pritiskamo pred rezilom navzdol in preprečujemo dvig polizdelka
+    -  z drugo roko in potisno klado potiskamo v obdelavo
+    -  proti koncu sprednjo roko prestavimo nad sprejemno mizo in nežno pritiskamo odbelovanec nanjo
+- preverimo smer vlaken
+  - polizdelek obrnemo tako, da zagotovimo odrezovanje z vlakni in NE proti lesnim vlaknom
+
+- pri zvitem polizdelku lahko roko, s katero pritiskamo obdelovanca na mizo, prej prestavimo nad sprejemno mizo in tako preprečimo, da bi se obdelovanec nagnil (lahko si pomagamo tudi s prislonom)
+
+- šele nato poravnamo še robno ploskev:
+  - preverimo ukrivljenost
+  - preverimo smer vlaken (pri izrazito poševnih vlaknih bi mogoče veljalo najprej debelinsko skobljati še odlice - tako lahko izbirate robno ploskev)
+  - proces je podoben kot prej, le da vršimo silo tudi k prislonu (s potisno letvijo)
+  - k prislonu tiščimo lice in ne po diagonali (robna ploskev ni ravna - želimo ravokotnost lica in robne ploskve)
+
+<!--
+https://www.google.com/search?q=using+jointer&oq=using+jointer&aqs=chrome..69i57.3111j0j1&sourceid=chrome&ie=UTF-8#kpvalbx=_eJNOY9C3N5aGxc8P0LCLsAY_40
+-->
 
 ## Nevarnosti
 
