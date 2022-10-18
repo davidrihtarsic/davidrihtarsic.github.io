@@ -16,13 +16,41 @@ naprimer za zadnji ukaz dobiš tale ozpis:
     /usr/share/fonts/OTF/Hermit-Regular.otf: Hermit:style=Regular
 
 **BOLD 123 0 O mn t**  to pa ni bold
-_ ITALIC _ to naj bi bilo italic
+_ITALIC_ to naj bi bilo italic
 
 ```cpp
 int i=0;
   digitalWrite(4,HIGH);
 ```
 
-digitalWrite(4,HIGH);
+## CONSOLE(tty) FONTS
 
+fonti za tty terminal se nahajajo v 
 
+        /usr/share/kbd/consolefonts/
+
+da imajo foti tudi slovenske znake morajo biti mapirane po sistemu
+
+- ISO 8859-2
+- ISO 8859-16
+- ISO 16
+
+v mojem primeru je ok, če imam
+
+        ter-220.psf.gz
+        ter-g20.psf.gz
+
+fonte lahko nastavimo:
+
+    setfonts ter-220.psf.gz
+
+za permnentno nastavite fontov v konzoli pa uredite file:
+
+    /etc/vconsole.conf
+
+>KEYMAP=slovene
+>FONT=ter-220
+
+Fonti se nahajajo v AUR odložišču v paketu
+
+    terminus-fonts

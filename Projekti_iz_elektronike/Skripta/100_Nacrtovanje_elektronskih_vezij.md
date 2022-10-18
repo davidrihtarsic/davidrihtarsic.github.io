@@ -29,4 +29,5 @@ zato je priporočljivo, da uporabljate orodja kot so TinkerCAD-Circuits.
 
 > ### NALOGA: Sestavljanje virtualnih vezij
 > V programskem orodju TinkerCAD-Circuits sestavite vezje na prototipni ploščici in sliko vstavite v poročilo.
-> 
+>
+

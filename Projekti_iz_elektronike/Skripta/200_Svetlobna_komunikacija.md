@@ -54,3 +54,5 @@ mejni vrednosti. Tako ločevanje nam omogoča schmittov sprožilnik.
 >
 > 3. Z osciloskopom zajemite časovni potek napetostnega potenciala na 
 > vhodnem in na izhodnem priključku komparatorja napetosti s šmitovim sprožilnikom.
+
+

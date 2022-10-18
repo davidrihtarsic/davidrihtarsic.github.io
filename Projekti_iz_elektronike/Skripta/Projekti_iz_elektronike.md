@@ -29,7 +29,8 @@ zato je priporočljivo, da uporabljate orodja kot so TinkerCAD-Circuits.
 
 > ### NALOGA: Sestavljanje virtualnih vezij
 > V programskem orodju TinkerCAD-Circuits sestavite vezje na prototipni ploščici in sliko vstavite v poročilo.
-> 
+>
+
 # SVETLOBNI SPOJNIKI
 
 Pred davnimi časi, ko svet še ni slišal za digitalno tehnologijo, se je gospod Samuel Morse
@@ -86,6 +87,8 @@ mejni vrednosti. Tako ločevanje nam omogoča schmittov sprožilnik.
 >
 > 3. Z osciloskopom zajemite časovni potek napetostnega potenciala na 
 > vhodnem in na izhodnem priključku komparatorja napetosti s šmitovim sprožilnikom.
+
+
 # UPORABA MIKROKRMILNIKOV
 
 Za projekte, ki vključujejo programabilno elektroniko, pogosto uporabljamo že izdelane
@@ -241,7 +244,8 @@ void loop()
     }
 }
 ```
-# Programiranje mikrmilnikov
+
+## PROGRAMIRANJE MIKRMILNIKOV
 
 <!--
 to-do
@@ -255,6 +259,7 @@ glej: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
 
 
 ![Shema povezave krmilnika Arduino nano kot programator s krmilnikom Arduino nano kot ciljno vezje.](./slike/Arduino_as_ISP_s1.png){#fig:Arduino_as_ISP_s1}
+
 
 # KOMUNIKACIJSKI VMESNIKI
 
@@ -506,7 +511,7 @@ V uvodu v PWM modulacijo smo omenili krmiljenje servo motrjev. Ker se ti motorji
 > 3. Z osciloskopom posnemite PWM signal za krmiljenje servo-motorja pri različnih položajih potenciometra.
 
 
-# Integrirano vezje 555
+# INTEGRIRANO VEZJE 555
 
 Tako imenovani “časovnik 555” je integrirano vezje (angl. Integrated circuit - IC), ki ga uporabljamo v različnih aplikacijah, kjer želimo generirati časovno odvisne napetostne pulze. To nam pride prav za izgradnjo časovnih zakasnitev, oscilatorjev itd.
 

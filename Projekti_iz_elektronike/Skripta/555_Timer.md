@@ -1,4 +1,4 @@
-# Integrirano vezje 555
+# INTEGRIRANO VEZJE 555
 
 Tako imenovani “časovnik 555” je integrirano vezje (angl. Integrated circuit - IC), ki ga uporabljamo v različnih aplikacijah, kjer želimo generirati časovno odvisne napetostne pulze. To nam pride prav za izgradnjo časovnih zakasnitev, oscilatorjev itd.
 

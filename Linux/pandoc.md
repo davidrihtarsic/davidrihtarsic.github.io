@@ -52,6 +52,6 @@ v tem directory-u pa imam narejeno strukturo:
     └── skripta.latex
 ```
 
-ampak sem mu za izbor naččina citiranja moral pokazati točno na datoteko naprimer:
+ampak sem mu za izbor načina citiranja moral pokazati točno na datoteko naprimer:
 
         pandoc -o 00_test.pdf 2.2.3_Thinkercad_Circuits.md --bibliography=/home/david/Files/Work/UL-PeF/Articles/00-BibTex/bibtex.bib --filter=pandoc-crossref --citeproc --listings -M listings=True -M codeBlockCaptions=True --csl=/usr/share/pandoc/data/ieee.csl

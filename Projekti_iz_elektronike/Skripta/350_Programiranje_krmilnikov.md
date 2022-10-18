@@ -1,4 +1,4 @@
-# Programiranje mikrmilnikov
+## PROGRAMIRANJE MIKRMILNIKOV
 
 <!--
 to-do
@@ -12,4 +12,5 @@ glej: https://www.arduino.cc/en/Tutorial/BuiltInExamples/ArduinoISP
 
 
 ![Shema povezave krmilnika Arduino nano kot programator s krmilnikom Arduino nano kot ciljno vezje.](./slike/Arduino_as_ISP_s1.png){#fig:Arduino_as_ISP_s1}
+
 
