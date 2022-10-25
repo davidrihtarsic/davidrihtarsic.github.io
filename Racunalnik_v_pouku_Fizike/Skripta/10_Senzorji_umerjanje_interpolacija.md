@@ -1,6 +1,17 @@
 # Senzorji {#sec:delilnik}
 
 - toleranca uporov
+<!--
+to-do
+- SVETLOBNI SENZORJI
+    - LDR velik odziv - počasen
+    - FotoTR - srednji odziv, linearnost Ic(Is) - srednje hiter
+    - FotoDI - zelo majhen a hiter odziv
+- NTC termistor in faktor b
+    - [teorija](https://www.digikey.sk/en/maker/projects/how-to-measure-temperature-with-an-ntc-thermistor/4a4b326095f144029df7f2eca589ca54?utm_adgroup=Tools&utm_source=google&utm_medium=cpc&utm_campaign=Dynamic%20Search_EN_Slovenia_Product&utm_term=&utm_content=Tools)
+    - 1/T = 1/T0 + (1/B) ln(R/R0)
+    - [umerjanje B](https://www.ametherm.com/thermistor/ntc-thermistor-beta)
+-->
 
 ## Občutljivost
 

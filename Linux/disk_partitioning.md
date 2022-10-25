@@ -86,3 +86,14 @@ skratka izgleda takole:
 
 > mkfs.fat 4.2 (2021-01-31)
 
+## UREJENOST DIRECTORY-EV
+
+### Potovanja
+
+Uredi potovanja po posameznih potovanjih npr.: `2022_10-STE22_Porto`
+in v ta dir. dodaš vse elemente, ki temu dogodku pripadajo. Dilema je
+bila ali naj bodo dir. urejeni tako, da so vsi: vloge, povpraševanja,
+naročilnice, ... skupaj, saj se lahko potem hitro copy-paste in spremeniš
+za drugo situacijo... Vendar težava nastane, ko imaš na neki poti ne-
+standarden postopek npr.: preklic letalske karte, odpoved poti...
+

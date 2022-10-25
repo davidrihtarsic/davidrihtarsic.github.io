@@ -49,7 +49,7 @@
   - libela
   - zarisovalna igla
   - prenos mer
-  - risanje vzporednic
+  - risanje vzporednic (zarisovanje rogljev ob ravni stranici polizdelka)
 
 ### Kovinsko merilo
 
@@ -96,15 +96,19 @@
   - svinčnik
     - [Zarisovnanje s svinčnikom](https://www.youtube.com/watch?v=_ugkCBG1PSY)
     - poglejte video in bodite pozorni na:
-        - označevanje,
+        - označevanje (`V` namesto `|`),
         - debelina označbe
-        - razpolovitev označbe z rezilom
+        - razpolovitev označbe z rezilom (rez na ris, puščanje risa)
         - napake pri zarisovanju
-        -
+          - nastavitev ravnila in zareza ne sovpadata
+
   - zarisovalni nožek
     - [Uporaba zarisovalnega nožka](https://www.youtube.com/watch?v=ZKpBQfArPOo)
-      Bodite pozorni na:
-        - 
+    - Bodite pozorni na:
+        - enostavno sledenje označbi na robovih
+        - prerezovanje vlaken
+        - enostavno ujemanje dleta z zarezo (pri izdelavi zareze, čepa)
+       
   - vzporednik
     - [Uporaba vzporednega črtalnika](https://www.youtube.com/watch?v=-fTdne8NGb0)
       - bodite pozorni na:
@@ -122,16 +126,22 @@
 
 ### Zamik obdelovanca za širino rezila
 
-Izdelava utora:
+Izdelava utora pri kotniku ali bolj tipično za izdelavo utora za dno predala:
 
-- naredimo 1. rez
-- zamaknemo obdelovanec za širino hrbta (čepa)
-- hrbet zamenjamo za letev debeline lista in
-- pristavimo prislon
+Potrebujemo:
+- obdelovanec v katerega bomo naredili utor,
+- vzorec z enako debelino kot je utor (VU),
+- vzorec z enako debelino kot je rez žaginega lista (VŽ),
+- prižeme
+
+Postopek:
+1. naredimo 1. rez,
+2. med prislon in obdelovanec umestimo VU in pritrdimo obdelovanec,
+3. zamenjamo VU z VŽ in premaknemo prislon do VŽ.
 
 ## Druge tehnike zarisovanja
 
 ### Deljenje obdelovanca na polovico
 
 - priprava za deljenje pondebelini
-- poševen zamik ravnila tako, da ujamemo preprosto deljivo mero (to tehniko lahko uporabljamo za različno deljive mere)
+  - poševen zamik ravnila tako, da ujamemo preprosto deljivo mero (to tehniko lahko uporabljamo za različno deljive mere)
