@@ -9,7 +9,7 @@
 
 ## Dokumentacija
 
-- [Oddajanje poročil](./000_oddajanje_porocil.md) - [PDF](./000_oddajanje_porocil.pdf)
+- [Oddajanje poročil](../Presnemi/index.md)
 
 ## Študijsko gradivo
 

@@ -7,7 +7,7 @@
     - lasersko merjenje hitrosti
     - senzor za dež
 
-## Svetlobni izvor
+## SVETLOBNI IZVOR
 
 - svetleče diode
 - Ee = Ef --> eU = h c/λ
@@ -22,6 +22,3 @@
 
     - !str.5: Linearni uopr ni potreben,... JE POTREBEN... izračunajmo!
 
-### Svetlobni senzorji
-
-- 
