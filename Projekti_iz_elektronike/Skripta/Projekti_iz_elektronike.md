@@ -95,6 +95,23 @@ Za projekte, ki vključujejo programabilno elektroniko, pogosto uporabljamo že 
 krmilnike iz družine Arduino. Na teh vezjih lahko najdemo mikrokrmilnike proizvajalca Atmel.
 Najbolj pogosto uporabljena krmilnika (Arduino Uno in Arduino NANO) temeljita na mikrikrmilniku Atmega328p. Blokovna shema tega mikrokrmilnika je prikazana na [@fig:ATmega238_block_diagram].
 
+## Shema mikrokrmilnika ATmega238
+
+Mikrokrmilniki so integrirana vezja, z zelo kompleksno notranjo strukturo. 
+Sestavlja jih na milijone tranzistorjev, ki s povezavami in ostalimi osnovnimi
+elementi sestavljajo smiselne logične sklope. Povečana slika dejanskega 
+integriranega vezja mikrokrmilnika ATmega238 je na [@fig:Atmega328_silicon].
+
+![Slika vezja mikrokrmilnika ATmega238 na plošči SiO2](./slike/Atmega328_silicon.png){#fig:Atmega328_silicon height=11cm}
+
+Iz [@fig:Atmega328_silicon] je nemogoče razbrati posamezne dele integriranega 
+vezja. Opazimo lahko le večje enake sklope, ki so namenjene spominskim funkcijam.
+Še bolj podrobno sliko pa si lahko ogledate na povezavi [ATmega238-SiO2](https://siliconpr0n.org/map/atmel/atmega328/s1_20x/).
+
+Pri tako kompleksnih vezjih je bolj smiselno, da posamezne logične sklope 
+predstavimo z blokovno shemo. Tako shemo lahko najdemo v navodilih za uporabo
+mikrokrmilnika ATmega238 in je prikazana na [@fig:ATmega238_block_diagram].
+
 ![Blokovna shema mikrokrmilnika ATmega238.](./slike/ATmega238_block_diagram.png){#fig:ATmega238_block_diagram}
 
 > ### NALOGA: Glavni deli krmilnika

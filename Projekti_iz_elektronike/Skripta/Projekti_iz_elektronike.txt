@@ -1,9 +1,9 @@
 PROJEKTI IZ ELEKTRONIKE
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -58,99 +58,105 @@ Schmittov sprožilnik . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 
 
 3.1
 
-Programiranje krmilnikov Arduino . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Shema mikrokrmilnika ATmega238 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-10
+9
 
 3.2
 
-Uporaba vhodno-izhodnih priključkov na kmilniku Arduino . . . . . . . . . . . . . . .
+Programiranje krmilnikov Arduino . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-11
+12
 
 3.3
 
-Vhodno-izhodne enote mikrokrmilnika . . . . . . . . . . . . . . . . . . . . . . . . . .
+Uporaba vhodno-izhodnih priključkov na kmilniku Arduino . . . . . . . . . . . . . . .
 
-11
+12
 
 3.4
 
-Branje napetostnega potenciala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Vhodno-izhodne enote mikrokrmilnika . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 13
 
 3.5
 
-Prehodni stiki stikal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Branje napetostnega potenciala . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-14
+15
 
 3.6
 
-PROGRAMIRANJE MIKRMILNIKOV . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+Prehodni stiki stikal . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 16
 
+3.7
+
+PROGRAMIRANJE MIKRMILNIKOV . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+18
+
 4 KOMUNIKACIJSKI VMESNIKI
 
-17
+19
 
 4.1
 
 Serijska komunikacija UART . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-17
+19
 
 4.2
 
 I2C komunikacija . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-18
+20
 
 5 MODULACIJA
 
-21
+23
 
 5.1
 
 Amplitudna modulacija . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-22
+24
 
 5.2
 
 Frekvenčna modulacija . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-24
+26
 
 5.3
 
 Pulzno-širinska modulacija . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-25
+27
 
 6 INTEGRIRANO VEZJE 555
 
 i
 
-27
+29
 
 6.1
 
 Zgradba integriranega vezje 555 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-27
+29
 
 6.2
 
 Uporaba integriranega vezja 555 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
-28
+30
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 7 SEKVENČNA VEZJA
 7.1 D-flip-flop . . .
 7.2 T-flip-flop . . .
@@ -556,20 +562,20 @@ PROJEKTI IZ ELEKTRONIKE
 .
 .
 
-31
-31
 33
-34
-34
-34
-34
-34
+33
 35
-35
+36
+36
+36
+36
+36
+37
+37
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -589,7 +595,7 @@ sl. 1.1,sl. 1.2 in sl. 1.3.
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -601,7 +607,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 Slika 1.2: Stikalna shema modula RobDuino - vhodni del.
 
@@ -609,7 +615,7 @@ dr. David Rihtaršič
 
 3
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -631,7 +637,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 1.3 Virtualna vezja
 Sestavljanje vezij pa na prototipni plošči pa je drugačen proces in za začetnike precej zahteven, zato je
@@ -645,7 +651,7 @@ dr. David Rihtaršič
 
 5
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -675,7 +681,7 @@ primerno izbrano (ali celo nastavljivo) referenčno vrednostjo.
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -702,26 +708,51 @@ sprožilnikom (narišite stikalno shemo).
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
 3 UPORABA MIKROKRMILNIKOV
+
 Za projekte, ki vključujejo programabilno elektroniko, pogosto uporabljamo že izdelane krmilnike iz
 družine Arduino. Na teh vezjih lahko najdemo mikrokrmilnike proizvajalca Atmel. Najbolj pogosto uporabljena krmilnika (Arduino Uno in Arduino NANO) temeljita na mikrikrmilniku Atmega328p. Blokovna
-shema tega mikrokrmilnika je prikazana na sl. 3.1.
+shema tega mikrokrmilnika je prikazana na sl. 3.2.
 
-Slika 3.1: Blokovna shema mikrokrmilnika ATmega238.
+3.1 Shema mikrokrmilnika ATmega238
+
+Mikrokrmilniki so integrirana vezja, z zelo kompleksno notranjo strukturo. Sestavlja jih na milijone
+tranzistorjev, ki s povezavami in ostalimi osnovnimi elementi sestavljajo smiselne logične sklope.
+Povečana slika dejanskega integriranega vezja mikrokrmilnika ATmega238 je na sl. 3.1.
 
 9
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
-3.0.1 NALOGA: Glavni deli krmilnika
+Slika 3.1: Slika vezja mikrokrmilnika ATmega238 na plošči SiO2
+
+Iz sl. 3.1 je nemogoče razbrati posamezne dele integriranega vezja. Opazimo lahko le večje enake
+sklope, ki so namenjene spominskim funkcijam. Še bolj podrobno sliko pa si lahko ogledate na povezavi
+ATmega238-SiO2.
+
+Pri tako kompleksnih vezjih je bolj smiselno, da posamezne logične sklope predstavimo z blokovno
+shemo. Tako shemo lahko najdemo v navodilih za uporabo mikrokrmilnika ATmega238 in je prikazana
+na sl. 3.2.
+
+10
+
+dr. David Rihtaršič
+
+PROJEKTI IZ ELEKTRONIKE
+
+2022-November
+
+Slika 3.2: Blokovna shema mikrokrmilnika ATmega238.
+
+3.1.1 NALOGA: Glavni deli krmilnika
 1. Na blokovni shemi označi pomembne dele krmilnika in zapiši njihov glavni namen (funkcijo).
 Glavni sestavni deli so: generator delovnega takta (ura), centralno procesna enota, začasni
 (delovni) spomin, trajni spomin, vhodno-izhodne enote, komunikacijske enote . . .
@@ -729,8 +760,17 @@ Mikrokrmilniki na krmilnikih Arduino so že opremljeni s programom (angl. »boot
 za ustrezno prepisovanje programske vsebine, ki jo računalnik pošlje preko USB vodila. Tako lahko
 enostavno programiramo mikrokrmilnike, ki so na ploščah krmilnikov Arduino.
 
-3.0.2 NALOGA: Osnovne nastavitve in testni program
+3.1.2 NALOGA: Osnovne nastavitve in testni program
 1. Iz programskega okolja Arduino IDE prepišite nastavitve programatorja ter izpolni tbl. 3.1:
+
+dr. David Rihtaršič
+
+11
+
+2022-November
+
+PROJEKTI IZ ELEKTRONIKE
+
 Tabela 3.1: Nastavitveni parametri programatorja.
 Nastavitveni parameter
 
@@ -742,7 +782,7 @@ Port (vrata)
 Programmer (programator)
 2. Iz primerov, ki so vključeni v programskem okolju Arduino IDE izberite Blink.ino in ga preskusite.
 
-3.1 Programiranje krmilnikov Arduino
+3.2 Programiranje krmilnikov Arduino
 Za programiranje mikrokrmilnika skrbi odprtokodna programska koda - avrdude, ki se izvaja v ozadju
 programskega okolja Arduino IDE. Proces programiranja lahko bolj natančno spremljamo tako, da
 vključimo
@@ -753,23 +793,24 @@ vključimo
 File -> Preferences:
 Shov verbose output during: [x] compilation [x] upload
 
-10
+3.2.1 NALOGA: AVRDUDE - program za prenos strojne kode
+1. Prepišite ukazno vrstico programa avrdude za premos strojne kode in
+2. opišite pomen parametrov.
+Več o parametrih lahko najdete na spletni strani avrdude
+
+3.3 Uporaba vhodno-izhodnih priključkov na kmilniku Arduino
+
+3.3.1 NALOGA: Shema krmilnika Arduino NANO
+1. Oglejte si shemo krmilnika Arduino NANO in
+
+12
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
-3.1.1 NALOGA: AVRDUDE - program za prenos strojne kode
-1. Prepišite ukazno vrstico programa avrdude za premos strojne kode in
-2. opišite pomen parametrov.
-Več o parametrih lahko najdete na spletni strani avrdude
-
-3.2 Uporaba vhodno-izhodnih priključkov na kmilniku Arduino
-
-3.2.1 NALOGA: Shema krmilnika Arduino NANO
-1. Oglejte si shemo krmilnika Arduino NANO in
 2. skušaj ugotoviti na kateri priključek IO enote je priključena LED, ki je na krmilniku.
 3. Izpolni tbl. 3.2
 Tabela 3.2: Razporeditev priklučkov na krmilniku in mikrikrmilniku.
@@ -788,45 +829,46 @@ b
 Oznaka priključka na krmilniku Arduino NANO.
 Oznaka priključka na mikrokrmilniku ATmega238.
 
-3.3 Vhodno-izhodne enote mikrokrmilnika
+3.4 Vhodno-izhodne enote mikrokrmilnika
+
 Vhodno-izhodne enote mikrokrmilnika so dvo-smerne z možnostjo nastavitve upora proti napajanju.
-Stikalna shema enega priključka na neki vhodno-izhodni enoti je prikazana na sl. 3.2.
+Stikalna shema enega priključka na neki vhodno-izhodni enoti je prikazana na sl. 3.3.
 
 dr. David Rihtaršič
 
-11
+13
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
-Slika 3.2: Shema priključka n na vhodno-izhodni enoti x.
+Slika 3.3: Shema priključka n na vhodno-izhodni enoti x.
 
-Čeprav je shema na sl. 3.2 nekoliko bolj kompleksna, lahko ugotovimo, da za nastavitev delovanja
+Čeprav je shema na sl. 3.3 nekoliko bolj kompleksna, lahko ugotovimo, da za nastavitev delovanja
 vhodno-izhodne enote potrebujemo le dva signala:
 • WDx - (DDRx) - za določanje vhodne oz. izhodne funkcije priključka
 • WPx - (PORTx) - za določanje vrednosti logičnega stanja na priključku x.
 
-3.3.1 NALOGA: Krmilni registri mikrokrmilnika
+3.4.1 NALOGA: Krmilni registri mikrokrmilnika
 1. Preoblikuj program Blink.ino tako, da boš krmilil vklop in izklop LED z nastavitvijo krmilnikh
 registrov.
 2. Predstavite programsko kodo.
 
-12
+14
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
-3.4 Branje napetostnega potenciala
+3.5 Branje napetostnega potenciala
 Branje napetostnega potenciala je najbolj pogosto uporabljeno pri vzorčenju pritiska tipke. Poglejmo
 si tak primer.
 
-Slika 3.3: Različne možnosti priključitve tipke na digitalni vhod.
+Slika 3.4: Različne možnosti priključitve tipke na digitalni vhod.
 
-3.4.1 NALOGA: Branje napetostnega potenciala
+3.5.1 NALOGA: Branje napetostnega potenciala
 1. Sestavite prve tri različice priključitve tipke na digitalni vhod krmilnika A0 in preskusite
 spodnji program.
 2. Razložite (ne-)delovanje.
@@ -853,29 +895,29 @@ else
 digitalWrite(13, LOW);
 }
 
-3.4.2 NALOGA: Uporaba upora proti napajanju
+3.5.2 NALOGA: Uporaba upora proti napajanju
 1. Spremenite delilnih napetosti tipka - upor tako, da bo upor vezan proti napajanju in nato
 spremenite program tako, da bo delovanje ostalo enako prejšnji nalogi. Priložite stikalno
 
 dr. David Rihtaršič
 
-13
+15
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
 shemo vezja in preoblikovan program.
 2. Odstranite upor in preverite delovanje vezja. Kaj opazite, razložite delovanje.
-3. Vključite notranji upor proti napajanju, ki se nahaja v mikrokrmilniku ob vsakem vhodnoizhodnem priključku (glej sl. 3.2). Priložite programsko spremembo.
+3. Vključite notranji upor proti napajanju, ki se nahaja v mikrokrmilniku ob vsakem vhodnoizhodnem priključku (glej sl. 3.3). Priložite programsko spremembo.
 
-3.5 Prehodni stiki stikal
+3.6 Prehodni stiki stikal
 
 Fizični preklopni elementi (kot je tipka) imajo tudi fizikalne lastnosti kot so trdota, trdnost, prožnost,
 elastičnost... Zaradi vseh teh lastnosti je preklop tipke iz enega položaja v drugega lahko tudi nekoliko
 nepredvidljiv.
 
-3.5.1 NALOGA: Večkratni preklopi
+3.6.1 NALOGA: Večkratni preklopi
 1.
 2.
 3.
@@ -888,7 +930,7 @@ problem rešite:
 • programsko ter
 • elektronsko. Obe rešitvi dokumentirajte.
 
-14
+16
 
 dr. David Rihtaršič
 
@@ -918,7 +960,7 @@ dr. David Rihtaršič
 23
 24
 
-2022-October
+2022-November
 
 void setup()
 {
@@ -945,22 +987,22 @@ digitalWrite(13, LOW);
 
 dr. David Rihtaršič
 
-15
+17
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
-3.6 PROGRAMIRANJE MIKRMILNIKOV
+3.7 PROGRAMIRANJE MIKRMILNIKOV
 
-Slika 3.4: Shema povezave krmilnika Arduino nano kot programator s krmilnikom Arduino nano kot
+Slika 3.5: Shema povezave krmilnika Arduino nano kot programator s krmilnikom Arduino nano kot
 ciljno vezje.
 
-16
+18
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -988,11 +1030,11 @@ Komunikacija UART je tako razširjena, da jo vključujejo v skoraj vse programab
 UART in je dostopna na priključkih 0 (Rx) in 1 (Tx). Preko te enote lahko pošiljamo/sprejemamo podatke
 drugih zunanjih naprav.
 
-17
+19
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1033,13 +1075,13 @@ Serial.print("M");
 Komunikacija lahko poteka tudi na drugačne načine, na primer med več napravami. Ena takih komunikacij je t.i. I2C komunikacija. Več o tej komunikaciji si lahko preberemo na wikipediji o I2C podatkovnem
 vodilu
 
-18
+20
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 Slika 4.2: Na I2C vodilo riključene naprave.
 V primeru, ki ga prikazuje sl. 4.2 je glavna naprava označena kot »master«, ki bo v našem primeru
@@ -1053,9 +1095,9 @@ Slika 4.3: Priključitev LCD-ja na I2C vodilo.
 
 dr. David Rihtaršič
 
-19
+21
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1117,11 +1159,11 @@ lcd.print(adcValue);
 delay(200);
 }
 
-20
+22
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1139,11 +1181,11 @@ Sprejemanje moduliranih signalov je tako lahko bistveno bolj selektivno. Že s p
 
 Primeri moduliranih signalov so vidni na sl. 5.1.
 
-21
+23
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1163,13 +1205,13 @@ NANO generirajte UART signal, ki bo vseboval vaše podatke o vašem imenu in pri
 
 https://www.vishay.com/docs/82489/tsop322.pdf
 
-22
+24
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 Načrtujte tudi elektroniko za generirajte periodičnega nosilnega signala. Nato podatke
 amplitudno modulirajte in z IR diodo pošljite do sprejemnika. V poročilo dodajte shemo
@@ -1210,9 +1252,9 @@ operacij (IN, ALI, NE-ALI, EKSKL.-ALI).
 
 dr. David Rihtaršič
 
-23
+25
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1230,7 +1272,7 @@ tudi odzive različnih senzorjev.
 3. Astailni-multivibrator lahko sestavite s krmilnikom Arduino NANO in RC členom, ki nudi
 nekaj več dodatnih možnosti uporabe.
 
-24
+26
 
 dr. David Rihtaršič
 
@@ -1277,7 +1319,7 @@ dr. David Rihtaršič
 40
 41
 
-2022-October
+2022-November
 
 //
 +--[R2k2]--+---||---+
@@ -1335,9 +1377,9 @@ krmilnika Arduino NANO - servo.write().
 
 dr. David Rihtaršič
 
-25
+27
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1351,11 +1393,11 @@ spreminjal svojo orientacijo gredi glede na položaj potenciometra.
 3. Z osciloskopom posnemite PWM signal za krmiljenje servo-motorja pri različnih položajih
 potenciometra.
 
-26
+28
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1372,11 +1414,11 @@ izjema.
 
 Slika 6.1: Blokovna shema integriranega vezja 555.
 
-27
+29
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1406,13 +1448,13 @@ Integrirano vezje 555 uporabite kot astabilni-multivibrator tako, da boste lahko
 svetlečo diodo, ki jo boste videli utripati. Narišite shemo vezja in preverite izhodni napetostni
 signal z osciloskopom.
 
-28
+30
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 6.2.4 NALOGA: 555 kot Monostabilni-multivibrator
 Integrirano vezje 555 zvežite v način monostabilnega-multivibratorja tako, da ko boste s pritiskom
@@ -1428,9 +1470,9 @@ Narišite stikalno shemo in izhodni signal preverite z osciloskopom.
 
 dr. David Rihtaršič
 
-29
+31
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1444,11 +1486,11 @@ D-ff je v obeh funkcijah uporabljen v periferni enoti USART mikrokrmilnika ATmeg
 skrbi za serijsko komunikacijo UART, ki poteka po protokolu RS232. Blokovni prikaz oddajnega dela
 USART enote prikazuje sl. 7.1.
 
-31
+33
 
 dr. David Rihtaršič
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1462,13 +1504,13 @@ ponovno nastavljanje registra TSR med samim pomikanjem TSR registra ni mogoče.
 V simulacijskem programu (SimulIDE) načrtujte: - pomnilni register UDRn in - pomični register
 TSR.
 
-32
+34
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 Oba registra naj boste zgrajena iz D-ff in naj vsebujeta 8 pomnilnih celic (8-bitni register). Krmiljenje
 napetosti prožitvenih signalov kot so Enable in Clock lahko zagotovite z napetostnimi viri (5V on/off).
@@ -1496,9 +1538,9 @@ OPERACIJSKI OJAČEVALNIKI
 
 dr. David Rihtaršič
 
-33
+35
 
-2022-October
+2022-November
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1541,13 +1583,13 @@ dva op.amp v enem ohišju
 7.7 RC4558
 • low noise
 
-34
+36
 
 dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-October
+2022-November
 
 7.8 NE5532
 • low noise
@@ -1566,6 +1608,6 @@ nekoliko večji vhodni tok (1nA)
 
 dr. David Rihtaršič
 
-35
+37
 
 

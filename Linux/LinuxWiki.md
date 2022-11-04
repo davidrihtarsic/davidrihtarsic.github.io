@@ -34,7 +34,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 # INSTALLATION
 
 - [linux image](installation_image.md)
-- [disk partirioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
+- [disk partitioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
 - [mounting]()-to-do
 - [RPM packages](prm_install.md)
 - [pacman](pacman.md)
@@ -82,6 +82,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [SED](sed.md)
 - [network check](network.md)
 - [mdv](mdv.md) - markdown viwer
+- [markdown](markdown.md) - markdown is markup language (efficient and easy to read as source)
 - [power management](power_management.md) - power management
 - [ssh](ssh.md)
 - [xev](xev.md) - katero tipko smo pritisnili, key press

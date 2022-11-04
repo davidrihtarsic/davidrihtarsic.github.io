@@ -91,9 +91,24 @@ skratka izgleda takole:
 ### Potovanja
 
 Uredi potovanja po posameznih potovanjih npr.: `2022_10-STE22_Porto`
-in v ta dir. dodaš vse elemente, ki temu dogodku pripadajo. Dilema je
-bila ali naj bodo dir. urejeni tako, da so vsi: vloge, povpraševanja,
-naročilnice, ... skupaj, saj se lahko potem hitro copy-paste in spremeniš
-za drugo situacijo... Vendar težava nastane, ko imaš na neki poti ne-
-standarden postopek npr.: preklic letalske karte, odpoved poti...
+in v ta dir. dodaš vse elemente, ki temu dogodku pripadajo.
+
+>2022_NOVO_POTOVANJE
+>├── 01_Voga_za_odobritev_odsotnosti
+>│   └── 01_<++>—Vloga_za_odobritev_odsotnosti_Rihtaršič_<++>.pdf
+>├── 02_Povpraševanje_Nakup_Letalska
+>│   ├── 02_Besedilo-maila.md
+>│   └── 02_Povprasevanja_za_nakup_letalskih_kart_2021.pdf
+>├── 03_Predlog_za_izdajo_naročilnice
+>│   └── 03_ePDF_predlog_za_izdajo_narocilnice_2020-v1.71N__nezascitena_polja_.pdf
+>├── 04_Poročilo_in_priloge
+>│   ├── 04_Poročilo_in_priloge.md
+>│   └── 04_Poročilo_in_priloge.pdf
+>└── 05_Obračun_potnega_naloga
+
+Dilema je bila ali naj bodo dir. urejeni tako, da so vsi: vloge,
+povpraševanja, naročilnice, ... skupaj, saj se lahko potem hitro
+copy-paste in spremeniš za drugo situacijo... Vendar težava nastane,
+ko imaš na neki poti nestandarden postopek npr.: preklic letalske
+karte, odpoved poti...
 
