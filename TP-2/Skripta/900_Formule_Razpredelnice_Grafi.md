@@ -36,7 +36,7 @@ $$ \Delta L = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
 |-----------:|:--------------------:|:--------------------:|:------------------------:|
 |     smreka |          0.3         |          3.6         |            7.9           |
 |    macesen |          0.3         |          3.8         |            9.1           |
-|      bukec |          0.3         |          5.8         |           11.8           |
+|   bukovina |          0.3         |          5.8         |           11.8           |
 |      hrast |          0.4         |          4.3         |            8.9           |
 |       lipa |         0.25         |          6.1         |            9.9           |
 |      topol |          0.3         |          4.3         |            8.5           |
@@ -60,11 +60,15 @@ Table: Tabela ravnovesnih vlažnosti lesa glede na mesto vgradnje. {#tbl:rel_vla
 
 # TRDNOST LESA
 
-$$ \sigma = \frac{F}{A} $${#eq:napetost}
+$$ \sigma = \frac{F}{A};\ \epsilon = \frac{\Delta l}{l_0};\ \sigma = E\ \epsilon $${#eq:napetost}
 
 > - $\sigma$ - napetost v materialu zaradi zunanje sile
 > - $F$ - zunanja sila F
 > - $A$ - presek predmeta na katerega deluje zunanja sila
+> - $\epsilon$ - specifični raztezek
+> - $\Delta l$ - raztezek
+> - $l_0$ - prvotna dimenzija
+> - $E$ - elastični modul
 
 ## DOPUSTNA NAPETOST
 
@@ -83,7 +87,7 @@ $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 
 Table: Dopustne napetosti za nekatere vrste lesa pri mirni obremenitvi (v MPa). {#tbl:sigma_dop_tab}
 
-## NATEZNA TRDNOST
+## NATEZNA in TLAČNA TRDNOST
 
 $$ \sigma_N =\frac{F}{A} = E \frac{\Delta l}{l_0} = E \epsilon $${#eq:napetost_nateg}
 

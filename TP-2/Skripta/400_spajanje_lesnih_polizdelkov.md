@@ -135,7 +135,7 @@ Da zmanjšamo verjetnost cepljenja lesnih vlaken velja upoštevati naslednja pri
 |    od roba polizdelka    |        5d        |        5d       |
 |   med linijama vijakov   |        10d       |        3d       |
 | med vijaki vzdolž vlaken |        20d       |       10d       |
-Table: Priporočljive minimalne razdalje pri vijačenju(d = premer vijaka z vijačnico). {#tbl:minRazdaljaVijacenja}
+Table: Priporočljive minimalne razdalje pri vijačenju(d = premer vijaka brez vijačnice). {#tbl:minRazdaljaVijacenja}
 
 ![Razporeditev vijakov, da se izognemo cepljenju lesnih vlaken.](./slike/necepljenje_vijaki.png){#fig:necepljenje_vijaki}
 

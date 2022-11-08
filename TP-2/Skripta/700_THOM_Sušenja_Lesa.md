@@ -32,7 +32,7 @@ Table: Klasifikacija lesa glede na vlažnost lesa. {#tbl:klasi_vlaznost}
 Les sušimo z namenom, da ga bomo predelali in vgradili v doličen izdelek,ki bo izpostavljen 
 določenim pogojem. Izdelek se običajno nahaja pri neki povprečni temperaturi in relativni 
 zračni vlagi, kateri pa odgovarja določena ravnovesna vlaga lesa. Naloga sušenja je ta, da se 
-les posuši na ravnovesno vlago, ki jo zahteva izdelek, saj z tem zagotovimo dimenzijsko 
+les posuši na ravnovesno vlago, ki jo zahteva izdelek, saj s tem zagotovimo dimenzijsko 
 stabilnost in kvaliteto izdelka.
 
 V ta namen se lahko poslužujemo:
@@ -101,10 +101,39 @@ Sestava psihrometra:
 
 Iz grafa na [@fig:PsychrometricChart-SI] lahko odčitamo relativno zračno vlažnost na podlagi temperatur suhega in mokrega termometra.
 
-Na spletnem portalu [Interactive Psychrometric Chart](http://www.flycarpet.net/en/PsyOnline) si lahko ogledate 
-in preizkusite psihometrični diagram.
+**Odčitavanje in razlaga diagrama na [@fig:PsychrometricChart-SI]**:
+
+1. Na x-osi je razvrščena temperatura suhega termometra.
+2. Nad x-osjo se vzpenjajo (rdeče) krivulje relativne zračne vlažnosti $\Phi$.
+3. Na zadnji krivulji z relativno zračno vlažnostjo (RZV) $\Phi=100\%$ so razvrščene
+  temperature mokrega termometra. To je tudi točka rosišča. Opazimo lahko, da te
+  temperature sovpadajo s temperaturami suhega termometra, saj pri 100% 
+  RZV voda ne izhlapeva.
+4. Temperaturo mokrega termometra, pri različnih RZV, ponazarja modri poltrak,
+  ki se nadaljuje desno navzdol od oznake temperature mokrega termometra na
+  krivulji $\Phi=100\%$.
+5. Na y-osi je razvrščena absolutna zračna vlažnost (AZV), ki jo navaja [@eq:abs_vlaznost]
+  (razmerje mase vode in zraka). Ker le ta ni odvisna od temperature zraka,
+  lahko to skalo uporabljamo pri načrtovanju RZV, ko se temperature zraka spremeni.
+  V takem primeru ostane AZV konstantna do točke rosišča.
+
+Na spletnem portalu [Interactive Psychrometric Chart](http://www.flycarpet.net/en/PsyOnline) si lahko ogledate in preizkusite psihometrični diagram.
 
 ![Psihometrski diagram.](./slike/PsychrometricChart-SI.jpg){#fig:PsychrometricChart-SI}
+
+> ### NALOGA: Odčitaj relativno zračno vlažnost
+>
+> Izmerili smo temperaturo zraka v prostoru (t.i. suha temperatura) $T_s = 25^\circ C$
+> in temperaturo tkanine iz katere izhlapeva voda (t.i. mokra temperatura)
+> $T_s = 20^\circ C$. Iz psihometričnega diagrama na [@fig:PsychrometricChart-SI]
+> odčitaj relativno zračno vlago. ($\Phi=65\%$)
+
+> ### NALOGA: Predvidi relativno zračno vlažnost, pri spremembi temperature zraka
+>
+> V prostoru imamo temperaturo zraka $T_z=18.5^\circ C$ in relativno zračno vlažnost
+> $\Phi = 60\%$. Pri tem je mokra temperatura $T_m = 13.8^\circ C$. Nato prostor
+> segrejemo na $T_z = 25^\circ C$. Kolikšna bo tedaj relativna zračna vlažnost v
+> prostoru? ($\Phi_2 = 40\%$)
 
 ### Ravnovesna vlažnost lesa
 
@@ -116,8 +145,8 @@ in preizkusite psihometrični diagram.
 
 > #### NALOGA: Uporaba psihometričnega diagrama
 > 
-> Poišči ravnovesno vlažnost lesa, če bomo izdelek imeli v prostoru z relativno vlažnostjo $\Phi = 55%$
-> s temperaturo 30°C. ($\nu=9,5%$)
+> Poišči ravnovesno vlažnost lesa, če bomo izdelek imeli v prostoru z relativno
+> vlažnostjo $\Phi = 55%$ s temperaturo 30°C. ($\nu=9,5%$)
 
 ### Naravno sušenje
 
@@ -137,9 +166,10 @@ in preizkusite psihometrični diagram.
 - odvodnavanje tal
 - betonski podstavek ($h=30-60\ cm$)
 
-- posamezne skladovnice ločimo s gredicami ($d=10\ cm$)
+- posamezne skladovnice ločimo s tramovi ($d=10\ cm$)
 - pravilno letvičenje
   - letvice zložene ena nad drugo (preprečuje krivljenje lesa)
+  - položaj zunanjih letvic naj bo blizu čela deske (preprečuje krivljenje)
   - primerna debelina letvic omogoča zadosten pretok zraka ($d_{letvice}=\frac{1}{2}d_{lesa}$)
 - pokrite s primerno streho z zadostnim nagibom za odvodnavanje
 
@@ -289,8 +319,8 @@ Glavni sestavni deli:
 Osnovna tehnologij vakuumskega sušenja:
 
 1. znižamo tlak v sušilni komori (zniža se parni tlak vode)
-2. tlak v komori je $p = [5 .. 20]\ kPa$
-3. vrelišče vode pri $p=5.32\ kPa$ je $T_v = 30°C$
+2. tlak v komori je $p = [5 .. 20]\ kPa$ ($p_{zračni}=100kPa$)
+3. vrelišče vode pri $p=5.32\ kPa$ je $T_v = 30^\circ C$
 4. s tem povečamo difuzijo vezane vode v zrak
 5. ... Ostala tehnologija je enaka kot pri kondenzacijskem sušenju
 

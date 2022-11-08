@@ -5,10 +5,103 @@
 - napake v lesu
 
 - gostota (delež kasnega lesa -> trdota, trdnost)
-- vlažnost lesa (bolj suh boljša trdnost)
-- temperatura (plastične deformacije lignina -> namjša trdnost)
+- vlažnost lesa (bolj suh boljša trdnost) temperatura (plastične deformacije lignina -> namjša trdnost)
 
-# Trdota lesa
+# HIGROSKOPNOST LESA
+
+Vlažnost lesa izračunamo:
+
+$$ U = \frac{m_v}{m_0} $${#eq:vlaznost_lesa}
+
+kjer je:  
+
+- $u$ = vlažnost lesa v [%]
+- $m_v$ = masa vode
+- $m_0$ = masa abs. suhega lesa
+
+Podatek $u = 15 \%$ pomeni, da 100 g absolutno suhega lesa 
+vsebuje 15 g vode. 
+
+## Prosta in vezana voda
+
+![Prosta in vezana voda.](./slike/prosta_vezana_voda.png){#fig:prosta_vezana_voda}
+
+- vezana voda je v celičnih stenah
+- prosta voda je v celičnih lumnih
+- ko v lumnih ni vode:
+    - TNCS: točka nasičenosti celičnih sten
+    - VPLIV na krčenje lesa!
+
+## Krlčenje lesa
+
+- le kadar se spremeni % vode v celičnih stenah
+- krčenj je odvisna od smeri krčenja,
+- maksimalni skrčki glede na smer so:
+  - vzdolž vlaken $\beta_l = 0.3\ ..\ 0.6\%$
+  - v radialni smeri $\beta_r = 3\ ..\ 6\%$
+  - v tangencialni smeri $\beta_t = 6\ ..\ 12\%$
+
+![Maksimalni skrčki lesa.](./slike/skrcki_lesa.png){#fig:skrcki_lesa}
+
+Kos lesa bi se skrčil za maksimalno dolžino $\Delta L_{max}$, če bi se posušil
+iz lesne vlažnosti $u=30\%$ na absolutno suh les $u=0\%$.
+
+- MAKSIMALNI SKRČEK:
+
+$$ \Delta L_{max} = \beta\ L_{u30} $${#eq:max_skrcek}
+
+Ker se lesni izdelki ne posušijo do absolutno suhega lesa, vendar le do neke ravnovesne
+vlažnosti, moramo izračunati delni odstotek krčenja $\beta_{\Delta u}$.
+
+- DELNI ODSTOTEK KRČENJA
+
+$$ \beta_{\Delta u} = \frac{\beta\ \Delta u}{30 \%} $${#eq:delni_skrcek}
+
+kjer je:
+
+- $\beta_{\Delta u}$ = delni odstotek krčenja
+- $\Delta u$ = razlika vlažnosti (le v območju 30%)
+
+Tako lahko izračunamo dejansko dolžino krčenja, ki je odvisna od same vrste lesa
+(različni maksimalni skrčki $\beta$), od smeri krčenja ($\beta_r, \beta_t, \beta_l$),
+od spremenjene lesne vlažnosti $\Delta u$ in od dolžine izdelka $L$.
+
+- DEJANSKI SKRČEK
+
+$$ \Delta L_{\Delta u} = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
+
+> ### NALOGA: Izračunaj končne dimenzije izdelka po sušenju
+>
+> Bukova gredica š = 80.0 mm, d = 40.0 mm, l = 2.500 m, z vlažnostjo 40%,
+> posušimo na 10%. Izračunaj dimenzije po sušenju. (73.7 mm × 38.5 mm × 2495 mm)
+
+![Skica gredice z dimenzijami](./slike/gredica_80x40x2500.png){#fig:gredica_80x40x2500}
+
+## Nepravilnosti zaradi krčenja
+
+![Nepravilnosti pri sušenju lesa.](./slike/nepravilnosti_susenje.png){#fig:nepravilnosti_susenje}
+
+- stržen se precej manj krči kot oddaljen tangencialni les
+- bočnica se ukrivi na način, da se bolj tangencialni les skrči bolj
+- kvadravtni presek (letnice diagonalno) se posuši v rombasto obliko preseka
+
+## Ukrepi za zmanjševanje posledic krčenja
+
+- ustrezna vrsta lesa
+- ustrezna osušenost lesa pri obdelavi
+
+![Primerna vlažnost lesa.](./slike/primerna_vlaznost_lesa.png){#fig:primerna_vlaznost_lesa}
+
+- premazi zavirajo prehajanje vode
+- konstrukcijske vezi namesto lepljenih spojev
+- pravilno širinsko spajamo
+
+![Primerno širinsko spajanje.](./slike/sirinsko_spajanje.png){#fig:sirinsko_spajanje}
+
+![Primerno debelinsko spajanje.](./slike/debelinsko_spajanje.png){#fig:debelinsko_spajanje}
+
+
+# TRDOTA LESA
 
 > Trdota je odpor, s katerim se les upira prodiranju tujega telesa vanj.
 
@@ -21,35 +114,40 @@
 
 Jekleno kroglico z določenim premerom in določeno silo potisnemo v les. Trdota je razmerje med uporabljeno silo in vtisnjeno površino. Naprimer pri HBW(10,3000) se uporablja kroglica s premerom 10mm, potisna sila pa ustreza masi 3000 kg uteži.
 
-$$ HBW = \frac{2 F[kg]}{\pi D(D-\sqrt{D^2-d^2})} $${#eq:brinell_hardness}
+$$ HBW = \frac{F}{A} = \frac{F}{\frac{\pi D(D-\sqrt{D^2-d^2)}}{2}} $${#eq:brinell_hardness}
 
 kjer je:
 
-- F - sile pritiska v kg
+- F - sile pritiska
 - D - premer kroglice
 - d - premer odtisa
 
 
-![Primer meritve.](./slike/harness_example.png){#fig:harness_example}
+![Primer meritve trdote lesa po Brinellu HBW(10,3000) na primeru beljave pecljatega hrasta in javorja.](./slike/harness_example.png){#fig:harness_example}
+
 (file:///home/david/Downloads/forests-11-00878-v2.pdf)
 
-- Bor 2,2 MPa
-- Brest 3,9 MPa
-- Breza 2,7 MPa
-- Bukev parjena 4,0 MPa
-- Češnja 2,9 MPa
-- Hrast 3,7 MPa
-- Hruška 2,4 MPa
-- Javor evropski 3,7 MPa
-- Javor kanadski 4,2 MPa
-- Jelša 2,1 MPa
-- Jesen 3,8 MPa
-- Kostanj 2,3 MPa
-- Macesen 2,5 MPa
-- Oreh 3,5 MPa
-- Smreka 1,3 MPa
 
-# TRDNOST
+|    Lesna vrsta | Trdota po Brinellu - HBW [GPa] |
+|---------------:|:------------------------------:|
+|            Bor |               2,2              |
+|          Brest |               3,9              |
+|          Breza |               2,7              |
+|  Bukev parjena |               4,0              |
+|         Češnja |               2,9              |
+|          Hrast |               3,7              |
+|         Hruška |               2,4              |
+| Javor evropski |               3,7              |
+| Javor kanadski |               4,2              |
+|          Jelša |               2,1              |
+|          Jesen |               3,8              |
+|        Kostanj |               2,3              |
+|        Macesen |               2,5              |
+|           Oreh |               3,5              |
+|         Smreka |               1,3              |
+Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000). {#tbl:trdota_HBW}
+
+# TRDNOST LESA
  
 Trdnost materiala (lesa) je sposobnost, da se upira spremembi 
 oblike in porušitvi zaradi delovanja zunanjih sil. Kadar trdno telo 
@@ -58,6 +156,31 @@ nastanejo napetosti.
 
 $$ \sigma = \frac{F}{A} $${#eq:napetost}
 
+Kjer je :
+
+- $\sigma$ - natezna, tlačna, ... napetost [MPa = N/mm²]
+- $F$ - sila, ki deluje pri obremenitvi [N]
+- $A$ - površina, na kateri se ustvarja napetost
+
+Pri obremenjevanju izdelkov lahko zaznamo deformacije izdelka v določenih smereh.
+Spremembe dimenzij $\Delta l$ pogosto predstavimo v relativni obliki s specifičnim
+raztezkom:
+
+$$ \epsilon = \frac{\Delta l}{l_0} $${#eq:spec_raztezek}
+
+Kjer je:
+
+- $\epsilon$ - specifični raztezek
+- $\Delta l$ - raztezek 
+- $l_0$ - prvotna dimenzija
+
+Obremenilna napetost in raztezek sta premosorazmerna in jih povezuje elastični
+modul $E$.
+
+$$\sigma = E\ \epsilon = E\ \frac{\Delta l}{l_0}$${#eq:elas_modul}
+
+Vrste obremenitev:
+
 - Tlačna
 - Natezna
 - Strižna
@@ -65,7 +188,7 @@ $$ \sigma = \frac{F}{A} $${#eq:napetost}
 - Torzijska
 - Uklonska
 
-## Dopustna napetost
+## DOPUSTNA NAPETOST
 
 Materialov ne smemo obremeniti do njihove maksimalne 
 napetosti, obremenimo jih le do dopustne napetosti, ki se vedno 
@@ -88,12 +211,13 @@ $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 |                   |   T  |   -   |   3  |    -   |  1.2  |     1000    |
 Table: Dopustne napetosti za nekatere vrste lesa v MPa. {#tbl:sigma_dop_tab}
 
-### Nateg
+## NATEZNA IN TLAČNA TRDNOST LESA
 
 raztezek:  
-$$ \epsilon=\frac{l_1 - l_0}{l_0} $${#eq:raztezek}
+$$ \epsilon = \frac{\Delta l}{l_0} = \frac{l_1 - l_0}{l_0} $${#eq:raztezek}
 
-- specifični raztezek
+- $\epsilon$ - specifični raztezek
+- $\Delta l$ - dejanski raztezek
 - $l_1$ - nova dolžina
 - $l_0$ - prvotna dolžina
 
@@ -101,15 +225,87 @@ Ob tej deformaciji se ustvarijo napetosti:
 
 $$ \sigma = E \frac{\Delta l}{l_0} $${#eq:napetost_nateg}
 
-- napetost
-- E - modul elastičnosti
-- specifični raztezek
-- $dl $ - raztezek
+- $\sigma$ - napetost
+- $E$ - modul elastičnosti
+- $\epsilon$ - specifični raztezek
+- $\Delta l$ - raztezek
 - $l_0$ - prvotna dolžina
 
-> Primer: smrekovina 8cm x 8cm, dolžine 1,8m ; natezna sila 45 kN. Dejanska napetost? Raztezek? (Odgovor: 7.03 MPa, 1.15mm)
+> Primer: smrekovina 8cm x 8cm, dolžine 1,8m ; natezna sila 45 kN.
+> - Dejanska napetost?
 
-### Uklonska trdnost
+> - Kolikšen je raztezek?
+>
+> (Odgovor: $\sigma = 7.03 MPa$; Ne,$\sigma_{dop}=10 MPa$;$\Delta l = 1.05 mm$)
+
+## STRIŽNA TRDNOST
+
+Strižna trdnost je odpor lesa proti strigu lesnih plasti s silo, ki 
+deluje v ravnini lesnih vlaken ali redko, prečno na lesna vlakna.  
+
+- prečno na vlakna : čepna vez
+- vzdolž vlaken : poševnik v legi nadstreška
+
+- strižna napetost
+
+$$ \tau = \frac{F}{A} $${#eq:strig}
+
+>Enojna zarezna čepna vez iz smrekovega lesa je obremenjena s silo 1 500 N. Čep je visok 
+>80 mm. Določite najmanjšo dopustno širino čepa. ( R: $\tau_{dop}$ = 90 N/cm2, Scel = 16,66 cm2, b = 2 cm ) 
+
+>Naložena polica tehta 70 kg. Mozničili smo jo z bukovimi mozniki premera 8 mm. 
+>Izračunajte koliko moznikov smo uporabili pri izdelavi konstrukcije.
+>( R: $\tau_{dop}$ = 120 N/cm2, S1 = 50,265 mm2, k = 1, Scel = 5,83 cm2, N = 12 ) 
+
+## UPOGIBNA TRDNOST
+
+Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
+
+![Upogibna trdnost.](./slike/upogibna_trdnost.png){#fig:upogibna_trdnost}
+
+Pri dimenzioniranju na upogib upoštevamo samo največji, maksimalni
+upogibni moment, saj tam nastopijo največje napetosti.
+
+$$ \sigma_U = \frac{M_{max}}{W_x} $${#eq:napetosti_upogib}
+
+- $\sigma_U$ - mehanska napetost v nosilcu
+- $M_{max}$ - največji navor, ki ga povzroča mehanska obremenitev na nosilec
+- $W_x$ - odpornostni moment nosilca (odvisen od oblike prereza nosilca)
+
+| Prerez nosilca |    Vztrajnostni moment    |     Odpornostni moment    |
+|---------------:|:-------------------------:|:-------------------------:|
+|      kvadratni |   $I_x = \frac{a^4}{12}$  |    $W_x=\frac{a^3}{6}$    |
+|     pravokotni | $I_x = \frac{b\ h^3}{12}$ |   $W_x=\frac{b\ h^2}{6}$  |
+|        okrogli | $I_x=\frac{\pi\ d^4}{64}$ | $W_x=\frac{\pi\ d^3}{32}$ |
+
+Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer je: a - dolžina stranice kvadratnega, b - širina in h - višina pravokotnega ter d - premer okroglega prereza. {#tbl:momenti_presekov}
+
+![Poves in napetosti v nosilcu pri različnih obremenitvah.](./slike/nosilci.png){#fig:nosilci}
+
+- $f$ - poves
+- $F$ - sila obremenitve
+- $L$ - dolžina nosilca
+- $E$ - elastični modul
+- $I_X$ - vztrajnostni moment v vodoravni smeri
+- $\sigma_U$ - upogibna napetost v nosilcu
+
+
+> Izračunajte s kakšno silo lahko obremenite prostoležeči nosilec iz smrekovega
+> lesa 1 kategorije. Dolžina nosilca je 4 m, širina je 16 cm, višina je 20 cm.
+> Sila deluje na nosilec v sredini.
+> ( R: $\sigma$ = 1 300 N/cm2 , Wx = 1 066,66 cm3 , Mmax = 13 866,66 Nm, F = 13,8 kN )
+
+> Dimenzionirajte pravokotni prerez hrastovega trama dolžine 4 m. To je
+> prostoležeči nosilec, ki je po celi dolžini obremenjen z zvezno
+> obremenitvijo 1800 N/m. Stranici b in h sta v razmerju 7:5. Dopustna upogibna
+> napetost je 1400 N/mm2 , elastični modul pa je 12 500 MPa. Izračunajte tudi
+> poves hrastovega nosilca.
+>( R: Mmax = 3600 Nm, Wx = 257 142,8 mm³ , b = 92,3 mm = 93 mm,
+> h = 129,26 mm = 130 mm, IX = 17 026 750 mm⁴ , f = 28,2 mm )
+
+> Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje.
+
+## UKLONSKA TRDNOST
 
 vitkost
 
@@ -126,7 +322,7 @@ določamo po treh različnih postopkih, v odvisnosti od vitkosti.
 1. $\lambda \leq 60$ dimenzioniranje na čisti tlak
 2. $\lambda \geq 100$ - dimenzioniranje po Eulerjevem postopku
 
-#### Eulerjev postopek
+### Eulerjev postopek
 
 uklonska sila
 
@@ -142,78 +338,15 @@ $$ F_{dop} = \frac{F_k}{k_v}  $$
 
 - $k_v = 10 (za les)$
 
-### Vztrajnostni momenti
-
-- kvadratni presek:
-
-$$ I_x=\frac{ a^4 }{ 12 } \ ;\ W_x = \frac{ a^3 }{ 6 } $$
-
-- pravokotni presek:
-
-$$ I_x=\frac{ b\ h^3 }{ 12 } \ ;\ W_x = \frac{ b\ h^2 }{ 6 } $$
-
-- okrogli presek:
-
-$$ I_x=\frac{ \pi\ d^4 }{ 64 } \ ;\ W_x = \frac{ \pi\ d^3 }{ 32 } $$
-
->Smrekov steber pravokotnega prereza je na eni strani vpet členkasto na drugi pa trdo. Dolžina stebra
->je 5 m. Obremenjen je s silo 45 kN. Izračunajte dimenziji stranic pravokotnika, če sta v razmerju 2 :3.
->Varnostni faktor je 10.
->( R: l0 = 4 000 mm, Imin = 72 951 252 mm4 , b = 155,4 mm, h = 233,14 mm, i = 44,87 mm, $\lambda$ = 111,4 zato lahko dimenzioniramo po Eulerju. )
-
-## Upogibna trdnost
-
-Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
-
-![Upogibna trdnost.](./slike/upogibna_trdnost.png){#fig:upogibna_trdnost}
-
-Pri dimenzioniranju na upogib upoštevamo samo največji, maksimalni
-upogibni moment, saj tam nastopijo največje napetosti.
-
-$$ \sigma = \frac{M_{max}}{W} $${#eq:napetosti_upogib}
-
-- upogibna napetost
-- M_max - največji moment (navor)
-- W - odpornostni moment
-
-### Obrementive
-
-### Primeri
-
->Izračunajte s kakšno silo lahko obremenite prostoležeči nosilec iz smrekovega lesa 1 kategorije.
->Dolžina nosilca je 4 m, širina je 16 cm, višina je 20 cm. Sila deluje na nosilec v sredini.
->( R: $\sigma$ = 1 300 N/cm2 , Wx = 1 066,66 cm3 , Mmax = 13 866,66 Nm, F = 13,8 kN )
-
-> Dimenzionirajte pravokotni prerez hrastovega trama dolžine 4 m. To je prostoležeči nosilec, ki je po
-> celi dolžini obremenjen z zvezno obremenitvijo 1800 N/m. Stranici b in h sta v razmerju 7:5. Dopustna
-> upogibna napetost je 1400 N/mm2 , elastični modul pa je 12 500 MPa. Izračunajte tudi poves hrastovega
->nosilca.
->( R: Mmax = 3600 Nm, Wx = 257 142,8 mm3 , b = 92,3 mm = 93 mm, h = 129,26 mm = 130 mm, IX = 17 026
-> 750 mm4 , f = 28,2 mm )
-
-> Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje.
-
-## Strig
-
-Strižna trdnost je odpor lesa proti strigu lesnih plasti s silo, ki 
-deluje v ravnini lesnih vlaken ali redko, prečno na lesna vlakna.  
-
-- prečno na vlakna : čepna vez
-- vzdolž vlaken : poševnik v legi nadstreška
-
-- strižna napetost
-
-$$ \tau = \frac{F}{A} $${#eq:strig}
-
->Enojna zarezna čepna vez iz smrekovega lesa je obremenjena s silo 1 500 N. Čep je visok 
->80 mm. Določite najmanjšo dopustno širino čepa. ( R: $\tau_{dop}$ = 90 N/cm2, Scel = 16,66 cm2, b = 2 cm ) 
+> Smrekov steber pravokotnega prereza je na eni strani vpet členkasto na 
+> drugi pa trdo. Dolžina stebra je 5 m. Obremenjen je s silo 45 kN.
+>
+> Izračunajte dimenziji stranic pravokotnika, če sta v razmerju 2 :3.
+> Varnostni faktor je 10. 
+> ( R: l0 = 4 000 mm, Imin = 72 951 252 mm4 , b = 155,4 mm, h = 233,14 mm, i = 44,87 mm, $\lambda$ = 111,4 zato lahko dimenzioniramo po Eulerju. )
 
 
->Naložena polica tehta 70 kg. Mozničili smo jo z bukovimi mozniki premera 8 mm. 
->Izračunajte koliko moznikov smo uporabili pri izdelavi konstrukcije.
->( R: $\tau_{dop}$ = 120 N/cm2, S1 = 50,265 mm2, k = 1, Scel = 5,83 cm2, N = 12 ) 
-
-## Cepilna trdnost
+## CEPILNA TRDNOST
 
 Cepljivost je lastnost lesa, da se cepi ali razdvaja vzdolžno (v 
 smeri lesnih vlaken ). Les navadno cepimo z orodjem v obliki
