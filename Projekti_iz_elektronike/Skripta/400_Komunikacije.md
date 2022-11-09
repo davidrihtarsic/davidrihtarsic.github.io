@@ -118,21 +118,21 @@ Serial za serijsko komunikacijo (npr: Serial.print).
 ```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2);
+LiquidCrystal_I2C Lcd(0x27, 16, 2);
 int adcValue = 0;
 const int POT_PIN = A0;
 void setup() {
   pinMode(POT_PIN,INPUT);
-  lcd.init();
-  lcd.init();
-  lcd.backlight();
+  Lcd.init();
+  Lcd.init();
+  Lcd.backlight();
 }
 void loop() {
   adcValue = analogRead(POT_PIN);
-  lcd.clear();
-  lcd.print("potenciometer:");
-  lcd.setCursor(0,1);
-  lcd.print(adcValue);
+  Lcd.clear();
+  Lcd.print("potenciometer:");
+  Lcd.setCursor(0,1);
+  Lcd.print(adcValue);
   delay(200);
 }
 ```
