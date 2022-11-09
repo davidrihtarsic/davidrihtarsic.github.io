@@ -382,7 +382,10 @@ knjižnico LiquidCrystal_I2C.h. Knjižnico lahko namestimo v Arduino IDE tako:
 
     Sketch -> Include Library -> Manage Libraries
 
-    Filter your Serch... : LiquidCrystal I2C (by Marco Schwartz)
+    Filter your Serch... : LiquidCrystal I2C (by Frank de Brabander)
+
+Ta knjižnica vsebuje podobna imena funkcij, kot jih uporabljamo pri objektu
+Serial za serijsko komunikacijo (npr: Serial.print).
 
 > ### NALOGA: Izpis na LCD
 >

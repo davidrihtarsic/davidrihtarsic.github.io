@@ -1111,7 +1111,9 @@ Ker je sam protokol komunikacije bolj zapleten, bomo v ta namen uporabljali knji
 3
 
 Sketch -> Include Library -> Manage Libraries
-Filter your Serch... : LiquidCrystal I2C (by Marco Schwartz)
+Filter your Serch... : LiquidCrystal I2C (by Frank de Brabander)
+
+Ta knjižnica vsebuje podobna imena funkcij, kot jih uporabljamo pri objektu Serial za serijsko komunikacijo (npr: Serial.print).
 
 4.2.2 NALOGA: Izpis na LCD
 1. Preskusite naslednji program in
