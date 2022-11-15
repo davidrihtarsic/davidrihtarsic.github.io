@@ -26,12 +26,26 @@ Pogoste napake površinske obdelave:
 
 ## Brušenje
 
+- priprava površin
 - odrezujemo zelo majhne delce materiala
 - oblike brusilnih sredstev:
     - toga (brusni kamni, pile, rašpe)
     - upogibna (brusni papir)
     - prosta (pulirne paste)
 - granulacija : MESH vrednost : število odprtin na enoto površine sita
+- za brušenje lesnih tvoriv in lakon se uporabljajo brusilna sredstva,
+  ki so sestavljena iz:
+    - korunda (Al₂O₃) = sivo-rjave barve s trdoto 7.0
+    - plemeniti korund = svetlo-sive barve s trdoto 7.0 - 9.5
+    - silicijev karbid (SiC) = temno-zelene do črne barve s trdoto 9.6 (bolj za brušenje lakov)
+
+- les brusimo večstopenjsko (npr z granulacijami 80, 160, 300)
+- brusimo v smeri vlaken
+
+- brusimo tudi lahkirane površine:
+    - med vsakim lakiranjem, da izravnamo površino in zagotovimo oprijem
+    - po končnem brušenju, da izravnamo površino in je lom svetlobe manjši
+      (le ta povzroča lisaste mat površine)
 
 Glavni tehnološki postopki brušenja:
 
@@ -43,8 +57,8 @@ Glavni tehnološki postopki brušenja:
 ## Beljenje
 
 - osvetliti ton lesa
-- peroksidna sredstva (npr.: vodikov peroksid)
-- agresiven kemiski postoper
+- peroksidna sredstva (npr.: vodikov peroksid - H₂O₂)
+- agresiven kemijski postopek
 - prodira globoko v les
 
 ## Kitanje
@@ -53,15 +67,19 @@ Glavni tehnološki postopki brušenja:
 - sprva viskozna sredstva
 - nanos z lopatico
 - utrdijo v trdo, bolj ali manj elastično in s podlago čvrsto povezano plast
+- [kit za les Belinka](https://www.belinka.com/sl/izdelki/kit-za-les/)
 
 - lahko so enokomponentni in UV-utrjajočia ali
 - dvokomponentna poliuretanska polnila
+
+- za manjše nepravilnosti (reže v spojih) si lahko pripravimo zmes žagovine in
+  lepila
 
 ## Luženje
 
 - spremenimo naravno barvo lesa, ne da bi prekrili njegovo teksturo
 - lahko poudarimo teksturo
-- barvilo je raztopljeno v topilo
+- barvilo je raztopljeno v topilu
 - po nanosu lužila topilo izhlapi
 - les ni površinsko odporen na vremenske vplive, obrabo...
 
@@ -139,6 +157,9 @@ V primerjavi z lužili dosegamo različne učinke:
   - laneno, (tungovo, dehidrogenirano ricinusovo, konopljino olje, ribje olje)
 - laneno olje se suši en teden,
 - laneni firnež (termično obdelano laneno olje) - sušenje 1-2 dni
+- [firnež - Chemocolor](https://www.chemcolor.si/laneni-firnez.html)
+- !! krpe za nanos firneža je potrebno po uporabi DOBRO sprati z vodo ali celo
+  uničiti, ker lahko pride do samoužiga
 
 ### Voski
 
@@ -165,7 +186,8 @@ V primerjavi z lužili dosegamo različne učinke:
 - čela pokončnikov (izpostavljeni lumni lesnih celic) zaščitimo z letvami
 - police ograj opremimo z odkapnim profilom
 - orientacija police na ograji naj bo taka, da se ob navlažitvi ukrivi navzdol
-- opaž naj ima zgornjo stranico obdelano poševno za odtekanje vode
+- opaž naj ima zgornjo stranico obdelano poševno za odtekanje vode, spodnjo stranico
+  pa pravokotno poravnano v funkciji odkapnega profila 
 - zagotovimo zračnost opaža s hrbtne strani 
 
 ## Viri in Literatura

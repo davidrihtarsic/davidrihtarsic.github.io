@@ -20,6 +20,7 @@ Izjeme, ki jih med kompozitne materiale ne uvrščamo:
 https://slideplayer.com/slide/6381299/
 -->
 Glede na obliko armature ločimo kompozite z matrico, ki je ojačana z:
+
 - delci ali
 - z vlakni.
 
@@ -53,10 +54,12 @@ Najpomembnejša in najbolj znana uporaba kompozitov, ojačanih z delci, je volfr
 - relativno enostavno lahko načrtujemo elastičnosti modul (E) v smeri vlaken
 - materiali so anizotrpičeni:
     - različne fizikalne lastnosti v različnih smereh pri usmerjenih vlaknih
+    - primer: armiran beton (npr.: ne smemo spremeniti balkona v ploščad)
 - ali izotropični:
     - pri naključno razporejenih vlaknih
 
 Glede na usmeritev vlaken ločimo:
+
 - usmerjena vlakna
 
 ![Prikaz različnih kompozitnih materialov z usmerjenimi vlakni.](./slike/kompoziti_usmerjena_vlakna.png){#fig:kompoziti_usmerjena_vlakna}
@@ -109,6 +112,7 @@ Vlakna, ki se uporabljajo za armiranje kompozitov, naj imajo naslednje lastnosti
 - primerna so za tehnološke postopke
 
 Vlakna, ki se danes uporabljajo:
+
 - imajo majhno gostoto,
 - veliko trdnost jim zagotavlja kovalentna vez
 - anizotropne mehanske lastnosti.
@@ -127,7 +131,8 @@ Najbolj uporabna vlakna so:
 ### Vpliv vlaken na fizikalne lastnoati
 
 Na fizikalne lastnosti kompozitnih materialov ne vpliva le material iz katerega so vlakna, pač pa tudi:
-- koliko šna je njihova prisotnost (delež),
+
+- kolikošna je njihova prisotnost (delež),
 - kako velika vlakna so,
 - kakšno obliko imajo,
 - kako so razporejeni v matrici,
@@ -138,12 +143,14 @@ Na fizikalne lastnosti kompozitnih materialov ne vpliva le material iz katerega 
 ## Matrica kompozitnega materiala
 
 Matrica daje kompozitnemu materialu:
+
   - obliko in
   - monolitost
   - določa položaj armature (vlaken)
   - omogoča prenos obremenitve na vlakna, ki so vgrajena v matrico
 
 Način povezave vlaken in matrice bistveno vpliva na:
+
   - trdnost in
   - žilavost kompozita
   - togost (modul elastičnosti) se z armiranjem vlaken poveča.
@@ -157,12 +164,17 @@ Poznamo več vrst matric iz različnih materialov:
 ### Keramične matrice
 
 - so trde in
-- krhke
+- krhke (krhkost izboljšamo z vlakni)
 - majhno toplotno prevodnost
 - majhna natezna trdnost
 - velik modul elastičnosti (ob majhnem raztezku se pojavijo velike notranje napetosti)
 - manjšo gostoto (od kovin)
 - odporne na zelo visoke temperature
+- primer uporabe:
+    - zavorni diski
+    - lopatice v plinskih turbinah (reaktivni motorji)
+    - toplotni ščit za vesoljska vozila
+- [Keramični matrični kompoziti](https://wikislsl.top/wiki/ceramic_matrix_composite)
 
 ### Polimerne matrice
 
@@ -175,6 +187,7 @@ Poznamo več vrst matric iz različnih materialov:
 - odporne proti kemikalijam in vodi
 - postopek izdelave je enostaven in
 - poceni
+- primer.: epoksi smole, fenolne smole...
 
 ### Kovinske matrice
 
