@@ -35,7 +35,7 @@ Pogoste napake površinske obdelave:
 - granulacija : MESH vrednost : število odprtin na enoto površine sita
 - za brušenje lesnih tvoriv in lakon se uporabljajo brusilna sredstva,
   ki so sestavljena iz:
-    - korunda (Al₂O₃) = sivo-rjave barve s trdoto 7.0
+    - korunda ($Al_2O_3$) = sivo-rjave barve s trdoto 7.0
     - plemeniti korund = svetlo-sive barve s trdoto 7.0 - 9.5
     - silicijev karbid (SiC) = temno-zelene do črne barve s trdoto 9.6 (bolj za brušenje lakov)
 
@@ -57,7 +57,7 @@ Glavni tehnološki postopki brušenja:
 ## Beljenje
 
 - osvetliti ton lesa
-- peroksidna sredstva (npr.: vodikov peroksid - H₂O₂)
+- peroksidna sredstva (npr.: vodikov peroksid - $H_2 O_2$)
 - agresiven kemijski postopek
 - prodira globoko v les
 
