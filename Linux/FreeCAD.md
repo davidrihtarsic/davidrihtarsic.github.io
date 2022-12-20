@@ -39,3 +39,11 @@ Tools -> Addon Manager -> ...
 
 in nato izbereš workbench, ki ga potrebuješ nekaj zelo uporabnih workbenchow:
 - fasterners = navoji, matice, vijaki
+
+## ISSUES
+
+> Težave, da ni mogel naložit nekih objektov... OpenCascade..
+
+Rešitev je bila, da nimaš zadnje verzije opencascada:
+
+    sudo pacman -U /var/cache/pacman/pkg/opencascade-1:7.5.3-3-x86_64.pkg.tar.zst

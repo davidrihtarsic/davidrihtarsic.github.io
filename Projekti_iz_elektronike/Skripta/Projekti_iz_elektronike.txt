@@ -1,9 +1,9 @@
 PROJEKTI IZ ELEKTRONIKE
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -156,426 +156,313 @@ Uporaba integriranega vezja 555 . . . . . . . . . . . . . . . . . . . . . . . . 
 
 dr. David Rihtaršič
 
-2022-November
-7 SEKVENČNA VEZJA
-7.1 D-flip-flop . . .
-7.2 T-flip-flop . . .
-7.3 LM358 . . . . .
-7.4 TL071 . . . . .
-7.5 LMV358 . . . .
-7.6 LM741 . . . . .
-7.7 RC4558 . . . .
-7.8 NE5532 . . . .
-7.9 OP071 . . . . .
-
-ii
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-.
-.
+7 SEKVENČNA VEZJA
+7.1 D-flip-flop . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+7.2 T-flip-flop . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 33
 33
 35
-36
-36
-36
-36
-36
+
+8 KRMILJENJE IN REGULACIJA
+8.1 LM358 . . . . . . . . . .
+8.2 TL071 . . . . . . . . . .
+8.3 LMV358 . . . . . . . . .
+8.4 LM741 . . . . . . . . . .
+8.5 RC4558 . . . . . . . . .
+8.6 NE5532 . . . . . . . . .
+8.7 OP071 . . . . . . . . . .
+
 37
 37
+37
+38
+38
+38
+38
+38
+
+ii
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -595,7 +482,7 @@ sl. 1.1,sl. 1.2 in sl. 1.3.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -607,7 +494,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 Slika 1.2: Stikalna shema modula RobDuino - vhodni del.
 
@@ -615,7 +502,7 @@ dr. David Rihtaršič
 
 3
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -637,7 +524,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 1.3 Virtualna vezja
 Sestavljanje vezij pa na prototipni plošči pa je drugačen proces in za začetnike precej zahteven, zato je
@@ -651,7 +538,7 @@ dr. David Rihtaršič
 
 5
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -681,7 +568,7 @@ primerno izbrano (ali celo nastavljivo) referenčno vrednostjo.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -708,7 +595,7 @@ sprožilnikom (narišite stikalno shemo).
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -728,7 +615,7 @@ Povečana slika dejanskega integriranega vezja mikrokrmilnika ATmega238 je na sl
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -748,7 +635,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 Slika 3.2: Blokovna shema mikrokrmilnika ATmega238.
 
@@ -767,7 +654,7 @@ dr. David Rihtaršič
 
 11
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -809,7 +696,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 2. skušaj ugotoviti na kateri priključek IO enote je priključena LED, ki je na krmilniku.
 3. Izpolni tbl. 3.2
@@ -838,7 +725,7 @@ dr. David Rihtaršič
 
 13
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -860,7 +747,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 3.5 Branje napetostnega potenciala
 Branje napetostnega potenciala je najbolj pogosto uporabljeno pri vzorčenju pritiska tipke. Poglejmo
@@ -903,7 +790,7 @@ dr. David Rihtaršič
 
 15
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -960,7 +847,7 @@ dr. David Rihtaršič
 23
 24
 
-2022-November
+2022-December
 
 void setup()
 {
@@ -989,7 +876,7 @@ dr. David Rihtaršič
 
 17
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1002,7 +889,7 @@ ciljno vezje.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1034,7 +921,7 @@ drugih zunanjih naprav.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1081,7 +968,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 Slika 4.2: Na I2C vodilo riključene naprave.
 V primeru, ki ga prikazuje sl. 4.2 je glavna naprava označena kot »master«, ki bo v našem primeru
@@ -1097,7 +984,7 @@ dr. David Rihtaršič
 
 21
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1165,7 +1052,7 @@ delay(200);
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1187,7 +1074,7 @@ Primeri moduliranih signalov so vidni na sl. 5.1.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1213,7 +1100,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 Načrtujte tudi elektroniko za generirajte periodičnega nosilnega signala. Nato podatke
 amplitudno modulirajte in z IR diodo pošljite do sprejemnika. V poročilo dodajte shemo
@@ -1256,7 +1143,7 @@ dr. David Rihtaršič
 
 25
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1321,7 +1208,7 @@ dr. David Rihtaršič
 40
 41
 
-2022-November
+2022-December
 
 //
 +--[R2k2]--+---||---+
@@ -1381,7 +1268,7 @@ dr. David Rihtaršič
 
 27
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1399,7 +1286,7 @@ potenciometra.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1420,7 +1307,7 @@ Slika 6.1: Blokovna shema integriranega vezja 555.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1456,7 +1343,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 6.2.4 NALOGA: 555 kot Monostabilni-multivibrator
 Integrirano vezje 555 zvežite v način monostabilnega-multivibratorja tako, da ko boste s pritiskom
@@ -1474,7 +1361,7 @@ dr. David Rihtaršič
 
 31
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1492,7 +1379,7 @@ USART enote prikazuje sl. 7.1.
 
 dr. David Rihtaršič
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
@@ -1512,7 +1399,7 @@ dr. David Rihtaršič
 
 PROJEKTI IZ ELEKTRONIKE
 
-2022-November
+2022-December
 
 Oba registra naj boste zgrajena iz D-ff in naj vsebujeta 8 pomnilnih celic (8-bitni register). Krmiljenje
 napetosti prožitvenih signalov kot so Enable in Clock lahko zagotovite z napetostnimi viri (5V on/off).
@@ -1525,28 +1412,29 @@ vodilu na voljo frekvence: 19200, 9600, 4800, 2400 . . .
 
 7.2.1 NALOGA: Dvojiški števnik
 V simulacijskem programu (SimulIDE) sestavite: - 4-bitni dvojiški števnik (kaskadno vezani T-ff), izhodne signale (D3, D2, D1 in D0) priključite na vhod - integrirano vezje 74HC4511 (BCD -> 7 seg.
-LED) in izhode le teh - povežite na 7-segmentni LED prikazovljnik. # KRMILJENJE IN REGULACIJA
-
-7.2.2 NALOGA: Krmiljenje moči DC motorja
-Načrtujete in sestavite vezje za krmiljenje moči enosmernega motorja. Vezje izvedite z uporabo
-krmilnaka Arduino nano, ki ga opremite s potenciometrom za nastavljanje želene vrednosti. S
-funkcijo analogWrite(pin, val) krmilite izhod za krmiljenje motorja. Narišite stikalno shemo
-vezja in podajte celotno programsko kodo krmilnika.
-
-7.2.3 NALOGA: Regulacija osvetljenosti
-Načrtujete in sestavite vezje za regulacijo osvetljenosti. Podajte stikalno shemo vezja in vezje
-tudi sestavite. Če boste nalogo rešili z uporabi krmilne elektronike, predložite tudi program. #
-OPERACIJSKI OJAČEVALNIKI
+LED) in izhode le teh - povežite na 7-segmentni LED prikazovljnik.
 
 dr. David Rihtaršič
 
 35
 
-2022-November
+2022-December
 
 PROJEKTI IZ ELEKTRONIKE
 
-7.3 LM358
+8 KRMILJENJE IN REGULACIJA
+8.0.1 NALOGA: Krmiljenje moči DC motorja
+Načrtujete in sestavite vezje za krmiljenje moči enosmernega motorja. Vezje izvedite z uporabo
+krmilnaka Arduino nano, ki ga opremite s potenciometrom za nastavljanje želene vrednosti. S
+funkcijo analogWrite(pin, val) krmilite izhod za krmiljenje motorja. Narišite stikalno shemo
+vezja in podajte celotno programsko kodo krmilnika.
+
+8.0.2 NALOGA: Regulacija osvetljenosti
+Načrtujete in sestavite vezje za regulacijo osvetljenosti. Podajte stikalno shemo vezja in vezje
+tudi sestavite. Če boste nalogo rešili z uporabi krmilne elektronike, predložite tudi program. #
+OPERACIJSKI OJAČEVALNIKI
+
+8.1 LM358
 •
 •
 •
@@ -1560,12 +1448,20 @@ common mode ground?
 dva op. amp. v enem ohišju
 – LM324 (enake karakteristike, le 4x op.amps)
 
-7.4 TL071
+8.2 TL071
 • designed for dual supply voltages
 • low total harmonic distortion 0.003% (audio aplications)
 • very low input baise curent (1pA)
 
-7.5 LMV358
+37
+
+dr. David Rihtaršič
+
+2022-December
+
+PROJEKTI IZ ELEKTRONIKE
+
+8.3 LMV358
 •
 •
 •
@@ -1579,29 +1475,23 @@ supply-voltage 2.5V - 5.5V
 dva op.amp v enem ohišju
 – LMV324 (anke karakteristike, le da so 4x )
 
-7.6 LM741
+8.4 LM741
 • ? zakaj, ko pa je. . .
 
-7.7 RC4558
+8.5 RC4558
 • low noise
 
-36
-
-dr. David Rihtaršič
-
-PROJEKTI IZ ELEKTRONIKE
-
-2022-November
-
-7.8 NE5532
+8.6 NE5532
 • low noise
 • in audio applications
 
-7.9 OP071
+8.7 OP071
 •
 •
 •
 •
+
+38
 
 low noise
 low offset votage (60 uV)
@@ -1610,6 +1500,4 @@ nekoliko večji vhodni tok (1nA)
 
 dr. David Rihtaršič
 
-37
-
-
+

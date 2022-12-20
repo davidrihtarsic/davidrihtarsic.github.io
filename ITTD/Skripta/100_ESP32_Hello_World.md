@@ -8,7 +8,7 @@ Več o tem krmilniku si lahko preberete na njihovi [spletni strani](https://docs
 
 ## OSNOVNE LASTNOSTI
 
-Pred samo uporabo se najprej seznanimo z glavnimi lastnostmi modula ESP32_DevKitC_V4. Tako bomo spoznali njegove možnosti uporabe in tudi omejitve. Glavni sestavni krmilnika je modul [ESP32_WROOM_32D](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/modules-and-boards.html#esp32-wroom-32d-esp32-wroom-32u), ki ga prikazuje [@fig:Esp32WroomModule].
+Pred samo uporabo se najprej seznanimo z glavnimi lastnostmi modula ESP32_DevKitC_V4. Tako bomo spoznali njegove možnosti uporabe in tudi omejitve. Glavni sestavni krmilnika je modul [ESP32_WROOM_32D](https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf), ki ga prikazuje [@fig:Esp32WroomModule].
 
 ![ESP32_WROOM_32D modul.](https://dl.espressif.com/dl/schematics/pictures/esp32-wroom-32d-front-back.jpg){#fig:Esp32WroomModule}
 

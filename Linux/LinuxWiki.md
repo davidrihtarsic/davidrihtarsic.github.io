@@ -33,6 +33,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 # INSTALLATION
 
+- [arch-chroot](arch_chroot.md) - sprememba root directoryja tako, da lahko ponovno popraviš sistem
 - [linux image](installation_image.md)
 - [disk partitioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
 - [mounting]()-to-do
@@ -71,13 +72,14 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 ## UTILITY PROGRAMS
 
 -  AWK
-- [auto-cpufreq](auto_cpufreq.md) - power management
+- [auto-cpufreq](auto_cpufreq.md) - power management ... ta ni ok... uporabi TLP
 - [convert](convert.md) - glavne funkcije na sliki (resize, flip, flop ...)
 - [cpp](cpp.md) - programiranje v c-ju ali bolje v c++
 - [ffmpeg](ffmpeg.md) - manipulacija multimedijskih vsebin (video zvok convert snemanje)
 - [general_expressions](general_expressions.md)
 - [GIT](git.md)
 - [grep](grep.md)
+- [inxi](inxi.md) - program za pregled hardware opreme (kater CPU, GPU, WiFi ...)
 - [pandoc](pandoc.md)
 - [SED](sed.md)
 - [network check](network.md)
@@ -88,6 +90,8 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [xev](xev.md) - katero tipko smo pritisnili, key press
 - [import](import.md) - terminal screen capture
 - [scrot](scrot) - terminal screen-shot
+- [socat](socat.ms) - Multipurpose relay, preusmeri data flov kamorkoli, tudi na terminal bash...
+- [tlp](tlp.md) - zelo dober program za nadzor powermanagementa
 
 
 ## APPLICATION PROGRAMS
@@ -123,6 +127,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [Fritzing](Fritzing.md) - Sestavljanje elektronskih vezij
 - [FreeCAD](FreeCAD.md) - Program za parametrično modeliranje
 - [KiCAD](KiCAD.md) - Načrtovanje elektronskih vezij in simulacija
+- [Meld](meld.md) - Program za primerjavo dveh datotek, direktorijev...
 - [QCAD](QCAD.md) - 2D risanje tehnične dokumentacije
 - [CURA](IRA3d.md) - 3D slicer za 3D print
 - [Thunderbird](Thunderbird.md) - Elektronska pošta

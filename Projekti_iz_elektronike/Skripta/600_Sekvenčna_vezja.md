@@ -36,3 +36,4 @@ Kot slednja funkcija (deljitelj osnovnega takta) je tudi različica sekvenčnega
 > - izhodne signale (D3, D2, D1 in D0) priključite na vhod 
 > - integrirano vezje 74HC4511 (BCD -> 7 seg. LED) in izhode le teh
 > - povežite na 7-segmentni LED prikazovljnik.
+
