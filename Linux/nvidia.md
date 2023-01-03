@@ -29,7 +29,9 @@ in nato lahko izbiraš katero grafično kartico boš uporabljal
     optimus-manager --switch integrated
     optimus-manager --switch hybrid
 
-
+## težave z ffmpeg
+prime-run mi ni želel zagnati ffmpeg-a našel sem namig, da je potrebno imeti naloženo knjižnico
+ffmpeg-full??
 
 ..:: stare nastavitve ::..
 

@@ -3,6 +3,7 @@
 ## D-flip-flop
 
 D-flip-flop (D-ff) je pogosto uporabljen predvsem v dveh elektronskih funkcijah:
+
 - kot nastavitneni/pomnilni register in
 - kot pomikalni register.
 
@@ -16,6 +17,7 @@ Oddajni del (Transmitter) USART enote je v splošnem sestavljen iz pomnilnega re
 
 > ### NALOGA: Pomikalni register
 > V simulacijskem programu (SimulIDE) načrtujte:
+>
 > - pomnilni register `UDRn` in
 > - pomični register `TSR`.
 >
@@ -25,6 +27,7 @@ Oddajni del (Transmitter) USART enote je v splošnem sestavljen iz pomnilnega re
 ## T-flip-flop
 
 T-flip-flop (T-ff) je pogosto uporabljen v sekvenčnih vezjih kot:
+
 - dvojiški števnik in
 - kot delitelj osnovnega urinega takta.
 
@@ -32,6 +35,7 @@ Kot slednja funkcija (deljitelj osnovnega takta) je tudi različica sekvenčnega
 
 > ### NALOGA: Dvojiški števnik
 > V simulacijskem programu (SimulIDE) sestavite:
+>
 > - 4-bitni dvojiški števnik (kaskadno vezani T-ff),
 > - izhodne signale (D3, D2, D1 in D0) priključite na vhod 
 > - integrirano vezje 74HC4511 (BCD -> 7 seg. LED) in izhode le teh

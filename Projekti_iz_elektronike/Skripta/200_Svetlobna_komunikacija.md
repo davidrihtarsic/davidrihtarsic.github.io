@@ -27,7 +27,7 @@ primerno izbrano (ali celo nastavljivo) referenčno vrednostjo.
 
 > ### NALOGA: Komparator napetosti
 >
-> 1. Izdelajte svetlobni sprejemnik, v katerega boste za zaznavanje
+> 1. Načrtujte (shema vezja) in izdelajte svetlobni sprejemnik, v katerega boste za zaznavanje
 > osvetljenosti uporabili elektronski element s hitrim odzivom.
 >
 > 2. Analogni signal senzorja modificirajte tako, da boste lahko nedvoumno

@@ -33,6 +33,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 # INSTALLATION
 
+- [notes](Vanilla_Arch_Install.md) - zapiski o namestitvi popolnoma novega Arch sistema
 - [arch-chroot](arch_chroot.md) - sprememba root directoryja tako, da lahko ponovno popraviš sistem
 - [linux image](installation_image.md)
 - [disk partitioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
@@ -75,6 +76,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [auto-cpufreq](auto_cpufreq.md) - power management ... ta ni ok... uporabi TLP
 - [convert](convert.md) - glavne funkcije na sliki (resize, flip, flop ...)
 - [cpp](cpp.md) - programiranje v c-ju ali bolje v c++
+- [cp ln mkdir](file_management.md) - koristne operacije za urejanje datotek in direktorijev
 - [ffmpeg](ffmpeg.md) - manipulacija multimedijskih vsebin (video zvok convert snemanje)
 - [general_expressions](general_expressions.md)
 - [GIT](git.md)

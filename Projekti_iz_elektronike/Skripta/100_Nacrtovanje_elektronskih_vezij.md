@@ -15,7 +15,7 @@ na [@fig:RobDuino_Power],[@fig:RobDuino_Inputs] in [@fig:RobDuino_Output].
 ![Stikalna shema modula RobDuino - izhodni del..](./slike/RobDuino_Output.png){#fig:RobDuino_Output}
 
 > ### NALOGA: Stikalne sheme
-> V programskem orodju EasyEDA narišite shemo astabilnegamultivibratorja, izvozite sliko sheme in j vključite v poročilo.
+> V programskem orodju EasyEDA narišite shemo astabilnegamultivibratorja, izvozite sliko sheme in jo vključite v poročilo.
 
 ## Tiskana vezja
 
