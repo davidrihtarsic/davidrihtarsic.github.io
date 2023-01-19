@@ -9,4 +9,11 @@ nekaj uporabnih komand:
 > Ui, Uii                             ; izpis vrednosti dveh fun.
 >[Ui, Uii] ≈ [2.385083119 V, 2.282987226 V]
 
-> \a^2 + \b^2 = \c^2                  ; uporaba spremenljivk \a
+> \a^2 + \b^2 = \c^2                  ; uporaba "unknown" spremenljivk \a
+>
+> U1 := "R1" * "Ucc"/("R1"+"Rn1")
+> U2 := "R1" * "Ucc"/("R1"+"Rn2")
+> Ud=U1-U2
+> diff(Ud;"R1")                         ;odvajaj funkcijo Ud po R1
+> solve(diff(Ud;"R1")=0)
+> solve(diff(Ud, R1) = 0) = [√(Rn1 × Rn2), −√(Rn1 × Rn2)]

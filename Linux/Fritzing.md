@@ -25,4 +25,5 @@ Nekaj že narejenih komponent pa lahko najdete na naslednjih straneh:
 
 - [Fritzing elementi (DRTI-elektronika)](https://sites.google.com/site/drtielektronika/izobrazevanje/fritzing-elementi)
 - [Richard's blog - tag=fritzing](http://omnigatherum.ca/wp/?tag=fritzing)
+  - [parts](http://omnigatherum.ca/wp/?p=262)  
 

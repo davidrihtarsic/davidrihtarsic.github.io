@@ -1,4 +1,4 @@
-### GENERAL EXPRESSIONS
+## GENERAL EXPRESSIONS
 
 | EXPRESSION | Funkcija                                          |
 |:----------:|---------------------------------------------------|
@@ -8,5 +8,7 @@
 |      ^     | Začetek vrstice                                   |
 |      $     | Konec vrstice                                     |
 |      *     | Predhodni znak se lahko ponovi nikoli ali večkrat |
+
+(this|that) Najde "this" ali "that"
 
 
