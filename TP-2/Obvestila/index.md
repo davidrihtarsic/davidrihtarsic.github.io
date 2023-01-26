@@ -9,6 +9,7 @@
 
 ## Obvestila za študente:
 
+- [Ocene izdelkov in trenutno stanje poročil](./2023-01-26_izdelki.md)
 - [2022 kolokvij iz THOM](./2022-12-20_kolokvij1.md)
 
 ---

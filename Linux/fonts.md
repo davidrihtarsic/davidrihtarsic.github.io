@@ -23,6 +23,19 @@ int i=0;
   digitalWrite(4,HIGH);
 ```
 
+## DWM in DMENU
+
+Imel sem težave, da ni želelo prikazovati barvaste emojis v dwm in dmenu...
+
+Rešil sem tako, da v array za fonte v `config.h` datoteki nastaviš najprej `Hermit` fonte,
+nato pa še `JoyPixels`.
+
+```cpp
+static const char *fonts[]          = { "Hermit:pixelsize=14:antialias=true:autohint=true",
+                                        "JoyPixels:pixelsize=12:antialias=true:autohint=true"
+                                        "Material Design Icons Desktop:size=11" };
+```
+
 ## CONSOLE(tty) FONTS
 
 fonti za tty terminal se nahajajo v 

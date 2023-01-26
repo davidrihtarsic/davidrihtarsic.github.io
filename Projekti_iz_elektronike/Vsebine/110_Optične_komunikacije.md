@@ -1,0 +1,11 @@
+PRENOS DIGITALNEGA SIGNALA
+--------------------------------------------------------------------------------
+
+- Svetlobni izvor 
+- Svetlobni senzorji
+- Uporaba operacijskega ojačevalnika kot komparatorja napetosti
+- Komparatorji napetosti z odprtim kolektorjem
+- Schmittov sprožilnik
+- digitalni Schmittov sprožilnik 
+- Optični spojniki 
+

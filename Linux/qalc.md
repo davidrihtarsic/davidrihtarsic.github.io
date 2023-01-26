@@ -11,8 +11,8 @@ nekaj uporabnih komand:
 
 > \a^2 + \b^2 = \c^2                  ; uporaba "unknown" spremenljivk \a
 >
-> U1 := "R1" * "Ucc"/("R1"+"Rn1")
-> U2 := "R1" * "Ucc"/("R1"+"Rn2")
+> U1 := "R1" * "Ucc"/("R1"+"Rn1")     ; neznana spremenljivka je tudi "R1"
+> U2 := "R1" * "Ucc"/("R1"+"Rn2")     ; U2  pa je znana, sicer sestavljena iz nezanaih spremenljivk
 > Ud=U1-U2
 > diff(Ud;"R1")                         ;odvajaj funkcijo Ud po R1
 > solve(diff(Ud;"R1")=0)
