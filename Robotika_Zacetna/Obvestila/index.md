@@ -5,6 +5,13 @@
 [💾DOWNLOAD](../Presnemi/index){: .btn}
 
 ---
+
+**2022-2023**:
+
+- [Final score](./2023-01-29_končna_ocena.md)
+- [Exam & Project](./2023-01-29_vaje-projekt.md)
+
+---
 - [Projects 2021](./2022-01-20_project_results.md)
 - [rezultati izpita in končne ocene](./2021-01-29_Končne_ocene.md)
 - [Končne ocene( 2021-01-21)](./2021-01-21_Končne_ocene.md)
