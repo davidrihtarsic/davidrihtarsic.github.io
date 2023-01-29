@@ -67,6 +67,7 @@
 - __vzdolžni razrez__
   + ker je obd. med vzdolžnim prislonom in ž.l. je povečana verjetnost za povratni udarec
   + zagotovljen mora biti raven rob obdelovanca, ki ga prislonimo k vodilu
+  + skušamo zagotoviti tri smeri potiska (navzdol na mizo, vstran na VP in v smeri reza)
   + leva roka vodi levi rob obdelovanca 5-10 cm pred ž.l.
   - z njo ne sledimo obdelovancu, ker bi na neki točki bočno obremenjevali ž.l.
   + desna roka potiska obdelovanec v razrez
@@ -74,6 +75,7 @@
     + s potisno palico potiskamo bližje ž.l. zato, da ustvarjamo navor v desno in s tem pritiskamo obdelovanec k prislonu (razen če uporabljamo razporni klin)
   + razrez zaključimo z desno roko tako, da obdelovanec potisnemo še nekaj cm za ž.l.
   + odrezek, ki je na levi strani pustimo dokler se ž.l. ne ustavi
+  + [Varno razžagovanje](https://www.youtube.com/watch?v=kfiqPlC6Ltg)
 
 ## Pomembnejše začetniške napake
 
