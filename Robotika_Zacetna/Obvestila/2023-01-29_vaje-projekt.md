@@ -5,6 +5,7 @@
 [💾DOWNLOAD](../Presnemi/index){: .btn}
 
 ---
+
 | VPISNA | PREDMET | 2023-01-27 | OBVEZNOST | TOČKE | OCENA [%] |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | 70088673   | ZROB | 2023-01-27 | vaje-projekt | 70 | 70 |
