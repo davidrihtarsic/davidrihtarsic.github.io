@@ -7,6 +7,11 @@
 
 ---
 
+## Ocene 2022/2023
+
+- [Ocene poročil](./2023-02-13_vaje-poročila.md)
+- [Ocene izpita](./2023-02-13_teorija-izpit.md)
+
 ## Ocene 2021/2022
 
 - [3. izpit, 21.6.](./2022-06-24_teorija-izpit.md)

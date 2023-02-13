@@ -1,4 +1,4 @@
-# Journal
+# Query the systemd journal
 
 - Show all messages from this [b]oot:
     journalctl -b
@@ -23,6 +23,12 @@
     journalctl _PID=pid
 
 - Show all messages by a specific executable:
+
     journalctl path/to/executable
 
+## Log files
+
+    /var/log/
+    startx > $HOME/startx.log 2>&1
+    $ startx &> ~/.Xoutput
 

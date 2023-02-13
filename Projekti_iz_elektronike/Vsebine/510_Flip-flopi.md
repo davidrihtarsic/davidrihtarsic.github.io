@@ -1,6 +1,9 @@
 FLIP-FLOPI 
 --------------------------------------------------------------------------------
-R-S flip-flop 
-Sinhroni flip - flop (oz. flip - flop z vrati) 
-Pomikalni register
+
+- R-S flip-flop
+- D flip-flop
+- T flip-flop
+- JK ff
+- Sinhroni flip - flop (oz. flip - flop z vrati) 
 
