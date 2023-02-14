@@ -9,6 +9,9 @@
 
 ## Obvestila za študente:
 
+- [Končna ocena](./2023-02-14_končna_ocena.md)
+- [Poročila 10.2.](./2023-02-14_vaje-poročila.md)
+
 - [Ocene izdelkov in trenutno stanje poročil](./2023-01-26_izdelki.md)
 - [2022 kolokvij iz THOM](./2022-12-20_kolokvij1.md)
 
