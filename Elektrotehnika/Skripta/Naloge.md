@@ -26,8 +26,9 @@
 > Za vsaj dva različna primera napajalnih napetosti predstavite, da velja 1. Kirchhoffov izrek. Odgovor naj vsebuje:
 >
 >   1. električno shemo vezja s ključnimi el. veličinami,
->   2. označite (kompleksnejšo) poljubno sumacijsko točko v vezju in
->   3. pravilno zapišite [@eq:kirck1] z vstavljenimi podatki.
+>   2. označite (kompleksnejšo) poljubno sumacijsko točko v vezju,
+>   3. izmerite vse pritekajoče in odtekajoče tokove sumacijske točke in
+>   4. pravilno zapišite [@eq:kirck1] z vstavljenimi podatki.
 
 ## 2. Kirchhoffov izrek
 
@@ -36,10 +37,11 @@
 >
 > 1. sestavi zapise enačb 2. Kirchhoffovega izreka za vse tokokroge v vezju,
 > 2. sestavite zapise enačb za vse sumacijske točke v vezju,
-> 3. za vse upore sestavite enačbo Omovega in
-> 4. rešite sistem enačb ter izračunajte napetosti in tokove skozi vse elemente.
+> 3. za vse upore sestavite enačbo Omovega
+> 4. rešite sistem enačb ter izračunajte napetosti in tokove skozi vse elemente ter
+> 5. jih primerjajte z izmerjenimi vrednostmi.
 
-# NADOMESTNA OZ. NOTRANJA UPORNOST
+# NADOMESTNA IN NOTRANJA UPORNOST
 
 ## Zaporedna vezava uporov
 
@@ -200,7 +202,7 @@
 
 > ### NALOGA: TOK V IZMENIČNEM KROGU S KAPACITIVNIM BREMENOM  
 > Iz časovne odvisnosti U_R(t) iz prejšnje naloge izračunajte tok skozi vezje (vsako točko napetosti delite z upornostjo upora) in tok vrišite v graf na [@fig:07chart-oscilloscope.png].  
-> V graf na [@fig:chart-oscilloscope.png] vrišite (prerišite) tudi napetost na kondenzatorju.
+> V graf na [@fig:07chart-oscilloscope.png] vrišite (prerišite) tudi napetost na kondenzatorju.
 
 > ### NALOGA: IMPEDANCA KONDENZATORJA  
 > Izračunajte impedanco kondenzatorju in nato še njegovo kapacitivnost. Izračune dosledno nakažite.
@@ -267,6 +269,8 @@
 > - __pol-koračnen__ načinu.
 >
 > Priložite obe programski kodi.
+
+## Priloge
 
 # ENOSMERNI MOTOR
 

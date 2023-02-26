@@ -1,4 +1,4 @@
-# NADOMESTNA OZ. NOTRANJA UPORNOST
+# NADOMESTNA IN NOTRANJA UPORNOST
 
 O notranji upornosti govorimo predvsem takrat, ko neko napravo priključimo v neko vezje in bo tako s svojimi lastnostmi vplivala na električne veličine v prvotnem vezju. Ker je veliko teh naprav sestavljenih zelo kompleksno, jih pogosto predstavimo z nekim nadomestnim uporom, ki bi povzročil enake električne vplive. 
 
