@@ -123,7 +123,7 @@ Iz grafa normalne porazdelitve, ki je prikazan na [@fig:Standard_deviation_diagr
 
 ![Graf normalne porazdelitve z vključujočimi deleži meritev.](./slike/Standard_deviation_diagram_micro.svg.png){#fig:Standard_deviation_diagram_micro}
 
-Na primer izkaže se, da je v območju $\bar x\pm1\sigma$ kar 68% vseh meritev, v območju $\bar x \pm 2\sigma$ jih je 95% in v območju $\bar x \pm 3\sigma$ celo 99,7%.
+Na primer izkaže se, da je v območju $\mu \pm 1\sigma$ kar 68% vseh meritev, v območju $\mu \pm 2\sigma$ jih je 95% in v območju $\mu \pm 3\sigma$ celo 99,7%.
 
 Zato te iste verjetnosti veljajo tudi pri vzorčenju manjših vzorcev. Tako s **standardno napako ocene povprečne vrednosti ($s_{\bar{x}}$)** naših meritev lahko ocenimo interval ($\bar{x}\pm \alpha s_{\bar{x}}$) v katerem se dejanski parameter $\mu$ nahaja z neko verjetnostjo. Standardno napako ocene povprečne vrednosti lahko izračunamo po [@eq:std_err]:
 
