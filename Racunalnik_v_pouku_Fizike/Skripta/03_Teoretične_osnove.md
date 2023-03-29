@@ -72,7 +72,7 @@ V splošnem bi lahko točnost in natančnost predstavili z grafom na sliki [@fig
 
 Kadar imamo v merilnem sistemu opravka z naključnimi napakami, meritve lahko predstavimo s krivuljo normalne porazdelitve - v splošenm imenovnane Gaussova porazdelitev. Zapišemo jo v obliki [@eq:gauss].
 
-$$f(x)=\frac{1}{\sqrt{2 \pi \sigma ^2}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}$${#eq:gauss}
+$$f(x)=\frac{1}{\sqrt{2 \pi \sigma ^2}}e^{-\frac{(x-\bar{x})^2}{2\sigma ^2}}$${#eq:gauss}
 
 Kjer je $\mu$ povprečna vrednost populacije in $\sigma$ standardni odklon populacije. Nekaj različnih krivulj lahko vidimo na sliki [@fig:Normal_Distribution_PDF.svg] [@Normal_distribution_wiki_2019].
 
@@ -97,9 +97,9 @@ Pričakovana vrednost premaknjenosti je okoli $0$. Če je vrednost $>0.5$ govori
 
 **Povprečna vrednost populacije ([@eq:population_avg]) in vzorca ([@eq:sample_avg]) **
 
-$$\mu = \frac{\sum x_N}{N}$${#eq:population_avg}
+$$\mu = \frac{\sum^N_{i=1} x_i}{N}$${#eq:population_avg}
 
-$$\bar{x} = \frac{\sum x_n}{n}$${#eq:sample_avg}
+$$\bar{x} = \frac{\sum^N_{i=1} x_i}{n}$${#eq:sample_avg}
 
 ```
 =AVERAGE(Range)
