@@ -46,7 +46,8 @@ void loop() {
 >> - izmerjena referenčna vrednost: ______________________________________________,
 >> - povprečno vrednost meritev : ________________________________________________,
 >> - točnost predstavite z relativno napako  :_____________________________________,
->> - preciznost meritev pa podajte s standardnim odklon :__________________________.
+>> - preciznost meritev pa podajte s standardno napako  
+>> ocene povprečne vrednosti za 95% verjetnost :__________________________.
 
 ```cpp
 const int POTENCIOMETER = 0;

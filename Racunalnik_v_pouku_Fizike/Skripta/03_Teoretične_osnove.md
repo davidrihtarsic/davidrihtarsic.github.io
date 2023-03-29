@@ -50,13 +50,19 @@ $$Locljivost = \frac{Obmocje}{N}$${#eq:locljivost}
 
 ## Točnost in natančnost
 
-**Točnost** (v različnih virih je poimenovana različno, ang.: validity) je lastnost merilnega sistema, ki predstavlja ustreznost prestavljene meritve glede na njeno realno merjeno vrednost. Navadno jo izražamo kot relativno napako $\epsilon$ v procentualni obliki (enačba [@eq:relativna_napaka]):
+**Točnost** (v različnih virih je poimenovana različno, ang.: validity) je lastnost merilnega sistema, ki predstavlja ustreznost prestavljene meritve glede na njeno realno merjeno vrednost. Navadno jo izražamo kot relativno napako $\epsilon$ v procentualni obliki ([@eq:relativna_napaka]):
 
-$$\epsilon = \frac{(X-x_n)}{X}$$ {#eq:relativna_napaka} 
+$$\epsilon = \frac{( \mu - \bar{x})}{\mu}$$ {#eq:relativna_napaka} 
 
-Kjer je $X$ realna merjena vrednost in $x_n$ izmerjena vrednost.
+Kjer je $\mu$ realna merjena vrednost (to je parameter) in $\bar{x}$ povprečna izmerjena vrednost.
 
-**Natančnost** oz. Preciznost (zopet v različnih literaturah poimenovana različno, ang.: reliability) je sposobnost merilnega sistema reprodukcije iste merjene (refernčne) vrednosti z enakimi izmerjenimi vrednostmi. V mnogih primerh se izkaže, da gre v tem primeru za naključno napako merjenja in to vrednost lahko ponazarjamo s standardnim odklonom merilnega postopka (enačba [@eq:std_dev]). 
+Lahko pa točnost izrazimo tudi v absolutni obliki ([@eq:abs_napaka]):
+
+$$ e = \mu - \bar{x} $${#eq:abs_napaka}
+
+kjer je $\bar{x}$ povprečna vrednost meritev in je tako statistično izmerjena količina (ni parameter).
+
+**Natančnost** oz. Preciznost (zopet v različnih literaturah poimenovana različno, ang.: reliability) je sposobnost merilnega sistema reprodukcije iste merjene (referenčne) vrednosti z enakimi izmerjenimi vrednostmi. V mnogih primerih se izkaže, da gre v tem primeru za naključno napako merjenja in to vrednost lahko ponazarjamo s standardnim odklonom merilnega postopka ([@eq:sample_std_dev]). V nekaterih primerih to vrednost podajamo tudi z intervalom zaupanja, pri katerem podamo tudi verjetnost meritve ([@eq:std_err]).
 
 V splošnem bi lahko točnost in natančnost predstavili z grafom na sliki [@fig:Accuracy_and_precision_sl.svg][@Tocnost_wiki_2019].
 
@@ -64,47 +70,72 @@ V splošnem bi lahko točnost in natančnost predstavili z grafom na sliki [@fig
 
 ## Normalna porazdelitev
 
-Kadar imamo v merilnem sistemu opravka z naključnimi napakami, meritve lahko predstavimo s krivuljo normalne porazdelitve - v splošenm imenovnane Gaussova porazdelitev. Zapišemo jo v obliki enačbe [@eq:gauss].
+Kadar imamo v merilnem sistemu opravka z naključnimi napakami, meritve lahko predstavimo s krivuljo normalne porazdelitve - v splošenm imenovnane Gaussova porazdelitev. Zapišemo jo v obliki [@eq:gauss].
 
 $$f(x)=\frac{1}{\sqrt{2 \pi \sigma ^2}}e^{-\frac{(x-\mu)^2}{2\sigma ^2}}$${#eq:gauss}
 
-Kjer je $\mu$ povprečna vrednost in $\sigma^2$ varianca. Nekaj različnih krivulj lahko vidimo na sliki [@fig:Normal_Distribution_PDF.svg] [@Normal_distribution_wiki_2019].
+Kjer je $\mu$ povprečna vrednost populacije in $\sigma$ standardni odklon populacije. Nekaj različnih krivulj lahko vidimo na sliki [@fig:Normal_Distribution_PDF.svg] [@Normal_distribution_wiki_2019].
 
 ![Primeri normalne verjetnostne porazdelitve.](./slike/Normal_Distribution_PDF.svg){#fig:Normal_Distribution_PDF.svg width=10cm}
 
 Koeficienta o sploščenosti in premaknjenosti normalne porazdelitve lahko izračunamo tudi z različnimi računalniškimi programi za obdelavo razpredelnic, kot sta na primer Microsoft Excel ali LibreOffice Calc.
 
 **Sploščenost**
+
+Pričakovan koeficient sploščenosti je okoli $0$. Če je vrednost izven območja $-2<k<+2$ privzamemo, da porazdelitev ni normalno sploščena.
+
 ```
 =KURT(Range)
 ```
 **Premaknjenost**
+
+Pričakovana vrednost premaknjenosti je okoli $0$. Če je vrednost $>0.5$ govorimo o pozitivni premaknjenosti in je porazdelitev vzorca nagnjena v levo (in obratno).
+
 ```
 =SKEW(Range)
 ```
 
-**Povprečna vrednost**
+**Povprečna vrednost populacije ([@eq:population_avg]) in vzorca ([@eq:sample_avg]) **
 
-$$\bar{x} = \frac{\sum x_n}{n}$${#eq:average}
+$$\mu = \frac{\sum x_N}{N}$${#eq:population_avg}
+
+$$\bar{x} = \frac{\sum x_n}{n}$${#eq:sample_avg}
 
 ```
 =AVERAGE(Range)
 ```
 
-**Standardni odklon**
+**Standardni odklon populacije ([@eq:population_std_dev]) in vzorca ([@eq:sample_std_dev]) **
 
-$$\sigma = \sqrt{\frac{\sum^{N}_{n=1}(x_n-\bar{x})^2}{n-1}}$${#eq:std_dev}
+$$\sigma = \sqrt{\frac{\sum^{N}_{i=1}(x_i-\bar{x})^2}{N-1}}$${#eq:population_std_dev}
+
+$$ s = \sqrt{\frac{\sum^{n}_{i=1}(x_i-\bar{x})^2}{n-1}}$${#eq:sample_std_dev}
 
 ```
 =STDEV(Range)
 ```
-**Standardna napaka**
 
-$$ \sigma_M=\frac{\sigma}{\sqrt{n}} $${#eq:std_err}
+** .**
 
-**Območje zaupanja**
+## Ocenjevanje nepoznanega parametra $\mu$
 
-Z intervalom zaupanja predstavlja območje meritev, v katerem se naključna meritev pojavi z neko verjetnostjo. Pri normali porazdelitvi se izkaže, da je v območju $\bar x\pm1\sigma$ kar 68% vseh meritev, pri $\bar x \pm 2\sigma$ jih je 95% in pri $\bar x \pm 3\sigma$ celo 99,7%. Tako območje $\pm a\sigma$ imenujemo območje zaupanja. Najpogosteje se v praksi uporablja območje zaupanja s koef. $a=1,96$, v katerem bomo zanesljivo našli 95,00% meritev.
+Iz grafa normalne porazdelitve, ki je prikazan na [@fig:Standard_deviation_diagram_micro], so razvidni deleži vsebovanih meritev v določenih območjih standardnih odkonov ($1\sigma, 2\sigma$ in $3\sigma$) za celotno populacijo.
+
+![Graf normalne porazdelitve z vključujočimi deleži meritev.](./slike/Standard_deviation_diagram_micro.svg.png){#fig:Standard_deviation_diagram_micro}
+
+Na primer izkaže se, da je v območju $\bar x\pm1\sigma$ kar 68% vseh meritev, v območju $\bar x \pm 2\sigma$ jih je 95% in v območju $\bar x \pm 3\sigma$ celo 99,7%.
+
+Zato te iste verjetnosti veljajo tudi pri vzorčenju manjših vzorcev. Tako s **standardno napako ocene povprečne vrednosti ($s_{\bar{x}}$)** naših meritev lahko ocenimo interval ($\bar{x}\pm \alpha s_{\bar{x}}$) v katerem se dejanski parameter $\mu$ nahaja z neko verjetnostjo. Standardno napako ocene povprečne vrednosti lahko izračunamo po [@eq:std_err]:
+
+$$ s_{\bar{x}} = \frac{\sigma}{\sqrt{n}} \sqrt{\frac{N-n}{N-1}}, $${#eq:std_err}
+
+```
+STDEV(A2:A6)/SQRT(COUNT(A2:A6))
+```
+
+kjer je sicer $\sigma$ standardni odklon celotne populacije, ki ga pogosto ne poznamo in ga zato nadomestimo s standardnim odklonom vzorca $s$ ([@eq:sample_std_dev]). Korekturni faktor $\sqrt{\frac{N-n}{N-1}}$ uporabljamo le, če poznamo $N$ celotne populacije in pri izredno velikih vzorcih ($n > \frac{N}{100}$).
+
+Tako območje $\bar{x}\pm \alpha s_{\bar{x}}$ imenujemo območje zaupanja. Najpogosteje se v praksi uporablja območje zaupanja s koef. $\alpha = 1,96$, s katerim pričakujemo 95,00% gotovost, da naša izmerjena povprečna vrednost $\bar{x}$ ustreza dejanskemu parametru $\mu$.
 
 ```
 =CONFIDENCE(Signif., Std.Dev., Sample Size)

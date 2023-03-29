@@ -2,6 +2,11 @@
 
 ## Namestitev Acrobat Readed DC
 
+2023-03-20: Namestitev iz AUR je delala namestil sem Acrobat Reader 11
+
+        yay -S adobe-reader-11
+--- 
+>tle je pa starejše in mi ni delalo...
 
 Tale link me je rešil:
 [Namestitev Acrobat Readerja](https://www.reddit.com/r/archlinux/comments/c88qbc/acrobat_reader_dc_on_wine/)

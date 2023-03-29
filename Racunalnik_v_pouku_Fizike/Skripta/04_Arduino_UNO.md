@@ -1,3 +1,4 @@
+\setcounter{section}{3}
 # Arduino UNO
 
 Arduino Uno je:
