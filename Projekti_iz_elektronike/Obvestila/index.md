@@ -9,6 +9,7 @@
 
 ## Ocene 2022/2023
 
+- [Izredni izpitni rok](./2023-04-03_teorija-izpit.md)
 - [Ocene poročil](./2023-02-13_vaje-poročila.md)
 - [Ocene izpita](./2023-02-13_teorija-izpit.md)
 
