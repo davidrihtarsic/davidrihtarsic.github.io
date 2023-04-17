@@ -24,8 +24,10 @@ Vaje iz elektronike potekajo v 1. letniku smeri Ma-Fi, Fi-Te, Fi-Ke. Vaje obsega
 
 Končna ocena iz vaj pri predmetu Elektronika je sestavljena:
 
-- 75% izpit iz vaj (ali ocena iz kolokvijev - šteje boljši rezultat) in
-- 25% ocena iz poročil za vaje iz Elektronike.
+- le še iz izpita iz vaj.
+
+- ~~75% izpit iz vaj (ali ocena iz kolokvijev - šteje boljši rezultat) in~~  
+- ~~25% ocena iz poročil za vaje iz Elektronike.~~
 
 ### Izpit iz vaj
 

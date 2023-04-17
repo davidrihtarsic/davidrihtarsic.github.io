@@ -15,6 +15,8 @@ echo $foo
 
 $0     - name of script
 $#     - number of arguments
+$@     - all argumets in list (separated by space)
+$*     - all arguments as a single string
 $1..$9 - arguments
 $?     - get the error code from prewious if OK then this is 0
 $_     - get the last argument from last cmd
