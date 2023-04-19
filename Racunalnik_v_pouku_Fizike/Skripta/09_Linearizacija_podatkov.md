@@ -1,15 +1,18 @@
 # Linearizacija meritev (praznenje kondenzatorja)
 
-Izvedli bomo poskus, pri katerem bomo lahko meritve odvisne spremenljivke (napetost) opravili pri različnih vrednostih neodvisne spremenljivke (čas). Iz rezultatov bomo skušali izluščiti kapaciteto kondenzatorja (kot iskano konstatnto sistema). Ker je fizikalni pojav nelinearen, ga bomo najprej linearizirali, in šele nato izračunali iskano konstanto (kapaciteto kondenzatorja). Tako lahko v izračun enostavno vključimo vse meritve...
-
+Linearizacija je postopek, ki se uporablja za preoblikovanje ne-linearnega sistema v linearno obliko. To je uporabno za merjenje in analizo signalov, saj je lažje zaznati in napovedati linearne modele kot ne-linearne. Linearizacija omogoča uporabnikom, da preprosto in natančno določijo vrednosti signalov in njihovih karakterističnih konastank, ki jih vključujejo. 
 
 ## Vezje in zajem podatkov
 
-Vezje sestavimo po sliki [@fig:Cap_uK.png]:
+Izvedli bomo poskus, pri katerem bomo lahko meritve odvisne spremenljivke (napetost) opravili pri različnih vrednostih neodvisne spremenljivke (čas). Iz rezultatov bomo skušali izluščiti kapaciteto kondenzatorja (kot iskano konstatnto sistema). Ker je fizikalni pojav nelinearen, ga bomo najprej linearizirali, in šele nato izračunali iskano konstanto (kapaciteto kondenzatorja). Tako lahko v izračun enostavno vključimo vse meritve...
 
-![Vezava vezja za zajem napetosti na kondenzatorju.](./slike/Cap_uK.png){#fig:Cap_uK.png height=7cm}
+Vezje sestavimo po sliki [@fig:linearizicija_praznenje_kondenzatorja]:
+
+![Vezava vezja za zajem napetosti na kondenzatorju.](./slike/linearizicija_praznenje_kondenzatorja.png){#fig:linearizicija_praznenje_kondenzatorja}
 
 ## Linearizacija
+
+Naloga linearizacijskega postopka je, da enačbo, ki opisuje dogajanje v sistemu (npr: [@eq:praznenje_kondenzatorja]) preoblikujemo v lineatrno obliko z [@eq:linearna].
 
 $$ f(x) = k x + n $${#eq:linearna}
 

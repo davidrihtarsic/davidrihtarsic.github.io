@@ -1,10 +1,11 @@
 # Izpis podatkov
 
-Prikazovanje podatkov je ena od ključnih nalog vseh merilnih sistemov. To pahko naredimo na različne načine:
+Prikazovanje podatkov je ena od ključnih nalog vseh merilnih sistemov. To lahko naredimo na različne načine:
 
 1. v obliki tabele na zaslon računalnika,
 2. v grafični obliki,
-3. na zaslon samostojne merilne naprave ...
+3. na zaslon samostojne merilne naprave,
+4. shranimo podatke na SD spominsko kartico ...
 
 ## Serijski izpis
 
@@ -43,6 +44,7 @@ void loop() {
 Kot lahko opazimo računalniku pošiljamo 3 različne števila: 0, 1023 in ADC vrednost. Prvi dve nam slušita kot območje, saj bi v nasprotnem primeru program sam prilagajal skalo na y osi (ang.: autofit).
 
 ## Izpis na LCD
+
 Če želimo narediti merilno napravo, ki bo delovala samostojno, bomo verjetno potrebovali dodaten ekran za prikaz izmerjenih vrednosti. Zato ga moramo priključiti na krmilnik Arduino, kot kaže slika [@fig:LCD_vezava.png].
 
 ![Vezava I²C LCD-ja na krmilnik Arduino.](./slike/LCD_vezava.png){#fig:LCD_vezava.png height=7cm}
@@ -80,3 +82,51 @@ void loop() {
 > 1. v obliki tabele,\
 > 2. v grafični obliki in\
 > 3. na LCD zaslon merilne naprave.
+
+## Shranjevanje podatkov na SD spominsko kartico
+
+Za krmilnike Arduino Uno (in druge) lahko dokupimo module z režami za SD spominsko kartico. En takih je modul za vzorčenje in beleženje meritev je (angl.:) Data Logger Shield. Modul vsebuje vtičnico za SD kartico, kot tudi bolj točen časovni oscilator (angl.: RTC), s katerim lahko merimo čas na nekaj sekund točno na mesec.
+
+Pri vnašanju podatkov v datoteko je smiselno, da izberemo način vnosa podatko, kjer so podatki ločeni z vejico. Tako oblikovane podatke lahko shranimo v datoteko s končnico `csv` (angl.: comma separated values). Primer programske za vzorčenje in shranjevanje podatkov s pomočjo programske knjižnice `SD.h` je relativno enostaven.
+
+
+```cpp
+#include <SD.h>
+#include <SPI.h>
+// define constants for the pin numbers
+#define chipSelect 10
+#define dataPin 11
+void setup() {
+ // Initialize serial port for communication with PC
+ Serial.begin(9600);
+ // Initialize SD card
+ Serial.print("Initializing SD card...");
+ if (!SD.begin(chipSelect)) {
+  Serial.println("initialization failed!");
+  return;
+ }
+ Serial.println("initialization done.");
+ // create a new file
+ File dataFile = SD.open("datalog.csv", FILE_WRITE); 
+ // write to the file
+ if (dataFile) {
+ dataFile.println(\"Data Logging Start!");
+ dataFile.close();
+ }
+}
+
+void loop() {
+ // log data
+ int data = analogRead(dataPin);
+ Serial.println(data);
+ // open the file. note that only one file can be open at a time,
+ // so you have to close this one before opening another.
+ File dataFile = SD.open("datalog.txt", FILE_WRITE);
+ // if the file is available, write to it:
+ if (dataFile) {
+  dataFile.print(millis());dataFile.print(",");dataFile.println(data);
+  dataFile.close();
+ }
+ delay(1000);
+}
+```

@@ -36,18 +36,17 @@ void loop() {
 >\
 >\
 >\
->\
 
 ## Normalna porazdelitev meritev
 
 > ### NALOGA: Koeficienti normalne porazdelitve  
 > Z Arduino krmilnikom izmerite 100 meritev neke poljubne napetosti. Nato te meritve preverite še z volt-metrom, kar naj predstavlja vašo referenčno vrednost. Meritve vnesite v program za delo s tabelami in z ustreznimi funkcijami izračunajte, rezultat pa vpišite na črte:
 >
->> - izmerjena referenčna vrednost: ______________________________________________,
->> - povprečno vrednost meritev : ________________________________________________,
->> - točnost predstavite z relativno napako  :_____________________________________,
->> - preciznost meritev pa podajte s standardno napako  
->> ocene povprečne vrednosti za 95% verjetnost :__________________________.
+> - izmerjena referenčna vrednost: ______________________________________________,
+> - povprečno vrednost meritev : ________________________________________________,
+> - točnost predstavite z absolutno napako  :_____________________________________,
+> - preciznost meritev pa podajte s standardno napako  
+>   ocene povprečne vrednosti za 95% verjetnost :__________________________.
 
 ```cpp
 const int POTENCIOMETER = 0;

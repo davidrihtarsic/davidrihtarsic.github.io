@@ -1,7 +1,7 @@
 \setcounter{section}{5}
 # Časovne meritve
 
-Za preproste časovne meritve lahko uporabimo funkcijo `millis()`, ki nam vrne podatek o času od začetka zagona programa na krmilniku Arduino in do trenutnega klica funkcije.
+Za preproste časovne meritve lahko uporabimo funkcijo `millis()`. Funkcija `millis()` vrne število milisekund od začetka zagona programa na krmilniku Arduino Uno.
 
 ```cpp
 unsigned long time;

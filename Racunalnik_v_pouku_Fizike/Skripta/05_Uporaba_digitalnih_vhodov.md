@@ -27,7 +27,7 @@ void setup(){
 
 > ### NALOGA: Zaznavanje digitalnih vrednosti
 >
-> 1. Preskusite delovaje vseh teh vezav tipke, ki so prikazani na shemi.
+> 1. Preskusite delovaje vseh vezav tipke, ki so prikazani na shemi in komentirajte (ne-)delovanje.
 > 2. Napišite program s katerim boste lahko zaznali spremembo digitalnega vhoda (pomagajte si s funkcijo, ki jo prikazuje [@lst:dig_chg]).
 
 ```cpp
