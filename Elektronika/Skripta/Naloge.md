@@ -105,7 +105,7 @@
 ## PORAZDELITEV NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU
 
 > ### NALOGA: MERJENJE NAPETOSTNEGA POTENCIALA NA POTENCIOMETRU.  
-> Priključite potenciometer tako, kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v pdvisnosti od položaja srednjega priključka potenciomtra.
+> Priključite potenciometer tako, kot je  prikazano na [@fig:35-potenciometer.png]. Na srednji priključek potenciomtra prikljčite V-meter. Preverite kako se napetostni potencila spreminja v odvisnosti od položaja srednjega priključka potenciomtra.
 
 ## UPORABA ANALOGNEGA VHODA NA KRMILNIKU
 
@@ -140,7 +140,7 @@
 > 3. Nastavite enačbo za $\Delta U$.  
 > 4. Enačbo $\Delta U$ odvajajte po $R_{Ref}$ in jo rešite za $\frac{\partial U_{IZH}}{\partial R_{Ref}}=0$
 
-# UMIRITEV SENZORJA TEMPERATURE
+# UMERITEV SENZORJA TEMPERATURE
 
 ## TEMPERATURNO OBMOČJE
 
@@ -286,6 +286,16 @@
 > nato narišite grafa $g(\nu)$ in $\Delta \phi (\nu)$ na [@fig:karakteristika_LPF]. X-os naj bo v logaritemski skali z osnovo 10.  
 > Na karakteristiki $f(\nu)$ označite tudi premico v padajočem delu karakteristike in izračunajte njen smerni koeficient ter nakažite, da je $\nu_0$ ničla te funkcije.
 
-# Dodatki in pogosta vprašanja
+# DODATKI IN POGOSTA VPRAŠANJA
 
-## Barvno kodiranje upornosti
+## BARVNO KODIRANJE UPORNOSTI
+
+## Pogoste zmotne predstave v elektroniki
+
+### Baterija zagotavlja vedno enak tok.
+
+### Ohmov zakon je U R I.
+
+### Ohmov zakon velja le lokalno.
+
+### U2off odčitamo na x osi.

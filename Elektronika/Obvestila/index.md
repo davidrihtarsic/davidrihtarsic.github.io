@@ -5,6 +5,9 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+** 2023-04-19: Vmesni rezultati vaj:**  
+- [Rezultati 1. kolokvija](./2023-04-19_kolokvij1.md)
+
 **2022-08-16: Jesenski izpit**  
 - [Ocene izpita iz vaj, rok 16.08.2022](./2022-08-17_vaje-izpit.md )
 - [Ocena poročil](./2022-08-17_vaje-poročila.md)

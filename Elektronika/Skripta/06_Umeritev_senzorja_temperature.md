@@ -4,7 +4,7 @@ Kot smo že omenili so senzorji elektronski elementi, katerih izhodna napetost j
 
 ## TEMPERATURNO OBMOČJE
 
-Pred umeritvenim postopkom moramo poznati temperaturno območje, v katerem bomo senzor uporabljali. Zato si zadajmo nalogo, da bomo senzor uporabljali v območje $T=[0^{\circ}C\ ..\ 40^{\circ}C]$.
+Pred umeritvenim postopkom moramo poznati temperaturno območje, v katerem bomo senzor uporabljali. Zato si zadajmo nalogo, da bomo senzor uporabljali v območje $T=[20^{\circ}C\ ..\ 40^{\circ}C]$.
 
 > ### NALOGA: SESTAVITE VEZJE  
 > Sestavite senzor temperature kot sledilnik napetosti, v katerem boste uporabili le referenčni upor $R_{REF}$ in NTC termistor $R_{NTC}$. Vezje tudi narišite.  
