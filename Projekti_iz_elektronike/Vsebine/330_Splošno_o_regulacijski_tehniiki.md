@@ -1,7 +1,0 @@
-SPLOŠNO O REGULACIJSKI TEHNIKI 
---------------------------------------------------------------------------------
-Krmiljenje in regulacija 
-Zvezne in nezvezne regulacije 
-Regulacije s konstantno in spremenljivo želeno vrednostjo 
-Dinamične lastnosti regulacijskih sistemov
-

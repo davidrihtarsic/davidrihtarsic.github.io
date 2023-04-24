@@ -57,4 +57,6 @@ Posebno pozornost namenite izrisavanju grafov. Graf mora vsebovati: navpično in
 
 ### Nadomeščanje vaj
 
-Če študent na kateri vaji izjemoma manjka in je ne opravlja v rednem delu izvajanja, mora študen to vajo nadoknaditi: bodisi v drugi skupini ali pa po dogovoru z asistentom s primernimi simulacijskimi orodji in tako opraviti potrebne meritve.
+Če študent na kateri vaji izjemoma manjka in je ne opravlja v rednem delu izvajanja, mora študen to vajo nadoknaditi. To lahko stori na dva načina:
+1. v drugi skupini ali pa,
+2. v dogovoru z asistentom s primernimi simulacijskimi orodji (npr.: Yenka, Simul IDE) in tako opraviti potrebne meritve.
