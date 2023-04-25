@@ -7,6 +7,7 @@
 ---
 
 **2023-04-19: Vmesni rezultati vaj:**  
+- [Delni rezultati poročil](./2023-04-25_vaje-poročila.md)
 - [Rezultati 1. kolokvija](./2023-04-19_kolokvij1.md)
 
 **2022-08-16: Jesenski izpit**  
