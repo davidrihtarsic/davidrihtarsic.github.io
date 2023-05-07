@@ -5,6 +5,12 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
+
+**2023-05-07:**  
+- [Rezultati izpita iz vaj](./2023-05-07_vaje-izpit.md)
+
+---
+
 **2022-06-20: Končne ocene vaj**  
 - [Končne ocene vaj](./2022-06-20_vaje-k.o..md)
 
