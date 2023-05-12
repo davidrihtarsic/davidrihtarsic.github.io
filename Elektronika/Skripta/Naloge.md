@@ -61,6 +61,14 @@
 > Preoblikujte vezje po shemi [@fig:20-Model-semaforja.png] in uporabite naslednji program ter ga ustrezno preoblikujte. Program, ki zagotavlja podobno delovanje, kot pri cestnem semaforju dokumentirajte in komentirajte uporabljene programske stavke (t.j. programske ukaze).
 > Vsak programski stavek morate zaključiti s podpičjem **;**.
 
+> ### NALOGA: BERLJIVA PROGRAMSKA KODA
+> Programsko kodo preoblikujte tako, da bo koda enostavno berljiva in razumljiva. Predvsem storite nasledje:  
+> 1. programske stavke s skupnim namenom združite v funkcije,
+> 2. dodajte komentarje, kjer je to potrebno in
+> 3. uporabite razlagalne konstante in spremenljivke
+>
+> V pomoč vam je lahko vsebina iz [Začetne Robotike](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/Learning_Activities/5.2_Writing_Clean_Code.html)
+
 ## ANALIZA VEZJA
 > Naprimer: Največja dopustna moč, ki se še lahko troši na uporih, ki jih uporabljate (premer upora = 2.4 mm) je 0,25 W.
 > Na primer za običajne 5mm LED je najpogosteje največji tok, ki lahko teče skoznjo 20 mA.

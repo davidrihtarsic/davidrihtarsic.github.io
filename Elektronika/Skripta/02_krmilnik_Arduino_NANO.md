@@ -79,6 +79,14 @@ void loop() {
 }
 ```
 
+> ### NALOGA: BERLJIVA PROGRAMSKA KODA
+> Programsko kodo preoblikujte tako, da bo koda enostavno berljiva in razumljiva. Predvsem storite nasledje:  
+> 1. programske stavke s skupnim namenom združite v funkcije,
+> 2. dodajte komentarje, kjer je to potrebno in
+> 3. uporabite razlagalne konstante in spremenljivke
+>
+> V pomoč vam je lahko vsebina iz [Začetne Robotike](https://davidrihtarsic.github.io/Experiental_Learning_of_Robotics/Learning_Activities/5.2_Writing_Clean_Code.html)
+
 ## ANALIZA VEZJA
 
 Elektronski elementi so omejeni z njihovo največjo dopustno električno moč. Če to električno moč prekoračimo, jih bomo najverjetneje uničili.
