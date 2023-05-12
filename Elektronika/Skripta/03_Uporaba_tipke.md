@@ -1,3 +1,4 @@
+\setcounter{section}{2}
 # UPORABA TIPKE
 
 Tipka je element, ki je podoben stikalu. Prav tako kot pri stikalu, ob pritisku povežemo dva priključka med sabo, razlika pa je v tem, da se pri tipki ta povezava razklene ob prenehanju pritiska nanjo.

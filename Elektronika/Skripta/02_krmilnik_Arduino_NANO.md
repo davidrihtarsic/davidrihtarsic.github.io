@@ -81,6 +81,7 @@ void loop() {
 
 > ### NALOGA: BERLJIVA PROGRAMSKA KODA
 > Programsko kodo preoblikujte tako, da bo koda enostavno berljiva in razumljiva. Predvsem storite nasledje:  
+>
 > 1. programske stavke s skupnim namenom združite v funkcije,
 > 2. dodajte komentarje, kjer je to potrebno in
 > 3. uporabite razlagalne konstante in spremenljivke
