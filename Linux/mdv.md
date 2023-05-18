@@ -5,6 +5,11 @@ Is markdown viewer for terminal. It nicely fits with
 
 ## Issues
 
+### Not working with python 3.11
+New update... since python 3.11 not working with mdv... install it with:
+
+    pip install --upgrade --force-reinstall git+http://github.com/axiros/terminal_markdown_viewer
+
 ### Not Working With Python 3.9
 
 ... I was wrong...  I should install mdv3, since I'm using python3.9
