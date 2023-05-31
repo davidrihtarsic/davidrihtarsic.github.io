@@ -7,6 +7,7 @@
 ---
 
 **2023-05-07:**  
+- [Dodatni rok izpita iz vaj](./2023-05-31_vaje-izpit.md)
 - [Rezultati izpita iz vaj](./2023-05-07_vaje-izpit.md)
 
 ---
