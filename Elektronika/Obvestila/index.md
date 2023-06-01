@@ -8,7 +8,7 @@
 
 **2023-04-19: Vmesni rezultati vaj:**  
 - [Povprečje obeh kolokvijev](./2023-06-01_kolokvijAVG.md)
-- [Rezultati 2. kolokvija](./2023-05-31_kolokvij2.md)
+- [Rezultati 2. kolokvija](./2023-06-01_kolokvij2.md)
 - [Del. rez. poročil 2x](./2023-05-18_vaje-poročila.md)
 - [Delni rezultati poročil](./2023-04-25_vaje-poročila.md)
 - [Rezultati 1. kolokvija](./2023-04-19_kolokvij1.md)
