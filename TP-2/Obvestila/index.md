@@ -12,6 +12,7 @@
 ---
 Šolsko leto: 2022 - 2023
 
+- [Končna ocena v VIS](./2023-06-02_vaje-poročila.md)
 - [Ocene poročil](./2023-06-02_vaje-poročila.md)
 - [Končna ocena](./2023-02-14_končna_ocena.md)
 - [Poročila 10.2.](./2023-02-14_vaje-poročila.md)
