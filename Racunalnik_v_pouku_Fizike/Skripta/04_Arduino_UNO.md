@@ -32,13 +32,13 @@ Nastavite in delovanje krmilnika lahko preverimo s testnim programom **blink.ino
 
 ```cpp
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(13, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(LED_BUILTIN, HIGH);
+  digitalWrite(13, HIGH);
   delay(1000);
-  digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(13, LOW);
   delay(1000);
 }
 ```
@@ -53,7 +53,8 @@ void loop() {
 >     3. Funkcije naj vračajo in sprejemajo smiselne parametre.
 > 2. Uporabljajte `razlagalne spremenljivke in konstante` namesto surovih številčnih vrednosti.
 >     1. Uporabljene priključke vedno poimenujte npr.: `int LED_PIN = 13;`.
->     2. Vmesne rezultate in vrednosti smiselno poimenujte npr.: `int vrednost_senzorja = analogRead(SENZOR_PIN);`
+>     2. Razmislite o potrebnem območju veljavnosti (angl. scope) spremenljivke.
+>     3. Vmesne rezultate in vrednosti smiselno poimenujte npr.: `int vrednost_senzorja = analogRead(SENZOR_PIN);`
 > 3. Uporabljajte komentarje LE tam, kjer je to ZARES potrebno.
 >     1. Imena spremenljivk, konstant in funkcij naj pomagajo pri opisovanju kode, npr.: funkcija `delay(1000)` ne potrebuje nobenega komentarja.
 >     2. Komentarji lahko postanejo dodatni element, ki ga bo potrebno vzdrževati...

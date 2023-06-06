@@ -11,9 +11,11 @@ Za digitalne spremembe kot so naprimer: pritisk na tipko, prehod predmeta mimo s
 const int TIPKA = A0;
 const int LED = 13;
 
+const int tipka_je_pritisnjena = 1; // vrednost ob pritisku
+
 void loop(){
-    bool tipka_je_pritisnjena = digitalRead(TIPKA);
-    if (tipka_je_pritisnjena == 1)
+    bool stanje_tipke = digitalRead(TIPKA);
+    if (stanje_tipke == tipka_je_pritisnjena)
         digitalWrite(LED, HIGH);
     else
         digitalWrite(LED, LOW);
