@@ -6,7 +6,8 @@
 
 ---
 
-**2023-04-19: Vmesni rezultati vaj:**  
+**2023: Rezultati vaj:**  
+- [ 2023-06-13: Izpit iz vaj](./2023-06-13_vaje-izpit.md)
 - [Povprečje obeh kolokvijev](./2023-06-01_kolokvijAVG.md)
 - [Rezultati 2. kolokvija](./2023-06-01_kolokvij2.md)
 - [Rezultati 2. kolokvija](./2023-05-31_kolokvij2.md)
