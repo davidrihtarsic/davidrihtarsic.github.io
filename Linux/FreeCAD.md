@@ -40,6 +40,41 @@ Tools -> Addon Manager -> ...
 in nato izbereš workbench, ki ga potrebuješ nekaj zelo uporabnih workbenchow:
 - fasterners = navoji, matice, vijaki
 
+## Parametrično načrtovanje
+
+### Parametri iz tabele
+
+Ena možnost parameteričnega načrtovanja je, da ključne mere vpišemo v tabelo:
+
+    WB(SpreadSheer) -> Create Spreadsheet
+
+V neko celico vpišemo željeno mero in ji določimo enoto mere:
+
+    Desni klik na celici -> Properties -> Display unit
+
+in nato še poimenujemo ime te mere:
+
+    Desni klik na celici -> Properties -> Alias
+
+### Parametri iz skice
+
+Druga možnost je ta, da lahko poimenujete mere v sami skici in le-te uporabite v drugih 
+skicah. Ta možnost je bolj primerna, saj s skico bolj nazorno predstavimo neman mere.
+
+Lahko si pripravimo celotno skico s pomembnimi prerezi in merami ter jih smiselno poimenujemo.
+Na primer, da ustvarimo skico in jo poimenujemo `SkicaMer`. V tej skici narišemo tehniško risbo
+in mere poimenujemo tako, da v oknu za dodajanje mere izpolnimo:
+
+    Name (optional): poimenovana_mera
+
+Nato pripravimo skico s katero bomo dejansko izvedli operacijo na 3D modelu in se lahko sklicujemo
+na prejšnje določene mere. V polje za dodajanje mere klilnemo na `(fx)` in vpišemo:
+
+    <<SkicaMer>>.Constrains.poimenovana_mera
+
+Tako lahko spremenite mero le v prvi tehniški risbi `SkicaMer` in se bodo posodobile vse mere, ki se
+na določeno spremenjeno mero sklicujejo.
+
 ## ISSUES
 
 > Težave, da ni mogel naložit nekih objektov... OpenCascade..
