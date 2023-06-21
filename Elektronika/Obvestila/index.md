@@ -9,7 +9,8 @@
 **2023: Rezultati vaj:**  
 
 - [ 2023-06-21: 1. rok: končne ocene vaj ](./2023-06-21_vaje-KO.md)
-- [ 2023-06-21: rezultati poročil ](./2023-06-21_vaje-poročila.md)
+- [ 2023-06-21: rezultati poročil 2# ](./2023-06-21_vaje-poročila2.md)
+- [ 2023-06-21: rezultati poročil 1# ](./2023-06-21_vaje-poročila.md)
 
 - [ 2023-06-13: Izpit iz vaj](./2023-06-13_vaje-izpit.md)
 - [Povprečje obeh kolokvijev](./2023-06-01_kolokvijAVG.md)
