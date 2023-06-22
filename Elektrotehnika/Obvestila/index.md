@@ -6,6 +6,9 @@
 
 ---
 
+**2023-06-22**  
+- [ 2023-06-22: poročila 1# oddaja ](./2023-06-22_vaje-poročila.md)
+
 **2022-06-17**  
 - [Rezultati poročil za leto 2022](./2022-06-17_vaje-poročila.md).
 - še nekaj zamudnikov [link](./2022-09-06_vaje-poročila.md).
