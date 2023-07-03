@@ -8,6 +8,7 @@
 
 **2023: Rezultati vaj:**  
 
+- [ 2023-07-03: rezultati poročil in novih končnih ocen ](./2023-07-03_vaje-poročila.md)
 - [ 2023-06-28: rezultati 2. izpita ](./2023-06-28_vaje-izpit.md)
 - [ 2023-06-21: 1. rok: končne ocene vaj ](./2023-06-21_vaje-KO.md)
 - [ 2023-06-21: rezultati poročil 2# ](./2023-06-21_vaje-poročila2.md)

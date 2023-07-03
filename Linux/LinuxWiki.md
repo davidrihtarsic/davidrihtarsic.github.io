@@ -153,6 +153,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [HP-Printers](HP_Printers.md)
 - [Intel Graphic card](Intel_graphic_card.md)
 - [Keyboard](Keyboard.md)
+- [Logitech mouse](LogitechMouse.md)
 - [NVIDIA](nvidia.md)
 - [Panasonic LX100II](Panasonic_LX100.md)
 - [Screen Resolution](Xrandr.md)
