@@ -6,7 +6,7 @@
 [💾PRESNEMI](../Presnemi/index){: .btn}
 
 ---
-Vaje lahko popravite ali dopolnete in jih ponovno oddate. Če boste to storili do srede, 5.7.2023 do 12. ure, jih bom popravil še v poletnem izpitnem obdobju.
+Vaje lahko popravite ali dopolnete in jih ponovno oddate. Če boste to storili do srede, 5.7.2023 do 12. ure, jih bom popravil še v poletnem izpitnem obdobju. Elektronsko pošto naslovite z `Elektrotehnika 2023 - poročila - v2`.
 
 ## Rezltati:
 
