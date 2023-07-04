@@ -9,7 +9,7 @@
  
 Ogled izpita je možen v petek, 30.6.2023 ob 9. uri. Na ogled se prosim naročite po elektronski pošti. Ker bom pripravljal učna gradiva za poletno šolo elektronike in robotike, ne bom stalno prisoten v kabinetu P060.
 
-## Rezltati:
+## Rezultati:
 
 | "VPISNA" | "Elektronika" | 2023-06-26 | "vaje-izpit" | "TOČKE" | "OCENA [%]" |
 | ---- | ---- | ---- | ---- | ---- | ---- |
