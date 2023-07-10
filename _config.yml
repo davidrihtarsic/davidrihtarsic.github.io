@@ -1,3 +1,5 @@
+plugins:
+  - jekyll-feed
 title: "David Rihtaršič"
 # pmarsceill/just-the-docs
 # thema lepa, enostavna, simple, lahko urejaš nivo dokumenta, -nima postov
@@ -11,9 +13,6 @@ remote_theme: pmarsceill/just-the-docs
 #  "PEF":
 #    - "www.pef.uni-lj.si"
 #footer_content: "..."
-
-plugins:
-  - jekyll-feed
 
 # tema od gihtuba
 # ne znam narediti navigation
