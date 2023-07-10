@@ -1,6 +1,8 @@
 plugins:
   - jekyll-feed
-title: "David Rihtaršič"
+title: "Rihtaršičs Home Page"
+description: "Welcome to my blog"
+author: "David Rihtaršič"
 # pmarsceill/just-the-docs
 # thema lepa, enostavna, simple, lahko urejaš nivo dokumenta, -nima postov
 remote_theme: pmarsceill/just-the-docs
