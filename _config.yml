@@ -12,6 +12,8 @@ remote_theme: pmarsceill/just-the-docs
 #    - "www.pef.uni-lj.si"
 #footer_content: "..."
 
+plugins:
+  - jekyll-feed
 
 # tema od gihtuba
 # ne znam narediti navigation

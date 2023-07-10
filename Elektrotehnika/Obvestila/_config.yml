@@ -1,5 +1,0 @@
-plugins:
-  - jekyll-feed
-title: "David Rihtaršič"
-remote_theme: pmarsceill/just-the-docs
-theme: jekyll-theme-slate
