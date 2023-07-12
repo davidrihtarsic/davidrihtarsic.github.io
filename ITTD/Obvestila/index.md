@@ -3,11 +3,12 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
-[ RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
+[:signal_strength: RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
 **2023:**
+
 - [ 2023-07-12_veje_poročila_3x ](./2023-07-12_veje_poročila_3x.md) 
 - [ 2023-07-12_veje_poročila_2 ](./2023-07-12_veje_poročila_2.md) 
 - [ 2023-07-12_vaje-poročila ](./2023-07-12_vaje-poročila.md) 
