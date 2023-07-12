@@ -8,8 +8,7 @@
 ---
 
 **2023:**
-
-- [Test rssja](./2023-10-10_Rss_test.md)
+- [ 2023-07-12_vaje-poročila ](./2023-07-12_vaje-poročila.md) 
 - [poročila 2023](./2023-01-29_vaje-poročila.md)
 
 ---
