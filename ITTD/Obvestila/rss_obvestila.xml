@@ -14,29 +14,7 @@
     <updated>2023-07-12T15:50:32Z</updated>
     <summary>Vaje lahko prevzamete v kabinetu P060.</summary>
   </entry>
-
-  <entry>
-    <title>Naslov rss feeda</title>
-    <link href='https:davidrihtarsic.github.io/link/do/fila_z_obvestili.md'>
-    <id>davidrihtarsic.github.io/link/do/fila_z_obvestili.md</id>
-    <updated>2023-07-12T15:03:48Z</updated>
-    <summary>In še nekaj texta, ki mora biti v rss-ju.</summary>
-  </entry>
-
-  <entry>
-    <title>2023-06-14: Novo porocilo</title>
-    <link href="https://davidrihtarsi.github.io/RobDuino"/>
-    <id>id_0004</id>
-    <updated>2023-07-10T19:31:00Z</updated>
-    <summary>
-      Rezultati poročil z malo več yexta.
-      Kako pa bo še ta text.
-      | vpisna | predmet | ocena |
-      |--------|---------|-------|
-      | 123 | ITTD | 56% |
-    </summary>
-  </entry>
-
+  
   <entry>
     <title>2023-06-13: Rezultati poročil</title>
     <link href="https://davidrihtarsi.github.io/RobDuino"/>
