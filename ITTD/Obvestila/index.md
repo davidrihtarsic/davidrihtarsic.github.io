@@ -8,6 +8,7 @@
 ---
 
 **2023:**
+- [ 2023-07-12_veje_poročila_2 ](./2023-07-12_veje_poročila_2.md) 
 - [ 2023-07-12_vaje-poročila ](./2023-07-12_vaje-poročila.md) 
 - [poročila 2023](./2023-01-29_vaje-poročila.md)
 
