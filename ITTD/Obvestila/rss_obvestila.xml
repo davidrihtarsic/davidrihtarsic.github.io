@@ -1,11 +1,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ITTD - Obvestila za študente</title>
-  <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/index"/>
+  <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/index.html"/>
   <updated>2023-07-11T19:31:00Z</updated>
   <author>
     <name>dr. David Rihtaršič</name>
   </author>
-  <id>dwd:id:1234</id>
+  <id>https://davidrihtarsic.github.io/ITTD/Obvestila/index.html</id>
 
   <entry>
     <title>2023-07-12_veje_poročila_3x</title>
