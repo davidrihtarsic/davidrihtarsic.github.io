@@ -3,7 +3,7 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
-[:signal_strength: RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
+[⚛ 🔆      RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
