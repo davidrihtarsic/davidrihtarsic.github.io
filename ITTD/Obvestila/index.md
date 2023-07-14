@@ -1,9 +1,9 @@
-# [ITTD](../index) ↪ Obvestial
+# [ITTD](../index) ↪ Obvestila
 [🏡DOMOV](../index){: .btn}
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
-[⚛ 🔆      RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/ITTD/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
