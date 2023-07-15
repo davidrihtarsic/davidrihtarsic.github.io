@@ -3,6 +3,7 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/Elektronika/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
@@ -148,6 +149,6 @@ Pregled prijav si lahko ogledate na [tej povezavi](../Izpitni_roki/2020_08_21_je
 [sprotna poročila](./2020_06_10-sprotna_porocila.md)  
 
 ---
-**2020-02-01 : Začetek obvestil**  
-Tole besedilo je le za začetek obvestil...
+
+[RSS OBVESTILA](./rss_sporocila.md)
 
