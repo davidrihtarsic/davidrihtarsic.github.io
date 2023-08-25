@@ -3,6 +3,7 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info){: .btn}
 [💾PRESNEMI](../Presnemi/index){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
@@ -41,3 +42,5 @@ Tisti ki imate pri rezultatih negativen procent ocene, verjetno niste oddali vse
 - [Končni rezultati 2020](./2020_koncne_ocene.md)
 
 ---
+
+[RSS obvestila](./rss_sporocila.md)
