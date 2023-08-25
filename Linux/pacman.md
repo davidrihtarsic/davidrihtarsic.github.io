@@ -8,6 +8,7 @@ Package manager za ARCH. Nekaj splo/nih ukazov:
 |          downgrade | `sudo pacman -U /var/cache/pacman/pkg/ime_programa.pkg.tar.xz` |
 | installed pkg info | `pacman -Q --info ime_programa`                                |
 | reinstall all pkgs | `pacman -Syyu`                                                 |
+|   find missing pkg | `sudo pacman -Fy ime_paketa_ali_fila`  |
 
 Nastavitev pacmana najdeš v datoteki: `/etc/pacman.conf`.
 

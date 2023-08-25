@@ -1,6 +1,6 @@
 # NAPAJANJE
 
-Vsako električno vezje potrebuje napajanje. Pogosto vezja napajamo z baterijami (prenosne električne naprave) ali pa z uporabo omrežnega napajanja. Za današnje vezje bomo uporabili omrežno napajanje.
+Vsako električno vezje potrebuje napajanje. Pogosto vezja napajamo z baterijami (prenosne električne naprave) ali pa z uporabo omrežnega napajanja. Za današnje vezje bomo uporabili omrežno napajanje, s katerim bomo zagotovili dva napetostna potenciala (0 V in +5 V).
 
 ## ZAGOTAVLJANJE STABILNE NAPAJALNE NAPETOSTI
 
