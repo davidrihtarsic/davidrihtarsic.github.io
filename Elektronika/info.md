@@ -32,7 +32,7 @@ Končna ocena iz vaj pri predmetu Elektronika je sestavljena:
 
 ### Izpit iz vaj
 
-K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 praktične naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf tudi ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Poleg pisnega dela izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.
+K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Izpit iz vaj se piše praviloma nemudoma po terminu iz predavanj. Nemudoma po pisnem delu izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.
 
 ### Kolokviji
 
@@ -40,7 +40,7 @@ K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot
 
 ### Poročila vaj
 
-Priporočljivo je skripto natisniti enostransko in jo imeti na vajah prisotno. Tako boste enostavneje sledili navodilom in izpolnjevali tabele z meritvami. Poleg tega pa boste na hrbtni strani imeli dovolj prostora za vaše komentraje in ugotovitve ter za poročilo vaje.
+Priporočljivo je skripto natisniti enostransko in jo imeti na vajah prisotno. Tako boste enostavneje sledili navodilom in izpolnjevali tabele z meritvami. Poleg tega pa boste na hrbtni strani imeli dovolj prostora za vaše komentraje in ugotovitve ter za poročilo vaje. Že na samih vajah preberite zastavljene naloge in se prepričajte, da bi znali izdelati vse zastavljene naloge. V kolikor imate kak dvom nemudoma vprašajte asistenta za primerne rešitve.
 
 Vsako poročilo vaje naj vsebuje:
 
