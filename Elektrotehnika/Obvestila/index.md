@@ -8,8 +8,9 @@
 ---
 
 **2023**  
-- [ 2023-07-04: poročila oddana po e-pošti ](./2023-07-04_vaje-poročila.md)
+
 - [ 2023-08-25_vaje-poročila ](./2023-08-25_vaje-poročila.md) 
+- [ 2023-07-04: poročila oddana po e-pošti ](./2023-07-04_vaje-poročila.md)
 - [ 2023-06-22: poročila 1# oddaja ](./2023-06-21_vaje-poročila.md)
 - [ 2023-08-25_vaje-poročila ](./2023-08-25_vaje-poročila.md) 
 
