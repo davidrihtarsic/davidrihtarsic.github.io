@@ -32,11 +32,11 @@ Končna ocena iz vaj pri predmetu Elektronika je sestavljena:
 
 ### Izpit iz vaj
 
-K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Izpit iz vaj se piše praviloma nemudoma po terminu iz predavanj. Nemudoma po pisnem delu izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.
+K izpitu iz vaj lahko pristopijo le študentje, ki so obiskovali vaje v več kot 80 %. Na pisni del se prosim prijavite preko [spletnega obrazca](https://docs.google.com/forms/d/e/1FAIpQLSfbuuGZZE1akkz9dNtJtqQ3TBfJ-gR_lfdTSGJZtgS3fcx2hg/viewform?usp=sf_link) zato, da vem koliko izpitnih pol moram natisniti. Na pisnem delu izpita iz vaj si lahko študent pomaga le s **svojimi izdelanimi poročili** iz vaj. Na izpitu so 4 naloge, kjer je potrebno večkrat parametre odčitati iz grafičnih prikazov, ali iz zabeleženih podatkov graf ustvariti, večkrat je potrebno tudi predstaviti napetostne signale v časovni odvisnosti. Izpit iz vaj se piše praviloma nemudoma po terminu iz predavanj. Po končanem pisnem delu izpita iz vaj študent odda tudi izdelana poročila vaj, kjer se vsaka vaja oceni z 0, ¹/₂ ali 1 točko.
 
 ### Kolokviji
 
-Študentje, ki redno obiskujejo vaje lahko pristopijo tudi k kolokviju. V semestru se pišeta 2 kolikvija in vsak pokriva polovico snovi iz vaj. Študent se lahko udeleži drugega kolokvija le, če je s 1. kolokvijem dosegel vsaj 30% točk. Ocena iz kolokvija velja kot opravljen izpit le, če je ocena vsakega kolokvija vsaj 30% in povprečna ocena obeh vsaj 50%.
+Študentje, ki redno obiskujejo vaje lahko pristopijo tudi k kolokviju. V semestru se pišeta 2 kolikvija in vsak pokriva polovico snovi iz vaj. Na kolokvij se prosim prijavite preko [spletnega obrazca](https://docs.google.com/forms/d/e/1FAIpQLSfbuuGZZE1akkz9dNtJtqQ3TBfJ-gR_lfdTSGJZtgS3fcx2hg/viewform?usp=sf_link) zato, da vem koliko pol moram natisniti. Študent se lahko udeleži drugega kolokvija le, če je s 1. kolokvijem dosegel vsaj 30% točk. Povprečna ocena obeh kolokvijev velja kot opravljen izpit iz vaj le, če je ocena vsakega kolokvija vsaj 30% in povprečna ocena obeh vsaj 50%.
 
 ### Poročila vaj
 
