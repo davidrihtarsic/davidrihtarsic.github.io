@@ -9,6 +9,7 @@
 
 **2023: Rezultati vaj:**  
 
+- [ 2023-09-04_vaje-izpit ](./2023-09-04_vaje-izpit.md) 
 - [ 2023-09-04_vaje-poročila ](./2023-09-04_vaje-poročila.md) 
 - [ 2023-08-31_vaje-poročila ](./2023-08-31_vaje-poročila.md) 
 - [ 2023-07-05: rezultati poročil n-tič ](./2023-07-05_vaje-k.o..md)
