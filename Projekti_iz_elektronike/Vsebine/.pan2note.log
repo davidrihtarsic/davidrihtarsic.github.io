@@ -1,1 +1,14 @@
-Convering 0.0_UVOD.md -> PDF ....[32m Done [0m
+Convering 0.0_UVOD.md -> PDF ..[WARNING] Could not load include file BitXorMatrix.cpp at 0.0_UVOD.md line 39 column 17
+[WARNING] Could not load include file BitXorMatrix.cpp at 0.0_UVOD.md line 39 column 17
+Error producing PDF.
+! Package Listings Error: File `BitXorMatrix(.cpp)' not found.
+
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: cpp)
+
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.522 ...isting[language=Octave]{BitXorMatrix.cpp}
+

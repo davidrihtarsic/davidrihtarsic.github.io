@@ -8,7 +8,7 @@ SI-1113 Ljubljana
 Slovenija  
 
 > **kabinet:** P-060  
-> **e-mail:** david.rihtarsic [at] uni-lj.si  
+> **e-mail:** david.rihtarsic [at] pef.uni-lj.si  
 > **telefon:** +386 1 5892 236  
 
 ## Govorilne ure

@@ -4,8 +4,13 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info.md){: .btn}
 [💾PRESNEMI](../Presnemi/index.md){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/Projekti_iz_elektronike/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
+
+## 2023:
+
+[RSS OBVESTILA](./rss_sporocila.md)
 
 ## Ocene 2022/2023
 
