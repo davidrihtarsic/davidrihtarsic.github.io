@@ -10,6 +10,7 @@
 **2023: Rezultati vaj:**  
 
 - [ 2023-09-10_Izredni_rok ](./2023-09-10_Izredni_rok.md) 
+- [ 2023-09-10_Izredni_rok ](./2023-09-10_Izredni_rok.md) 
 - [ 2023-09-04_vaje-izpit ](./2023-09-04_vaje-izpit.md) 
 - [ 2023-09-04_vaje-poročila ](./2023-09-04_vaje-poročila.md) 
 - [ 2023-08-31_vaje-poročila ](./2023-08-31_vaje-poročila.md) 
