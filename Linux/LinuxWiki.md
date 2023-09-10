@@ -1,4 +1,5 @@
 # LINUX
+
 Na tej strani lahko najdete nekaj napotkov za Linux-e...
 
 ![MyLinuxSetup]( ./slike/image.png)
@@ -21,14 +22,19 @@ Pop!_OS is an Ubuntu-based Linux distribution featuring a custom GNOME desktop. 
 Manjaro Linux is a fast, user-friendly, desktop-oriented operating system based on Arch Linux. Key features include intuitive installation process, automatic hardware detection, stable rolling-release model, ability to install multiple kernels, special Bash scripts for managing graphics drivers and extensive desktop configurability. Manjaro Linux offers Xfce as the core desktop options, as well as KDE, GNOME and a minimalist Net edition for more advanced users. Community-supported desktop flavours are also available.
 
 ### MINIMAL
+
 #### [BunsenLabs](https://www.bunsenlabs.org/)
+
 BunsenLabs Linux is a distribution offering a light-weight and easily customizable Openbox desktop. The BunsenLabs distribution is based on Debian's Stable branch and is a community continuation of the CrunchBang Linux distribution.
 
 #### [ArchLabs](https://archlabslinux.com/)
+
 ArchLabs is a distribution based on Arch Linux and featuring the Openbox window manager as the primary desktop interface. ArchLabs is a 64-bit, rolling release distribution which provides a live DVD. The distribution can be installed using the AL-Installer system installer.
 
 ### FANCY
+
 #### [Garuda](https://garudalinux.org/)
+
 Garuda Linux is a rolling distribution based on the Arch Linux operating system. Unlike Arch Linux, Garuda Linux comes with a graphical installer (Calamares) for easy installation, and other advanced graphical tools for managing your system. Garuda is a performance-oriented distro with many performance enhancing tweaks. Some of the many tweaks include using zram, a performance CPU governor, along with custom memory management software. Garuda Linux has striven to provide system stability by including the Timeshift backup utility.
 
 # INSTALLATION
@@ -36,7 +42,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [notes](Vanilla_Arch_Install.md) - zapiski o namestitvi popolnoma novega Arch sistema
 - [arch-chroot](arch_chroot.md) - sprememba root directoryja tako, da lahko ponovno popraviš sistem
 - [linux image](installation_image.md)
-- [disk partitioning](disk_partitioning.md) - disk partitioning and USB stick patritioning
+- [disk partitioning](disk_partitioning.md) - disk partitioning and USB stick partitioning
 - [mounting]()-to-do
 - [RPM packages](prm_install.md)
 - [pacman](pacman.md)

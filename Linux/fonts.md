@@ -6,7 +6,7 @@ List all fonts installed:
     fc-list | more
     fc-list | grep Hermit
 
-naprimer za zadnji ukaz dobiš tale ozpis:
+Na primer za zadnji ukaz dobiš tale ozpis:
 
     /usr/share/fonts/OTF/Hermit-Light.otf: Hermit,Hermit Light:style=Light,Regular
     /usr/share/fonts/OTF/Hermit-BoldItalic.otf: Hermit:style=BoldItalic
@@ -17,6 +17,7 @@ naprimer za zadnji ukaz dobiš tale ozpis:
 
 **BOLD 123 0 O mn t**  to pa ni bold
 _ITALIC_ to naj bi bilo italic
+*ITALIC* tudi to naj bi bilo italic
 
 ```cpp
 int i=0;
@@ -35,6 +36,16 @@ static const char *fonts[]          = { "Hermit:pixelsize=14:antialias=true:auto
                                         "JoyPixels:pixelsize=12:antialias=true:autohint=true"
                                         "Material Design Icons Desktop:size=11" };
 ```
+## TERMINAL FORNS
+
+Za `ST` sem imel nastavljeno **Hermit** fonte...
+
+Za `Alacritty` terminal pa sem nastavil:
+- FiraCode Nerd Font Promo
+
+Alacritty podpita `ligature` način pisanja znakov. To pomeni, da se nekatere
+kombinacije znakov izpišejo nekoliko drugače. Na primer znak `|` in `>` se
+tako prikaže kot trikotnik `|>`.
 
 ## CONSOLE(tty) FONTS
 

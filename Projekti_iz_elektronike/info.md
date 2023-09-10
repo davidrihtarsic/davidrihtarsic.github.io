@@ -11,13 +11,15 @@
 
 ---
 
-<!--
-Izvedba	predavanja: 30 / seminar: 15 / vaje: 0 / klinične vaje: 30 / drugo: 0 / samostojno delo: 75
+# UČNI NAČRT
 
-Pogoji za vključitev v delo oz. za opravljanje študijskih obveznosti:
-Na ustni izpit lahko pristopi, kdor je opravil vse obveznosti glede laboratorijskih vaj in projektne naloge.
+## Izvedba predmeta:
+- predavanja: 30 ur
+- seminar: 15 ur
+- klinične vaje: 30 ur
+- samostojno delo: 75 ur
 
-Vsebina:
+## Vsebina:
 1. Pregled različnih vhodno-izhodnih funkcij mikrokrmilnikov, primeri uporabe.
 2. Izbrana vezja za podporo uporabe mikrokrmilnikov.
 3. Aktivna sita.
@@ -32,7 +34,15 @@ Vsebina:
 12. Izdelava tiskanih vezij v šolskem laboratoriju.
 13. Projekti iz elektronike in elektrotehnike primerni za nivo osnovne in srednje šole.
 
-Temeljna literatura in viri:
+## Pogoji za vključitev v delo oz. za opravljanje študijskih obveznosti:
+Na ustni izpit lahko pristopi, kdor je opravil vse obveznosti glede laboratorijskih vaj in projektne naloge.
+
+## Načini ocenjevanja:
+- izvedba laboratorijskih vaj in priprava poročila: 30 %,
+- izdelava projektne naloge in poročila: 40 %,
+- ustni izpit: 30 %
+
+## Temeljna literatura in viri:
 1. Kocijančič S. in drugi (2007), E-učbeniki za izbrane naravoslovne in tehniške vsebine, spletni naslov http://pef.uni-lj.si/narteh
 2. Kocijančič S (2005), Elektronika 2, Elektronska oblika študijskega gradiva, dostopno na spletnem naslovu http://pef.uni-lj.si/slavkok, 75 str.
 3. Horowitz, P., Hill, W. (2006): The Art of Electronics, Cambrige University Press, Cambrige, izbrana poglavje - 1125 str.
@@ -40,10 +50,6 @@ Temeljna literatura in viri:
 5. Boysen, E., Muir, N. (2006), Electronics projects for dummies, Hoboken : Wiley, cop., 408 str.
 6. Strokovna periodika: Svet elektronike, Electronics Education
 
-Načini ocenjevanja:
-
-izvedba laboratorijskih vaj in priprava poročila: 30 %, izdelava projektne naloge in poročila: 40 %, ustni izpit: 30 %
--->
 
 # OSNOVNE INFORMACIJE
 
