@@ -39,6 +39,8 @@ static const char *fonts[]          = { "Hermit:pixelsize=14:antialias=true:auto
 ## TERMINAL FORNS
 
 Za `ST` sem imel nastavljeno **Hermit** fonte...
+- da se ikone vidijo sem inštaliral patch font2
+- in nato v config.h dodal JoyPixels
 
 Za `Alacritty` terminal pa sem nastavil:
 - FiraCode Nerd Font Promo
