@@ -14,7 +14,8 @@ Tale beseda naj bi bila **BOLD** ali **bold**, nato pa še nekaj v *Italic* in �
 - element 3.
 
 [ ] element 1,  
-[] element 2.
+[] element 2  
+[x] označen element  
 
 V VIM lahko števne elemente, ki jih označimo, avtomatsko povečamo s `C-a` in zmanjšamo s `C-x`.
 
@@ -67,7 +68,7 @@ bo **VIM** sledil temu dokumentu in ga skušal odpreti.
 
 Na sliko pa se lahko sklicujemo takole [@fig:sklic_na_sliko]
 <!--
-![Prikaz zaslonske slike.](./slike/image.png){#fig:desktop_img}
+![Prikaz zaslonske slike.](./slike/image.png){#fig:desktop_img width=5cm}
 -->
 
 z latex kodo pa lahko sliko vstavimo takole:

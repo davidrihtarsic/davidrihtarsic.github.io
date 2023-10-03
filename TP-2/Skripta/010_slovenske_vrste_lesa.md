@@ -17,24 +17,24 @@ Prepoznavanje lesne vrste je pomembno za:
 - Irena Leban: OSNOVE LESARSTVA: Lastnosti lesa
 - Irena Leban: OSNOVE LESARSTVA: Zgradba lesa
 
-## __vaja 1__: Slovenske vrste lesa
-V poročilo narišite kako bi teoretično ločili naslednje vrste lesa:
-  - smreka
-  - hrast
-  - bukev
-  - lipa
-
-Pri risbi lesa poudarite očitne značilnosti lesa, narišite tudi
-prečni in vzdolžni prerez.
-Navedite glavne lastnosti lesa:
-
-  - cena za m³ (lahko tudi rang)
-  - gostota
-  - trdota
-  - trdnost
-  - žilavost
-  - relativni raztezek v vseh treh glavnih smereh (vzd., rad., tan.)
-  - vremenska odpornost
+> ### NALOGA: Ločevanje vrst lesa
+> V poročilo narišite kako bi teoretično ločili naslednje vrste lesa:  
+> - smreka
+> - hrast
+> - bukev
+> - lipa
+>
+> Pri risbi lesa poudarite očitne značilnosti lesa, narišite tudi
+> prečni in vzdolžni prerez.
+> Navedite glavne lastnosti lesa:
+> 
+>   - cena za m³ (lahko tudi rang)
+>   - gostota
+>   - trdota
+>   - trdnost
+>   - žilavost
+>   - relativni raztezek v vseh treh glavnih smereh (vzd., rad., tan.)
+>   - vremenska odpornost
 
 # PREPOZNAVANJE VRST LESA
 

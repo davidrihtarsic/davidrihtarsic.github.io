@@ -13,4 +13,4 @@
 
 ## Študijsko gradivo
 
-- [Skripta za študente](./../Skripta/index.md)
+- [Zapiski predavanj](./../Skripta/index.md)

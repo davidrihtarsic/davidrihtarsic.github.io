@@ -27,12 +27,12 @@ Predmet **Tehniški praktikum 2** se izvaja v 2. letniku (1. st. prog. Dvopr. u�
 
 ## Obveznosti študentov
 
-1. Izdelana in oddana poročila vaj - [PDF](./Porocila/TP2_KV_Delovno poročilo_za tisk.pdf)
+1. Izdelana in oddana poročila vaj - [PDF](./Presnemi/TP2_KV_Delovno_poročilo_za_tisk.pdf)
     - 20% - tehniška pisava
     - 30% - dosledno opisan tehnološki postopek izdelave z najustreznejšimi tehnikami
     - 50% - tehnična risba izdelka
 2. Izdelki z izkazanimi tehnološkimi postopki in tehnikami izdelave
-3. Pisni izpit o tehnologiji in tehniki obdelave lesa (vključen v predmet Tehnologija obdelave (les))
+3. Pisni izpit o tehnologiji in tehniki obdelave lesa (vključen v predmet **Tehnologija obdelave materialov** (les))
 
 ## Izdelava poročil
 
