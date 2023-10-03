@@ -1,9 +1,9 @@
 # [PROJEKTI IZ ELEKTRONIKE](../index) ↪ Skripta za študente
 
-[🏡DOMOV](../index){: .btn}
-[📝VSEBINE](../Vsebine/index.md){: .btn}
-[👨‍🎓INFO](../info){: .btn}
-[💾PRESNEMI](../Presnemi/index){: .btn}
+[🏡DOMOV](../../index){: .btn}
+[📝VSEBINE](../../Vsebine/index.md){: .btn}
+[👨‍🎓INFO](../../info){: .btn}
+[💾PRESNEMI](../../Presnemi/index){: .btn}
 
 ---
 # Skripta
