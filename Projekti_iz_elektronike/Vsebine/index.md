@@ -8,14 +8,14 @@
 ---
 ## Predavanja
 
-- [Študijsko gradivo](./Proj-eltron_2020.pdf)
+- [Študijsko gradivo](./Študijsko_Gradivo/index.md)
 
 ---
 ## Vaje
 
-- [Zbirka vaj](../Skripta/index)
+- [Zbirka vaj](./Skripta_vaj/index)
 
 ---
 
 ## Projekti
-- [Projekti](../Projekti/index)
+- [Projekti](./Projekti/index)
