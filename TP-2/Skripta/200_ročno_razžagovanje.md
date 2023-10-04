@@ -118,39 +118,43 @@ Vsota vseh treh kotov je enaka 90°, kar pomeni, da vsaka sprememba enega kota, 
 
 \newpage
 > ### NALOGA: Uporaba ročne žage  
-> 1. V poročilo narišite vsaj dve različni obliki zob in jim določite značilne karakteristike (lahko tudi slikate in sliko povečate, ter nato prerišite ozobljenje):
+>
+> 1. V poročilo narišite več različni obliki zob in jim določite **značilne karakteristike ročne žage** (lahko tudi slikate in sliko povečate, ter nato prerišite ozobljenje):
+> - označba ročne žage
 > - delitev (v TPI)
 > - prosti kot ($\alpha$)
 > - kot klina ($\beta$)
 > - cepilni kot ($\gamma$)
 > - razperitev (v mm)
 >
-> 2. Opišite tehnike žaganja z ročno žago (kjer ste dosegli najboljše rezultate), pri odrezovanju polizdelka na dolžino (prečno na vlakna) in preverite pravokotnost odreza.
+> K tem lastnostim dodajte tudi druge lastnosti sestavnih delov ročne žage:
+> - ročaj,
+> - tip lista (s hrbtom, brez nejga...)
+>
+> 2. Preizkusite (tudi eksperimentirajte) **tehniko žaganja z ročno žago**. Na polizdelek si narišite več (cca 10 rezov) vzporednih črt in skušajte odrezati tako, da rez razpolovite. Skušajte slediti opisani tehniki in spreminjajte kak njen parameter ter ugotovite kako le-ta vpliva na učinkovitost odrezovanja.
 >
 > Opredelite/opišite:
 >
-> - prijem žage,
-> - postavitev nog, priprava,
-> - začetnem rezu,
+> - vpetost obdelovanca (priprava),
+> - prijem žage (položaj roke, prstov ...),
+> - postavitev nog,
+> - vodenje žage (s prstom, z dvema prstoma),
+> - začetni rez,
 > - vodenje žaginega lista z zarezo,
-> - spremljanje pravokotnosti z odsevom obdelovanca v žaginem listu,
-> - odrezovanje ob šabloni,
-> - obtežbo na hrbtni strani žage
-> - ... (vaša tehnika)
+> - pravokotnost odrezovanja (sedenje zarisu, spremljanje pravokotnosti z odsevom obdelovanca v žaginem listu, odrezovanje ob šabloni, ...)
+> - obtežbo na hrbtni strani žage,
+> - ... (dodajte svoj predlog tehnike odžagovanja).
 >
-> 3. Žage z različnimi zobni preskusite na obdelovancih s po tremi odrezi v različnih situacijah:
->
-> Opišite žago s karakterističnimi podatki in
-> pozorno spremljajte odrezovanje pri:
+> 3. Med seboj primerjajte različne žage z različnimi ozobljenji za isti primer razreza. Preizkus naredite s po tremi rezi z isto žago in si zabeležite ugotovitve:
 >
 > - trdših / mehkejših lesnih vrstah
-> - vzdolžnem / prečniem razrezu
+> - vzdolžnem / prečnem razrezu
 > - hitrost reza,
-> - izgled robov zareze
-> - vloženi napor (manjši kot klina, večji d, -> večji odrez -> težje)
+> - izgled robov zareze (iztrgovanje vlaken)
+> - vloženi napor (manjši kot klina, manjša delitev zob, -> večji odrez -> težje)
 > - vodenje žage (razperitev, trenje, kako lahko lovite začrtano črto)
 >
-> - preskusite vse žage (primerjajte tudi podobne žage med seboj)
+> ... Preskusite vse žage (primerjajte tudi podobne žage med seboj, morda ugotovite, da je razlika v ostrini zob)
 > 
 > Lahko si pripravite tudi tabelo:
 >
@@ -160,7 +164,6 @@ Vsota vseh treh kotov je enaka 90°, kar pomeni, da vsaka sprememba enega kota, 
 |                                            |          |           |               |               |               |           |            |
 |                                            |          |           |               |               |               |           |            |
 Table: Značilnosti odreza z različnimi žaginimi listi. {#tbl:odrez_ročna_žaga}
-
 
 ### __izdelek__: prislonska peresna letev
 https://www.google.com/search?q=featherboard&tbm=isch
