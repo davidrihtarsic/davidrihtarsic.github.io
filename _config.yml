@@ -24,6 +24,11 @@ remote_theme: pmarsceill/just-the-docs
 #remote_theme             : "mmistakes/minimal-mistakes"
 #minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+mermaid:
+  # Version of mermaid library
+  # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
+  version: "9.1.3"
+
 #remote_theme: jekyll/jekyll
 
 theme: jekyll-theme-slate

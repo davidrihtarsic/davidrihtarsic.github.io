@@ -12,6 +12,10 @@
 - svetleče diode
 - Ee = Ef --> eU = h c/λ
 
+- $e_0$ - osnovni naboj $=1.6\ 10^{-19} C$
+- $c$ - svetlobna hitrost $=3.0\ 10^{8}\frac{m}{s}$
+
+- $h$ - Planckova konstanta $h=6.6\ 10^{-34}Js$
 ### Krmiljenje svetlobnega izvora
 
 - izhod z odprtim kolektorjem
