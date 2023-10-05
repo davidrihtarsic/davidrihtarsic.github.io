@@ -28,4 +28,7 @@ KRITERIJI OCENJEVANJE LETALA
 
 - razmerje med $\frac{F_L}{F_D} \approx \frac{A_W[m^2]}{m[kg]}$
 - stabilnost leta,
-- čas leta (10s -> odl. 10).
+- čas leta (??s -> odl. 10).
+<!--
+moje letalo je letlo 20s
+-->
