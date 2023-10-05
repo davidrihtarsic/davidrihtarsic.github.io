@@ -30,6 +30,8 @@ To overcome drag, airplanes use a propulsion system to generate a force called t
 
 ## Short Video Tutorial...
 
+- [How Do Airplanes Fly](https://www.youtube.com/watch?v=Gg0TXNXgz-w)
+
 ![How do Airplanes Fly.](./slike/How Do Airplanes Fly_.png){#fig:How_Do_Airplanes_Fly}
 
 <!-- QR generator https://www.the-qrcode-generator.com/ -->
@@ -67,6 +69,8 @@ $$a = \frac{\vec{v}}{t} $${#eq:acceleration}
 How much air mass ($m$) will be deflected in certain time by the wing is depended on several factors: air density ($\rho$), wing airfoil shape (included in $C_L$), wing area ($A$), wing angle (included in $C_L$) and wing speed ($v$). Thus we end up with presented equation [@eq:force-lift]:
 
 More about the lift you can learn here:
+
+- [Hoe a wing produce lift](https://www.youtube.com/watch?v=YDeQXPNpLeY&t=115s)
 
 ![Video on: How wings create lift.](./slike/How-Wing-Create-Lift.png){#fig:How-Wing-Create-Lift.png}
 
@@ -131,7 +135,7 @@ Induced drag is generated as the wing is driven through the air to develop the d
 
 ![Induced drag caused by air pressure difference [@u2013glider].](./slike/Induced-drag.png){#fig:Induced-drag.png}
 
-> The difference in pressure at the wing edge can be reduced by the smaller chord length of the airfoil. And the difference at the wing tips can be reduced by designing a wing with wiglets that reduces high pressure slowly.
+> The difference in pressure at the wing edge can be reduced by the smaller chord length of the airfoil. That is why gliders often has wings with aspect ratio of 10 - 40. The difference in air pressure at the wing tips can be reduced by designing a wing with wiglets that reduces high pressure slowly.
 
 # STABILITY
 
@@ -281,13 +285,13 @@ A quick tutorial can be found at that
 
 - Calculate area of the wing according to [@eq:force-lift].
 - Assuming that your glider will travel at speed $v = 4..8 m/s$ and 
-- it will have a mass of cca. $m_{glider} = 200..300 grams$.
+- it will have a mass of cca. $m_{glider} = 200..500 grams$.
 
 ### Aspect ratio of wing area
 
 The aspect ratio of the wing area for the glider models (homemade) are far from the values of the real gliders. Thus mainly for the practical reasons we choose the aspect around 6.
 
-$$ Aspect Ratio = \frac{Wing Spam}{Chord Length} \approx 6 $${#eq:aspect-ratio}
+$$ Aspect Ratio = \frac{Wing Spam}{Chord Length} \approx 6-10 $${#eq:aspect-ratio}
 
 ### Airfoil shape
 
@@ -329,9 +333,9 @@ The 1°..2° degrees of negative angle on horizontal stabilizer are desired, whi
 - the angle of back of the fuselage or
 - gluing it  with some support...
 
-Area of horizontal stabilizer should be cca. 20% - 30% of the main wing area.
+Area of horizontal stabilizer (slo.: višinski stabilizator) should be cca. 10% - 20% of the main wing area.
 
-Area of the vertical stabilizer should be cca 33% of horizontal stabilizer.
+Area of the vertical stabilizer (slo.: smerni stabilizator) should be cca. 30% - 40% of horizontal stabilizer.
 
 # REFERENCES
 

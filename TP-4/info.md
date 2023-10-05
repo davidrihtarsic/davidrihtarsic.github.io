@@ -1,9 +1,9 @@
 # [TP-4](../index.md) ↪ [Informacije](./index.md)
 
-[🏡DOMOV](../index.md){: .btn}
-[📝VSEBINE](../Vsebine/index.md){: .btn}
-[👨‍🎓INFO](../info.md){: .btn}
-[💾PRESNEMI](../Presnemi/index.md){: .btn}
+[🏡DOMOV](./index.md){: .btn}
+[📝VSEBINE](./Vsebine/index.md){: .btn}
+[👨‍🎓INFO](./info.md){: .btn}
+[💾PRESNEMI](./Presnemi/index.md){: .btn}
 
 ---
 

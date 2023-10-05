@@ -6,10 +6,11 @@ pravilno poravnana.
 Spomnimo na dve ključni nastavitvi:
 
 1. Kot med ravnino glavnega krila in višinskega stabilizatorja naj bo med 0° in 1°.
-    - če temu pogoji ni zadoščeno, lahko glavno krilo nekoliko podložite na mestu, kjer je pritrjeno na trup
+    - če temu pogoji ni zadoščeno, lahko glavno krilo nekoliko podložite na mestu, kjer je pritrjeno na trup,
+    - ali pa podložimo višinski stabilizator.
 2. Težišče letala naj bo v navpični smeri s prijemališčem vzgonske sile. Ta točka je približno na 1/3 širine glavnega krila.
     - V kolikor težišče ni na pravem mestu lahko na sprednji del trupa prilepite neko utež (lahko je to umetna masa, kovanci, kamen ...). Po potrebi lahko utež dodate tudi na rep letala ali pa nekoliko premaknete položaj glavnega krila.
-    - Fina nastavitev pozicije težišča lahko dosežete z le premikanjem ureži po dolžini trupa.
+    - Fino nastavitev pozicije težišča lahko dosežete le s premikanjem ureži po dolžini trupa.
 
 Polet letala bomo razdelili na tri faze letenja:
 
@@ -19,9 +20,15 @@ Polet letala bomo razdelili na tri faze letenja:
 
 ## JADRANJE LETALA
 
-Najprej bomo letalo skušali vreči tako, kot bi že letelo s svojo konstantno hitrostjo in naklonom. Tako kot bi bilo že v ravnovesju. To pomeni, da ga vržemo nekoliko navzdol. V točko kakih 10m pred nami.
+Že pred smao izstrelitvijo letala lahko preverimo vzgonske lastnosti letala in rezultanto vseh sil na letalo. To naredimo tako, da z letalom v roki tečemo v smeri letenja letala. Če je letalo pravilno nastavljeno, bo letalo pri ravnovesni hitrosti imelo dovolj vzgona in ne boste več čutili njegove teže. V tem trenutku nebi smeli obstajali niti navori, ki bi utegnili zmanjšati višinsko, smerno in nagibno stabilnost. Pri tem preizkusu lahko naletite na naslednje težave:
+- letalo ne proizvede dovolj vzgona ali celo potiska navzdol (povečajte konstrukcijski kot krila - AOA),
+- letalo se nagiba v desno ali levo (podaljšajte levo ali desno stran krila).
 
-### DVIGOVANJE IN STRMOGLAVLANJE (PUMPANJE)
+Ko so nastavitve letala vsaj takšne, da pri teku z letalom ne opazimo večjih navorov, lahko letalo v teku izpustimo in opazujemo njegov let.
+
+Nazadnje lahko letalo vržemo s tako hitrostjo in naklonom, kot jih letalo vzpostavi pri svojem stabilnem, ravnovesnem letu. To pomeni, da ga vržemo nekoliko navzdol. V točko kakih 10m pred nami.
+
+### PREHOD V RAVNOVESNO LEGO
 
 Če se letalo nenadoma dvigne, se mu bo hitrost zmanjšala in bo takoj za tem strmoglavilo. Na to se mu hitrost poveča, s čimer bo večji tudi vzgon in se bo zoper začelo dvigovati... tak cikel se lahko ponavlja, lahko pa si letalo od prvega strmoglavljanja ne bo opomoglo... Tako gibanje imenujemo, da letalo "pumpa". Taka situacija je zelo pogosta in običajna.
 
