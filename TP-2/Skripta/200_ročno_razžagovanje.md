@@ -47,10 +47,11 @@ Ločimo predvsem dve različni odrezovalni smeri:
 
 **TEHNIKA ODREZOVANJA**
 
-1. Rez pričnemo na robu odbelovanca:
-    - prst za vodenje in žagin list prislonimo tako, da zarisan rez razpolovimo.
+1. Rez pričnemo na oddaljenem robu odbelovanca:
+    - palec prislonimo na oddaljen rob obdelovanca in k njemu prislonimo žagin list prislonimo tako, da zarisan rez razpolovimo.
     - prst in žagin list tiščimo nekoliko skupaj.
-    - Če je možno lahko obdelovanec "uščipnemo" točno na črti zarezovanja in tako vodimo obe skrajni točki reza.
+    - Z žaganjem pričnemo na oddaljenem robu in napredujedujemo po risu na sprednji rob (tako lahko enostavno nadzorujemo rez).
+    - Navpičnosti reza ne naklonimo veliko pozornosti.
     - Če se žagini zobje pri prvih nekaj rezih preveč ugreznejo v les:
         + moramo nekoliko spremeniti položaj žage tako, da vključimo več zob v odrezovanje in tako
         + sprostimo prevelik tlak na parih zobeh, ki povzroča, da se zobje vgreznejo v les.

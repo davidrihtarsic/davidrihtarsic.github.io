@@ -2,9 +2,9 @@
 
 ## LEPLJENJE
 
-Lepilo je tekoča snov, ki se strdi med dvema ploskvama lepljenca.
+- [LEPILA IN MATERIALI ZA POVRŠINSKO OBDELAVO IN ZAŠČITO LESA, M. Čermak](https://cpi.si/wp-content/uploads/2020/08/LepilainMaterialiZaPovrsinskoObdelavo.pdf)
 
-![Razvrstitev lepil.](./slike/lepila_razvrstitev.png){#fig:lepila_razvrstitev}
+Lepilo je tekoča snov, ki se strdi med dvema ploskvama lepljenca.
 
 V lepilnem spoju nastanejo močne kohezijske sile (med enakimi molekulami), ki 
 preprečujejo trganje spoja v lepilu. Med lesom in lepilom nastanejo adhezijske sile, ki 
@@ -12,7 +12,41 @@ vežejo med sabo različne vrste materialov (različne molekule), v našem prime
 
 ![Delovanje sil v lepilnem spoju.](./slike/lepilo_adhezija_kohezija.png){#fig:lepilo_adhezija_kohezija}
 
-### POGOSTA LEPILA
+## VRSTE LEPIL
+
+V splošnem ločimo:
+
+- naravna in
+- sintetična lepila
+
+![Razvrstitev lepil.](./slike/lepila_razvrstitev.png){#fig:lepila_razvrstitev}
+
+### Naravna lepila
+
+Primer uporabe lepila naravnega izvora v lesarstvu je uporaba rastlinskih lepil. Na primer, lepila, pridobljena iz rastlin, kot so škrob, lignin ali rastlinske smole, se pogosto uporabljajo za lepljenje lesa. Ta lepila so lahko naravno obstojna, okolju prijazna in neškodljiva za zdravje ljudi. Uporabljajo se lahko za lepljenje različnih lesnih materialov, kot so iglavci, trdega lesa ali vezanega lesa.
+
+Primer uporabe lepila živalskega izvora v lesarstvu je uporaba kostnega ali živalskega lepila. Kostno lepilo se pridobiva iz kosti živali in je tradicionalno lepilo, ki se uporablja v lesarstvu. Ta vrsta lepila je pogosto uporabljena za lepljenje furnirja na leseno podlago ali za popravilo lesnih stvari, kot so pohištvo ali glasbila. Kostno lepilo je znano po svoji moči in obstojnosti, pa tudi po naravnem izvoru. Živalsko lepilo, kot je ribje lepilo, se lahko uporablja tudi za lepljenje lesnih materialov, vendar se ta vrsta lepila manj pogosto uporablja kot kostno lepilo."
+
+### Sintetična lepila
+
+Pri sintetičnih lepilih izkoriščamo kemične lastnosti molekul s **funkcionalnimi skupinami**. Najbolj znane funkcionalne skupine so: $-OH$ (hidroksilna), $-COOH$, $-CHO$, $-NH_2$ (amino), $-CH=CH_2$ (vinilna), $-N=C=O$. Sintetična lepila delimo po njihovi kemijski reakciji:
+
+- Polimerizacija: nasičeni monomeri z dvojnimi ali trojnimi kemijskimi vezmi se med seboj povežejo v zelo dolge molekule (polimere) in tvorijo trdno, trpežno strukturo.
+- Polikondenzacija: monomeri, ki vsebujejo hidroksilne skupine se povezujejo med seboj v dolge makromulekule, pri čemer se odceplja voda.
+- Poliadicija: nenasičene organske spojine (z dvojnimi ali trojnimi kem. vezmi) se spajajo s pomočjo molekul, ki vsebujejo vsaj dve funkcionalni skupini (npr -OH). Pri tem se vodikov atom *pripoji* na dvojno vez.
+
+
+## POGOSTA LEPILA
+
+### Polivinilacetatno lepilo
+
+Polivinilacetatno lepilo je vrsta lepila, ki se uporablja za površinsko obdelavo materialov. To lepilo je sestavljeno iz polivinilacetata, ki je polimer, pridobljen iz vinilacetatnih monomerov. Polivinilacetatno lepilo se pogosto uporablja v različnih panogah, kot so lesna industrija, gradbeništvo, embalaža itd.
+
+Prednosti uporabe polivinilacetatnega lepila so številne. To lepilo je enostavno za uporabo, saj se nanese s ščetko, valjčkom ali ročnim razpršilcem. Poleg tega se hitro suši in zagotavlja močno vez med materiali. Polivinilacetatno lepilo tudi omogoča fleksibilnost, ki je pomembna pri obdelavi materialov, ki se lahko krčijo ali širijo.
+
+Pomembno je omeniti tudi, da polivinilacetatno lepilo ni vodoodporno. Zato ni priporočljivo za uporabo na predmetih, ki bodo izpostavljeni vodi ali vlažnim pogojem. Poleg tega se lahko polivinilacetatno lepilo v določenih pogojih razgradi, kar ga naredi manj primeren za trajne vezave.
+
+V skupnosti površinske obdelave materialov je polivinilacetatno lepilo zelo priljubljeno zaradi svoje enostavne uporabe, močne vezave in prilagodljivosti. Kljub nekaterim omejitvam se pogosto uporablja za številne aplikacije, ki zahtevajo lepljenje materialov, kot so les, tkanine, papir itd."
 
 ![Polimerizacijska lepila.](./slike/lepila-PVAC.png){#fig:lepila-PVAC}
 
@@ -22,19 +56,23 @@ vežejo med sabo različne vrste materialov (različne molekule), v našem prime
 
 - [tehnični podatki lepila](https://www.mitol.si/wp-content/uploads/2018/12/MEKOL-D3_SLO.pdf)
 
-- nanos 120-180 g/m² ali 0.12-0.18 mm 
-- stiskanje:  min 0.5 N/mm²
+- nanos 120-180 $g/m^2$ ali 0.12-0.18 mm 
+- stiskanje:  min 0.5 $N/mm^2$
 - stiskanje:  30-60min
-- ~~čiščenje: operemo z vodo, obrišemo z vlažno krpo~~
+- ~~čiščenje: operemo z vodo, obrišemo z vlažno krpo~~ (premisli!)
     - počakamo, da se posuši in odbrusimo
     - z brisanjem lahko lepilo nanesemo na lesno površino, ki se vpije v pore in oteži površinsko zaščito
     - najbolje je, da rob spoja zaščitimo s krep lepilnim trakom tako, da ko se ob stisku lepljencev lepilo izteče na lepilni trak (vedno pa te tehnike ni mogoče uporabiti, npr.: rogličenje).
 
 **PVAc - MEKOL D4**
 
-- podobno lepilo kot D3, le da je dvo-komponentno in bolj odporno na vlago in vodo. Primerno za notranjo uporabo , kot tudi za uporabo lesnnih spojev, ki so izpostavljeni vremenskim vplivom.
+- podobno lepilo kot D3, le da je dvo-komponentno in bolj odporno na vlago in vodo. Primerno za notranjo uporabo, kot tudi za uporabo lesnnih spojev, ki so izpostavljeni vremenskim vplivom.
 
 - [tehnični podatki](https://www.mitol.si/wp-content/uploads/2018/12/MEKOL-D4_SLO.pdf)
+
+### Poliuretanska lepila
+
+Poliuretansko lepilo je vrsta lepila, ki se uporablja za površinsko obdelavo materialov. Gre za sestavljeno mešanico poliuretanske smole, ki se uporablja za lepljenje in spojene različnih materialov, kot so les, kovina, plastika, steklo in keramika. Poliuretansko lepilo se zaradi svoje visoke trdnosti, fleksibilnosti in obstojnosti uporablja v številnih industrijskih in gradbenih aplikacijah. Ima odlične adhezijske lastnosti, ki omogočajo močno in trajno vez med materiali. Poleg tega poliuretansko lepilo zagotavlja tudi odpornost na vlago, temperaturne spremembe in kemijske vplive, kar ga naredi primernega za uporabo v različnih okoljih. Poliuretansko lepilo je na voljo v različnih oblikah, od tekočine do trdnega stanja, in se lahko nanese s ščetkanjem, valjanjem ali brizganjem. Zaradi svojih lastnosti in enostavne uporabe je poliuretansko lepilo vse bolj priljubljena izbira pri površinski obdelavi materialov."
 
 ![Poliadicijska lepila.](./slike/lepila-PUR.png){#fig:lepila-PUR}
 
@@ -81,7 +119,7 @@ standarda EN 204-D4.
     - kjer imamo relativno veliko površino vzdolž vlaken
 - ~~slab spoj lepljenja na čelni ploskvi vlaken~~
     - čelne ploskve so manjše
-    - najšibkejši člen pri čelno lepljenem spoju je vedno lepilo (da, daj lesna vlakna omogočajo izredno velike natezne napetosti v dolžinski smeri; cepilne napetosti so manjše)
+    - najšibkejši člen pri čelno lepljenem spoju je vedno lepilo (da, saj lesna vlakna omogočajo izredno velike natezne napetosti v dolžinski smeri; cepilne napetosti so manjše)
 
 ### NANOS LEPILA
 
@@ -319,3 +357,4 @@ Konstrukcijske vezi lahko razdelimo glede na smer spajanja:
     - le z enim lastovičnim peresom
     - drsni spoj
 
+-->
