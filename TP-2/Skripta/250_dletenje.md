@@ -21,6 +21,22 @@
   - zakaj mora biti zadnje odsekavanje izredno tanko
   - prekrivanje rezila
 
+> ### NALOGA: Uporaba dleta
+>
+> 1. Opišite sestavne dele dleta in katere so bistvene lastnosti le-teh:
+>   - ročaj,
+>   - rezilo,
+>      - stranska poševna ploskev,
+>      - rezilna ploskev,
+>      - rezalni rob.
+>
+> 2. Opišite vsaj eno tehniko odrezavanja lesnih vlaken z dletom.
+>   - zarisovnaje,
+>   - rokovanje,
+>   - odrezavanje,
+>   - čiščenje,
+>   - uporaba pripomočkov...
+
 ### Čiščenje pazduhe
 
 - le 2 mm
@@ -60,4 +76,5 @@
 
 - kot klina = 20° - 30°
 - 25° in 30°
+
 

@@ -41,3 +41,13 @@ Skobljanju tanjše stranice sledi skobljanje širše po enakem postopku.
     - obvezno nošenje zaščitnih očal
 - velik hrup
     - obvezno nošenje zaščitnih glušnikov
+
+> ### NALOGA: Uporaba kombiniranega skobeljnega stroja
+>
+> 1. Na skici označi sestavne dele kombiniranega skobeljnega stroja in jedrnato strni njihove funkcije (ločeni skici za obe variaciji skobljanja).
+>
+> 2. Opoši tehniko in tehnologijo poravnalnega in debelinskega skobljanja (poravnavanje, pravokotnost, vzporednost ploskev):
+>   - nastavitev stroja,
+>   - uporaba zaščitne oprame in pripomočkov,
+>   - postopek obdelave...
+>

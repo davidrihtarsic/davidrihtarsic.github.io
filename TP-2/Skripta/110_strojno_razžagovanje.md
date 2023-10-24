@@ -113,12 +113,11 @@
 
 > ### NALOGA: Opiši nastavitev mizarska krožne žage.
 >
-> Jasno predstavite pravilne nastavitve mizarske krožne žage in opredelite čemu so namenjene:
+> 1. Na skici predstavi glavne sestavne dele mizarske krožne žage in 
+> jedrnato opiši njihovo funkcijo.
 >
-> - razporni klin,
-> - višina žaginega lista,
-> - prečni prislon,
-> - vzdolžni prislon.
+> 2. Jasno predstavite pravilno nastavitev mizarske krožne žage in tehniko vzdolžnega in prečnega razžagovanja.
+>
 
 
 

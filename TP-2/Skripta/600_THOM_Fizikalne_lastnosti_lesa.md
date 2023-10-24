@@ -170,7 +170,7 @@ $$ \epsilon = \frac{\Delta l}{l_0} $${#eq:spec_raztezek}
 
 Kjer je:
 
-- $\epsilon$ - specifični raztezek
+- $\epsilon$ - specifični (ali relativni) raztezek
 - $\Delta l$ - raztezek 
 - $l_0$ - prvotna dimenzija
 
@@ -203,12 +203,12 @@ namena konstrukcije, vrste obremenitve in drugih vplivov.
 
 $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 
-|        les        | smer | Nateg | Tlak | Upogib | Strig | Mod. Ealst. |
-|:-----------------:|:----:|:-----:|:----:|:------:|:-----:|:-----------:|
-| Smreka, Jelka,Bor |  ll  |   10  |  11  |   13   |  0.9  |    12000    |
-|                   |   T  |   -   |   2  |    -   |  0.9  |     460     |
-|    Hrast,Bukev    |  ll  |   11  |  12  |   14   |  1.2  |    13000    |
-|                   |   T  |   -   |   3  |    -   |  1.2  |     1000    |
+|        les        | smer | Nateg[MPa] | Tlak[MPa] | Upogib[MPa] | Strig[MPa] | Mod. Ealst.[MPa] |
+|:-----------------:|:----:|:----------:|:---------:|:-----------:|:----------:|:----------------:|
+| Smreka, Jelka,Bor |  ll  |     10     |     11    |      13     |     0.9    |       12000      |
+|                   |   T  |      -     |     2     |      -      |     0.9    |        460       |
+|    Hrast,Bukev    |  ll  |     11     |     12    |      14     |     1.2    |       13000      |
+|                   |   T  |      -     |     3     |      -      |     1.2    |       1000       |
 Table: Dopustne napetosti za nekatere vrste lesa v MPa. {#tbl:sigma_dop_tab}
 
 ## NATEZNA IN TLAČNA TRDNOST LESA
@@ -231,7 +231,7 @@ $$ \sigma = E \frac{\Delta l}{l_0} $${#eq:napetost_nateg}
 - $\Delta l$ - raztezek
 - $l_0$ - prvotna dolžina
 
-> Primer: smrekovina 8cm x 8cm, dolžine 1,8m ; natezna sila 45 kN.
+> Primer: smrekovina 8cm x 8cm, dolžine 1,8m ; natezna sila 45 kN.  
 > - Dejanska napetost?
 
 > - Kolikšen je raztezek?
@@ -301,26 +301,28 @@ Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer j
 > napetost je 1400 N/mm2 , elastični modul pa je 12 500 MPa. Izračunajte tudi
 > poves hrastovega nosilca.
 >( R: Mmax = 3600 Nm, Wx = 257 142,8 mm³ , b = 92,3 mm = 93 mm,
-> h = 129,26 mm = 130 mm, IX = 17 026 750 mm⁴ , f = 28,2 mm )
+> h = 129,26 mm = 130 mm, IX = 17 026 750 $mm^4$ , f = 28,2 mm )
 
 > Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje.
 
+
 ## UKLONSKA TRDNOST
 
-vitkost
+**Vitkost**:
 
 $\lambda = \frac{l_0}{i}$
 
 - prvotna dolžina
-- i - vztrajnostni polmer
+- i - vztrajnostni polmer, ki ga izračunamo iz vztrajnostnega momenta in prereza na katerega sila deluje:
 
 $$ i=\sqrt{\frac{I_{min}}{A}} $$
 
-Večja je vitkost, večja je nevarnost uklona. Uklonsko kritično napetost
+Večja ko je vitkost, večja je nevarnost uklona. Uklonsko kritično napetost
 določamo po treh različnih postopkih, v odvisnosti od vitkosti.
 
 1. $\lambda \leq 60$ dimenzioniranje na čisti tlak
-2. $\lambda \geq 100$ - dimenzioniranje po Eulerjevem postopku
+2. ... kombinacija obremenitve na tlak in uklon
+3. $\lambda \geq 100$ - dimenzioniranje po Eulerjevem postopku
 
 ### Eulerjev postopek
 
@@ -336,7 +338,7 @@ dopustna sila
 
 $$ F_{dop} = \frac{F_k}{k_v}  $$
 
-- $k_v = 10 (za les)$
+- $k_v = 10 (les)$
 
 > Smrekov steber pravokotnega prereza je na eni strani vpet členkasto na 
 > drugi pa trdo. Dolžina stebra je 5 m. Obremenjen je s silo 45 kN.
