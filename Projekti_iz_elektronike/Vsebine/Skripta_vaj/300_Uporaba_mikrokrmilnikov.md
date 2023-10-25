@@ -116,7 +116,8 @@ void setup(){
 }
 
 void loop(){
-    if ( digitalRead(A0) == HIGH)
+    int stikalo_je_sklenjeno = digitalRead(A0);
+    if ( stikalo_je_sklenjeno == HIGH)
         digitalWrite(13, HIGH);
     else
         digitalWrite(13, LOW);
