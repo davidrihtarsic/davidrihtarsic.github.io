@@ -15,12 +15,17 @@
 - relativno tihe (ni potrebno nositi glušnikov)
 - odrezki veliki in kontroliran izmet (ni portebno nositi očal in mask proti prahu)
 
-**POIMENOVANJA VRST ROČNIH ŽAG**
+## VRSTE ROČNIH ŽAG
 
-- lisičji rep s hrbtom (angl.: Dovetail handsaw, nem.: Schwalbenschwanz-Säge)
-- lisičji rep (angl.: Hand panel saw; nem.: Fuchsschwanzsäge)
-- kopirna rezljača (angl.: fretsaw, coping saw; nem.: Laubsäge (list), Bewältigungssäge (kopiranje))
-- izravnalna žaga (angl.: flush trim hand saw; nem.: Rasiersäge)
+- **lisičji rep s hrbtom** (angl.: Dovetail handsaw, nem.: Schwalbenschwanz-Säge)
+  - Žaga je namenjena kratkim, ravnim, čistim rezom. S to žago je mogoče izdelati ravne ploskve
+    čepov in zarez tako, da teh površin ni potrebno dodatno čistiti z dletom.
+  - Rezilo je nekoliko debelejše, da se ne ukloni ob nepravilnostih v lesu (grče) in ojačano s hrbtom.
+  - Zaradi ozobljenja z manjšimi zobmi vlaken ne iztrgje in površine ni potrebno dodatno obdelovati pred lepljenjem.
+  - Ročaj je ergonomsko oblikovan tako, da nudi kar največji nadzor vodoravne smeri odžagovanja.
+- **lisičji rep** (angl.: Hand panel saw; nem.: Fuchsschwanzsäge)
+- **kopirna rezljača** (angl.: fretsaw, coping saw; nem.: Laubsäge (list), Bewältigungssäge (kopiranje))
+- **izravnalna žaga** (angl.: flush trim hand saw; nem.: Rasiersäge)
 
 ## Postopek obdelave
 
