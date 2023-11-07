@@ -115,11 +115,20 @@ Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
     - preprečimo porumenjevanje papirja na UV svetlobni
 - kašo osušijo in pripravijo polizdelek za nadaljnjo izdelavo papirja
 
+- Oglej si [video](https://www.youtube.com/watch?v=2Uh3XIadm1A) proizvodnje.
+- Oglej si [animacijo](https://www.youtube.com/watch?v=GyRjIZKc3P4) proizvodnje.
+
 ### Izdelava papirja
 
 - zmeljejo papirno kašo
 - dodajanje kaše iz recikliranega papirja
     - s kemijskim postopkom odstranijo barvila
+- molekule celuloze je potrebno povezati med seboj
+
+![Molekula celuloze[^molekula_celuloze].](./slike/Cellulose-Ibeta-from-xtal-2002-3D-balls.png){#fig:Cellulose-Ibeta-from-xtal-2002-3D-balls}
+
+[^molekula_celuloze]: Vir: https://en.wikipedia.org/wiki/Cellulose
+
 - kašo razredčijo z vodo -> viskozna zmes celuloze
 - z oblikovalnimi česali bolj ali manj uredijo in prepletejo vlakna
     - bolj prepletena vlakna -> bolj trden papir
@@ -161,6 +170,7 @@ Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
 ### Formati papirja
 
 Formati:
+
 - A (pisemski papir, tisk, risanje):
     - A0-841x1189
     - A1-594x841
@@ -232,7 +242,8 @@ Table: Razdelitev papirja po gramaturi. {#tbl:gramatura}
 
 ### Zračna prepustnost
 
-- pomembna pri zračnih filtrih
+- pomembna pri zračnih filtrih (filter za klimo)
+- prepustnost tekočine je pomembna pri filtrih za kavo
 
 ### Hrapavost
 
@@ -248,7 +259,7 @@ Table: Razdelitev papirja po gramaturi. {#tbl:gramatura}
 
 ![Preskus hrapavosti.](./slike/papir_hrapavost.png){#fig:papir_hrapavost}
 
-$$ k_L = \frac{F_d}{F_x} = \frac{m g sin(\alpha)}{m g cos(\alpha)} = tg(\alpha) $${#eq:papir_kl}
+$$ k_L = \frac{F_d}{F_x} = \frac{m\ g\ sin(\alpha)}{m\ g\ cos(\alpha)} = tg(\alpha) $${#eq:papir_kl}
 
 ### Natezna trdnost
 

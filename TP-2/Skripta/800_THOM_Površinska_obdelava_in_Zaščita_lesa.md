@@ -23,6 +23,7 @@ Pogoste napake površinske obdelave:
   - pomarančaste površine (lužene površine niso dovolj suhe), 
   - sive površine, 
   - neenakomeren lesk itd. 
+  - [več na HELIOS - Napake](https://www.helios-woodcoatings.com/napake-pri-delu-s-premaznimi-sredstvi/)
 
 ## Brušenje
 
@@ -56,9 +57,10 @@ Glavni tehnološki postopki brušenja:
 
 ## Beljenje
 
-- osvetliti ton lesa
+- osvetliti ton lesa, lahko tudi poenotiti ton lesa
 - peroksidna sredstva (npr.: vodikov peroksid - $H_2 O_2$)
-- agresiven kemijski postopek
+- agresiven kemijski postopek -> zahteva dobro prezračevanje prostora
+- po postopku moramo les izprati
 - prodira globoko v les
 
 ## Kitanje
@@ -149,6 +151,8 @@ V primerjavi z lužili dosegamo različne učinke:
   - (+) imajo boljši oprijem na lesu iglavcev, 
   - (-) hrapavost obdelanih površin zaradi močnejšega dvigovanja lesnih vlaken.
 
+> ### NALOGA: Razmisli, katere vrste lak bi bil najbolj primeren za površinsko obdelavo parketa.
+
 ### Naravna olja
 
 - olja rastlinskega ali živalskega izvora,
@@ -180,6 +184,7 @@ V primerjavi z lužili dosegamo različne učinke:
     - čim manj izpostavljen vodi
     - voda hitro odteče
     - voda čim hitreje posuši
+    - preprečimo gradient vlažnosti
 
 - lesno konstrukcijo zaščitimo z ustreznim nadstreškom
 - izogibamo se neposrednemu kontaktu lesa z zemljo, betonom (stebri, vzidane lege)
