@@ -6,32 +6,47 @@ Polimerizacija je kemijski proces, v katerem se monomer ali mešanica monomerov 
 
 ![Polimerizacija stirena v polistiren](https://upload.wikimedia.org/wikipedia/commons/1/10/Polystyrene_formation.PNG)
 
-Najbolj linearno polimerizirajo alkeni (nenasičeni ogljikovodiki, imajo dvojno vez med C=C), ki so relativno stabilni zaradi $\sigma$ vezi med ogljikovimi atomi. V to kategorijo spadata na primer polietilen in polivinilklorid (PVC).
+Najbolj linearno polimerizirajo alkeni (nenasičeni ogljikovodiki, imajo dvojno vez med C=C), ki so relativno stabilni zaradi $\sigma$ vezi med ogljikovimi atomi. V to kategorijo spadata tudi najbolj pogosto uporabljeni polimeri plastičnih materialov:
 
-Nekateri monomeri, kot so formaldehid hidrati ali enostavneje formaldehid, lahko polimerizirajo že pri zelo nizkih temperaturah (približno -80 °C) in tvorijo trimere, polimere, sestavljene iz treh monomernih enot.[4] Ti polimeri lahko tvorijo obroče in s še enim monomerom tetramere.
+1. [polietilen](https://en.wikipedia.org/wiki/Polyethylene),
+2. [polipropilen](https://en.wikipedia.org/wiki/Polypropylene) in
+3. [polivinilklorid](https://en.wikipedia.org/wiki/Polyvinyl_chloride) (PVC).
+
+Delu molekule, zaradi katerega se monomeri spajajo skupaj imenujemo **funkcionalne skupine** (npr.: -OH, -COOH, $-NH_2$, -NCO ...).
+
+Nekateri monomeri (prisotnost kisika `O`), kot so formaldehid hidrati ali enostavneje formaldehid, lahko polimerizirajo že pri zelo nizkih temperaturah (cca: -80 °C) in tvorijo trimere, polimere, sestavljene iz treh monomernih enot.[4] Ti polimeri lahko tvorijo obroče in s še enim monomerom tetramere.
+
+![Formaldehidni polimeri.](./slike/Formaldehidni_polimeri.png){#fig:Formaldehidni_polimeri}
 
 ## Izvor polimerov
 
+- glej razdelitev na prosojnicah predavanj (dr. S Avsec)
+
 ### Naravno polimeri
 
-- kavčuk, celuloza, škrob, DNK, beljakovinski polimeri
+- kavčuk (latex), celuloza, škrob, DNK, beljakovinski polimeri
 
 ### Sintetični polimeri
+
+- Pridobivanje: iz surovin, ki vsebujejo veliko ogljiko - vodikov:
+    - nafta, premog, plin (biomasa)
 
 #### Polimerizati:
 
 - monomeri se spajajo v polimere (dvojna vez razpade v enojo z drugimi monomeri)
 - primer : **polietilen** : eten ($CH_2=CH_2$) -> polietilen (PE $n-CH_2-CH_2-CH_2-n$)
+- pri tem procesu ne nastajajo stranski produkti
 
 #### Polikondenzati
 
 - pri združevanju monomerov se izloči druga molekula (npr.: voda, vodikov klorid...)
-- primer : **polietilenftalat** : dimetil-tetraftalat + etilen-glikol -> (pre-estrenje in polikondenzacija) -> poli-etilen-tetraftalat + 2 etilen-glikol
+- primer : 
+    - **polietilenftalat** : dimetil-tetraftalat + etilen-glikol -> (pre-estrenje in polikondenzacija) -> poli-etilen-tetraftalat + 2 etilen-glikol
 
 ## Polimeri
 
 - monomeri -> polimere (primer: vinil-klorid $H_2-CHCl$ -—> $n(-CH_2-CHCl-)$ = PVC)
-- visoka molska masa : 1.000 .. 6.000.000 g/mol 
+- visoka molska masa : 1.000 .. 6.000.000 g/mol (npr.: 1mol $^{12}C$ = 12g)
 - polimerizacijska stopnja = koliko monomerov je skupaj v polimer
 - oblika polimerov
     - linearni,
@@ -41,6 +56,60 @@ Nekateri monomeri, kot so formaldehid hidrati ali enostavneje formaldehid, lahko
   - npr.: oblika polimerov vpliva na viskoznost,
     kar je zelo pomembno pri mazivnih sredstvih (motorno olje)
     - celo različna oblika pri različni temperaturi (sintetična motorna olja)
+
+## Lastnosti umetnih snovi
+
+- mehanske lastnosti:
+    - trdnost, trdota, žilavost
+- tehnološke lastnosti 
+    - dobra obdelovalnost,
+- kemijske lastnosti
+    - odpornost proti atmosferskim vplivom ter večini   kislin,
+- fizikalne lastnosti 
+    - dobra prosojnost, slaba električna prevodnost, dobra toplotna izolacija.
+
+Odvisne od:
+
+- vrste molekul, atomov,
+- dolžine polimernih verig (polimerizacijska stopnja)
+- oblike polimernih verig (linearne, razvejene, prepletene (amorfni, kristalni))
+
+### Amorfni polimeri
+
+Amorfni polimeri so polimerni materiali, ki nimajo kristalne urejenosti. Njihove molekule so naključno razporejene, kar jim daje amorfno strukturo. To pomeni, da nimajo jasno opredeljenih talnih in stopnjevanje lastnosti. 
+
+Bistvene lastnosti in značilnosti amorfnih polimerov vključujejo:
+
+1. Prozornost: Amorfni polimeri so običajno prozorni ali prosojni materiali, kar jih naredi primernega za uporabo v različnih optičnih aplikacijah.
+2. Mehanska fleksibilnost: Zaradi naključne razporeditve molekul imajo amorfni polimeri večjo fleksibilnost in elastičnost kot kristalinični polimeri.
+3. Nizka talilna temperatura: Večina amorfih polimerov ima nižjo talilno temperaturo kot kristalinični polimeri, kar olajša obdelavo in predelavo.
+4. Visoka trdnost: Amorfni polimeri imajo lahko visoko trdnost, vendar se ta lahko zmanjša zaradi povečane gibljivosti molekul.
+5. Plastičnost: Zaradi svoje amorfne strukture imajo amorfni polimeri sposobnost plastičnosti, kar pomeni, da se lahko preoblikujejo in oblikujejo pod vplivom toplote.
+6. Odpornost na udarce: Zaradi svoje fleksibilnosti so amorfni polimeri običajno odporni na udarce in lahko absorbirajo energijo ob trčenju.
+7. Nizka toplotna prevodnost: Amorfni polimeri imajo običajno nizko toplotno prevodnost, kar jim omogoča dobro izolacijsko lastnost.
+
+Vendar pa je treba opozoriti, da so lastnosti in značilnosti amorfne polimerne snovi odvisne od specifičnega materiala, saj se lahko razlikujejo glede na sestavo in strukturo polimera.
+
+Predstavniki:
+
+- polivinilklorid (PVC),
+- polikarmonat (PC),
+- polistiren (PC).
+
+### Kristalični polimeri
+
+Kristalični polimeri so polimerni materiali, ki imajo urejeno kristalno strukturo na molekularni ravni. Njihove bistvene lastnosti in značilnosti vključujejo visoko stopnjo urejenosti molekul, kar jim daje togo in močno strukturo. Imajo tudi visoko tališče in toplotno odpornost, kar pomeni, da ohranjajo svojo obliko in lastnosti pri visokih temperaturah.
+Poleg tega so kristalični polimeri običajno:
+- trdi, trpežni,
+- odporni proti obrabi ter mehansko in kemično stabilni.
+
+Kristalični polimeri se pogosto uporabljajo v industriji za izdelavo plastike, vlaken, filmov in drugih materialov, ki zahtevajo visoko trdnost, trdoto in obstojnost.
+
+Predstavniki so:
+
+- poliamid (PA),
+- polietilen (PE),
+- polipropilen (PP)
 
 ## Prednosti umetnih snovi
 
@@ -54,13 +123,13 @@ Na splošno je gostota plastičnih snovi manjša kot gostota kovin in so zato pr
 Večina plastičnih snovi je odporna proti koroziji, zato jih uporabljamo v primerih agresivnih medijev.
 - **Elektro-izolacijske lastnosti**:
 Mnogi plastični materiali so odlični električni izolatorji.
-- Toplotna izolacija:
+- **Toplotna izolacija**:
 Plastične snovi so v bistvu slabi prevodniki toplote in v penasti obliki so eni najboljših termičnih izolatorjev.
 - **Dekorativni efekti**:
 Plastične snovi so lahko prozorne, prosojne in neprozorne. Barvamo jih v neomejenem številu barv in nians. Pravilno izbrane in oblikovane lahko dajo izredno dobre dekorativne efekte.
-- **Dušilci zvoka**:
+- **Nizka zvočna prevodnost**:
 Plastične snovi dušijo vibracije bolje kot katerikoli drugi material in jih zaradi tega uspešno uporabljamo kot zvočne izolatorje.
-- **Kemijska odpornost**: Dobra kemijska stabilnost (oksidacija, vremenski vplivi (voda, zunanja temp.))
+- **Kemijska odpornost**: Dobra kemijska stabilnost (oksidacija, vremenski vplivi (voda, zunanja temp.)
 - **Biološka odpornost**: insekti, gljive
 
 ## Pomanjkljivosti umetnih snovi
@@ -68,7 +137,7 @@ Plastične snovi dušijo vibracije bolje kot katerikoli drugi material in jih za
 - **Slaba dimenzionalna stabilnost**:
 Plastične snovi se pogosto krivijo, krčijo in izgubljajo trdnost pri dolgotrajni, pa čeprav majhni obremenitvi, razen tega so relativno mehke in se lahko mehansko poškodujejo.
 - **Trajnost**:
-Veliko plastičnih snovi je UV občutljivih in zato je trajnost teh izdelkov izredno omejena.
+Veliko plastičnih snovi je UV občutljivih in zato je trajnost teh izdelkov izredno omejena -> $W_{UV\ foton} = 3\ .. 124\ eV$, ionizacijska $W_C = 12 eV$.
 - **Nizka trdnost**:
 Praviloma je trdnost plastičnih snovi manjša kot trdnost kovin, tudi takrat, če upoštevamo njihovo nizko gostoto.
 - **Toplotna nestabilnost**:
@@ -85,23 +154,6 @@ Zlomljene ali pokvarjene dele navadno zelo težko popravimo in je zato večkrat 
 Številne plastične snovi, posebno nove za posebne tehnične namene, so drage in je zato v mnogih primerih ekonomično le, če jih izdelujemo v velikih serijah.
 - **Okoljska obremenitev**:
 Večina umetnih polimernih snovi je nerazgradljivih v naravnem okolju in s tem onesnažuje okolje.
-
-## Lastnosti umetnih snovi
-
-- mehanske lastnosti:
-    - trdnost, trdota, žilavost
-- tehnološke lastnosti 
-    - dobra obdelovalnost,
-- kemijske lastnosti
-    - odpornost proti atmosferskim vplivom ter večini   kislin,
-- fizikalne lastnosti 
-    - dobra prosojnost, slaba električna prevodnost, dobra toplotna izolacija.
-
-Odvisne od:
-
-- vrste molekul, atomov
-- dolžine polimernih verig (polimerizacijska stopnja)
-- oblike polimernih verig (linearne, razvejene, prepletene)
 
 ## Izboljšanje lastnosti polimerov
 
@@ -137,42 +189,42 @@ so razna vlakna:
 
 ![Plastika iz različnih polietilenov.](./slike/Plastic-recycling-codes.jpg){#fig:Plastic-recycling-codes}
 
-- **Polietilen (PE)**:
+- **Poli-etilen (PE)**:
 je najpogostejša plastika. Njegova osnovna uporaba je v embalaži (plastične vrečke, plastične folije, posode, vključno s plastenkami, itd.). Veliko različnih vrst polietena je znanih, večina jih ima molekulsko formulo (C2H4)n. PE je običajno zmes podobnih polimerov iz etena z različnimi vrednosti n. V to spadajo PETE, HDPE (se ne razgrajuje), LDPE (ob prisotnosti čistil lahko topna).
-- **Polietilentereflatat (PET)**:
+- **Poli-etilen-tereflatat (PET)**:
 polietilentereftalat je konstrukcijska plastična masa, ki se uporablja predvsem tam, kjer se zahteva visoka dimenzijska obstojnost. Material ima dobre drsne in obrabne lastnosti, kakor tudi odlične termične lastnosti. Delovna temperatura materiala je od -20°C do +100°C. Odlikujejo ga lastnosti kot: visoka trdnost, trdota, togost, visoka žilavost, nizka vpojnost vlage, dobre drsne lastnosti, visoka dimenzijska stabilnost, obstojnost proti obrabi, dobro drobljivi odrezki, dobre električno izolacijske lastnosti, dobro se lepi in vari, dobro se polira. Uporaba: zobniki, deli ohišja, nosilci, distančne letve, oporni obroči...
-- **Polivinilklorid (PVC)**:
-zelo pogosto uporabljena plastika, ni primerna za prehrambeno industrijo. Najdemo jo vsepovsod: igrace, vodna inštalacija, elektro inšt., ohišje elektronike, okvirji oken, vrat ... med polimeri zelo obstojna, trda plastika.
-- **Polipropilen (PP)**:
+- **Poli-vinil-klorid (PVC)**:
+zelo pogosto uporabljena plastika, ni primerna za prehrambeno industrijo. Najdemo jo vsepovsod: igrače, vodna inštalacija, elektro inšt., ohišje elektronike, okvirji oken, vrat ... med polimeri zelo obstojna, trda plastika.
+- **Poli-propilen (PP)**:
 pogosta uporaba tudi v prehrambeni ind. (slamice, kozarčki..., zamaški plastenk, košarice v prehrambeni ind., kosila za s sabo) nekoliko mehkejša plastika od PVC a bolj obstojna od PE, cenovno ugodnejša glede na trdnost.
-- **Polistiren (PS)**:
+- **Poli-stiren (PS)**:
 zelo pogosto uporabljen, tudi v prehrambeni ind. kjer ne pričakujemo povišanih temperatur (pribor za enkratno uporabo, slamice, kozarčki,... ), lahko je tudi prozoren (ovitek za CD-je in DVD-je ipd.) ali pa v penjeni strukturi kot **ekspandiran polistiren** (EPS - poznamo ga kot stiropor) ali pa **ekstrudiran polistiren** (XPS), ki jih uporabljamo v izolacijski tehniki.
 Postopka izdelave za EPS in XPS sta različna. Pri EPS zmes (polistirena in pentana) segrejejo, granule ekspandirajo in ohladijo, da se dimenzijsko stabilizirajo.
 Pri XPS pa zmes (PS in co2, penila) pripravijo pod višjim tlakom in temperaturo, nato pa jo nabrizgajo v stiskalnico (komoro).
 - **Poli-metil-metakrilat (PMMA)**:
 akrilno steklo
-- **Politetrafloureten (PTFE)**:
+- **Poli-tetra-flour-eten (PTFE)**:
 Visokotemperaturna plastika PTFE – TEFLON  je zelo dobro kemijsko in UV obstojna, ima nizek koeficient trenja in visoko temperaturno območje uporabe, je samougasna, vendar v stiku s plamenom sprošča strupen plin Fluor. Delovna temperatura materiala je od -200°C do +260°C. Uporabno predvsem za: Ohišja črpalk, ohišja filtrov, sedeži ventilov, rešetke, obloge rezervoarjev, visoko frekvenčni izolatorji, cevovodi, gonilniki črpalk, prevleke valjev, tesnila, drsni ležaji, drsne letve...
-- **Etilenvinilacetat (EVA)**:
+- **Etilen-vinil-acetat (EVA)**:
 je polimer, ki sestoji iz dveh vrst monomolekul etilena in vinili-acetata. Spada med polimere z nizko gostoto (kot naprimer LDPE), ki ga odlikuje zelo nizka trdota (je mehak) in izredna prožnost. Uporablja se za razne mehke podlage, obutev (japonke, kroksice).
-- **Akrilni butadien stiren (ABS)**:
+- **Akrilni-butadien-stiren (ABS)**:
 je amorfen polimer, ki ga pridobimo z emulzijsko polimerizacijo, ali polimerizacijo v masi, akrilonitrila in stirena s prisotnostjo polibutadiena. Najpomembnejši lastnosti ABS-a sta odpornost na udarce in žilavost.
 Uporaben je na veliko področjih: igrače (LEGO kocke), potrošno blago, telefoni, varnostne čelade, notranje obloge vrat, stebri, sedežne obloge, rešetke, armaturne plošče, ohišja ogledal ...
-- **Polibutadien**:
+- **Poli-butadien**:
 predvsem v gumarski industriji (pnevmatike, )
 
 #### Polikondenzati
 
-- **Poliamid (PA)**:
+- **Poli-amid (PA)**:
 komercialno ime za PA je najlon. PA je žilava visoko zmogljiva umetna masa z visoko odpornostjo proti obrabi. Konstrukcijski material za tehnične namene, posebno za strojne dele. Delovna temperatura materiala je od -40°C do +100°C. Uporabljen je v izdelkih kot so: zobniki, drsni ležaji, drsne tirnice, puše, verižna vodila...
-- **Polilaktična kislina (PLA)**:
+- **Poli-laktična kislina (PLA)**:
 sestavlja dekstroza (sladkor), pridobljena iz bio materialov. Je najpopularneja bioplastika oziroma biopolimer in trenutno edini tak material v proizvodnji v katerikoli tovarni svetovnega merila.
 V domači uporabi je pogost v 3D tiskanju.
-- **Poliester (PES)**:
+- **Poli-ester (PES)**:
 tekstilna vlakna
-- **Fenoplasti**:
+- **Feno-plasti**:
 lepila, barve, laki, zaščitnih premazi, stikala, ohišja, razdelilniki, elektro-izolatorji
-- **Aminoplasti**:
+- **Amino-plasti**:
 vodoodporna veziva, premazi
 
 # Tehnologija umetnih snovi
@@ -407,17 +459,43 @@ Podrobna navodila na spletni strani:
 # Elastomeri
 
 - izredno obsežno elastično (ne plastično) območje
-  - plastična vs elastična deformacija
-  - relacija med makromolekualmi
+  - plastična vs elastična deformacija (glej $\sigma(\epsilon)$)
+  - relacija med makromolekualmi (elektro-kemijski privlak)
 
 - prvi  elastomer je bil kavčuk (poli-izopren)
   - lepljiva, žilava plastična masa z zelo dolgimi, popustljivimi in upogljivimi molekulnimi verigami
+
+```
+Izoprene:
+         H
+   H  H HCH H
+   |  |  |  |
+   C==C--C==C
+   |        |
+   H        H
+
+Poli-izopren:
+
+   H  H     H    H  H     H    H  H     H  
+   |  |     |    |  |     |    |  |     |  
+ --C--C==C--C----C--C==C--C----C--C==C--C--
+   |     |  |    |     |  |    |     |  |  
+   H    HCH H    H    HCH H    H    HCH H  
+         H             H             |     
+                                     S
+         H             H             |     
+   H  H HCH H    H  H HCH H    H  H HCH H  
+   |  |  |  |    |  |  |  |    |  |  |  |  
+ --C--C==C--C----C--C==C--C----C--C==C--C--
+   |        |    |        |    |        |  
+   H        H    H        H    H        H  
+```
 - nitaste makromolekule kavčuka elastično povežemo
 - postopek povezovanja makromolekul se imenuje vulkanizacija
 - vulkanizacijo je odkril Charles Goodyear (patent 1843)
 - pomembno vlogo veznega člena imajo atomi žvepla
 - za boljšo odpornost gume pa primešamo tudi saje (črna guma)
-- dodamo pospeševalce za učinkovito vulkanizacijo
+- dodamo pospeševalce za učinkovito vulkanizacijo (preprečimo vezi -S-S-S-S-)
 - elastična vez omogoča veliko raztegljivost snovi
 - tako iz plastičnega kavčuka dobimo elastično gumo
 - členkaste vezi molekule niso razdružljive, taljivost ni mogoča
