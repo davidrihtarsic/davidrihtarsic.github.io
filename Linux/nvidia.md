@@ -1,5 +1,22 @@
 # NVIDIA drivers and operation
 
+2023-11-17:
+Inšteliral sem ArcoLinux z NVIDIA... Erik predlaga, da namestiš `envycontrol`.
+
+Da izklopimo nvidia:
+
+    sudo envycontrol -s integrated
+
+Izkazalo se je, da namesto 0.9h je bilo potem 1.5h.
+
+Da ponastaviš v take nastavitve kot so bile pred envycontrol
+
+    sudo envycontrol --reset
+
+da pa optimiziraš porabo...
+
+    sudo envycontrol -s hybrid
+
 imam:
 - Intel HD Graphicd 630 (i915)    
 - NVIDIA GF GTX 1050 Mo (GP107M)  => NV137
