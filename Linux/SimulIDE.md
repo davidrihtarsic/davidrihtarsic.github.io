@@ -37,7 +37,7 @@ norate na krmilink naložiti strojno kodo, ki ima končnico *.hex :
 6. Preskusite simulacijo in po potrebi preoblikujte programsko kodo v ArduinoIDE programu.
     Program ponovno prevedite v strojno kodo (`Verify`) in
 
-7. v SimulIDE iz menija krmilnik ponovno izberite `Reload Firmware`.
+7. v SimulIDE iz menija krmilnika ponovno izberite `Reload Firmware`.
 
 <!--
 
