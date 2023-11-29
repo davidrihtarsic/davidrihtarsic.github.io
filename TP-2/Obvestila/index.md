@@ -1,4 +1,4 @@
-# TP-2 ↪ Obvestila
+# TP-2 ↪ Obvestila za študente
 
 [🏡DOMOV](../index.md){: .btn}
 [📝VSEBINE](../Vsebine/index.md){: .btn}
@@ -7,10 +7,12 @@
 
 ---
 
-## Obvestila za študente:
+## Šolsko leto 2023 - 2024:
 
 - [ 2023-11-29_kolokvij1 ](./2023-11-29_kolokvij1.md) 
+
 ---
+
 Šolsko leto: 2022 - 2023
 
 - [Končna ocena v VIS](./2023-06-02_vaje-poročila.md)
