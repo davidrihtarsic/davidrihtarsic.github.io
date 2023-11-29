@@ -9,6 +9,7 @@
 
 ## Obvestila za študente:
 
+- [ 2023-11-29_kolokvij1 ](./2023-11-29_kolokvij1.md) 
 ---
 Šolsko leto: 2022 - 2023
 
