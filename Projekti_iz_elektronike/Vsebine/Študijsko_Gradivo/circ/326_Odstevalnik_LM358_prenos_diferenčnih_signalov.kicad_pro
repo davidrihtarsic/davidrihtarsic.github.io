@@ -224,7 +224,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "440_Odstevalnik_LM358_prenos_diferenčnih_signalov.kicad_pro",
+    "filename": "326_Odstevalnik_LM358_prenos_diferenčnih_signalov.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -296,7 +296,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": ""
+      "workbook_filename": "326_Odstevalnik_LM358_prenos_diferenčnih_signalov.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "./",

@@ -1,0 +1,14 @@
+version 2
+1
+9
+.tran 2u 1m{return}*.op{return}{return}{return}.kicad adjustpaths{return}.save all{return}.probe alli
+3
+1
+V(/OUT1)
+ 
+1
+V(/SIG)
+ 
+1
+V(GNDREF)
+ 
