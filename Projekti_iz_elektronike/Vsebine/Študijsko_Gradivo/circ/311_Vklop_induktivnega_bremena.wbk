@@ -1,0 +1,7 @@
+1
+9
+.tran 1u 200m 0{return}.plot UTR UB
+1
+1
+/UB
+V

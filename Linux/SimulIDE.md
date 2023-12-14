@@ -14,6 +14,23 @@ Na primer: Če želimo dodati simbol za krmilnik Arduino UNO:
 
 ## Nastavitve SimulIDE za delo s krmilnikom Arduino UNO (za Windows)
 
+1. Namestite ArduinoIDE ... Najverjetneje se bo program namestil v:
+
+        C:/Program Files x86/Arduino
+
+2. Odprite SimulIDE in na vašo delovno površino dodajte krmilnik ArduinoNANO in
+shranite projekt v svojo mapo npr:
+
+        .../MyDocuments/SimulIDE_projects/First_project/Nano_test.sim1
+
+3. V desnem oknu odprite novo datoteko in jo shranite skupaj z datoteko projekta:
+
+        .../MyDocuments/SimulIDE_projects/First_project/Nano_blink.ino
+
+4. Nastavite `Set Compiler Path` na mapo, kjer imate nameščen program ArduinoIDE
+
+## Programiranje krmilnikov s firmware datoteko *.hex
+
 ... opazili smo, da na Windows op. sistemu nastavitve prevajalnika ne delujejo... zato 
 norate na krmilink naložiti strojno kodo, ki ima končnico *.hex :
 
@@ -48,6 +65,7 @@ norate na krmilink naložiti strojno kodo, ki ima končnico *.hex :
 5. in ga shranite kot svoj projekt npr.: \
 
 -->
+
 ## Nastavitev prevajalnika za Linux
 
 Ker uporabljam ArchLinux in je v tem primeru program ArduinoIDE nameščen nekoliko drugače,

@@ -50,6 +50,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [swap](swap.md)
 - [boot process](boot.md)
 - [general troubleshooting](general_troubleshooting.md)
+- [X11](X11.md) Xorg je display server in zažene nek display manager
 
 ## AUR HELPRES
 
@@ -116,7 +117,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 
 # DESKTOP ENVIRONMENT
 
-- [applications.desktop](applications_desktop.md)
+- [applications.desktop](applications_desktop.md
 - [get GUI windov info](xprop.md) - get window class
 - [emojis](emojis.md)
 
