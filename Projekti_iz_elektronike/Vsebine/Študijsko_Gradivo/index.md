@@ -32,7 +32,7 @@
 - [5.0_DIGITALNA_ELEKTRONIKA-SEKVENČNA_VEZJA.md](./5.0_DIGITALNA_ELEKTRONIKA-SEKVENČNA_VEZJA.md)
 - [5.1_Flip-flopi.md](./5.1_Flip-flopi.md)
 - [5.1_Pomnilni_in_pomikalni_registri.md](./5.1_Pomnilni_in_pomikalni_registri.md)
-- [5.2_Števniki.md](./5.2_Števniki.md)
+- [5.2_\Števniki.md](./5.2_i\Števniki.md)
 - [6.0_UPORABA_MIKROKRMILNIKOV.md](./6.0_UPORABA_MIKROKRMILNIKOV.md)
 - [6.1_Vhodno-izhodne_enote.md](./6.1_Vhodno-izhodne_enote.md)
 - [6.2_Komunikacijski_vmesniki.md](./6.2_Komunikacijski_vmesniki.md)
