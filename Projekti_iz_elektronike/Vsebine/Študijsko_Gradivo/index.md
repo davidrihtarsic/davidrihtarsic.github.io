@@ -8,10 +8,10 @@
 ---
 # Študijsko gradivo
 
-[Projekti iz elektronike (Kocijančič, 2020)](../Literatura/Proj-eltron_2020.pdf)
+- [Projekti iz elektronike (Kocijančič, 2020)](../Literatura/Proj-eltron_2020.pdf)
+- [Primer izpita](./PizE-primer_izpita_SK.pdf)
 
 # Seznam poglavij z zapiski
-
 
 - [0.0_UVOD.md](./0.0_UVOD.md)
 - [1.0_PRENOS_DIGITALNEGA_SIGNALA.md](./1.0_PRENOS_DIGITALNEGA_SIGNALA.md)
