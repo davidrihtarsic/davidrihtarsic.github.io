@@ -22,6 +22,11 @@ in za pregled datoek:
 
         tree -dfi --noreport | xargs -I{} mkdir -p  ../Test2/{}
 
+- če imamo imena datotek ali direktorijev zbrane v neki datoteki (npr.: `zbrani_dir.md`)
+  lahko uporabimo naslednji ukaz:
+
+        mkdir $(<zbrani_dir.md)
+
 - naredi vse simbolične povezave datotek iz enega dir v drugega
   to pride prav za delo v projektni skupini, kjer imamo skupen direktorij, 
   v katerega dostopamo vsi, medtem pa slovenska ekipa dela na svojem direktoriju.

@@ -101,12 +101,13 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [xev](xev.md) - katero tipko smo pritisnili, key press
 - [import](import.md) - terminal screen capture
 - [scrot](scrot) - terminal screen-shot
-- [socat](socat.ms) - Multipurpose relay, preusmeri data flov kamorkoli, tudi na terminal bash...
+- [socat](socat.md) - Multipurpose relay, preusmeri data flov kamorkoli, tudi na terminal bash...
 - [tlp](tlp.md) - zelo dober program za nadzor powermanagementa
 
 
 ## APPLICATION PROGRAMS
 
+- [beets](beets.md) - music taggig program
 - [calcurse](calcurse.md)
 - [cmus](cmus.md) - music player
 - [minicom](minicom.md) - program za interakcijo s serijsko komunikacijo

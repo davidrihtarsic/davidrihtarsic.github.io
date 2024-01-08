@@ -1,4 +1,38 @@
-# Mehanske lastnosti lesa
+ LASTNOSTI LESA
+================================================================================
+
+Les je naraven material, ki ga pridobivamo iz dreves. Ima številne lastnosti,
+ki ga naredijo zelo uporabnega v številnih industrijah, vključno z gradbeništvom,
+pohištvom, papirjem in drugimi. 
+
+**Fizikalne lastnosti lesa vključujejo**:
+
+1. Gostota: Gostota lesa se razlikuje glede na vrsto drevesa. Gostota vpliva na težo lesa ter na njegovo trdnost in trpežnost.
+
+2. Vlažnost: Les vsebuje vlago, ki vpliva na njegove lastnosti. Prekomerna vlažnost lahko privede do deformacij in gnilobe.
+
+3. Toplotna prevodnost: Les je slab toplotni prevodnik, kar pomeni, da je dober izolator.
+
+4. Akustične lastnosti: Les je znan po svojih odličnih akustičnih lastnostih, zaradi česar je priljubljen material za izdelavo glasbenih instrumentov.
+
+5. Optične lastnosti: Les ima edinstveno teksturo in barvo, ki jo določa vrsta drevesa. To daje lesu estetsko vrednost.
+
+6. Biološka odpornost: Les se razlikuje po svoji odpornosti na glive, žuželke in druge biološke dejavnike. Nekatere vrste lesa so naravno odporne, druge pa je potrebno zaščititi. 
+
+7. Higroskopnost: Les je higroskopen material, kar pomeni, da absorbira in sprošča vlago iz okolja, kar lahko vpliva na njegovo velikost in obliko.
+
+**Mehanske lastnosti lesa vključujejo**:
+
+1. Trdnost: Les je material, ki lahko prenese velike obremenitve. Trdnost lesa se lahko razlikuje glede na vrsto drevesa iz katerega je bil pridobljen.
+
+2. Elastičnost: Les je elastičen material, kar pomeni, da se lahko upogne, ne da bi se zlomil. Elastičnost lesa je koristna lastnost pri izdelavi pohištva ali drugega oblikovanja.
+
+3. Togost: Les se upira spremembam oblike, ko je podvržen obremenitvi. Togost lesa je pomembna pri gradnji stavb in drugih struktur.
+
+4. Odpornost proti obrabi: Les je odporen na obrabo, kar pomeni, da se ne obrabi ali poškoduje enostavno.
+
+
+## FIZIKALNE LASTNOSTI LESA
 
 - močno odvisne od same vrste
 - nihanja pri isti vrsti
@@ -7,7 +41,7 @@
 - gostota (delež kasnega lesa -> trdota, trdnost)
 - vlažnost lesa (bolj suh boljša trdnost) temperatura (plastične deformacije lignina -> namjša trdnost)
 
-# HIGROSKOPNOST LESA
+### VLAŽNOST LESA
 
 Vlažnost lesa izračunamo:
 
@@ -22,7 +56,7 @@ kjer je:
 Podatek $u = 15 \%$ pomeni, da 100 g absolutno suhega lesa 
 vsebuje 15 g vode. 
 
-## Prosta in vezana voda
+#### Prosta in vezana voda
 
 ![Prosta in vezana voda.](./slike/prosta_vezana_voda.png){#fig:prosta_vezana_voda}
 
@@ -32,7 +66,7 @@ vsebuje 15 g vode.
     - TNCS: točka nasičenosti celičnih sten
     - VPLIV na krčenje lesa!
 
-## Krlčenje lesa
+#### Krlčenje lesa
 
 - le kadar se spremeni % vode v celičnih stenah
 - krčenj je odvisna od smeri krčenja,
@@ -77,7 +111,7 @@ $$ \Delta L_{\Delta u} = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
 
 ![Skica gredice z dimenzijami](./slike/gredica_80x40x2500.png){#fig:gredica_80x40x2500}
 
-## Nepravilnosti zaradi krčenja
+#### Nepravilnosti zaradi krčenja
 
 ![Nepravilnosti pri sušenju lesa.](./slike/nepravilnosti_susenje.png){#fig:nepravilnosti_susenje}
 
@@ -85,7 +119,7 @@ $$ \Delta L_{\Delta u} = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
 - bočnica se ukrivi na način, da se bolj tangencialni les skrči bolj
 - kvadravtni presek (letnice diagonalno) se posuši v rombasto obliko preseka
 
-## Ukrepi za zmanjševanje posledic krčenja
+#### Ukrepi za zmanjševanje posledic krčenja
 
 - ustrezna vrsta lesa
 - ustrezna osušenost lesa pri obdelavi
@@ -100,8 +134,9 @@ $$ \Delta L_{\Delta u} = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
 
 ![Primerno debelinsko spajanje.](./slike/debelinsko_spajanje.png){#fig:debelinsko_spajanje}
 
+## MEHANSKE LASTNOSTI LESA
 
-# TRDOTA LESA
+### TRDOTA LESA
 
 > Trdota je odpor, s katerim se les upira prodiranju tujega telesa vanj.
 
@@ -147,7 +182,7 @@ kjer je:
 |         Smreka |               1,3              |
 Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000). {#tbl:trdota_HBW}
 
-# TRDNOST LESA
+### TRDNOST LESA
  
 Trdnost materiala (lesa) je sposobnost, da se upira spremembi 
 oblike in porušitvi zaradi delovanja zunanjih sil. Kadar trdno telo 
@@ -188,7 +223,7 @@ Vrste obremenitev:
 - Torzijska
 - Uklonska
 
-## DOPUSTNA NAPETOST
+#### DOPUSTNA NAPETOST
 
 Materialov ne smemo obremeniti do njihove maksimalne 
 napetosti, obremenimo jih le do dopustne napetosti, ki se vedno 
@@ -211,7 +246,7 @@ $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 |                   |   T  |      -     |     3     |      -      |     1.2    |       1000       |
 Table: Dopustne napetosti za nekatere vrste lesa v MPa. {#tbl:sigma_dop_tab}
 
-## NATEZNA IN TLAČNA TRDNOST LESA
+#### NATEZNA IN TLAČNA TRDNOST LESA
 
 raztezek:  
 $$ \epsilon = \frac{\Delta l}{l_0} = \frac{l_1 - l_0}{l_0} $${#eq:raztezek}
@@ -238,7 +273,7 @@ $$ \sigma = E \frac{\Delta l}{l_0} $${#eq:napetost_nateg}
 >
 > (Odgovor: $\sigma = 7.03 MPa$; Ne,$\sigma_{dop}=10 MPa$;$\Delta l = 1.05 mm$)
 
-## STRIŽNA TRDNOST
+#### STRIŽNA TRDNOST
 
 Strižna trdnost je odpor lesa proti strigu lesnih plasti s silo, ki 
 deluje v ravnini lesnih vlaken ali redko, prečno na lesna vlakna.  
@@ -257,7 +292,7 @@ $$ \tau = \frac{F}{A} $${#eq:strig}
 >Izračunajte koliko moznikov smo uporabili pri izdelavi konstrukcije.
 >( R: $\tau_{dop}$ = 120 N/cm2, S1 = 50,265 mm2, k = 1, Scel = 5,83 cm2, N = 12 ) 
 
-## UPOGIBNA TRDNOST
+#### UPOGIBNA TRDNOST
 
 Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
 
@@ -306,7 +341,7 @@ Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer j
 > Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje.
 
 
-## UKLONSKA TRDNOST
+#### UKLONSKA TRDNOST
 
 **Vitkost**:
 
@@ -324,7 +359,7 @@ določamo po treh različnih postopkih, v odvisnosti od vitkosti.
 2. ... kombinacija obremenitve na tlak in uklon
 3. $\lambda \geq 100$ - dimenzioniranje po Eulerjevem postopku
 
-### Eulerjev postopek
+##### Eulerjev postopek
 
 uklonska sila
 
@@ -348,7 +383,7 @@ $$ F_{dop} = \frac{F_k}{k_v}  $$
 > ( R: l0 = 4 000 mm, Imin = 72 951 252 mm4 , b = 155,4 mm, h = 233,14 mm, i = 44,87 mm, $\lambda$ = 111,4 zato lahko dimenzioniramo po Eulerju. )
 
 
-## CEPILNA TRDNOST
+#### CEPILNA TRDNOST
 
 Cepljivost je lastnost lesa, da se cepi ali razdvaja vzdolžno (v 
 smeri lesnih vlaken ). Les navadno cepimo z orodjem v obliki

@@ -32,6 +32,8 @@ Zadnjo 1/3 razpoložljivih terminov pa namenimo izvedbi individualnih projektov,
 
 Študent s tem izdelkom pridobi oceno iz vaj za predmet Robotika. Njegova naloga je ocenjena glede na nasladne kriterije:
 
+- [kriteriji s točkami](./robotika_kriteriji.md)
+
 - ZASNOVA NALOGE:
     1. jasen opis naloge (UN in zasnovana z več težavnostnimi stopnjami) 
 - SENZORSKI DEL:
