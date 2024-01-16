@@ -14,18 +14,28 @@ sedaj dodamo našega uporabnika <uporabnik> da lahko upravlja s to napravo "dial
 
 ## ARDUINO WAVGAT
 
-1. prenesi [WAVGAT drivers]( https://github.com/ericvb/Arduino-WavGat-Drivers )
-2. skopiraj ./update/* v ~/Arduino/*
-3. za Linuxe popravi:
-    
-    `../hardware/WAV/avr/boards.txt:lardu_328p.bootloader.file=lgt8fx8p\optiboot_lgt8f328p.hex`
-    `../hardware/WAV8F/boards.txt:lardu_328p.bootloader.file=lgt8fx8p\optiboot_lgt8f328p.hex`
-4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
+1. Start Arduino IDE and open "Preferences" window from "File" menu.
+2. Go to "Additional Board Manager URLs" field add this url:
+    https://raw.githubusercontent.com/paraplin/wavgat-board/master/package_paraplin_wavgat_index.json
+    and press OK.
+3. Go to "Tools" menu and select "Open Boards Manager". In the new window install wavgat platform.
+4. Go to "Tools" menu and go to "board" submenu. Select your correct board in "WAVGAT boards" section.
 
-### skrita za linux
-[install_wavgat_boards](install_wavgat_boards.sh)
-git clone https://github.com/ericvb/Arduino-WavGat-Drivers.git
-cp -rv Arduino-WavGat-Drivers/update/* ~/Arduino/ 
+<!--
+    1. prenesi [WAVGAT drivers]( https://github.com/ericvb/Arduino-WavGat-Drivers )
+    2. skopiraj ./update/* v ~/Arduino/*
+    3. za Linuxe popravi:
+        
+        `../hardware/WAV/avr/boards.txt:lardu_328p.bootloader.file=lgt8fx8p\optiboot_lgt8f328p.hex`
+        `../hardware/WAV8F/boards.txt:lardu_328p.bootloader.file=lgt8fx8p\optiboot_lgt8f328p.hex`
+    4. ponovno zaženi Arduino IDE in izberi `Tools - Boards - WAVGAT UNO R3`
+    
+    ### skrita za linux
+    [install_wavgat_boards](install_wavgat_boards.sh)
+    git clone https://github.com/ericvb/Arduino-WavGat-Drivers.git
+    cp -rv Arduino-WavGat-Drivers/update/* ~/Arduino/ 
+    
+-->
 
 ## Arduino USB povezava - Linux
 
