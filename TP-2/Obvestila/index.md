@@ -4,8 +4,13 @@
 [📝VSEBINE](../Vsebine/index.md){: .btn}
 [👨‍🎓INFO](../info.md){: .btn}
 [💾PRESNEMI](../Presnemi/index.md){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/TP-2/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
+
+## 2024:
+
+- [ 2024-01-16_predstavitev_seminarja ](./2024-01-16_predstavitev_seminarja.md) 
 
 ## Šolsko leto 2023 - 2024:
 
