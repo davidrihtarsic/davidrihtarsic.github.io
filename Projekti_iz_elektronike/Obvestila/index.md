@@ -9,8 +9,7 @@
 ---
 
 ## 2024:
-- [ 2024-01-16_teorija_predrok.md ](./2024-01-16_teorija_predrok.md.md) 
-
+- [ 2024-01-16_teorija_predrok ](./2024-01-16_teorija_predrok.md) 
 
 ## 2023:
 
