@@ -8,17 +8,14 @@
 
 ---
 
-## 2024:
-
-- [ 2024-01-16_predstavitev_seminarja ](./2024-01-16_predstavitev_seminarja.md) 
-
 ## Šolsko leto 2023 - 2024:
 
+- [ 2024-01-16_predstavitev_seminarja ](./2024-01-16_predstavitev_seminarja.md) 
 - [ 2023-11-29_kolokvij1 ](./2023-11-29_kolokvij1.md) 
 
 ---
 
-Šolsko leto: 2022 - 2023
+## Šolsko leto: 2022 - 2023
 
 - [Končna ocena v VIS](./2023-06-02_vaje-poročila.md)
 - [Ocene poročil](./2023-06-02_vaje-poročila.md)
