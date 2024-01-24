@@ -1,4 +1,4 @@
-## GENERAL EXPRESSIONS
+## REGULAR EXPRESSIONS
 
 | EXPRESSION | Funkcija                                                 |
 |:----------:|----------------------------------------------------------|

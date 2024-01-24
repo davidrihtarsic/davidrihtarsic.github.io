@@ -60,7 +60,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 # SHELL (TERMINALs & UTILITYs & APPLICATIONs)
 
 - [shell processing](shell_processing.md)
-- [regular_expressions](general_expressions.md)
+- [regular_expressions](regular_expressions.md)
 - [Dokumentacija za SHELL]( http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html )
 - [basic shell](basic_shell.md)
 - [shell_processing](shell_processing.md)
