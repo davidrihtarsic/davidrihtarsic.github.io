@@ -169,13 +169,13 @@ PROJEKTI IZ ELEKTRONIKE
 35
 
 8 KRMILJENJE IN REGULACIJA
-8.1 LM358 . . . . . . . . . .
-8.2 TL071 . . . . . . . . . .
-8.3 LMV358 . . . . . . . . .
-8.4 LM741 . . . . . . . . . .
-8.5 RC4558 . . . . . . . . .
-8.6 NE5532 . . . . . . . . .
-8.7 OP071 . . . . . . . . . .
+8.1 LM358 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.2 TL071 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.3 LMV358 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.4 LM741 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.5 RC4558 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.6 NE5532 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+8.7 OP071 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 
 37
 37
@@ -187,278 +187,6 @@ PROJEKTI IZ ELEKTRONIKE
 38
 
 ii
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
-
-.
-.
-.
-.
-.
-.
-.
 
 dr. David Rihtaršič
 
@@ -805,15 +533,10 @@ elastičnost... Zaradi vseh teh lastnosti je preklop tipke iz enega položaja v 
 nepredvidljiv.
 
 3.6.1 NALOGA: Večkratni preklopi
-1.
-2.
-3.
-4.
-
-Preskusite spodnji program in opišite njegovo delovanje.
-Opišite zaznane težave.
-Z osciloskopom ujemite enega od prehodov (0->1 ali 1->0) in
-problem rešite:
+1. Preskusite spodnji program in opišite njegovo delovanje.
+2. Opišite zaznane težave.
+3. Z osciloskopom ujemite enega od prehodov (0->1 ali 1->0) in
+4. problem rešite:
 • programsko ter
 • elektronsko. Obe rešitvi dokumentirajte.
 
@@ -903,16 +626,10 @@ Slika 4.1: Časovni potek napetosti na kominikacijski povezavi.
 4.1.1 NALOGA: Osnovni parametri UART protokola
 1. Preučite UART protokol in prerišite časovni potek signala (teoretično).
 2. Na teoretičnem primeru komentirajte:
-•
-•
-•
-•
-
-pomen napetostnega signala,
-kako si sledijo podatkovne informacije,
-označite start in stop bit,
-izračunajte dolžino trajanja enega bita pri baud = 9600b/s.
-
+• pomen napetostnega signala,
+• kako si sledijo podatkovne informacije,
+• označite start in stop bit,
+• izračunajte dolžino trajanja enega bita pri baud = 9600b/s.
 Komunikacija UART je tako razširjena, da jo vključujejo v skoraj vse programabilne elektronske komponente in Arduino NANO ni nobena izjema. Mikrokrmilnik ATmega328p vsebuje enoto za komunikacijo
 UART in je dostopna na priključkih 0 (Rx) in 1 (Tx). Preko te enote lahko pošiljamo/sprejemamo podatke
 drugih zunanjih naprav.
@@ -1435,17 +1152,11 @@ tudi sestavite. Če boste nalogo rešili z uporabi krmilne elektronike, predlož
 OPERACIJSKI OJAČEVALNIKI
 
 8.1 LM358
-•
-•
-•
-•
-•
-
-single supply
-low power consumtion
-low input offset 3-7mV
-common mode ground?
-dva op. amp. v enem ohišju
+• single supply
+• low power consumtion
+• low input offset 3-7mV
+• common mode ground?
+• dva op. amp. v enem ohišju
 – LM324 (enake karakteristike, le 4x op.amps)
 
 8.2 TL071
@@ -1462,17 +1173,11 @@ dr. David Rihtaršič
 PROJEKTI IZ ELEKTRONIKE
 
 8.3 LMV358
-•
-•
-•
-•
-•
-
-rail-to-rail
-low inout offset 1mA
-low input baise current (10pA)
-supply-voltage 2.5V - 5.5V
-dva op.amp v enem ohišju
+• rail-to-rail
+• low inout offset 1mA
+• low input baise current (10pA)
+• supply-voltage 2.5V - 5.5V
+• dva op.amp v enem ohišju
 – LMV324 (anke karakteristike, le da so 4x )
 
 8.4 LM741
@@ -1486,17 +1191,12 @@ dva op.amp v enem ohišju
 • in audio applications
 
 8.7 OP071
-•
-•
-•
-•
+• low noise
+• low offset votage (60 uV)
+• načrtovan za bi-polatno napajanje
+• nekoliko večji vhodni tok (1nA)
 
 38
-
-low noise
-low offset votage (60 uV)
-načrtovan za bi-polatno napajanje
-nekoliko večji vhodni tok (1nA)
 
 dr. David Rihtaršič
 

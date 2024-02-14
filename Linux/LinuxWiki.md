@@ -104,7 +104,6 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [socat](socat.md) - Multipurpose relay, preusmeri data flov kamorkoli, tudi na terminal bash...
 - [tlp](tlp.md) - zelo dober program za nadzor powermanagementa
 
-
 ## APPLICATION PROGRAMS
 
 - [beets](beets.md) - music taggig program

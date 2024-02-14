@@ -75,6 +75,13 @@ na prejšnje določene mere. V polje za dodajanje mere klilnemo na `(fx)` in vpi
 Tako lahko spremenite mero le v prvi tehniški risbi `SkicaMer` in se bodo posodobile vse mere, ki se
 na določeno spremenjeno mero sklicujejo.
 
+## FEM
+
+Za izračune simulacij napetostnih obremenitev moramo namestiti še:
+
+- calculix
+- elmerfem
+
 ## ISSUES
 
 > Težave, da ni mogel naložit nekih objektov... OpenCascade..
