@@ -3,7 +3,7 @@
 [Pedagoška fakulteta](www.pef.uni-lj.si)  
 [Univerza v Ljubljani](www.uni-lj.si)  
 Kardeljeva plošcad 16  
-Oddelek za fiziko in [tehniko](https://docs.google.com/presentation/d/1Wp9l0n79UcaSbWYPkyPCR5UBxPDVj25-qr5jA5Tv4B8/edit?usp=sharing), P-060  
+Oddelek za fiziko in [tehniko](https://docs.google.com/presentation/d/e/2PACX-1vSc5oHjlVQymrHQ5LwF2u_2oc_jMVy1O-lNQkcF1aZnTxqM2qIcYXXjJBkSaAN-_0TphHNSQy59aktn/pub?start=false&loop=false&delayms=0), P-060  
 SI-1113 Ljubljana  
 Slovenija  
 
