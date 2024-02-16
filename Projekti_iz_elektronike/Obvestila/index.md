@@ -10,6 +10,7 @@
 
 ## 2024:
 
+- [ 2024-02-16_vaje-poročila ](./2024-02-16_vaje-poročila.md) 
 - [ 2024-02-14_vaje-poročila ](./2024-02-14_vaje-poročila.md) 
 - [ 2024-02-04-teorija-IZP ](./2024-02-04-teorija-IZP.md) 
 - [ 2024-01-16_teorija_predrok ](./2024-01-16_teorija_predrok.md) 
