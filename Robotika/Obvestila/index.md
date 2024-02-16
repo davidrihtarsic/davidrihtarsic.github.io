@@ -10,6 +10,7 @@
 
 ## Obvestila v šol. letu 2023-2024:
 
+- [ 2024-02-16_vaje-projekt ](./2024-02-16_vaje-projekt.md) 
 - [ 2024-01-25_vaje-projekt ](./2024-01-25_vaje-projekt.md) 
 
 ## 2022:
