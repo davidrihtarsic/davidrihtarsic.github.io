@@ -1,4 +1,4 @@
-# David Rihtarsic
+# David Rihtaršič
 
 [Pedagoška fakulteta](www.pef.uni-lj.si)  
 [Univerza v Ljubljani](www.uni-lj.si)  
