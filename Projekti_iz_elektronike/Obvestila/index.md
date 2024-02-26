@@ -10,6 +10,7 @@
 
 ## 2024:
 
+- [ 2024-02-26_vaje-poročila ](./2024-02-26_vaje-poročila.md) 
 - [ 2024-02-16_teorija-k.o. ](./2024-02-16_teorija-k.o..md) 
 - [ 2024-02-16_vaje-poročila ](./2024-02-16_vaje-poročila.md) 
 - [ 2024-02-14_vaje-poročila ](./2024-02-14_vaje-poročila.md) 
