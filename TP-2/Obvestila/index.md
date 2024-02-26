@@ -10,6 +10,7 @@
 
 ## Šolsko leto 2023 - 2024:
 
+- [ 2024-02-26_izdelki ](./2024-02-26_izdelki.md) 
 - [ 2024-02-06_seminar-naloga ](./2024-02-06_seminar-naloga.md) 
 - [ 2024-01-24_SE ](./2024-01-24_SE.md) 
 - [ 2024-01-24_Kolokvij1 ](./2024-01-24_Kolokvij1.md) 
