@@ -1,13 +1,1 @@
-Convering Building_a_Glider.md -> PDF ..[WARNING] Citeproc: citation Nasa-forces not found
-[WARNING] Citeproc: citation Nasa-lift not found
-[WARNING] Citeproc: citation airfoil-tools not found
-[WARNING] Citeproc: citation cajhen-letala not found
-[WARNING] Citeproc: citation u2013glider not found
-[WARNING] Citeproc: citation wiki-lift not found
-libpng error: Not a PNG file
-libpng error: Not a PNG file
-Error producing PDF.
-!pdfTeX error: pdflatex (file /tmp/tex2pdf.-f2cc5a252663e70e/1956354bdcc8d8a9ef
-1a97ffe94b5cd93462cc5a.png): libpng: internal error
- ==> Fatal error occurred, no output PDF file produced!
-
+Convering Nastavitve_Jadralnega_Letala.md -> PDF ....[32m Done [0m

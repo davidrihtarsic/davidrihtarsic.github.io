@@ -15,12 +15,13 @@ Spomnimo na dve ključni nastavitvi:
 Polet letala bomo razdelili na tri faze letenja:
 
 1. izstrelitev
-2. prehod in
+2. prehod v jadranje in
 3. jadranje.
 
 ## JADRANJE LETALA
 
 Že pred smao izstrelitvijo letala lahko preverimo vzgonske lastnosti letala in rezultanto vseh sil na letalo. To naredimo tako, da z letalom v roki tečemo v smeri letenja letala. Če je letalo pravilno nastavljeno, bo letalo pri ravnovesni hitrosti imelo dovolj vzgona in ne boste več čutili njegove teže. V tem trenutku nebi smeli obstajali niti navori, ki bi utegnili zmanjšati višinsko, smerno in nagibno stabilnost. Pri tem preizkusu lahko naletite na naslednje težave:
+
 - letalo ne proizvede dovolj vzgona ali celo potiska navzdol (povečajte konstrukcijski kot krila - AOA),
 - letalo se nagiba v desno ali levo (podaljšajte levo ali desno stran krila).
 
@@ -36,7 +37,7 @@ V taki situaciji je težišče pomaknjeno preveč proti repu letala in morate le
 
 Če pa se letalo spušča že na samem začetku je verjetno težišče pomaknjeno preveč proti nosu in skušajte zmanjšati težo nosu ali pa celo (ni priporočljivo) dodati nekaj uteži na rep letala.
 
-Ne pozabite, da fino nastavitev težišča lahko dosežete s pomikanjem uteži.
+Ne pozabite, da fino nastavitev težišča lahko dosežete s pomikanjem uteži ali s pomikanjem glavnega krila vzdolž trupa letala.
 
 ### ZAVIJANJE
 
@@ -47,9 +48,9 @@ V nadaljevanju boste lahko dosegli boljše rezultate, če bo vaše letalo zavija
 Če letalo ne zavija, ga moramo nekoliko nagniti iz njegove horizontalne smeri. To lahko naredimo tako, da ali:
 
 1. glavna krila nekoliko premaknemo iz sredinske lege. Tako bodo ustvarila na tisti strani, kjer imajo večjo površino več vzgona in se bo letalo nagnilo v tisto stran. Na primer, če krila premaknemo v levo, bodo na levi strani ustvarile več vzgona in se bo letalo nagnilo ter zavilo v desno.
-2. Pri nekaterih manjših letalih lahko nekoliko zarotiramo višinski stabilizator po osi trupa. Letalo se bo v letu skušalo poravnati tako, da bo višinski stabilizator poravnan vodoravno in se bodo tako letalo nagnilo v eno stran ter začelo zavijati.
-3. Lahko nekoliko ukrivimo zadnji rob glavnih kril. Na primer, če želimo, da se letalo nagne v desno, moramo zadnji rob krila na levi strani ukriviti navzdol. Če ta sprememba ni dovolj, lahko ukrivimo še desni rob krila in sicer navzgor.
-4. Lahko pa tudi dodamo nekoliko uteži na eno od konic glavnega krila.
+2. Lahko nekoliko ukrivimo zadnji rob glavnih kril. Na primer, če želimo, da se letalo nagne v desno, moramo zadnji rob krila na levi strani ukriviti navzdol. Če ta sprememba ni dovolj, lahko ukrivimo še desni rob krila in sicer navzgor.
+3. Lahko pa tudi dodamo nekoliko uteži na eno od konic glavnega krila.
+4. Pri nekaterih manjših letalih lahko nekoliko zarotiramo višinski stabilizator po osi trupa. Letalo se bo v letu skušalo poravnati tako, da bo višinski stabilizator poravnan vodoravno in se bodo tako letalo nagnilo v eno stran ter začelo zavijati.
 
 Kot ste verjetno opazili nismo omenili nastavljanje smernega stabilizatorja. S smernim stabilizatorjem bomo regulirali fazo prehoda v jadranje in ne sam zavoj pri jadranju letala. Sprememba smernega stabilizatorja močno vpliva v sami fazi izstrelitve letala, ko je hitrost zraka ob stabilizatorju mnogo večja kot pa med samim letom. Rob smernega stabilizatorja obrnemo v nasprotno smer kamor zavija letalo v jadranju.
 
@@ -75,7 +76,7 @@ Po tej spremembi boste verjetno morali nekoliko popraviti nastavitve za stabilno
 
 1. skušajte povečati višinski kot meta in naklon letala. Letlo nagnite v smeri zavijanja.
 
-Če letalo prehitro zavije pain prične strmoglavljati zaradi tega pa:
+Če letalo prehitro zavije in pri tem prične strmoglavljati:
 
 1. zmanjšajte višinski kot izstrelitve in nagib letala.
 
