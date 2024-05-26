@@ -93,3 +93,17 @@ preverimo če je mode na spisku možnosti
 in vključimo monitor s to resolucijo
 
     xrandr --output DP1 --mode 1920x1080_60.00 --pos 1920x0
+
+## Problem 2: Dimenzije monitorja niso bile pravilno odčitane
+
+Namesto dimenzij 477 mm x 268 mm so se dimenzije monitorja nastavile na 160 x 90 memory
+To sem popravil tako, da sem v datoteko `/etc/X11/xorg.conf.d/90-monitor.conf` nastavil
+pravilno velikost zaslona:
+
+    Section "Monitor"
+        Option    "UseEdidDpi"    "false"
+        Identifier             "DP-1-8"
+        DisplaySize             576 267
+    EndSection
+
+
