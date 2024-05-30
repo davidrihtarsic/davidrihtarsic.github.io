@@ -46,3 +46,23 @@ nato se odpre nvim in spremenimo `pick` v `squash`
 za tem še dodamo nov povzetek commita
 
 in direktorij `.git ` ima tedaj 759.3 MiB
+
+## Git public Key
+
+Navodila so objavljenje na GitHub [strani](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+1. Nov par `private` in `public` ključa generiramo tako, da v terminal vtipkamo:
+
+        ssh-keygen -t ed25519 -C "david.rihtarsic@gmail.com"
+
+    Potrdimo z ENTER... in dobimo dve datoteki:
+
+        id_ed25519
+        id_ed25519.pub
+2. Kopiraj vsebino `public` ključa. 
+
+3. Greš na GitHub -> Settings in tam klikneš na  `SSH and GPG keys`
+
+        https://github.com/settings/keys
+
+4. Klikneš na `New SSH Key` in izpolneš ime, ter pripneš kopirno besedilo public ključa.
