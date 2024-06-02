@@ -296,7 +296,7 @@ $$ \tau = \frac{F}{A} $${#eq:strig}
 
 Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
 
-![Upogibna trdnost.](./slike/upogibna_trdnost.png){#fig:upogibna_trdnost}
+![Upogibna trdnost.](./fig/upogibna_trdnost.png){#fig:upogibna_trdnost}
 
 Pri dimenzioniranju na upogib upoštevamo samo največji, maksimalni
 upogibni moment, saj tam nastopijo največje napetosti.
