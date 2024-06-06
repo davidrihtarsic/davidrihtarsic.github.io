@@ -1,0 +1,18 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Early Robotics - Course Informations</title>
+  <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/index.html"/>
+  <updated>2024-06-06T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/index.html</id>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/rss_sporocila.html</id>
+    <updated>2024-06-06T22:36:45Z</updated>
+    <summary>The purpose of these notifications is to inform you about a new post in your notification reader. This way, you won't need to manually check for updates and follow new posts. You can subscribe to notifications by linking to this RSS feed. You can read them with any RSS client (e.g., Feedly), and some email clients also support reading them (e.g., Thunderbird).</summary>
+  </entry>
+
+</feed>

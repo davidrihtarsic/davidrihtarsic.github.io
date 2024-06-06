@@ -3,13 +3,15 @@
 [📝COURSE](../Skripta/index.md){: .btn}
 [👨‍🎓INFO](../info.html){: .btn}
 [💾DOWNLOAD](../Presnemi/index){: .btn}
+[🔆 RSS](https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/rss_obvestila.xml){: .btn}
 
 ---
 
 
 **2023-2024**:
 
-- [ 2024-06-06_vaje-projekt ](./2024-06-06_vaje-projekt.md) 
+- [ 2024-06-06_project-score](./2024-06-06_vaje-projekt.md) 
+
 **2022-2023**:
 
 - [Final score](./2023-01-29_končna_ocena.md)
