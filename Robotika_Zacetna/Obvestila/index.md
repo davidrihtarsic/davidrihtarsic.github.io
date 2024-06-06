@@ -9,6 +9,7 @@
 
 
 **2023-2024**:
+- [ 2024-06-06_teorija-izpit ](./2024-06-06_teorija-izpit.md) 
 
 - [ 2024-06-06_project-score](./2024-06-06_vaje-projekt.md) 
 
