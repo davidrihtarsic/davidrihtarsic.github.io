@@ -9,6 +9,7 @@
 
 ## Obvestila za študente:
 
+- [ 2024-06-11_teorija-izpit ](./2024-06-11_teorija-izpit.md) 
 ### 2024
 
 
