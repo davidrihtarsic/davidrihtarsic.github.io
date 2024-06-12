@@ -13,6 +13,8 @@
 - [ 2024-06-12_SE-naloga ](./2024-06-12_SE-naloga.md) 
 - [ 2024-06-12_SE-zagovor ](./2024-06-12_SE-zagovor.md) 
 
+---
+
 **2023:**
 
 - [ 2023-07-12_veje_poročila_3x ](./2023-07-12_veje_poročila_3x.md) 
