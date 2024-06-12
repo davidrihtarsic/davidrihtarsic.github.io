@@ -7,6 +7,7 @@
 |      .     | Katerikoli znak                                          |
 |      ^     | Začetek vrstice                                          |
 |      $     | Konec vrstice                                            |
+|      +     | Predhodni znak se lahko ponovi enkrat ali večkrat        |
 |      *     | Predhodni znak se lahko ponovi nikoli ali večkrat        |
 |     {n}    | Predhodni znak se mora ponoviti točno n-krat             |
 |    {1,}    | Predhodni znak se mora ponoviti vsaj 1-krat ali večkrat  |

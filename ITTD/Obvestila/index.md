@@ -9,6 +9,7 @@
 
 **2023:**
 
+- [ 2024-06-12_SE-zagovor ](./2024-06-12_SE-zagovor.md) 
 - [ 2023-07-12_veje_poročila_3x ](./2023-07-12_veje_poročila_3x.md) 
 - [ 2023-07-12_veje_poročila_2 ](./2023-07-12_veje_poročila_2.md) 
 - [ 2023-07-12_vaje-poročila ](./2023-07-12_vaje-poročila.md) 
