@@ -137,6 +137,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [ngspice](ngspice.md) - open source spice simulator
 - [Fritzing](Fritzing.md) - Sestavljanje elektronskih vezij
 - [FreeCAD](FreeCAD.md) - Program za parametrično modeliranje
+- [HomeAssistant](home_assistant.md) - Program za nadzor doma - smart home
 - [KiCAD](KiCAD.md) - Načrtovanje elektronskih vezij in simulacija
 - [Meld](meld.md) - Program za primerjavo dveh datotek, direktorijev...
 - [QCAD](QCAD.md) - 2D risanje tehnične dokumentacije

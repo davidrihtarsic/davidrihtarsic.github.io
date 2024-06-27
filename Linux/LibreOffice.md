@@ -56,12 +56,17 @@ Ko imamo tabelo:
       > Options : No Duplicates
 [ok]
 
-## base
+## BASE
+
 Data field
 DAY([dat_odhod])&". "&MONTH([dat_odhod])&". "&YEAR([dat_odhod])-2000
 YEAR([dat_odhod])&"-"&[ID]
 
 ## Plugins
+
+- Report builder dela le v *full version,
+    To verzijo lahko dobiš z AppImage na strani:
+    https://www.libreoffice.org/download/appimage/
 
 ### Zotero
 
