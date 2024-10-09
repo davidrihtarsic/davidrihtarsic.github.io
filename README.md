@@ -23,8 +23,10 @@ Vaje se izvajajo po urniku, vašo evidenco lahko potrdite na [obrazcu za evidenc
 
 ---
 
+## Morebitne težave
+
 - Navigacija strani[^Navigation]
 
-[^Navigation]: Če se levi del kazala strani ne prikaže pravilno, [kliknite sem](./backup.html)
+[^Navigation]: Če se levi del kazala strani ne prikaže pravilno, [kliknite sem](./navigation_backup.md)
 
 
