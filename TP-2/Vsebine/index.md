@@ -21,6 +21,7 @@
     8. Primež (brazda, lepljenje, vijačenje)
     9. Pručka (načrtovanje in izdelava po izbiri študenta)
 
+
 ## Študijsko gradivo
 
 - [Zapiski predavanj](./../Skripta/index.md)
