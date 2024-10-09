@@ -67,6 +67,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [zsh](zsh.md)
 
 ## DEBUGGING AND LOG-files
+
 - [Log files](log_files.md) - todo...
 - [journal](journal.md) - Read Linux log file...
 - [/usr/lib](libraries.md) - fixing libraries
@@ -90,6 +91,7 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [general_expressions](general_expressions.md)
 - [GIT](git.md)
 - [grep](grep.md)
+- [HomeAssistant](HomeAssistant.md ) - server za HomeAssistant, pametna hiša
 - [inxi](inxi.md) - program za pregled hardware opreme (kater CPU, GPU, WiFi ...)
 - [pandoc](pandoc.md)
 - [SED](sed.md)

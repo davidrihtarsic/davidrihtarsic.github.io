@@ -47,3 +47,14 @@ in jih lahko enostavno skopiramo v pravi direktorji:
 #### Install RPM pacgage
 
 Glej [install RPM](./prm_install.md)
+
+### Cannot update packages: signature is unknown trust
+
+Ker ne naredim `update` zelo pogosto, se zgodi, da pacman prepozna nekatere pakete kot nepravilne...
+Rešitev je bila, da sem "zbrisal" `/etc/pacman.d/gnupg` direktorij (v bistvu sem ga najprej preimenoval in
+šele na to zbrisal) in ponovno preveril ključe:
+
+    pacman-key --init
+    pacman-key --populate
+
+Taka so navodila tudi na [ArchWiki](https://wiki.archlinux.org/title/Pacman/Package_signing#Resetting_all_the_keys) strani.

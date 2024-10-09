@@ -9,7 +9,7 @@
 # Študijsko gradivo
 
 - [Projekti iz elektronike (Kocijančič, 2020)](../Literatura/Proj-eltron_2020.pdf)
-- [Primer izpita](./PizE-primer_izpita_SK.pdf)
+- [Primer izpita](./PizE_primer_izpita_SK.pdf)
 
 # Seznam poglavij z zapiski
 

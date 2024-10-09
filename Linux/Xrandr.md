@@ -106,4 +106,36 @@ pravilno velikost zaslona:
         DisplaySize             576 267
     EndSection
 
+> ... no, tega problema nisem rešil... četudi imam to datoteko '/etc/X11/xorg.conf.d/90-monitor.conf'
+> in se med nastavitvami ta dimenzija monitorja tudi nastavi:
 
+    less /var/log/Xorg.0.log
+
+> [   414.749] (II) modeset(0): Output DP-3-9 using initial mode 640x480 +3840+0
+> [   414.749] (==) modeset(0): DPI set to (96, 96)
+> ...
+> [   414.749] (II) Loading sub module "fb"
+> [   414.749] (II) LoadModule: "fb"
+> [   415.056] (II) Initializing extension XFree86-DRI
+> [   415.056] (II) Initializing extension DRI2
+> ...
+> [   415.057] (II) modeset(0): Setting screen physical size to 527 x 297
+> [   415.107] (II) config/udev: Adding input device Video Bus (/dev/input/event5)
+
+> ta nastavitev ni vidna v :
+
+    xrandr -q
+
+> Screen 0: minimum 320 x 200, current 4864 x 1200, maximum 16384 x 16384
+> eDP-1 connected primary 1920x1200+0+0 (normal left inverted right x axis y axis) 344mm x 215mm
+>    1920x1200     60.01*+  59.95
+>    320x180       59.84    59.32
+>    ...
+> DP-3-8 connected 1920x1080+1920+0 (normal left inverted right x axis y axis) 598mm x 336mm
+>    1920x1080     60.00*+  50.00    59.94
+>    ...
+> DP-3-9 connected 1024x768+3840+0 (normal left inverted right x axis y axis) 0mm x 0mm
+>    640x480       59.94 +
+>    1024x768      60.00*
+>    800x600       60.32    56.25
+>    848x480       60.00

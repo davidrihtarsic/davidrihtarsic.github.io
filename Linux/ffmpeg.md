@@ -19,6 +19,22 @@ Nato narediš convert:
 
 Table: Vpliv koeficientov pri konverziji. {#tbl:ffmpeg-conversin}
 
+## STABILIZACIJA VIDEOPOSNETKA
+
+Za stabilizacijo video posnetka najprej ustvariš datoteko s podatki o premikanju kamere:
+
+    ffmpeg -i input.mp4 -vf vidstabdetect=shakiness=7 -f null -
+
+v tem ukazu je `shakiness` podatek koliko se trese kamera (1 je skoraj nič, 10 je da se kamera zelo trese).
+
+Prejšnji ukaz ustvari datoteko `transforms.trf`, ki ga v naslednjem ukazu uporabimo pri stabilizaciji videoposnetka
+
+    ffmpeg -i input.mp4 -vf vidstabtransform=smoothing=30:zoom=5:input="transforms.trf" stabilized.mp4
+
+pri čemer je:
+- smoothing: število slik pri povprečenju premikanja kamere (npr.: 10 pomeni, da bo vzel 10 slik prej in 10 po tisti sliki za katero izračunava stabilizacijo) Priporočljivo je izbrati `FPS/2`.
+- zoom: nastavi `%` povečave. S tem parametrom damo stabilizatorju nekaj prostora v katerem lahko išče primerne sličice za generiranje stabilne slike. Seveda bo video nekoliko povečan in bomo izbubili nekaj slikovnih točk.
+
 ## IMAGES
 
 Nekaj podatkov o fotografiji (resulucija)
@@ -33,7 +49,7 @@ Rescale image
     convert img1.png -resize 1000x800! res_img1.png (ne ohrani razmerja stranic)
     convert IR_senzor2.png -resize x540 IR_senzor3.png
     
-    ls img* | xargs -I{} convert {} -resize 1200x800! con_{} (za vse fotke ki se začnejo z con_)
+    ls img* | xargs -I{} convert {} -resize 1200x800! con_{} (za vse fotke ki se začnejo s con_)
 
 ## STICH
 
