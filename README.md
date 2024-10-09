@@ -27,6 +27,6 @@ Vaje se izvajajo po urniku, vašo evidenco lahko potrdite na [obrazcu za evidenc
 
 - Navigacija strani[^Navigation]
 
-[^Navigation]: Če se levi del kazala strani ne prikaže pravilno, [kliknite sem](./navigation_backup.md)
+[^Navigation]: Če se levi del kazala strani ne prikaže pravilno, [kliknite sem](./navigation_backup)
 
 
