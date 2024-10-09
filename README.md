@@ -21,3 +21,8 @@ V času poletnega semestra sem na pef po urniku.
 
 Vaje se izvajajo po urniku, vašo evidenco lahko potrdite na [obrazcu za evidenco prisotnosti](./vpis_prisotnosti.md).
 
+---
+
+[^Navigation]: Če se levi del kazala strani ne prikaže pravilno, [kliknite sem](./backup.html)
+
+
