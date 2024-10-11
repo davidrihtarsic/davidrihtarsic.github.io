@@ -17,7 +17,6 @@
 | 24. 10. 2024 |   Okvirni načrt seminarske naloge  |
 |  7. 11. 2024 |            1. oddaja SE            |
 | 21. 11. 2024 | predstavitev in oddaja (SE in PPT) |
-Table: Tabela s časovnimi roki. {#tbl:timeline}
 
 ## Seminar 2
 
