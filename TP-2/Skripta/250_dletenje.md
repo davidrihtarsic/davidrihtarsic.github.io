@@ -11,7 +11,13 @@
 ## POSTOPEK OBDELAVE
 
 - [Kako ravnati z dletom](https://www.youtube.com/watch?v=Efxgvo36FiY)
-  - deli dleta in bršenje
+  - deli dleta:
+    1. **Rezilo (delovno rob)** – To je oster del dleta, ki je namenjen rezanju ali oblikovanju lesa.
+    2. **Telo (rezilo)** – Osrednji del dleta, ki zagotavlja stabilnost in prenaša silo med rezilom in ročajem. Pri **dletu** sta stranski ploskvi telesa poševni, kar je v pomoč pri odrezovanju v ostrih kotih obdelovanca. Pri **dolbilu** sta ti dve ploskvi veno pravokotni na hrbtno stran telesa in pomagata zagotoviti odrezovanje stranskih ploskev pri zarezi.
+    3. **Petišče (vrat)** – Prehodni del med rezilom in ročajem, ki povezuje oba dela in absorbira udarce.
+    4. **Ročaj** – Namenjen je držanju in vodenju dleta med delom, pogosto je izdelan iz lesa ali plastike.
+    5. **Okovje (obroč)** – Kovinski obroč na ročaju, ki preprečuje poškodbe ročaja pri udarjanju s kladivom.
+    
   - osnovna postavitev pri odrezovanju (drža)
   - odrezovanje proti sredini obdelovanca
   
@@ -20,6 +26,32 @@
   - koliko lahko še odsekavamo
   - zakaj mora biti zadnje odsekavanje izredno tanko
   - prekrivanje rezila
+
+## Brušenje
+
+Sestoji iz treh glavnih odbelovalnih postopkov:
+- grobo brušenje,
+- fino brušenje,
+- poliranje
+
+### Grobo brušenje
+
+- zagotovimo obliko (kot rezila)
+- okvirna granulacijo cca.: 250
+- mogoče (zaradi debeline rezila) z dvojnim dvojnim kotom:
+    - 25° za prvi kot in
+    - 30° za drugi kot.
+
+### Fino brušenje
+
+- zagotovimo rob rezila
+- ustvarimo iglo
+- granulacija cca.: 1000
+
+### Poliranje
+
+- odstanimo iglo
+- granulacija cca.: 8000
 
 > ### NALOGA: Uporaba dleta
 >
@@ -37,13 +69,14 @@
 >   - čiščenje,
 >   - uporaba pripomočkov...
 
-### Čiščenje pazduhe
+### Spahovanje ravne ploskve
 
-- le 2 mm
+- odrezujemo le 0.5 mm (ali celo manj)
 - roka zadaj
 - roka za vodenje
 - sila iz zadnje noge
 - nihanje levo desno
+- prekrivavanje dleta z že odrezano površino
 
 - uporabimo lahko prst da ustavimo dleto
 - v nasprotnem primeru vlakna iztrgajmo
@@ -68,7 +101,7 @@
 - nato malo več...
 - šele nato veliko
 
-### Dletenje zareze
+### Dolbenje zareze
 
 - [Kako izdelati zarezo](https://www.youtube.com/watch?v=q_NXq7_TILA)
 

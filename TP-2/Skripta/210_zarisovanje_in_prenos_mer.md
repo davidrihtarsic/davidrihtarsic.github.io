@@ -1,6 +1,16 @@
 # ZARISOVANJE IN PRENOS MER
 
+Prenos mere z merilom in označevanjem s **svinčnikom ni najbolj točna tehnika**, ker pri tem lahko pride do več manjših napak, kot so nepreciznost pri postavitvi merila, debelina svinčnikove črte, pa tudi človeška napaka pri zaznavi natančne točke. Debelina svinčnikove črte lahko znaša od 0,2 do 0,5 mm, kar pomeni, da lahko **pogrešek pri označevanju** znaša do približno **±0,5 mm**. To lahko vpliva na končno natančnost izdelka, še posebej pri zahtevnih obdelavah ali sestavljanju več delov, kjer je natančnost ključna.
+
+
 ## MERILNI PRIPOMOČKI in TEHNIKE
+
+Osnovni merilni pripomočki:
+
+- kovinski merilni trak,
+- kombinirani kotnik,
+- kovinsko merilo,
+- nastavljiv kotnik,
 
 - [Osnovni pripomočki](https://www.youtube.com/watch?v=j2s38ZSSqMU)
 
@@ -53,15 +63,16 @@
 
 ### Kovinsko merilo
 
-  - [Uporaba kovinskega ravnila](https://www.youtube.com/watch?v=NPdZw9F50gE)
   - vzporednost obeh robov
   - nekoliko upogljiv (nepravilne krivulje)
   - (cesarski aka imperial imajo različne razdelke 1/8", 1/16", 1/32")
   - razpolavljanje dolžine
+  - [Uporaba kovinskega ravnila](https://www.youtube.com/watch?v=NPdZw9F50gE)
 
 ### Nastavljivi kotnik
 
   - dobro vidne oznake
+  - brez oznak, za prenos kotov
 
 
 ### Kljunasto merilo
@@ -70,7 +81,7 @@
   - zunanje čeljusti (ostri in topi del)
   - notranje čeljusti
   - globinsko merilo
-  - pomično kolesce (reduktor)
+  - pomično kolesce (reduktor 2:1)
   - pritrdilni vijak (zarisovanje)
   - imperična skala naj bo razdeljena na 1/16" ne na 1/10!
 
@@ -85,15 +96,18 @@
 
   - preverjanje točnosti:
     1. nastavite vodoravnost merilne letve tako, da se mehurček točno dotika črtice,
-    2. nato pbrnite merilno letev za 180 stopinj,
+    2. nato obrnite merilno letev za 180 stopinj,
     3. kazati mora točno enako!
   - stranica merilne letve naj ima:
     - oster rob = ne okroglega
     - ožja stranica naj bo strojno poravnana (vidne sledi poravnanja)
+  - boljše vodne tehtnice imajo obdelano naležno ploskev
 
 ## ZARISOVALNI PRIPOMOČKI
 
   - svinčnik
+    - ostra konica
+    - rotacija svinčnika med zarisovanjem ohranja konico,
     - [Zarisovnanje s svinčnikom](https://www.youtube.com/watch?v=_ugkCBG1PSY)
     - poglejte video in bodite pozorni na:
         - označevanje (`V` namesto `|`),
@@ -103,10 +117,12 @@
           - nastavitev ravnila in zareza ne sovpadata
 
   - zarisovalni nožek
+    - ena ploskev nožka je popolnoma ravnila (naležna ploskev)
+    - označba je bistveno ožja (točnejša) kot pri svinčniku,
     - [Uporaba zarisovalnega nožka](https://www.youtube.com/watch?v=ZKpBQfArPOo)
     - Bodite pozorni na:
-        - enostavno sledenje označbi na robovih
-        - prerezovanje vlaken
+        - enostavna ponastavitev rezila v označbo (ponovna označba, prenos mera na sosednjo ploskev)
+        - prerežemo lesna vlakna (manjše zatrgovanje vlaken pri obdelavi)
         - enostavno ujemanje dleta z zarezo (pri izdelavi zareze, čepa)
        
   - vzporednik
@@ -145,3 +161,13 @@ Postopek:
 
 - priprava za deljenje pondebelini
   - poševen zamik ravnila tako, da ujamemo preprosto deljivo mero (to tehniko lahko uporabljamo za različno deljive mere)
+
+## ZARISOVANJE
+
+### Zarisovanje s svinčnikom
+
+- ostra konica,
+- označba točke naj bo sestavljena z dvema črtama npr. v obliki črke `V`
+
+### Označevanje z zarisovalnim nožkom
+
