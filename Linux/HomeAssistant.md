@@ -111,5 +111,12 @@ Za namestitev aplikacij lahko uprabljamo upaz kot na primer:
     apk add ranger
 
 
+## Wireless uploading
 
+ESP module lahko sprogramirmo tudi preko WiFija. Opazil sem, da se povezava
+ne vzpostavi vedno... mislim pa, da je težav manj, če pred programiranjem 
+dostopimo na server tega modula in šele nato sprogramiramo:
+
+    1. ESPHome -> Module -> Visit ...
+    2.              └> Edit -> Install
 
