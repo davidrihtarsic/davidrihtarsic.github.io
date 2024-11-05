@@ -1,4 +1,6 @@
-# FreeCAD
+FREECAD
+================================================================================
+
 
 1. New document
 2. Workbench = Part Design
@@ -17,7 +19,8 @@
 6. Označiš ploskev na kateri želiš dodati element predmeta
 7. Repeat from #4.
 
-## Shoortcuts
+Shoortcuts
+--------------------------------------------------------------------------------
 
 0 - Isometric View
 
@@ -84,8 +87,21 @@ Za izračune simulacij napetostnih obremenitev moramo namestiti še:
 
 ## ISSUES
 
+### OpenCascade not loaded
+
 > Težave, da ni mogel naložit nekih objektov... OpenCascade..
 
 Rešitev je bila, da nimaš zadnje verzije opencascada:
 
     sudo pacman -U /var/cache/pacman/pkg/opencascade-1:7.5.3-3-x86_64.pkg.tar.zst
+
+### Velikost ikon je velika
+
+Rešitev je bila, da nastaviš 96 dpi. To lahko narediš tako, da najprej preveriš kolikšna je dpi na monitorjih:
+
+    xdpyinfo | grep -B 2 resolution
+
+in če ni `96x96 dots per inch`, to lahko narediš z ukazom:
+
+    xrandr --dpi 96
+

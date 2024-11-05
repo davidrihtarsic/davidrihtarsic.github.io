@@ -34,7 +34,7 @@ Pogoste napake površinske obdelave:
     - upogibna (brusni papir)
     - prosta (pulirne paste)
 - granulacija : MESH vrednost : število odprtin na enoto površine sita
-- za brušenje lesnih tvoriv in lakon se uporabljajo brusilna sredstva,
+- za brušenje lesnih tvoriv in lakov se uporabljajo brusilna sredstva,
   ki so sestavljena iz:
     - korunda ($Al_2O_3$) = sivo-rjave barve s trdoto 7.0
     - plemeniti korund = svetlo-sive barve s trdoto 7.0 - 9.5
@@ -89,7 +89,7 @@ Glavni tehnološki postopki brušenja:
   - pigmenti, ki ne reagirajo z lesom:
   - pigmenti se odlagajo v pore
   - rani les se bolj obarva
-- Kemijska lužila
+- Kemijska lužila (reakcija poteka v celični steni)
   - če pigmenti kemijsko reagirajo z lesom
   - kasni les se bolj obarva
 
@@ -188,12 +188,13 @@ V primerjavi z lužili dosegamo različne učinke:
 
 - lesno konstrukcijo zaščitimo z ustreznim nadstreškom
 - izogibamo se neposrednemu kontaktu lesa z zemljo, betonom (stebri, vzidane lege)
+    - vgradnja stebra s pritrditvenim podstavkom
 - čela pokončnikov (izpostavljeni lumni lesnih celic) zaščitimo z letvami
 - police ograj opremimo z odkapnim profilom
 - orientacija police na ograji naj bo taka, da se ob navlažitvi ukrivi navzdol
 - opaž naj ima zgornjo stranico obdelano poševno za odtekanje vode, spodnjo stranico
   pa pravokotno poravnano v funkciji odkapnega profila 
-- zagotovimo zračnost opaža s hrbtne strani 
+- zagotovimo zračnost opaža s hrbtne strani tako, da prečne letve omogočajo pretok zraka 
 
 ## Viri in Literatura
 

@@ -99,6 +99,104 @@ time:
           - lambda: id(oled).turn_off();
 ```
 
+## ESP32 Light AirSensor BME680
+
+```yaml
+esphome:
+  name: esp32-wroom-44
+  friendly_name: ESP32_WROOM_44
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "rlKJuHEiYC1o+5nbZxaH+TvpGJ/8J/URRNtnecqeot4="
+
+ota:
+  - platform: esphome
+    password: "4992d333d63c746092f3134dfcb5b0bb"
+
+wifi:
+  networks:
+    - ssid: !secret main_wifi_ssid
+      password: !secret main_wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Esp32-Wroom-44 Fallback Hotspot"
+    password: "xlpxQS78BIix"
+
+captive_portal:
+
+web_server:
+
+i2c:
+  sda: 21
+  scl: 22
+  scan: true
+  frequency: 800kHz
+
+sensor:
+  - platform: bme680
+    temperature:
+      name: "BME680 Temperature"
+    pressure:
+      name: "BME680 Pressure"
+    humidity:
+      name: "BME680 Humidity"
+    gas_resistance:
+      name: "BME680 Gas Resistance"
+    address: 0x77
+    update_interval: 60s
+
+# Nastavimo GPIO21 za napajanje senzorja
+#switch:
+#  - platform: gpio
+#    pin: GPIO02
+#    id: "SensorPowerVCC"
+#    name: "BME680 Power VCC"
+#  - platform: gpio
+#    pin: GPIO0
+#    id: "SensorPowerGND"
+#    name: "BME680 Power GND"
+
+# Vključitev zunanje komponente z GitHuba
+external_components:
+  # shorthand
+  source: github://aronsky/esphome-components
+
+ble_adv_controller:
+  - id: my_controller
+    encoding: lampsmart_pro
+
+light:
+  - platform: ble_adv_controller
+    ble_adv_controller_id: my_controller
+    name: Living Room Light
+
+button:
+  - platform: ble_adv_controller
+    ble_adv_controller_id: my_controller
+    name: Pair
+    cmd: pair
+```
+
+### Wireless uploading
+
+ESP module lahko sprogramirmo tudi preko WiFija. Opazil sem, da se povezava
+ne vzpostavi vedno... mislim pa, da je težav manj, če pred programiranjem 
+dostopimo na server tega modula in šele nato sprogramiramo:
+
+    1. ESPHome -> Module -> Visit ...
+    2.              └> Edit -> Install
+
 ## SSH & TERMINAL
 
 Za povezavo SSH in uporabo terminala na HA-ju je dobro uporabljati:
@@ -110,13 +208,6 @@ Za namestitev aplikacij lahko uprabljamo upaz kot na primer:
 
     apk add ranger
 
+## Remote access
 
-## Wireless uploading
-
-ESP module lahko sprogramirmo tudi preko WiFija. Opazil sem, da se povezava
-ne vzpostavi vedno... mislim pa, da je težav manj, če pred programiranjem 
-dostopimo na server tega modula in šele nato sprogramiramo:
-
-    1. ESPHome -> Module -> Visit ...
-    2.              └> Edit -> Install
-
+- [Glej na tej strani](https://www.youtube.com/watch?v=AK5E2T5tWyM)

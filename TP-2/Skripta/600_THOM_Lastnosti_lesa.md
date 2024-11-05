@@ -153,6 +153,7 @@ $$ HBW = \frac{F}{A} = \frac{F}{\frac{\pi D(D-\sqrt{D^2-d^2)}}{2}} $${#eq:brinel
 
 kjer je:
 
+- W - se pogosto pripiše glede na material iz katerega je kroglica (W - wolfram, S - steel)
 - F - sile pritiska
 - D - premer kroglice
 - d - premer odtisa
@@ -181,6 +182,8 @@ kjer je:
 |           Oreh |               3,5              |
 |         Smreka |               1,3              |
 Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000). {#tbl:trdota_HBW}
+
+> p.s.: V lesarstvu se pogosto uporablja termin trdote v povezavi z orodji. Naj le omenimo, da se trdota jekla pogosto meri z Rockwell-ovo lestvico - HRC, kjer se vtisne diamantni stožec, za mehkejša jekla pa se uporablja HRB -  kjer se vtisne jeklena kroglica.
 
 ### TRDNOST LESA
  
@@ -223,6 +226,24 @@ Vrste obremenitev:
 - Torzijska
 - Uklonska
 
+<!--
+mehanske lastnosti stisnejenega lesa
+https://vb.nweurope.eu/media/14468/aftb-mech-props.pdf
+-->
+
+#### Napetostno-deformacijska krivulja
+
+Napetostno-deformacijska krivulja prikazuje odnos med napetostjo in deformacijo materiala, ko nanj delujemo z obremenitvijo. Na začetku krivulje je del, kjer napetost narašča premo sorazmerno z deformacijo. To območje imenujemo **elastično območje**, saj se material po odstranitvi obremenitve vrne v prvotno obliko.
+
+Ko napetost preseže to mejo plastičnosti (ang.: yield strength), material vstopi v **plastično območje**. V tem delu krivulje deformacije postanejo trajne, kar pomeni, da material ne povrne več svoje prvotne oblike. Krivulja doseže najvišjo točko, ki označuje maksimalno napetost, ali t. i. natezno trdnost, kjer material prenese največjo možno obremenitev.
+
+Po presežku maksimalne napetosti krivulja začne padati, kar kaže na slabitev materiala, dokler ne doseže točke zloma, kjer se material popolnoma pretrga. Ta analiza je ključna za razumevanje obnašanja materialov pod različnimi obremenitvami.
+
+![Napetostno-deformacijska krivulja, značilna za nizkoogljično jeklo.](./slike/S-e_steel.png){#fig:S-e_steel}
+
+![Napetostno-deformacijska krivulja za les pri radialni obremenitvi](./slike/S-e_wood.png){#fig:S-e_wood}
+
+
 #### DOPUSTNA NAPETOST
 
 Materialov ne smemo obremeniti do njihove maksimalne 
@@ -244,7 +265,28 @@ $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 |                   |   T  |      -     |     2     |      -      |     0.9    |        460       |
 |    Hrast,Bukev    |  ll  |     11     |     12    |      14     |     1.2    |       13000      |
 |                   |   T  |      -     |     3     |      -      |     1.2    |       1000       |
-Table: Dopustne napetosti za nekatere vrste lesa v MPa. {#tbl:sigma_dop_tab}
+Table: Dopustne napetosti za nekatere vrste lesa v MPa, pri zračno suhem lesu ($u=18\%$). {#tbl:sigma_dop_tab}
+
+Ta tabela[^1] prikazuje mehanske lastnosti lesa za različne vrste obremenitev, pri čemer je pomembna smer obremenitve glede na lesna vlakna.
+
+[^1]: Trdnost za srednje šole, Hadalin, J. in Hvasti, K., 2010
+
+Smer obremenitve:
+
+"ll": Obremenitve vzporedno z lesnimi vlakni (longitudinalna smer).
+"T": Obremenitve pravokotno na vlakna (transverzalna smer).
+
+Lastnosti materiala:
+
+- Nateg: Največja napetost, ki jo les prenese pri nategovanju.
+- Tlak: Največja napetost, ki jo les prenese pri stisku.
+- Upogib: Največja napetost pri upogibanju.
+- Strig: Napetost, ki jo les prenese pri strižni obremenitvi.
+- Modul elastičnosti (E): Mera togosti lesa, ki kaže, kako se les upira deformacijam pod obremenitvijo.
+
+Les ima višje vrednosti za nateg, tlak in upogib, ko je obremenjen vzporedno z vlakni (smer "ll"), kar pomeni, da je v tej smeri močnejši.
+Pravokotno na vlakna (smer "T") so vrednosti za tlak in strig bistveno nižje, kar kaže na manjšo odpornost lesa v tej smeri. Podatki niso najbolj točni za strižne obremenitve, saj pri obremenitvah vzporedno z vlakni pride do cepljenja (porušitev lignina).
+Hrast in bukev imata nekoliko višje mehanske lastnosti v primerjavi s smreko, jelko in borom, kar pomeni, da imajo večjo trdnost.
 
 #### NATEZNA IN TLAČNA TRDNOST LESA
 
@@ -267,11 +309,18 @@ $$ \sigma = E \frac{\Delta l}{l_0} $${#eq:napetost_nateg}
 - $l_0$ - prvotna dolžina
 
 > Primer: smrekovina 8cm x 8cm, dolžine 1,8m ; natezna sila 45 kN.  
-> - Dejanska napetost?
-
+>
+> - Kolikšna je dejanska napetost?
+> - Ali presežemo dopustno napetost obremenitve?
 > - Kolikšen je raztezek?
 >
 > (Odgovor: $\sigma = 7.03 MPa$; Ne,$\sigma_{dop}=10 MPa$;$\Delta l = 1.05 mm$)
+
+<!--
+sigma = F/A = 45 kN / (8cm)² = 7.03 MPa
+sigma = E * dL / L0 -> dL = sigma * L0 / E =
+dL = 7.03MPa * 1,8m / 12GPa = 1.06 mm
+-->
 
 #### STRIŽNA TRDNOST
 
@@ -286,17 +335,17 @@ deluje v ravnini lesnih vlaken ali redko, prečno na lesna vlakna.
 $$ \tau = \frac{F}{A} $${#eq:strig}
 
 >Enojna zarezna čepna vez iz smrekovega lesa je obremenjena s silo 1 500 N. Čep je visok 
->80 mm. Določite najmanjšo dopustno širino čepa. ( R: $\tau_{dop}$ = 90 N/cm2, Scel = 16,66 cm2, b = 2 cm ) 
+>80 mm. Določite najmanjšo dopustno širino čepa.( R: $\tau_{dop}$ = 90 N/cm², A = 16,7 cm², b = 21 mm ) 
 
 >Naložena polica tehta 70 kg. Mozničili smo jo z bukovimi mozniki premera 8 mm. 
 >Izračunajte koliko moznikov smo uporabili pri izdelavi konstrukcije.
->( R: $\tau_{dop}$ = 120 N/cm2, S1 = 50,265 mm2, k = 1, Scel = 5,83 cm2, N = 12 ) 
+>( R: $\tau_{dop}$ = 120 N/cm2, S1 = 50,265 mm2, k = 1, A = 5,83 cm2, N = 12 ) 
 
 #### UPOGIBNA TRDNOST
 
 Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
 
-![Upogibna trdnost.](./fig/upogibna_trdnost.png){#fig:upogibna_trdnost}
+![Upogibna trdnost.](./slike/upogibna_trdnost.png){#fig:upogibna_trdnost}
 
 Pri dimenzioniranju na upogib upoštevamo samo največji, maksimalni
 upogibni moment, saj tam nastopijo največje napetosti.
@@ -338,16 +387,16 @@ Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer j
 >( R: Mmax = 3600 Nm, Wx = 257 142,8 mm³ , b = 92,3 mm = 93 mm,
 > h = 129,26 mm = 130 mm, IX = 17 026 750 $mm^4$ , f = 28,2 mm )
 
-> Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje.
+> Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje. (R: Podatek je resničen za primer, ko nosilec izrežemo iz okroglega preseka.)
 
 
-#### UKLONSKA TRDNOST
+#### UKLONSKA TRDNOST  
 
 **Vitkost**:
 
 $\lambda = \frac{l_0}{i}$
 
-- prvotna dolžina
+- $l_0$ prosta uklonska dolžina ([@tbl:nacin_vpetja_stebra])
 - i - vztrajnostni polmer, ki ga izračunamo iz vztrajnostnega momenta in prereza na katerega sila deluje:
 
 $$ i=\sqrt{\frac{I_{min}}{A}} $$
@@ -361,7 +410,7 @@ določamo po treh različnih postopkih, v odvisnosti od vitkosti.
 
 ##### Eulerjev postopek
 
-uklonska sila
+uklonska sila (kritična slia)
 
 $$ F_k = \frac{\pi^2 E I_{min}}{l_0^2} $$
 
@@ -375,8 +424,18 @@ $$ F_{dop} = \frac{F_k}{k_v}  $$
 
 - $k_v = 10 (les)$
 
+**Način vpetja**
+
+|     konec A     |     konec B     | prosta uklonska dolžina - $l_0$ |
+|:---------------:|:---------------:|:-------------------------------:|
+|    togo vpet    |   prosti konec  |              $2\ l$             |
+|       togo      |   togo vpetje   |            $0.65\ l$            |
+|   togo vpetje   | členasto vpetje |             $0.8\ l$            |
+| členasto vpetje | členasto vpetje |               $l$               |
+Table: Tabela z izračuni proste uklonske dolžine $l_0$ glede na način vpetja lesenega vitkega stebra z dolžino $l$. {#tbl:nacin_vpetja_stebra}
+
 > Smrekov steber pravokotnega prereza je na eni strani vpet členkasto na 
-> drugi pa trdo. Dolžina stebra je 5 m. Obremenjen je s silo 45 kN.
+> drugi pa togo. Dolžina stebra je 5 m. Obremenjen je s silo 45 kN.
 >
 > Izračunajte dimenziji stranic pravokotnika, če sta v razmerju 2 :3.
 > Varnostni faktor je 10. 

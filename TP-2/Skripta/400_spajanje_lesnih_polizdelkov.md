@@ -38,6 +38,21 @@ Pri sintetičnih lepilih izkoriščamo kemične lastnosti molekul s **funkcional
 
 ## POGOSTA LEPILA
 
+<!--
+To poglavje moram spremeniti in dopolniti. Poglavje naj bo napisano tako, 
+da obravnava lepila, ki so pogosto uporabljena v šoli in v lesarstvu.
+Predvsem naj odgovarja na vprašanje "zakaj uporabljamo neko lepilo", v čem
+je njegova prednost. Na primer manjka mi:
+
+- UHU lepilo v stiku (seatava, zakaj, kje kako...)
+- FF (mislim, da so s tem lepljene iverne plošče, ker je lepilo trdo, je velika obraba rezil)
+- Neostik (neoprensko lepilo, zakaj mora biti odprti čas, katera sestavina je uporabljena)
+- Sekundno lepilo (cianokol ,  kakšna sestavina to je, zakaj ne lepi nekaterih plastičnih materialov?)
+- PVAc (nekako imam)
+- PUR (imam)
+
+-->
+
 ### Polivinilacetatno lepilo
 
 Polivinilacetatno lepilo je vrsta lepila, ki se uporablja za površinsko obdelavo materialov. To lepilo je sestavljeno iz polivinilacetata, ki je polimer, pridobljen iz vinilacetatnih monomerov. Polivinilacetatno lepilo se pogosto uporablja v različnih panogah, kot so lesna industrija, gradbeništvo, embalaža itd.
