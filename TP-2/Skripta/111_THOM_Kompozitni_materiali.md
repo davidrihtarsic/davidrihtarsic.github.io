@@ -19,6 +19,9 @@ Izjeme, ki jih med kompozitne materiale ne uvrščamo:
 <!--
 https://slideplayer.com/slide/6381299/
 -->
+
+Kompozit je sestavljen iz osnovnega materiala (matrice), ki prenaša tlačne obremenitve, in armaturnih vlaken, ki prenašajo natezne sile. Vlakna so vgrajena v matrico in izboljšajo trdnost ter togost kompozita.
+
 Glede na obliko armature ločimo kompozite z matrico, ki je ojačana z:
 
 - delci ali
@@ -56,7 +59,7 @@ Najpomembnejša in najbolj znana uporaba kompozitov, ojačanih z delci, je volfr
     - različne fizikalne lastnosti v različnih smereh pri usmerjenih vlaknih
     - primer: armiran beton (npr.: ne smemo spremeniti balkona v ploščad)
 - ali izotropični:
-    - pri naključno razporejenih vlaknih
+    - pri naključno razporejenih vlaknih (npr.: vlakna za beton)
 
 Glede na usmeritev vlaken ločimo:
 
@@ -100,7 +103,7 @@ Kompozitni materiali sestojijo iz 5 najbolj razširjenih osnovnih skupin glede n
 - kompoziti z laminati, lističi
 - kompoziti s polnilom.
 
-## Vlakna v kompozitih
+### Vlakna v kompozitih
 
 Vlakna, ki se uporabljajo za armiranje kompozitov, naj imajo naslednje lastnosti:
 
@@ -128,9 +131,9 @@ Najbolj uporabna vlakna so:
 - kovinska vlakna:
     - so iz volframa, berilija, molibdena in visokotrdnih ogljikovih in nerjavnih jekel
 
-### Vpliv vlaken na fizikalne lastnoati
+#### Vpliv vlaken na fizikalne lastnoati
 
-Na fizikalne lastnosti kompozitnih materialov ne vpliva le material iz katerega so vlakna, pač pa tudi:
+niso odvisne le od materiala iz katerega so vlakna, pač pa tudi:
 
 - kolikošna je njihova prisotnost (delež),
 - kako velika vlakna so,
@@ -140,7 +143,7 @@ Na fizikalne lastnosti kompozitnih materialov ne vpliva le material iz katerega 
 
 ![Vpliv razporeditve vlaken na lastnosti kompozitnih materialov.](./slike/kompoziti_razporeditev_vlaken.png){#fig:kompoziti_razporeditev_vlaken}
 
-## Matrica kompozitnega materiala
+### Matrica kompozitnega materiala
 
 Matrica daje kompozitnemu materialu:
 

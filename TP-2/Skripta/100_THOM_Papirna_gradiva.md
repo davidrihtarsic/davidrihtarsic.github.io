@@ -94,7 +94,7 @@ Celulozo pridobivamo iz surovin kot so:
 
 ![Proces izdelovanja papirja.](./slike/papir_proizvodnja.png){#fig:papir_proizvodnja}
 
-Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papirja:
+Največkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papirja:
 
 1. Izdelovanje papirne kaše
 2. Izdelava papirja
@@ -123,7 +123,7 @@ Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
 - zmeljejo papirno kašo
 - dodajanje kaše iz recikliranega papirja
     - s kemijskim postopkom odstranijo barvila
-- molekule celuloze je potrebno povezati med seboj
+- [molekule celuloze](https://www.molinstincts.com/structure/Dextrin-cstr-CT1078679315) je potrebno povezati med seboj. V tej vlogi nastopi polarni značaj etrske vezi $-O-$, ki dobro privlači vodo.
 
 ![Molekula celuloze[^molekula_celuloze].](./slike/Cellulose-Ibeta-from-xtal-2002-3D-balls.png){#fig:Cellulose-Ibeta-from-xtal-2002-3D-balls}
 
@@ -134,6 +134,7 @@ Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
     - bolj prepletena vlakna -> bolj trden papir
 - dodajo polnila, lepila, barvila in druge dodatke
 - ustvarijo redko vodno zmes (voda pomaga molekulam celuloze, da se kemijsko povežejo)
+    - cca 100 L vode za 1 kg papirja (nujen zaprt vodni sistem)
 
 ![Vodikova vez med dvema molekulama celuloze.](./slike/papir_vezava_celuloze.png){#fig:papir_vezava_celuloze}
 
@@ -167,7 +168,7 @@ Nejvečkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
 - formatni razrez
 - transport
 
-### Formati papirja
+### Formati in vrste papirja
 
 Formati:
 
@@ -195,10 +196,10 @@ Formati:
 
 ### Povezave
 
-- [Izdelava papirne kaše in papirja](https://www.youtube.com/watch?v=E4C3X26dxbM)
-- [Izdelava popirne kaše in papirja](https://www.youtube.com/watch?v=jmgMdDH14sE)
-- [Ročna izdelava papirja](https://www.youtube.com/watch?v=eT4tNINfzrY)
-- [Ročna izdelava papirja](https://www.youtube.com/watch?v=aVEOXE8IbIs)
+- [Izdelava papirne kaše in papirja - video 1](https://www.youtube.com/watch?v=E4C3X26dxbM)
+- [Izdelava popirne kaše in papirja - video 2](https://www.youtube.com/watch?v=jmgMdDH14sE)
+- [Ročna izdelava papirja - 1](https://www.youtube.com/watch?v=eT4tNINfzrY)
+- [Ročna izdelava papirja - 2](https://www.youtube.com/watch?v=aVEOXE8IbIs)
 
 ## Lastnosti in preizkušanje papirnih gradiv
 

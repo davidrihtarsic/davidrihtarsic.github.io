@@ -18,6 +18,14 @@ Nekateri monomeri (prisotnost kisika `O`), kot so formaldehid hidrati ali enosta
 
 ![Formaldehidni polimeri.](./slike/Formaldehidni_polimeri.png){#fig:Formaldehidni_polimeri}
 
+Kadar se v polimerih nahajajo funkcionalne skupine, ki imajo zaradi svoje kemijske strukture polarne lastnosti, taktrat so polimeri bolj higroskopični. To se zgodi zaradi polarnih vezi v teh skupinah, ki ustvarjajo električna privlačna polja, na katera voda (polarna molekula) močno reagira.
+
+Ključne funkcionalne skupine, ki prispevajo k higroskopičnosti:
+
+- Amino skupine (-CONH-): Poliamidi, kot sta Nylon PA6 in PA12, imajo amidne vezi, ki vsebujejo polarna kisikova in dušikova atoma. Ta atoma lahko tvorita vodikove vezi z molekulami vode, kar vodi v visoko higroskopičnost.
+- Etrične vezi (-O-): V polimerih, kot je TPU, najdemo etrne vezi, ki so manj polarne kot amidne, vendar še vedno dovolj polarne, da lahko privlačijo vodo.
+- Hidroksilne skupine (-OH): Čeprav te skupine niso prisotne v vseh polimerih, se lahko pojavijo v nekaterih formulacijah polimerov in prav tako povečajo privlačnost vode zaradi svoje polarne narave.
+
 ## Izvor polimerov
 
 - glej razdelitev na prosojnicah predavanj (dr. S Avsec)
@@ -76,14 +84,14 @@ Odvisne od:
 
 ### Amorfni polimeri
 
-Amorfni polimeri so polimerni materiali, ki nimajo kristalne urejenosti. Njihove molekule so naključno razporejene, kar jim daje amorfno strukturo. To pomeni, da nimajo jasno opredeljenih talnih in stopnjevanje lastnosti. 
+Amorfni polimeri so polimerni materiali, ki nimajo kristalne urejenosti (npr.: polivinil klorid (PVC), poli-karbonat (PC), poli-stiren (PS)). Njihove molekule so naključno razporejene, kar jim daje amorfno strukturo. To pomeni, da nimajo jasno opredeljenih talilnih lastnosti. 
 
 Bistvene lastnosti in značilnosti amorfnih polimerov vključujejo:
 
-1. Prozornost: Amorfni polimeri so običajno prozorni ali prosojni materiali, kar jih naredi primernega za uporabo v različnih optičnih aplikacijah.
+1. Prozornost: Amorfni polimeri so običajno prozorni ali prosojni materiali, kar jih naredi primernega za uporabo v različnih optičnih aplikacijah (CD je iz PC).
 2. Mehanska fleksibilnost: Zaradi naključne razporeditve molekul imajo amorfni polimeri večjo fleksibilnost in elastičnost kot kristalinični polimeri.
 3. Nizka talilna temperatura: Večina amorfih polimerov ima nižjo talilno temperaturo kot kristalinični polimeri, kar olajša obdelavo in predelavo.
-4. Visoka trdnost: Amorfni polimeri imajo lahko visoko trdnost, vendar se ta lahko zmanjša zaradi povečane gibljivosti molekul.
+4. **Visoka trdnost**: Amorfni polimeri imajo lahko visoko trdnost, vendar se ta lahko zmanjša zaradi povečane gibljivosti molekul.
 5. Plastičnost: Zaradi svoje amorfne strukture imajo amorfni polimeri sposobnost plastičnosti, kar pomeni, da se lahko preoblikujejo in oblikujejo pod vplivom toplote.
 6. Odpornost na udarce: Zaradi svoje fleksibilnosti so amorfni polimeri običajno odporni na udarce in lahko absorbirajo energijo ob trčenju.
 7. Nizka toplotna prevodnost: Amorfni polimeri imajo običajno nizko toplotno prevodnost, kar jim omogoča dobro izolacijsko lastnost.
@@ -94,14 +102,16 @@ Predstavniki:
 
 - polivinilklorid (PVC),
 - polikarmonat (PC),
-- polistiren (PC).
+- polistiren (PS).
 
 ### Kristalični polimeri
 
-Kristalični polimeri so polimerni materiali, ki imajo urejeno kristalno strukturo na molekularni ravni. Njihove bistvene lastnosti in značilnosti vključujejo visoko stopnjo urejenosti molekul, kar jim daje togo in močno strukturo. Imajo tudi visoko tališče in toplotno odpornost, kar pomeni, da ohranjajo svojo obliko in lastnosti pri visokih temperaturah.
-Poleg tega so kristalični polimeri običajno:
-- trdi, trpežni,
-- odporni proti obrabi ter mehansko in kemično stabilni.
+Kristalični polimeri so polimerni materiali, ki imajo urejeno kristalno strukturo na molekularni ravni. Njihove bistvene lastnosti in značilnosti vključujejo visoko stopnjo urejenosti molekul, kar jim daje togo in močno strukturo. Imajo tudi visoko tališče in temperaturno odpornost, kar pomeni, da ohranjajo svojo obliko in lastnosti pri visokih temperaturah.
+
+Lastnosti kristaličnih polimerov so običajno:
+- večja trdota, 
+- odporni proti obrabi ter mehansko in kemično stabilni,
+- boljša temperaturna odpornost.
 
 Kristalični polimeri se pogosto uporabljajo v industriji za izdelavo plastike, vlaken, filmov in drugih materialov, ki zahtevajo visoko trdnost, trdoto in obstojnost.
 
@@ -191,8 +201,6 @@ so razna vlakna:
 
 - **Poli-etilen (PE)**:
 je najpogostejša plastika. Njegova osnovna uporaba je v embalaži (plastične vrečke, plastične folije, posode, vključno s plastenkami, itd.). Veliko različnih vrst polietena je znanih, večina jih ima molekulsko formulo (C2H4)n. PE je običajno zmes podobnih polimerov iz etena z različnimi vrednosti n. V to spadajo PETE, HDPE (se ne razgrajuje), LDPE (ob prisotnosti čistil lahko topna).
-- **Poli-etilen-tereflatat (PET)**:
-polietilentereftalat je konstrukcijska plastična masa, ki se uporablja predvsem tam, kjer se zahteva visoka dimenzijska obstojnost. Material ima dobre drsne in obrabne lastnosti, kakor tudi odlične termične lastnosti. Delovna temperatura materiala je od -20°C do +100°C. Odlikujejo ga lastnosti kot: visoka trdnost, trdota, togost, visoka žilavost, nizka vpojnost vlage, dobre drsne lastnosti, visoka dimenzijska stabilnost, obstojnost proti obrabi, dobro drobljivi odrezki, dobre električno izolacijske lastnosti, dobro se lepi in vari, dobro se polira. Uporaba: zobniki, deli ohišja, nosilci, distančne letve, oporni obroči...
 - **Poli-vinil-klorid (PVC)**:
 zelo pogosto uporabljena plastika, ni primerna za prehrambeno industrijo. Najdemo jo vsepovsod: igrače, vodna inštalacija, elektro inšt., ohišje elektronike, okvirji oken, vrat ... med polimeri zelo obstojna, trda plastika.
 - **Poli-propilen (PP)**:
@@ -207,25 +215,48 @@ akrilno steklo
 Visokotemperaturna plastika PTFE – TEFLON  je zelo dobro kemijsko in UV obstojna, ima nizek koeficient trenja in visoko temperaturno območje uporabe, je samougasna, vendar v stiku s plamenom sprošča strupen plin Fluor. Delovna temperatura materiala je od -200°C do +260°C. Uporabno predvsem za: Ohišja črpalk, ohišja filtrov, sedeži ventilov, rešetke, obloge rezervoarjev, visoko frekvenčni izolatorji, cevovodi, gonilniki črpalk, prevleke valjev, tesnila, drsni ležaji, drsne letve...
 - **Etilen-vinil-acetat (EVA)**:
 je polimer, ki sestoji iz dveh vrst monomolekul etilena in vinili-acetata. Spada med polimere z nizko gostoto (kot naprimer LDPE), ki ga odlikuje zelo nizka trdota (je mehak) in izredna prožnost. Uporablja se za razne mehke podlage, obutev (japonke, kroksice).
-- **Akrilni-butadien-stiren (ABS)**:
-je amorfen polimer, ki ga pridobimo z emulzijsko polimerizacijo, ali polimerizacijo v masi, akrilonitrila in stirena s prisotnostjo polibutadiena. Najpomembnejši lastnosti ABS-a sta odpornost na udarce in žilavost.
-Uporaben je na veliko področjih: igrače (LEGO kocke), potrošno blago, telefoni, varnostne čelade, notranje obloge vrat, stebri, sedežne obloge, rešetke, armaturne plošče, ohišja ogledal ...
 - **Poli-butadien**:
 predvsem v gumarski industriji (pnevmatike, )
 
+---
+
+- **Poli-etilen-terfeflatat (PET)**:
+polietilentereftalat je konstrukcijska plastična masa, ki se uporablja predvsem tam, kjer se zahteva visoka dimenzijska obstojnost. Material ima dobre drsne in obrabne lastnosti, kakor tudi odlične termične lastnosti. Delovna temperatura materiala je od -20°C do +100°C. Odlikujejo ga lastnosti kot: visoka trdnost, trdota, togost, visoka žilavost, nizka vpojnost vlage, dobre drsne lastnosti, visoka dimenzijska stabilnost, obstojnost proti obrabi, dobro drobljivi odrezki, dobre električno izolacijske lastnosti, dobro se lepi in vari, dobro se polira. Uporaba: zobniki, deli ohišja, nosilci, distančne letve, oporni obroči...
+- **Poli-etilen-tereflatat-glikol (PET-G)**:
+je termoplastični polimer, znan po visoki trdnosti, fleksibilnosti in odpornosti na udarce, zaradi česar je priljubljen za 3D-tiskanje in embalažo. V primerjavi s PLA ima PET-G boljšo toplotno odpornost in je manj krhek, zaradi česar je primernejši za izdelke, ki zahtevajo večjo vzdržljivost. Poleg tega se PET-G enostavno obdeluje, omogoča gladko površino, in se dobro oprime na različne podlage, kar je prednost pri tiskanju kompleksnih struktur. Slabost PET-G je njegova večja higroskopičnost – absorbira vlago iz zraka, kar lahko poslabša kakovost tiskanja, če material pred uporabo ni ustrezno shranjen ali posušen. Kemijska struktura [PET-G](https://www.molinstincts.com/structure/PETG-cstr-CT1103556678.html).
+- **Akrilni-butadien-stiren (ABS)**:
+je amorfen polimer, ki ga pridobimo z emulzijsko polimerizacijo, ali polimerizacijo v masi, akrilonitrila in stirena s prisotnostjo polibutadiena. Najpomembnejši lastnosti ABS-a sta odpornost na udarce in žilavost, ima pa tudi zelo nizko higroskopičnost zarasi svoje [kemijske strukture](https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene). Uporaben je na veliko področjih: igrače (LEGO kocke),3D tisk, potrošno blago, telefoni, varnostne čelade, notranje obloge vrat, stebri, sedežne obloge, rešetke, armaturne plošče, ohišja ogledal ...
+- **Akrilonitril stiren akrilat (ASA)**:
+je vremensko odporen termoplast, zasnovan kot UV-odporna alternativa ABS-u, ki ga nadomešča v 3D-tiskanju, zlasti pri zunanjih prototipih in avtomobilskih komponentah. ASA dobro ohranja barvo, sijaj in mehanske lastnosti na prostem ter ima izboljšano kemično in toplotno odpornost. Čeprav je le blago higroskopičeni -  [kemijska struktura](https://en.wikipedia.org/wiki/Acrylonitrile_styrene_acrylate), ga je pred uporabo včasih potrebno sušiti, saj prisotnost vlage lahko vpliva na kakovost izdelave.
+- **Termoplastični poliuretan (TPU)**: je elastičen in odporen termoplastični elastomer, ki združuje prožnost, odpornost na obrabo ter odpornost na olja in maščobe. Zaradi teh lastnosti je TPU priljubljen za 3D-tiskanje fleksibilnih izdelkov ter se uporablja v avtomobilizmu, športni opremi, medicinskih napravah in zaščitnih ohišjih. TPU se ponaša z visoko elastičnostjo, dobro odpornostjo na nizke temperature in visoko odpornostjo na mehanske poškodbe, kar omogoča izdelavo trajnih, a fleksibilnih struktur. Material je zmeren higroskopik ([kemijska struktura](https://www.molinstincts.com/structure/urethane-cstr-CT1001349103) ), zato je priporočljivo, da ga pred uporabo v 3D-tiskanju ustrezno posušimo, saj vlaga lahko vpliva na kakovost tiska.
+
+
 #### Polikondenzati
 
+- **Polimerična kislina (PLA)**:
+je biorazgradljiv polimer, pridobljen iz obnovljivih virov, kot je koruzni škrob. Zaradi svojih okolju prijaznih lastnosti se uporablja v različnih panogah, predvsem v 3D-tiskanju, embalaži in medicinskih pripomočkih. Ima nizko temperaturo taljenja (190°C) kar omogoča tiskanje na velikem razponu tiskalnikov. Med tiskanjem se ne zvija. Ima majhne temperaturne skrčke, ki zagotavljajo izdelkom visoko dimenzijsko točnost in je manj higroskopičen zaradi svoje [kemijkske sturkture](https://www.molinstincts.com/structure/lactic-acid-cstr-CT1078640572). V svoji polimerni obliki izgubi veliko $-OH$ vezi, poleg tega pa so vezi $-O-$ zasenčene z $=O$ in $-CH_3$ [strukturo](https://en.wikipedia.org/wiki/Polylactic_acid#Synthesis).
 - **Poli-amid (PA)**:
-komercialno ime za PA je najlon. PA je žilava visoko zmogljiva umetna masa z visoko odpornostjo proti obrabi. Konstrukcijski material za tehnične namene, posebno za strojne dele. Delovna temperatura materiala je od -40°C do +100°C. Uporabljen je v izdelkih kot so: zobniki, drsni ležaji, drsne tirnice, puše, verižna vodila...
-- **Poli-laktična kislina (PLA)**:
-sestavlja dekstroza (sladkor), pridobljena iz bio materialov. Je najpopularneja bioplastika oziroma biopolimer in trenutno edini tak material v proizvodnji v katerikoli tovarni svetovnega merila.
-V domači uporabi je pogost v 3D tiskanju.
+ali Nylon je v aditivni proizvodnji priljubljen termoplast zaradi svoje fleksibilnosti, trpežnosti in odpornosti na udarce in obrabo. Najpogosteje se uporablja v obliki prahu ali filamenta, predvsem v tehnologijah, kot so SLS, Multi Jet Fusion in FDM. Najbolj znane vrste najlona v 3D-tiskanju so PA12, PA11 in PA6. PA12 in PA11 sta v prahu ter ponujata visoke mehanske in toplotne lastnosti, kjer PA11 izkazuje boljšo UV odpornost, PA12 pa manjšo vpojnost vlage. Nylon PA6 je pogost filament, znan po fleksibilnosti in vzdržljivosti, vendar je higroskopičen, zato ga je treba ustrezno shranjevati, da vlaga ne vpliva na kakovost tiska. Uporabljen je v izdelkih kot so: zobniki, drsni ležaji, drsne tirnice, puše, verižna vodila...
 - **Poli-ester (PES)**:
 tekstilna vlakna
 - **Feno-plasti**:
 lepila, barve, laki, zaščitnih premazi, stikala, ohišja, razdelilniki, elektro-izolatorji
 - **Amino-plasti**:
 vodoodporna veziva, premazi
+
+
+|         Material | Tališče (°C) | Temp. mize (°C) | Trdnost (MPa) | Trdota (RHR) | Mehanska odpornost (1-10) | Higros-kopičnost (1-10) | Namen uporabe                                            |
+|-----------------:|:------------:|:---------------:|:-------------:|:------------:|:-------------------------:|:-----------------------:|:---------------------------------------------------------|
+|          **PLA** |    180–220   |      60–70      |       48      |    110–120   |             4             |            3            | Prototipiranje, okrasni deli, notranji deli              |
+|        **PET-G** |    230–250   |      70–80      |       50      |    106–110   |             8             |            5            | Industrijski deli, embalaža, funkcionalni prototipi      |
+|          **ABS** |    210–240   |      90–110     |       40      |    95–105    |             8             |            5            | Funkcionalni prototipi, avtomobilski deli                |
+|          **ASA** |    220–240   |      90–110     |       45      |    95–100    |             9             |            3            | Zunanji deli, avtomobilski deli, funkcionalni prototipi  |
+|          **TPU** |    200–230   |       0–60      |       25      |     85–90    |             10            |            8            | Fleksibilni deli, zaščitne prevleke, blažilni elementi   |
+|  **Nylon (PA6)** |    250–260   |      70–90      |       55      |    120–130   |             9             |            10           | Tehnični deli, zobniki, gibljivi deli, funkcionalni deli |
+| **Nylon (PA12)** |   240 - 270  |      70–90      |       50      |    115–120   |             9             |            7            | Tehnični deli, prototipi, deli za zunanjo uporabo        |
+Table: Seznam nekaterih lastosti termoplastov, ki se uporabljajo v 3D tisku[^1]. Opombe: **PLA** ima visoko Rockwell trdoto, vendar omejeno mehansko odpornost. **PET-G** ima uravnoteženo trdoto in mehansko odpornost, kar je koristno za funkcionalne prototipe. **ABS** je nekoliko mehkejši od PLA, vendar z dobro odpornostjo na udarce. **ASA** je podobno trden kot ABS, z izboljšano UV odpornostjo za zunanje aplikacije. **TPU** je mehak in zelo fleksibilen, primeren za elastične aplikacije. **Nylon (PA6 in PA12)** imata višjo Rockwell trdoto, vendar PA6 zahteva dodatno sušenje pred uporabo zaradi visoke higroskopičnosti. {#tbl:3d_print_preferences}
+
+[^1]: Povzeto po: https://www.simplify3d.com/resources/materials-guide/properties-table/
 
 # Tehnologija umetnih snovi
 
@@ -235,7 +266,7 @@ Oglej si naslednje video vsebine:
 - [Postopki predelave umetnih snovi](https://vimeo.com/209791560)
 - [Brizganje](https://www.youtube.com/watch?v=b1U9W4iNDiQ)
 - [3D tisk](https://www.youtube.com/watch?v=Yi9HeGAUuYc)
-- [Vljanje, kalandriranje](https://www.youtube.com/watch?v=0E5L_SsPxDE)
+- [Valjanje, kalandriranje](https://www.youtube.com/watch?v=0E5L_SsPxDE)
 - [Pihanje](https://www.youtube.com/watch?v=AD_Y4yZc54U)
 - [Stiskanje](https://www.youtube.com/watch?v=vL3wayZK-is)
 - [Ekstrudiranje](https://www.youtube.com/watch?v=ZU1bbXonMkY)
@@ -375,6 +406,9 @@ Podrobna navodila na spletni strani:
   - izračunamo in nastavimo novo število pomikov `M92 X81.23`
 
 ## Modeliranje
+
+
+![Modeliranje dimenzij z večkratnikom širine sledi.](./slike/3D_print_slicering.png){#fig:3D_print_slicering}
 
 ## Priprava plasti
 
