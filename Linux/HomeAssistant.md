@@ -187,6 +187,176 @@ button:
     name: Pair
     cmd: pair
 ```
+### PWR Metere
+
+V ESPHome sta dve funkciji, ki lahko merita pogostost pulzov:
+- pulse_meter in
+- pulse_counter
+
+Pulse_meter je imel v zadnjem času nekaj težav in je občasno pokazal neverjetno napačne podatkje,
+zato je bolje, da v tem primeru uporabljamo kodo prejšnje različice te funkcije:
+
+```yaml
+external_components:
+  - source: github://esphome/esphome@2023.5.4
+    components: [pulse_meter]
+```
+
+#### Pulse_counter
+
+```yaml
+esphome:
+  name: pwr-test
+  friendly_name: PWR_Test
+
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "otLKBa9eccowzkE61Azb9n0f5Gq5Qy5RKK7kL7saFD4="
+
+ota:
+  - platform: esphome
+    password: "084c352dd35c55482d1ca94c9d906749"
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Pwr-Test Fallback Hotspot"
+    password: "L2jzkNFtkCGd"
+
+captive_portal:
+
+web_server:
+
+# Example configuration entry
+sensor:
+  - platform: pulse_counter
+    icon: mdi:flash-outline
+    pin: GPIO26
+    state_class: measurement
+    device_class: power
+    unit_of_measurement: 'W'
+    name: 'Power Meter House'
+    accuracy_decimals: 0
+    filters:
+      - multiply: 60  # (60s/1000 pulses per kWh)
+
+    total:
+      unit_of_measurement: 'kWh'
+      name: 'Energy Meter House'
+      accuracy_decimals: 3
+      filters:
+        - multiply: 0.001  # (1/1000 pulses per kWh)
+```
+
+### Glow Pulse meter
+
+```yaml
+substitutions:
+  name: home-assistant-glow-ea93f8
+  # Define the GPIO pins
+  pulse_pin: GPIO26 
+  status_led: GPIO19
+  led_pin_red: GPIO5
+  led_pin_green: GPIO18
+packages:
+  klaasnicolaas.home-assistant-glow: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/esp32.yaml@main
+esphome:
+  name: ${name}
+  name_add_mac_suffix: false
+api:
+  encryption:
+    key: 7BGZNKt2aIjU2+s2Tful9WWPjfekbwxSTRoMBqulTMU=
+
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+```
+
+```yaml
+# ta program je delal,
+# vendar na vsake toliko ni ok moč kW
+
+substitutions:
+  name: home-assistant-glow-ea93f8
+  device_name: home-assistant-glow
+  friendly_name: Home Assistant Glow
+  project_version: "4.2.3"
+  device_description: "Measure your energy"
+  # Define the GPIO pins
+  pulse_pin: GPIO26
+  status_led: GPIO5
+  led_pin_red: GPIO2
+  led_pin_green: GPIO4
+
+
+#packages:
+#  klaasnicolaas.home-assistant-glow: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/esp32.yaml@main
+esp32:
+  board: esp32dev
+  framework:
+    type: arduino
+
+esphome:
+  name: ${name}
+  name_add_mac_suffix: False
+  comment: '${device_description}'
+  min_version: 2024.6.0
+  project:
+    name: "klaasnicolaas.home-assistant-glow"
+    version: "${project_version}"
+
+dashboard_import:
+  package_import_url: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/esp32.yaml@main
+
+packages:
+  remote_package:
+    url: https://github.com/klaasnicolaas/home-assistant-glow/
+    ref: "4.2.3"
+    files:
+      - components/basis.yaml
+#      - components/updates.yaml
+      - components/status_led.yaml
+      - components/pulse_meter.yaml
+
+api:
+  encryption:
+    key: 7BGZNKt2aIjU2+s2Tful9WWPjfekbwxSTRoMBqulTMU=
+
+# Enable logging
+logger:
+
+# Allow provisioning Wi-Fi via serial
+improv_serial:
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+  ap:
+    ssid: '${friendly_name}'
+
+# In combination with the `ap` this allows the user
+# to provision wifi credentials to the device via WiFi AP.
+captive_portal:
+
+# Local Web Server running on port 80
+web_server:
+  id: esphome_web_server
+  version: 3
+
+```
 
 ### Wireless uploading
 
@@ -211,3 +381,10 @@ Za namestitev aplikacij lahko uprabljamo upaz kot na primer:
 ## Remote access
 
 - [Glej na tej strani](https://www.youtube.com/watch?v=AK5E2T5tWyM)
+
+## Tuya
+
+Gleja nastavitve za pridobitev LocalKey:
+- https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys
+
+
