@@ -67,6 +67,12 @@
     "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "440_Odstevalnik_LM358_kompenzacija_sofaznega_ojačenja.kicad_prl",
     "version": 3
