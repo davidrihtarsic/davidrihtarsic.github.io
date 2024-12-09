@@ -6,6 +6,10 @@
 
 ---
 
+## Seminar 2
+
+- [Izdelava GPT agenta](./GPT_agent/index.md)
+
 ## Seminar 1
 
 - Okvirni naslov/tema: Tehniški poklici pomembni za razvoj družbe v smislu trajnostnega razvoja.
@@ -18,8 +22,6 @@
 |  7. 11. 2024 |            1. oddaja SE            |
 | 21. 11. 2024 | predstavitev in oddaja (SE in PPT) |
 
-## Seminar 2
-
-- ... (elektronika v medicini, UI, izobraževanje, ...)
+## Krmilnik ESP32
 
 - [Uporaba krmilnika ESP32](../Skripta/index.md)

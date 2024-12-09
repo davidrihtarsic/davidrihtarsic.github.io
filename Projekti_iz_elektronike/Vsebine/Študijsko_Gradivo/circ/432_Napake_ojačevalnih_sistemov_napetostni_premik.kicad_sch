@@ -983,6 +983,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 68.58) (xy 127 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00acdad1-a094-446c-abdd-6be86e17bcc5")
+	)
+	(wire
+		(pts
 			(xy 27.94 104.14) (xy 38.1 104.14)
 		)
 		(stroke
@@ -1063,16 +1073,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 123.19 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29fd795f-83c0-4618-8103-c60b873be971")
-	)
-	(wire
-		(pts
 			(xy 57.15 50.8) (xy 49.53 50.8)
 		)
 		(stroke
@@ -1100,6 +1100,16 @@
 			(type dash)
 		)
 		(uuid "575ca2e7-bae3-44a5-bbd5-d1956fb0f44f")
+	)
+	(wire
+		(pts
+			(xy 123.19 68.58) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63a66c96-20c0-4e24-a89f-0d5dc6bb07a8")
 	)
 	(polyline
 		(pts
@@ -1190,16 +1200,6 @@
 			(type default)
 		)
 		(uuid "c518cd4e-a3a7-4876-9bba-58d2c91642f3")
-	)
-	(wire
-		(pts
-			(xy 127 68.58) (xy 123.19 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf361ca7-3657-4f53-b490-0313dbdb20da")
 	)
 	(wire
 		(pts
@@ -1518,7 +1518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.987"
+		(property "Value" "1.99V"
 			(at 53.34 65.9102 0)
 			(effects
 				(font
@@ -2313,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 123.19 74.93 0)
+		(at 123.19 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2322,7 +2322,7 @@
 		(fields_autoplaced yes)
 		(uuid "98f554fc-0656-404e-a033-a012d71ceea2")
 		(property "Reference" "#GND01"
-			(at 123.19 77.47 0)
+			(at 123.19 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2331,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 123.19 72.39 0)
+			(at 123.19 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 74.93 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 74.93 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2357,7 +2357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 74.93 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
