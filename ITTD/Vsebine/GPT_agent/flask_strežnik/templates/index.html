@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flask Uvod</title>
+</head>
+<body>
+    <h1>Dobrodošli na Flask strani!</h1>
+    <form method="post"> <!-- Obrazec za pošiljanje podatkov -->
+        <label for="user_input">Vnesite vprašanje:</label><br>
+        <input type="text" id="user_input" name="user_input" required><br><br>
+        <input type="submit" value="Pošlji">
+    </form>
+    {% if odgovor %} <!-- Prikaže odgovor, če obstaja -->
+    <h2>Odgovor:</h2>
+    <p>{{ odgovor }}</p>
+    {% endif %}
+</body>
+</html>
