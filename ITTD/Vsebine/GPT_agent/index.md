@@ -19,12 +19,12 @@
     - Pojasnilo API-ja: kako komunicirati z GPT (ključ, osnovni klici API-ja).  
         - [Text-davinci-003 vs gpt-4](./OpenAI_API_modeli.md)
     - Skupaj napišemo enostavnega GPT asistenta, ki odgovarja na vprašanja.
-        - [Primer GPT agenta in uporaba openai](./02_Terminal_GPT_gnet_v1.py)
+        - [Primer GPT agenta in uporaba openai](./Terminal_GPT_agent_v1.md)
     - Nekaj več o `Python` seznamih in slovarjih
         - [Primeri uporabe seznamov in slovarjev](./python_seznami_in_slovarji.md)
     - [Dodatne možnosti nastavitve message](./message_role.md)
     - Agenta dopolnimo z možnostjo dopisovanja z GPT asistentom...
-        - [Pošiljanje zgodovine, pogovor, naloga as.](./02_Terminal_GPT_gnet_v2.py)
+        - [Pošiljanje zgodovine, pogovor, naloga as.](./Terminal_GPT_agent_v2.md)
         - [Izboljšajte berljivost programske kode](./Terminal_GPT_naloga.md)
         - [... ali celo preuredite strukturo programa](./Berljivost_programske_kode.md)
         - [shranjevanje pogovora](./shranjevanje_pogovora.md)
