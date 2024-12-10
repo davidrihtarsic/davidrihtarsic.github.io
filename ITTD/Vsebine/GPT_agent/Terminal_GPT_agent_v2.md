@@ -127,4 +127,3 @@ UPORABA GPT API ZA USTVARJANJE INTERAKTIVNEGA TUTORJA
 ### **Rezultat:**
 Študenti bodo nadgradili svojega GPT asistenta, da bo uporabljal zgodovino pogovorov za bolj kontekstualne odgovore. Prav tako bodo razumeli, kako delati z datotekami za shranjevanje in nalaganje podatkov.
 
-Če želiš, lahko pripravim še dodatne naloge ali razširitve na podlagi tega programa! 😊

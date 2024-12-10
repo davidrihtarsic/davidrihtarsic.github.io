@@ -1,6 +1,7 @@
 from openai import OpenAI
 import json
-
+import os
+my_api_key=os.environ.get("ITTD_OPENAI_API_KEY")
 def shrani_pogovor(zgodovina_pogovora, ime_datoteke="pogovor.json"):
     """
     Shrani zgodovino pogovora v JSON datoteko.
@@ -55,10 +56,7 @@ zgodovina_pogovora = nalozi_pogovor()
 #######################################
 # OpenAI
 #######################################
-
-client = OpenAI(
-    api_key="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"  # Tukaj pridobimo API ključ iz okoljske spremenljivke
-)
+client = OpenAI(api_key=my_api_key)
 
 def GPT_tutor(navodila, prompt):
     zgodovina_pogovora.append(

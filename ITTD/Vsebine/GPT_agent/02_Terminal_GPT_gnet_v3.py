@@ -1,7 +1,7 @@
 from openai import OpenAI
-client = OpenAI(
-    api_key="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"  # Tukaj pridobimo API ključ iz okoljske spremenljivke
-)
+import os
+my_api_key=os.environ.get("ITTD_OPENAI_API_KEY")
+client = OpenAI(api_key=my_api_key)
 navodila_asistenta = [
     {
         "role": "system",   # Nastavitev kako naj pomočnik deluje
