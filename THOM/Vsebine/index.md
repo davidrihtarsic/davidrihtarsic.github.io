@@ -15,6 +15,8 @@
 
 **Navodila za seminarsko nalogo: Načrtovanje in izdelava pripomočka za obdelavo lesa**
 
+- [Predloga seminarske naloge](./predloga_seminarske_naloge.md)
+
 V okviru seminarske naloge pri predmetu *Tehnologija obdelave materialov – Les* boste zasnovali, izdelali, preizkusili in dokumentirali pripomoček, ki bo namenjen izboljšanju procesov obdelave lesa. Vaša naloga bo sestavljena iz treh ključnih faz: načrtovanja, prototipiranja (izdelave in preizkusa) ter dokumentiranja celotnega postopka. Cilj naloge je ustvariti orodje, ki bo izboljšalo varnost pri delu ali povečalo natančnost izdelave lesenih izdelkov.
 
 **Faze naloge:**

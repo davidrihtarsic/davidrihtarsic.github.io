@@ -8,6 +8,8 @@
 
 ## Izdelava GPT agenta
 
+- [Predloga seminarske naloge](./predloga_seminarske_naloge.md)
+
 ### **Prvi termin: Uvod in osnove**
 1. **Uvod (30 min)**  
    - Namen in uporaba GPT asistenta pri poučevanju.  
