@@ -9,6 +9,7 @@
 ---
 
 ## Obvestila za študente 2024:
+- [ 2025-01-24_SE-naloga ](./2025-01-24_SE-naloga.md) 
 
 - [ 2024-12-04_kolokvij1 ](./2024-12-04_kolokvij1.md) 
 
