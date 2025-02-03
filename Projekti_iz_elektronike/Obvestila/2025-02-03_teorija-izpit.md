@@ -7,7 +7,7 @@
 
 ---
  
-Rezultati izpita so objavljeni, za ogled pa se prosim naročite po elektronski pošti. Datum in uro vam bom sporočil naknadno, ker še ne vem, kdaj bom naslednjič na PeF.
+Rezultati izpita so objavljeni, za ogled pa se prosim naročite po elektronski pošti. Ogled izpita je lahko v sredo 5.2.2025 ob 12. uri. 
 
 ## Rezultati:
 
