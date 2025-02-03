@@ -9,6 +9,7 @@
 ---
 
 ## 2024:
+- [ 2025-02-03_teorija-izpit ](./2025-02-03_teorija-izpit.md) 
 
 - [ 2024-02-26_vaje-poročila ](./2024-02-26_vaje-poročila.md) 
 - [ 2024-02-16_teorija-k.o. ](./2024-02-16_teorija-k.o..md) 
