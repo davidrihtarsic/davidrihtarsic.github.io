@@ -5,6 +5,19 @@
 2023-03-20: Namestitev iz AUR je delala namestil sem Acrobat Reader 11
 
         yay -S adobe-reader-11
+
+## Wine-mono
+
+Imela sem težave, da nisem imel nameščenega pketa `wine-mono` na [ArchWikiju](https://wiki.archlinux.org/title/Wine#Installation) piše,
+
+> Consider installing wine-gecko and wine-mono for applications that depend on Internet Explorer and .NET, respectively.
+
+zato sem namestil še tedva paketa:
+
+    sudo pacman -S wine-mono wine-gecko
+
+in težava se ni pojavila več...
+
 --- 
 >tle je pa starejše in mi ni delalo...
 

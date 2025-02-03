@@ -47,11 +47,26 @@ je njegova prednost. Na primer manjka mi:
 - UHU lepilo v stiku (seatava, zakaj, kje kako...)
 - FF (mislim, da so s tem lepljene iverne plošče, ker je lepilo trdo, je velika obraba rezil)
 - Neostik (neoprensko lepilo, zakaj mora biti odprti čas, katera sestavina je uporabljena)
-- Sekundno lepilo (cianokol ,  kakšna sestavina to je, zakaj ne lepi nekaterih plastičnih materialov?)
+- Sekundno lepilo (imam)
+    - [o sekundnem lepilu, Vertasium](https://www.youtube.com/watch?v=Ni82f1-cAXg)
 - PVAc (nekako imam)
 - PUR (imam)
 
 -->
+
+### Etil-cianoakrilat (sekundno lepilo)
+
+Etil-cianoakrilat je monomer [strultura molekule](https://www.chemspider.com/Chemical-Structure.73564.html) v katerem je en ogljik z dvojno vezjo željan vezave z drugimi elementi, ki alhko oddajo elektron (npr. voda, kjer ima kisik tako tandenco). Ta sprožilec prične verižno reakcijo, v kateri se več monomerov etil-cianoakrilata poveže v polimer. Te dolge molekule zagotovijo trd spoj med dvema površinama (skoraj katerikoli-dvema). Tak spoj ima visoko natezno trdnost, tudi do 25 MPa.
+
+Zaradi hitre reakcije lahko spoj vsebuje notranje napetosti in zato nima visoke udarne trdnosti, niti ne visoke strižne trdnosti. 
+
+To lepilo ne veže dobro snovi, ki so kemijsko inertne (nimajo dvojnih vezi, ali so ne-polarne, ali nimajo prostih ionov...). Na primer plastike, kot so [poli-etilen](https://www.chemspider.com/Chemical-Structure.6085.html), [poli-stiren](https://www.chemspider.com/Chemical-Structure.7220.html), [teflon](https://www.chemspider.com/Chemical-Structure.8000.html) itd. Te snovi so hidrofobne in odbijajo vodo in tudi tako lahko ocenimo, ali jih bo etil-cianoakrilat lepil med seboj.
+
+Za še hitrejšo reakcijo lahko lepilu dodamo pospeševalec [npr.: AC11](https://www.3m.com/3M/sl_SI/p/d/v000197711/) ali [SN 7452](https://www.henkel-adhesives.com/ee/en/product/adhesive-accelerators/loctite_sf_74520.html) s prisotnimi negativnimi ioni, kot je to pri [disulfidu](https://www.chemspider.com/Chemical-Structure.154763.html) in s tem zelo pospeši reakcijo. Vendar s tem nastanejo krajši polimeri in zato bolj trd spoj z manjšo upogibno trdnostjo. Za domačo rabo lahko uporabimo tudi [natrijev bikarbonat](https://www.chemspider.com/Chemical-Structure.8609.html) oz. sodo bikarbono. Le-ta se veže z vodo iz zraka in tvori hidroksidne ione ($OH^-$). Tako se sekundno lepilo strdi še hitreje in tvori trdo zmes. Na ta način lahko uporabimo sekundno lepilo za ojačitev spoja ali kot polnilo lukenj. V nasprotnem primeru, da želimo čas lepljenja podaljšati lahko lepilu dodamo topilo, kot je na primer aceton in tedaj se bojo tvorili daljši polimeri in spoj bo imel večjo upogibno trdnost.
+
+Polimerizirane molekule etil-cianoakrilata pri temperaturi $210 ^\circ C$ zopet razpadejo na prvotne monomere. Zato to lepilo ni primerno za visoke temperature. S postopkom destilacije, je proces celo v celoti reverzibilen. To lastnost izkoriščajo v namen poizkusa proizvodnje plastike, ki bi imela boljše reciklirne lastnosti[@Allison2023_plastic_ethyl-cyanoacrylate].
+
+Variacija molekule etil-cianoakrilata z daljšo ogljikovo vrsto: [2-oktil-cianoakrilat](https://www.chemspider.com/Chemical-Structure.7991439.html) omogoča daljši čas utrjevanja lepilnega spoja in s tem manj intenzivnejšo eksotermno reakcijo ter tvorijo se daljši polimeri, ki zagotavljajo nekoliko večjo (upogibno) trdnost. To spojino uporabljamo v pripravku [DERMABOND](https://www.jnjmedtech.com/en-US/product/dermabond-advanced-mini-topical-skin-adhesives), ki se uporablja za brez-šivno celjenje ran (oz. lepljenje ran).
 
 ### Polivinilacetatno lepilo
 
@@ -372,4 +387,5 @@ Konstrukcijske vezi lahko razdelimo glede na smer spajanja:
     - le z enim lastovičnim peresom
     - drsni spoj
 
--->
+---
+
