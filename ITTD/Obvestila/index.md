@@ -7,9 +7,12 @@
 
 ---
 
-**Rezultati iz DT-4 (2024)**:
+**ITTD (2024-2025)**:
 
 - [ 2025-02-04_SE-k.o. ](./2025-02-04_SE-k.o..md) 
+
+**Rezultati iz DT-4 (2024)**:
+
 - [ 2024-06-27_SE-naloga ](./2024-06-27_SE-naloga.md) 
 - [ 2024-06-12_SE-k.o. ](./2024-06-12_SE-k.o..md) 
 - [ 2024-06-12_SE-naloga ](./2024-06-12_SE-naloga.md) 
