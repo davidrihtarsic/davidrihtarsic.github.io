@@ -28,7 +28,7 @@ povezovanju komponent. Poročilo ponuja tudi rešitve za te izzive, s
 ciljem, da bi omogočili enostavno izdelavo in uporabo sistema v
 različnih okoljih.
 
-Ključne besede
+Ključne besede:
 
 Senzor temperature in vlage, senzor za merjenje nivoja vode, krmilnik
 Arduino Nano, potenciometer, grelec
@@ -81,10 +81,8 @@ uporabijo za odločanje o tem, ali se grelec vklopi ali izklopi.
 
 -   Ko Arduino prebere temperaturo, jo primerja z nastavljeno zgornjo in
     spodnjo mejo (pragovi temperature).
-
 -   Če temperatura pade pod spodnji prag, se grelec vklopi, da poveča
     temperaturo.
-
 -   Če temperatura preseže zgornji prag, se grelec izklopi, da prepreči
     pregrevanje rastlin.
 
@@ -98,10 +96,8 @@ izračuna nivo vode.
 **Postopek:**
 
 -   Senzor nivoja vode meri vlažnost zemlje.
-
 -   Arduino prebere vrednost iz senzorja (na analognem vhodu) in jo
     prikaže, v primeru drugega programa kot povprečje desetih meritev.
-
 -   Senzor vlage zemlje je povezan z napajanjem.
 
 **4. BD135 tranzistor**
@@ -115,10 +111,8 @@ grelca.
 
 -   Ko Arduino zazna, da je temperatura prenizka (spodnji prag), pošlje
     signal na BD135 tranzistor.
-
 -   Tranzistor bo omogočil pretok toka do grelca, kar povzroči vklop
     grelca.
-
 -   Ko temperatura preseže zgornji prag, Arduino pošlje signal, ki
     izklopi tranzistor, s tem pa tudi grelec.
 
@@ -129,12 +123,11 @@ napajalnik). Vse komponente (Arduino, DHT11, senzor nivoja vode, grelec)
 so povezane z napajanjem. Arduino Nano deluje z napetostjo 5V, kar
 omogoča, da vsi senzorji in tranzistor delujejo z ustrezno napetostjo.
 
-Shema vezja, narejena v programu KiCAD.
 
-![](media/image1.png){width="9.34375in" height="6.291666666666667in"}
+
+![Shema vezja, narejena v programu KiCAD.](media/image1.png){width="9.34375in" height="6.291666666666667in"}
 
 Programska koda
-
 
 ```cpp
 #define SIGNAL_PIN A0   // Pin na Arduino Nano, povezan s signalnim pinom senzorja za merjenje nivoja vode.
