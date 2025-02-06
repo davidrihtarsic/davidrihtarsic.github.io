@@ -76,35 +76,21 @@ omogočeno krmiljenje frekvence signala. V tabeli 1 so navedeni vsi
 uporabljeni elementi, poleg tega pa sem uporabila še osciloskop,
 multimeter in zvočnik, da sem ves čas spremljala delovanje vezja.
 
-  -----------------------------------------------------------------------
-  Element                 Vrednost                Število
-  ----------------------- ----------------------- -----------------------
-  LM741                   /                       2
-
-  Prototipna plošča       /                       1
-
-  Vir napetosti           +12 V, -12 V, GND       1
-
-  Upori                   9,1 kΩ                  2
-
-                          470 kΩ                  2
-
-                          33 kΩ                   1
-
-                          270 Ω                   1
-
-  Kondenzator             0,47uF                  1
-
-  Fotoupor                                        1
-
-  Potenciometer           10kΩ                    1
-
-  LED dioda               /                       1
-
-  Gumica                                          
-
-  Žice                                            
-  -----------------------------------------------------------------------
+| Element           | Vrednost          | Število    |
+| :-------:         | :---------:       | :--------: |
+| LM741             | /                 | 2          |
+| Prototipna plošča | /                 | 1          |
+| Vir napetosti     | +12 V, -12 V, GND | 1          |
+| Upori             | 9,1 kΩ            | 2          |
+|                   | 470 kΩ            | 2          |
+|                   | 33 kΩ             | 1          |
+|                   | 270 Ω             | 1          |
+| Kondenzator       | 0,47uF            | 1          |
+| Fotoupor          |                   | 1          |
+| Potenciometer     | 10kΩ              | 1          |
+| LED dioda         | /                 | 1          |
+| Gumica            |                   |            |
+| Žice              |                   |            |
 
   : Slika 1 Vezje oscilatorja
 
