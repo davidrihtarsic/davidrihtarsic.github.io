@@ -14,6 +14,11 @@
 
 ## Seznam projektov
 
+### 2024
+
+- [Modularni sintisajzer](./2024/Brnot_Eva/modular_synth.md)
+
+
 ### 2020
 
 - [Digitalna klaviatura.](./2020/Ajda/digitlani_klavir.md)
