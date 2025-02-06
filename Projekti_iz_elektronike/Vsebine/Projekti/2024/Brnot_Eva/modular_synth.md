@@ -1,9 +1,6 @@
----
-title: "Modularni sintisajzer"
-author: "Brnot Eva"
-date: "2025-02-06"
-location: "UL, Pedagoška fakulteta"
----
+> Avtor: Brnot Eva
+> Univerza v Ljubljani, Pedagoška fakulteta
+> Datum: 2025-02-06
 
 # NAPETOSTNO KRMILJENI OSCILATOR
 
