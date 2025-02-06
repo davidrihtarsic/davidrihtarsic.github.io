@@ -1,6 +1,6 @@
-> Avtor: Brnot Eva
-> Univerza v Ljubljani, Pedagoška fakulteta
-> Datum: 2025-02-06
+> Avtor: Brnot Eva  
+> Univerza v Ljubljani, Pedagoška fakulteta  
+> Datum: 2025-02-06  
 
 # NAPETOSTNO KRMILJENI OSCILATOR
 
