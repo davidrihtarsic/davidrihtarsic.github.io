@@ -40,3 +40,23 @@ Other parameters you can add that might be useful in certain situations are:
 
 There are also a number of separate debug parameters for enabling debugging in specific subsystems e.g. bootmem_debug, sched_debug. Check the kernel parameter documentation for specific information.
 Note: If you cannot scroll back far enough to view the desired boot output, you should increase the size of the scrollback buffer.
+
+## PROCESS
+
+1. grub - izbereš lahko kateri os boš zagnal
+2. Login manager - izbereš kateri uporabnik in katero Window manager se bo uporabljal
+    - kateri LM uporabljaš lahko preveriš z `status display-manager.service`
+    - trenutno uporabljam SDDM in ima konfiguracijsko datoteko v `/etc/sddm.conf.d/kde_settings.conf`
+3. Uporabniška seja
+    - SDDM izvrši `/usr/share/xsessions/chadwm.desktop` 
+    - `~/.xinitrc` datoteka je namenjena prilagoditvi zagona X seje, ko uporabljaš ukaz `startx`. V njej običajno nastaviš okoljske spremenljivke, zaženeš programe, ki se izvajajo ob začetku seje, in na koncu zaženeš window manager ali namizno okolje.
+    - `chadwm` konfiguriraš preko "config.h", kjer določiš barve, tipkovne bližnjice in pravila za okna (nastavitve se spremenijo ob kompilaciji). Za zagon uporabiš .xinitrc, kjer vpišeš npr. "exec chadwm".
+4. Terminal in ukazne lupine
+    - login lupine:
+        - `/etc/.zshenv` in na to `~/.zshenv`
+        - `/etc/zprofile` in `~/.zprofile`,
+        - `/etc/zshrc` in `~/.zshrc`,
+        - `/etc/zlogin` in `~/.zlogin`.
+    - ne- log-in seje:
+        - `/etc/.zshenv` in na to `~/.zshenv`
+        - `/etc/zshrc` in `~/.zshrc`,

@@ -387,4 +387,6 @@ Za namestitev aplikacij lahko uprabljamo upaz kot na primer:
 Gleja nastavitve za pridobitev LocalKey:
 - https://github.com/jasonacox/tinytuya#setup-wizard---getting-local-keys
 
+## ApexCharts
+
 
