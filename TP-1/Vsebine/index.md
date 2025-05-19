@@ -10,7 +10,8 @@
 ## Študijsko gradivo
 
 - [Parametrično modeliranje](../Skripta/5.0_Parametricno_modeliranje.md) - [PDF](../Skripta/5.0_Parametricno_modeliranje.pdf)
-- Modeliranje na osnovi fotografije
+- [Print-in-place](../Skripta/6.1_Print_in_place.md) - [PDF](../Skripta/6.1_Print_in_place.pdf)
+- [Modeliranje na osnovi fotografije](../Skripta/6.0_Modeliranje_na_osnovi_fotografije.md) - [PDF](../Skripta/6.0_Modeliranje_na_osnovi_fotografije.pdf)
 - [Analiza modela s končnimi elementi](../Skripta/7.0_Analiza_modela_s_končnimi_elementi.md) - [PDF](../Skripta/7.0_Analiza_modela_s_končnimi_elementi.pdf)
 
 ## Dokumentacija
