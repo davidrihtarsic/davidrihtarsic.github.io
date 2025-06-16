@@ -11,10 +11,9 @@ Rezultati 1. izpita iz TP3 so objavljeni v naslednji tabeli. Izjemoma smo spusti
 
 ## Rezultati:
 
-| "VPISNA" | "PREDMET" | 2025-06-09 | "OBVEZNOST" | "TOČKE" | "OCENA" |
-| ---- | ---- | ---- | ---- | ---- | ---- |
-| "1230046" | "TP-3" | 2025-06-09 | "teorija-izpit" | 12 | 73% |
-| "1230105" | "TP-3" | 2025-06-09 | "teorija-izpit" | 9 | 57% |
-| "1220246" | "TP-3" | 2025-06-09 | "teorija-izpit" | 0 | 10% |
-| "1230240" | "TP-3" | 2025-06-09 | "teorija-izpit" | 8 | 52% |
+| "VPISNA"  | "PREDMET" | 2025-06-09 | "OBVEZNOST"     | "TOČKE" | "OCENA" |
+| ----      | ----      | ----       | ----            | ----    | ----    |
+| "1230046" | "TP-3"    | 2025-06-09 | "teorija-izpit" | 12      | 73%     |
+| "1230105" | "TP-3"    | 2025-06-09 | "teorija-izpit" | 9       | 57%     |
+| "1230240" | "TP-3"    | 2025-06-09 | "teorija-izpit" | 8       | 52%     |
 
