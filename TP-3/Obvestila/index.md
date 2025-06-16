@@ -9,6 +9,7 @@
 
 ### 2024:
 
+- [ 2025-06-16_teorija-izpit ](./2025-06-16_teorija-izpit.md) 
 - [ 2024-06-11_teorija-izpit ](./2024-06-11_teorija-izpit.md) 
 
 
