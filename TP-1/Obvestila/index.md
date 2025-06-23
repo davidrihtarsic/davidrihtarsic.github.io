@@ -9,6 +9,7 @@
 
 ## 2025:
 
+- [ 2025-06-23_SE-naloga ](./2025-06-23_SE-naloga.md) 
 - [ 2025-06-23_P-izpit ](./2025-06-23_P-izpit.md) 
 - [ 2025-06-23_KV-poročila ](./2025-06-23_KV-poročila.md) 
 - [ 2025-06-23_KV-izdelki ](./2025-06-23_KV-izdelki.md) 
