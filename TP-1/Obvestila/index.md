@@ -9,6 +9,7 @@
 
 ## Obvestila za študente:
 
+- [ 2025-06-23_KV-izdelki ](./2025-06-23_KV-izdelki.md) 
 ### 2022
 
 - [Še en dodatni rezultat](./2022-06-30_teorija-izpit.md)
