@@ -9,6 +9,7 @@
 
 ### 2025:
 
+- [ 2025-06-24_KV-poročila ](./2025-06-24_KV-poročila.md) 
 - [ 2025-06-16_teorija-izpit ](./2025-06-16_teorija-izpit.md) 
 
 ### 2024:
