@@ -358,6 +358,86 @@ web_server:
 
 ```
 
+### Temperature sensor - sensor
+
+```yaml
+esphome:
+  name: wemos-01
+  friendly_name: WeMos_01
+  on_boot: 
+    then:
+    - output.turn_off: gpio_d1
+    - output.turn_on:  gpio_d2
+
+esp8266:
+  board: esp01_1m
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+  encryption:
+    key: "o1bvmPgdspkGbUmACoYD/koUbsLpif0Q8FZMFcdQzfc="
+
+ota:
+  - platform: esphome
+    password: "91a790ba587af5c17d91a6f75bc5ffdd"
+
+wifi:
+  networks:
+    - ssid: !secret main_wifi_ssid
+      password: !secret main_wifi_password
+    - ssid: !secret extended_wifi_ssid
+      password: !secret extended_wifi_password 
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Wemos-01 Fallback Hotspot"
+    password: "StYrNzepoY8z"
+
+captive_portal:
+
+web_server:
+
+output:
+  - platform: gpio
+    pin: GPIO05
+    id: gpio_d1
+  - platform: gpio
+    pin: GPIO04
+    id: gpio_d2
+
+sensor:
+  - platform: ntc
+    sensor: temp_volt_divider
+    calibration:
+      b_constant: 3435
+      reference_temperature: 25°C
+      reference_resistance: 5.0kOhm
+    name: "TTF-502"
+
+  - platform: resistance
+    id: temp_volt_divider
+    sensor: adc_pin
+    configuration: DOWNSTREAM
+    resistor: 4.7kOhm
+    reference_voltage: 3.2V
+    name: "TTF-502 resistance"
+
+  - platform: adc
+    pin: A0
+    name: "ADC Pin"
+    id: adc_pin
+    update_interval: 10s
+    filters:
+      - multiply: 3.05
+
+deep_sleep:
+  run_duration: 10s
+  sleep_duration: 10min
+```
+
 ### Wireless uploading
 
 ESP module lahko sprogramirmo tudi preko WiFija. Opazil sem, da se povezava
