@@ -8,9 +8,10 @@
 
 ---
 
-## Šolsko leto 2023 - 2024:
+## Šolsko leto 2024 - 2025:
 - [ 2025-07-03_KV-poročila ](./2025-07-03_KV-poročila.md) 
 
+## Šolsko leto 2023 - 2024:
 - [ 2024-02-26_končna_ocena ](./2024-02-26_končna_ocena.md) 
 - [ 2024-02-26_vaje-poročila ](./2024-02-26_vaje-poročila.md) 
 - [ 2024-02-26_vaje-poročila ](./2024-02-26_vaje-poročila.md) 
