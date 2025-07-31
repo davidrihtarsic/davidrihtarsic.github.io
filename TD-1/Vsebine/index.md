@@ -7,5 +7,5 @@
 
 ---
 
-- [Tehnična Dokumentacija](https://davidrihtarsic.github.io/TechDoc/) - spletna različica skripte.
+- [Tehniška Dokumentacija](https://davidrihtarsic.github.io/TechDoc/) - spletna različica skripte.
 - [Skripta predavanj in vaj](../Skripta/index.md)
