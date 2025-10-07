@@ -207,6 +207,19 @@ Table: Priporočljive minimalne razdalje pri vijačenju(d = premer vijaka brez v
 
 ![Razporeditev vijakov, da se izognemo cepljenju lesnih vlaken.](./slike/necepljenje_vijaki.png){#fig:necepljenje_vijaki}
 
+### VPLIV SMERI VLAKEN NA VIJAČENJE
+
+Smer vlaken v lesu ima pomemben vpliv na trdnost vijačnega spoja. Ko vijak privijemo pravokotno na smer lesnih vlaken, se vijačnica uspešno ugrizne med vlakna in jih skorajda ne poškoduje. To omogoča stabilno in močno povezavo, saj vlakna okoli vijačnice pomagajo trdno držati vijak na mestu.
+
+V nasprotju pa privijanje vijaka vzporedno z vlakni povzroči rezanje ali poškodovanje vlaken, kar oslabi celovitost povezave. V tem primeru so vlakna lahko presekana, kar poveča tveganje, da se vijak izvleče ali iztrga iz lesa, saj ni več celovite strukture, ki bi ga podpirala.
+
+Če je potrebno povezati dve letvi pod kotom 90 stopinj, npr. eno desko na čelo druge, lahko težavo omilimo z vstavljanjem moznika kake 2 cm od čela letve. Izvrtane luknje pravokotno na vlakna v deski omogočajo mozniku, da deluje kot stabilizator. Ko nato vijak zavrtamo v čelo letve, ga dejansko zavrtamo tudi v moznik, ki ima lesna vlakna pod pravim kotom glede na vijak, kar zagotavlja močnejšo in bolj zanesljivo spojitev.
+
+<!--
+Seminarska naloga:
+Preskus kako smr vlaken vpliva na vijačenje
+-->
+
 ### VIJAČNI NASTAVEK
 
 #### PLOŠČATI
