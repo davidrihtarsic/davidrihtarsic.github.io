@@ -35,25 +35,133 @@
 
 ## Motorna žaga
 
-Bistveni sestavni deli motorne žage vključujejo:
+1. Pogonski sklop
+    1. Motor:
+        * **Funkcija:** Pretvarja kemično energijo goriva v mehansko energijo, ki poganja verigo.
+        * **Vzdrževanje:** Uporabljaj ustrezno mešanico goriva in olja po navodilih proizvajalca. Redno čisti hladilna rebra na valju motorja. Redno preverjaj kompresijo in tesnila; menjaj obloge valja in batne obročke, če pride do znakov obrabe.
 
-1. Motor: Motor je srce motorne žage in je odgovoren za zagotavljanje energije, potrebne za vrtenje verige. Motorne žage lahko delujejo na električni energiji ali na notranje zgorevalne motorje, kot so motorji na bencin ali na mešanico bencina in olja.
+    2. Bencinski rezervoar
+        * **Funkcija:** Shrani gorivo (mešanica bencina in olja).
+        * **Vzdrževanje:** Redno menjaj filter goriva (1 krat letno). Uporabljaj svežo mešanico goriva; po dolgotrajni neuporabi izprazni rezervoar, da preprečiš nabiranje usedlin in zamašitve.
 
-2. Veriga: Veriga je sestavljena iz povezanih členov, ki so pritrjeni na vodnik verige. Veriga je odgovorna za rezanje lesa. Verige so izdelane iz trpežnih kovinskih materialov, kot je jeklo, in so lahko zobate ali gladke, odvisno od namena uporabe motorne žage.
+    3. Rezervoar za olje
+        * **Funkcija:** Dovaja mazalno olje za verigo in vodilno letev.
+        * **Vzdrževanje:** Vedno uporabljaj primerno olje za verižne žage. Redno preverjaj pretok olja in očisti zamašene kanale.
 
+    3. Vžigalna svečka
+        * **Funkcija:** Ustvari iskro za vžig goriva v valju.
+        * **Vzdrževanje:** Čisti elektrodo na vsake 25–50 ur delovanja, menjaj svečko ob znaku obrabe ali težav pri vžigu.
+
+    3. Zračni filter
+        * **Funkcija:** Preprečuje vstop prahu, opilkov in drobirja v motor.
+        * **Vzdrževanje:** Redno čistiti (po potrebi celo vsakodnevno pri intenzivni uporabi); zamenjati, če je filter poškodovan ali močno zamašen.
+
+    3. Uplinjač
+        * **Funkcija:** Meša gorivo in zrak v pravem razmerju za zgorevanje.
+        * **Vzdrževanje:** Občasno nastavi vijake za prosti tek in glavno šobo; očisti notranje kanale in membrane. Uporabljaj čisto gorivo in filter za gorivo.
+
+    3. Dovod zraka
+        * **Funkcija:** Dovaja čist zrak v uplinjač za zgorevanje.
+        * **Vzdrževanje:** Redno odstranjuj prah in smeti z zračnih kanalov.
+
+    3. Izpušni sistem (dušilec)
+        * **Funkcija:** Odvaja in duši izpušne pline, zmanjšuje hrup.
+        * **Vzdrževanje:** Preverjaj morebitne zamašitve zaradi saj in očisti mrežico proti iskrám (spark arrestor).
+
+    3. Zaganjalnik
+        * **Funkcija:** Ročni povratni zaganjalnik z vrvico omogoča zagon motorja.
+        * **Vzdrževanje:** Preverjaj vrvico in povratno vzmet, po potrebi namaži in zamenjaj obrabljene dele.
+
+2. Prenosni in rezalni sklop
+
+    3. Sklopka
+        * **Funkcija:** Centrifugalna sklopka poveže motor z verigo pri višjih vrtljajih in prepreči vrtenje verige v prostem teku.
+        * **Vzdrževanje:** Preverjaj obrabo čeljusti in vzmeti; čistiti ostanke smole in žagovine.
+
+    3. Pogonski zobnik (verižnik)
+        * **Funkcija:** Prenese moč motorja na rezalno verigo.
+        * **Vzdrževanje:** Preverjaj obrabo zobnika in ga zamenjaj, ko se zobje začnejo koničiti ali nastanejo utori.
+
+    3. Vodila verige
+        * **Funkcija:** Vodijo verigo po pravilni poti okrog meča.
+        * **Vzdrževanje:** Redno čistiti, mazati z oljem in preverjati, da ni zarez ali poškodb.
+
+    3. Vodilna letev (meč)
+        * **Funkcija:** Usmerja rezalno verigo pri rezanju.
+        * **Vzdrževanje:** Redno obračaj letev (zgornjo in spodnjo stran), čistiti utor in odprtine za mazanje. Menjaj ob izraziti obrabi utora ali konice.
+
+    3. Napenjalec verige
+        * **Funkcija:** Omogoča prilagajanje napetosti verige za učinkovito in varno delovanje.
+        * **Vzdrževanje:** Preverjaj delovanje vijaka in vzmeti; vedno napni verigo, da ne visi, a se še prosto giblje z roko.
+
+    3. Rezalna veriga
+        * **Funkcija:** Glavni rezalni element za prežagovanje lesa.
+        * **Vzdrževanje:** Redno ostri rezalne zobe z ustrezno pilo (pod pravim kotom in enakomerno). Očisti in zamenjaj poškodovane člene. Preverjaj dolžino in stanje verige.
 ![Oblika zoba motorne žage](./slike/Oblika_žaginega_zoba.png){#fig:Oblika_žaginega_zoba}
 
-3. Vodnik verige: Vodnik verige je plošča, po kateri poteka veriga. Na vodniku verige so nameščeni tudi vodilni zobje, ki usmerjajo verigo med rezanjem lesa. Vodniki verig so izdelani iz trpežnih kovinskih materialov, kot je jeklo ali titan, in so na voljo v različnih dolžinah, odvisno od velikosti motorne žage.
+    3. Oljna črpalka
+        * **Funkcija:** Dovaja mazalno olje na verigo in meč.
+        * **Vzdrževanje:** Preverjaj pretok olja in očisti kanale ter šobe. Ne uporabljaj brez olja, da preprečiš pregrevanje verige.
 
-4. Ročaj: Ročaj je del motorne žage, ki ga držimo med uporabo. Ročaji motorne žage so običajno ergonomsko oblikovani, da zagotavljajo udoben oprijem in dober nadzor nad žago med delovanjem. Ročaji so praviloma izdelani iz trpežnih materialov, kot je plastika ali kovina.
+3. Ohišje in varnostni sklopi
 
-5. Zaganjalnik: Zaganjalnik je mehanizem, ki se uporablja za zagon motorja motorne žage. Zaganjalnik je običajno opremljen s posebnim ročajem, ki ga vlečemo, da zavrtimo motor in ga zaženemo. Odvisno od vrste motorne žage, lahko zaganjalnik deluje z ročnim potegom, električnim vžigom ali s pomočjo vzvodov.
+    3. Ohišje motorja
+        * **Funkcija:** Nosilna konstrukcija, ki združuje vse sklope žage.
+        * **Vzdrževanje:** Čisti ohišje, preveri, da ni razpok ali zlomov.
 
-6. Rezervoar za gorivo: Rezervoar za gorivo je posoda, v kateri se shranjuje gorivo za motor motorne žage. Odvisno od vrste motorja, motorne žage uporabljajo bencin, mešanico bencina in olja ali električno energijo. Rezervoarji za gorivo so običajno izdelani iz trpežne plastike in imajo priključek za polnjenje goriva.
+    3. Ročaji (sprednji in zadnji)
+        * **Funkcija:** Omogočajo varen in stabilen prijem žage.
+        * **Vzdrževanje:** Preverjaj pritrjenost in nepoškodovanost. Čisti, da niso mastni ali spolzki.
 
-7. Izklopna zavora: Izklopna zavora je varnostni mehanizem, ki preprečuje, da bi veriga še naprej delovala, ko motorne žage niso v uporabi ali ko se pojavi nevarnost. Izklopna zavora se aktivira ob sprostitvi ročaja za zagon ali ob nenadnem zasuku motorne žage.
+    3. Plinska ročica
+        * **Funkcija:** Uravnava dovod goriva v motor in s tem hitrost vrtenja verige.
+        * **Vzdrževanje:** Preveri gladko gibanje in vračanje v prosti tek. Po potrebi namaži.
 
-Poleg teh bistvenih sestavnih delov motorne žage lahko obstajajo tudi drugi dodatni deli, kot so dušilniki zvoka, zračni filtri, napenjalniki verig, sistem za mazanje verige in drugi, odvisno od modela in namena motorne žage."
+    3. Varnostni sprožilec plina
+        * **Funkcija:** Preprečuje nenamerno dodajanje plina.
+        * **Vzdrževanje:** Preverjaj redno delovanje in odzivnost.
+
+    3. Zavora verige
+        * **Funkcija:** S hitrim zaviranjem ustavi verigo pri povratnem udarcu (kickback) ali ko ročico potisneš naprej.
+        * **Vzdrževanje:** Redno preverjaj delovanje, čistiti zavorni trak in mehanizem.
+
+    3. Zaščitni lok ročaja
+        * **Funkcija:** Ščiti roko in služi za sprožitev zavore verige.
+        * **Vzdrževanje:** Preveri celovitost in gibljivost, odstrani smolo in opilke.
+
+    3. Drsni ščitnik verige
+        * **Funkcija:** Prekriva zgornji del verige in zmanjšuje nevarnost stika z njo.
+        * **Vzdrževanje:** Čisti in preveri pritrjenost.
+
+    3. Pokrov sklopke in verige
+        * **Funkcija:** Ščiti sklopko in verižnik ter omogoča dostop za servisiranje.
+        * **Vzdrževanje:** Očisti notranjost pokrova od olja in žagovine.
+
+4. Dodatni deli in pripomočki
+
+    3. Napenjalni vijak
+        * **Funkcija:** Natančno nastavlja napetost verige.
+        * **Vzdrževanje:** Občasno namaži navoj in očisti umazanijo.
+
+    3. Dušilni gumbi (čok in stop-switch)
+        * **Funkcija:** Olajšata zagon hladnega motorja in zaustavitev motorja.
+        * **Vzdrževanje:** Preverjaj delovanje in čistost gibljivih delov.
+
+    3. Vodilni zob (odbijač)
+        * **Funkcija:** Oprijema se lesa in stabilizira rez med delom.
+        * **Vzdrževanje:** Preverjaj ostrino in integriteto; po potrebi nabrusi.
+
+    3. Amortizerji vibracij
+        * **Funkcija:** Zmanjšujejo vibracije, ki se prenašajo na uporabnika.
+        * **Vzdrževanje:** Redno preverjaj celovitost gumijastih oziroma vzmetnih elementov in jih zamenjaj ob znakih obrabe.
+
+    3. Pokrov zračnega filtra
+        * **Funkcija:** Omogoča hiter dostop do filtra.
+        * **Vzdrževanje:** Redno čistiti, da se filter lahko prosto zamenja.
+
+    3. Pokrov verižnika in meča (transportni pokrov)
+        * **Funkcija:** Varuje verigo in uporabnika pri transportu in shranjevanju.
+        * **Vzdrževanje:** Čisti in preveri, da ni poškodovan.
 
 ## Nevarnosti
 

@@ -90,6 +90,8 @@ Ločimo predvsem dve različni odrezovalni smeri:
 
 ## Nastavitve orodja (lisičji rep s hrbtom)
 
+### Koti rezilnega zoba
+
 Za fino rezanje čepov ali rogljev bomo potrebovali lisičji rep s hrbtom z ustreznimi nastavitvami. Najprej si oglejmo terminologijo pri poimenovanju ozobčenja na [@fig:ozobcenje]:
 
 ![Pomembne nere ozobčenja](./slike/rocna_zaga.png){#fig:ozobcenje}
@@ -104,15 +106,43 @@ Za fino rezanje čepov ali rogljev bomo potrebovali lisičji rep s hrbtom z ustr
 Vsota vseh treh kotov je enaka 90°, kar pomeni, da vsaka sprememba enega kota, vpliva na ostala dva kota..
 
 - Prosti kot $\alpha$
-    - Prosti kot se giblje med -30° in +30°.
+    - Prosti kot se giblje med 50° in 70°. Služi kot prostor za odrezke. Pri odžagovanju mehkega lesa lahko pričakujemo velike odrezke, zato bi bilo smiselno, da je ta kot večji (ali pa moramo izbrati žago z mnajšim tpi = večji zobje)
 - Kot klina $\beta$
     - Kot zoba določa žilavost, čvrstost in trdnost
-    - Določa ga oblika pile in je zato 60°.
+    - Določa ga oblika pile in je okoli 60°.
 - Cepilni kot $\gamma$
     - cepilni kot narekuje agresivnost odreza zato ga lagko povečamo, ko odrezujemo mehak les in ga moramo zmajšati, ko režemo trši les. Če je cepili kot velik, bodo odrezki veliki in zato morate imeti tudi več prostora med zobmi in večji prosti kot.
     - Manjši cepilni kot bo povzročil tudi manj iztrganih vlaken na spodnji/zadnji strani obdelovanca.
     - Pri večjih potrebah točnega odreza in ne iztrgovanja vlaken lahko celo uporabljamo negativni cepilni kot
     - Negativni cepilni (-30°) kot uporabljamo tudi pri prvih zobeh, s katerimi začnemo rez.
+
+### Razperitev
+
+Poleg nastavitve kotov ozobljena ne smemo spregledati tudi razperitve. **Razperitev žaginega lista pri ročni žagi** se nanaša na postavitev zob žaginega lista v široko konfiguracijo, v kateri so zobje izmenično upognjeni v levo in desno stran glede na ploskev lista. Namen razperitve je povečanje širine reza, ki ga lista naredi, s čimer se zmanjša trenje med listom in lesenim materialom ter prepreči njegovo zatikanje med žaganjem.
+
+#### Kako izmerimo razperitev:
+
+Razperitev se meri kot razlika v širini med dvema zunanjima zoboma na nasprotnih straneh žaginega lista. Običajno se to izmeri z merilnikom debeline ali s posebno napravo za merjenje razperitve, ki omogoča natančno določitev odstopanja zob od sredinske osi lista.
+
+#### Kako izvedemo razperitev:
+
+Postopek izvedbe razperitve vključuje uporabo posebnega orodja, imenovanega klešče za razperitev ali seta, ki omogoča natančno prepogibanje zob v želeni smeri. Vsak drugi zob je rahlo upognjen v eno smer, naslednji pa v nasprotno, da se ustvari enakomerno širjenje.
+
+Koraki za izvedbo razperitve so:
+1. **Priprava**: Zavarujte žagin list v primež z zobmi, ki so postavljeni proti vam.
+2. **Izbira klešč**: Uporabite klešče za razperitev, ki imajo posamezne utore za natančno prileganje zob.
+3. **Upogibanje zob**: Začnite z upogibanjem enega zoba v eno smer, nato pa preskočite en zob in upognite naslednjega v nasprotno smer. To ponovite po celotni dolžini lista.
+
+#### Kaj razperitev omogoča:
+
+- **Širši rez**: Razperitev poveča širino reza, kar zmanjšuje trenje med žaginim listom in materialom.
+- **Manjše zatikanje**: Večji rez omogoča, da se list ne zatakne v materialu, kar olajša rezanje.
+- **Čistejši rezi**: Pravilno izvedena razperitev izboljšuje natančnost in čistočo rezov, saj se material ne trga zaradi pretesnega prileganja lista.
+- **Daljša življenjska doba lista**: Zmanjšano trenje pomeni manj obrabe zob in daljšo življenjsko dobo žaginega lista. 
+
+Z ustrezno razperitvijo dosežemo optimalno delovanje ročne žage in izboljšamo učinkovitost rezanja.
+
+- [Več o nastavitvi ročne žage](https://www.blackburntools.com/articles/saw-tooth-geometry/index.html)
 
 **ZOBJE ZA VZDOLŽNI RAZREZ**
 
