@@ -9,7 +9,7 @@
 
 ## Predavanja (LES)
 
-- [Trenutno sledite navodilom pri TP-2](https://davidrihtarsic.github.io/TP-2/index.html)
+- [Zapiski predavanj (Tehnologija obdelave lesa))](../Skripta/index.md)
 
 ## Seminar
 
