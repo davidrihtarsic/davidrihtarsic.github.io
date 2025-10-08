@@ -8,7 +8,7 @@
 ---
 ## Predavanja
 
-- [Študijsko gradivo](./Študijsko_Gradivo/index.md)
+- [Študijsko gradivo](./Studijsko_Gradivo/index.md)
 - [Primer vezij](https://github.com/davidrihtarsic/davidrihtarsic.github.io/tree/master/Projekti_iz_elektronike/Vsebine/%C5%A0tudijsko_Gradivo/circ)
 
 ---
