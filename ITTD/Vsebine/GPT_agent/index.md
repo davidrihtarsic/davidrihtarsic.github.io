@@ -33,19 +33,7 @@
         - [Beleženje pogovora, conversation_id](./350_Terminal_GPT_agent_v2.md)
         - [Shranjevanje pogovora v json datoteko](./600_shranjevanje_pogovora.md)
 
-3. **Prilagajanje asistenta učnim potrebam**
-
-    - pogovor z asistentom razstavite na ključne elemente učnega procesa npr.:
-        - navodila_za_asistenta,
-        - naloga_projekta,
-        - učni cilji,
-        - razumevanje_ucenca,
-        - kontekst_pogovora ...
-        - vse te elemente dodajajte v pogovor, da boste dobili najboljši odgovor.
-
-    - [Jasna_navodila_GPT_asistenta](./700_Jasna_navodila_GPT_asistenta.md)
-
-4. **Ustvarjanje gradiva za vektorsko skladišče**
+3. **Ustvarjanje gradiva za vektorsko skladišče**
 
 Za potrebe učnega procesa ne moremo mimo [UČNEGA NAČRTA za TIT](https://www.gov.si/assets/ministrstva/MVI/Dokumenti/Osnovna-sola/Ucni-nacrti/Ucni-nacrti/2025/UN_OS/Didakticna_priporocila_k_ucnemu_nacrtu_tehnika_in_tehnologija_2025.pdf), ki ga predpiše ministerstvo. To gradivo ni najbolj primerno za vključitev v vektorsko skladišče ai agenta. To lahko storimo tako:
 
@@ -62,7 +50,22 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 - Varnost, avtorske pravice in etika
 - Začetek implementacije in priporočen postopek (kopičenje virov, seznam metapodatkov, izdelava prvih enot)
 
-5. **Načrtovanje GPT tutorja**  
+4. **Prilagajanje asistenta učnim potrebam**
+
+    - pogovor z asistentom razstavite na ključne elemente učnega procesa npr.:
+        - navodila_za_asistenta,
+        - naloga_projekta,
+        - učni cilji,
+        - razumevanje_ucenca,
+        - kontekst_pogovora ...
+        - vse te elemente dodajajte v pogovor, da boste dobili najboljši odgovor.
+
+    - [Jasna_navodila_GPT_asistenta](./700_Jasna_navodila_GPT_asistenta.md)
+
+
+### **Drugi termin: Prilagoditev in funkcionalnosti**
+
+**Načrtovanje GPT tutorja**  
     - Študentje načrtujejo svojega GPT tutorja, ki bo vodil učenca pri izdelavi zamišljenega projekta.
     - Študent naj si zamisli preprosto projektno nalogo in 
     - z ozirom nanjo načrtuje GPT tutorja.
@@ -81,7 +84,6 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
         - ...
 ---
 
-### **Drugi termin: Prilagoditev in funkcionalnosti**
 1. **Uporabniški vmesnik**
 
     - Ustvarjanje Python strežnika s Flask knjižnico
