@@ -29,15 +29,15 @@
 >    - Nekaj več o `Python` seznamih in slovarjih
 >        - [Primeri uporabe seznamov in slovarjev](./310_python_seznami_in_slovarji.md)
 >    - [Dodatne možnosti nastavitve message](./320_message_role.md)
-    - Agenta dopolnimo z možnostjo beleženja zgodovine pogovora. Tako lahko Agent ohranja kontekst pogovora.
+    - Asistenta dopolnimo z možnostjo beleženja zgodovine pogovora. Tako lahko Asistent ohranja kontekst pogovora.
         - [Beleženje pogovora, conversation_id](./350_Terminal_GPT_agent_v2.md)
         - [Shranjevanje pogovora v json datoteko](./600_shranjevanje_pogovora.md)
 
 3. **Ustvarjanje gradiva za vektorsko skladišče**
 
-Za potrebe učnega procesa ne moremo mimo [UČNEGA NAČRTA za TIT](https://www.gov.si/assets/ministrstva/MVI/Dokumenti/Osnovna-sola/Ucni-nacrti/Ucni-nacrti/2025/UN_OS/Didakticna_priporocila_k_ucnemu_nacrtu_tehnika_in_tehnologija_2025.pdf), ki ga predpiše ministerstvo. To gradivo ni najbolj primerno za vključitev v vektorsko skladišče ai agenta. To lahko storimo tako:
+Za potrebe učnega procesa ne moremo mimo [UČNEGA NAČRTA za TIT](https://www.gov.si/assets/ministrstva/MVI/Dokumenti/Osnovna-sola/Ucni-nacrti/Ucni-nacrti/2025/UN_OS/Didakticna_priporocila_k_ucnemu_nacrtu_tehnika_in_tehnologija_2025.pdf), ki ga predpiše ministerstvo. To gradivo ni najbolj primerno za vključitev v vektorsko skladišče ai asistenta. To lahko storimo tako:
 
-- [Primer povezave AI agenta z vektorskim skladiščem.](./712_VectorStore_ai_agent_call.md)
+- [Primer povezave AI asistenta z vektorskim skladiščem.](./712_VectorStore_ai_agent_call.md)
 
 Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. Pri ustvarjanju gradiva za [vektorsko skladišče](./710_Vectore_store.md) je dobro upoštevati nekaj smernic:
 
