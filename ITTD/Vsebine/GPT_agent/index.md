@@ -43,7 +43,7 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 
 - Namen in obseg gradiva
 - Zbiranje in priprava gradiva - primer [Energetika](./711_Primer_gradiva_Energetika_TIT.md)
-- Struktura in metapodatki
+- Struktura in metapodatki (nekaj več o [markdown](https://www.markdownguide.org/basic-syntax/) načinu pisanja ), preskusite se lahko tudi v [spletnih orodjih mardown](https://markdownlivepreview.com/)
 - Razdelitev gradiva na enote
 - Uporaba gradiva za iskanje in odzive v AI
 - Kakovost, preverjanje in vzdrževanje
