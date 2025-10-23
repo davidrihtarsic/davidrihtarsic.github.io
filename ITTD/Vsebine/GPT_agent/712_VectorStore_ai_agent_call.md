@@ -95,6 +95,7 @@ def start_chat():
         if this_is_first_message :
             # send system message only once at the beginning of the conversation
             system_message = {"role": "system", "content": AI_AGENT_INSTRUCTIONS}
+            this_is_first_message=False
         else:
             system_message = None
 

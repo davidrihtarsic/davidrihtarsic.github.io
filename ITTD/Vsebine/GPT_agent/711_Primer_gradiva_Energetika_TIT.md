@@ -2,7 +2,6 @@
 title: "Energija in pretvorbe energije"
 subject: "Tehnika in tehnologija"
 level: "Osnovna šola (7. razred)"
-author: "dr. David Rihtaršič"
 keywords: ["energija", "pretvorniki", "učne aktivnosti", "STEM", "robotika"]
 learning_objectives:
   - "Učenci razumejo osnovne oblike energije (mehanska, toplotna, električna)."
