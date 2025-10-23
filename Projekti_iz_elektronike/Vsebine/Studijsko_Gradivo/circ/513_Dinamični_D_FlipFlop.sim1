@@ -1,0 +1,55 @@
+<circuit version="1.1.0-SR0" rev="2278" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-8" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-20" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-8" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-10" mainComp="false" Show_id="false" Show_Val="false" Pos="-372,-60" rotation="0" hflip="1" vflip="1" label="TextComponent-10" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="DATA" />
+
+<item itemtype="Probe" CircId="Probe-12" mainComp="false" Show_id="false" Show_Val="true" Pos="-104,-36" rotation="-45" hflip="1" vflip="1" label="Probe-12" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="TextComponent" CircId="TextComponent-14" mainComp="false" Show_id="false" Show_Val="false" Pos="-144,-52" rotation="0" hflip="1" vflip="1" label="TextComponent-14" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="Q" />
+
+<item itemtype="Clock" CircId="Clock-26" mainComp="false" Show_id="false" Show_Val="false" Pos="-344,32" rotation="0" hflip="1" vflip="1" label="Clock-26" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Out="true" Running="true" Voltage="5 V" Freq="0.5 Hz" Always_On="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-31" mainComp="false" Show_id="false" Show_Val="false" Pos="-384,52" rotation="0" hflip="1" vflip="1" label="TextComponent-31" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="false" Text="CLOCK" />
+
+<item itemtype="FlipFlopD" CircId="FlipFlopD-37" mainComp="false" Show_id="false" Show_Val="false" Pos="-220,-20" rotation="0" hflip="1" vflip="1" label="FlipFlopD-37" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="Clock" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Tunnel" CircId="Tunnel-41" mainComp="false" Show_id="false" Show_Val="false" Pos="-312,32" rotation="360" hflip="-1" vflip="1" label="Tunnel-41" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CLK" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-42" mainComp="false" Show_id="false" Show_Val="false" Pos="-256,32" rotation="360" hflip="1" vflip="1" label="Tunnel-42" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CLK" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-43" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-20" rotation="360" hflip="-1" vflip="1" label="Tunnel-43" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Data" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-44" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-20" rotation="360" hflip="1" vflip="1" label="Tunnel-44" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Data" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-46" mainComp="false" Show_id="false" Show_Val="false" Pos="-140,-20" rotation="360" hflip="1" vflip="1" label="Tunnel-46" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-47" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,-20" rotation="360" hflip="-1" vflip="1" label="Tunnel-47" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Oscope" CircId="Oscope-48" mainComp="false" Show_id="false" Show_Val="false" Pos="-80,108" rotation="0" hflip="1" vflip="1" label="Oscope-48" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="1" Filter="0.1 V" Trigger="1" AutoSC="4" Tracks="4" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Tunnel" CircId="Tunnel-49" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,124" rotation="360" hflip="1" vflip="1" label="Tunnel-49" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-50" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,92" rotation="360" hflip="1" vflip="1" label="Tunnel-50" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="CLK" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-51" mainComp="false" Show_id="false" Show_Val="false" Pos="-176,60" rotation="360" hflip="1" vflip="1" label="Tunnel-51" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Data" IsBus="false" />
+
+<item itemtype="Connector" uid="Connector-79" startpinid="Tunnel-41-pin" endpinid="Clock-26-outnod" pointList="-312,32,-328,32" />
+
+<item itemtype="Connector" uid="Connector-80" startpinid="Tunnel-42-pin" endpinid="FlipFlopD-37-in3" pointList="-256,32,-244,32,-244,-12,-236,-12" />
+
+<item itemtype="Connector" uid="Connector-82" startpinid="Tunnel-44-pin" endpinid="FlipFlopD-37-in0" pointList="-252,-20,-236,-20" />
+
+<item itemtype="Connector" uid="Connector-83" startpinid="Tunnel-43-pin" endpinid="Fixed Voltage-8-outnod" pointList="-316,-20,-332,-20" />
+
+<item itemtype="Connector" uid="Connector-88" startpinid="Tunnel-47-pin" endpinid="FlipFlopD-37-out0" pointList="-180,-20,-196,-20" />
+
+<item itemtype="Connector" uid="Connector-89" startpinid="Tunnel-46-pin" endpinid="Probe-12-inpin" pointList="-140,-20,-120,-20" />
+
+<item itemtype="Connector" uid="Connector-90" startpinid="Tunnel-49-pin" endpinid="Oscope-48-Pin2" pointList="-176,124,-168,124" />
+
+<item itemtype="Connector" uid="Connector-91" startpinid="Tunnel-50-pin" endpinid="Oscope-48-Pin1" pointList="-176,92,-168,92" />
+
+<item itemtype="Connector" uid="Connector-92" startpinid="Tunnel-51-pin" endpinid="Oscope-48-Pin0" pointList="-176,60,-168,60" />
+
+</circuit>

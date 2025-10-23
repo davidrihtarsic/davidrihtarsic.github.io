@@ -1,0 +1,35 @@
+<circuit version="1.1.0-SR0" rev="2278" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Buffer" CircId="Buffer-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,20" rotation="0" hflip="1" vflip="1" label="Buffer-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.4 V" Input_Low_V="1.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Capacitor" CircId="Capacitor-3" mainComp="false" ShowProp="Capacitance" Show_id="false" Show_Val="true" Pos="-356,44" rotation="90" hflip="1" vflip="1" label="Capacitor-3" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Capacitance="10 µF" Resistance="1 µΩ" InitVolt="0 V" ReaStep="0 ns" />
+
+<item itemtype="Ground" CircId="Ground-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-356,84" rotation="0" hflip="1" vflip="1" label="Ground-4" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Buffer" CircId="Buffer-6" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,20" rotation="0" hflip="1" vflip="1" label="Buffer-6" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Input_High_V="2.4 V" Input_Low_V="1.5 V" Input_Imped="1000 MΩ" Invert_Inputs="false" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" initHigh="false" Inverted="true" Open_Collector="false" Tristate="false" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Oscope" CircId="Oscope-9" mainComp="false" Show_id="false" Show_Val="false" Pos="-108,68" rotation="0" hflip="1" vflip="1" label="Oscope-9" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="20000000000" TimPos="0,0,0,0," VolDiv="2,2,2,2," Tunnels=",,,," Trigger="0" Filter="0.1 V" Trigger="0" AutoSC="4" Tracks="1" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="LDR" CircId="LDR-11" mainComp="false" Show_id="false" Show_Val="false" Pos="-316,-20" rotation="360" hflip="1" vflip="1" label="LDR-11" idLabPos="-16,-24" labelrot="0" valLabPos="-16,30" valLabRot="0" Lux="500 Lux" Min_Lux="0 Lux" Max_Lux="1000 Lux" Dial_Step="0 Lux" Gamma="0.8582" R1="127410 Ω" Slider="true" Scale="1" />
+
+<item itemtype="Node" CircId="Node-15" mainComp="false" Pos="-284,20" />
+
+<item itemtype="Node" CircId="Node-16" mainComp="false" Pos="-356,20" />
+
+<item itemtype="Connector" uid="Connector-1" startpinid="Ground-4-Gnd" endpinid="Capacitor-3-rPin" pointList="-356,68,-356,60" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Oscope-9-Pin0" endpinid="Buffer-6-out" pointList="-196,20,-236,20" />
+
+<item itemtype="Connector" uid="Connector-30" startpinid="LDR-11-rPin" endpinid="Node-15-1" pointList="-300,-20,-284,-20,-284,20" />
+
+<item itemtype="Connector" uid="Connector-31" startpinid="Buffer-6-in0" endpinid="Node-15-0" pointList="-268,20,-284,20" />
+
+<item itemtype="Connector" uid="Connector-32" startpinid="Node-15-2" endpinid="Buffer-1-out" pointList="-284,20,-300,20" />
+
+<item itemtype="Connector" uid="Connector-33" startpinid="LDR-11-lPin" endpinid="Node-16-1" pointList="-332,-20,-356,-20,-356,20" />
+
+<item itemtype="Connector" uid="Connector-34" startpinid="Buffer-1-in0" endpinid="Node-16-0" pointList="-332,20,-356,20" />
+
+<item itemtype="Connector" uid="Connector-35" startpinid="Node-16-2" endpinid="Capacitor-3-lPin" pointList="-356,20,-356,28" />
+
+</circuit>

@@ -1,0 +1,34 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Early Robotics - Course Informations</title>
+  <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/index.html"/>
+  <updated>2024-06-06T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/index.html</id>
+
+  <entry>
+    <title>2024-06-06_končna_ocena</title>
+    <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/2024-06-06_končna_ocena.html"/>
+    <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/2024-06-06_končna_ocena.html</id>
+    <updated>2024-06-06T16:12:10Z</updated>
+    <summary>Here are the final score of the Early Robotics course. Please sign in [our sistem](https://vispef.uni-lj.si/) to get your score officialy confirmed.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-06-06_teorija-izpit</title>
+    <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/2024-06-06_teorija-izpit.html"/>
+    <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/2024-06-06_teorija-izpit.html</id>
+    <updated>2024-06-06T15:57:09Z</updated>
+    <summary>Congratulation, You have all pass the exam. There are your scores...</summary>
+  </entry>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/Robotika_Zacetna/Obvestila/rss_sporocila.html</id>
+    <updated>2024-06-06T22:36:45Z</updated>
+    <summary>The purpose of these notifications is to inform you about a new post in your notification reader. This way, you won't need to manually check for updates and follow new posts. You can subscribe to notifications by linking to this RSS feed. You can read them with any RSS client (e.g., Feedly), and some email clients also support reading them (e.g., Thunderbird).</summary>
+  </entry>
+
+</feed>

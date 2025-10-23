@@ -1,0 +1,1978 @@
+<!DOCTYPE html>
+<html style="display:flex;align-content:center;justify-content: center; align-content: center; align-items: center;">
+    <body style="width:1000px">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+
+<details id="toc-page" style="font-family:verdana" >
+    <summary>
+        <h1>Robotics Starter Course</h1>
+    </summary>
+        <hr>
+        <ol class="toc_list">
+            <!-- to generate the TOC just run:
+                :read !grep "<h2" StarterRoboticsCoure.html|sed 's/h2 id="/a href="#/g;s/<\/h2>/<\/a>/g'
+                grep "<h2" RoboticsStarterCourse.html |sed 's/h2 id="/a href="#/g;s/<\/h2>/<\/a>/g'
+            -->
+            <h3><b>Testing</b></h3>
+            <li><a href="#1"><b>Testing the equipment</b></a></li>
+            <hr>
+            <h3><b>Ardublockly</b></h3>
+            <li><a href="#2"><b>Hello World in Ardublockly</b></a></li>
+            <li><a href="#3"><b>How DC motor works</b></a></li>
+            <li><a href="#4"><b>Controlling the DC motor with Digital Outputs</b></a></li>
+            <li><a href="#5"><b>Geared reductor</b></a></li>
+            <li><a href="#6"><b>Constructing the mobile robot</b></a></li>
+            <li><a href="#7"><b>Controlling the robot</b></a></li>
+            <li><a href="#8"><b>Programming functions</b></a></li>
+            <li><a href="#9"><b>Programming loops - For</b></a></li>
+            <li><a href="#10"><b>Writing program in C++</b></a></li>
+            <li><a href="#11"><b>Digital sensors</b></a></li>
+            <li><a href="#12"><b>Reading digital sensors</b></a></li>
+            <li><a href="#13"><b>S-R-A loop</b></a></li>
+            <hr>
+            <h3><b>Arduino IDE (C++)</b></h3>
+            <li><a href="#14"><b>Hello World in Arduino IDE</b></a></li>
+            <li><a href="#15"><b>Controlling the robot</b></a></li>
+            <li><a href="#16"><b>Programming loop - FOR</b></a></li>
+            <li><a href="#17"><b>Reading digital input</b></a></li>
+            <li><a href="#18"><b>S-R-A loop</b></a></li>
+            <li><a href="#19"><b>Reading analog input</b></a></li>
+            <li><a href="#20"><b>Avoiding obstacles</b></a></li>
+            <li><a href="#21"><b>Light sensor</b></a></li>
+            <li><a href="#22"><b>Line follower</b></a></li>
+
+
+            <hr>
+            <h3><b>Advanced programming</b></h3>
+            <li><a href="#23"><b>Variables</b></a></li>
+            <li><a href="#24"><b>Barrier gate construction</b></a></li>
+            <li><a href="#25"><b>Reference point.</b></a></li>
+            <li><a href="#26"><b>Reed switch and pull-up resistors</b></a></li>
+            <li><a href="#27"><b>On-module Buttons and pull-up resistors</b></a></li>
+            <li><a href="#28"><b>Potentiometer as angle sensor</b></a></li>
+            <li><a href="#29"><b>LCD(i2c)</b></a></li>
+            <li>Using variables to store data</li>
+            <li>Stop the robot at the end of line</li>
+            <li>Using LCD</li>
+            <li>Controlling the motors with PWM</li>
+            <li>Proportional control loop</li>
+            <li>Proportional-Integral control loop</li>
+            <hr>
+            <h3><b>Software intallation</b></h3>
+            <li>Installing Aruino IDE</li>
+            <li>Installing Ardublockly</li>
+            <li>Installing RobDuino library</li>
+
+        </ol>
+        <hr>
+</details>
+<ol style="font-family:verdana" >
+
+<!-- START NEW EXERCISE -->
+    <li><h2 id="1"><b>Testing the equipment</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h4><b>Basic testing in Arduino IDE</b></h4>
+<ul>
+    <li>Connect the Arduino Uno to PC with proper USB cable.
+    <br>
+    <code><b>[Arduino Uno]</b></code> -> 🔌 -> 💻</li>
+    <li>Open Arduino IDE program and open program with:
+    <br>
+    <code><b>Files ⌥  Examples ⌥ 01. Basics ⌥ Blink.ino</b></code></li>
+    <li>Make sure that you will set the proper settings (follow the visual instructions). From the menu choose:<br> <code><b>Tools</b></code>⌥
+    <ol>
+        <li><code><b>Board:</b></code> Arduino/Genuino Uno</li>
+        <li><code><b>Port:</b></code> COM3</li>
+    </ol>
+    </li>
+    <li>To upload the code you can click the icon <code><b>Upload</b></code>.
+    <br>
+    If the uploading was successful you will be prompted with the text like:
+    <br>
+    <br>
+    <code><b>Done uploading.<br>
+            Sketch uses 970 bytes (3%) of program storage space. Maximum is 32256 bytes.<br>
+            Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.
+        </b></code></li>
+</ul>
+</td>
+<td align="center">
+
+    <iframe src="https://docs.google.com/presentation/d/1czxI3HaRT38ETXpCCf2FVupa2JRZxE8utKlsW3IncIo/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=2" width="410" height="337" title="Arduino IDE setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+
+<h4>Basic testing in Ardublockly</h4>
+<ul>
+    <li>Connect the Arduino Uno to PC with proper USB cable.
+    <br>
+    <code><b>[Arduino Uno]</b></code> -> 🔌 -> 💻</li>
+    <li>Run Ardublockly program. Which will be running as localhost and you will be using internet browser as IDE. The addres will be:<br>
+        <code><b>http://localhost:8000/ardublockly/index.html</b></code></li>
+    <li>In the left corner of the program you can find <code><b>[=] menu icon</b></code>. From where you can choose (Slide 2 and 3)<br>
+    <code><b>[] Settings</b></code>:
+    <ol>
+        <li><code><b>Compiler Location:</b></code> C:\Program Files (x86)\Arduino\arduino_debug.exe</li>
+        <li><code><b>Arduino Board:</b></code> Uno</li>
+        <li><code><b>Com port:</b></code> COM3</li>
+        <li>And press:<code><b>[ RETURN ]</b></code></li>
+    </ol>
+    </li>
+    <li>Finaly you can press button <code><b>PLAY</b></code><br>
+        And if uploading was successful you will be prompted with the text (Slide 4):
+        <br>
+        <br>
+        <code><b>Successfully Uploaded Sketch<br>
+                 WARNING: Error loading hardware folder /home/david/Arduino/hardware/WAV8F<br>
+                 No valid hardware definitions found in folder WAV8F.<br>
+                 Sketch uses 444 bytes (1%) of program storage space. Maximum is 32256 bytes.<br>
+                 Global variables use 9 bytes (0%) of dynamic memory, leaving 2039 bytes for local variables. Maximum is 2048 bytes.</b></code>
+    </li>
+</ul>
+</td>
+<td align="center">
+
+    <iframe src="https://docs.google.com/presentation/d/17n6aYod3gkHMpdkHESa7lJXx2X5H_ddCX843DhJcOmg/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=3" width="410" height="337" title="Ardublockly setup" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><i>Ardublockly returns the Error id 55: Serial port Serial Port unavailable.</i></h4>
+Try to reconect the Arduino board. Wait a moment, check the settings and <b> choose the COM port again</b> then try again.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="2"><b>Hello World in Ardublockly</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Task:</b></h3>
+<ul>
+    <li>Make a very simple program like setting the digital output bit <b>D3</b> to logical state 1 or <b>HIGH</b>.</li>
+    <li>Send the program to Arduino controller.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the voltage of the digital output pin D3?</li>
+    <li>Try to compare and understand the C++ programming code in aside window.</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/1BC5WYt6tLmVa04csT0gHFhqLWAZiRtowicnboajiREs/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="First Program." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="3"><b>How DC motor works</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Task:</b></h3>
+Connect the DC motor to terminals of the battery. You can try different combinations like: + and -; - and +; - and -; + and +.
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>In which direction the motor's shaft spins?</li>
+    <li>In which direction the electric current flow?</li>
+    <li>Why does motor not spinning when both connectors are connected to + terminal of the battery?</li>
+</ol>
+</td>
+<td align="center">
+<iframe src="https://docs.google.com/presentation/d/1Qfc5rweijkqj0otiPTjmi5Ch69kUaB-0SukPASNJl0I/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Smer toka skozi motor" frameborder="0" id="1974716262" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+The rotation of the DC motor depends on the direction of electric current.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>When I connect the DC motor to + and - terminals of the battery the motor's shaft does not spin.</i></b></h4>
+Check the voltage of the battery... battery may be discharged.
+<br>
+Check the connectors of the motor... may be bad.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="4"><b>Controlling the DC motor with Digital Outputs</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Task:</b></h3>
+<ul>
+    <li>Connect the DC motor to Digital Output D7 and D6.</li>
+    <li>Write the program and check all the combinations of digital outputs; 00, 01, 10 and 11.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>For each combination of digital  outputs mark the state of the motor.</li>
+    <li>Try to stop the shaft of the DC motor for a short time and try to remember how hard is it?</li>
+</ol>
+</td>
+<td align="center">
+
+    <iframe src="https://docs.google.com/presentation/d/1PUic5XvpxqC7tHU_rsv6v5LQXwZPLfDbh1ANjloryWc/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Controlling DC motor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+The motor's shaft is spinning according to the direction of the electric current trough the motor.
+<br>
+The torque is weak.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+ 
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="5"><b>Geared reductor</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td valign="top" style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Task:</b></h3>
+<ul>
+    <li>Add geared reductor to DC motor.</li>
+    <li>Try to stop the shaft of the geared reductor.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>How hard is to stop the shaft of the reductor in comparison to shaft of the motor.</li>
+    <li>How fast the shaft of the reductor is spinning in comparison to the shaft of the motor?</li>
+    <li>Are you able to freely rotate the shaft of the reductor by hand?</li>
+    <li>What happened with the produced mechanical power?</li>
+    <li>Try to calculate the geared ratio of the reductor.</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/1p6wyyBvcEfxJHv-0d4haAA1yltinnFbDQR8zmRaIrCY/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=4" width="410" height="337" title="Reductor to motor." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<br>
+
+<iframe src="https://docs.google.com/presentation/d/1ILA4C_gQtkxDirSaMFyUvHl7vHPWDHQ6JsJ5cJysYS4/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Gear ratio calculation." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Gead ratio</b></h4>
+The gear ratio describing the ratio between the angular velocity of input gear G1 and angular velocity of output gear G2.
+<br>
+$$ { i=\frac{\omega_1}{\omega_2} } $$
+<br>
+Because each gear moves tooth per tooth and if two touching gears have different numbers of teeths their's angular velocity will be different. In fact the anguar velocity will be inversely proportional.
+<br>
+$$ {\frac{\omega_1}{\omega_2}=\frac{N_2}{N_1}=i} $$
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>The reductor's shaft is not spinning although the DC motor is working properly.</i></b></h4>
+Check if the reductor is all the way connected on the motor. Check if the worm gear of the motor is in contact with first gear of the roductor.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="6"><b>Constructing the mobile robot</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Construct the mobile robot according to this video. </li>
+    <li>Add the battery between the red cornered bricks. The connector shuld be pointing to the back of the robot.
+    <li>Add also the RobDuino controller. Clip the controller between the red bricks with the grove</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Where do you think is th front side of the robot?</li>
+    <li>Are you able to rotate the wheels freely by hand?</li>
+</ol>
+</td>
+<td align="center">
+<iframe width="410" height="230" frameborder="0"
+    src="https://www.youtube.com/embed/bybqvos4xYk">
+</iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="7"><b>Controlling the robot</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Connect LEFT MOTOR to digital outputs:
+    <ul>
+        <li>D7 and D6</li>
+    </ul></li>
+    <li>Connect RIGHT MOTOR to digital outputs:
+    <ul>
+        <li>D5 and D4</li>
+    </ul></li>
+    <li>Now you can write the program to control both motors in order to move the robot FORWARD for 3 second and STOP.</li>
+    <li>Next you can write the program which will move the robot in several different directions:
+        <ul>
+            <li>forward</li>
+            <li>backward</li>
+            <li>turn left</li>
+            <li>turn right</li>
+        </ul></li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>How many digital outputs you have to set in order to control the robot for specific move?</li>
+    <li>How many different moves your robot can make? </li>
+</ol>
+</td>
+<td align="center">
+    <iframe src="https://docs.google.com/presentation/d/1BKoSvriVRVbvONMp2YZ22LsFi3vjijnKhqHtDNi-Pq8/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=2" width="410" height="337" title="Connecting the motors." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Controlling the robot in two degrees of freedom</b></h4>
+To controlling the robot in two degrees of freedom we need to control two motors. Since we have to set two digital outputs for each motor we have to set four digital outputs for each move.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>When I change the direction of the robot the robot does not move as expected.</i></b></h4>
+Probably you did not set all of the outputs correctly. Remember taht some outputs may have remained set in previous output state from taken action in previous task.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="8"><b>Programming functions</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write a programming function which includes the certain programming steps in order to move the robot in specific direction.</li>
+    <li>Write also other functions like:
+    <ul>
+    <li>robotForward()</li>
+    <li>robotStop()</li>
+    <li>robotLeft()</li>
+    <li>robotRight()</li>
+    <li>robotBackward()</li>
+    </ul></li>
+    <li>Write larger program to move the robot allover the classroom.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What would happened if several robots would have the same program?</li>
+    <li>Can you change the program in a way that robot would repeat the program?
+    <li>What happens if the mobile robot run into an obstacle?</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/1vYOfG0F-8ikE2mFRFNXIlvgsl0ML7iHD8GIIY66T490/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Programming functions." frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="9"><b>Programming loop - FOR</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>If we want to repeat some programming instructions for several times we can use <b>For Loop</b>.</li>
+    <li>For example the next program repeats the functions <b>robotLeft()</b> and <b>robotRight()</b> for <b>10 times</b> and robot will do a funny "dancing" move.</li>
+    <li>Experiment a bit more with such programming techniques.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/1ZB7AOIgQeHpEU0Ju1JdFO-02SztUCyBaLifMYyqn400/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="For loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="10"><b>Writing program in C++</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Make a really basic program with easy task like is shown on the slide 1.</li>
+    <li>Open the Arduino IDE program.</li>
+    <li>Copy-Paste all the c++ code from Ardublockly into Arduino IDE.</li>
+    <li>Experiment with the c++ code.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td align="center">
+
+    <iframe src="https://docs.google.com/presentation/d/17e2ijvffEE8KIf53N4ZPivBYtuLiJxURd4o8yijqU5g/embed?authuser=0&amp;hl=en&amp;size=s&amp;slide=4" width="410" height="337" title="Programming c++" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="11"><b>Digital sensors</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>In sake to detect the obstacles we have to equip robot with the "touch sensor". This sensor is basically a switch or key, which toggles it's output between GND and +5 V voltage potentials.</li>
+    <li>Follow video instructions to construct bumper in front of the robot.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Do you hear "clicking" sound when you push the bumper?</li>
+    <li>Name the mechanical mechanism where smaller force on one end can cause greater force on the other end of the mechanism.</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/eWldNxh-q2c">
+</iframe>
+</td>
+</tr>
+<tr>
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>The key has three connecting terminals. Each of one is marked with the number 1, 2 or 3. Connect them in right order. Connect the key terminals in order that are specified in presentation and listed as:</li>
+    <ol>
+        <li> connect to RobDuino C0 terminal.</li>
+        <li> connect to RobDuino voltage terminal GND.</li>
+        <li> connect to RobDuino voltage terminal +5V.</li>
+    </ol>
+    <li><++></li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the output voltage of the sensor when the robot is (or is NOT) touching the obstacle?</li>
+    <li>How many different states are presented with such sensor?</li>
+    <li>Name several more examples where digital sensor can take place.</li>
+</ol>
+</td>
+<td align="center">
+
+    <iframe src="https://docs.google.com/presentation/d/1Sw-3ovX36DYt9zcj6z9gESie3ZJwWLExb9KPddrw9JM/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Connecting the key" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Digital sensors</b></h4>
+The output of a digital sensor can be just in two states:
+<ul>
+    <li>logical "0" - presented in voltage as 0 V.</li>
+    <li>logical "1" - presented in voltage as +5V.</li>
+</ul>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>Robot has no power since I connected the key as a sensor.</i></b></h4>
+Probably the key or switch is connected wrong and there is short connection between the GND and +5V voltage terminals. Unconnect the key or switch and verify if the power is back.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="12"><b>Reading digital input</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program shown in the presentation to test the readings of the digital sensor.</li>
+    <li>Then... complete the program to turn OFF the LED when the bumper is not touching anything.</li>
+    <li>Next... Change IF statements into single one IF-THEN-ELSE statement.</li>
+    <li>Advanced... Solve the problem without IF statement.
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Check if the LED on the output terminal D3 is turend ON when the bummper is pressed.</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/1NVtol-a0tmlgl00VwCACQIcAOOty3KYEMSgUFkf8-Aw/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Testing Digital Input" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="13"><b>S-R-A loop</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program to drive the robot around the class and avoid the obstacles.</li>
+    <li>Using the <b>S-R-A loop</b> technique you should write the program in particular order:
+        <ol>
+            <li>Check the sensor. IF the bummper ...</li>
+            <li>... is <b>pressed</b> the robot has to stop/go back/turn.</li>
+            <li>... is <b>not pressed</b> the robot can drive forward.</li>
+        </ol>
+    </li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Would this routine also work in <b>Arduino run first</b> function (check the program in Slide 2)?</li>
+    <li><++></li>
+</ol>
+</td>
+<td align="center">
+
+<iframe src="https://docs.google.com/presentation/d/13B5ynixnR7ZRl4__jpnLk7gP8_S3yF2U2zaUpZtax1o/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="S-R-A Loop" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Senzoning-Reasoning-Acting Loop</b></h4>
+S-R-A loop is the most important thing in robotics.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>It seems that the program is not working right ... like it would be ignoring the value of the sensor.</i></b></h4>
+Probably the S-R-A loop is not actually a loop. Check the program if the input is read just onces or is read continuously.
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="14"><b>Hello World in Arduino IDE</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Make a very simple program like setting the digital output bit <b>D3</b> to logical state 1 or <b>HIGH</b>.</li>
+    <li>Send the program to Arduino controller.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the difference between:
+        <ol>
+            <li><code>void setup()</code></li>
+            <li><code>void loop()</code></li>
+        </ol>
+    </li>
+    <li>What is the difference between:
+        <ol>
+            <li><code>pinMode(3, OUTPUT);</code></li>
+            <li><code>digitalWrite(3, HIGH);</code></li>
+        </ol>
+    </li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#434f54">&#47;&#47; put your setup code here, to run once:</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#434f54">&#47;&#47; put your main code here, to run repeatedly:</font>
+
+<font color="#000000">}</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Using curly braces - {}</b></h4>
+Using curly braces in C++ is important part of writing the programming code. Imagine that you want to merge several members of programing code to a single pile. As we would separate pencils into one pile and markers to another - to be more organized. In real life we would do by elastic bundle or rope. If you have to choose single character from the keyboard to indicate that several members are combined to the same pile - which character would you choose? Probably curly braces <b>{}</b> are the best choice.
+<h4><b>Function Declaration</b></h4>
+<pre>
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+<font color="#000000">}</font>
+</pre>
+
+<h4><b>Function Call</b></h4>
+<pre>
+<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+</pre>
+
+<h4><b>Function Name</b></h4>
+Function name should be stucked together from 2 - 5 short words that unicly describing the functionalaty of the function. The first word shoul start with lower case and all the others words following should start with upper case. Some examples should be:
+<pre> <font color="#d35400">badname</font><font color="#000000">();</font> </pre>
+<pre> <font color="#d35400">goodFunctionName</font><font color="#000000">();</font> </pre>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i>Error: expected ';' before 'something'</i></b></h4>
+Probably you forgot to put <b>;</b> (semicolon) at the end of the command. Find the row starting with "<b>something</b>" and look the row above... probably missing "<b>;</b>".
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="15"><b>Controlling the robot</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Declare your own functions to control the robot. Choose proper names like:
+    <ul>
+        <li>robotForward()</li>
+        <li>robotStop()</li>
+        <li>robotLeft()</li>
+        <li>robotRight()</li>
+        <li>robotBackward()</li>
+    </ul></li>
+    <li>Don't forget to specify the direction (INPUT or OUTPUT) of all used pins you need.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">4</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">5</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+
+ &nbsp;<font color="#434f54">&#47;&#47;simple move...</font>
+ &nbsp;<font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">3000</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">5</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">4</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">5</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">4</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="16"><b>Programming loop - FOR</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>If we want to repeat some programming instructions for several times we can use <b>For Loop</b>.</li>
+    <li>For example the next program repeats the functions <b>robotLeft()</b> and <b>robotRight()</b> for <b>10 times</b> and robot will do a funny "dancing" move.</li>
+    <li>Experiment a bit more with such programming techniques.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+   <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">4</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">5</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+
+    &nbsp;<font color="#434f54">&#47;&#47; Funny dancing move.</font>
+    &nbsp;<font color="#00979c">int</font> <font color="#000000">i</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+    &nbsp;<font color="#5e6d03">for</font> <font color="#000000">(</font><font color="#000000">i</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font> <font color="#000000">i</font> <font color="#434f54">&lt;</font> <font color="#000000">10</font><font color="#000000">;</font> <font color="#000000">i</font><font color="#434f54">++</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font>
+    &nbsp;<font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+   <font color="#000000">}</font>
+
+[+]<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="17"><b>Reading digital input</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program shown aside of this text.</li>
+    <li>Then... complete the program to turn OFF the LED when the bumper is not touching anything.</li>
+    <li>Next... Change IF statements into single one IF-THEN-ELSE statement.</li>
+    <li>Advanced... Solve the problem without IF statement.
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Check if the LED on the output terminal D3 is turend ON when the bummper is pressed.</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+   <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#434f54">,</font> <font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+   <font color="#000000">}</font>
+
+   <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#000000">)</font> <font color="#434f54">==</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font>
+   <font color="#000000">}</font>
+
+[+]<font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>IF Statement</b></h4>
+If statement can be written in several forms. The easiest one is:
+<pre>
+<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#000000">value_one</font> <font color="#434f54">==</font> <font color="#000000">value_two</font> <font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;<font color="#d35400">statement1</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">statement2</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+It can be expanded into IF-ELSE form:
+<pre>
+<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#000000">value_one</font> <font color="#434f54">==</font> <font color="#000000">value_two</font> <font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;<font color="#d35400">statement1</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">statement2</font><font color="#000000">;</font>
+<font color="#000000">}</font><font color="#5e6d03">else</font><font color="#000000">{</font>
+ &nbsp;<font color="#d35400">statement3</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="18"><b>S-R-A loop</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program to drive the robot around the class and avoid the obstacles.</li>
+    <li>Using the <b>S-R-A loop</b> technique you should write the program in particular order:
+        <ol>
+            <li>Check the sensor. IF the bummper ...</li>
+            <li>... is <b>pressed</b> the robot has to stop/go back/turn.</li>
+            <li>... is <b>not pressed</b> the robot can drive forward.</li>
+        </ol>
+    </li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+[+]<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+   <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#000000">)</font> <font color="#434f54">==</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font><font color="#5e6d03">else</font><font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font>
+   <font color="#000000">}</font>
+
+[+]<font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="19"><b>Reading analog input</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Unmount robot's bumper and all connections to the switch.</li>
+    <li>Equip the robot with distance sensor according to video and scheme.</li>
+    <li>Copy & Paste next program and test the serial output.</li>
+    <hr>
+<pre>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#434f54">,</font> <font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font> <font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#000000">)</font> <font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">200</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+   <hr>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What kind of values do you getting from the reading of the distance sensor?</li>
+    <li>Find the reasonable value vhere you shuld stop the robot.</li>
+</ol>
+</td>
+<td align="center">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/ELYsyuhbQfY">
+</iframe>
+<hr>
+
+<iframe src="https://docs.google.com/presentation/d/1j4yvBeTajgG9wFb5mw9SUPUTLXjPWNWjOnINUEmyAx8/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Conection of distance sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Analog to digital converter - ADC</b></h4>
+ADC is an electronic sistem that converts analog signal (voltage) to a digitalized values. In our particular case the range of an analog voltage from 0V to 5V is converted to range of numbers from 0 to 1023.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="20"><b>Avoiding obstacles</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program to drive the robot around the class and avoid the obstacles.</li>
+        <ol>
+            <li>Check the value of distance sensor. If the distance if far away (smaller number) ...</li>
+            <li>... the robot can drive forward.</li>
+            <li>...else ... the robot must to stop/go back/turn.</li>
+        </ol>
+    </li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+[+]<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+   <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A0</font><font color="#000000">)</font> <font color="#434f54">&lt;</font> <font color="#000000">400</font> <font color="#000000">)</font><font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font> <font color="#5e6d03">else</font> <font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+    &nbsp;<font color="#000000">}</font>
+    <font color="#000000">}</font>
+
+[+]<font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+]<font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="21"><b>Light sensor</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Construct the light sensor according to video and scheme. Add also the light bulb which will help to lightning the area beneath the robot.</li>
+    <li>To test the light sensor and light bulb copy&paste next program and check the reported serial data:</li>
+    <hr>
+    <pre>
+    <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+     &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font><font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+     &nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#434f54">,</font> <font color="#00979c">INPUT</font><font color="#000000">)</font><font color="#000000">;</font>
+
+     &nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">3</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+    <font color="#000000">}</font>
+
+    <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+     &nbsp;<font color="#d35400">print</font><font color="#000000">(</font> <font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#000000">)</font> <font color="#000000">)</font><font color="#000000">;</font>
+     &nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">200</font><font color="#000000">)</font><font color="#000000">;</font>
+    <font color="#000000">}</font>
+    </pre>
+    <hr>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the value of the sensor when the robot is over white/black area?</li>
+    <li>Calculate the average between those two values.</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/wEN1e6m1FGY">
+</iframe>
+<hr>
+<iframe src="https://docs.google.com/presentation/d/1nVl7aVy0qCZ7b6E-bIywXlQZ7PH8LOBB2sb2VxsBKR0/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="Constructing the light sensor" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>Sensors</b></h4>
+Sensors are electronic devices which convert physical quantity into electrical quantity (usually voltage). In simplest setup, sensor can be constructed as <b>voltage divider</b> with two resistors - R₁ and R₂. One of the resistors is resistor with fixed resistance value (eg. R₁ = 10 kΩ). The second one is a bit special and it's resistance depends on some physical quantity (e.g. light, temperature, humidity...).
+When combining those two resistors into such voltage divider the output of the voltage divider can be calculated as:
+$$ U_{Out} = \frac{R_1}{R_1 + R_2} U_0 $$
+
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="22"><b>Line follower</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Write the program to control the robot to follow the line ( actually above the edge between black and white area ).</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the program function to get the <code>light_sensor_value</code>?</li>
+    <li>Determine the movements of the robot if the robot is over the black area and if the robot is over the white area.</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+[+] <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+    <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+    &nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#000000">light_sensor_value</font> <font color="#434f54">&lt;</font> <font color="#000000">treshold_value</font> <font color="#000000">)</font><font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47;do this if robot is ower the blck line</font>
+    &nbsp;&nbsp;&nbsp;
+    &nbsp;<font color="#000000">}</font> <font color="#5e6d03">else</font> <font color="#000000">{</font>
+    &nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; do this if robot is ower white area</font>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;<font color="#000000">}</font>
+    <font color="#000000">}</font>
+
+[+] <font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+] <font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+] <font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+] <font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+[+] <font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+    </pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="23"><b>Variables</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Stop the robot when it reaches the end of line.</li>
+    <li>Detecting the end of line can be done by measuring the time that robot spend over the black and white area. E.g. if the robot is driving along the line - the time spent over black and time spent over white area will be quite the same. When line ends the robot will not detect the black area soon and the time spent over white area will increase significantly - and that is the trigger for detecting the end of line.</li>
+    <li><b>Advanced:</b> Make a function to align (move) the robot back to the line.
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>How can we store a data to the controller's memory?</li>
+    <li>How can we measure time in programming loops?</li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+<pre>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+ &nbsp;&nbsp;&nbsp;<font color="#00979c">int</font> <font color="#000000">time_on_black</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;<font color="#00979c">int</font> <font color="#000000">time_on_white</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#000000">)</font> <font color="#434f54">&lt;</font> <font color="#000000">400</font> <font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; BLACK area</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">time_on_white</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; reset time on white</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">time_on_black</font><font color="#434f54">++</font><font color="#000000">;</font> &nbsp;&nbsp;<font color="#434f54">&#47;&#47; meas. time on black</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font> <font color="#5e6d03">else</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; WHITE area</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; Do similar meas.</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; of time on white</font>
+
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; If time is signif.</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; longer:</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; robotStop();exit(0);</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">robotForward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">robotStop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">robotLeft</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">robotRight</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">robotBackward</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b>What is variable?</b></h4>
+Variables are used in C++ where you will need to store any type of values within a program and whose value can be changed during the program execution. These variables can be declared in various ways each having different memory requirements and storing capability. Variables are the name of memory locations that are allocated by compilers, and the allocation is done based on the data type used for declaring the variable.
+
+<h4><b>Variable definition and initialization in C++</b></h4>
+A variable definition means that the programmer writes some instructions to tell the compiler to create the storage in a memory location. The syntax for defining variables is:<br>
+<br>
+<pre>
+&nbsp;<font color="#00979c">data_type</font> <font color="#000000">variable_name</font><font color="#000000">;</font>
+</pre>
+<br>
+Here <code>data_type</code> means the valid C++ data type which includes int, float, double, char, wchar_t, bool and variable list is the lists of variable names to be declared which is separated by commas.<br>
+
+Variables are declared in the above example, but none of them has been assigned any value. Variables can be initialized, and the initial value can be assigned along with their declaration.<br>
+<pre>
+&nbsp;<font color="#00979c">data_type</font> <font color="#000000">variable_name</font> <font color="#434f54">=</font> <font color="#00979c">value</font><font color="#000000">;</font>
+</pre>
+<br>
+
+<b>Examples:</b><br>
+
+<pre>
+&nbsp;<font color="#00979c">bool</font> <font color="#000000">is_raining</font> <font color="#434f54">=</font> <font color="#00979c">false</font><font color="#000000">;</font>
+&nbsp;<font color="#00979c">int</font> <font color="#000000">sensor_value</font> <font color="#434f54">=</font> <font color="#000000">23</font><font color="#000000">;</font>
+&nbsp;<font color="#00979c">float</font> <font color="#000000">pi_value</font> <font color="#434f54">=</font> <font color="#000000">3.14</font><font color="#000000">;</font>
+&nbsp;<font color="#00979c">char</font> <font color="#000000">letter</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;A&#34;</font><font color="#000000">;</font>
+&nbsp;<font color="#00979c">char</font> <font color="#000000">sentence</font><font color="#000000">[</font><font color="#000000">]</font> <font color="#434f54">=</font> <font color="#005c5f">&#34;Some dummy text.&#34;</font><font color="#000000">;</font>
+</pre>
+
+<h4><b>Time measuring with programming loops</b></h4>
+The easiest way to measure time is to simply count the number of loop's executions. And if we know how long is one execution of the loop - we can easily determine the time lapsed for the whole process.
+<br>
+<br>
+<b>Example:</b><br>
+<pre>
+ &nbsp;<font color="#00979c">int</font> <font color="#000000">t</font> <font color="#434f54">=</font> <font color="#000000">0</font><font color="#000000">;</font>
+ &nbsp;<font color="#5e6d03">while</font> <font color="#000000">(</font><font color="#000000">t</font><font color="#434f54">&lt;</font><font color="#000000">10</font><font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">t</font><font color="#434f54">++</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#000000">}</font>
+
+</pre>
+
+In the previous example the <code>while</code> loop is executed 10 times (t = [0 .. 9]), since each execution of the loop last 100 ms (determined by <code>delay(100);</code>) the whole <code>while</code> loop last 1 s.
+
+<h4><b>Time measuring with Timers</b></h4>
+
+More proper way of measuring the time is by using the timer's values. More on that can be read <a href="https://www.arduino.cc/reference/en/language/functions/time/millis/">here</a>.
+
+<br>
+<br>
+<b>Example:</b><br>
+<pre>
+ &nbsp;<font color="#00979c">unsigned</font> <font color="#00979c">long</font> <font color="#000000">start_time</font><font color="#000000">;</font>
+ &nbsp;<font color="#00979c">unsigned</font> <font color="#00979c">long</font> <font color="#000000">stop_time</font><font color="#000000">;</font>
+
+ &nbsp;<font color="#000000">start_time</font> <font color="#434f54">=</font> <font color="#d35400">millis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#434f54">&#47;&#47; time measured process goes here</font>
+ &nbsp;<font color="#434f54">&#47;&#47; ...</font>
+ &nbsp;<font color="#000000">stop_time</font> <font color="#434f54">=</font> <font color="#d35400">millis</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+
+ &nbsp;<font color="#00979c">unsigned</font> <font color="#00979c">long</font> <font color="#000000">duration</font> <font color="#434f54">=</font> <font color="#000000">stop_time</font> <font color="#434f54">-</font> <font color="#000000">start_time</font><font color="#000000">;</font>
+
+</pre>
+Where the <code>duration</code> is the time in milliseconds.
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="24"><b>Barrier gate construction</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Construct the barrier gate accordant to video instructions.</li>
+    <li>Connect the motor to digital outputs D7 and D6.</li>
+    <li>Write the program to rising and lowering the barrier. The main functionalities (e.g. Up, Down, Stop) should be written in program functions:
+    <ul>
+        <li><code>gateUp();</code></li>
+        <li><code>gateDown();</code></li>
+        <li><code>gateStop();</code></li>
+    </ul>
+    </li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is time for rising and lowering the barrier? Compare it to your colleague's situation.</li>
+    <li>What is disadvantage of time controlled loop.</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/5_eh7ojNH68">
+</iframe>
+<hr>
+<pre>
+<font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47;declaration of I&#47;O pins</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; Lift the barrier.</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">3000</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; Wait a bit...</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateDown</font><font color="#000000">(<font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; Lower the barrier.</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">1000</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font> 
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="25"><b>Reference point.</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Add a switch to detect the reference point of the barrier gate. Let the reference point be the closed position of the barrier.</li>
+    <li>Connect the switch to the controller according to schematics.</li>
+    <li>Change the program to lower the barrier gate to reference switch position.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>Why is detection of reference point important? </li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/bmgUlj_rP3U">
+</iframe>
+    <hr>
+
+<iframe src="https://docs.google.com/presentation/d/1JTBdKVBY-znuZVyeCoOIMyx3Ds80OAD6DyzBDHL_dRk/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="switch connection" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="26"><b>Reed switch and pull-up resistors</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Add a reed switch to the front of the barrier gate to detect the car.</li>
+    <li>Connect the reed switch to the input pin A1 an GND.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is pull-up resistor?</li>
+    <li>How can we turn on the internal pull-up resistor of the microcontroller?</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/3hhu11bBFXc">
+</iframe>
+<pre>
+ <font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font><font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47;declaration of I&#47;O pins</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">OUTPUT</font><font color="#000000">)</font><font color="#000000">;</font> &nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">pinMode</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#434f54">,</font> <font color="#00979c">INPUT_PULLUP</font><font color="#000000">)</font><font color="#000000">;</font> <font color="#434f54">&#47;&#47; Enab. int. Pull-up.</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;
+ <font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font><font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#000000">)</font> <font color="#434f54">==</font> <font color="#000000">0</font> <font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">3000</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="27"><b>On-module Buttons and pull-up resistors</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Module RobDuino includes two "on-board" buttons which are connected from pin A4 and A5 to GND. This two buttons can allso be used but internal pull-up resistors must be turned on.</li>
+    <li>Add manual functionality to the automated barrier gate. Add the possibility to manually lift (e.g. press A4 button) and lower (A5 button) the barrier gate.</li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+    <pre>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font> &nbsp;&nbsp;
+<font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">A1</font><font color="#000000">)</font> <font color="#434f54">==</font> <font color="#000000">0</font> <font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">3000</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">manualControll</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+<font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">manualControll</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5e6d03">if</font> <font color="#000000">(</font> <font color="#d35400">digitalRead</font><font color="#000000">(</font><font color="#000000">A4</font><font color="#000000">)</font> <font color="#434f54">==</font> <font color="#000000">0</font> <font color="#000000">)</font><font color="#000000">{</font> <font color="#434f54">&#47;&#47;Button A4 is pressed</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#434f54">&#47;&#47; add code for A5 ...</font>
+ &nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+
+</pre>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="28"><b>Potentiometer as angle sensor</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li>Add the potentiometer to the shaft of barrier gate.</li>
+    <li>Test the potentiometer values with next program:
+        <hr>
+        <pre>
+<font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">begin</font><font color="#000000">(</font><font color="#000000">9600</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+<font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;<b><font color="#d35400">Serial</font></b><font color="#434f54">.</font><font color="#d35400">println</font><font color="#000000">(</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A3</font><font color="#000000">)</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;<font color="#d35400">delay</font><font color="#000000">(</font><font color="#000000">100</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+
+</pre>
+        <hr>
+    </li>
+    <li>Change the functions for lifting and lowering the barrier gate to use potenciometer readings instead of switch and time controlled movement.</li>
+</ul>
+<hr>
+<pre>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">setup</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font> &nbsp;&nbsp;
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#5e6d03">loop</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">manualControll</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">{</font>
+<font color="#000000">[</font><font color="#434f54">-</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateUp</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#5e6d03">while</font> <font color="#000000">(</font><font color="#d35400">analogRead</font><font color="#000000">(</font><font color="#000000">A3</font><font color="#000000">)</font> <font color="#434f54">&lt;</font> <font color="#000000">750</font><font color="#000000">)</font><font color="#000000">{</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">7</font><font color="#434f54">,</font> <font color="#00979c">HIGH</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#d35400">digitalWrite</font><font color="#000000">(</font><font color="#000000">6</font><font color="#434f54">,</font> <font color="#00979c">LOW</font><font color="#000000">)</font><font color="#000000">;</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">}</font>
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#000000">gateStop</font><font color="#000000">(</font><font color="#000000">)</font><font color="#000000">;</font>
+<font color="#000000">}</font>
+<font color="#000000">[</font><font color="#434f54">+</font><font color="#000000">]</font> <font color="#00979c">void</font> <font color="#000000">gateDown</font><font color="#000000">(</font><font color="#000000">)</font> <font color="#000000">{</font>
+</pre>
+<hr>
+
+<h3><b>Questions:</b></h3>
+<ol>
+    <li>What is the value of the angle sensor when the barrier gate is in the upper orientation...</li>
+    <li>... and in lower orientation.</li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+
+<iframe width="410" height="337" frameborder="0"
+    src="https://www.youtube.com/embed/kzLtVWtxVsQ">
+</iframe>
+<hr>
+<iframe src="https://docs.google.com/presentation/d/1GgbUhsWBIflvZN1qMDrkh2tXRMLtYGoxHCdt5s_COVg/embed?authuser=0&amp;hl=en&amp;size=s" width="410" height="337" title="potenciometer" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+
+<!-- START NEW EXERCISE -->
+<li><h2 id="29"><b>LCD(i2c)</b></h2></li>
+<table style="width:100%;padding:8px">
+<tbody>
+<tr>
+
+<td style="width:50%;border-right:1px solid #ddd">
+<!-- Describe tasks... -->
+<h3><b>Tasks:</b></h3>
+<ul>
+    <li><++></li>
+    <li><++></li>
+</ul>
+<h3><b>Questions:</b></h3>
+<ol>
+    <li><++></li>
+    <li><++></li>
+</ol>
+</td>
+<td style="text-align:left;padding-left:15px">
+[ Visual instructions. ]
+</td>
+
+</tr>
+</tbody>
+</table>
+
+<div style="width:95%;padding:8px;background:#eeeeee;border:3px ">
+<h3><b>🎓 Summary:</b></h3>
+<h4><b><++></b></h4>
+<++>
+</div><br>
+
+<div style="width:95%;padding:8px;background:#eecccc;border:3px solid #aa3333">
+<h3><b>💣 Issues:</b></h3>
+<h4><b><i><++></i></b></h4>
+<++>
+</div>
+
+<br>
+<div style="text-align:right"><a href="#toc-page"><b>🔖 TOC</b></a></div>
+<hr>
+<!-- END NEW EXERCISE -->
+</ol>
+</body>
+</html>

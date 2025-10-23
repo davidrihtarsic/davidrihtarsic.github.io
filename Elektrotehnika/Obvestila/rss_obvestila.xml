@@ -1,0 +1,34 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Elektrotehnika - Obvestila za študente</title>
+  <link href="https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/index.html"/>
+  <updated>2023-07-11T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/index.html</id>
+
+  <entry>
+    <title>2023-08-29_vaje-poročila</title>
+    <link href="https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/2023-08-29_vaje-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/2023-08-29_vaje-poročila.html</id>
+    <updated>2023-08-29T11:54:00Z</updated>
+    <summary>Vse zamudnike prosim, da poročila vaj oddate najkasneje do srede, 30.8.2023 do 12. ure. S prof. dr. Slavkom Kocijančičem morava izpitni rok v VIS-u zaključiti.</summary>
+  </entry>
+
+  <entry>
+    <title>2023-08-25_vaje-poročila</title>
+    <link href="https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/2023-08-25_vaje-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/2023-08-25_vaje-poročila.html</id>
+    <updated>2023-08-25T11:41:02Z</updated>
+    <summary>Ker poročila vaj še vedno niso ustrezna, sem vam lahko na voljo z dodatnimi pojasnili. Ker moramo izpitni termin čim prej zaključiti, predlagam, da konzultacije izvedemo v ponedeljek, 28. 8. 2023 ob 9. uri.</summary>
+  </entry>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/Elektrotehnika/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/Elektrotehnika/Obvestila/rss_sporocila.html</id>
+    <updated>2023-07-12T22:36:45Z</updated>
+    <summary>Namen teh obvestil je, da boste prejeli obvestilo o novi objavi v vaš bralnik obvestil. Tako vam ne bo potrebno ročno pregledovati teh objav in slediti novim objavam. Na obvestila se lahko naročite s povezavo na ta RSS sporočila. Prebirate jih lahko s katerikolim RSS odjemalcem (npr.: Feedly), prebirajo pa jih tudi nekateri odjemalci elektronske pošte (npr.: Thunderbird).</summary>
+  </entry>
+
+</feed>

@@ -1,0 +1,26 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>THOM - Obvestila za študente</title>
+  <link href="https://davidrihtarsic.github.io/Elektronika/Obvestila/index.html"/>
+  <updated>2024-08-01T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/THOM/Obvestila/index.html</id>
+
+  <entry>
+    <title>2025-01-24_SE-naloga</title>
+    <link href="https://davidrihtarsic.github.io/THOM/Obvestila/2025-01-24_SE-naloga.html"/>
+    <id>https://davidrihtarsic.github.io/THOM/Obvestila/2025-01-24_SE-naloga.html</id>
+    <updated>2025-01-24T14:00:11Z</updated>
+    <summary>Rezultati seminarske naloge so objavljeni v naslednji tabeli. Tabela je razdeljena na tri kriterije: poročilo (40%), izdelkek (60%) ter na koncu so objavljeni končni rezultati seminrja.</summary>
+  </entry>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/THOM/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/THOM/Obvestila/rss_sporocila.html</id>
+    <updated>2024-11-12T22:36:45Z</updated>
+    <summary>Namen teh obvestil je, da boste prejeli obvestilo o novi objavi v vaš bralnik obvestil. Tako vam ne bo potrebno ročno pregledovati teh objav in slediti novim objavam. Na obvestila se lahko naročite s povezavo na ta RSS sporočila. Prebirate jih lahko s katerikolim RSS odjemalcem (npr.: Feedly), prebirajo pa jih tudi nekateri odjemalci elektronske pošte (npr.: Thunderbird).</summary>
+  </entry>
+
+</feed>

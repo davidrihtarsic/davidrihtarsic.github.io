@@ -1,0 +1,103 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ITTD - Obvestila za študente</title>
+  <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/index.html"/>
+  <updated>2023-07-11T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/ITTD/Obvestila/index.html</id>
+
+  <entry>
+    <title>2025-02-04_SE-k.o.</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2025-02-04_SE-k.o..html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2025-02-04_SE-k.o..html</id>
+    <updated>2025-02-04T10:38:50Z</updated>
+    <summary>Objavljam rezultate seminarja za ITTD (zimski semester 2024-2025). Ocene sem ločeno poslal dr. Jamšku (1. seminar) in ločeno dr. Kocijančiču (2. seminar). Profesorja jih bosta združila s svojimi ocenami ...</summary>
+  </entry>
+
+  <entry>
+    <title>2024-06-27_SE-naloga</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-27_SE-naloga.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-27_SE-naloga.html</id>
+    <updated>2024-06-27T09:11:21Z</updated>
+    <summary>Rezultati iz DT-4 za zadnji poletni rok.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-06-12_SE-k.o.</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-k.o..html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-k.o..html</id>
+    <updated>2024-06-12T13:04:02Z</updated>
+    <summary>Končni rezultati predmeta DT-4 ... Prosim tudi študenta z negativlnim rezultatom, da poravna svoje obveznosti.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-06-12_SE-naloga</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-naloga.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-naloga.html</id>
+    <updated>2024-06-12T13:01:05Z</updated>
+    <summary>Tudi rezultate seminarske naloge sem objavil pod ITTD...</summary>
+  </entry>
+
+  <entry>
+    <title>2024-06-12_SE-zagovor</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-zagovor.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2024-06-12_SE-zagovor.html</id>
+    <updated>2024-06-12T12:59:24Z</updated>
+    <summary>Rezultate iz DT-4 sem objavil v rubriko ITTD, ker trenutno nimam bolj primernega spletnega mesta.</summary>
+  </entry>
+
+  <entry>
+    <title>2023-07-12_veje_poročila_3x</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_veje_poročila_3x.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_veje_poročila_3x.html</id>
+    <updated>2023-07-12T22:36:45Z</updated>
+    <summary>Tudi ta poročila lahko prevzamete v kabinetu P060. V kolikor me na PeF ne najdete, lahko za prevzem prosite tudi laboranta g. Primoža Pirnovarja.</summary>
+  </entry>
+
+  <entry>
+    <title>2023-07-12_veje_poročila_2</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_veje_poročila_2.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_veje_poročila_2.html</id>
+    <updated>2023-07-12T19:50:56Z</updated>
+    <summary>Še ena poročila.</summary>
+  </entry>
+
+  <entry>
+    <title>2023-07-12_vaje-poročila</title>
+    <link href="https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_vaje-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/ITTD/Obvestila/2023-07-12_vaje-poročila.html</id>
+    <updated>2023-07-12T15:50:32Z</updated>
+    <summary>Vaje lahko prevzamete v kabinetu P060.</summary>
+  </entry>
+  
+  <entry>
+    <title>2023-06-13: Rezultati poročil</title>
+    <link href="https://davidrihtarsi.github.io/RobDuino"/>
+    <id>id_0003</id>
+    <updated>2023-07-10T19:30:00Z</updated>
+    <summary>
+        Rezultati porocil..
+    </summary>
+  </entry>
+  
+  <entry>
+    <title>Moj 3. feed</title>
+    <link href="https://davidrihtarsi.github.io/RobDuino"/>
+    <id>id_0001</id>
+    <updated>2003-12-13T18:30:02Z</updated>
+    <summary>
+        Rezultati poročil...
+    </summary>
+  </entry>
+  
+  <entry>
+    <title>Moj 2. feed</title>
+    <link href="https://davidrihtarsi.github.io/RobDuino"/>
+    <id>id_0002</id>
+    <updated>2003-12-13T18:30:02Z</updated>
+    <summary>
+        Rezultati poročil 2x...
+    </summary>
+  </entry>
+</feed>

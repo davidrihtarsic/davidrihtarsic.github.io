@@ -1,0 +1,37 @@
+<circuit version="1.1.0-SR0" rev="2278" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="FlipFlopT" CircId="FlipFlopT-52" mainComp="false" Show_id="false" Show_Val="false" Pos="-252,-36" rotation="0" hflip="1" vflip="1" label="FlipFlopT-52" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" UseRS="false" Reset_Inverted="false" Clock_Inverted="false" Trigger="None" Input_High_V="2.5 V" Input_Low_V="2.5 V" Input_Imped="1000 MΩ" Out_High_V="5 V" Out_Low_V="0 V" Out_Imped="40 Ω" pd_n="1 _Gates" Tpd_ps="10 ns" Tr_ps="3 ns" Tf_ps="4 ns" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-53" mainComp="false" Show_id="false" Show_Val="false" Pos="-348,-36" rotation="0" hflip="1" vflip="1" label="Fixed Voltage-53" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="false" />
+
+<item itemtype="TextComponent" CircId="TextComponent-54" mainComp="false" Show_id="false" Show_Val="false" Pos="-364,-72" rotation="0" hflip="1" vflip="1" label="TextComponent-54" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Margin="5 _px" Border="1 _px" Color="#ffffdc" Opacity="1" Font="Helvetica [Cronyx]" Font_Color="#000080" Font_Size="10 _px" Fixed_Width="true" Text="Toggle" />
+
+<item itemtype="Probe" CircId="Probe-55" mainComp="false" Show_id="false" Show_Val="true" Pos="-148,-52" rotation="-45" hflip="1" vflip="1" label="Probe-55" idLabPos="16,-16" labelrot="45" valLabPos="16,0" valLabRot="45" ShowVolt="true" Threshold="2.5 V" />
+
+<item itemtype="Oscope" CircId="Oscope-56" mainComp="false" Show_id="false" Show_Val="false" Pos="-92,92" rotation="0" hflip="1" vflip="1" label="Oscope-56" idLabPos="-90,-100" labelrot="0" valLabPos="-16,20" valLabRot="0" Basic_X="135 _px" Basic_Y="135 _px" BufferSize="600000" connectGnd="true" InputImped="10 MΩ" TimDiv="1000000000000" TimPos="0,0,0,0," VolDiv="1,1,1,1," Tunnels=",,,," Trigger="4" Filter="0.1 V" Trigger="4" AutoSC="4" Tracks="2" HideCh="false,false,false,false," VolPos="0,0,0,0," />
+
+<item itemtype="Tunnel" CircId="Tunnel-58" mainComp="false" Show_id="false" Show_Val="false" Pos="-288,-36" rotation="0" hflip="1" vflip="1" label="Tunnel-58" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="T" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-59" mainComp="false" Show_id="false" Show_Val="false" Pos="-324,-36" rotation="0" hflip="-1" vflip="1" label="Tunnel-59" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="T" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-60" mainComp="false" Show_id="false" Show_Val="false" Pos="-216,-36" rotation="0" hflip="-1" vflip="1" label="Tunnel-60" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-61" mainComp="false" Show_id="false" Show_Val="false" Pos="-180,-36" rotation="0" hflip="1" vflip="1" label="Tunnel-61" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-62" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,76" rotation="0" hflip="1" vflip="1" label="Tunnel-62" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="Q" IsBus="false" />
+
+<item itemtype="Tunnel" CircId="Tunnel-63" mainComp="false" Show_id="false" Show_Val="false" Pos="-188,44" rotation="0" hflip="1" vflip="1" label="Tunnel-63" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Name="T" IsBus="false" />
+
+<item itemtype="Connector" uid="Connector-100" startpinid="Tunnel-59-pin" endpinid="Fixed Voltage-53-outnod" pointList="-324,-36,-332,-36" />
+
+<item itemtype="Connector" uid="Connector-101" startpinid="Tunnel-58-pin" endpinid="FlipFlopT-52-in0" pointList="-288,-36,-268,-36" />
+
+<item itemtype="Connector" uid="Connector-102" startpinid="Tunnel-60-pin" endpinid="FlipFlopT-52-out0" pointList="-216,-36,-228,-36" />
+
+<item itemtype="Connector" uid="Connector-103" startpinid="Tunnel-61-pin" endpinid="Probe-55-inpin" pointList="-180,-36,-164,-36" />
+
+<item itemtype="Connector" uid="Connector-104" startpinid="Tunnel-62-pin" endpinid="Oscope-56-Pin1" pointList="-188,76,-180,76" />
+
+<item itemtype="Connector" uid="Connector-105" startpinid="Tunnel-63-pin" endpinid="Oscope-56-Pin0" pointList="-188,44,-180,44" />
+
+</circuit>

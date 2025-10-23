@@ -1,0 +1,42 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TP-3 - Obvestila za študente</title>
+  <link href="https://davidrihtarsic.github.io/TP-3/Obvestila/index.html"/>
+  <updated>2024-06-11T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/TP-3/Obvestila/index.html</id>
+
+  <entry>
+    <title>2025-06-24_P-izpit</title>
+    <link href="https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-24_P-izpit.html"/>
+    <id>https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-24_P-izpit.html</id>
+    <updated>2025-06-24T19:33:39Z</updated>
+    <summary>Objavljam še rezultate 2. izpitnega roka. Pod temi podatki sledijo tudi končne ocene.</summary>
+  </entry>
+
+  <entry>
+    <title>2025-06-24_KV-poročila</title>
+    <link href="https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-24_KV-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-24_KV-poročila.html</id>
+    <updated>2025-06-24T19:23:37Z</updated>
+    <summary>Posodbljeni podatki o rezultatih poročil...</summary>
+  </entry>
+
+  <entry>
+    <title>2025-06-16_teorija-izpit</title>
+    <link href="https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-16_teorija-izpit.html"/>
+    <id>https://davidrihtarsic.github.io/TP-3/Obvestila/2025-06-16_teorija-izpit.html</id>
+    <updated>2025-06-16T11:38:33Z</updated>
+    <summary>Rezultati 1. izpita iz TP3 so objavljeni v naslednji tabeli. Izjemoma smo spustili prepustno mejo za 10 odstotnih točk.</summary>
+  </entry>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/TP-3/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/TP-3/Obvestila/rss_sporocila.html</id>
+    <updated>2024-06-11T22:36:45Z</updated>
+    <summary>Namen teh obvestil je, da boste prejeli obvestilo o novi objavi v vaš bralnik obvestil. Tako vam ne bo potrebno ročno pregledovati teh objav in slediti novim objavam. Na obvestila se lahko naročite s povezavo na ta RSS sporočila. Prebirate jih lahko s katerikolim RSS odjemalcem (npr.: Feedly), prebirajo pa jih tudi nekateri odjemalci elektronske pošte (npr.: Thunderbird).</summary>
+  </entry>
+
+</feed>

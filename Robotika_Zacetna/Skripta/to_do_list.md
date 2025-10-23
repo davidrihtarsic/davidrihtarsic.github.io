@@ -1,0 +1,1 @@
+- mogoče lahko naredim nek file ExerciseInstructions.h kjer je kratek opis vaje in link na sam dokument z opisom vaje na internetu.

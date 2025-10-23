@@ -1,0 +1,82 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>TP-2 - Obvestila za študente</title>
+  <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/index.html"/>
+  <updated>2023-07-11T19:31:00Z</updated>
+  <author>
+    <name>dr. David Rihtaršič</name>
+  </author>
+  <id>https://davidrihtarsic.github.io/TP-2/Obvestila/index.html</id>
+
+  <entry>
+    <title>2025-07-03_KV-poročila</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2025-07-03_KV-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2025-07-03_KV-poročila.html</id>
+    <updated>2025-07-03T09:41:13Z</updated>
+    <summary>Objavljeni so rezultati TP2 po posameznih vajah. Ocena posamezne vaje je sestavljena ocene iz poročila in ocene izdelka. Povprečna ocena vseh vaj je vpisana v VIS kot končna ocena pri predmetu TP2.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-02-26_končna_ocena</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_končna_ocena.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_končna_ocena.html</id>
+    <updated>2024-02-26T10:31:58Z</updated>
+    <summary>Zaključne ocene iz TP-2 so objalvljene... Vpisal jih bom v VIS. En rezultat je negativen, ker manjkajo oddana poročila in tako niso opravljene vse obveznosti.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-02-26_vaje-poročila</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_vaje-poročila.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_vaje-poročila.html</id>
+    <updated>2024-02-26T10:29:42Z</updated>
+    <summary>Žal nisem prejel vseh poročil in zato pozno objavljam te podatke. Lahko me kontaktirate a bom v kratkem zaključil ocene.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-02-26_izdelki</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_izdelki.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-26_izdelki.html</id>
+    <updated>2024-02-26T10:26:24Z</updated>
+    <summary>Kot verjetno veste, ste imeli ocene izdelkov zelo vredu ocenjene...</summary>
+  </entry>
+
+  <entry>
+    <title>2024-02-06_seminar-naloga</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-06_seminar-naloga.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-02-06_seminar-naloga.html</id>
+    <updated>2024-02-06T19:38:06Z</updated>
+    <summary>Rezultati seminarske naloge za TIOM.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-01-24_SE</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-24_SE.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-24_SE.html</id>
+    <updated>2024-01-24T11:23:38Z</updated>
+    <summary>Končne ocene seminarja (50% naloga + 50% zagovor) sem posredoval dr. S. Avscu, da vam bo vpisal skupno oceno iz predmeta. Študentje, ki imate rezultat negativen (npr.: -52%) nimate opravljenih vseh obveznosti. Prosim oddajte seminar in se prijavite na naslednji izpitni rok.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-01-24_Kolokvij1</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-24_Kolokvij1.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-24_Kolokvij1.html</id>
+    <updated>2024-01-24T09:31:43Z</updated>
+    <summary>Za konzultacije v zvezi s kolokvijem me lahko kontaktirate po elektronski pošti.</summary>
+  </entry>
+
+  <entry>
+    <title>2024-01-16_predstavitev_seminarja</title>
+    <link href="https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-16_predstavitev_seminarja.html"/>
+    <id>https://davidrihtarsic.github.io/TP-2/Obvestila/2024-01-16_predstavitev_seminarja.html</id>
+    <updated>2024-01-16T19:28:29Z</updated>
+    <summary>Pri vsakem kriteriju ste lahko prejeli od 1 do 5 točk, na to pa je bila ta ocena še obtežena s predvidenim odstotkom (v navodilih za izdelavo seminarskega dela).</summary>
+  </entry>
+
+  <entry>
+    <title>RSS SPOROČILA</title>
+    <link href="https://davidrihtarsic.github.io/Elektronika/Obvestila//rss_sporocila.html"/>
+    <id>https://davidrihtarsic.github.io/Elektronika/Obvestila/rss_sporocila.html</id>
+    <updated>2023-07-12T22:36:45Z</updated>
+    <summary>Namen teh obvestil je, da boste prejeli obvestilo o novi objavi v vaš bralnik obvestil. Tako vam ne bo potrebno ročno pregledovati teh objav in slediti novim objavam. Na obvestila se lahko naročite s povezavo na ta RSS sporočila. Prebirate jih lahko s katerikolim RSS odjemalcem (npr.: Feedly), prebirajo pa jih tudi nekateri odjemalci elektronske pošte (npr.: Thunderbird).</summary>
+  </entry>
+
+</feed>
