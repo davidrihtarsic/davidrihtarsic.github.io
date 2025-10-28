@@ -34,6 +34,41 @@ pohištvom, papirjem in drugimi.
 
 ## FIZIKALNE LASTNOSTI LESA
 
+### Gostota
+
+- neposreden vpliv na fizikalne lastnosti lesa
+  - boljša trdota
+  - boljša upogibna trdnost
+
+$$ \rho_u = \frac{m_u}{V_u} $${#eq:gostota}
+
+pri čemer je:  
+
+- $\rho_u$ = gostota lesa pri določeni vlažnosti [kg/m3] 
+- $m_u$ = masa lesa pri določeni vlažnosti [kg] 
+- $V_u$ = prostornina lesa pri določeni vlažnosti [m3]
+
+![Gostota lesa](./slike/gostota_lesa.png){#fig:gostota_lesa}
+
+Premisli:
+
+- iglavci vs raztreseno porozni listavci vs  venčasto porozni listavci
+
+#### Širina branike
+
+- delež kasnega lesa !
+
+- Iglavci:
+  - širina kasnega lesa  = enaka (ni odvisna od vremenskih razmer spomladi in poleti)
+  - široka branika - nižja gostota
+
+- Venčasto porozni
+  - širina ranega lesa = enaka,
+  - široka branika - večja gostota
+
+- Raztreseno porozni
+  - neodvisno od širine branike
+
 - močno odvisne od same vrste
 - nihanja pri isti vrsti
 - napake v lesu
@@ -41,11 +76,11 @@ pohištvom, papirjem in drugimi.
 - gostota (delež kasnega lesa -> trdota, trdnost)
 - vlažnost lesa (bolj suh boljša trdnost) temperatura (plastične deformacije lignina -> namjša trdnost)
 
-### VLAŽNOST LESA
+### Vlažnost lesa
 
 Vlažnost lesa izračunamo:
 
-$$ U = \frac{m_v}{m_0} $${#eq:vlaznost_lesa}
+$$ u = \frac{m_v}{m_0} $${#eq:vlaznost_lesa}
 
 kjer je:  
 
@@ -66,7 +101,7 @@ vsebuje 15 g vode.
     - TNCS: točka nasičenosti celičnih sten
     - VPLIV na krčenje lesa!
 
-#### Krlčenje lesa
+#### Krčenje lesa
 
 - le kadar se spremeni % vode v celičnih stenah
 - krčenj je odvisna od smeri krčenja,
@@ -136,7 +171,7 @@ $$ \Delta L_{\Delta u} = \beta_{\Delta u} L $${#eq:dejanski_skrcek}
 
 ## MEHANSKE LASTNOSTI LESA
 
-### TRDOTA LESA
+### Trdota lesa
 
 > Trdota je odpor, s katerim se les upira prodiranju tujega telesa vanj.
 
@@ -185,7 +220,7 @@ Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000). {#tbl:trdota_HBW
 
 > p.s.: V lesarstvu se pogosto uporablja termin trdote v povezavi z orodji. Naj le omenimo, da se trdota jekla pogosto meri z Rockwell-ovo lestvico - HRC, kjer se vtisne diamantni stožec, za mehkejša jekla pa se uporablja HRB -  kjer se vtisne jeklena kroglica.
 
-### TRDNOST LESA
+### Trdnost lesa
  
 Trdnost materiala (lesa) je sposobnost, da se upira spremembi 
 oblike in porušitvi zaradi delovanja zunanjih sil. Kadar trdno telo 

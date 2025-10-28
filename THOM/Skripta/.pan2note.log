@@ -1,3 +1,10 @@
-Convering 150_vrtanje_v_les.md -> PDF ..[WARNING] Deprecated: --listings. Use --syntax-highlighting=idiomatic instead.
+Convering 600_THOM_Lastnosti_lesa.md -> PDF ..[WARNING] Deprecated: --listings. Use --syntax-highlighting=idiomatic instead.
 WARNING: pandoc-crossref was compiled with pandoc 3.6.4 but is being run through 3.8.2. This is not supported. Strange things may (and likely will) happen silently.
+[WARNING] [makePDF] LaTeX Warning: Label `tbl:trdota_HBW' multiply defined.
+[WARNING] [makePDF] LaTeX Warning: Label `tbl:sigma_dop_tab' multiply defined.
+[WARNING] [makePDF] LaTeX Warning: Label `tbl:momenti_presekov' multiply
+  defined.
+[WARNING] [makePDF] LaTeX Warning: Label `tbl:nacin_vpetja_stebra' multiply
+  defined.
+[WARNING] [makePDF] LaTeX Warning: There were multiply-defined labels.
 ..[32m Done [0m

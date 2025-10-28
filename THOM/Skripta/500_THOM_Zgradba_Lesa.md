@@ -341,7 +341,7 @@ Mikroskopska zgradba lesa razkriva kompleksno organizacijo celic, ki zagotavlja 
 - Celični tipi in njihove funkcije: traheide, vodne cevi (ki omogočajo aksialni transport), vlakna (mehanska trdnost), parenhimske celice (skladiščenje in presnova), radialni trakovi (lateralni transport in rezerve).
 - Zgradba celične stene: večslojna sekundarna stena z deli S1, S2, S3; debelina in orientacija mikrofibril v S2 pomembno vplivata na mehanske lastnosti.
 - Piknje: strukture za medcelični prehod vode; razlike med listavci in iglavci so anatomsko pomembne.
-- Posebne strukture: piknje (pits) s pikensko votlino in membrano ter tile  — izrastki parenhimskih celic, ki zapirajo lumen traheje.
+- Tile  — izrastki parenhimskih celic, ki zapirajo lumen traheje.
 
 ![Mikroskopska zgradba iglavcev](./slike/mikro_zgradba.png){#fig:mikro_zgradba}
 
@@ -380,8 +380,10 @@ Mikroskopska zgradba lesa razkriva kompleksno organizacijo celic, ki zagotavlja 
     - pomemben pri termični obdelavi lesa (krivljenje s paro)
 - druge snovi manj kot 10% (smole, maščobe, voski, barvila)
 
-### Sestavine celične stene:
+### Sestavine celične stene
+
 Sekundarna celična stena lesa je kompozitna struktura, sestavljena iz:
+
 - Celuloze (primarna strukturna komponenta, mikrofibrile),
 - Hemiceluloz (strukturna polsintezna polimerna mreža, povezovalne funkcije),
 - Lignina (netopni polimerni fenolni lepilni material, zagotavlja togost in hidrofobnost),
@@ -390,6 +392,7 @@ Sekundarna celična stena lesa je kompozitna struktura, sestavljena iz:
 Debelina posameznih slojev (S1, S2, S3) in orientacija mikrofibril (mikrofibrilarni kot, MFA) — zlasti v S2 — določata elastičnost, trdnost in krčenje/raztezanje lesa.
 
 ### Podrobneje: celuloza
+
 - Zgradba: linearni polisaharid zgrajen iz $\beta$(1-4)-povezanih D-glukoznih enot; dolgi linearni verigi (degree of polymerization, DP, v lesu tipično od nekaj 1000 do >10 000 pri nekaterih vrstah).
 - Organizacija: verige tvorijo vodikove vezi in skupaj tvorijo mikrofibrile (=3–25 nm premera, odvisno od definicije in viru). Mikrofibrile imajo kristalinične in amorfne regije; višja stopnja kristaliničnosti povečuje natezno trdnost in odpornost proti encimatskemu napadu.
 - Lastnosti:
@@ -419,7 +422,8 @@ Debelina posameznih slojev (S1, S2, S3) in orientacija mikrofibril (mikrofibrila
   - Kemijska obstojnost: manj reaktiven za encime, a občutljiv na alkalno razgrajevanje (osnovno pulpanje) in oksidativne reakcije.
 - Vloga v lesu: daje lesu togost, odpornost proti mikrobi in kemijsko zaščito; porazdelitev lignina v sekundarnih stenah in v srednji lameli je pomembna za medcelično vez.
 
-### Še ena pomembna sestavina: pektini (in extractives kot praktičen dopolnilni opis)
+### pektin 
+
 - Pektini
   - Lokacija: predvsem v srednji lameli in primarni steni.
   - Kemija: kompleksni polisaharidi z visokimi vsebnostmi galakturonske kisline in esterificiranimi skupinami.
@@ -531,41 +535,4 @@ Raztreseno porozen listavec. Običajno je les na prečnem prerezu enakomerne bar
 
 Venčasto porozen listavec z obarvano jedrovino. Letnice razločne. Pore ranega lesa vidne s prostim očesom. Pore kasnega lesa majhne, nanizane v radialnih nizih. Pogoste tile v trahejah ranega lesa v jedrovini. Trakovi so enoredni in nad 10-redni. Nad 10-redni trakovi široki tudi več kot 1mm in visoki tudi več cm. Med trahejnimi elementi enostavne perforacije. V parenhimskih celicah trakov in v kamrastih celicah lahko rombični kristali.
 
-
-# FIZIKALNE LASTNOSTI LESA
-
-## Gostota
-
-- neposreden vpliv na fizikalne lastnosti lesa
-  - boljša trdota
-  - boljša upogibna trdnost
-
-$$ \rho_u = \frac{m_u}{V_u} $${#eq:gostota}
-
-pri čemer je:  
-
-- $\rho_u$ = gostota lesa pri določeni vlažnosti [kg/m3] 
-- $m_u$ = masa lesa pri določeni vlažnosti [kg] 
-- $V_u$ = prostornina lesa pri določeni vlažnosti [m3]
-
-![Gostota lesa](./slike/gostota_lesa.png){#fig:gostota_lesa}
-
-Premisli:
-
-- iglavci vs raztreseno porozni listavci vs  venčasto porozni listavci
-
-### Širina branike
-
-- delež kasnega lesa !
-
-- Iglavci:
-  - širina kasnega lesa  = enaka (ni odvisna od vremenskih razmer spomladi in poleti)
-  - široka branika - nižja gostota
-
-- Venčasto porozni
-  - širina ranega lesa = enaka,
-  - široka branika - večja gostota
-
-- Raztreseno porozni
-  - neodvisno od širine branike
 
