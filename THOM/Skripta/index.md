@@ -24,6 +24,7 @@
 - [Ročno skobljanje](./140_ročno_skobljanje) - [PDF](./140_ročno_skobljanje.pdf)
 - [Poravnalno skoblanje](./120_poravnaljno_skobljanje) - [PDF](./120_poravnaljno_skobljanje.pdf)
 - [Debelinsko skobljanje](./130_debelinsko_skobljanje) - [PDF](./130_debelinsko_skobljanje.pdf)
+- [Vrtanje v les](./150_vrtanje_v_les) - [PDF](./150_vrtanje_v_les.pdf)
 - [Zarisovanje in prenos mer](./210_zarisovanje_in_prenos_mer) - [PDF](./210_zarisovanje_in_prenos_mer.pdf)
 - [Spajanje lesa](./400_spajanje_lesnih_polizdelkov) - [PDF](./400_spajanje_lesnih_polizdelkov.pdf)
 - [Dletenje](./250_dletenje.md) - [PDF](./250_dletenje.pdf)
