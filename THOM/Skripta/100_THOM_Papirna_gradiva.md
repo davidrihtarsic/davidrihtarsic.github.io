@@ -10,7 +10,13 @@
 
 ![Knjiga mrtvih, napisana na papirus.](./slike/papir_knjiga_mrtvih.jpg){#fig:papir_knjiga_mrtvih}
 
+Knjiga mrtvih (The Book of the Dead) je zbirka magičnih formul, modrosti in napotkov, namenjenih spremljanju duše v posmrtno življenje; mnoge verzije so bile zapisane na papirusu in tako služile kot posmrtni vodič v različnh poglavjih obredja. Papirus kot pisni material je omogočil dolge zvitke in raznoliko ureditev besedila ter prilagodljivost interpretacije (hieroglif, hieratski zapis), kar je prispevalo k širjenju in standardizaciji tekstov v različnih grobnicah in ritualnih kontekstih, vključno z bolj znanimi primeri, kot je Papirus Ani. Ta materialna izbira – papir, izdelan iz rastlinskega tkiva – je ključna za razumevanje zgodovine papirnatih gradiv, njihove trajnosti ter načinov prenosa kulturne dediščine skozi čas [@Budge1901_bookofthedead].
+
 ![Košček prevoda "Knjige razsvetljenja" v stari grščini. Košček razkriva, da je pri številki zveri 666 (v hebrejščini), res šlo za kodiranje imena "Neron Cesar", saj je ta koda v stari grščini 616 (XIC). ](./slike/papir_knjiga_razsvetljenstva.jpg){#fig:papir_knjiga_razsvetljenstva height=400px}
+
+Število zveri izhaja iz Razodetja 13:18 v Novi zavezi, kjer piše: »Kdor ima um, naj izračuna število zveri, kajti to število označuje človeka, in njegovo število je šeststo šestinšestdeset.« V zgodovini so našli tudi nekaj rokopisov, zlasti papirus P115 iz 3. stoletja, v katerih je zapisano število 616 namesto 666. Obe vrednosti se pojavljata v starogrških besedilih, kar potrjuje, da je do različice prišlo zelo zgodaj.
+
+Večina bibličnih zgodovinarjev meni, da gre za številčno kodo (gematrijo), kjer so črke hkrati številke. V grškem ali hebrejskem zapisu imena "Neron Cezar" ima vsota črk vrednost 666, če pa ime zapišemo brez končnega “n” (kot “Nero Caesar”), znaša vsota 616. Zato mnogi strokovnjaki domnevajo, da je šlo za šifrirano oznako rimskega cesarja Nerona, ki je preganjal kristjane in bil simbol tiranije.
 
 ## Pergament:
 
@@ -168,7 +174,15 @@ Največkrat v ločenih obratih potekajo trije ključni procesi pri izdelavi papi
 - formatni razrez
 - transport
 
-### Formati in vrste papirja
+### Formati in vrste papirnih gradiv
+
+Papir, lepenka in karton predstavljajo tri temeljne kategorije papirnatih gradiv, ki se razlikujejo po sestavi, debelini ter namenih uporabe. Temeljne značilnosti so posledica uporabljenih mehanizmov predelave (celulozna vlakna, dodatne prevleke) in strukture materiala (enoslojni papir proti večslojnim ploščam).
+
+- Papir: papir je tanek, homogen list iz celuloznih vlaken, običajno srednje do nizke trdnosti v primerjavi s kompleksnejšimi kartonskimi gradivi. Uporablja se za pisanje, tiskanje in embalažo lahkih izdelkov; značilnosti vključujejo belino, površinsko obdelavo (neobdelan ali premazan) ter površinsko gostoto, ki se ocenjuje z gramaturo (gsm). Papir je najbolj prilagodljiv glede oblikovanja in možnosti tisk [@Sjostrom1993_pulp, @Britannica2024_paper].
+
+- Lepenka: lepenka je običajno papirni izdelek iz več plasti z enako mešanico vlaken, navadno debelejši od kartona. Uporablja se za embalažo, zaščito in trdne površine; značilnosti vključujejo večjo togost, nosilnost in stabilnost v primerjavi z običajnim papirjem.
+
+- Karton (paperboard): je sestavljeno papirno gradivo iz različnih kvalitet papirnih gradiv.Namenjeno je izdelavi škatelj, ovojninc in zaščitnih površin ter pogosto vsebuje večjo suho snov v primerjavi s tankim papirjem. Debelina in trdota omogočata oblikovanje bolj kompleksnih površin in trajnejših končnih izdelkov v primerjavi z navadnim papirjem, pri čemer so lastnosti odvisne od sestave vlaken in površinske obdelave [@Britannica2024_paper, @Sjostrom1993_pulp].
 
 Formati:
 

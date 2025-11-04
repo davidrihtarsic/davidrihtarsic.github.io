@@ -1,5 +1,7 @@
 # Lesni kot surovina in lesni polizdelki
 
+Lesna surovina predstavlja temelj lesne industrije in zajema hlode ter materiale pridobljene iz predelave lesa. Polizdelki so izdelki, ki nastanejo iz te surovine (npr. lesne plošče in drugi lesni izdelki) ter služijo kot vhodni materiali v gradbeništvo, pohištveno industrijo in embalažo. Lastnosti lesa in polizdelkov so odvisne od vrste lesa, vlage, gostote ter načina predelave, kar se odraža v različnih mehanskih lastnostih in stabilnosti končnih izdelkov [@Bedekovic2020_lesneplošče]. Med te surovine štejemo:
+
 - Okrogel les (drogovi, piloti, stebri)
 - Žagan masivni les (plohi, deske, letve, ...)
 - Vezan (lepljen) les (tramovi, deske, letve, vezane plošče)
@@ -17,7 +19,7 @@
 - plohi (debelina: cca 2 paleca)
 - deske (debelina: cca 1 palec)
 - letve (ožje, tanjše)
-- furnir (žagan in luščen)
+- furnir (luščen $d = [1 .. 3] mm$ in žagan $d=[3 .. 8]mm$)
 - ~~polena~~
 - ~~skodle~~
 
@@ -27,13 +29,14 @@
 
 V to kategorijo spadajo polizdelki, pri katerih lepimo oz. vežemo mes seboj enake ali različne lesne polizdelke ali lesno surovino. Strokovna terminologija teh polizdelkov se razlikuje od poljudne, zato bomo opozorili na obe variaciji...
 
-### Vezan (lepljen) masivni les
+### Vezan (lepljen) masivni les in lesne plošče
 
 - [lepljen (slojnat) masivni les](https://www.google.com/search?q=lepljen+les)
 - [furnirne plošče](https://www.google.com/search?q=furnirna+plosca)
     - liho število furnirnih slojev (lahko luščenih ali rezanih)
     - dimenzije od d = [4 mm .. 12 mm]
     - so dimenzijsko stabilne
+    - laično jim rečemo ~~vezane plošče~~, vendar strokovno v to kategorijo spadajo vse plošče, pri katerih smo lesno gradivo povezali skupaj.
 - [furnirni slojnat les]()
     - zlepljenih več plasti furnirja v isti smeri vlaken,
     - oblikovanje poljubnih krivin (naslonjači)
@@ -44,18 +47,20 @@ V to kategorijo spadajo polizdelki, pri katerih lepimo oz. vežemo mes seboj ena
     - d = [15 mm .. 30 mm]
     - za pohištvo višjega cenovnega razreda
 - [opažne plošče](https://www.google.com/search?q=opazna+plosca)
-    - širinsko zlepljene tanke letve (0°), prečne letve(90°) in okvir, š.zl.letve(0°)
+    - širinsko zlepljen furnir letve (0°-90°-0°), prečne letve(90°) in okvir, š.zl.furnir(0°-90°-0°)
+    - po sestavi podobne panelnim ploščam, vendar zasnovane tako, da imajo izboljšane fizikalne lastnosti (upogibno trdnost, manjšo vpojnost vlage ...)
     - [Lip Bohinj - domači proizvajalec](https://www.lipbohinj.si/data/pdf/LIP0101_SL_Schalungsplatten.pdf)
     - zlepljenje z vodoodpornim lepilom
     - zaradi križnega lepljenja so zelo dimenzijsko stabilne in toge
     - d = [21 mm ... 27 mm]
     - v gradbeništvu
-- furnirne (vezane) plošče
 
 ### Iverne plošče
 
+Iverne plošče so lesni kompozitni materiali, izdelani iz drobnih lesnih delcev, ki so zvezani z ustreznim lesnim vezivom in stisnjeni pod tlak. Značilnosti plošč (npr. gostota, trdnost in stabilnost) so odvisne od velikosti delcev, vrste veziva, vsebnosti vlage in načina predelave, kar omogoča razmerje med stroški in zmogljivostjo pri različnih končnih izdelkih [@Mlakar2024_iverne].
+
 - [iverne plošče](https://www.google.com/search?q=particle+board)
-    - iverje d = [0,1 .. 0,3] mm in dolžine l = [0,3 .. 6] mm
+    - iveri d = [0,1 .. 0,3] mm in dolžine l = [0,3 .. 6] mm
     - zlepljeno z vodoodpornim lepilom
     - zelo dimenzijsko odporne in odporne na vremenske razmere
     - uporaba:

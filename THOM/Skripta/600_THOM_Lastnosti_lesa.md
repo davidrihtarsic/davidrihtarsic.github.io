@@ -201,22 +201,22 @@ kjer je:
 
 |    Lesna vrsta | Trdota po Brinellu - HBW [GPa] |
 |---------------:|:------------------------------:|
-|            Bor |               2,2              |
-|          Brest |               3,9              |
-|          Breza |               2,7              |
-|  Bukev parjena |               4,0              |
-|         Češnja |               2,9              |
-|          Hrast |               3,7              |
-|         Hruška |               2,4              |
-| Javor evropski |               3,7              |
-| Javor kanadski |               4,2              |
-|          Jelša |               2,1              |
-|          Jesen |               3,8              |
-|        Kostanj |               2,3              |
-|        Macesen |               2,5              |
-|           Oreh |               3,5              |
 |         Smreka |               1,3              |
-Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000). {#tbl:trdota_HBW}
+|          Jelša |               2,1              |
+|            Bor |               2,2              |
+|        Kostanj |               2,3              |
+|         Hruška |               2,4              |
+|        Macesen |               2,5              |
+|          Breza |               2,7              |
+|         Češnja |               2,9              |
+|           Oreh |               3,5              |
+|          Hrast |               3,7              |
+| Javor evropski |               3,7              |
+|          Jesen |               3,8              |
+|          Brest |               3,9              |
+|  Bukev parjena |               4,0              |
+| Javor kanadski |               4,2              |
+Table: Trdota različnih lesnih vrst po Brinellu HBW(10, 3000).{#tbl:trdota_HBW}
 
 > p.s.: V lesarstvu se pogosto uporablja termin trdote v povezavi z orodji. Naj le omenimo, da se trdota jekla pogosto meri z Rockwell-ovo lestvico - HRC, kjer se vtisne diamantni stožec, za mehkejša jekla pa se uporablja HRB -  kjer se vtisne jeklena kroglica.
 
@@ -294,13 +294,13 @@ namena konstrukcije, vrste obremenitve in drugih vplivov.
 
 $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 
-|        les        | smer | Nateg[MPa] | Tlak[MPa] | Upogib[MPa] | Strig[MPa] | Mod. Ealst.[MPa] |
-|:-----------------:|:----:|:----------:|:---------:|:-----------:|:----------:|:----------------:|
-| Smreka, Jelka,Bor |  ll  |     10     |     11    |      13     |     0.9    |       12000      |
-|                   |   T  |      -     |     2     |      -      |     0.9    |        460       |
-|    Hrast,Bukev    |  ll  |     11     |     12    |      14     |     1.2    |       13000      |
-|                   |   T  |      -     |     3     |      -      |     1.2    |       1000       |
-Table: Dopustne napetosti za nekatere vrste lesa v MPa, pri zračno suhem lesu ($u=18\%$). {#tbl:sigma_dop_tab}
+|        les        |     smer    | Nateg[MPa] | Tlak[MPa] | Upogib[MPa] | Strig[MPa] | Mod. Ealst.[MPa] |
+|:-----------------:|:-----------:|:----------:|:---------:|:-----------:|:----------:|:----------------:|
+| Smreka, Jelka,Bor | $\parallel$ |     10     |     11    |      -      |     0.9    |       12000      |
+|                   |   $\perp$   |      -     |     2     |      13     |     0.9    |        460       |
+|    Hrast,Bukev    | $\parallel$ |     11     |     12    |      -      |     1.2    |       13000      |
+|                   |   $\perp$   |      -     |     3     |      14     |     1.2    |       1000       |
+Table: Dopustne napetosti za nekatere vrste lesa v MPa, pri zračno suhem lesu ($u=18\%$). Za lažje pretvarjanje naj omenimo, da je $1MPa$ enako $1\frac{N}{mm^2}$.{#tbl:sigma_dop_tab}
 
 Ta tabela[^1] prikazuje mehanske lastnosti lesa za različne vrste obremenitev, pri čemer je pomembna smer obremenitve glede na lesna vlakna.
 
@@ -308,8 +308,8 @@ Ta tabela[^1] prikazuje mehanske lastnosti lesa za različne vrste obremenitev, 
 
 Smer obremenitve:
 
-"ll": Obremenitve vzporedno z lesnimi vlakni (longitudinalna smer).
-"T": Obremenitve pravokotno na vlakna (transverzalna smer).
+$\parallel$: Obremenitve vzporedno z lesnimi vlakni (longitudinalna smer).  
+$\perp$: Obremenitve pravokotno na vlakna (transverzalna smer).
 
 Lastnosti materiala:
 
@@ -325,7 +325,10 @@ Hrast in bukev imata nekoliko višje mehanske lastnosti v primerjavi s smreko, j
 
 #### NATEZNA IN TLAČNA TRDNOST LESA
 
+sta ključni mehanski lastnosti, ki sta močno odvisni od orientacije vlaken. Zaradi te orientacijske odvisnosti so vrednosti trdnosti za različne smeri in vrste lesa značilno različne, zato se pri načrtovanju uporabljajo standardizirani testi in zapisi iz specializirane literature [@ForestProductsLaboratory2010_trdnost].
+
 raztezek:  
+
 $$ \epsilon = \frac{\Delta l}{l_0} = \frac{l_1 - l_0}{l_0} $${#eq:raztezek}
 
 - $\epsilon$ - specifični raztezek
@@ -359,7 +362,7 @@ dL = 7.03MPa * 1,8m / 12GPa = 1.06 mm
 
 #### STRIŽNA TRDNOST
 
-Strižna trdnost je odpor lesa proti strigu lesnih plasti s silo, ki 
+je odpor lesa proti strigu lesnih plasti s silo, ki 
 deluje v ravnini lesnih vlaken ali redko, prečno na lesna vlakna.  
 
 - prečno na vlakna : čepna vez
@@ -378,7 +381,7 @@ $$ \tau = \frac{F}{A} $${#eq:strig}
 
 #### UPOGIBNA TRDNOST
 
-Upogibna trdnost je odpor lesnega nosilca med oporama proti maksimalni sili, ki deluje pravokotno na os nosilca. 
+je odpornost lesa na upogib v smeri prečno na vlakna. Zaradi anizotropije so vrednosti odvisne od vrste lesa in orientacije vlaken, zato so pri načrtovanju uporabljene standardizirane metode preizkusov in ustrezna literatura [@ForestProductsLaboratory2010_trdnost].
 
 ![Upogibna trdnost.](./slike/upogibna_trdnost.png){#fig:upogibna_trdnost}
 
@@ -397,7 +400,7 @@ $$ \sigma_U = \frac{M_{max}}{W_x} $${#eq:napetosti_upogib}
 |     pravokotni | $I_x = \frac{b\ h^3}{12}$ |   $W_x=\frac{b\ h^2}{6}$  |
 |        okrogli | $I_x=\frac{\pi\ d^4}{64}$ | $W_x=\frac{\pi\ d^3}{32}$ |
 
-Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer je: a - dolžina stranice kvadratnega, b - širina in h - višina pravokotnega ter d - premer okroglega prereza. {#tbl:momenti_presekov}
+Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer je: a - dolžina stranice kvadratnega preseka; b - širina in h - višina pravokotnega preseka ter d - premer okroglega preseka nosilca. {#tbl:momenti_presekov}
 
 ![Poves in napetosti v nosilcu pri različnih obremenitvah.](./slike/nosilci.png){#fig:nosilci}
 
@@ -425,16 +428,28 @@ Table: Vztrajnostni in odpornostmi momenti za različne prereze nosilcev. Kjer j
 > Kakšno je najugodnejše razmerje stranic nosilca, ki je obremenjen na upogibi in ga moramo izrezati iz debla z okroglim presekom? V praksi se pogosto uporablja razmerje 5:7, ali lahko potrdiš, da je to res najučinkoviteje. (R: Podatek je resničen za primer, ko nosilec izrežemo iz okroglega preseka.)
 
 
-#### UKLONSKA TRDNOST  
+#### UKLONSKA TRDNOST
+
+lesa je odvisna od faktorja vitkosti, ki jo določimo z razmerjem $\lambda$ glede na dolžino in presek nosilca. Zaradi anizotropije lesa se lastnosti (modul Younga $E$, vztrajnostni momentu $I$) razlikujejo glede na orientacijo vlaken, zato so trdnostne lastnosti različnih vrst in usmeritev vlaken različne [@ForestProductsLaboratory2010_trdnost]. Ko je $\lambda > 100$, uklonsko trdnost računamo po Eulerjevem postopku.
 
 **Vitkost**:
 
 $\lambda = \frac{l_0}{i}$
 
-- $l_0$ prosta uklonska dolžina ([@tbl:nacin_vpetja_stebra])
-- i - vztrajnostni polmer, ki ga izračunamo iz vztrajnostnega momenta in prereza na katerega sila deluje:
+- $l_0$ prosta uklonska dolžina, glej [@tbl:nacin_vpetja_stebra] glede na način vpetja nosilca,
+- $i$ - vztrajnostni polmer, ki ga izračunamo iz vztrajnostnega momenta in prereza na katerega sila deluje:
 
 $$ i=\sqrt{\frac{I_{min}}{A}} $$
+
+**Način vpetja**
+
+|     konec A     |     konec B     | prosta uklonska dolžina - $l_0$ |
+|:---------------:|:---------------:|:-------------------------------:|
+|   togo vpetje   |   prosti konec  |              $2\ l$             |
+|   togo vpetje   |   togo vpetje   |            $0.65\ l$            |
+|   togo vpetje   | členasto vpetje |             $0.8\ l$            |
+| členasto vpetje | členasto vpetje |               $l$               |
+Table: Tabela z izračuni proste uklonske dolžine $l_0$ glede na način vpetja lesenega vitkega stebra z dolžino $l$. Konec A je spodnja stran nosilca, na B pa deluje sila $F$. Predvideni so trije načini vpetja: 1) togo vpetje - fiksiran tako, da ne omogoča rotacije in translacije v vodoravni smeri, 2) členasto vpetje - možna je rotacija nostilca, ne pa tudi translacija in 3) prosto vpetje - možni sta tako rotacija, kot translacija v vodoravni smeri. {#tbl:nacin_vpetja_stebra}
 
 Večja ko je vitkost, večja je nevarnost uklona. Uklonsko kritično napetost
 določamo po treh različnih postopkih, v odvisnosti od vitkosti.
@@ -443,31 +458,40 @@ določamo po treh različnih postopkih, v odvisnosti od vitkosti.
 2. ... kombinacija obremenitve na tlak in uklon
 3. $\lambda \geq 100$ - dimenzioniranje po Eulerjevem postopku
 
-##### Eulerjev postopek
+##### Eulerjev postopek 
+izvedemo takrat, ko je izpolnjen pogoj, da je koeficient vitkosti $\lambda > 100$. Silo pri kateri se bo nosilec uklonil lahko izračunamo po [@eq:kriticna_sila_uklona]:
 
-uklonska sila (kritična slia)
+$$
+F_{\mathrm{k}} = \frac{\pi^{2} E I}{(l_0)^2}
+$${#eq:kriticna_sila_uklona}
 
-$$ F_k = \frac{\pi^2 E I_{min}}{l_0^2} $$
+in jo imenujemo **kritična sila uklona**.
 
-uklonska napetost
+Pri teh pogojih se ustvarijo podobni pogoji kot pri upogibni obremenitvi in nastanejo notranje napetosti:
 
-$$ \sigma_k = \frac{F_k}{A} $$
+$$
+\sigma_{\mathrm{k}} = \frac{F_{\mathrm{k}}}{A} = \frac{\pi^{2} E}{\lambda^{2}}.
+$$
 
-dopustna sila
+Pri načrtovanju nosilcev vedno upoštevamo dopustne napetosti, ki so bistveno manjše od teh mejnih, kritičnih vrednosti. Zato pri načrtovanju nosilcev upoštevamo dopustne napetosti in laho zapišemo
 
-$$ F_{dop} = \frac{F_k}{k_v}  $$
+$$
+\sigma_{\mathrm{dop}} = \frac{F_{\mathrm{dop}}}{A} = \frac{\pi^{2} E}{\lambda_{max}^{2}},
+$${#eq:dopustna_uklonska_napetost}
 
-- $k_v = 10 (les)$
+kjer je:
 
-**Način vpetja**
+$$ 
+\lambda_{max} = \frac{l_0}{i_{min}}; i_{min} = \sqrt{\frac{I_{min}}{A}}
+$${#eq:vitkost_max}
 
-|     konec A     |     konec B     | prosta uklonska dolžina - $l_0$ |
-|:---------------:|:---------------:|:-------------------------------:|
-|    togo vpet    |   prosti konec  |              $2\ l$             |
-|       togo      |   togo vpetje   |            $0.65\ l$            |
-|   togo vpetje   | členasto vpetje |             $0.8\ l$            |
-| členasto vpetje | členasto vpetje |               $l$               |
-Table: Tabela z izračuni proste uklonske dolžine $l_0$ glede na način vpetja lesenega vitkega stebra z dolžino $l$. {#tbl:nacin_vpetja_stebra}
+od koder sledi da je dopustna sila definirana z [@eq:dopustna_uklonska_sila]:
+
+$$
+F_{\mathrm{dop}} = \frac{\pi^{2} E I_{min}}{(l_0)^2}
+$${#eq:dopustna_uklonska_sila}
+
+
 
 > Smrekov steber pravokotnega prereza je na eni strani vpet členkasto na 
 > drugi pa togo. Dolžina stebra je 5 m. Obremenjen je s silo 45 kN.

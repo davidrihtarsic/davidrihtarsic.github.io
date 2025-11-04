@@ -19,10 +19,10 @@ esphome:
 esp8266:
   board: esp01_1m
 
-# Enable logging
+ # Enable logging
 logger:
 
-# Enable Home Assistant API
+ # Enable Home Assistant API
 api:
   encryption:
     key: "j/BnvsdLlKd02Y/ObJ/U00Zx0f58IA+PszK3p4I+ruo="
@@ -44,7 +44,7 @@ captive_portal:
 
 web_server:
   
-# Example configuration entry
+ # Example configuration entry
 sensor:
   - platform: aht10
     i2c_id: bus_a
@@ -57,7 +57,7 @@ sensor:
       id: ath10_hum
     update_interval: 60s
 
-# Example configuration entry for ESP32
+ # Example configuration entry for ESP32
 i2c:
   - id: bus_d
     sda: GPIO14
@@ -99,7 +99,47 @@ time:
           - lambda: id(oled).turn_off();
 ```
 
-## ESP32 Light AirSensor BME680
+## ESP32-Home
+
+- ESPHome omogoča enostavno ustvarjanje prilagojenega firmwarea za ESP32/ESP8266 z uporabo YAML konfiguracij, ki opredeljuje senzorje, stikala, LED in druge aktuatorje ter zagotavlja lokalno zbiranje in posredovanje podatkov v omrežje.
+- Integracija z Home Assistantom poteka prek ESPHome integracije: napravo se flasha (OTA ali USB), dodamo v vmesnik Home Assistanta in pridobimo entitete (sensorji, stikala, priklopi na naprave), ki jih je mogoče uporabiti v avtomatizacijah, scenah in nadzoru.
+- Prednosti so prilagodljivost, delovanje lokalno brez odvisnosti od oblaka, hitrejši odziv ter bolj dosledno spremljanje porabe energije in stanja naprav; omogoča pa tudi enostavno ustvarjanje avtomatizacij in vizualizacijo stanja v pametni hiši.
+
+### Integracija v Home Assistant
+
+
+1. ESPHome Builder -> [+New Device]
+
+Postopek integracije ESP32 krmilnika v Home Assistant (na kratko, kronološko)
+
+1) Priprava in načrtovanje
+- Pripravite ESP32 razvojni modul, USB kabel in računalnik ali že odprt Home Assistant z ESPHome dodatkom.
+- Preverite, ali imate dostop do omrežja (Wi‑Fi) in ali lahko zapišete ime omrežja ter geslo.
+
+2) Programiranje ESP32 z ESPHome
+- ESPHome namestite (prek Home Assistant add-ona ali lokalno na računalniku).
+- Zaženite ESPHome GUI ali CLI in ustvarite novo napravo:
+  - Vnesite ime naprave, platformo ESP32 in tip plošče (npr. esp32dev).
+  - Vnesite omrežno SSID in geslo.
+  - Dodajte potrebne module (api, ota, logger) po potrebi.
+- Flashajte firmware na ESP32:
+  - Če uporabljate OTA: povežite napravo v omrežje, izberite OTA pri postopku nalaganja in poženite nalaganje.
+  - Če uporabljate USB: povežite ESP32 preko USB in izberite Flash (USB) v ESPHome GUI ali uporabite esphome run ukaz.
+- Preverite v ESPHome dashboardu, da je naprava online in dodeljena IP naslovu.
+
+3) Integracija v Home Assistant
+- V Home Assistant pojdite na Configuration → Devices & Services → Add Integration → ESPHome.
+- Vnesite ali izberite IP naslov ESP32 naprave (ali omogočite samodejno odkrivanje).
+- Po uspešni integraciji bodo entiteti (npr. senzorji, stikala) na voljo za avtomatizacije, scenarije in nadzorno ploščo.
+
+4) Preverjanje in uporaba
+- Preverite, ali se nove entitete pravilno prikažejo v Lovelace pogledu.
+- Ustvarite enostavno avtomatizacijo ali sceno za testiranje funkcionalnosti.
+
+6) Dodatno
+- API ključ ni običajno potreben za standardno integracijo ESPHome z Home Assistant; ESPHome uporablja svojo API biezo in odkrivanje v omrežju. Če potrebujete bolj zapletene integracije ali REST klice, uporabite ustrezne avtentikacije po potrebi (npr. Home Assistant Long-Lived Tokens zunaj običajne ESPHome integracije).
+
+### Light AirSensor BME680
 
 ```yaml
 esphome:
@@ -111,10 +151,10 @@ esp32:
   framework:
     type: arduino
 
-# Enable logging
+ # Enable logging
 logger:
 
-# Enable Home Assistant API
+ # Enable Home Assistant API
 api:
   encryption:
     key: "rlKJuHEiYC1o+5nbZxaH+TvpGJ/8J/URRNtnecqeot4="
@@ -156,18 +196,8 @@ sensor:
     address: 0x77
     update_interval: 60s
 
-# Nastavimo GPIO21 za napajanje senzorja
-#switch:
-#  - platform: gpio
-#    pin: GPIO02
-#    id: "SensorPowerVCC"
-#    name: "BME680 Power VCC"
-#  - platform: gpio
-#    pin: GPIO0
-#    id: "SensorPowerGND"
-#    name: "BME680 Power GND"
 
-# Vključitev zunanje komponente z GitHuba
+ # Vključitev zunanje komponente z GitHuba
 external_components:
   # shorthand
   source: github://aronsky/esphome-components
@@ -214,10 +244,8 @@ esp32:
   framework:
     type: arduino
 
-# Enable logging
 logger:
 
-# Enable Home Assistant API
 api:
   encryption:
     key: "otLKBa9eccowzkE61Azb9n0f5Gq5Qy5RKK7kL7saFD4="
@@ -239,7 +267,7 @@ captive_portal:
 
 web_server:
 
-# Example configuration entry
+ # Example configuration entry
 sensor:
   - platform: pulse_counter
     icon: mdi:flash-outline
@@ -286,8 +314,8 @@ wifi:
 ```
 
 ```yaml
-# ta program je delal,
-# vendar na vsake toliko ni ok moč kW
+ # ta program je delal,
+ # vendar na vsake toliko ni ok moč kW
 
 substitutions:
   name: home-assistant-glow-ea93f8
@@ -302,8 +330,8 @@ substitutions:
   led_pin_green: GPIO4
 
 
-#packages:
-#  klaasnicolaas.home-assistant-glow: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/esp32.yaml@main
+ #packages:
+ #  klaasnicolaas.home-assistant-glow: github://klaasnicolaas/home-assistant-glow/home-assistant-glow/esp32.yaml@main
 esp32:
   board: esp32dev
   framework:
@@ -327,7 +355,7 @@ packages:
     ref: "4.2.3"
     files:
       - components/basis.yaml
-#      - components/updates.yaml
+ #      - components/updates.yaml
       - components/status_led.yaml
       - components/pulse_meter.yaml
 
@@ -335,10 +363,9 @@ api:
   encryption:
     key: 7BGZNKt2aIjU2+s2Tful9WWPjfekbwxSTRoMBqulTMU=
 
-# Enable logging
 logger:
 
-# Allow provisioning Wi-Fi via serial
+ # Allow provisioning Wi-Fi via serial
 improv_serial:
 
 wifi:
@@ -347,11 +374,11 @@ wifi:
   ap:
     ssid: '${friendly_name}'
 
-# In combination with the `ap` this allows the user
-# to provision wifi credentials to the device via WiFi AP.
+ # In combination with the `ap` this allows the user
+ # to provision wifi credentials to the device via WiFi AP.
 captive_portal:
 
-# Local Web Server running on port 80
+ # Local Web Server running on port 80
 web_server:
   id: esphome_web_server
   version: 3
@@ -372,10 +399,8 @@ esphome:
 esp8266:
   board: esp01_1m
 
-# Enable logging
 logger:
 
-# Enable Home Assistant API
 api:
   encryption:
     key: "o1bvmPgdspkGbUmACoYD/koUbsLpif0Q8FZMFcdQzfc="
