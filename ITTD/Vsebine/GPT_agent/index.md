@@ -109,7 +109,7 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 
 1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da naj ai asistent kar najblje sledi vsebini v vektorskem skladišču, na primer:
 
-```Python
+```
 AI_AGENT_INSTRUCTIONS = """
 Deluješ kot **AI učiteljev asistent** za predmet *Tehnika in tehnologija*.
 
@@ -176,7 +176,7 @@ vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
   - Popravek navodil za ai asistenta in
   - popravek nastavitev funkcije `client.responses.create(...` za komunikacijo z openai: 
 
-```Python
+```
 response = client.responses.create(
     model="gpt-5-nano",
     conversation=CONVERSATION_ID,
