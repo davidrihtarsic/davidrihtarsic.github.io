@@ -105,48 +105,49 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 
 ### **Tretji termin: Testiranje in izboljšave**
 
-1. **TESTNO OKOLJE**  
-    1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da naj ai asistent kar najblje sledi vsebini v vektorskem skladišču, na primer:
+**TESTNO OKOLJE**  
 
-    ```Python
-    AI_AGENT_INSTRUCTIONS = """
-    Deluješ kot **AI učiteljev asistent** za predmet *Tehnika in tehnologija*.
-    
-    Tvoja glavna naloga je pomagati učitelju pri **pripravi na učno uro**: 
-    predlagaj učne cilje, aktivnosti, potek ure, refleksijo in potrebne materiale,
-    vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
-    
-    ---
-    
-    ## Temeljna pravila: 
-    1. **Odgovarjaj v slovenščini.**
-    
-    2. **Piši v Markdown formatu**, strukturirano z razdelki:
-       - `## {NASLOV}`
-          - {sestavek s tvojim odgovorom}
-       - `## Viri:`
-          - [chunk_id]: {prvih nekaj besed iz odseka besedila}
-    
-    3. **Ne izmišljuj si informacij.**
-       - Če v priloženih virih ni dovolj podatkov, napiši:  
-         > "Ni podatka v gradivu."
-       - Če predlagaš nekaj, česar ni v virih, **označi to z opombo**:  
-         > "Dopolnitev AI asistenta:"
-    
-    4. **Vse izjave morajo izhajati iz učnih vsebin ali splošno veljavnih didaktičnih načel.**
-    
-    5. **Tone naj bo strokoven, a prijazen in podporen.**
-    
-    6. Glavni cilj je **pomagati učitelju ustvariti uporabno, premišljeno pripravo.**
-    
-    """
-    ```
+1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da naj ai asistent kar najblje sledi vsebini v vektorskem skladišču, na primer:
 
-    2. Pripravite testne vektorje: to so eksperimentalna vprašanja. Taka, ki jih pričakujete, da bi jih lahko učitelj zastavit Ai Asistentu v procesu priprave na učno uro. Ta del je bistven del testiranja, zato naj bo vprašanj več (10 - 15), osredotočena na bistvene sestavne elemente učne ure. Ta vprašanja naj bodo enaka skozi celotno fazo testiranja tako, da jih boste lahko vrednotili (verjetno kvalitativno analizirali) med spremembami. Na primer:
+```Python
+AI_AGENT_INSTRUCTIONS = """
+Deluješ kot **AI učiteljev asistent** za predmet *Tehnika in tehnologija*.
+
+Tvoja glavna naloga je pomagati učitelju pri **pripravi na učno uro**: 
+predlagaj učne cilje, aktivnosti, potek ure, refleksijo in potrebne materiale,
+vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
+
+---
+
+## Temeljna pravila: 
+1. **Odgovarjaj v slovenščini.**
+
+2. **Piši v Markdown formatu**, strukturirano z razdelki:
+   - `## {NASLOV}`
+      - {sestavek s tvojim odgovorom}
+   - `## Viri:`
+      - [chunk_id]: {prvih nekaj besed iz odseka besedila}
+
+3. **Ne izmišljuj si informacij.**
+   - Če v priloženih virih ni dovolj podatkov, napiši:  
+     > "Ni podatka v gradivu."
+   - Če predlagaš nekaj, česar ni v virih, **označi to z opombo**:  
+     > "Dopolnitev AI asistenta:"
+
+4. **Vse izjave morajo izhajati iz učnih vsebin ali splošno veljavnih didaktičnih načel.**
+
+5. **Tone naj bo strokoven, a prijazen in podporen.**
+
+6. Glavni cilj je **pomagati učitelju ustvariti uporabno, premišljeno pripravo.**
+
+"""
+```
+
+2. Pripravite testne vektorje: to so eksperimentalna vprašanja. Taka, ki jih pričakujete, da bi jih lahko učitelj zastavit Ai Asistentu v procesu priprave na učno uro. Ta del je bistven del testiranja, zato naj bo vprašanj več (10 - 15), osredotočena na bistvene sestavne elemente učne ure. Ta vprašanja naj bodo enaka skozi celotno fazo testiranja tako, da jih boste lahko vrednotili (verjetno kvalitativno analizirali) med spremembami. Na primer:
         - Naštej učne cilje te enote.
         - Kateri materiali in IKT so potrebni?
         - ...
-    3. Pripravite kontrolne vektroje: to so vprašanja, s katerimi testirate robustnost sistema. Teh vprašanj naj bo bistveno manj (3-5). Na primer:
+3. Pripravite kontrolne vektroje: to so vprašanja, s katerimi testirate robustnost sistema. Teh vprašanj naj bo bistveno manj (3-5). Na primer:
         - Negativni odgovor: zastavite vprašanje, za katerega veste, da odgovora ni v vektorskem skladišču in bi morali dobiti odgovor : "Ni podatka v gradivu."
         - Preoblikujte dve od eksperimentalnih vprašanj in primerjajte podobnost odgovora.
         - Zastavite neprimerno vprašanje in ocenite primernost odgovora.
@@ -155,19 +156,25 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
         - utemeljitev (3t),
         - jedrnatost (2t),
         - upoštevanje Markdown strukture (2t)
-2. **TESTIRANJE**:
-    1. V vsaki fazi testiranja začnite z novim pogovorom tako, da sistem ne bo razpolagala s predhodnimi pogovori.
-    2. Preverite odzive vseh testnih in kontrolnih vektorjev.
-3. **ANALIZA**:
-    1. Analizirajte odgovore in pripravite smernice za popravek sistema. Predvsem se osredotočite na:
-      - Popravek gradiva vektorskega skladišča,
-      - popravek spremenljivke v AI_AGENT_INSTRUCTIONS, če ugotovite, da jim asistent ne sledi dovolj dosledno,
-      - popravek nastavitev funkcije `client.responses.create(...`
+
+**TESTIRANJE**:
+
+1. V vsaki fazi testiranja začnite z novim pogovorom tako, da sistem ne bo razpolagala s predhodnimi pogovori.
+2. Preverite odzive vseh testnih in kontrolnih vektorjev.
+
+**ANALIZA**:
+
+1. Analizirajte odgovore in pripravite smernice za popravek sistema. Predvsem se osredotočite na:
+   - Popravek gradiva vektorskega skladišča,
+   - popravek spremenljivke v AI_AGENT_INSTRUCTIONS, če ugotovite, da jim asistent ne sledi dovolj dosledno,
+   - popravek nastavitev funkcije `client.responses.create(...`
+
 4. **EKSPERIMENTIRANJE**:
-    1. Popravki naj bodo postopni - spremenite le eno spremenljivko naenkrat in ponovite točko **2. TESTIRANJE**. Najverjetnejši popravki so:
-      - Popravek gradiva vektorskega skladišča ustrezno dopolnite z dodatnimi navodili ali vsebino,  ter ga ponovno naložite v vektorsko skladišče.
-      - Popravek navodil za ai asistenta in
-      - popravek nastavitev funkcije `client.responses.create(...` za komunikacijo z openai: 
+
+1. Popravki naj bodo postopni - spremenite le eno spremenljivko naenkrat in ponovite točko **2. TESTIRANJE**. Najverjetnejši popravki so:
+  - Popravek gradiva vektorskega skladišča ustrezno dopolnite z dodatnimi navodili ali vsebino,  ter ga ponovno naložite v vektorsko skladišče.
+  - Popravek navodil za ai asistenta in
+  - popravek nastavitev funkcije `client.responses.create(...` za komunikacijo z openai: 
 
 ```Python
 response = client.responses.create(
@@ -186,7 +193,7 @@ response = client.responses.create(
 )
 ```
 
-5. **REZULTATI**:
+**REZULTATI**:
    - Pripravite povzetek rezultatov.
 
 ---
