@@ -144,18 +144,20 @@ vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
 ```
 
 2. Pripravite testne vektorje: to so eksperimentalna vprašanja. Taka, ki jih pričakujete, da bi jih lahko učitelj zastavit Ai Asistentu v procesu priprave na učno uro. Ta del je bistven del testiranja, zato naj bo vprašanj več (10 - 15), osredotočena na bistvene sestavne elemente učne ure. Ta vprašanja naj bodo enaka skozi celotno fazo testiranja tako, da jih boste lahko vrednotili (verjetno kvalitativno analizirali) med spremembami. Na primer:
-        - Naštej učne cilje te enote.
-        - Kateri materiali in IKT so potrebni?
-        - ...
+  - Naštej učne cilje te enote.
+  - Kateri materiali in IKT so potrebni?
+  - ...
+
 3. Pripravite kontrolne vektroje: to so vprašanja, s katerimi testirate robustnost sistema. Teh vprašanj naj bo bistveno manj (3-5). Na primer:
-        - Negativni odgovor: zastavite vprašanje, za katerega veste, da odgovora ni v vektorskem skladišču in bi morali dobiti odgovor : "Ni podatka v gradivu."
-        - Preoblikujte dve od eksperimentalnih vprašanj in primerjajte podobnost odgovora.
-        - Zastavite neprimerno vprašanje in ocenite primernost odgovora.
-    4. Pripravite metriko analize -  kriterij ocenjevanja odgovorov. Kriteriji naj vsebujejo na primer:
-        - vsebinsko točnost (3t),
-        - utemeljitev (3t),
-        - jedrnatost (2t),
-        - upoštevanje Markdown strukture (2t)
+  - Negativni odgovor: zastavite vprašanje, za katerega veste, da odgovora ni v vektorskem skladišču in bi morali dobiti odgovor : "Ni podatka v gradivu."
+  - Preoblikujte dve od eksperimentalnih vprašanj in primerjajte podobnost odgovora.
+  - Zastavite neprimerno vprašanje in ocenite primernost odgovora.
+
+4. Pripravite metriko analize -  kriterij ocenjevanja odgovorov. Kriteriji naj vsebujejo na primer:
+  - vsebinsko točnost (3t),
+  - utemeljitev (3t),
+  - jedrnatost (2t),
+  - upoštevanje Markdown strukture (2t)
 
 **TESTIRANJE**:
 
@@ -165,9 +167,8 @@ vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
 **ANALIZA**:
 
 1. Analizirajte odgovore in pripravite smernice za popravek sistema. Predvsem se osredotočite na:
-   - Popravek gradiva vektorskega skladišča,
-   - popravek spremenljivke v AI_AGENT_INSTRUCTIONS, če ugotovite, da jim asistent ne sledi dovolj dosledno,
-   - popravek nastavitev funkcije `client.responses.create(...`
+  - popravek spremenljivke v AI_AGENT_INSTRUCTIONS, če ugotovite, da jim asistent ne sledi dovolj dosledno,
+  - popravek nastavitev funkcije `client.responses.create(...`
 
 4. **EKSPERIMENTIRANJE**:
 
