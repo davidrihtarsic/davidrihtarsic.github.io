@@ -1,3 +1,4 @@
-Convering 100_osnove_python_programiranja.md -> PDF ..[WARNING] Deprecated: --listings. Use --syntax-highlighting=idiomatic instead.
-WARNING: pandoc-crossref was compiled with pandoc 3.6.4 but is being run through 3.8.2. This is not supported. Strange things may (and likely will) happen silently.
-..[32m Done [0m
+Convering index.md -> PDF ..Error parsing YAML metadata at "index.md" (line 7, column 1):
+YAML parse exception at line 3, column 31,
+while parsing a block collection:
+did not find expected '-' indicator
