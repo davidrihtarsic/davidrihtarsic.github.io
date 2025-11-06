@@ -103,14 +103,87 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 ---
 
 ### **Tretji termin: Testiranje in izboljšave**
-1. **Testiranje funkcionalnosti (45 min)**  
-   - Študentje med seboj testirajo asistente in zbirajo povratne informacije.  
 
-2. **Napredne prilagoditve (90 min)**  
-   - Uvedba prilagoditev na podlagi povratnih informacij.  
-   - Razlaga dodatnih možnosti (omejevanje odgovora, posebne fraze).  
+1. **TESTNO OKOLJE**  
+    1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da gre za testno fazo vektorskega skladišča, na primer:
 
-3. **Priprava za predstavitev (15 min)**  
+```Python
+AI_AGENT_INSTRUCTIONS = """
+Deluješ kot **AI učiteljev asistent** za predmet *Tehnika in tehnologija*.
+
+Tvoja glavna naloga je pomagati učitelju pri **pripravi na učno uro**: 
+predlagaj učne cilje, aktivnosti, potek ure, refleksijo in potrebne materiale,
+vendar vedno ohrani strokovnost, skladnost z učnimi načrti in jasnost zapisa.
+
+---
+
+## Temeljna pravila: 
+1. **Odgovarjaj v slovenščini.**
+
+2. **Piši v Markdown formatu**, strukturirano z razdelki:
+   - `## {NASLOV}`
+      - {sestavek s tvojim odgovorom}
+   - `## Viri:`
+      - [chunk_id]: {prvih nekaj besed iz odseka besedila}
+
+3. **Ne izmišljuj si informacij.**
+   - Če v priloženih virih ni dovolj podatkov, napiši:  
+     > "Ni podatka v gradivu."
+   - Če predlagaš nekaj, česar ni v virih, **označi to z opombo**:  
+     > "Dopolnitev AI asistenta:"
+
+4. **Vse izjave morajo izhajati iz učnih vsebin ali splošno veljavnih didaktičnih načel.**
+
+5. **Tone naj bo strokoven, a prijazen in podporen.**
+
+6. Glavni cilj je **pomagati učitelju ustvariti uporabno, premišljeno pripravo.**
+
+"""
+```
+    2. Pripravite testne vektorje: to so eksperimentalna vprašanja. Taka, ki jih pričakujete, da bi jih lahko učitelj zastavit Ai Asistentu v procesu priprave na učno uro. Ta del je bistven del testiranja, zato naj bo vprašanj več (10 - 15), osredotočena na bistvene sestavne elemente učne ure. Ta vprašanja naj bodo enaka skozi celotno fazo testiranja tako, da jih boste lahko vrednotili (verjetno kvalitativno analizirali) med spremembami. Na primer:
+        - Naštej učne cilje te enote.
+        - Kateri materiali in IKT so potrebni?
+        - ...
+    3. Pripravite kontrolne vektroje: to so vprašanja, s katerimi testirate robustnost sistema. Teh vprašanj naj bo bistveno manj (3-5). Na primer:
+        - Negativni odgovor: zastavite vprašanje, za katerega veste, da odgovora ni v vektorskem skladišču in bi morali dobiti odgovor : "Ni podatka v gradivu."
+        - Preoblikujte dve od eksperimentalnih vprašanj in primerjajte podobnost odgovora.
+        - Zastavite neprimerno vprašanje in ocenite primernost odgovora.
+    4. Pripravite metriko analize -  kriterij ocenjevanja odgovorov. Kriteriji naj vsebujejo na primer:
+        - vsebinsko točnost (3t),
+        - utemeljitev (3t),
+        - jedrnatost (2t),
+        - upoštevanje Markdown strukture (2t)
+2. **TESTIRANJE**:
+    1. V vsaki fazi testiranja začnite z novim pogovorom tako, da sistem ne bo razpolagala s predhodnimi pogovori.
+    2. Preverite testne in kontrolne vektorje.
+3. **ANALIZA**:
+    1. Analizirajte odgovore in pripravite smernice za popravek sistema. Predvsem se osredotočite na:
+      - Popravek gradiva vektorskega skladišča,
+      - popravki nastavitev ai asistenta.
+4. **EKSPERIMENTIRANJE**:
+    1. Popravki naj bodo postopni - spremenite le eno spremenljivko naenkrat in ponovite točko **2. TESTIRANJE**. Najverjetnejši popravki so:
+      - Popravek gradiva vektorskega skladišča ustrezno dopolnite z dodatnimi navodili ali vsebino,  ter ga ponovno naložite v vektorsko skladišče.
+      - Popravek nastavitev ai asistenta lahko popravite ali dopolnite funkcijo 
+
+```Python
+response = client.responses.create(
+    model="gpt-5-nano",
+    conversation=CONVERSATION_ID,
+    input=input_messages,
+    temperature=1.0,          # Nižja vrednost (npr. 0.0–0.3) pomeni bolj dosledne in ponovljive odgovore.
+    top_p=1.0,                # Če je top_p=0.9, model izbira samo med 90 % najverjetnejšimi naslednjimi zlogi.
+    max_output_tokens=1024,   # Omeji največje število generiranih zlogov v izhodu.
+    tools=[
+       {
+           "type": "file_search",
+           "vector_store_ids": ["vs_68fa2c8d7eb08191bd360f955ecd1de5"],
+       }
+    ],
+)
+```
+
+5. **REZULTATI**:
+   - Pripravite povzetek rezultatov.
 
 ---
 
