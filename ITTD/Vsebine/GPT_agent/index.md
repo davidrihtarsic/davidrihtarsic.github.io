@@ -66,22 +66,23 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 ### **Drugi termin: Prilagoditev in funkcionalnosti**
 
 **Načrtovanje GPT tutorja**  
-    - Študentje načrtujejo svojega GPT tutorja, ki bo vodil učenca pri izdelavi zamišljenega projekta.
-    - Študent naj si zamisli preprosto projektno nalogo in 
-    - z ozirom nanjo načrtuje GPT tutorja.
 
-    - Nato naj posredujejo svojega GPT tutorja svojemu kolegu, le-ta pa naj ga preskusi,
-    - kako dobro GPT tutor deluje. Pri tem si lahko pomagate s kriteriji kot so:
-        - Ali asistent zagotavlja pravilne in jasne informacije?
-        - Stopnja pravilnosti odgovorov (npr. tehnične ali vsebinske napake).
-        - Jasnost in strukturiranost podanih razlag.
-        - Skladnost odgovorov z učnimi cilji.
-        - Primerjava odgovorov asistenta z učnimi gradivi.
-        - Ali asistent prilagaja učne poti glede na odzive učenca?
-        - Ali preverja razumevanje učenca in ustrezno prilagodi naslednje korake.
-        - Ali uspešno identificira in odpravi napačna prepričanja (misconceptions).
-        - Sposobnost generiranja vprašanj, ki spodbujajo kritično razmišljanje.
-        - ...
+- Študentje načrtujejo svojega GPT tutorja, ki bo vodil učenca pri izdelavi zamišljenega projekta.
+- Študent naj si zamisli preprosto projektno nalogo in 
+- z ozirom nanjo načrtuje GPT tutorja.
+
+- Nato naj posredujejo svojega GPT tutorja svojemu kolegu, le-ta pa naj ga preskusi,
+- kako dobro GPT tutor deluje. Pri tem si lahko pomagate s kriteriji kot so:
+    - Ali asistent zagotavlja pravilne in jasne informacije?
+    - Stopnja pravilnosti odgovorov (npr. tehnične ali vsebinske napake).
+    - Jasnost in strukturiranost podanih razlag.
+    - Skladnost odgovorov z učnimi cilji.
+    - Primerjava odgovorov asistenta z učnimi gradivi.
+    - Ali asistent prilagaja učne poti glede na odzive učenca?
+    - Ali preverja razumevanje učenca in ustrezno prilagodi naslednje korake.
+    - Ali uspešno identificira in odpravi napačna prepričanja (misconceptions).
+    - Sposobnost generiranja vprašanj, ki spodbujajo kritično razmišljanje.
+    - ...
 ---
 
 1. **Uporabniški vmesnik**
@@ -105,7 +106,7 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
 ### **Tretji termin: Testiranje in izboljšave**
 
 1. **TESTNO OKOLJE**  
-    1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da gre za testno fazo vektorskega skladišča, na primer:
+    1. Prilagodite `AI_AGENT_INSTRUCTIONS` tako, da bo jasno, da naj ai asistent kar najblje sledi vsebini v vektorskem skladišču, na primer:
 
     ```Python
     AI_AGENT_INSTRUCTIONS = """
@@ -156,15 +157,17 @@ Pogosto moramo gradiva nekoliko preurediti, da dobimo kar najboljše rezultate. 
         - upoštevanje Markdown strukture (2t)
 2. **TESTIRANJE**:
     1. V vsaki fazi testiranja začnite z novim pogovorom tako, da sistem ne bo razpolagala s predhodnimi pogovori.
-    2. Preverite testne in kontrolne vektorje.
+    2. Preverite odzive vseh testnih in kontrolnih vektorjev.
 3. **ANALIZA**:
     1. Analizirajte odgovore in pripravite smernice za popravek sistema. Predvsem se osredotočite na:
       - Popravek gradiva vektorskega skladišča,
-      - popravki nastavitev ai asistenta.
+      - popravek spremenljivke v AI_AGENT_INSTRUCTIONS, če ugotovite, da jim asistent ne sledi dovolj dosledno,
+      - popravek nastavitev funkcije `client.responses.create(...`
 4. **EKSPERIMENTIRANJE**:
     1. Popravki naj bodo postopni - spremenite le eno spremenljivko naenkrat in ponovite točko **2. TESTIRANJE**. Najverjetnejši popravki so:
       - Popravek gradiva vektorskega skladišča ustrezno dopolnite z dodatnimi navodili ali vsebino,  ter ga ponovno naložite v vektorsko skladišče.
-      - Popravek nastavitev ai asistenta lahko popravite ali dopolnite funkcijo 
+      - Popravek navodil za ai asistenta in
+      - popravek nastavitev funkcije `client.responses.create(...` za komunikacijo z openai: 
 
 ```Python
 response = client.responses.create(
