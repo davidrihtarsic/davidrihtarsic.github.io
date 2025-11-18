@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
 	(paper "A5")
 	(lib_symbols
@@ -96,17 +96,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +132,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,24 +221,6 @@
 			)
 			(symbol "LM358_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -256,10 +238,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -332,7 +335,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -344,7 +347,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -393,9 +396,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -514,9 +520,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -714,9 +723,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VPULSE"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -888,9 +900,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VTRRANDOM"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -1064,6 +1079,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9V"
 			(power)
@@ -1141,7 +1157,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1153,7 +1169,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1167,7 +1183,8 @@
 			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+9V"
 						(effects
 							(font
@@ -1184,6 +1201,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-9V"
 			(power)
@@ -1275,7 +1293,8 @@
 			(symbol "-9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-9V"
 						(effects
 							(font
@@ -1292,6 +1311,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pspice:0"
 			(power)
@@ -1371,7 +1391,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -1388,7 +1409,53 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 44.45 17.78)
+		(end 130.81 63.5)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c0f01cf-25f9-4d89-bffc-9e961b9b6974)
+	)
+	(text "1. Preverite SIG in OUT napetosni signal (brez motenj).\n2. Dodajte kapacitivno sklopitev motenj na SIG in\n   ponovno preverite SIG in OUT.\n3. Podaljšajte prenosno linijo tudi za GND,\n   tudi to obremenite s šumom in ponovno preverite\n   SIG in OUT."
+		(exclude_from_sim no)
+		(at 19.05 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0155e90d-2f14-419d-9d78-61ad232c62e1")
+	)
+	(text ".tran 2u 1m\n*.op"
+		(exclude_from_sim no)
+		(at 184.15 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97c69ba7-8443-4c51-9539-f28e63db7232")
+	)
+	(text "Daljša razdalja prenosnih signalnih povezav,\nobremenjena z EM motnjami iz okolice."
+		(exclude_from_sim no)
+		(at 58.42 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e43e0785-ba9f-43fb-9a31-b8130f07463b")
 	)
 	(junction
 		(at 176.53 29.21)
@@ -1973,18 +2040,6 @@
 			(type default)
 		)
 		(uuid "faf6822b-25cf-4072-a167-1e38c1ed8287")
-	)
-	(rectangle
-		(start 44.45 17.78)
-		(end 130.81 63.5)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 8c0f01cf-25f9-4d89-bffc-9e961b9b6974)
 	)
 	(image
 		(at 52.07 111.76)
@@ -4735,42 +4790,8 @@
 			"K3XAhCBBGgAAAABJRU5ErkJggg=="
 		)
 	)
-	(text "1. Preverite SIG in OUT napetosni signal (brez motenj).\n2. Dodajte kapacitivno sklopitev motenj na SIG in\n   ponovno preverite SIG in OUT.\n3. Podaljšajte prenosno linijo tudi za GND,\n   tudi to obremenite s šumom in ponovno preverite\n   SIG in OUT."
-		(exclude_from_sim no)
-		(at 19.05 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0155e90d-2f14-419d-9d78-61ad232c62e1")
-	)
-	(text ".tran 2u 1m\n*.op"
-		(exclude_from_sim no)
-		(at 184.15 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97c69ba7-8443-4c51-9539-f28e63db7232")
-	)
-	(text "Daljša razdalja prenosnih signalnih povezav,\nobremenjena z EM motnjami iz okolice."
-		(exclude_from_sim no)
-		(at 58.42 22.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e43e0785-ba9f-43fb-9a31-b8130f07463b")
-	)
 	(label "SIG"
 		(at 21.59 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4781,7 +4802,6 @@
 	)
 	(label "GND"
 		(at 15.24 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4792,7 +4812,6 @@
 	)
 	(label "OUT1"
 		(at 182.88 29.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4803,7 +4822,6 @@
 	)
 	(label "SIG+EM"
 		(at 133.35 31.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4814,7 +4832,6 @@
 	)
 	(label "GND+EM"
 		(at 133.35 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6687,4 +6704,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4620f6bc-68ff-48b3-86be-9674a0dbaa2b")
 	(paper "A5")
 	(lib_symbols
@@ -125,24 +125,6 @@
 			)
 			(symbol "LM741_1_1"
 				(pin input line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "NULL"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
 					(at -7.62 2.54 0)
 					(length 2.54)
 					(name "-"
@@ -179,6 +161,24 @@
 					)
 				)
 				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
 					(name "V-"
@@ -189,6 +189,43 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 2.54 270)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "NULL"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -232,46 +269,13 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 0 2.54 270)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -390,9 +394,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -590,9 +597,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VSIN"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -692,9 +702,9 @@
 			)
 			(symbol "VSIN_0_0"
 				(arc
-					(start 0 0)
+					(start -1.27 0)
 					(mid -0.635 0.6323)
-					(end -1.27 0)
+					(end 0 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -704,9 +714,9 @@
 					)
 				)
 				(arc
-					(start 0 0)
+					(start 1.27 0)
 					(mid 0.635 -0.6323)
-					(end 1.27 0)
+					(end 0 0)
 					(stroke
 						(width 0)
 						(type default)
@@ -775,9 +785,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "VDC_1"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -975,6 +988,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+10V"
 			(power)
@@ -1052,7 +1066,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -1064,7 +1078,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -1078,7 +1092,8 @@
 			(symbol "+10V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+10V"
 						(effects
 							(font
@@ -1095,6 +1110,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-10V"
 			(power)
@@ -1160,7 +1176,8 @@
 			(symbol "-10V_0_0"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-10V"
 						(effects
 							(font
@@ -1191,6 +1208,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
@@ -1270,7 +1288,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -1287,7 +1306,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text ".tran 1m 20m"
+		(exclude_from_sim no)
+		(at 39.37 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "937c4b49-5712-4a3b-9a68-f407116d4e62")
 	)
 	(junction
 		(at 80.01 27.94)
@@ -2442,20 +2473,8 @@
 			"QmCC"
 		)
 	)
-	(text ".tran 1m 20m"
-		(exclude_from_sim no)
-		(at 39.37 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "937c4b49-5712-4a3b-9a68-f407116d4e62")
-	)
 	(label "Uin+"
 		(at 57.15 25.4 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2485,6 @@
 	)
 	(label "Uin-"
 		(at 57.15 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3800,4 +3818,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

@@ -37,6 +37,7 @@ book:
 		-F pandoc-crossref \
 		--citeproc \
 		--bibliography=/home/david/Files/Work/UL-PeF/Articles/00-BibTex/bibtex.bib \
+		--bibliography=./bibtex.bib \
 		-V documentclass=book \
 		-V book \
 		--toc \

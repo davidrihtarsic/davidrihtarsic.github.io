@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
 	(paper "A5")
 	(lib_symbols
 		(symbol "Device:C"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.254)
 			)
@@ -79,7 +81,7 @@
 			(symbol "C_0_1"
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy -2.032 0.762) (xy 2.032 0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -91,7 +93,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
 					)
 					(stroke
 						(width 0.508)
@@ -140,11 +142,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:L"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -211,32 +218,8 @@
 			)
 			(symbol "L_0_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
+					(start 0 2.54)
+					(mid 0.6323 1.905)
 					(end 0 1.27)
 					(stroke
 						(width 0)
@@ -248,8 +231,32 @@
 				)
 				(arc
 					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -297,9 +304,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -418,11 +428,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:DIODE"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -501,10 +516,10 @@
 			(symbol "DIODE_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -525,10 +540,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy 1.27 0) (xy -1.27 -1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -574,10 +589,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC108"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -650,6 +668,18 @@
 			(symbol "BC108_0_1"
 				(polyline
 					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
@@ -672,12 +702,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -696,37 +725,8 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BC108_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -763,7 +763,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pspice:0"
 			(power)
@@ -843,7 +862,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -860,6 +880,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pspice:VSOURCE"
 			(pin_names
@@ -923,7 +944,7 @@
 			(symbol "VSOURCE_0_1"
 				(polyline
 					(pts
-						(xy -6.35 -6.35) (xy -6.35 3.81)
+						(xy -7.62 3.81) (xy -6.35 6.35) (xy -5.08 3.81)
 					)
 					(stroke
 						(width 0)
@@ -935,7 +956,7 @@
 				)
 				(polyline
 					(pts
-						(xy -7.62 3.81) (xy -6.35 6.35) (xy -5.08 3.81)
+						(xy -6.35 -6.35) (xy -6.35 3.81)
 					)
 					(stroke
 						(width 0)
@@ -1003,19 +1024,36 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "1. V sim. preveri U(t) nap. pot. UB.\n2. Preveri kaj se zgodi z n.p. UTR ob izklopu Q1\nRešitev:\n1. Vežemo C1 || Q1. Ker je Uc = e/C.\n2. Vežemo D1 || L1 in naboj odteče nazaj v napajanje."
+		(exclude_from_sim no)
+		(at 90.17 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "54e11529-cc69-4211-9833-eb133882188e")
+	)
+	(text ".tran 10u 200m"
+		(exclude_from_sim no)
+		(at 39.37 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fbe7a3d4-8798-4134-b047-3c5096b10e5f")
 	)
 	(junction
 		(at 59.69 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25efd754-147f-417e-9acc-5fe519cf638d")
-	)
-	(junction
-		(at 78.74 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "418d7c9c-b149-440b-8640-72850463ff1b")
 	)
 	(junction
 		(at 78.74 93.98)
@@ -1048,16 +1086,6 @@
 			(type default)
 		)
 		(uuid "1ea62f7d-17c4-4306-b3f8-0afb30605066")
-	)
-	(wire
-		(pts
-			(xy 78.74 71.12) (xy 96.52 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "333954e9-a98a-4e8f-8d29-8d2e052e9a70")
 	)
 	(wire
 		(pts
@@ -1101,23 +1129,13 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 67.31) (xy 78.74 71.12)
+			(xy 78.74 67.31) (xy 78.74 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5961a37c-f754-4cb8-9100-cc954c97ec5d")
-	)
-	(wire
-		(pts
-			(xy 78.74 71.12) (xy 78.74 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8154b574-f8c5-4106-81cb-5825cdcd99fc")
 	)
 	(wire
 		(pts
@@ -1209,31 +1227,8 @@
 		)
 		(uuid "f6428dd6-c972-4b8e-a146-f89966239bd3")
 	)
-	(text "1. V sim. preveri U(t) nap. pot. UB.\n2. Preveri kaj se zgodi z n.p. UTR ob izklopu Q1\nRešitev:\n1. Vežemo C1 || Q1. Ker je Uc = e/C.\n2. Vežemo D1 || L1 in naboj odteče nazaj v napajanje."
-		(exclude_from_sim no)
-		(at 90.17 39.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54e11529-cc69-4211-9833-eb133882188e")
-	)
-	(text ".tran 10u 200m"
-		(exclude_from_sim no)
-		(at 39.37 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbe7a3d4-8798-4134-b047-3c5096b10e5f")
-	)
 	(label "UB"
 		(at 59.69 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1244,7 +1239,6 @@
 	)
 	(label "VTR"
 		(at 78.74 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2103,4 +2097,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
