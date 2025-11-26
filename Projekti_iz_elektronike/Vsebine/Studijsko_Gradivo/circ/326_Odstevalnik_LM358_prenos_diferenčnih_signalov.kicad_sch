@@ -5115,6 +5115,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "C"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 105.41 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "82b5ea33-e958-4b2b-8f97-68c61ad7e2b9")
 		)
@@ -5265,73 +5281,6 @@
 		)
 	)
 	(symbol
-		(lib_id "pspice:0")
-		(at 138.43 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "46e0ebe3-a0cf-4e86-a849-ba6a444c9f1e")
-		(property "Reference" "#GND06"
-			(at 138.43 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 138.43 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87b855ae-06c7-44a3-ad2e-06872ec86766")
-		)
-		(instances
-			(project "326_Odstevalnik_LM358_prenos_diferenčnih_signalov"
-				(path "/a1545928-1195-40b9-b3c4-78f837012afb"
-					(reference "#GND06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 29.21 31.75 90)
 		(unit 1)
@@ -5449,6 +5398,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 146.05 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -5817,7 +5782,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=1 td=20u tr=20n tf=20n tw=200u per=400u"
+		(property "Sim.Params" "y1=0 y2=5 td=20u tr=20n tf=20n tw=200u per=400u"
 			(at 25.4 39.2402 0)
 			(effects
 				(font
@@ -6252,6 +6217,22 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "R"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 154.94 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c6c6f67a-6635-4a2f-b16c-24faaa7f8061")
 		)
@@ -6519,16 +6500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "ts=1u td=0 range=1 offset=0"
-			(at 93.98 58.2901 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Sim.Type" "RANDUNIFORM"
+		(property "Sim.Type" "WHITENOISE"
 			(at 90.17 55.88 0)
 			(effects
 				(font
@@ -6544,6 +6516,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "rms=1 dt=1u"
+			(at 90.17 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -6615,6 +6596,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Sim.Device" "C"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 90.17 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"

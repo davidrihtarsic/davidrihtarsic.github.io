@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "f671c449-d824-4cba-8033-5886a9f4776c")
 	(paper "A5")
 	(lib_symbols
@@ -96,17 +96,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +132,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,24 +221,6 @@
 			)
 			(symbol "LM358_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -256,10 +238,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -378,9 +381,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:Thermocouple_Block"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -450,17 +456,6 @@
 				)
 			)
 			(symbol "Thermocouple_Block_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy -2.794 -1.016) (xy -3.048 -1.27)
@@ -483,6 +478,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center -1.778 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(polyline
@@ -557,10 +563,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.016 -2.54)
-					)
+				(rectangle
+					(start 1.016 3.556)
+					(end 3.048 -3.556)
 					(stroke
 						(width 0)
 						(type default)
@@ -583,6 +588,18 @@
 				)
 				(polyline
 					(pts
+						(xy 1.27 -2.54) (xy 1.016 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 1.524 -2.54) (xy 0.762 -2.54) (xy -3.048 1.27)
 					)
 					(stroke
@@ -593,19 +610,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 1.016 3.556)
-					(end 3.048 -3.556)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(circle
-					(center 2.032 -2.54)
+					(center 2.032 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -616,7 +622,7 @@
 					)
 				)
 				(circle
-					(center 2.032 2.54)
+					(center 2.032 -2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -665,6 +671,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:0"
 			(power)
@@ -744,7 +751,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -761,9 +769,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -961,7 +972,41 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "Naloga:\n1. Napake mirovnega toka lahko opazimo v rimerih velikih vhodnih\n	uporov R1 (1M ali več).\n2. Preverite izhodno napetost in njeno napako, ki je posledica mirovnega toka.\n3. Med neinvertirajoči vhod in GND ddodajte R_{1} || R_{2}."
+		(exclude_from_sim no)
+		(at 102.87 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "15488552-9031-4cf6-af8e-a9ae24ad4a99")
+	)
+	(text ".tran 1m 1s"
+		(exclude_from_sim no)
+		(at 142.24 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59ee3282-3ef5-4acf-be74-d9f1fa87dbd5")
+	)
+	(text "Naprimer, da imamo T termočlen (baker - konstantan),\n- k_{T} tega T termočlena je 40uV/°K\n\nČe se temperatura T_{1} tega spoja spremeni za ±1°C,\nse na spoju T_{2} pojavi napetost U_{TC} = ±40uV.\n"
+		(exclude_from_sim no)
+		(at 58.42 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "64f979b5-6beb-4e72-b845-756dcd04eb9b")
 	)
 	(junction
 		(at 123.19 63.5)
@@ -1181,42 +1226,8 @@
 		)
 		(uuid "f5459d05-8bfa-47d1-b490-59b8eef354dd")
 	)
-	(text "Naloga:\n1. Napake mirovnega toka lahko opazimo v rimerih velikih vhodnih\n	uporov R1 (1M ali več).\n2. Preverite izhodno napetost in njeno napako, ki je posledica mirovnega toka.\n3. Med neinvertirajoči vhod in GND ddodajte R_{1} || R_{2}."
-		(exclude_from_sim no)
-		(at 102.87 95.758 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15488552-9031-4cf6-af8e-a9ae24ad4a99")
-	)
-	(text ".tran 1m 1s"
-		(exclude_from_sim no)
-		(at 142.24 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59ee3282-3ef5-4acf-be74-d9f1fa87dbd5")
-	)
-	(text "Naprimer, da imamo T termočlen (baker - konstantan),\n- k_{T} tega T termočlena je 40uV/°K\n\nČe se temperatura T_{1} tega spoja spremeni za ±1°C,\nse na spoju T_{2} pojavi napetost U_{TC} = ±40uV.\n"
-		(exclude_from_sim no)
-		(at 58.42 34.29 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64f979b5-6beb-4e72-b845-756dcd04eb9b")
-	)
 	(label "U_{TC}"
 		(at 76.2 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2255,4 +2266,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
