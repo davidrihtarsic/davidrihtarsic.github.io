@@ -47,16 +47,16 @@ Table: Koeficienti maksimalnih relativnih skrčkov lesa. {#tbl:tabela_maksimalni
 
 |                    Mesto vgradnje lesnih izdelkov | Ravnovesna vlažnost lesa [%] |
 |--------------------------------------------------:|:----------------------------:|
-|           gradbeni les, ograje, balkoni, ostrešje |            13 - 17           |
-|                               okna, zunanja vrata |            12 - 16           |
-|      pohištvo v prostorih s centralnim ogravanjem |            8 - 10            |
-|        pohištvo, kjer ogrevamo s klasičnimi pečmi |            10 - 12           |
-| stopne obloge v prostorih s centralnim ogrevanjem |             6 - 8            |
-|      stopne obloge (ogrevanje s klasičnimi pečmi) |            8 - 10            |
-|       glasbila (prostori s centralnim ogrevanjem) |             5 - 8            |
-|            glasbila (prostori s klasičnimi pečmi) |            8 - 11            |
+|           gradbeni les, ograje, balkoni, ostrešje |              15              |
+|                               okna, zunanja vrata |              14              |
+|        pohištvo, kjer ogrevamo s klasičnimi pečmi |              11              |
+|      pohištvo v prostorih s centralnim ogravanjem |              10              |
+|      stopne obloge (ogrevanje s klasičnimi pečmi) |               9              |
+| stopne obloge v prostorih s centralnim ogrevanjem |               8              |
+|            glasbila (prostori s klasičnimi pečmi) |               7              |
+|       glasbila (prostori s centralnim ogrevanjem) |               6              |
 
-Table: Tabela ravnovesnih vlažnosti lesa glede na mesto vgradnje. {#tbl:rel_vla_vgradnja}
+Table: Tabela ravnovesnih vlažnosti lesa glede na mesto vgradnje. Vrednosti so namenoma zaokrožene na eno vrednost za potrebe izpitnega preverjanja znanja.{#tbl:rel_vla_vgradnja}
 
 # TRDNOST LESA
 
@@ -78,14 +78,15 @@ $$ \sigma_{dop}  = \frac{\sigma_{max}}{k_v} $${#eq:sigma_dop}
 > - $\sigma_{max}$ - največja, porušna napetost
 > - $k_v$ - varnostni koeficient [2 .. 15]
 
-|     Vrsta les     | smer | Nateg | Tlak | Upogib | Strig | Mod. Ealst. |
-|:-----------------:|:----:|:-----:|:----:|:------:|:-----:|:-----------:|
-| Smreka, Jelka,Bor |  ll  |   10  |  11  |   13   |  0.9  |    12000    |
-|                   |   T  |   -   |   2  |    -   |  0.9  |     460     |
-|    Hrast,Bukev    |  ll  |   11  |  12  |   14   |  1.2  |    13000    |
-|                   |   T  |   -   |   3  |    -   |  1.2  |     1000    |
 
-Table: Dopustne napetosti za nekatere vrste lesa pri mirni obremenitvi (v MPa). {#tbl:sigma_dop_tab}
+|        les        |     smer    | Nateg [MPa] | Tlak [MPa] | Upogib [MPa] | Strig [MPa] | Mod. Ealst. [MPa] |
+|:-----------------:|:-----------:|:-----------:|:----------:|:------------:|:-----------:|:-----------------:|
+| Smreka, Jelka,Bor | $\parallel$ |      10     |     11     |       -      |     0.9     |       12000       |
+|                   |   $\perp$   |      -      |      2     |      13      |     0.9     |        460        |
+|    Hrast,Bukev    | $\parallel$ |      11     |     12     |       -      |     1.2     |       13000       |
+|                   |   $\perp$   |      -      |      3     |      14      |     1.2     |        1000       |
+Table: Dopustne napetosti za nekatere vrste lesa v MPa, pri zračno suhem lesu ($u=18\%$). Za lažje pretvarjanje naj omenimo, da je $1MPa$ enako $1\frac{N}{mm^2}$.{#tbl:sigma_dop_tab}
+
 
 ## NATEZNA in TLAČNA TRDNOST
 
