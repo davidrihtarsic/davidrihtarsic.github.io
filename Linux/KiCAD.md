@@ -67,3 +67,31 @@ Migracija na novo različico KiCad-a vključuje prenos vaših knjižnic z vsemi 
    - Preverite simbole, footprinte in 3D poglede v vaših projektih, da zagotovite pravilno delovanje v novi različici.
 
 S temi koraki boste uspešno migrirali vaše KiCad knjižnice na novo različico, pri tem ohranili konsistenten dostop do vseh potrebnih virov in bili pripravljeni na nadaljnje delo s posodobljeno programsko opremo.
+
+### PCB Plugins
+imel sem težavo, da se plugini ne prikažejo. Rešitev je da ko:
+
+1. zaženem KiCad, najprej grem v `Preferences -> PCB Editor -> Plugins` in
+2. `Refresh`
+
+... na to naloži tudi te plugnine.
+
+### PCB Izdelava in sestavljanje (PCB Manufacturing and assembly)
+
+V ta namen sta dva plugina:
+
+1. [JLCPCB](https://github.com/Bouni/kicad-jlcpcb-tools) in
+2. [PCBWay](https://github.com/Bouni/kicad-jlcpcb-tools).
+
+Oba proizvajalca:
+
+1. [JLCPCB](https://jlcpcb.com/)
+    - s [JLCPCB Assembly](https://jlcpcb.com/parts)
+2. [PCBWay](https://www.pcbway.com/)
+
+Uporabljata isto trgovino:
+
+- [LCSC](https://www.lcsc.com/)
+
+Najenostavneje vnašamo in brskamo po tej bazi elektronskih delob preko `JLCPCB` plugina in
+[LCSC](https://www.lcsc.com/) spletne strani.
