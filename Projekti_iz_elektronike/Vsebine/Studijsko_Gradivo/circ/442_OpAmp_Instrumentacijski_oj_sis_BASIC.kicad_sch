@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "a1545928-1195-40b9-b3c4-78f837012afb")
 	(paper "A5")
 	(lib_symbols
@@ -96,17 +96,17 @@
 						(type background)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin input line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "~"
+					(name "+"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,17 +132,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -221,24 +221,6 @@
 			)
 			(symbol "LM358_3_1"
 				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
 					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
@@ -256,10 +238,31 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -378,9 +381,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:VDC"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0.0254)
 			)
@@ -578,6 +584,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:+9V"
 			(power)
@@ -655,7 +662,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -667,7 +674,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -681,7 +688,8 @@
 			(symbol "+9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "+9V"
 						(effects
 							(font
@@ -698,6 +706,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:-9V"
 			(power)
@@ -789,7 +798,8 @@
 			(symbol "-9V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "-9V"
 						(effects
 							(font
@@ -806,6 +816,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "pspice:0"
 			(power)
@@ -885,7 +896,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -902,7 +914,96 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "1. Izpeljimo ojačenje ojačevalnega sistema.\n	(I_R2, U1_out, U2_out...)\n2. Prenosna funkcija odštevalnega sistema je:\n	U_out = (A')(U1_out - U2_out)\n3. Ojačenje instrumentacijskega ojačevalnika je:\n	U_out = (A')(1+2n)(U1-U2)"
+		(exclude_from_sim no)
+		(at 146.05 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c644555-d521-49dd-bbaa-33f206acf656")
+	)
+	(text "R"
+		(exclude_from_sim no)
+		(at 116.84 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0eec8c5d-4b44-4699-b3a8-f2d110aebbdc")
+	)
+	(text "Pomembno:\n- zagotoviti izredno točno in\n- stabilno napajanje.\n- Opremite napajalne potenciale s\n  filtri."
+		(exclude_from_sim no)
+		(at 21.59 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1944dd74-9d30-4322-974e-4665797dacfd")
+	)
+	(text "nR"
+		(exclude_from_sim no)
+		(at 116.84 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1d830964-033f-4a9c-8f2a-38726e9d8524")
+	)
+	(text "INSTRUMENTACIJSKI OJ.SIS.\n- Izredno točno ojačuje razliko vhodnih sig.\n- Izredna odpornost na sofazno napetost (visok CMRR).\n- Uporabljamo ga tam, kjer pričakujemo enake motnje\n  na obeh vhodnih napetostnih potencialih (EKG). "
+		(exclude_from_sim no)
+		(at 16.51 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8b05a1d8-9d91-4bd0-bf11-b7e11bf6aa8b")
+	)
+	(text "Odštevalni sistem"
+		(exclude_from_sim no)
+		(at 154.94 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90a0860f-dc0f-486d-8126-ac86f257452e")
+	)
+	(text ".op\n*.dc V2 0 120 0.5"
+		(exclude_from_sim no)
+		(at 176.53 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97c69ba7-8443-4c51-9539-f28e63db7232")
+	)
+	(text "nR"
+		(exclude_from_sim no)
+		(at 116.84 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0c54d95-5b3c-49b7-8a8c-68d835634816")
 	)
 	(junction
 		(at 116.84 96.52)
@@ -1610,97 +1711,8 @@
 		)
 		(uuid "ffea49f7-3b82-4efe-b380-ff1441d6b59e")
 	)
-	(text "1. Izpeljimo ojačenje ojačevalnega sistema.\n	(I_R2, U1_out, U2_out...)\n2. Prenosna funkcija odštevalnega sistema je:\n	U_out = (A')(U1_out - U2_out)\n3. Ojačenje instrumentacijskega ojačevalnika je:\n	U_out = (A')(1+2n)(U1-U2)"
-		(exclude_from_sim no)
-		(at 146.05 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c644555-d521-49dd-bbaa-33f206acf656")
-	)
-	(text "R"
-		(exclude_from_sim no)
-		(at 116.84 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0eec8c5d-4b44-4699-b3a8-f2d110aebbdc")
-	)
-	(text "Pomembno:\n- zagotoviti izredno točno in\n- stabilno napajanje.\n- Opremite napajalne potenciale s\n  filtri."
-		(exclude_from_sim no)
-		(at 21.59 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1944dd74-9d30-4322-974e-4665797dacfd")
-	)
-	(text "nR"
-		(exclude_from_sim no)
-		(at 116.84 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d830964-033f-4a9c-8f2a-38726e9d8524")
-	)
-	(text "INSTRUMENTACIJSKI OJ.SIS.\n- Izredno točno ojačuje razliko vhodnih sig.\n- Izredna odpornost na sofazno napetost (visok CMRR).\n- Uporabljamo ga tam, kjer pričakujemo enake motnje\n  na obeh vhodnih napetostnih potencialih (EKG). "
-		(exclude_from_sim no)
-		(at 16.51 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b05a1d8-9d91-4bd0-bf11-b7e11bf6aa8b")
-	)
-	(text "Odštevalni sistem"
-		(exclude_from_sim no)
-		(at 154.94 16.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "90a0860f-dc0f-486d-8126-ac86f257452e")
-	)
-	(text ".op\n*.dc V2 0 120 0.5"
-		(exclude_from_sim no)
-		(at 176.53 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97c69ba7-8443-4c51-9539-f28e63db7232")
-	)
-	(text "nR"
-		(exclude_from_sim no)
-		(at 116.84 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f0c54d95-5b3c-49b7-8a8c-68d835634816")
-	)
 	(label "U1"
 		(at 77.47 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1711,7 +1723,6 @@
 	)
 	(label "U2"
 		(at 77.47 21.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1722,7 +1733,6 @@
 	)
 	(label "U2_OUT"
 		(at 114.3 24.13 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1733,7 +1743,6 @@
 	)
 	(label "U1"
 		(at 53.34 53.34 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1744,7 +1753,6 @@
 	)
 	(label "OUT"
 		(at 176.53 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1755,7 +1763,6 @@
 	)
 	(label "U1_OUT"
 		(at 114.3 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1766,7 +1773,6 @@
 	)
 	(label "U2"
 		(at 53.34 48.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1777,7 +1783,6 @@
 	)
 	(label "OFFSET"
 		(at 129.54 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4199,4 +4204,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

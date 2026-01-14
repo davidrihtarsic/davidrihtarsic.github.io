@@ -9,6 +9,7 @@
 ---
 
 ## Obvestila za študente 2025:
+- [ 2026-01-13_SE-pripomocek.md ](./2026-01-13_SE-pripomocek.md.md) 
 - [ 2025-12-11_P-kolokvij1 ](./2025-12-11_P-kolokvij1.md) 
 
 ## Obvestila za študente 2024:

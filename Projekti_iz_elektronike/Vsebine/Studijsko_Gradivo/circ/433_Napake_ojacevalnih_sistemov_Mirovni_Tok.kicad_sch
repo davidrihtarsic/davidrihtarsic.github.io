@@ -1108,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 68.58) (xy 123.19 72.39)
+			(xy 123.19 68.58) (xy 123.19 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1165,6 +1165,16 @@
 			(type default)
 		)
 		(uuid "93549d1a-3e60-407e-8ad1-d9a8803cc530")
+	)
+	(wire
+		(pts
+			(xy 123.19 78.74) (xy 123.19 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a01c6464-8cd9-43a6-8334-695a2ee5688b")
 	)
 	(wire
 		(pts
@@ -2031,35 +2041,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 123.19 72.39 0)
+		(lib_id "Device:R")
+		(at 123.19 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98f554fc-0656-404e-a033-a012d71ceea2")
-		(property "Reference" "#GND01"
-			(at 123.19 74.93 0)
+		(uuid "9531bcd2-3a90-45f3-a639-c198fe5b79cf")
+		(property "Reference" "R3"
+			(at 125.73 73.6599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "0"
-			(at 123.19 69.85 0)
+		(property "Value" "500k"
+			(at 125.73 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 72.39 0)
+			(at 121.412 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2068,7 +2078,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 123.19 72.39 0)
+			(at 123.19 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2077,7 +2087,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 123.19 72.39 0)
+			(at 123.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6275a7c3-7c4c-491a-be45-90f3a85a9f0c")
+		)
+		(pin "1"
+			(uuid "1973dc71-9a01-403f-8338-84163f3917c2")
+		)
+		(instances
+			(project "433_Napake_ojacevalnih_sistemov_Mirovni_Tok"
+				(path "/f671c449-d824-4cba-8033-5886a9f4776c"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 123.19 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "98f554fc-0656-404e-a033-a012d71ceea2")
+		(property "Reference" "#GND01"
+			(at 123.19 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 123.19 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 123.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
