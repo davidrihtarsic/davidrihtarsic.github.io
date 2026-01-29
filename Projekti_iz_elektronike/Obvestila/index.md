@@ -9,6 +9,7 @@
 ---
 
 ## 2025:
+- [ 2026-01-29_P-izpit ](./2026-01-29_P-izpit.md) 
 - [ 2025-07-04_P-izpit ](./2025-07-04_P-izpit.md) 
 - [ 2025-02-06_končna_ocena ](./2025-02-06_končna_ocena.md) 
 - [ 2025-02-06_seminar ](./2025-02-06_seminar.md) 
