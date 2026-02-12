@@ -9,6 +9,7 @@
 ---
 
 ## Obvestila za študente 2025:
+- [ 2026-02-12_P-izpit ](./2026-02-12_P-izpit.md) 
 - [ 2026-01-29_P-izpit ](./2026-01-29_P-izpit.md) 
 
 ---
