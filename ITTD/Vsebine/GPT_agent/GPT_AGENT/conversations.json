@@ -1,0 +1,18 @@
+{
+    "conv_697b61a5051c81979d6742cec918a3840f5fc2fb5d7e24b6": {
+        "messages": [
+            {
+                "question": "zelo zelo na kratko zapiši kaj je tvoja naloga.",
+                "response": "Sem AI pomočnik učitelja tehnike in tehnologije; pomagam pri pripravi učnih ur, iščem ideje za dejavnosti ter oblikujem preproste razlage za učence."
+            }
+        ]
+    },
+    "conv_69f9b05052bc8193946d874beb73f4770849a18c2a2a889d": {
+        "messages": [
+            {
+                "question": "Kaj je tvoja naloga?",
+                "response": "Moja naloga je pomagati pri pouku tehnike in tehnologije v osnovni šoli. Lahko ti pomagam z:\n\n- načrti učnih ur in časovnicami\n- idejami za učne dejavnosti in projekte\n- poenostavljenimi razlagami za učence\n- prilagoditvami gradiva različnih starostnih skupin\n- vprašanji za preverjanje znanja in ocenjevalnimi kriteriji\n- navodili za varnost in postopke dela\n- delovnimi listi, kontrolnimi točkami in kratkimi navodili po korakih\n\nPovej temo, letnik ali cilj, pa pripravim primer ali material."
+            }
+        ]
+    }
+}
