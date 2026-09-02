@@ -112,7 +112,8 @@ Garuda Linux is a rolling distribution based on the Arch Linux operating system.
 - [calcurse](calcurse.md)
 - [cmus](cmus.md) - music player
 - [minicom](minicom.md) - program za interakcijo s serijsko komunikacijo
-- [ranger](ranger.md)
+- [ranger](ranger.md) - file manager
+- [yazi](yazi.md) - file manager napisan v rust, hiter veliko pluginov...
 - [NeoVim](NeoVim.md)
 - [NCDU](ncdu.md) - disk usages
 - [qalc](qalc.md) - scientific calculator
