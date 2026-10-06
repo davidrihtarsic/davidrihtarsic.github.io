@@ -1,0 +1,19 @@
+{% extends "base.html" %}{% block title %}{{ quiz.title }}{% endblock %}{% block content %}
+<div class="quiz-shell">
+<div class="progress"><div style="width: {{ ((index-1)/total*100) if total else 0 }}%"></div></div>
+<div class="row between"><span class="eyebrow">Vprašanje {{ index }} / {{ total }}</span><span>{{ p.name }}{% if q.time %} · <b id="timer">{{ q.time }} s</b>{% endif %}</span></div>
+<article class="question-card card">
+  {% if q.topic %}<span class="pill">{{ q.topic }}</span>{% endif %}<h1>{{ q.question|markdown }}</h1>
+  {% if q.image %}<img class="question-image" style="width: {{ q.image_width|default(100)|int }}%;" src="{{ url_for('quiz_image', quiz_name=quiz_dir, image=q.image) }}">{% endif %}
+  <form method="post" action="{{ url_for('answer', code=p.code, pid=p.id, qid=q.id) }}" id="answerForm">
+    <input type="hidden" name="started_ms" value="{{ started_ms }}">
+    <div class="student-answers">
+    {% if q.type == 'text' %}<input class="text-answer" name="answer" required autocomplete="off" placeholder="Vpiši odgovor">
+    {% else %}{% for a in q.answers %}<label class="student-answer"><input type="{{ 'checkbox' if q.type=='multiple' else 'radio' }}" name="answer" value="{{ loop.index0 }}" {% if q.type!='multiple' %}required{% endif %}><span class="choice">{{ '✓' if q.type=='true_false' else 'ABCD'[loop.index0] if loop.index0<4 else loop.index }}</span><span>{{ a|markdown }}</span></label>{% endfor %}{% endif %}
+    </div><button class="btn primary wide big">Oddaj odgovor</button>
+  </form>
+</article></div>
+{% endblock %}
+{% block scripts %}{% if q.time %}<script>
+let remaining={{ q.time|int }}; const timer=document.getElementById('timer'); const form=document.getElementById('answerForm'); const iv=setInterval(()=>{remaining-=1;timer.textContent=remaining+' s';if(remaining<=0){clearInterval(iv);form.submit();}},1000);
+</script>{% endif %}{% endblock %}

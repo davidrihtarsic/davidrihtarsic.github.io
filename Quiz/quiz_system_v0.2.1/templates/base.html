@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="sl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{% block title %}Kviz{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+</head>
+<body>
+<header class="topbar">
+  {% set student_endpoints = ['join_code', 'join', 'take', 'answer', 'student_result'] %}
+  {% if request.endpoint in student_endpoints %}
+    <span class="brand">Kviz</span>
+  {% elif session.get('teacher_authenticated') %}
+    <a class="brand" href="{{ url_for('index') }}">Kviz</a>
+    <nav>
+      <a href="{{ url_for('index') }}">Domov</a>
+      <a href="{{ url_for('editor') }}">Urejevalnik</a>
+      <form method="post" action="{{ url_for('teacher_logout') }}" style="display:inline">
+        <button class="link-button" type="submit">Odjava</button>
+      </form>
+    </nav>
+  {% else %}
+    <span class="brand">Kviz</span>
+  {% endif %}
+</header>
+<main class="container">{% block content %}{% endblock %}</main>
+<script>
+function quizMarkdown(value){
+  let text=String(value??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  text=text.replace(/_\{([^{}]+)\}/g,'<sub>$1</sub>').replace(/\^\{([^{}]+)\}/g,'<sup>$1</sup>');
+  return text.replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/(?<!\*)\*([^*]+?)\*(?!\*)/g,'<em>$1</em>').replace(/`([^`]+)`/g,'<code>$1</code>');
+}
+</script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

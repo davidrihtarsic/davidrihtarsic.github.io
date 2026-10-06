@@ -1,0 +1,15 @@
+{% extends "base.html" %}{% block title %}QR – {{ s.title }}{% endblock %}{% block content %}
+<section class="qr-projector">
+  <span class="eyebrow">Pridruži se kvizu</span>
+  <h1>{{ s.title }}</h1>
+  <div class="qr-projector-grid">
+    <img src="{{ url_for('session_qr', code=s.code) }}" alt="QR koda za pridružitev kvizu">
+    <div class="qr-projector-info">
+      <p>Skeniraj QR kodo s telefonom.</p>
+      <div class="projector-code-label">Vstopna koda</div>
+      <div class="projector-code">{{ s.code }}</div>
+      <div class="projector-url">{{ join_url }}</div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block title %}Urejevalnik kviza{% endblock %}
+{% block content %}
+<div class="editor-toolbar">
+  <div><span class="eyebrow">Urejevalnik</span><h1 id="pageTitle">Kviz</h1></div>
+  <div class="actions"><button class="btn" id="previewBtn">Predogled</button><button class="btn primary" id="saveBtn">Shrani</button></div>
+</div>
+<div class="editor-layout">
+  <aside class="sidebar card">
+    <label>Odpri kviz</label>
+    <select id="quizSelect"><option value="">Nov kviz</option>{% for q in quizzes %}<option value="{{ q.file }}" {% if selected==q.file %}selected{% endif %}>{{ q.title }}</option>{% endfor %}</select>
+    <div class="separator"></div>
+    <div id="questionList" class="question-list"></div>
+    <button class="btn wide" id="addQuestion">+ Dodaj vprašanje</button>
+    <div class="separator"></div>
+    <label class="btn wide filebtn">Uvozi JSON<input type="file" id="importFile" accept="application/json,.json" hidden></label>
+    <a class="btn wide" id="exportLink" href="#">Izvozi JSON</a>
+  </aside>
+
+  <section class="card editor-main">
+    <div class="two-col">
+      <div><label>Naslov kviza</label><input id="quizTitle" type="text"></div>
+      <div><label>Ime datoteke</label><input id="quizFile" type="text" placeholder="npr. elektronika.json"></div>
+    </div>
+    <label>Opis</label><textarea id="quizDescription" rows="2"></textarea>
+    <div class="separator"></div>
+    <div id="emptyEditor" class="empty-state">Izberi ali dodaj vprašanje.</div>
+    <div id="questionEditor" hidden>
+      <div class="row between"><h2 id="questionHeading">Vprašanje</h2><div class="actions"><button class="btn danger" id="deleteQuestion">Izbriši</button></div></div>
+      <div class="two-col">
+        <div><label>Tip vprašanja</label><select id="qType"><option value="single">En pravilen odgovor</option><option value="multiple">Več pravilnih odgovorov</option><option value="true_false">Drži / ne drži</option><option value="text">Kratek odgovor</option></select></div>
+        <div><label>Tema</label><input id="qTopic" type="text" placeholder="npr. Ohmov zakon"></div>
+      </div>
+      <label>Vprašanje</label><textarea id="qText" rows="4"></textarea>
+      <div class="image-row"><div class="grow"><label>Slika (neobvezno)</label><input id="qImage" type="text" placeholder="slika.png"></div><div><label>Širina slike (%)</label><input id="qImageWidth" type="number" min="1" max="100" value="100"></div><label class="btn filebtn">Naloži sliko<input type="file" id="imageFile" accept="image/*" hidden></label></div>
+      <div id="imagePreview"></div>
+      <h3>Odgovori</h3>
+      <div id="answersEditor"></div>
+      <button class="btn" id="addAnswer">+ Dodaj odgovor</button>
+      <div class="three-col settings">
+        <div><label>Zahtevnost (1–5)</label><input id="qDifficulty" type="number" min="1" max="5" value="1"></div>
+        <div><label>Točke</label><input id="qPoints" type="number" min="0.1" step="0.1" value="1"></div>
+        <div><label>Čas (s, 0 = brez omejitve)</label><input id="qTime" type="number" min="0" value="30"></div>
+      </div>
+    </div>
+  </section>
+</div>
+
+<dialog id="previewDialog"><div class="dialog-head"><h2>Predogled</h2><button class="iconbtn" id="closePreview">×</button></div><div id="previewBody"></div></dialog>
+{% endblock %}
+{% block scripts %}
+<script>
+const selectedFile = {{ selected|tojson }};
+let quiz = {version:1,title:'Nov kviz',description:'',questions:[]};
+let current = -1;
+let currentFile = selectedFile || '';
+const $ = id => document.getElementById(id);
+function escapeHtml(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+function newQuestion(){ const n=quiz.questions.length+1; return {id:'q'+n,type:'single',question:'',answers:['','','',''],correct:[0],topic:'',difficulty:1,points:1,time:30,image:'',image_width:100}; }
+function ensureIds(){const used=new Set(); quiz.questions.forEach((q,i)=>{let id=q.id||('q'+(i+1)); while(used.has(id)) id=id+'_2'; used.add(id); q.id=id;});}
+async function loadQuiz(file){
+  currentFile=file||''; const res=await fetch('/api/quiz'+(file?'?file='+encodeURIComponent(file):'')); const data=await res.json(); quiz=data.quiz||data; current=-1; renderAll();
+}
+function saveCurrent(){ if(current<0||!quiz.questions[current]) return; const q=quiz.questions[current]; q.type=$('qType').value; q.topic=$('qTopic').value.trim(); q.question=$('qText').value.trim(); q.image=$('qImage').value.trim(); q.image_width=Math.max(1,Math.min(100,Number($('qImageWidth').value||100))); q.difficulty=Number($('qDifficulty').value||1); q.points=Number($('qPoints').value||1); q.time=Number($('qTime').value||0); const rows=[...document.querySelectorAll('.answer-row')]; q.answers=rows.map(r=>r.querySelector('.answer-text').value); if(q.type==='text'){ q.correct=q.answers.map((_,i)=>i); } else { q.correct=rows.map((r,i)=>r.querySelector('.answer-correct').checked?i:null).filter(x=>x!==null); if((q.type==='single'||q.type==='true_false')&&q.correct.length!==1){ const first=q.correct[0]??0; q.correct=[first]; } } }
+function renderAll(){ $('quizTitle').value=quiz.title||''; $('quizDescription').value=quiz.description||''; $('quizFile').value=currentFile||slugify(quiz.title||'kviz')+'.json'; $('pageTitle').textContent=quiz.title||'Kviz'; renderList(); renderEditor(); updateExport(); }
+function renderList(){ const box=$('questionList'); box.innerHTML=''; quiz.questions.forEach((q,i)=>{const b=document.createElement('button'); b.className='question-item'+(i===current?' active':''); b.innerHTML=`<span>${i+1}</span><div><b>${quizMarkdown(q.question||'Novo vprašanje')}</b><small>${escapeHtml(typeLabel(q.type))}${q.topic?' · '+escapeHtml(q.topic):''}</small></div>`; b.onclick=()=>{saveCurrent();current=i;renderList();renderEditor();}; box.appendChild(b);}); }
+function typeLabel(t){return {single:'En odgovor',multiple:'Več odgovorov',true_false:'Drži/ne drži',text:'Kratek odgovor'}[t]||t;}
+function renderEditor(){ const q=quiz.questions[current]; $('emptyEditor').hidden=!!q; $('questionEditor').hidden=!q; if(!q)return; $('questionHeading').textContent=`Vprašanje ${current+1}`; $('qType').value=q.type; $('qTopic').value=q.topic||''; $('qText').value=q.question||''; $('qImage').value=q.image||''; $('qImageWidth').value=q.image_width||100; $('qDifficulty').value=q.difficulty||1; $('qPoints').value=q.points||1; $('qTime').value=q.time??30; renderAnswers(q); renderImage(); }
+function renderAnswers(q){ const box=$('answersEditor'); box.innerHTML=''; if(q.type==='true_false'){q.answers=['Drži','Ne drži']; if(!q.correct?.length)q.correct=[0];}
+  (q.answers||[]).forEach((a,i)=>{const row=document.createElement('div');row.className='answer-row';const inputType=(q.type==='single'||q.type==='true_false')?'radio':'checkbox'; row.innerHTML=`<input class="answer-correct" name="correctChoice" type="${inputType}" ${q.correct?.includes(i)?'checked':''} ${q.type==='text'?'hidden':''}><span class="answer-letter">${String.fromCharCode(65+i)}</span><input class="answer-text" value="${escapeHtml(a)}" ${q.type==='true_false'?'readonly':''}><button class="iconbtn remove-answer" ${q.type==='true_false'?'hidden':''}>×</button>`; if(q.type==='text')row.querySelector('.answer-letter').textContent='✓'; row.querySelector('.remove-answer').onclick=()=>{saveCurrent(); q.answers.splice(i,1); q.correct=(q.correct||[]).filter(x=>x!==i).map(x=>x>i?x-1:x); renderAnswers(q);}; box.appendChild(row);}); $('addAnswer').hidden=q.type==='true_false'; }
+function imageUrl(image){const file=$('quizFile').value.trim()||currentFile;const dir=file.includes('/')?file.split('/')[0]:file.replace(/\.json$/,'');return dir&&image?`/quiz-image/${encodeURIComponent(dir)}/${image.split('\\').join('/').split('/').map(encodeURIComponent).join('/')}`:'';}
+function renderImage(){const v=$('qImage').value.trim(); const src=imageUrl(v); const width=Math.max(1,Math.min(100,Number($('qImageWidth').value||100))); $('imagePreview').innerHTML=src?`<img class="question-image small" style="width:${width}%" src="${src}" onerror="this.style.display='none'">`:'';}
+function slugify(s){return String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-z0-9]+/g,'_').replace(/^_|_$/g,'')||'kviz';}
+function updateExport(){ $('exportLink').href=currentFile?'/quiz/export/'+encodeURIComponent(currentFile):'#'; $('exportLink').classList.toggle('disabled',!currentFile); }
+$('quizTitle').oninput=()=>{quiz.title=$('quizTitle').value; $('pageTitle').textContent=quiz.title||'Kviz'; if(!currentFile)$('quizFile').value=slugify(quiz.title)+'.json';}; $('quizDescription').oninput=()=>quiz.description=$('quizDescription').value; $('quizSelect').onchange=e=>loadQuiz(e.target.value);
+$('addQuestion').onclick=()=>{saveCurrent(); quiz.questions.push(newQuestion()); current=quiz.questions.length-1; ensureIds(); renderList(); renderEditor();};
+$('deleteQuestion').onclick=()=>{if(current<0)return; if(confirm('Izbrišem to vprašanje?')){quiz.questions.splice(current,1);current=Math.min(current,quiz.questions.length-1);ensureIds();renderList();renderEditor();}};
+$('qType').onchange=()=>{saveCurrent();const q=quiz.questions[current];q.type=$('qType').value;if(q.type==='true_false'){q.answers=['Drži','Ne drži'];q.correct=[0];}else if(q.type==='text'&&(!q.answers||q.answers.length===0)){q.answers=[''];q.correct=[0];}renderAnswers(q);};
+$('addAnswer').onclick=()=>{saveCurrent(); const q=quiz.questions[current]; q.answers.push(''); renderAnswers(q);}; $('qImage').oninput=renderImage; $('qImageWidth').oninput=renderImage;
+$('imageFile').onchange=async e=>{const fd=new FormData();fd.append('file',e.target.files[0]);fd.append('quiz_file',$('quizFile').value.trim()||currentFile||slugify(quiz.title)+'.json');const r=await fetch('/api/image',{method:'POST',body:fd});const d=await r.json();if(d.ok){$('qImage').value=d.path;renderImage();}else alert(d.error);};
+$('saveBtn').onclick=async()=>{saveCurrent();quiz.title=$('quizTitle').value.trim();quiz.description=$('quizDescription').value.trim();ensureIds();const file=$('quizFile').value.trim()||slugify(quiz.title)+'.json';const r=await fetch('/api/quiz/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({file,quiz})});const d=await r.json();if(!r.ok){alert(d.error||'Napaka');return;}currentFile=d.file;$('quizFile').value=d.file;updateExport();alert('Kviz je shranjen.');};
+$('importFile').onchange=async e=>{const fd=new FormData();fd.append('file',e.target.files[0]);const r=await fetch('/api/quiz/import',{method:'POST',body:fd});const d=await r.json();if(!r.ok){alert(d.error);return;}location.href='/editor?file='+encodeURIComponent(d.file);};
+$('previewBtn').onclick=()=>{saveCurrent();const body=$('previewBody');body.innerHTML=quiz.questions.map((q,i)=>`<article class="preview-question"><span class="eyebrow">${i+1} / ${quiz.questions.length}${q.topic?' · '+escapeHtml(q.topic):''}</span><h2>${quizMarkdown(q.question)}</h2>${q.image?`<img class="question-image" style="width:${Math.max(1,Math.min(100,Number(q.image_width||100)))}%" src="${imageUrl(q.image)}">`:''}<div class="preview-answers">${(q.answers||[]).map((a,j)=>`<div class="preview-answer"><span>${q.type==='text'?'✓':String.fromCharCode(65+j)}</span>${quizMarkdown(a)}</div>`).join('')}</div></article>`).join('')||'<p>Ni vprašanj.</p>';$('previewDialog').showModal();}; $('closePreview').onclick=()=>$('previewDialog').close();
+loadQuiz(selectedFile);
+</script>
+{% endblock %}

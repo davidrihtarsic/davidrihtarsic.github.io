@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "title": "Osnove elektronike",
+  "description": "Primer kviza za preverjanje delovanja sistema.",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "question": "Kolikšna je napetost na uporu 100 Ω, skozi katerega teče tok 20 mA?",
+      "answers": ["0,2 V", "2 V", "5 V", "20 V"],
+      "correct": [1],
+      "topic": "Ohmov zakon",
+      "difficulty": 1,
+      "points": 1,
+      "time": 30,
+      "image": ""
+    },
+    {
+      "id": "q2",
+      "type": "multiple",
+      "question": "Katere od naštetih komponent so pasivne?",
+      "answers": ["Upor", "Kondenzator", "Tranzistor", "Tuljava"],
+      "correct": [0, 1, 3],
+      "topic": "Elektronske komponente",
+      "difficulty": 1,
+      "points": 2,
+      "time": 40,
+      "image": ""
+    },
+    {
+      "id": "q3",
+      "type": "true_false",
+      "question": "Pri zaporedni vezavi uporov teče skozi vse upore enak tok.",
+      "answers": ["Drži", "Ne drži"],
+      "correct": [0],
+      "topic": "Vezave uporov",
+      "difficulty": 1,
+      "points": 1,
+      "time": 20,
+      "image": ""
+    },
+    {
+      "id": "q4",
+      "type": "text",
+      "question": "Kako imenujemo razmerje med napetostjo in tokom?",
+      "answers": ["upornost", "električna upornost"],
+      "correct": [0, 1],
+      "topic": "Ohmov zakon",
+      "difficulty": 1,
+      "points": 1,
+      "time": 30,
+      "image": ""
+    }
+  ]
+}

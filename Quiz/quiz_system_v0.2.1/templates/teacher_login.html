@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Učiteljski dostop{% endblock %}
+{% block content %}
+<div class="narrow card">
+  <h1>Učiteljski dostop</h1>
+  <p class="muted">Ta del je namenjen pripravi kvizov, upravljanju sej in statistiki.</p>
+  {% if error %}<div class="alert">{{ error }}</div>{% endif %}
+  <form method="post">
+    <input type="hidden" name="next" value="{{ next_url }}">
+    <label for="pin">Učiteljski PIN</label>
+    <input id="pin" name="pin" type="password" inputmode="numeric" autocomplete="current-password" autofocus required>
+    <button class="btn primary" type="submit">Vstop</button>
+  </form>
+</div>
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}{{ title }}{% endblock %}
+{% block content %}
+<div class="narrow card">
+  <h1>{{ title }}</h1>
+  <p>{{ message }}</p>
+  {% if session.get('teacher_authenticated') %}
+    <a class="btn" href="{{ url_for('index') }}">Domov</a>
+  {% else %}
+    <a class="btn" href="{{ url_for('join_code') }}">Pridruži se drugemu kvizu</a>
+  {% endif %}
+</div>
+{% endblock %}

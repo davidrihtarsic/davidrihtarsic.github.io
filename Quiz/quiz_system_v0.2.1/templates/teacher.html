@@ -1,0 +1,39 @@
+{% extends "base.html" %}{% block title %}{{ s.title }} – v živo{% endblock %}{% block content %}
+<section class="hero teacher-hero">
+  <div class="teacher-session-info">
+    <span class="eyebrow">Seja {{ s.code }}</span>
+    <h1>{{ s.title }}</h1>
+    <p>Študentje lahko skenirajo QR kodo ali odprejo povezavo:</p>
+    <div class="join-link-row">
+      <code id="joinUrl">{{ join_url }}</code>
+      <button class="btn" type="button" onclick="copyJoinUrl(this)">Kopiraj povezavo</button>
+    </div>
+  </div>
+  <div class="qr-share-card">
+    <img src="{{ url_for('session_qr', code=s.code) }}" alt="QR koda za pridružitev kvizu">
+    <div>
+      <span class="muted">Vstopna koda</span>
+      <strong>{{ s.code }}</strong>
+    </div>
+    <a class="btn primary wide" href="{{ url_for('teacher_qr', code=s.code) }}" target="_blank" rel="noopener">Povečaj QR</a>
+  </div>
+</section>
+<div class="actions teacher-actions"><a class="btn" href="{{ url_for('stats', code=s.code) }}">Podrobna statistika</a><a class="btn" href="{{ url_for('stats_csv', code=s.code) }}">CSV</a>{% if s.active %}<form method="post" action="{{ url_for('stop_session', code=s.code) }}"><button class="btn danger">Zaključi sejo</button></form>{% else %}<form method="post" action="{{ url_for('resume_session', code=s.code) }}"><button class="btn primary">Ponovno odpri sejo</button></form>{% endif %}<form method="post" action="{{ url_for('delete_session', code=s.code) }}" onsubmit="return confirm('Res želiš izbrisati to sejo in vse njene odgovore?')"><button class="btn danger">Izbriši sejo</button></form></div>
+<form class="card session-notes" method="post" action="{{ url_for('update_session', code=s.code) }}"><label for="sessionNotes">Podatki oziroma opomba o seji</label><textarea id="sessionNotes" name="notes" rows="3" maxlength="5000" placeholder="Npr. skupina, datum, posebnosti ...">{{ s.notes or '' }}</textarea><div class="actions"><button class="btn primary" type="submit">Shrani podatke</button></div></form>
+<div class="stats-cards"><div class="metric"><span>Študenti</span><b id="mParticipants">0</b></div><div class="metric"><span>Končali</span><b id="mCompleted">0</b></div><div class="metric"><span>Oddani odgovori</span><b id="mAnswers">0</b></div><div class="metric"><span>Povprečje</span><b id="mAverage">0 %</b></div></div>
+<h2>Uspešnost po vprašanjih</h2><div id="questionStats" class="question-stats"></div>
+<h2>Matrični prikaz</h2><p class="muted">Klikni celico za podrobnost odgovora.</p><div class="table-wrap"><table class="matrix" id="matrixTable"></table></div>
+<dialog id="cellDialog"><div class="dialog-head"><h2>Odgovor</h2><button class="iconbtn" onclick="cellDialog.close()">×</button></div><div id="cellDetail"></div></dialog>
+{% endblock %}
+{% block scripts %}<script>
+const code={{ s.code|tojson }}; let data=null;
+function statusSymbol(s){return s==='correct'?'✓':s==='wrong'?'✕':'–';}
+function render(d){data=d;document.getElementById('mParticipants').textContent=d.summary.participants;document.getElementById('mCompleted').textContent=d.summary.completed;document.getElementById('mAnswers').textContent=d.summary.answers;document.getElementById('mAverage').textContent=d.summary.average_percent+' %';
+ document.getElementById('questionStats').innerHTML=d.questions.map(q=>`<div class="qstat"><div class="row between"><b>V${q.number}</b><span>${q.success}% pravilno</span></div><div class="mini-bar"><div style="width:${q.success}%"></div></div><small>${q.answered} odgovorov · ${q.topic||'brez teme'}</small></div>`).join('');
+ const t=document.getElementById('matrixTable');t.innerHTML=`<thead><tr><th>Študent</th>${d.questions.map(q=>`<th title="${esc(q.question)}">V${q.number}</th>`).join('')}<th>Rezultat</th></tr></thead><tbody>${d.matrix.map((r,ri)=>`<tr><th>${esc(r.name)}</th>${r.cells.map((c,ci)=>`<td class="cell ${c.status}" data-r="${ri}" data-c="${ci}">${statusSymbol(c.status)}</td>`).join('')}<td><b>${r.percent}%</b></td></tr>`).join('')}</tbody><tfoot><tr><th>Uspešnost</th>${d.questions.map(q=>`<th>${q.success}%</th>`).join('')}<th>${d.summary.average_percent}%</th></tr></tfoot>`;[...t.querySelectorAll('.cell')].forEach(el=>el.onclick=()=>showCell(Number(el.dataset.r),Number(el.dataset.c)));
+}
+function esc(s){return String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
+function showCell(r,c){const row=data.matrix[r],cell=row.cells[c],q=data.questions[c];let ans=cell.answer;if(Array.isArray(ans)&&q.type!=='text'){ans=ans.map(i=>(q.answers||[])[i]??i).join(', ');}document.getElementById('cellDetail').innerHTML=`<p><b>${esc(row.name)}</b> · V${q.number}</p><p>${quizMarkdown(q.question)}</p><dl><dt>Odgovor</dt><dd>${quizMarkdown(ans??'Ni odgovora')}</dd><dt>Rezultat</dt><dd>${cell.points} / ${cell.max_points} točk</dd><dt>Čas</dt><dd>${cell.response_ms?Math.round(cell.response_ms/100)/10+' s':'—'}</dd></dl>`;cellDialog.showModal();}
+async function copyJoinUrl(button){const value=document.getElementById('joinUrl').textContent;try{await navigator.clipboard.writeText(value);button.textContent='Kopirano';setTimeout(()=>button.textContent='Kopiraj povezavo',1200);}catch(e){window.prompt('Kopiraj povezavo:',value);}}
+async function refresh(){const r=await fetch('/api/stats/'+code);if(r.ok)render(await r.json());}refresh();setInterval(refresh,2000);
+</script>{% endblock %}

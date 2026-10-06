@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Kviz – nadzorna plošča{% endblock %}
+{% block content %}
+<section class="hero">
+  <div><span class="eyebrow">Lokalni sistem za pouk</span><h1>Kvizi brez zunanje storitve</h1><p>Pripravi vprašanja, zaženi sejo in spremljaj odgovore študentov v istem omrežju.</p></div>
+  <a class="btn primary" href="{{ url_for('editor') }}">+ Nov kviz</a>
+</section>
+<div class="notice">Študentje odprejo <b>http://{{ lan_ip }}:5000/join</b> ali neposredno povezavo, ki se prikaže ob zagonu seje.</div>
+<h2>Kvizi</h2>
+<div class="card-grid">
+{% for q in quizzes %}
+<article class="card">
+  <div class="card-head"><div><h3>{{ q.title }}</h3><p>{{ q.description or 'Brez opisa' }}</p></div><span class="pill">{{ q.count }} vprašanj</span></div>
+  <div class="actions">
+    <a class="btn" href="{{ url_for('editor', file=q.file) }}">Uredi</a>
+    <a class="btn" href="{{ url_for('export_quiz', filename=q.file) }}">JSON</a>
+    <form method="post" action="{{ url_for('start_session') }}"><input type="hidden" name="quiz_file" value="{{ q.file }}"><button class="btn primary">Zaženi</button></form>
+  </div>
+</article>
+{% else %}<p>Še ni kvizov.</p>{% endfor %}
+</div>
+{% if sessions %}
+<h2>Nedavne seje</h2>
+<div class="table-wrap"><table><thead><tr><th>Koda</th><th>Kviz</th><th>Ustvarjeno</th><th>Stanje</th><th></th></tr></thead><tbody>
+{% for s in sessions %}<tr><td><b>{{ s.code }}</b></td><td>{{ s.title }}</td><td>{{ s.created_at }}</td><td>{{ 'Aktivna' if s.active else 'Zaključena' }}</td><td><a href="{{ url_for('teacher', code=s.code) }}">Odpri</a></td></tr>{% endfor %}
+</tbody></table></div>
+{% endif %}
+{% endblock %}

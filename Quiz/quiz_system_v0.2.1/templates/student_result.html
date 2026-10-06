@@ -1,0 +1,1 @@
+{% extends "base.html" %}{% block title %}Rezultat{% endblock %}{% block content %}<div class="narrow card result-card"><span class="eyebrow">Kviz zaključen</span><h1>{{ p.name }}</h1><div class="score">{{ pct }} %</div><p>{{ score|round(2) }} / {{ max_score|round(2) }} točk</p><p>Odgovori so shranjeni. Učitelj vidi skupno statistiko in matrični prikaz.</p></div>{% endblock %}

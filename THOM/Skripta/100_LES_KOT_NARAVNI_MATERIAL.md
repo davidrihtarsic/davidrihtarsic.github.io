@@ -24,7 +24,7 @@ Drevesa pretvarjajo sončno energijo, vodo in ogljikov dioksid v organsko snov (
 **Biotska raznovrstnost in ekosistemske storitve**:  
 Gozdovi nudijo habitat za številne rastlinske in živalske vrste, so osrednji element ohranjanja biotske raznovrstnosti in nudijo ekosistemske storitve kot so filtracija vode, izboljšanje talne strukture in mikroklimatska regulacija. Ohranjanje različnih starostnih faz in habitatov v gozdu povečuje odpornost ekosistema na motnje [@FAO2018].
 
-**Varovalna vloga gozd**:  
+**Varovalna vloga gozda**:  
 Gozdovi zmanjšujejo erozijo tal (koreninski sistem zadržuje tla), vplivajo na hidrologijo — zmanjšujejo hitro odtekanje in s tem poplavno ogroženost — ter stabilizirajo pobočja in bregove rek. Na strmih terenih in ob vodotokih so gozdni ekosistemi ključni za preprečevanje usedlin in zagotavljanje kakovosti vode [@FAO2018; @ZGS2020].
 
 ### Gospodarski pomen
