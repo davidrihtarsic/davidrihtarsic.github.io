@@ -1,1 +1,10 @@
-Convering 9.0_NACRTOVANJE_OHISJA.md -> PDF ....[32m Done [0m
+Convering 1.1_Optične_komunikacije.md -> PDF ..WARNING: pandoc-crossref was compiled with pandoc 3.8.3 but is being run through 3.10.1. This is not supported. Strange things may (and likely will) happen silently.
+[WARNING] Could not fetch resource slike/1_1_opticno_vlakno.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_npn_stikalo_led_rele.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_ldr_delilnik.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_transimpedancni_ojačevalnik.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_komparator_osvetljenosti.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_schmittov_sprozilnik.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_svetlobna_vrata_smer.png: replacing image with description
+[WARNING] Could not fetch resource slike/1_1_optoclen.png: replacing image with description
+..[32m Done [0m
