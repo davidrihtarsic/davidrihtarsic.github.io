@@ -39,3 +39,7 @@
 ## Priročni podatki
 
 - [Formule, razpredelnice, grafi](./900_Formule_Razpredelnice_Grafi.md) - [PDF](./900_Formule_Razpredelnice_Grafi.pdf)
+
+## Študijska literatura
+
+- [Študijska literatura](./studijska_literatura.md) - [PDF](./studijska_literatura.pdf)
