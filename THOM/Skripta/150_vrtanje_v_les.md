@@ -19,25 +19,26 @@ Različne tehnike vrtanja so prilagojene vrstam odprtin (slepe luknje, prebojne 
 1. **Vrh svedra (vodilna konica / špica)**
 
     * Tanka, koničasta konica na sredini.
-    * Imenuje se tudi **vodilna špica** ali **centrična točka**.
+    * Imenuje se tudi **vodilna konica**.
     * Njena naloga je, da **natančno vodi sveder** in preprečuje drsenje po površini lesa.
     * Omogoča natančno pozicioniranje luknje brez zdrsa.
+    * Lahko vsebuje tudi vijačnico, ki pomaga vleči sveder v obdelovanec.
 
 2. **Rezili (stranski rezili)**
 
     * Dve ostri robni liniji, ki **režeta vlakna lesa** ob robu luknje.
-    * Poskrbita za **čist rob** in zmanjšata cefranje (zlasti pri mehkem lesu).
-    * Na angleško se imenujeta *spur cutting edges* ali *outer cutting spurs*.
+    * Poskrbita za **čist rob** in zmanjšata iztrgovanje vlaken (zlasti pri mehkem lesu).
+    * Angleški izraz teh dveh robov je *spur cutting edges* ali *outer cutting spurs*.
 
 3. **Glavni rezalni robovi (režni robovi)**
 
     * Dve poševni rezilni površini, ki **odstranjujeta material** iz sredine luknje.
-    * Odgovorni so za **dejansko vrtanje** in odnašanje ostružkov navzgor.
+    * Funkcija teh dveh je **dejansko vrtanje** in odnašanje odrezkov navzgor.
 
 4. **Spiralni del (vijačni kanal / žlebiči)**
 
     * Dve spiralni zarezi, ki tečeta vzdolž telesa svedra.
-    * Odvajata **ostružke in prah** iz vrtine.
+    * Odvajata **odrezke** iz luknje.
     * Pri mehkem lesu je priporočljiva večja razdalja med spiralami, pri tršem pa bolj tesna spirala.
 
 5. **Telo svedra**
@@ -58,7 +59,7 @@ Različne tehnike vrtanja so prilagojene vrstam odprtin (slepe luknje, prebojne 
 
 **Posebnosti pri različnih vrstah svedrov za les**
 
-- [lesni sveder](https://www.majer.si/sveder-za-les-12-0-mm)
+- [lesni sveder](https://www.metabo.com/si/sl/izdelkov/pribor/vrtanje-dletanje/sveder-za-les/sveder-za-les-cv)
 - [ploščati sveder](https://www.metabo.com/si/sl/pribor/vrtanje-dletanje/sveder-za-les/ploscati-lesni-sveder/ploscati-lesni-sveder-20-x-152-mm-627319000.html)
 - [spiralni sveder](https://www.robeks.si/spiralni-sveder-za-les,-dimenzije--18x450mm,-sestkotno-vpetje,-d-07602)
 - [forsnerjev sveder](https://www.lcc.si/trgovina/svedri-za-les-forstner-fisch-black-shark/)
@@ -144,11 +145,13 @@ Torej naj vrtalnik deluje okoli **1500–1600 obr/min**.
     * Obrnemo obdelovanec, nastavimo središče izvrtine.
     * Dokončamo vrtanje.
 - Slepa luknja: odprtina do določene globine, zahteva merjenje globine in natančen zaključek.
+    * Če globino določimo s prenosom mere z obdelovancem, moramo paziti, da upoštevamo dolžino vodilne konice.
 
 **Zaščita roba in končne obdelave**:
 
 - Po vrtanju pogosto sledi obdelava robu (npr. robni vogali, zaokroževanje) ter brušenje površine.
 - Rob luknje pogosto **povrtamo** s posebnim orodjem [povrtalo](https://www.majer.si/konicasto-povrtalo-stern-sp-14-bit-nastavek-premer-12-mm).
+    * S tem pogosto prenesemo stranske sile na več vlaken.
 
 ## Varnostni vidiki
 

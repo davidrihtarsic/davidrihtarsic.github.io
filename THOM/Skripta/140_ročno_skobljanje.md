@@ -4,6 +4,7 @@ Ročni skobeljnik (ročna ravnina, plane) je osnovno ročno orodje za obdelavo l
 
 ## Opis orodja in sestavni deli
 Ročni skobeljnik običajno sestavljajo naslednji osnovni deli:
+
 - Ohišje oziroma trup (body) — lahko iz litega železa ali lesa; zagotavlja maso in vodljivost.
 - Rezilo — poševno brušeno jekleno rezilo z vgrajenim cepilnim klinom pri nekaterih modelih.
 - Klin ali vzmet (wedge / lever cap / cap iron) — fiksira rezilo v ohišju in preprečuje vibracije.
@@ -40,7 +41,8 @@ Pri železnih ohišjih je pogosto možno zožiti ali širiti ustje. Ozko ustje z
 
 Pozor na varnost: med nastavljenim delom nosite zaščitne rokavice pri rokovanju z rezili in bodite pozorni pri ostrenju (ščiti oči in roke) [@woodworking_safety].
 
-## Pravilno delo s ročnim skobeljnikom
+## Pravilno delo r ročnim skobeljnikom
+
 Pravilna tehnika vključuje držo, gibanje in nadzor orodja:
 
 - Drža in oprijem: ročaj oz. peto držite z dominantno roko, sprednjo roko položite na trn za usmerjanje in pritisk. Telo naj sledi orodju v smeri gibanja, noge razmaknjene za stabilnost.
@@ -51,17 +53,17 @@ Pravilna tehnika vključuje držo, gibanje in nadzor orodja:
 
 Redno preverjajte rezultat: ravnost in gladkost ocenjujte z golim očesom, dotikom in s svetlobnim odbojom po površini.
 
-## Napredne tehnike za vrhunske rezultate
+## Napredne tehnike za izboljšanje rezultatov skobljanja
 
-1. Zelo tanki odrezki 
+1. Zelo tanki odrezki: 
 Nastavite rezilo tako, da odstranjuje ekstremno tanke struge (0,05–0,2 mm). Zahteva izjemno ostrino in ustrezno znižano ustje. Rezultat: sijajna, skoraj polirana površina brez brušenja [@hoadley2000].
 
-3. Poliranje z mikro-robom (micro-bevel)
-Obrušite primarni kot rezila za trdnost, nato naredite droben mikro-rob (npr. 1–2° višji kot) za ostrino. Mikro-rob se hitreje obnavlja in daje čist rez pri dolgih vlaknih [@hoadley2000].
+3. Poliranje z mikro-robom (micro-bevel):
+Obrušite primarni kot rezila za trdnost, nato naredite droben mikro-rob (npr. 1–2° višji kot) za ostrino. Mikro-rob se hitreje da nabrusiti in daje čist rez pri dolgih vlaknih [@hoadley2000].
 
-4. Uporaba poljubnih blokov in voščenja struge
+4. Uporaba poljubnih blokov in voščenja struge:
 Pri delu z zelo trdimi ali smolnatimi vrstami lesa se lahko uporabi mazanje (npr. parafinsko olje) na ustju, da zmanjšamo trenje in izboljšamo odtok struge. Prav tako lahko po končnem skobljanju uporabimo fini abrazivni papir ali obrabljeno platno za poliranje zrn skozi vlakna [@schwarz2001].
 
-5. Usklajevanje podlage in skobljnika (reference planing)
+5. Usklajevanje podlage in skobljnika (reference planing):
 Pri izravnavanju daljših desk uporabite vodila ali paralelne blokce, da zagotovite enakomeren kot in pritisk — to je pomembno pri izdelavi ravnih površin brez strojnih vodil [@hoadley2000].
 

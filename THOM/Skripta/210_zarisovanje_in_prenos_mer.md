@@ -98,6 +98,7 @@ Sestavni deli in njihove funkcije
   - širok prislon (za nastavitev pravokotnosti orodnih rezil)
   - zunanje merilo z 0 na robu
   - notranje merilo z 0 v kotu kotnika
+  - tudi fiksne kotnike lahko nastavite s primernim kovanjem na spojnih točkah.
 
 ### Vodna tehtnica
 
@@ -114,7 +115,7 @@ Sestavni deli in njihove funkcije
 
 Zarisovanje je postopek označevanja natančnih geometrijskih točk in črt na materialu pred obdelavo, ki omogoča pravilno postavitev orodij in dosleden prenos načrta na obdelovanec.Predstavili bomo tri ključne tehnike: zarisovanje s svinčnikom, zarisovalni nožek ter prenos mere z obdelovanca. Glavni namen je poudariti, kako natančno in ponovljivo zarisovanje vpliva na končno točnost izdelave, saj nepravilno ali neustrezno zarisovanje lahko povzroči napake, ki se razširijo skozi celoten postopek obdelave.
 
-### Označevanje z zarisovalnim nožkom
+### Označevanje s svinčnikom
 
   - svinčnik
     - ostra konica
@@ -123,13 +124,14 @@ Zarisovanje je postopek označevanja natančnih geometrijskih točk in črt na m
     - poglejte video in bodite pozorni na:
         - označevanje (`V` namesto `|`),
         - debelina označbe
+        - označevanje materiala za odrez (pomembno pri rogljih)
         - razpolovitev označbe z rezilom (rez na ris, puščanje risa)
         - napake pri zarisovanju
-          - nastavitev ravnila in zareza ne sovpadata
+          - nastavitev ravnila in ris ne sovpadata (0,05 - 0,2 mm od robu ravnila)
 
 ### Zarisovalni nožek
 
-- ena ploskev nožka je popolnoma ravnila (naležna ploskev)
+- ena ploskev nožka se popolnoma prilega ravnilu (naležna ploskev)
 - označba je bistveno ožja (točnejša) kot pri svinčniku,
 - [Uporaba zarisovalnega nožka](https://www.youtube.com/watch?v=ZKpBQfArPOo)
 - Bodite pozorni na:
@@ -138,11 +140,12 @@ Zarisovanje je postopek označevanja natančnih geometrijskih točk in črt na m
     - enostavno ujemanje dleta z zarezo (pri izdelavi zareze, čepa)
        
 ### Vzporednik
-    - [Uporaba vzporednega črtalnika](https://www.youtube.com/watch?v=-fTdne8NGb0)
-      - bodite pozorni na:
-        - risanje vzporednih linij
-        - zarezovanje vlaken
-        - prenos mere
+
+- [Uporaba vzporednega črtalnika](https://www.youtube.com/watch?v=-fTdne8NGb0)
+  - bodite pozorni na:
+    - risanje vzporednih linij
+    - zarezovanje vlaken
+    - prenos mere
 
 ### Prenos mer
 
@@ -172,6 +175,14 @@ Postopek:
 1. ob vzdolžnem prislonu naredimo 1. rez,
 2. med prislon in obdelovanec umestimo VU in pritrdimo obdelovanec,
 3. zamenjamo VU z VŽ in premaknemo prislon do VŽ.
+
+#### Zamik odreza pri ročni žagi
+
+Pri ročni žagi moramo upoštevati, da bo širina odreza široko ne le za debelino žaginega lista, pač pa za razperitev zob.
+
+To lahko izkoristimo pri izdelovanju rogljev, kjer moramo obdelovanca primerno zamakniti.
+
+- 
 
 ### Druge tehnike zarisovanja
 

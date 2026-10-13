@@ -171,27 +171,29 @@ standarda EN 204-D4.
 ### SESTAVNI DELI VIJAKA
 
 1. Glava
-2. Steblo
+2. Telo
 3. Navoj
 4. Konica
 
 ![Sestavni deli vijaka in njihova funkcija.](./slike/vijak_sestava.png){#fig:vijak_sestava}
 
-### TELO VIJAKA
+#### Glava vijaka
+
+#### Telo vijaka
+
 1. Z vijačnico do konca glave:
-    Taki vijaki se za spajanje lesa skoraj ne uporabljajo, ker ne zagotavljajo drsenja zunanjega pritrjevanega elementa. Ko pritrdite dva kosa lesa med seboj in se vijačnica vreže v lesna vlakna obeh elementov in je njuna medsebojna lega določena z vijačnico. Če ta dva elementa ne nalegata in želimo še nekoliko priviti vijak, da bosta elementa nalegala, bomo uničili vijačnico v ožjem elementu ali elementu iz mehkejšega lesa.
+    Taki vijaki se za spajanje lesa skoraj ne uporabljajo, ker ne zagotavljajo drsenja zunanjega pritrjevanega elementa. Ko pritrdite dva kosa lesa med seboj in se vijačnica vreže v lesna vlakna obeh elementov in je njuna medsebojna lega določena z vijačnico. Če ta dva elementa ne nalegata in želimo še nekoliko priviti vijak, da bosta elementa nalegala, bomo uničili vijačnico v zgornjem elementu. Tedaj bodo nastali odrezki, ki dodatno povzročijo radialne sile v tem delu lesa. Tedaj se poveča možnost za cepljenje in trenje med lesom in vijakom. To je zlasti očitno pri daljših vijakih.
     Če s takim vijakom spajamo dva lesna polizdelka, pa v zunanji polizdelek predhodno izvrtamo dovolj široko luknjo, ki omogoča nekaj zračnosti okoli navoja vijaka.
 2. Z gladkim steblom:
     Omogoča drsenje zunanjega pritrjevanega elementa.
 
 ![Primer predvrtanja v dva obdelovanca.](./slike/predvrtanje.png){#fig:predvrtanje}
 
-### PRED-VRTANJE
+#### Navojnica
 
-Pred-vrtanje je postopek pri vijačenju, pri katera na mesto kamor bomo privili vijak najprej izvrtamo manjšo luknjo. To preprečuje, da bi se vlakna preveč stlačila in zaradi teh napetosti povzročila cepljenje lesnih vlaken.
-Premer pred-vrtanja naj bo v večini primerih enak premeru stebla vijaka. Če bomo vijak pritrdili v trši les (Hrast, Bukev) je lahko premer luknje nekoliko povečamo (do 0.5 mm), ali ga zmanjšamo, v kolikor vijačimo v mehkejši les.
+#### Konica vijaka
 
-### RAZPOREDITEV
+### Predpriprava vijačnega spoja
 
 Da zmanjšamo verjetnost cepljenja lesnih vlaken velja upoštevati naslednja priporočila razporeditve vijakov.
 
@@ -204,6 +206,55 @@ Da zmanjšamo verjetnost cepljenja lesnih vlaken velja upoštevati naslednja pri
 Table: Priporočljive minimalne razdalje pri vijačenju(d = premer vijaka brez vijačnice). {#tbl:minRazdaljaVijacenja}
 
 ![Razporeditev vijakov, da se izognemo cepljenju lesnih vlaken.](./slike/necepljenje_vijaki.png){#fig:necepljenje_vijaki}
+
+#### Pred-vrtanje
+
+Pred-vrtanje je postopek pri vijačenju, pri katera na mesto kamor bomo privili vijak najprej izvrtamo manjšo luknjo. To preprečuje, da bi se vlakna preveč stlačila in zaradi teh napetosti povzročila cepljenje lesnih vlaken.
+Premer pred-vrtanja naj bo v večini primerih enak premeru stebla vijaka. Če bomo vijak pritrdili v trši les (Hrast, Bukev) je lahko premer luknje nekoliko povečamo (do 0.5 mm), ali ga zmanjšamo, v kolikor vijačimo v mehkejši les.
+
+Pogosto moramo v polizdelek, ki je na zunaji strani vijačnega spoja (pri glavi vijaka) pred-vrtati z nekoliko širšo luknjo, da omogoča drsenje vijaka in stisk obeh polizdelkov skupaj.
+
+#### Pogrezovanje
+
+Namen izdelave pogreza je oblikovanje stožčaste vdolbine na ustju izvrtine, v katero se pogrezne glava vijaka. Tako je glava poravnana s površino obdelovanca ali nekoliko pod njo. Pogrez omogoča pravilno naleganje glave vijaka, izboljša videz spoja in zmanjšuje možnost poškodb površine pri privijanju.
+
+Pogrez izdelamo s posebnim rezalnim orodjem imenovanim grezilo. Kot njegovih med rezili je običajno 90°, ki ustreza kotu stožčaste glave vijakov. Prav zato običajni svedri niso primerni, saj je ta kot pri svedrih običajno 120°.
+
+### Konstrukcijske značilnosti sodobnega lesnega vijaka
+
+Na sliki je prikazan sodoben samorezni lesni vijak s posebej oblikovanimi konstrukcijskimi elementi, ki omogočajo učinkovitejše privijanje in zanesljivo spajanje lesenih elementov.
+
+![Sodobni lesni vijak s konstrukcijskimi elementi.](./slike/vijak_predpriprava.png){#fig:vijak_predpriprava}
+
+Njegova geometrija je zasnovana tako, da zmanjšuje potreben vrtilni moment, trenje med vijakom in lesom ter nevarnost cepljenja lesa. Posamezni deli vijaka opravljajo različne naloge, od začetnega prodiranja v les in rezanja lesnih vlaken do zagotavljanja nosilnosti spoja ter pogrezanja glave.
+
+**A – Zvezdasti utor (TX)**
+
+Šestkraki zvezdasti utor omogoča učinkovit prenos vrtilnega momenta z vijačnega nastavka na vijak. Zaradi svoje oblike zmanjšuje možnost zdrsa nastavka iz glave vijaka in omogoča privijanje z večjim vrtilnim momentom, ne da bi pri tem poškodovali utor.
+
+**B – Rezkalna rebra pod glavo**
+
+Posebej oblikovana rezkalna rebra na spodnji strani glave med privijanjem režejo oziroma odstranjujejo lesna vlakna in oblikujejo stožčasto poglobitev. Tako omogočajo lažje pogrezanje glave vijaka v les, brez predhodne izdelave pogreza. Zmanjšujejo tudi možnost dvigovanja in trganja lesnih vlaken na površini obdelovanca.
+
+**C – Spiralna rezkalna rebra na steblu**
+
+Spiralna rebra med privijanjem razširjajo odprtino v lesu, skozi katero potuje gladko steblo vijaka. S tem zmanjšujejo trenje med steblom in lesom ter potreben vrtilni moment, kar je posebej pomembno pri daljših vijakih. Zmanjšujejo lahko tudi notranje napetosti v lesu in nevarnost njegovega cepljenja.
+
+**D – Glavni navoj vijaka**
+
+Navoj omogoča pretvarjanje vrtilnega gibanja vijaka v vzdolžno pomikanje in njegovo prodiranje v les. Njegovi zavoji se oprimejo lesnih vlaken ter zagotavljajo prenos aksialnih sil med vijakom in lesom. Geometrija, premer in dolžina navoja pomembno vplivajo na izvlečno nosilnost vijaka in trdnost vijačnega spoja.
+
+**E – Rezalni zobci na navojih**
+
+Posebej oblikovani zobci na robovih navoja med privijanjem zarezujejo v lesna vlakna in olajšajo oblikovanje odprtine. Tako zmanjšujejo odpor lesa proti prodiranju vijaka in potreben vrtilni moment. Zaradi lokalnega rezanja vlaken lahko zmanjšajo tudi radialne napetosti, ki povzročajo cepljenje lesa.
+
+**F – Vzdolžni rezalni utor**
+
+Vzdolžni utor prekinja del navoja in ustvarja dodatne rezalne robove, ki med vrtenjem vijaka režejo lesna vlakna. Hkrati zagotavlja prostor za odrezani oziroma izpodrinjeni material in olajša njegovo premikanje ob vijaku. S tem zmanjšuje odpor pri privijanju in nevarnost cepljenja lesa.
+
+**G – Samorezna konica vijaka**
+
+Ostra konica omogoča natančno namestitev vijaka na predvideno mesto in preprečuje njegovo zdrsavanje pri začetku privijanja. Posebej oblikovani rezalni robovi omogočajo začetno prodiranje v les in olajšajo vrezovanje prvih zavojev navoja. Pri ustreznih pogojih omogoča privijanje brez predhodnega vrtanja izvrtine.
 
 ### VPLIV SMERI VLAKEN NA VIJAČENJE
 

@@ -2,16 +2,18 @@
 
 ## Sestavni deli
 1. masivno ogrodje - zagotavlja togost stroja, varnost
-2. asinhronski motor
-3. žagin list (ŽL)
-4. razporni klin - preprečuje "zapiranje žaginega lista", preprečuje povratni udarec
-5. pokrov ali kapa - preprečuje slučajnostni stik z žag. listom, pomaga odsesovati, (s sistemom za preprečevanje povratnega udarca)
-6. odsesovalni vod
-7. stikalo ON/OFF - OFF stikalo je večje in tudi ob strani
-8. vzdolžni prislon
-9. prečni prislon
-10. potisna letev
-11. predrezilo - vrti se v smeri podajanja, preprečuje odtrgavanje lesnih vlaken
+2. razžagovalna miza
+3. asinhronski motor
+4. žagin list (ŽL)
+5. razporni klin - preprečuje "zapiranje žaginega lista", preprečuje povratni udarec
+6. pokrov ali kapa - preprečuje slučajnostni stik z žag. listom, pomaga odsesovati, (s sistemom za preprečevanje povratnega udarca)
+7. odsesovalni vod
+8. stikalo ON/OFF - OFF stikalo je večje in tudi ob strani
+9. podajalne sani
+10. vzdolžni prislon
+11. prečni prislon
+12. potisna letev
+13. predrezilo - vrti se v smeri podajanja, preprečuje odtrgavanje lesnih vlaken
 
 ## Nastavitev stroja
 
@@ -48,7 +50,7 @@
 
 - **IZBIRA ŽAGINEGA LISTA**:
   - ustrezuno ozobljenje
-    - cepilni kot
+    - cepilni kot (naj bo velik za preprečevanje cepljenja)
 ![Kako cepilni kot vpliva na odrezovanje.](./slike/cepilni_kot_rezila.png){#fig:cepilni_kot_rezila}
     - oblika zob (ravni vs poševni)
   - več žaginih listov in rezil za izrez utorov
