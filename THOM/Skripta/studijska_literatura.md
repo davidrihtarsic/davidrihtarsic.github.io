@@ -13,7 +13,7 @@ Spletna različica: [Center RS za poklicno izobraževanje](https://cpi.si/wp-con
 Gradivo sistematično obravnava makroskopsko in mikroskopsko zgradbo lesa,
 osnovne prereze, dele debla, branike, beljavo in jedrovino, zgradbo celic ter
 kemijsko sestavo lesa (celuloza, hemiceluloze in lignin). Za študente je
-neposredno uporabno pri poglavjih [Zgradba lesa](<../Skripta/200_ZGRADBA_LESA.md>),
+neposredno uporabno pri poglavjih [Zgradba lesa](../Skripta/200_ZGRADBA_LESA.md),
 [Les kot surovina in zgradba lesa](<Skripta/500_THOM_Zgradba_Lesa.md>) ter pri
 razumevanju povezave med zgradbo, lastnostmi in obdelavo lesa. Leto izdaje v
 lokalni kopiji ni jasno navedeno.
