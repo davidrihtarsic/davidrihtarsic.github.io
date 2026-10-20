@@ -1,167 +1,394 @@
 # ZGRADBA LESA
 
-Les se je evolucijsko razvil kot mehansko in transportno tkivo pri kopenskih rastlinah, kar je omogočilo doseganje večjih višin, učinkovitejše prevajanje vode in hranil ter boljšo oporo nadzemnim rastem. Kopenske rastline so se razvile iz morskih, verjetno so prve oblike na kopnem spominjale na lišaje; iz teh preprostih kolonij so se postopoma razvijale bolj kompleksne celične strukture. Kasneje so se pojavile tudi kambiju podobne celice — plast delitvenih celic, ki je bistveno vplivala na sekundarno rast in tvorbo pravega lesa, saj je omogočila debeljenje stebla in nastanek diferenciiranih prevodnih ter podpornih tkiv. Postopoma so se pojavile preproste celične strukture, ki so bile specializirane za prevajanje vode (ksilem) in za transport organske snovi (floem), hkrati pa so se celične stene odebelile z ligninom za večjo trdnost.  V evolucijskem poteku so iglavci (golosemenke) razvili pretežno homogeno in enostavno zgradbo lesa, sestavljeno predvsem iz trahej — dolgih, variabilno debelostenskih celic, ki hkrati omogočajo transport vode in mehansko podporo. Listavci (angiosperme) so kasneje uvedli bolj kompleksne elemente ksilema, kot so vaskularne traheje in ločene celice za mehansko podporo (vlakna), ter izrazitejšo diferenciacijo med prevajnimi in podpor­nimi tipi celic, kar daje njihovemu lesu bolj heterogeno in specializirano zgradbo. Zaradi te razlike v celični specializaciji in raznolikosti tipov celic je les iglavcev po sestavi in strukturi bolj enostaven kot les listavcev.
+Les je naravni material, ki je nastal kot podporno in prevodno tkivo drevesa.
+Njegova zgradba je hierarhična: od celotnega debla in vidnih prerezov prek
+celic in celičnih sten do kemičnih sestavin. Ta zgradba vpliva na gostoto,
+trdnost, krčenje, vpijanje vode, obdelovalnost in videz lesa.
 
-## Makroskopska zgradba lesa
+### Kratek evolucijski pogled
 
-Makroskopska zgradba lesa obsega strukture, ki so vidne z golim očesom ali z uporabo osnovne optike (lupe, makroobjektiv). Takšno opazovanje je prvo in hitro orodje pri identifikaciji vrste, oceni kakovosti in določanju primernosti lesa za določene namene (gradnja, pohištvo, energija, restavratorska dela). Makroskopski znaki pogosto odražajo celično (mikroskopsko) in kemično sestavo lesa ter njegove rastne pogoje, zato povezava med obliko in funkcijo omogoča interpretacijo lastnosti materiala.
+Les je v osnovi sekundarni ksilem, torej tkivo, ki nastaja z delitvijo kambija
+in omogoča rast stebla v debelino. Razvil se je skupaj s prilagajanjem rastlin
+na življenje na kopnem: rastlina je potrebovala mehansko oporo, učinkovit
+prevod vode od korenin do listov in način shranjevanja rezervnih snovi.
+
+Pri starejših skupinah olesenelih rastlin, med katere uvrščamo tudi iglavce,
+večino prevodne in mehanske naloge opravljajo traheide. Posamezna traheida je
+zato hkrati del prevodnega sistema in podpornega tkiva. Takšna zgradba je
+razmeroma enostavna in bolj homogena.
+
+Pri kritosemenkah oziroma listavcih se je razvila večja specializacija celic.
+Traheje z večjimi lumni učinkovito prevajajo vodo, vlakna predvsem mehansko
+utrjujejo les, parenhimske celice in lesni trakovi pa sodelujejo pri shranjevanju
+ter radialnem transportu. Zaradi ločitve nalog med več vrstami celic je zgradba
+lesa listavcev pogosto bolj raznolika in heterogena.
+
+Ta evolucijska razlaga pomaga razumeti osnovno razliko med skupinama: pri
+iglavcih prevladuje ena funkcionalno dvojna vrsta celic, pri listavcih pa so
+prevodna, podporna in skladiščna naloga izraziteje razdeljene. To je splošna
+razlaga; med posameznimi vrstami obstajajo številne izjeme in prehodi.
+
+V tem poglavju obravnavamo:
+
+- makroskopsko zgradbo lesa, ki jo lahko opazujemo s prostim očesom ali lupo;
+- mikroskopsko zgradbo lesa, ki jo sestavljajo celice in celične stene;
+- kemijsko sestavo lesa, predvsem celulozo, hemiceluloze, lignin in ekstraktivne
+  snovi.
+
+Podrobnejše prepoznavanje posameznih slovenskih vrst lesa je obravnavano v
+ločenem poglavju [Prepoznavanje vrst lesa](./300_PREPOZNAVANJE_VRST_LESA.md).
+
+## MAKROSKOPSKA ZGRADBA LESA
+
+Makroskopska zgradba lesa obsega strukture, ki jih vidimo s prostim očesom ali
+z uporabo lupe. Pri opazovanju moramo poznati smer prereza, saj so posamezne
+strukture na prečnem, radialnem in tangencialnem prerezu videti različno.
 
 ### Osnovne anatomske smeri in prerezi
+
 Tri osnovne anatomske smeri v lesu so:
 
-- vzdolžna (aksialna): vzdolž stebla, smer rasti celic;
-- radialna: od sredice proti skorji, skozi sijijske (lesne) trakove;
-- tangencialna: tangentno na krožnice letnic.
+- **vzdolžna oziroma aksialna smer** – poteka vzdolž debla in večine lesnih
+  celic;
+- **radialna smer** – poteka od stržena proti skorji;
+- **tangencialna smer** – poteka tangentno na letnice.
 
-Tem trem smem ustrezajo trije tipi prereza:
+Tem smerem ustrezajo trije osnovni prerezi:
 
-- prečni prerez (sekcijski): prerez pravokotno na rastno os — vidimo letnice kot obroče;
+- **prečni prerez** – pravokoten na vzdolžno os debla; na njem opazujemo
+  stržen, letnice, beljavo, jedrovino in radialne strukture;
+- **radialni prerez** – poteka skozi oziroma vzporedno s polmerom debla; na
+  njem so lesni trakovi vidni vzdolžno;
+- **tangencialni prerez** – poteka tangentno na letnice; na njem se lesni
+  trakovi pogosto kažejo kot podolgovate oziroma vretenaste oblike.
 
-![Primer prečnega prereza z značilnimi vidnimi elementi lesnih struktur[@Leban2010_LesZgradba].](./slike/precni_prerez.png){width=5cm}
+![Primer prečnega prereza z značilnimi vidnimi elementi lesnih struktur.](./slike/precni_prerez.png){#fig:precni_prerez-smeri}
 
-- radialni prerez: prerez skozi središče debla, razkrije lesne trakove kot vrstice;
+![Radialni prerez z značilnimi vidnimi elementi lesnih struktur.](./slike/radialni_prerez.png){#fig:radialni_prerez-smeri}
 
-![Radialni prerez z značilnimi vidnimi elementi lesnih struktur[@Leban2010_LesZgradba].](./slike/radialni_prerez.png){width=5cm}
+Pravilno določena smer prereza je pomembna pri opisu lesa, izbiri orientacije
+polizdelka in razumevanju njegovega krčenja ter mehanskih lastnosti.
 
-- tangencialni prerez: prerez tangencialno na letnice — dobro prikaže kontrast med ranim in kasnim lesom.
+### Glavni deli debla
 
-Pravilna identifikacija smeri prereza je ključna pri opisu makroskopskih pojavov in pri pripravi vzorcev za nadaljnje analize.
+![Glavni deli debla in zgradba lesa.](./slike/fun_ses_les.jpg){#fig:glavni-deli-debla}
 
-## Glavni makroskopski deli debla
+#### Skorja
 
-![Sestava lesa.](./slike/fun_ses_les.jpg){#fig:fun_ses_les}
+Skorja je zunanja zaščitna plast debla. Ščiti notranja tkiva pred mehanskimi
+poškodbami, izsuševanjem, škodljivci in okužbami. Skorja ni del lesa v ožjem
+tehnološkem pomenu.
 
-1. Skorja:
-   - Zunanja zaščitna plast. Makroskopsko se razlikujeta zunanja (periderma/primitivna skorja) in notranja (flelogenska) plast.
-   - Pomen: mehanska zaščita, preprečevanje izgube vode, zaščita pred žuželkami in boleznimi.
+#### Ličje oziroma floem
 
-2. Ličje (floem)
-   - Prevozno tkivo za organske hranilne snovi (sokovi) navzdol; v makroskopskem prerezu je vidno kot temnejši sloj pod skorjo.
-   - Vsebuje tudi precej živih celic in rezervnih snovi.
+Ličje je prevodno tkivo na zunanji strani kambija. Po njem se organske snovi,
+predvsem sladkorji, premikajo od listov proti drugim delom drevesa. Ličje ne
+prevaja vode iz korenin proti krošnji; to nalogo opravlja ksilem.
 
-3. Kambij
-   - Tanek, pogosto neviden sloj između ličja in beljave. Je meristem (delitvene celice), ki tvori vsako leto novo beljavo navznoter in floem navzven.
-   - Aktivnost kambija določa širjenje debla in tvorbo letnic.
+#### Kambij
 
-4. Beljava
-   - Svetel, zunanjim delom pod kambijem pripadajoči del ksilema, funkcionalno aktiven pri prevajanju vode in shranjevanju hranil.
-   - Makroskopsko pogosto svetlejše barve; debelina beljave se razlikuje med vrstami in pogoji rasti.
+Kambij je plast živih delitvenih celic med ličjem in lesom. Navznoter tvori
+sekundarni ksilem, navzven pa sekundarni floem. Z delovanjem kambija deblo raste
+v debelino in nastajajo nove plasti lesa oziroma branike.
 
-5. Jedrovina 
-   - Temnejši, notranji, pogosto trši in odpornejši del ksilema. Nastane iz olesenelih ksilemnih elementov, v katere se deponirajo ekstraktivne snovi (tanini, smole, barvila), kar poveča odpornost proti razgradnji.
-   - Jedrovina večinoma ne sodeluje pri prevajanju vode.
+#### Beljava
 
-6. Olesenel (nekadnji vitalni) les / cilindrični parenhimski elementi
-   - V makroskopskem smislu gre pogosto za izraz «olesenel les» kot sled preteklih vitalnih dejavnosti (npr. oleseneli floem ali oleseneli del korenin); pri nekaterih vrstah je lahko makroskopsko opazen kot teksturen presledek.
+Beljava je zunanji, mlajši del ksilema. V živem drevesu po njej poteka večina
+prevajanja vode in mineralnih snovi. V beljavi so lahko shranjene tudi rezervne
+snovi. Barva in širina beljave sta odvisni od drevesne vrste in rastnih pogojev.
 
-7. Branika 
-   - V okviru letnice ločimo:
-     - rani les (earlywood): nastane spomladi, celice imajo večja lumna in tanjše stene — makroskopsko svetlejše in redkejše;
-     - kasni les (latewood): nastane pozno v sezoni, ima ožje lumne in debelejše stene — temnejši in gostejši. Kontrast obeh ustvarja letni obroč.
+#### Jedrovina
 
-![Prečni prerez debla z osnovnimi značilnimi makroskopskimi elemeti[@Leban2010_LesZgradba].](./slike/precni_prerez.png){#fig:precni_prerez}
+Jedrovina je notranji del lesa, v katerem celice praviloma ne sodelujejo več pri
+prevajanju vode. V njej se lahko kopičijo ekstraktivne snovi, kot so smole,
+fenoli in barvila, zato je pogosto temnejša in biološko odpornejša od beljave.
+Meja med beljavo in jedrovino je lahko ostra ali postopna.
 
-8. Lesni trakovi
-   - Radialne strukture, ki se prikažejo na radialnem in tangencialnem prerezu. Makroskopsko so lahko zelo ozki (pri iglavcih) ali široki in vidni kot bleščice (pri nekaterih listavcih).
-   - Pomembni za radialni transport in shranjevanje rezervnih snovi.
+#### Stržen
 
-![Vidni večplastni radialni smolni kanali[@Leban2010_LesZgradba].](./slike/radialni_prerez.png){#fig:radialni_prerez width=7cm}
+Stržen je osrednji, najstarejši del debla, ki je nastal v začetnih fazah rasti
+drevesa. Obdajajo ga letnice oziroma branike. Pri večini tehničnega lesa je
+stržen majhen in nima pomembne prevodne funkcije.
 
-9. Smolni kanali
-   - Zlasti pri iglavcih: kanali, ki vsebujejo smolo; na prečnem prerezu so vidni kot majhne krogle, na radialnem/tangencialnem kot podaljšana struktura.
-   - Njihova prisotnost in gostota vplivata na tehnološke lastnosti, npr. obdelovanje in dihanje smol.
+#### Branika in letnica
 
-![Radilani in aksialni smolni kanali[@Leban2010_LesZgradba].](./slike/smolni_kanali.png){#fig:smolni_kanali}
+**Branika** je les, ki nastane v eni rastni dobi. Pri mnogih vrstah jo
+sestavljata:
 
-10. Grče
-    - Ostanki vejevja v debelini; makroskopsko različni po obliki in zgradbi (trdi/mehki vozli).
-    - Zmanjšujejo mehansko homogenost materiala in estetiko, vplivajo na odpornost na lom.
+- **rani les**, ki ima praviloma večje lumne in tanjše celične stene;
+- **kasni les**, ki ima praviloma manjše lumne in debelejše celične stene.
 
-### Letnice — nastanek, interpretacija in pomen
+Meja med dvema zaporednima branikama se imenuje **letnica**. Kontrast med
+ranim in kasnim lesom določa vidnost letnic in vpliva na gostoto ter videz lesa.
 
-Letnica je letni prirast lesne mase. Njena širina in znotraj-letni vzorec odražata rastne razmere (voda, temperatura, hranila) in zdravje drevesa. Leta s hitrejšo rastjo se kažejo z širšimi letnicami; stresne ali sušne razmere s šibkejšimi in ožjimi letnicami. Letnice se uporabljajo za dendrokronologijo, oceno starosti in analizo okoljskih pogojev [@FPL2010].
+![Prečni prerez debla z značilnimi elementi.](./slike/precni_prerez.png){#fig:branika-letnica}
 
-**Makroskopske razlike med iglavci in listavci**:  
+#### Lesni trakovi
 
-- **Iglavci**: na makronivoju običajno homogena zgradba z dominanco trajnih vzdolžnih elementov (traheide), jasno ločljivim ranim in kasnim lesom ter prisotnostjo oziroma odsotnostjo smolnih kanalov. Lesni trakovi so pri večini iglavcev ozki.
+Lesni trakovi so radialne strukture, sestavljene predvsem iz parenhimskih celic.
+Omogočajo radialni transport in shranjevanje rezervnih snovi. Na radialnem in
+tangencialnem prerezu so lahko vidni kot črte, lise ali bleščice.
 
-![Prečni prerez iglavca razkrije bolj homogeno strukturo.](./slike/Light-microscopy-images-of-spruce-wood-A-cross-section-B-tangential-section-through_W640.jpg){#fig:Light-microscopy-images-of-spruce-wood-A-cross-section-B-tangential-section-through_W640 width=7cm}
+#### Smolni kanali
 
-- **Listavci**: makroskopsko heterogen les z izrazitimi porami/trajekti (traheje), raznolikimi lesnimi trakovi in pogosto bolj kompleksnimi strukturnimi vzorci (npr. prstasti ali raztreseni pore). Pri listavcih je lažje prepoznati vrsto iz poroznosti in razporeditve žarkov [@Ruffinatto2015; @FPL2010].
+Smolni kanali so medcelični prostori v lesu, napolnjeni s smolo. Kanal torej ni
+velika parenhimska celica. Njegovo steno obdajajo specializirane epitelne
+parenhimske celice, ki smolo izločajo v kanal. Pri nekaterih iglavcih so smolni
+kanali normalen del zgradbe lesa, lahko pa nastanejo tudi kot odziv na poškodbo.
+Na prečnem prerezu so videti kot majhne pike, na vzdolžnih prerezih pa kot
+podolgovati kanali.
 
-![Prečni prerez pri bukvi nakazuje na heterogeno strukturo.](./slike/precni_prerez_bukev.png){#fig:precni_prerez_bukev}
+![Radialni in aksialni smolni kanali.](./slike/smolni_kanali.png){#fig:smolni-kanali}
 
-![Prav tako pri jesenu.](./slike/precni_prerez_jesen.png){#fig:precni_prerez_jesen}
+#### Grče
 
-### Prirast lesne mase
+Grče so ostanki vej, vključeni v deblo. Zaradi drugačne smeri vlaken in
+različne gostote lahko zmanjšajo mehansko homogenost lesa, vplivajo na njegovo
+obdelavo in spremenijo videz izdelka.
 
-Prirast lesne mase je posledica usklajenega delovanja fizikalnih in biokemičnih procesov v drevesu: prerazporeditve vode in hranil, fotosinteze in sinkronizirane tvorbe celuloze, hemiceluloz, lignina ter ekstraktivov v kambiju in pri rasti letnicah. V tem podpoglavju povzamemo glavne korake prirasta, kemične poti, ki pretvorijo asimilate v lesno maso, in osnovno CO2-bilanco, ki izhaja iz teh procesov.
+### Prirast lesa
 
-![Prirast lesne mase.](./slike/prirast_lesna_mase.png){#fig:prirast_lesna_mase}
+Les nastaja z delovanjem kambija. Pri tem drevo:
 
-Opis procesa prirasta
+1. po ksilemu prevaja vodo in mineralne snovi;
+2. v listih s fotosintezo tvori organske snovi;
+3. po floemu te snovi prevaja do rastnih tkiv;
+4. v kambiju tvori nove celice sekundarnega ksilema;
+5. v celične stene odlaga celulozo, hemiceluloze in lignin.
 
-- Transport vode in mineralov: voda se iz tal dviguje skozi ksilem (celice z velikimi lumni - traheide pri iglavcih in traheje pri listavcih) in zagotavlja vodo v lesu ter vnos mikrohranil, potrebnih za primarno rast celic v kambiju [@usfs2010_woodhandbook].
-- Fotosinteza in tvorba asimatov: v listih kloroplasti pretvorijo svetlobo v kemijsko energijo in vežejo ogljik iz CO2 v ogljikovih ograjenih molekulah po reakciji:
+Osnovna enačba fotosinteze je:
 
-    6CO2 + 6H2O → C6H12O6 + 6O2  [@taiz2010_plantphys]
+$$6CO_2 + 6H_2O \rightarrow C_6H_{12}O_6 + 6O_2$${#eq:fotosinteza}
 
-- Nastali sladkorji (saharoza, sorbitol, drugih asimilatov) so primarni transportni produkti v floemu.
-- Prevajanje sladkorjev: floem prevaja asimilate iz listov proti rastočim tkivom (kambiju, razvijajočemu se lesa, plodom, koreninam). Pretok je kontroliran s koncentracijskimi gradienti in vir–ponor dinamiko.
-- Kambialna diferencijacija in letnice: v kambiju se delijo kambialne celice; primerno usmerjene hialinske celice diferenciirajo v celice sekundarnega ksilema (rani in kasni les). V kambiju se s kondenzacijsko reakcijo glukoze tvori celuloza:
+![Prirast lesne mase.](./slike/prirast_lesna_mase.png){#fig:prirast-lesne-mase}
 
-    nC6H12O6 → (C6H10O5)n + n H2O
+Hitrost rasti se med letom spreminja. V zmernem podnebju je rast običajno
+intenzivnejša spomladi in poleti, jeseni se zmanjšuje, pozimi pa je kambijeva
+aktivnost zelo majhna ali miruje. Širina in zgradba branik zato odražata rastne
+razmere, vendar sama po sebi ne določata vedno kakovosti lesa.
 
-- Hitrost delitve in širina letnice sta sezonsko odvisni (spomladanski hitri rastni val z večjimi lumni pri mnogih vrstah, poletni počasnejši rastni val s tesnejšimi celicami) [@usfs2010_woodhandbook].
-- Shramba in premestitev rezerv: del asimilatov se porabi za rast, del pa se shrani v parenhimu kot škrob ali topni sladkorji, ki služijo kot rezervne snovi za zgodnjo pomladno rast ali obnovo poškodovanih tkiv.
+### Makroskopska razlika med iglavci in listavci
 
-Sezonski potek rasti (povzetek)
+Iglavci in listavci se razlikujejo po razporeditvi in nalogah lesnih celic. Pri
+makroskopskem opazovanju praviloma ne vidimo posamezne celice, temveč večje
+skupine celic, njihove lumne in tkiva. Kljub temu lahko iz značilnega videza
+sklepamo na osnovno anatomsko zgradbo lesa.
 
-- Spomladi: intenzivna fotosinteza in premikanje rezerv v rastoče meristeme; hitro oblikovanje rani lesa (s širšimi lumni).
-- Poleti: kombinacija rasti lesa in razvoja plodov/iglic; pogosto nastanek kasnejšega lesa z manjšimi celicami.
-- Jesen: upad aktivnosti; preusmeritev v shranjevanje rezerv (škrob v korenu in parenhimu) in priprava na dormanco.
-- Zima: minimalna celična delitev pri temperiranih pasovih; fiziološko mirovanje [@usfs2010_woodhandbook].
+Pri **iglavcih** prevladujejo traheide. Ista vrsta celic opravlja tako prevodno
+kakor mehansko funkcijo, zato je zgradba lesa na splošno bolj enotna. Na
+vzdolžnih prerezih traheid praviloma ne vidimo kot posameznih celic, temveč kot
+razmeroma enakomerno vzdolžno teksturo. Bolj opazni so lahko:
 
-- Vezava CO2: s fotosintezo drevo veže CO2 iz zraka in ga shranjuje v organskih molekulah. Suha masa lesa vsebuje približno 45–50 % ogljika po suhi teži (odvisno od vrste) [@sjostrom1993_woodchemistry].
-- Pretvorba ogljika v CO2-ekvivalente: 1 kg ogljika ustreza 3,667 kg CO2 (molekulska masa CO2 / atomska masa C = 44/12 = 3,667). Če predpostavimo, da 1 t suhega lesa vsebuje 0,5 t C, potem ta tona suhega lesa predstavlja vezavo približno 1,83 t CO2:
-  - 1 t suhega lesa × 0,50 t C/t lesa = 0,50 t C
-  - 0,50 t C × 3,667 = 1,833 t CO2 vezanih v lesu
+- kontrast med ranim in kasnim lesom;
+- ozki lesni trakovi;
+- smolni kanali, ki so na radialnem prerezu vidni kot podolgovate črte ali
+  lise, na prečnem prerezu pa kot pike.
 
-**Povezava med makroskopsko zgradbo in lastnostmi lesa**:  
+Pri **listavcih** so funkcije bolj razdeljene med različne tipe celic. Traheje
+oziroma vodne cevi imajo večje lumne, vlakna dajejo lesu mehansko oporo,
+parenhimske celice pa sodelujejo pri shranjevanju in radialnem transportu. Na
+radialnem prerezu se lumni trahej pogosto pokažejo kot vzdolžne pore oziroma
+kanali. Zaradi njih je vzdolžna tekstura lahko bolj izrazita in neenakomerna
+kot pri iglavcih. Vidni so lahko tudi širši lesni trakovi.
 
-- Mehanska trdnost: gostota letnic in delež kasnega lesa povečujeta togost in nosilnost.
-    - Široka branika pri iglavcih nakazuje na ugodne pogoje rasti (temperatura, voda) v tem primeru branika vsebuje precej večji delež ranega lesa in zago je gostota manjša. 
-    - Ravno nasprotno se zgodi pri venčastno poroznih listavcih, kjer je v dobrih pogojih rasti kasnega lesa precej večji delež in tedaj gostota večja.
-    - Pri raztreseno poroznil listavcih pa dobri pogoji ne vplivajo bistveno na gostoto branike, ker traheje (vodni kanali) priraščajo vse leto z enakim deležem.
-- Prevodnost vode: funkcionalna debelina beljave in prisotnost velikih lumnov (npr. pri listavcih) izboljšujeta prevodnost vode.
-- Odpornost proti propadanju: prisotnost jedrovine in ekstraktivov pogosto povečuje biotsko odpornost.
-- Obdelava: smolni kanali, gostota grč in smer lesnih vlaken vplivajo na žaganje, rezkanje in lepljenje.
-- Estetika: letnice, barvni prehodi med beljavo in jedrovino, lesni trakovi in grče bistveno vplivajo na videz končnega izdelka.
+Na radialnem prerezu lahko torej opazimo predvsem posledice razporeditve celic:
 
-### Metode makroskopskega opazovanja
-- Vizualni pregled: ocena barve, videza letnic, prisotnosti smolnih kanalov in grč.
-- Lupe 10–40×: razširjena vidljivost radialnih smolnih kanalov, por in drobnih kanalov.
-- Priprava ploskev: gladko izrezan prečni/radialni/tangencialni prerez za bolj natančno opazovanje.
-- Vlaženje: vlažen prerez lahko izboljša kontrast in razpoznavanje struktur.
-- Dokumentacija: fotografije z merilom, skica in zapisi o smeri prereza, lokaciji vzorca in discernibilnih znakih.
+- pri iglavcih bolj enakomerno vzdolžno strukturo, prekinjeno z letnicami,
+  trakovi in morebitnimi smolnimi kanali;
+- pri listavcih vzdolžne vrste oziroma pasove por, ki predstavljajo lumne
+  trahej, ter pogosto izrazitejše radialne trakove.
 
-### Uporabne oznake pri opisu vzorca (kontrolni seznam)
-- Smer prereza: prečni / radialni / tangencialni
-- Vrsta: iglavec / listavec (če je mogoče)
-- Barva beljave in jedrovine
-- Širina in kontrast letnic (enakomerne / variabilne)
-- Prisotnost smolnih kanalov (da/ne; razpored)
-- Vidni žarki (širina, frekvenca, vidnost na tangencialnem prerezu — bleščice)
-- Vozli in drugi napake (razpuki, značilne rane)
+Pri listavcih glede na razporeditev por ločimo venčasto porozni in raztreseno
+porozni les. Pri venčasto poroznem lesu so večje traheje zbrane predvsem v
+ranem lesu, pri raztreseno poroznem pa so pore bolj enakomerno razporejene po
+braniki. To je makroskopsko pomembna posledica mikroskopske zgradbe, vendar za
+natančno določanje vrste potrebujemo tudi druge znake.
 
-    <!--
+### Povezava makroskopske zgradbe z lastnostmi lesa
 
-## Vaje in naloge za učence
-1. Na priloženih vzorcih določite smer prereza in opišite tri prepoznavne makroskopske znake.
-2. Primerjajte dva vzorca iste vrste iz različnih rastišč: ali so letnice podobne? Kaj to pove o rastnih razmerah?
-3. Opišite, kako bi makroskopsko razlikovali kos smreke od kosa bora — naštejte vsaj tri razlikovalne znake.
-4. Pripravite kratek zapis (fotografija + opis) o prisotnosti smolnih kanalov na danem vzorcu.
-5. Analiza kakovosti: ocenite vpliv vozla na primernost deske za nosilno konstrukcijo (navedi razloge).
+Makroskopska zgradba vpliva na:
 
--->
+- **mehanske lastnosti** – gostota branik, smer vlaken in grče vplivajo na
+  trdnost in togost;
+- **prevajanje vode** – beljava, lumni in lesni trakovi vplivajo na pretok;
+- **biološko odpornost** – jedrovina in ekstraktivne snovi lahko povečajo
+  odpornost proti glivam in insektom;
+- **obdelavo** – grče, smolni kanali, gostota in smer vlaken vplivajo na žaganje,
+  skobljanje, vrtanje in lepljenje;
+- **videz** – letnice, jedrovina, beljava, trakovi in grče določajo teksturo in
+  barvni videz lesa.
 
+## MIKROSKOPSKA ZGRADBA LESA
+
+Mikroskopsko zgradbo lesa sestavljajo različni tipi celic, njihovi lumni,
+celične stene in prostori med celicami. Različne celice opravljajo različne
+naloge: prevajajo vodo, dajejo mehansko oporo, shranjujejo rezervne snovi ali
+omogočajo radialni transport.
+
+### Osnovni tipi celic
+
+#### Traheide
+
+Traheide so dolge, ozke in večinoma odmrle celice. Pri iglavcih predstavljajo
+glavnino lesa, zato opravljajo tako prevodno kot mehansko funkcijo. Voda med
+traheidami prehaja skozi piknje v celičnih stenah.
+
+#### Traheje oziroma vodne cevi
+
+Traheje so značilne predvsem za listavce. Nastanejo iz zaporednih členov, ki
+tvorijo daljše vodne cevi z večjimi lumni. Omogočajo učinkovit aksialni prenos
+vode, vendar so zaradi velikih odprtin lahko občutljivejše na prekinitev
+vodnega stolpca.
+
+#### Vlakna
+
+Vlakna so podolgovate celice z debelimi celičnimi stenami in so osnovno
+mehansko tkivo listavcev. Glede na zgradbo in prevodno sposobnost jih razvrščamo
+na:
+
+- **traheide** – imajo bolj razvite piknje in lahko poleg mehanske funkcije
+  sodelujejo tudi pri prevajanju vode;
+- **vlaknaste traheide** – predstavljajo prehod med traheidami in libriformskimi
+  vlakni ter imajo omejeno prevodno sposobnost;
+- **libriformska vlakna** – imajo predvsem mehansko funkcijo in praviloma zelo
+  omejeno prevajanje vode.
+
+V tem poglavju izraz *vlakna* uporabljamo kot širši izraz za to skupino celic,
+ki jo pri listavcih podrobneje razvrščamo na traheide, vlaknaste traheide in
+libriformska vlakna. S tem se izrazje ujema z razvrstitvijo v gradivu *Les:
+zgradba* Irene Leban.
+
+#### Parenhimske celice
+
+Parenhimske celice so lahko žive in sodelujejo pri presnovi ter shranjevanju
+rezervnih snovi. Razporejene so lahko vzdolžno ali radialno in gradijo tudi
+lesne trakove. Radialno razporejene parenhimske celice tvorijo lesne trakove,
+vzdolžno razporejene pa aksialni parenhim.
+
+Pri iglavcih je aksialnega parenhima običajno manj kot pri listavcih. Pomemben
+je predvsem radialni parenhim v lesnih trakovih. Posebna oblika parenhimskih
+celic so epitelne celice ob smolnih kanalih; te izločajo smolo in s tem tvorijo
+sekretorno oblogo kanala. Pri iglavcih so zato smolni kanali pomemben in
+makroskopsko včasih dobro viden znak, vendar niso prisotni pri vseh vrstah.
+
+Pri listavcih je parenhim pogosto bolj raznolik in ga je lahko več. Pojavlja se
+v lesnih trakovih in v aksialnih skupinah, na primer ob trahejah ali v pasovih
+znotraj branike. Pri listavcih so smolni kanali manj značilni kot pri iglavcih;
+lahko pa se pojavljajo sorodni izločevalni kanali oziroma kanali z gumijastimi
+ali drugim podobnim izločkom. Zato prisotnost smolnega kanala sama po sebi ni
+dovolj za določitev drevesne vrste.
+
+#### Lesni trakovi
+
+Lesni trakovi so skupine predvsem radialno usmerjenih parenhimskih celic. Skozi
+njih potekata radialni transport in shranjevanje rezervnih snovi.
+
+![Mikroskopska zgradba lesa.](./slike/mikro_zgradba.png){#fig:mikroskopska-zgradba}
+
+![Mikroskopska zgradba branike pri iglavcih.](./slike/mikro_branika_iglavci.png){#fig:mikro-branika-iglavci}
+
+### Celična stena
+
+Celična stena je kompozitna struktura, sestavljena predvsem iz celuloznih
+mikrofibril, hemiceluloz in lignina. Pri zrelih lesnih celicah ločimo:
+
+- srednjo lamelo, ki povezuje sosednje celice;
+- primarno steno;
+- sekundarno steno z deli S1, S2 in S3.
+
+Sloj S2 je običajno najdebelejši. Orientacija celuloznih mikrofibril v njem
+močno vpliva na vzdolžno trdnost, togost in krčenje lesa.
+
+### Piknje in tile
+
+**Piknje** so območja v celični steni, kjer lahko voda prehaja med sosednjimi
+celicami. Njihova zgradba in razporeditev se razlikujeta med skupinami lesa.
+
+![Piknja.](./slike/poknja.png){#fig:piknja}
+
+**Tile** so izrastki parenhimskih celic, ki lahko zaprejo lumen traheje. Zaradi
+njih je prehod vode skozi nekatere dele lesa otežen. Tile vplivajo tudi na
+prepustnost lesa za tekočine, sušenje, impregnacijo in lepljenje.
+
+### Razlika med iglavci in listavci
+
+Pri iglavcih prevladujejo traheide, ki opravljajo prevodno in mehansko
+funkcijo. Pri listavcih so funkcije bolj razdeljene med traheje, vlakna in
+parenhim. Ta razlika je pomembna za razumevanje gostote, prepustnosti, videza
+in mehanskih lastnosti lesa, ni pa v tem poglavju namenjena določanju
+posameznih drevesnih vrst.
+
+## KEMIJSKA SESTAVA LESA
+
+Les je naravni kompozit, sestavljen iz polimernih snovi celične stene in
+manjših količin ekstraktivnih ter mineralnih snovi. Deleži se med vrstami,
+delom debla in rastnimi pogoji razlikujejo. Okvirne vrednosti so:
+
+- **celuloza**: približno 40–50 %; tvori nosilne mikrofibrile in prispeva k
+  natezni trdnosti;
+- **hemiceluloze**: približno 20–35 %; tvorijo povezovalno matrico in vplivajo
+  na vezavo vode;
+- **lignin**: približno 20–30 %; prispeva k togosti, tlačni trdnosti in
+  povezovanju celične stene;
+- **ekstraktivne in mineralne snovi**: običajno manj kot 10 %; vplivajo na
+  barvo, vonj, zaščito in druge posebne lastnosti.
+
+### Celuloza
+
+Celuloza je linearni polisaharid iz β(1→4)-povezanih glukoznih enot. Molekule
+celuloze se povezujejo v mikrofibrile, ki so osnovni nosilni elementi celične
+stene. Celuloza je hidrofilna, zato lahko veže vodo. Njena usmerjenost in
+stopnja urejenosti pomembno vplivata na natezno trdnost lesa.
+
+### Hemiceluloze
+
+Hemiceluloze so skupina krajših in bolj razvejanih polisaharidov. Obdajajo
+celulozne mikrofibrile in jih povezujejo z ligninom. Zaradi svoje kemijske
+zgradbe lahko vežejo precej vode in vplivajo na higroskopnost, krčenje,
+toplotno obnašanje ter kemično predelavo lesa.
+
+### Lignin
+
+Lignin je tridimenzionalen amorfen polimer fenolnih gradnikov. Nahaja se med
+celuloznimi mikrofibrilami in v srednji lameli. Celični steni daje togost,
+omejuje nabrekanje in zmanjšuje prepustnost za vodo. Zaradi lignina je les
+trdnejši v tlaku in odpornejši proti nekaterim oblikam biološke razgradnje.
+
+Lignin je pomemben tudi pri tehnološki obdelavi, na primer pri kuhanju lesa,
+izdelavi vlaknin, beljenju in termični obdelavi.
+
+### Ekstraktivne snovi in minerali
+
+Ekstraktivne snovi niso osnovni gradniki celične stene. Mednje spadajo smole,
+maščobe, voski, tanini, barvila in druge manjše organske molekule. Vplivajo na
+barvo, vonj, trajnost, gorljivost, obdelovalnost in oprijem premazov ali lepil.
+
+V lesu so prisotne tudi majhne količine mineralnih snovi. Po sežigu ostanejo v
+obliki pepela.
+
+### Pomen kemijske sestave za obdelavo lesa
+
+Kemijska sestava vpliva na:
+
+- vpijanje in oddajanje vode;
+- krčenje in nabrekanje;
+- trdnost ter togost celičnih sten;
+- obdelavo z rezili;
+- sušenje in termično obdelavo;
+- lepljenje, površinsko obdelavo in zaščito;
+- odpornost proti glivam, insektom in vremenskim vplivom.
+
+## VAJE IN NALOGE
+
+1. Na vzorcu lesa določite prečni, radialni in tangencialni prerez.
+2. Na prečnem prerezu označite stržen, branike, beljavo, jedrovino in lesne
+   trakove, če so vidni.
+3. Primerjajte videz ranega in kasnega lesa ter pojasnite, kako vplivata na
+   gostoto branik.
+4. S pomočjo lupe poiščite lesne trakove, grče ali smolne kanale.
+5. Pojasnite razliko med traheidami, trahejami, vlakni in parenhimskimi
+   celicami.
+6. Izdelajte preprost diagram povezave med celulozo, hemicelulozami in
+   ligninom v celični steni.
+7. Pojasnite, zakaj kemična sestava lesa vpliva na njegovo vpijanje vode,
+   trdnost in obdelovalnost.

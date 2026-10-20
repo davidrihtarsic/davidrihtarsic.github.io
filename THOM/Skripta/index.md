@@ -10,11 +10,10 @@
 ## Prepoznavanje materiala
 
 - [Vloga lesa](./100_LES_KOT_NARAVNI_MATERIAL) - [PDF](./100_LES_KOT_NARAVNI_MATERIAL.pdf)
-- [Zgradba lesa](./200_ZGRADBA_LESA) - [PDF](./200_ZGRADBA_LESA.pdf)
-- [Slovenske vrste lesa](./010_slovenske_vrste_lesa) - [PDF](./010_slovenske_vrste_lesa.pdf)
-- [Les in njegove lastnosti](./500_THOM_Zgradba_Lesa.md) - [PDF](./500_THOM_Zgradba_Lesa.pdf )
-- [Lastnosti lesa](./600_THOM_Lastnosti_lesa.md) - [PDF](./600_THOM_Lastnosti_lesa.pdf)
 - [Lesni polizdelki](./300_THOM_Lesni_polizdelki.md) - [PDF](./300_THOM_Lesni_polizdelki.pdf)
+- [Zgradba lesa](./200_ZGRADBA_LESA) - [PDF](./200_ZGRADBA_LESA.pdf)
+- [Prepoznavanje vrst lesa](./300_PREPOZNAVANJE_VRST_LESA) - [PDF](./300_PREPOZNAVANJE_VRST_LESA.pdf)
+- [Lastnosti lesa](./600_THOM_Lastnosti_lesa.md) - [PDF](./600_THOM_Lastnosti_lesa.pdf)
 
 ## Tehnološki postopki
 

@@ -22,7 +22,7 @@ lokalni kopiji ni jasno navedeno.
 
 Kratek praktični vir za določanje domačih lesnih vrst na podlagi prečnega,
 radialnega in tangencialnega prereza, letnic, trakov, teksture, beljave in
-črnjave. Dopolnjuje poglavji [Prepoznavanje vrst lesa](../Skripta/010_slovenske_vrste_lesa.md)
+črnjave. Dopolnjuje poglavji [Prepoznavanje vrst lesa](../Skripta/300_PREPOZNAVANJE_VRST_LESA.md)
 in [Zgradba lesa](../Skripta/200_ZGRADBA_LESA.md) ter je primeren za delo z
 dejanskimi vzorci lesa. Avtor in leto v kopiji nista navedena.
 
@@ -33,7 +33,7 @@ Sorodno spletno gradivo o domačih lesnih vrstah: [Center RS za poklicno izobra�
 Slikovni pregled izbranih slovenskih vrst, med drugim smreke, jelke, macesna,
  bora, bukve, javorja in češnje, z osnovnimi podatki o barvi, gostoti,
 trdoti, žilavosti, trajnosti, sušenju in obdelovalnosti. Uporaben je kot
-dopolnilo k [slovenskim vrstam lesa](../Skripta/010_slovenske_vrste_lesa.md) in
+dopolnilo k [prepoznavanju vrst lesa](../Skripta/300_PREPOZNAVANJE_VRST_LESA.md) in
 za povezovanje prepoznavnih znakov z izbiro lesa za izdelek. Avtor in leto v
 kopiji nista navedena.
 

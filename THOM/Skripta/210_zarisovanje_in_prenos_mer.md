@@ -79,7 +79,8 @@ Osnovni merilni pripomočki:
 
 - Kljunasto merilo meri zunanje, notranje in globinske dimenzije s kombinacijo glavne lestvice in premikajočega nonija. Namen je natančnejše merjenje v mm.
 
-Sestavni deli in njihove funkcije
+Sestavni deli in njihove funkcije:
+
 - Glavna skala: prikazuje osnovne mere (običajno v mm ali cm).
 - Nonij: natančnejša vrednost, ki dopolnjuje glavno skalo. Razdelki so zamaknjeni za n + 9/10 mm.
 - Ohišje: nosi trak in omogoča njegovo izrivanje ter vračanje.

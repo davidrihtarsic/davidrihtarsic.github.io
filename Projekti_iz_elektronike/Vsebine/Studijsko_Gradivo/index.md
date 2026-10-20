@@ -38,3 +38,7 @@
 - [6.2_Vhodne_enote.md](./6.2_Vhodne_enote)
 - [6.3 Komunikacijski vmesniki.md](./6.3_Komunikacijski_vmesniki)
 - [9.0_DRUGA_UPORABNA_VEZJA.md](./9.0_DRUGA_UPORABNA_VEZJA)
+
+---
+
+- [Skripta](./Projekti_iz_elektronike.pdf) je v izdelavi.

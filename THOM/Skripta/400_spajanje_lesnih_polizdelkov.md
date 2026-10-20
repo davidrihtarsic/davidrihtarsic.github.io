@@ -2,63 +2,242 @@
 
 ## LEPLJENJE
 
-- lepilo je disperzijsko sredstvo (makromulekularna snov razpršena v topilu)
-- makromulekularna snov zagotavlja vezavo
-- topilo -> prehajanju lepila v lesna vlakna
+Lepilo je snov, ki omogoči trajno povezavo dveh površin. Med utrjevanjem tvori
+lepilni film, ki se oprime površin in ima zadostno notranjo trdnost.
 
-Lepilo je tekoča snov, ki se strdi med dvema ploskvama lepljenca.
+Pri lepljenju lesa lepilo poveže dva ali več **lepljencev**. Lepljenca morata biti
+ustrezno pripravljena, da se lepilo z njima dobro omoči in da med površinama
+nastane čim bolj enakomeren lepilni spoj.
 
-V lepilnem spoju nastanejo močne kohezijske sile (med enakimi molekulami), ki 
-preprečujejo trganje spoja v lepilu. Med lesom in lepilom nastanejo adhezijske sile, ki 
-vežejo med sabo različne vrste materialov (različne molekule), v našem primeru je to lepilo in les.
+Lepila se med seboj razlikujejo po sestavi in načinu utrjevanja. Nekatera so
+vodne disperzije ali raztopine, druga pa se utrjujejo s kemijsko reakcijo. Zato
+ni pravilno vseh lepil opisati kot disperzijska sredstva.
+
+V lepilnem spoju sta pomembni dve vrsti sil:
+
+- **adhezijske sile** med lepilom in lesom;
+- **kohezijske sile** znotraj lepilnega filma.
+
+Kakovost spoja ni odvisna samo od lepila. Pomembni so tudi vrsta in vlažnost
+lesa, stanje površin, naleganje, količina lepila, temperatura, tlak in čas
+stiskanja.
 
 ![Delovanje sil v lepilnem spoju.](./slike/lepilo_adhezija_kohezija.png){#fig:lepilo_adhezija_kohezija}
 
 ### UTRJEVANJE LEPILA:
 
-- = prehod iz tekočega stanja -> želatinasto -> trdno stanje
-- načini utrjevanja:
-    - fizikalno: voda izhaja iz lepila v les -> zrak
-    - kemijsko: kemijska reakcija med snovmi v lepilu otrdijo spoj
-    - fizikalno-kemijsko utrjevanje: kombinirano utrjevanje
-- pomembnejši  časi utrjevanja lepila:
-    - Vmesni čas: od nanosa lepila do začetka stiskanja obdelovancev.
-        - Odprti čas: od nanosa lepila do sestave lepljencev.
-        - Zaprti čas: čas od sestave lepljencev do vzpostavitve tlaka v stiskalnici. 
-    - Čas stiskanja: čas, v katerem se lepilo popolnoma strdi in veže lepljence.
+Utrjevanje je proces, pri katerem lepilo iz tekočega ali pastoznega stanja
+preide v trdnejši lepilni film. Pri tem ločimo:
+
+- **sušenje** – odstranjevanje vode ali topila z izhlapevanjem in vpijanjem;
+- **fizikalno utrjevanje** – utrjevanje zaradi sušenja, ohlajanja ali druge
+  fizikalne spremembe;
+- **kemijsko utrjevanje** – povezovanje oziroma zamreženje molekul s kemijsko
+  reakcijo;
+- **fizikalno-kemijsko utrjevanje** – kombinacija fizikalnega in kemijskega
+  utrjevanja.
+
+Pomembnejši časi pri lepljenju so:
+
+- **odprti čas** – čas od nanosa lepila do stika lepljencev;
+- **zaprti čas** – čas od stika lepljencev do začetka stiskanja;
+- **čas sestavljanja** – odprti in zaprti čas skupaj;
+- **čas stiskanja** – čas, ko mora biti spoj pod predpisanim tlakom;
+- **čas do končne trdnosti** – čas, potreben, da lepilo doseže predvidene
+  lastnosti.
+
+Čas stiskanja zato ni nujno enak času, ko je lepilo popolnoma utrjeno. Vsi
+navedeni časi so odvisni od vrste lepila, temperature, vlažnosti lesa, količine
+lepila in drugih pogojev lepljenja.
 
 ### POMEMBNEJŠE LASTNOSTI LEPIL:
 
-- Vodna odpornost: odpornost proti vodi (vlagi, zunanja uporaba)
-- Trdota:
-    - mehko, elastično: primerno tam, kjer bo les bolj deloval
-    - trdo (v ivernih ploščah): boljša trdnost, večja obraba rezil
-- pH: lahko obarvajo les v okolici spoja
+- **vodna odpornost** – odpornost lepilnega spoja proti vlagi in vodi;
+- **trdota in elastičnost** – vplivata na obnašanje spoja pri krčenju in
+  raztezanju lesa;
+- **viskoznost** – vpliva na nanos, omočenje in prodiranje lepila v površino;
+- **odprti čas in čas stiskanja** – določata čas za sestavo in stiskanje spoja;
+- **zapolnjevanje rež** – sposobnost lepila, da poveže tudi manj popolnoma
+  nalegajoče se površine;
+- **barva lepilnega filma** – pomembna pri vidnih spojih;
+- **pH in kemična sestava** – lahko vplivata na obarvanje lesa, korozijo
+  kovinskih delov in varnost pri delu.
 
-- tehnologija lepljenja lesa kot sama zase se zelo redko uporablja
-- lepljenje se kombinira z drugimi tehnologijami spajanja
-- izjema je **širinsko spajanje lesa**
-    - kjer imamo relativno veliko površino vzdolž vlaken
-- ~~slab spoj lepljenja na čelni ploskvi vlaken~~
-    - čelne ploskve so manjše
-    - najšibkejši člen pri čelno lepljenem spoju je vedno lepilo (da, saj lesna vlakna omogočajo izredno velike natezne napetosti v dolžinski smeri; cepilne napetosti so manjše)
+Lepljenje je lahko samostojen način spajanja, pogosto pa ga kombiniramo z
+drugimi načini, na primer z mozniki, lamelami, čepi ali vijačenjem. Pri
+širinskem lepljenju lesa je lepilna površina običajno velika in poteka vzdolž
+vlaken, zato je tak spoj lahko zelo učinkovit.
+
+Čelno lepljenje je praviloma manj ugodno kot lepljenje vzdolž vlaken. Čelne
+površine močno vpijajo lepilo, prenos sil na čelni ploskvi je neugoden, spoj pa
+je občutljiv tudi na cepljenje. Čelni spoj zato pogosto izboljšamo z zobatim
+spojem, peresom, lamelo, moznikom ali drugim oblikovanjem spoja.
+
+## TEHNOLOŠKI POSTOPEK LEPLJENJA
+
+Kakovosten lepilni spoj izdelamo po naslednjem zaporedju:
+
+1. izberemo in pripravimo lepljence;
+2. pripravimo in očistimo spojne površine;
+3. pripravimo lepilo;
+4. nanesemo ustrezno količino lepila;
+5. sestavimo lepljence;
+6. spoj stisnemo s predpisanim tlakom;
+7. počakamo, da lepilo doseže zadostno trdnost;
+8. spoj razbremenimo, očistimo in pregledamo.
+
+### PRIPRAVA LEPLJENCEV
+
+Pred lepljenjem preverimo:
+
+- vrsto in kakovost lesa;
+- smer lesnih vlaken;
+- vlažnost lesa;
+- ravnost in prileganje spojnih površin;
+- pravilnost mer in obliko spoja;
+- ali so na površinah smola, olje, maščoba, prah ali druga umazanija.
+
+Les mora imeti vlažnost, ki ustreza namenu izdelka, vrsti lepila in navodilom
+proizvajalca. Preveč moker les lahko upočasni sušenje vodnih lepil, preveč suh
+les pa lahko iz lepila prehitro vpije vodo. Zaradi krčenja in nabrekanja lahko
+neustrezna vlažnost povzroči tudi napetosti v lepilnem spoju.
+
+Lepljence pred lepljenjem aklimatiziramo v prostoru, kjer bo potekalo delo.
+Temperatura lesa, lepila in prostora mora biti primerna za izbrano lepilo.
+
+Pred lepljenjem preverimo tudi prileganje površin s suhim sestavljanjem. Pri
+sestavljanju se morata lepljenca brez večjih sil pravilno prilegati in se ne
+smeta zibati. Lepilo ne more nadomestiti velikih napak pri obdelavi površin.
+
+### PRIPRAVA SPOJNIH POVRŠIN
+
+Spojne površine morajo biti:
+
+- ravne in med seboj vzporedne;
+- dovolj gladke, vendar ne spolirane;
+- brez ožganin, natrganih vlaken in večjih iztrganin;
+- brez prahu, olja, maščob in drugih nečistoč.
+
+Površine praviloma pripravimo z ostrim skobeljnikom ali ustreznim rezkalnim
+orodjem. Brušene površine morajo biti enakomerno obdelane in brez ostankov
+brusnega prahu. Pri nekaterih lesnih vrstah je treba posebno pozornost nameniti
+smoli in drugim snovem, ki lahko zmanjšajo omočenje površine.
+
+Tik pred nanosom lepila površin ne prijemamo z mastnimi rokami in jih ne močimo
+brez navodila proizvajalca. Pri nekaterih poliuretanskih lepilih je rahla
+navlažitev priporočena, pri drugih lepilih pa lahko dodatna voda poslabša
+utrjevanje.
+
+### PRIPRAVA LEPILA
+
+Pred uporabo preverimo:
+
+- ime in vrsto lepila;
+- rok uporabnosti in pogoje skladiščenja;
+- ali je lepilo enokomponentno ali dvokomponentno;
+- priporočeno temperaturo, količino nanosa, čas sestavljanja in čas stiskanja;
+- varnostna navodila.
+
+Dvokomponentno lepilo pripravimo z natančnim odmerjanjem in mešanjem obeh
+komponent v razmerju, ki ga določi proizvajalec. Napačno razmerje lahko povzroči
+slabše ali nepopolno utrjevanje. Pripravljene mešanice ne uporabljamo po
+preteku uporabnega časa mešanice.
+
+Pred nanosom lepilo po potrebi premešamo, vendar ga ne redčimo in mu ne
+dodajamo drugih snovi, če tega izrecno ne dovoljujejo navodila proizvajalca.
 
 ### NANOS LEPILA
 
-- zagotoviti čim večjo površino spoja
-- lepilo naj bo enakomerno razporejeno po **celi poevršini**
-- debelina nanesenega lepila naj bo od 0.1 mm - 0.2 mm
-- lepilo lahko nanašamo:
-    - čopič
-    - nanašalni glavnik
-    - nanašalni valjček
-    - tlačna posoda
-    - strojno z nanašalnimi valji
-- lepilo lahko nanesemo le ne eno ploskev, razen:
-    - če ploskvi sestavimo z drsnim gibom (čep, rogljična vez)
-    - lepilo nanesemo na obe ploskvi (posnetje lepila in nanos lepila)
-- kadar je lesna zveza slepa (lameliranje, mozničenje, vez s čepom) predvidimo prostor za iztek lepila
-- spoj močno stisnemo s sponami - zagotovimo, da lepilo pronica v lesno strukturo (v lumne trahej, tile)
+Pri nanosu lepila moramo zagotoviti, da je ustrezno velika in dobro pripravljena
+spojna površina enakomerno prekrita **po celotni ploskvi**. Površini morata biti čisti, suhi oziroma ustrezno vlažni glede na navodila proizvajalca ter brez prahu, olja in maščob.
+
+Lepilo lahko nanašamo:
+
+- s čopičem;
+- z nanašalnim glavnikom ali lopatico;
+- z nanašalnim valjčkom;
+- iz tlačne posode ali z dozirnim nastavkom;
+- strojno z nanašalnimi valji.
+
+Količina nanosa in način nanosa sta odvisna od vrste lepila, vrste lesa,
+poroznosti površine in oblike spoja. Zato debeline mokrega nanosa ne smemo
+obravnavati kot splošno pravilo. Pri tehničnih podatkih se količina pogosto
+navaja v gramih na kvadratni meter, čeprav ga v praksi kontroliramo z debelino nanosa (0,1 - 0,2 mm). V ta namen lahko uporabljamo zobati glavnik za nanos lepila (če tega nimamo lahko uporabimo vijak M4). Po stiskanju mora nastati čim bolj enakomeren in tanek lepilni film.
+
+Pri enostavnih ploskovnih spojih je pogosto dovolj enostranski nanos. Pri
+poroznem ali težje lepljivem lesu, pri slepih spojih in pri zahtevnejših spojih
+je lahko potreben dvostranski nanos. Pri čepih, moznikih in lamelah je treba
+lepilo nanesti tudi v utor oziroma izvrtino, če to zahteva oblika spoja in vrsta
+lepila.
+
+Pri slepih spojih moramo predvideti prostor za iztis odvečnega lepila. Lepljence
+stisnemo šele v času, ki ga določa tehnologija izbranega lepila. Če je čas
+predolg, se lahko lepilo na površini posuši ali začne utrjevati, zato se ne more
+več pravilno omočiti in razporediti.
+
+### SESTAVLJANJE LEPLJENCEV
+
+Lepljence sestavimo mirno in natančno, da lepila ne odstranimo s spojne
+površine. Pri spojih, ki se sestavljajo z drsnim gibom, moramo paziti, da se
+lepilo enakomerno razporedi in da se lepljenca po sestavljanju ne premakneta.
+Da preprečimo premikanje lepljencev med stiskanjem, lahko v spoj dodamo nekaj zrn soli.
+
+Pri sestavljanju preverimo:
+
+- pravilno lego lepljencev;
+- poravnanost robov in površin;
+- enakomeren iztis lepila po dolžini spoja;
+- ali je v slepem spoju dovolj prostora za odvečno lepilo.
+
+Odvečno lepilo, ki se iztisne na površino, odstranimo na način, ki je primeren
+za izbrano lepilo. Pri vodnih lepilih moramo paziti, da ga z mokro krpo ne
+razmažemo po lesu, saj lahko prodre v pore in pozneje oteži površinsko obdelavo.
+
+### STISKANJE SPOJA
+
+Spoj stisnemo s sponami, vijačnimi napravami, stiskalnico ali drugim ustreznim
+pripomočkom. Tlak mora biti dovolj velik, da se površini tesno prilegata, ne
+sme pa biti tako velik, da iz spoja iztisne skoraj vse lepilo.
+
+Pri stiskanju preverimo:
+
+- da je tlak enakomeren po celotni dolžini oziroma površini spoja;
+- da so spone in pritisne letve pravilno nameščene;
+- da s pritiskanjem ne poškodujemo površine lesa;
+- da se lepljenci med stiskanjem ne premaknejo;
+- da je čas stiskanja prilagojen vrsti lepila, temperaturi in vlažnosti.
+
+Pri večjih ploskovnih spojih mora biti pritisk razporejen tako, da se spoj ne
+odpira na sredini ali na koncih. Pritisne letve in robove spojev po potrebi zaščitimo s folijo,
+trakom ali papirjem, da se ne prilepijo na iztisnjeno lepilo.
+
+### UTRJEVANJE IN RAZBREMENITEV SPOJA
+
+Med utrjevanjem mora spoj ostati miren in pod ustreznim tlakom. Lepljencev ne
+smemo obremenjevati, premikati ali obdelovati, dokler lepilo ne doseže zadostne
+začetne trdnosti.
+
+Po preteku predpisanega časa stiskanja spoj previdno razbremenimo. Če se
+lepljenca takoj po odstranitvi spon odpirata ali premikata, je bil čas stiskanja
+prekratek oziroma pogoji lepljenja niso bili ustrezni.
+
+Končna trdnost se lahko razvija še po odstranitvi spon. Zato je treba pri
+zahtevnejših izdelkih upoštevati tudi čas do končnega utrjevanja, ki ga določa
+proizvajalec lepila.
+
+### KONTROLA LEPILNEGA SPOJA
+
+Po utrjevanju pregledamo:
+
+- ali je spoj sklenjen po celotni površini;
+- ali so vidne reže, prazni deli ali razpoke;
+- ali je iztis lepila približno enakomeren;
+- ali sta lepljenca pravilno poravnana;
+- ali se je les zaradi stiskanja ali vlaženja poškodoval.
+
+Pri preskušanju vzorca je dober znak, če se pri obremenitvi poškoduje les ob
+spoju, ne pa če se površini enostavno ločita po lepilnem filmu. Način
+preskušanja mora biti prilagojen vrsti spoja in namenu izdelka.
 
 - [LEPILA IN MATERIALI ZA POVRŠINSKO OBDELAVO IN ZAŠČITO LESA, M. Čermak](https://cpi.si/wp-content/uploads/2020/08/LepilainMaterialiZaPovrsinskoObdelavo.pdf)
 
@@ -79,11 +258,91 @@ Primer uporabe lepila živalskega izvora v lesarstvu je uporaba kostnega ali ži
 
 ### Sintetična lepila
 
-Pri sintetičnih lepilih izkoriščamo kemične lastnosti molekul s **funkcionalnimi skupinami**. Najbolj znane funkcionalne skupine so: $-OH$ (hidroksilna), $-COOH$, $-CHO$, $-NH_2$ (amino), $-CH=CH_2$ (vinilna), $-N=C=O$. Sintetična lepila delimo po njihovi kemijski reakciji:
+Pri sintetičnih lepilih izkoriščamo kemične lastnosti molekul s **funkcionalnimi
+skupinami**. Glede na način nastanka oziroma utrjevanja polimerne strukture jih
+lahko razdelimo na polimerizacijska, polikondenzacijska in poliadicijska lepila.
 
-- **Polimerizacija**: nasičeni monomeri z dvojnimi ali trojnimi kemijskimi vezmi se med seboj povežejo v zelo dolge molekule (polimere) in tvorijo trdno, trpežno strukturo.
-- **Polikondenzacija**: monomeri, ki vsebujejo hidroksilne skupine se povezujejo med seboj v dolge makromulekule, pri čemer se odceplja voda.
-- **Poliadicija**: nenasičene organske spojine (z dvojnimi ali trojnimi kem. vezmi) se spajajo s pomočjo molekul, ki vsebujejo vsaj dve funkcionalni skupini (npr -OH). Pri tem se vodikov atom *pripoji* na dvojno vez.
+Ta razdelitev je uporabna predvsem za razumevanje lastnosti lepila. V praksi
+moramo vedno upoštevati tudi konkretno sestavo izdelka in navodila proizvajalca.
+Ime kemijske skupine samo po sebi še ne pove, ali je lepilo primerno za določen
+spoj.
+
+#### Polimerizacijska lepila
+
+Pri polimerizaciji se manjše molekule – monomeri – povezujejo v dolge polimerne
+molekule. Primer je **polivinilacetatno lepilo (PVAc)**. Polivinilacetat nastane
+iz vinilacetatnih monomerov, lepilo pa je običajno pripravljeno kot vodna
+disperzija. Pri lepljenju se voda večinoma odstrani z izhlapevanjem in vpijanjem
+v les, polimer pa tvori lepilni film.
+
+Pri PVAc je polimerizacija večinoma opravljena že pri izdelavi lepila. Pri
+uporabi se lepilo zato ne utrjuje predvsem z novo polimerizacijo, temveč z
+odstranjevanjem vode in oblikovanjem lepilnega filma. To je pomemben primer
+razlike med kemijsko razvrstitvijo lepila in dejanskim postopkom njegovega
+utrjevanja v spoju.
+
+Drug primer je **cianoakrilatno oziroma sekundno lepilo**, pri katerem se
+monomeri zelo hitro povežejo že zaradi majhne količine vlage na površini.
+
+V praksi moramo biti pozorni predvsem na:
+
+- odprti čas in hitrost sušenja oziroma utrjevanja;
+- dobro prileganje površin, saj ta lepila praviloma slabo zapolnjujejo velike
+  reže;
+- vlažnost in poroznost lesa;
+- odpornost konkretnega PVAc-lepila proti vodi, saj vsi PVAc-izdelki nimajo
+  enakega razreda odpornosti;
+- krhkost in majhno odpornost sekundnih lepil proti udarcem.
+
+Pri običajnem lesenem spoju je zato PVAc pogosto praktična izbira, sekundno
+lepilo pa predvsem za majhne, natančne in hitro izvedene spoje.
+
+#### Polikondenzacijska lepila
+
+Pri polikondenzaciji se molekule povezujejo v večje strukture, pri tem pa se
+lahko izločijo manjše molekule, na primer voda. Pomemben primer je
+**urea-formaldehidno lepilo (UF)**. Takšna lepila se pogosto uporabljajo pri
+izdelavi ivernih in vlaknenih plošč ter pri furniranju. Sorodne so melamin-
+formaldehidne in fenol-formaldehidne smole.
+
+Polikondenzacijska lepila so praviloma **duroplastična**: po utrditvi tvorijo
+trdo, zamreženo strukturo, ki je ni mogoče ponovno staliti. Zato imajo lahko
+dobro trdnost in temperaturno odpornost, vendar so manj elastična.
+
+V praksi moramo biti pozorni predvsem na:
+
+- potrebo po povišani temperaturi, tlaku ali dodanem utrjevalcu;
+- natančno določeno razmerje sestavin in čas uporabnosti pripravljene mešanice;
+- to, da po utrditvi lepila ni mogoče preprosto ponovno zmehčati;
+- emisije formaldehida in zahteve glede prezračevanja ter varnosti;
+- temnejšo barvo nekaterih fenolnih lepil in njeno vidnost v spoju.
+
+Ta lepila se v šolski delavnici običajno ne uporabljajo tako kot PVAc, so pa
+pomembna za razumevanje izdelave lesnih plošč in industrijskega lepljenja.
+
+#### Poliadicijska lepila
+
+Pri poliadiciji se reaktivne skupine molekul povežejo v polimer brez izločanja
+majhne molekule, kot je voda. Pomembna primera sta **poliuretansko (PUR)
+lepilo** in **epoksidno lepilo**.
+
+Enokomponentna PUR-lepila se utrjujejo z vlago iz lesa ali zraka, dvokomponentna
+pa z reakcijo med osnovno komponento in utrjevalcem. Pri reakciji se lahko lepilo
+speni in zapolni manjše nepravilnosti, vendar pena ne nadomesti dobro
+prilegajočih se spojnih površin. Pri izdelku MITOPUR E20 proizvajalec na primer
+zahteva čiste površine, priporoča dobro prileganje in za les navaja tlak glede na
+trdoto lesa. [Tehnični list MITOPUR E20](https://www.mitol.si/wp-content/uploads/2018/12/MITOPUR-E20_EN.pdf)
+
+V praksi moramo biti pozorni predvsem na:
+
+- prisotnost vlage, ki je potrebna za utrjevanje enokomponentnega PUR-lepila;
+- to, da prevelika količina lepila lahko povzroči prekomerno penjenje in iztis;
+- zadostno stiskanje spoja do začetnega utrjevanja;
+- odprti čas in uporabni čas dvokomponentne mešanice;
+- zaščito kože in dihal v skladu z varnostnim listom.
+
+Pri izbiri lepila je zato pomembnejše vprašanje »kako se lepilo utrjuje in kaj
+zahteva ta spoj« kot pa samo kemijsko ime skupine.
 
 
 ## POGOSTA LEPILA
@@ -287,23 +546,62 @@ vijačni nastavek je križne oblike, zopet z ravnimi vzporednimi kraki. Med glav
 
 ![Razlika med phillips in pozidriv obliko konice vijača in zareze v glavi vijaka (vir: https://shop4fasteners.co.uk/blog/pozidriv-vs-phillips/)](./slike/PHvsPZ.jpg){#fig:PHvsPZ}
 
-#### ŠESTKOTNI
+#### ŠESTKOTNI UTOR
 vijačni nastavek, zaradi poobčnoimenovanja znan inbus (ime podjetja: Innensechskantschraube Bauer und Schaurte), ima obliko pravilne šest-strane prizme. Nastavek izvijača in ugrezno zarezo vijačne glave je izredno enostavno izdelati in je tako cenovno ugodnejša. Zaradi vzporednih robov v zarezi omogoča vijačenje z večjimi navori. V primerjavi s  philips vijakom je v oprijem vijak - izvijač vključenih več stičnih površin, kar manj deformira zarezo vijačne glave. Zahteva pa nekoliko več pozornosti pri poravnavanju izvijača z glavo vijaka.
 
-#### TORX
+#### ZVEZDASTI UTOR
 oblika vijačnega nastavka je 6-strana zvezda. Konica izvijača je rahlo konusne oblike, le toliko, da omogoča lažje poravavanje vijača z galvo vijaka. Čeprav je bil prvotno načrtovan, da bi otežil dostopnost vijakov slehernemu uporabniku, je s časom postal zelo priljubljen zaradi same uporabnosti in priročnosti. Torks blika omogoča zadovoljiv prenos navora, enostavno poravnavaje vijaka in vijača ter nudi relativno visoko odpornost proti deformaciji. Označujemo ga z oznako **T** in pripadajočo števiko velikosti.
 
 ![Oblika torks vijaka (vir: Wikipedija)](./slike/Torx_sample.jpg){#fig:Torx_sample}
 
 ## KONSTRUKCIJSKE VEZI
 
-Konstrukcijske vezi izredno izboljšajo trdnost spoja, saj imajo lesna vlakna veliko natezno in tlačno trdnost. S Konstrukcijskimi vezmi bistveno zmanjšamo obremenitev lepljenih spojev in tako zagotovimo, da bodo spoji trajali dlje. Zlasti pri lesnih zvezah so lepljeni spoji izredno obremenjeni, saj les deluje zaradi krčenja in raztezanja lesa glede na vsebnost vlažnosti.
+Konstrukcijska vez je oblikovan spoj dveh ali več lesenih elementov, pri
+katerem oblika spoja sama omogoča prenos sil in preprečuje premikanje elementov.
+Konstrukcijsko vez lahko dodatno utrdimo z lepilom, moznikom, lamelo, vijakom,
+zagozdo ali drugim veznim sredstvom.
 
-Konstrukcijske vezi lahko razdelimo glede na smer spajanja:
-- širinsko spajanje
-- dolžinsko spajanje
-- kotno spajanje
-- obodno spajanje
+Konstrukcijske vezi uporabljamo zato, da:
+
+- povečamo naležno oziroma oprijemno površino;
+- izboljšamo prenos nateznih, tlačnih in strižnih sil;
+- preprečimo premikanje elementov v določeni smeri;
+- zmanjšamo obremenitev lepilnega spoja;
+- izdelamo trden in trajen kotni, vzdolžni ali ploskovni spoj.
+
+Pri načrtovanju moramo upoštevati tudi krčenje in nabrekanje lesa. Konstrukcijska
+vez ne sme lesa po nepotrebnem utesniti v smeri, v kateri se mora zaradi
+sprememb vlažnosti dimenzijsko spreminjati.
+
+### PREGLED OSNOVNIH KONSTRUKCIJSKIH VEZI
+
+Osnovne oblike vezi so prikazane v učnem dokumentu:
+
+[Konstrukcijske vezi – osnovne (PDF)](./slike/Konstrukcijske_vezi_osnovne.pdf)
+
+![Osnovne konstrukcijske vezi.](./slike/Konstrukcijske_vezi_osnovne.png){#fig:konstrukcijske-vezi-osnovne}
+
+Na pregledni risbi so prikazane:
+
+- vez z brazdo in topim robom;
+- vez s čepom in zarezo;
+- vez z zarezo in čepom s peresom;
+- jeralna vez s čepom in zarezo;
+- vez z utorom in peresom;
+- vez z roglji;
+- moznična vez.
+
+Vezi lahko glede na smer in namen spajanja razdelimo na:
+
+- **širinske vezi**, s katerimi iz več ožjih kosov izdelamo širšo ploskev;
+- **dolžinske vezi**, s katerimi lesene elemente podaljšamo;
+- **kotne vezi**, s katerimi povežemo elementa pod kotom, najpogosteje pod 90°;
+- **obodne vezi**, s katerimi povežemo elemente v okvir, omaro ali drugo
+  prostorsko obliko.
+
+Pri vsaki vezi moramo preveriti smer obremenitve, smer lesnih vlaken, možnost
+izdelave z razpoložljivim orodjem, potrebo po lepljenju ter možnost krčenja in
+nabrekanja lesa.
 
 ### ŠIRINSKO SPAJANJE LESA S SPAHANIM ROBOM
 
@@ -395,13 +693,40 @@ Konstrukcijske vezi lahko razdelimo glede na smer spajanja:
 
 #### Zagozde
 
+Zagozdene konstrukcijske vezi so prikazane v ločenem učnem dokumentu:
+
+[Konstrukcijske vezi z zagozdo (PDF)](./slike/Konstrukcijske_vezi_z_zagozdo.pdf)
+
+![Konstrukcijske vezi z zagozdo.](./slike/Konstrukcijske_vezi_z_zagozdo.png){#fig:konstrukcijske-vezi-z-zagozdo}
+
 Zagozde sodijo med najstarejše in najučinkovitejše mehanske načine spajanja lesenih elementov. Njihova uporaba temelji na preprostem, a zanesljivem principu trenja med zagozdo in lesom, ki nastane zaradi vkleščenja zagozde v pripravljeno odprtino ali režo. Pogosto se uporabljajo takrat, ko želimo izdelati konstrukcijsko vez brez uporabe lepil, bodisi zaradi zahtev po razstavljivosti spoja, bodisi zaradi tehnoloških ali estetskih razlogov. Leseni spoji z zagozdami so še posebej priljubljeni v tradicionalnem mizarstvu in restavratorskih delih, kjer se zahteva naravni, reverzibilen pristop brez kemičnih dodatkov.
 
-Učinkovitost zagozde temelji na razmerju med njeno dolžino in širino. Tipično razmerje **1 : 10** zagotavlja zadostno trenje med površinama, da zagozda po vstavitvi ostane trajno fiksirana. Takšno trenje ustvarja dovolj veliko aksialno silo, da se spoj ne razrahlja niti pri dolgotrajnih obremenitvah ali spremembah vlažnosti lesa. Prav zaradi tega načela je zagozda pogosto uporabljena v spoju moznika, čepa ali utora, kjer zagozda mehansko razširi les in s tem zaklene konstrukcijski element.
+Na dokumentu so prikazane različne izvedbe zagozdenih čepnih vezi:
 
-Kljub temu imajo spoji z zagozdami tudi svoje pasti. **Sile, ki delujejo prečno na smer vstavitve zagozde, so lahko zelo velike**, zato pri neizkušenih mizarjih pogosto pride do **cepljenja vlaken** na strani, kjer se les razširi. Na primer, če s 300 g kladivom srednje hitro zamahnemo (cca 5m/s) zlahka presežemo silo 1500N. Zagozda z razmerjem 1:10 pa bo to silo še 10x ojačala. Takih prečnih sil lesna vlakna ne bodo prenesla in se pričnejo cepiti. Cepljenje oslabi vez in lahko privede do propada spoja, zlasti pri obremenjenih konstrukcijah.
+- pol-lastovičji čep z zagozdama;
+- čep z ravno zarezo za zagozdo;
+- čep s poševno zarezo za zagozdo;
+- čep in zareza z zatičem.
 
-Da bi se izognili cepljenju, je pomembno **ustrezno oblikovanje in vstavljanje zagozde**. Najboljša praksa vključuje rahlo zaobljeno ali posneto konico, ki postopoma razširi les, ter uporabo kladiva z nadzorovanim udarcem. Prav tako je priporočljivo, da se zagozdo vstavi vzdolž smeri vlaken, kadar je to mogoče, in da se v območju vstavljanja vnaprej izvrtajo manjše pomožne luknje ali razbremenilne reže, ki razbremenijo prečno silo na več vlaken. Pazduho čepa naj stiska rob zareze v katero je vstavljen čep. 
+Učinkovitost zagozde je odvisna od njene oblike, smeri vstavljanja, prileganja in
+razmerja med dolžino ter širino. Na risbi sta prikazani tudi približni razmerji
+naklona **1 : 10** in **1 : 20**. Pri praktični izdelavi vedno upoštevamo
+načrt, vrsto lesa in zahtevano trdnost spoja; razmerja ne smemo razumeti kot
+univerzalno pravilo za vse zagozde.
+
+Kljub temu imajo spoji z zagozdami tudi svoje pasti. Pri vstavljanju zagozde
+nastanejo velike prečne sile, ki lahko razprejo čep ali povzročijo cepljenje lesa.
+Cepljenje oslabi vez in lahko privede do propada spoja, zlasti pri obremenjenih
+konstrukcijah. Zato zagozde ne zabijamo na silo, temveč preverimo njeno obliko,
+prileganje, smer vstavljanja in stanje lesa.
+
+Da bi se izognili cepljenju, je pomembno **ustrezno oblikovanje in vstavljanje
+zagozde**. Konica zagozde naj bo poševna ali rahlo posneta, da les razširja
+postopoma. Uporabljamo nadzorovane udarce in preverjamo, ali zagozda vstopa v
+predvideni smeri. Pri zahtevnejših spojih lahko uporabimo razbremenilno režo ali
+drugo konstrukcijsko rešitev, ki zmanjša prečne sile. Pazduho čepa naj tesno
+stiska rob zareze, zagozda pa mora biti izdelana tako, da se sile porazdelijo
+po lesu in ne povzročijo lokalnega cepljenja.
 
 Zagozde tako ostajajo pomemben del mizarske prakse — združujejo preprostost, zanesljivost in estetsko vrednost lesenega spoja. Pravilno načrtovana in vstavljena zagozda omogoča trdno, trajno in po potrebi tudi razstavljivo povezavo, ki ohranja naravni značaj in mehanske lastnosti lesa.
 

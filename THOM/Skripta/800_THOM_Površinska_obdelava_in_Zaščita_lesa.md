@@ -64,7 +64,7 @@ Glavni tehnološki postopki brušenja:
 
 ## Beljenje
 
-Beljenje lesnih površin je končni postopek, namenjen enakomerni in svetlejši barvi ter pripravi površine za nadaljnje zaščitne sloje. Uporablja se predvsem zaradi odstranitve naravnih ali nastalih pigmentov ter izboljšanja estetskih lastnosti končnih izdelkov, pri čemer je uspešnost odvisna od sorte lesa, vlage in pretekle obdelave [@Vranjek2024_povrsinska].
+Beljenje lesnih površin je končni postopek, namenjen enakomerni in svetlejši barvi ter pripravi površine za nadaljnje zaščitne sloje. Uporablja se predvsem zaradi odstranitve naravnih ali nastalih pigmentov ter izboljšanja estetskih lastnosti končnih izdelkov, pri čemer je uspešnost odvisna od vrste lesa, vlage in pretekle obdelave [@Vranjek2024_povrsinska].
 
 Beljenje je najpogosteje oksidativno in se izvaja s peroksidnimi spojinami, kot je vodikov peroksid ($H_2 O_2$), ki posvetli barvo, pogosto ga uporabljajo v kombinaciji z impregnacijo ali zaščitnim premazom. Po beljenju se obnovljena površina zaščiti z lakom, impregnacijo ali voskanjem, s čimer se zagotovi odpornost na vlago, UV-sevanje in obrabo ter doseže želena zaključna lastnost površine [@Vranjek2024_povrsinska].
 

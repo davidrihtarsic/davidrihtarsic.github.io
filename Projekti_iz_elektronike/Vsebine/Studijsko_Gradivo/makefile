@@ -10,18 +10,20 @@ pdfs:
 		done;
 
 TITLE="Projekti iz elektronike"
+
 book:
 	@echo "Compailing all chapters into book... $(TITLE)."
 	@file_name=$$(echo $(TITLE) | sed 's/\ /_/g'); \
 	pandoc [0-9]*.md --to latex -o $$file_name.pdf \
 		--from markdown \
-		--template skripta \
+		--pdf-engine=xelatex \
+		--template=skripta.latex \
 		-V lang=sl \
 		-M title=$(TITLE) \
-		-M subtitle="Skripta je namenjena študentom UL-PeF študijske smeri Fizike z vezavami. V skripti so opisani osnovni principi vzorčenja fizikalnih količin s krmilnikom Arduino NANO." \
+		-M subtitle="Študijsko gradivo za študente UL-PeF študijske smeri Tehnika z vezavami. Skripta obravnava osnove elektronskih vezij, analogne in digitalne signale, regulacijske sisteme, mikrokrmilnike ter druga uporabna elektronska vezja." \
 		-M author:"dr. David Rihtaršič" \
-		-M date:"$(date '+%Y-%B')" \
-		--listings \
+		-M date:"$$(date '+%Y-%B')" \
+		--syntax-highlighting=idiomatic \
 		-M listings=True \
 		-M listings-no-page-break=True \
 		-M codeBlockCaptions=True \
@@ -36,7 +38,6 @@ book:
 		--number-sections \
 		-F pandoc-crossref \
 		--citeproc \
-		--bibliography=/home/david/Files/Work/UL-PeF/Articles/00-BibTex/bibtex.bib \
 		--bibliography=./references.bib \
 		-V documentclass=book \
 		-V book \
