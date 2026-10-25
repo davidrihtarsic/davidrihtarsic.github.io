@@ -1,0 +1,105 @@
+#! /bin/bash
+
+GR='\e[32m'
+DF='\e[0m'
+
+help(){
+echo "Skripta naredi iz markdown dokumenta:
+- enostaven dokument ali
+- dokument z naslovnico, kazalom ...
+
+PARAMETRI:
+-t tip dokumenta [book, article]
+-f ime markdown dadoteke za pretvorbo v pdf
+-s subtitle
+-l koda jezika [en, sl]
+
+UPORABA:
+pandoc2notebook -f ~/Files/test.md -t book"
+}
+
+while getopts 'hf:t:s:l:' PAR
+do
+  case $PAR in
+    h)help;exit 0;;
+    t)DOC_TYPE=$OPTARG;;
+    f)FILE_LIST=$OPTARG;;
+    s)SUBTITLE=$OPTARG;;
+    l)LN=$OPTARG;;
+  esac
+done
+
+[ -z "$FILE_LIST" ] && echo "No file specified..." && exit 1;
+for FILE in $FILE_LIST
+do
+  [ ! -f "$FILE" ] && echo "$FILE not exist..."
+  echo -n "Convering $FILE -> PDF .."
+  BASE_FILENAME=$(basename $FILE .md)
+  BOOK_SETTINGS=''
+  if [ "$DOC_TYPE" == "book" ]
+  then
+    TITLE=$(echo ${BASE_FILENAME^^} | sed 's/_/ /g')
+    BOOK_SETTINGS='
+    -V documentclass=book
+    -V book
+    --toc
+    --toc-depth=2
+    -M titlepage
+    -M lol=True'
+  fi
+  
+  [ -z "LN" ] && LN=en
+  if [ "$LN" == "sl"  ]
+  then
+    CAPTIONS='
+    -M listingTitle=Program
+    -M figureTitle=Slika
+    -M tableTitle=Tabela
+    -M figPrefix=sl.
+    -M eqnPrefix=en.
+    -M lstPrefix=prog. '
+  else
+    CAPTIONS='
+    -M listingTitle=Program
+    -M lstPrefix=prog.
+    '
+  fi
+  
+  pandoc  $FILE --to latex -o $BASE_FILENAME.pdf \
+    --from markdown \
+    --template skripta.latex \
+    -V lang=sl \
+    -M title="$TITLE" \
+    -M subtitle="$SUBTITLE" \
+    --metadata-file="/home/david/.local/bin/PanDoc2NoteBook/pandoc-defaults.yaml" \
+    -M date:"$(date '+%Y-%B')" \
+    --syntax-highlighting=idiomatic \
+    -M listings=True \
+    -M listings-no-page-break=True \
+    -M codeBlockCaptions=True \
+    $CAPTIONS \
+    -V table-use-row-colors \
+    -V urlcolor=violet \
+    -V caption-justification=centering \
+    --number-sections \
+    -F pandoc-crossref \
+    -F mermaid-filter \
+    --citeproc \
+    --bibliography="/home/david/Files/Work/UL-PeF/Articles/00-BibTex/bibtex.bib" \
+    --bibliography="./references.bib" \
+    --pdf-engine=lualatex \
+    $BOOK_SETTINGS && echo -e "..$GR Done $DF"
+
+done
+
+# Emoji podpora:
+# te vrstice so za emoji znake. Skripta .js zamenja znake s slikami.
+# Za to potrebuješ program iz githuba: https://github.com/masbicudo/Pandoc-Emojis-Filter.git
+# namestil pa sem ga v ~./.local/bin/Pandoc-Emojis-Filter
+#    --filter="/home/david/.local/bin/Pandoc-Emojis-Filter/emoji_filter.js"
+#    -M author:"dr. David Rihtaršič" \
+#    -M emoji=noto-emoji
+#    --from gfm
+#    -M emoji=noto-emoji \
+#    ni mi delalo, da je skompajlira pdf, če je koda notri.
+#   --pdf-engine=lualatex \
