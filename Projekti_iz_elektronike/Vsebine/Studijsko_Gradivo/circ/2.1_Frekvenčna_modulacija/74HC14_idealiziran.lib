@@ -1,0 +1,18 @@
+* Izobrazevalni model Schmittovega sprozilnika 74HC14 za ngspice/KiCad
+* Priblizni pragovi: VTL=2.0 V, VTH=3.0 V pri napajanju 5 V.
+* To ni proizvajalcev tranzistorski model in ni namenjen nacrtovanju izdelkov.
+.subckt HC14 A1 Y1 A2 Y2 A3 Y3 GND Y4 A4 Y5 A5 Y6 A6 VCC
+S1 VCC Y1 0 A1 HC14SW
+R1 Y1 GND 1k
+S2 VCC Y2 0 A2 HC14SW
+R2 Y2 GND 1k
+S3 VCC Y3 0 A3 HC14SW
+R3 Y3 GND 1k
+S4 VCC Y4 0 A4 HC14SW
+R4 Y4 GND 1k
+S5 VCC Y5 0 A5 HC14SW
+R5 Y5 GND 1k
+S6 VCC Y6 0 A6 HC14SW
+R6 Y6 GND 1k
+.model HC14SW SW(Ron=20 Roff=1G Vt=-2.5 Vh=0.5)
+.ends HC14

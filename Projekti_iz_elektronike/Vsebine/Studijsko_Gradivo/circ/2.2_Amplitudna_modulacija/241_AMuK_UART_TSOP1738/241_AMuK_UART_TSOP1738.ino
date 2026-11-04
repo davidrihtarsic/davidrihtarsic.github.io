@@ -1,9 +1,9 @@
 void setup() {
   pinMode(LED_BUILTIN, OUTPUT);
-  Serial.begin(9600);
+  Serial.begin(1200);
 }
 
 void loop() {
-  delay(10);
+  delay(100);
   Serial.print("M");
 }

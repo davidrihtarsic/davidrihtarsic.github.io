@@ -1,0 +1,31 @@
+* Samostojna demonstracijska simulacija oscilatorja iz KiCad sheme.
+* Casovni upor je 100 kOhm do 20 ms, nato se spremeni na 200 kOhm.
+* Po potrebi spremenite RPHOTO1, RPHOTO2, TSTEP in CT.
+.include 74HC14_idealiziran.lib
+.param RPHOTO1=100k
+.param RPHOTO2=200k
+.param TSTEP=20m
+.param CT=100n
+VCC VCC 0 5
+VSTEP STEP 0 PULSE(0 1 {TSTEP} 1n 1n 1 2)
+VSTEPB STEPB 0 PULSE(1 0 {TSTEP} 1n 1n 1 2)
+XU1 VC UF 0 Y2 0 Y3 0 Y4 0 Y5 0 Y6 0 VCC HC14
+* Preklop med dvema uporoma ponazori spremembo fotoupornosti.
+S_PHOTO1 UF N1 STEPB 0 SWPHOTO
+R_PHOTO1 N1 VC {RPHOTO1}
+S_PHOTO2 UF N2 STEP 0 SWPHOTO
+R_PHOTO2 N2 VC {RPHOTO2}
+.model SWPHOTO SW(Ron=1m Roff=1G Vt=0.5 Vh=0.1)
+C1 VC 0 {CT}
+C2 VCC 0 100n
+.ic V(VC)=0
+.tran 10u 1s uic
+.control
+run
+meas tran TPER_100K TRIG v(UF) VAL=2.5 FALL=1 TARG v(UF) VAL=2.5 FALL=2
+meas tran TPER_200K TRIG v(UF) VAL=2.5 RISE=5 TARG v(UF) VAL=2.5 RISE=6
+let F100K=1/TPER_100K
+let F200K=1/TPER_200K
+print F100K F200K
+.endc
+.end

@@ -13,7 +13,8 @@ podpoglavja.
 | 1.3 Svetlobni sprejemnik | Fototranzistorski sprejemnik je v glavni shemi celotnega projekta v mapi 1.0. Za tokovno-napetostni pretvornik fotodiode samostojnega KiCad/SPICE primera še ni. |
 | 1.4 Oblikovanje digitalnega signala | Komparatorja: `1.4_Oblikovanje_digitalnega_signala/komparator_120/` in `komparator_1_1/`. Schmittova sprožilnika: `1.4_Oblikovanje_digitalnega_signala/schmitt_122/`. |
 | 1.5 Optične povezave in praktična uporaba | Celotni optični sistem z LED, fototranzistorjem, 74HC7014 in Arduinom je v mapi 1.0. |
-| 1.6 Analogni optični prenos | Trenutno ni samostojnega KiCad/SPICE primera za tokovno-napetostni pretvornik. |
+| 1.6 Analogni optični prenos | Napetostno-tokovna pretvornika: `1.6_Analogni_opticni_prenos/160_...` in `161_...`; tokovno-napetostni pretvornik s fotodiodo: `1.6_Analogni_opticni_prenos/162_Tokovno_napetostni_pretvornik_fotodioda.kicad_sch`. |
+| 2.1 Frekvenčna modulacija | KiCadov projekt oscilatorja s 74HC14: `2.1_Frekvenčna_modulacija/210_Oscilator_74HC14.kicad_pro` in `.kicad_sch`; model je pripet na simbol in direktive simulacije so v shemi. Črno-beli pregledni PDF je v isti mapi. Samostojni ngspice primer: `210_Oscilator_74HC14.cir` z idealiziranim modelom `74HC14_idealiziran.lib`. |
 
 Projektne datoteke `.kicad_pro`, sheme `.kicad_sch`, izrisane slike, PDF-ji in
 varnostne kopije so pri posameznem primeru ohranjeni skupaj. Pri simulaciji
