@@ -10,7 +10,7 @@
 ## SVETLOBNI IZVOR
 
 - svetleče diode
-- Ee = Ef --> eU = h c/λ
+- $E_e=E_f$ --> $eU=\frac{hc}{\lambda}$
 
 - $e_0$ - osnovni naboj $=1.6\ 10^{-19} C$
 - $c$ - svetlobna hitrost $=3.0\ 10^{8}\frac{m}{s}$

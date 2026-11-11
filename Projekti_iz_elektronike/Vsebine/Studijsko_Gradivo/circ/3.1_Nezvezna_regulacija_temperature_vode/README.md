@@ -16,7 +16,7 @@ Slika 313 je nespremenjena rastrska slika, izločena iz PDF-ja. To so izvorne
 ilustracije, ne nove urejljive KiCadove sheme.
 
 Pri sliki 313 upoštevamo popravek, pojasnjen tudi v besedilu 3.1:
-temperaturni signal je na vhodu (−), zato je izhod visok pri prenizki
+temperaturni signal je na vhodu ($-$), zato je izhod visok pri prenizki
 temperaturi. Grelec mora biti za opisano ogrevanje na delovnem kontaktu NO,
 ki se sklene ob vzbujeni tuljavi. V izvorni risbi je priključen na mirovni
 kontakt; povezavo grelca zato prestavimo na desni kontakt. Izvorna slika
