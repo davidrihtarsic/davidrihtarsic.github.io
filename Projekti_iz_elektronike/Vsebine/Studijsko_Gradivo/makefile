@@ -14,8 +14,16 @@ pdfs:
 			base=$${ff##*/}; number=$${base%%_*}; \
 			chapter=$${number%%.*}; subsection=$${number#*.}; \
 			case "$$chapter:$$subsection" in *[!0-9:]*|:*) echo "Ime datoteke mora začeti z zaporedjem poglavje.podpoglavje_: $$ff" >&2; exit 1;; esac; \
-			subsection=$$((subsection - 1)); \
-			sed -i "1i\\\\\\setcounter{section}{$$chapter}\\\\setcounter{subsection}{$$subsection}" "$$ff"; \
+			section=$$chapter; \
+			if [ "$$subsection" -eq 0 ]; then \
+				subsection=-1; \
+				if sed -n '1p' "$$ff" | grep -Eq '^#[[:space:]]' || sed -n '2p' "$$ff" | grep -Eq '^[[:space:]]*={3,}[[:space:]]*$$'; then \
+					section=$$((chapter - 1)); subsection=0; \
+				fi; \
+			else \
+				subsection=$$((subsection - 1)); \
+			fi; \
+			sed -i "1i\\\\\\setcounter{section}{$$section}\\\\setcounter{subsection}{$$subsection}" "$$ff"; \
 			cleanup() { sed -i '1d' "$$ff"; }; \
 			trap cleanup EXIT; \
 			out=$${ff%.md}.pdf; \

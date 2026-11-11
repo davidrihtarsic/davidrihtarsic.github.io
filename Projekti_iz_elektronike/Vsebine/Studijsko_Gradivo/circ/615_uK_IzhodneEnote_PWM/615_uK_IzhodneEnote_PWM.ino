@@ -2,13 +2,12 @@
 void setup()
 {
   pinMode(11,OUTPUT);
-  digitalWrite(11, 1);
+  pinMode(A5, INPUT);
 }
 
 void loop()
 {
-  digitalWrite(11, 1);
-  delay(500);
-  digitalWrite(11, 0);
-  delay(500);
+	int pot_value = analogRead(A5);
+	analogWrite(11, pot_value/4);
+	delay(200);
 }
