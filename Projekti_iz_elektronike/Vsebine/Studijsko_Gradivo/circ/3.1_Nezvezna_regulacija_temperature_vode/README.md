@@ -8,8 +8,8 @@ UL PeF, Ljubljana 2011, 2020, gradivo za interno uporabo.
 | Datoteka | Vsebina | Tiskana stran / stran PDF |
 |---|---|---|
 | `310_Rele_simbol_in_primer.png` | Simbol menjalnega releja in fotografija splošnega primera. Fotografija ne predstavlja računskega primera RT424005. | 22 / 25 |
-| `312_Termostat_brez_histereze.png` | Izvedbi z LM311 in LM358; temperaturni delilnik je na vhodu (+), grelec na mirovnem kontaktu. | 23 / 26 |
-| `313_Termostat_s_histerezo.png` | Izvorna shema z LM358, pozitivno povratno zvezo R–hR in sledilnikom reference. | 24 / 27 |
+| `312_Termostat_brez_histereze.png` | Izvedbi z LM311 in LM358; temperaturni delilnik je na vhodu (+), grelec na mirovnem kontaktu. Ohranjena kot vir; v skripti jo nadomešča KiCadova shema iz podmape `312_Termostat_brez_histereze/`. | 23 / 26 |
+| `313_Termostat_s_histerezo.png` | Izvorna shema z LM358, pozitivno povratno zvezo R–hR in sledilnikom reference. Ohranjena kot vir; v skripti jo nadomešča KiCadova shema iz podmape `313_Termostat_s_histerezo/`. | 24 / 27 |
 
 Sliki 310 in 312 sta izrisani neposredno iz delov izvornih strani pri 300 dpi.
 Slika 313 je nespremenjena rastrska slika, izločena iz PDF-ja. To so izvorne
@@ -22,6 +22,32 @@ ki se sklene ob vzbujeni tuljavi. V izvorni risbi je priključen na mirovni
 kontakt; povezavo grelca zato prestavimo na desni kontakt. Izvorna slika
 je ohranjena brez retuširanja.
 
+## KiCad shema dvopoložajnega regulatorja brez histereze
+
+Podmapa `312_Termostat_brez_histereze/` vsebuje urejljivo KiCadovo shemo,
+narisano po spodnji (LM358) izvedbi izvorne slike `312_Termostat_brez_histereze.png`:
+NTC-delilnik ($R_{NTC}$, $R_0$) na vhodu (+), referenca s potenciometra $R_{REF}$
+na vhodu ($-$), izhod prek $R_B$ na tranzistor BC547, tuljava releja z zaščitno
+diodo 1N4148 med $+U_C$ in kolektorjem ter grelec $R_{br}$ z virom $U$ na
+mirovnem kontaktu (NC, priključek 12). Delovni kontakt (14) je označen kot
+nepovezan. Shema je zaenkrat namenjena risbi, ne simulaciji (ni modelov SPICE).
+Pregledni PDF, SVG in PNG so v isti mapi. PNG (izvožen s `svg2png` iz
+črno-belega SVG brez okvirja) je uporabljen kot slika `fig:termostat-brez-histereze`
+v poglavju 3.1 namesto izvorne slike.
+
+## KiCad shema dvopoložajnega regulatorja s histerezo
+
+Podmapa `313_Termostat_s_histerezo/` vsebuje urejljivo KiCadovo shemo, narisano
+po izvorni sliki `313_Termostat_s_histerezo.png` s popravkom iz besedila 3.1:
+NTC-delilnik ($U_{mer}$) je na vhodu ($-$) enote A ojačevalnika LM358,
+upor $hR$ je med izhodom in vhodom (+), upor $R$ med vhodom (+) in izhodom
+enote B, ki kot napetostni sledilnik prenaša referenco $U_{ref}$ s potenciometra
+$R_P$. Gonilnik releja (R_B, BC547, 1N4148) je enak kot pri shemi 312. Grelec
+$R_{br}$ z virom $U$ je na delovnem kontaktu (NO, priključek 14); mirovni kontakt
+(12) je označen kot nepovezan. Shema je namenjena risbi, ne simulaciji.
+Pregledni PDF, SVG in PNG so v isti mapi; PNG je uporabljen kot slika
+`fig:termostat-s-histerezo` v poglavju 3.1.
+
 ## KiCad/SPICE primer izklopa induktivnega bremena
 
 Celotni dosedanji primer je premaknjen v
@@ -33,6 +59,10 @@ Imena projektnih datotek in njihova vsebina niso spremenjeni. PNG je bil
 prej v `slike/`, projektne datoteke pa neposredno v `circ/`.
 
 Primer prikazuje tuljavo L1 z zaporednim uporom R2 in tranzistorski preklop.
+Shema je bila 15. 11. 2026 preurejena (krmilna veja V1–R1–baza v eni vrsti,
+bremenska veja R2–L1–Q1 v enem stolpcu, baterija desno brez križanja); netlist
+in simulacijska polja so ostali nespremenjeni. Kopija pred preureditvijo je v
+imeniku varnostnih kopij, PNG/SVG/PDF so izvoženi iz nove postavitve.
 D1 in C1 sta v ohranjenem izhodišču narisana ločeno, brez električne povezave.
 Za preizkus zaščitne diode jo je treba pravilno priključiti vzporedno s
 tuljavo: katoda proti pozitivnemu napajanju, anoda proti kolektorju.
